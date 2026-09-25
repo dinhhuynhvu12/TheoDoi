@@ -1,5 +1,29 @@
 # Lịch sử thay đổi: FinMind_Project_Proposal.pdf
 
+## 2026-09-25 14:22 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `01_Proposal_and_Planning/FinMind_Project_Proposal`
+- **Ngày và giờ:** 2026-09-25 14:22
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **Data and backend engineer / QA/ DEV**
+
+🟢 **Frontend / BA / QA/ DEV**
+
+🟢 **Graph and retrieval engineer / QA / DEV**
+
+🟢 **Scrum Master / QA and security / DEV**
+
+~~Data and backend engineer / QA~~
+
+~~Frontend / BA / QA~~
+
+~~Graph and retrieval engineer / QA~~
+
+~~Scrum Master / QA and security~~
+
 ## 2026-09-25 14:17 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
