@@ -1,5 +1,12 @@
 # Lịch sử thay đổi: REVIEW_FinMind_v2_20260918
 
+## 2026-09-25 17:23 - DOI TEN / DI CHUYEN
+
+- **Người đăng:** minhquan9125@gmail.com
+- **Tên / vị trí:** `00_Management/Mentor_Reviews/REVIEW_FinMind_v2_20260918`
+- **Vị trí cũ:** `Review/REVIEW_FinMind_v2_20260918`
+- **Ngày và giờ:** 2026-09-25 17:23
+
 ## 2026-09-25 17:23 - DA XOA
 
 - **Người đăng:** nguyenquocanh41@gmail.com
