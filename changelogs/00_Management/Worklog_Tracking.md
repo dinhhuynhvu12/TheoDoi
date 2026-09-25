@@ -1,5 +1,129 @@
 # Lịch sử thay đổi: Worklog_Tracking
 
+## 2026-09-25 09:37 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/Worklog_Tracking`
+- **Ngày và giờ:** 2026-09-25 09:37
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+Tổng quan Dự án
+
+	BÁO CÁO TỔNG QUAN CÔNG VIỆC	
+
+	Tên dự án:	FinMind — Trợ lý nghiên cứu thông tin doanh nghiệp niêm yết Việt Nam
+
+	Quản lý dự án (PM):	Thái Quốc Hưng
+
+	Ngày cập nhật:	Mon Sep 21 2026 08:13:00 GMT+0700 (Indochina Time)
+
+	TÓM TẮT TRẠNG THÁI	
+
+	Chưa bắt đầu	25
+
+	Đang thực hiện	0
+
+	Chờ review	0
+
+	Đã hoàn thành	12
+
+	Tổng số Task	37
+
+---
+
+WBS & Worklog Tracking
+
+WBS ID	Hạng mục / Tên công việc	Mô tả công việc	Người phụ trách	Độ ưu tiên	Tuần (Week)	Ngày bắt đầu	Deadline	Trạng thái	Ghi chú
+
+1	PHẠM VI MVP VÀ NGHIÊN CỨU NGƯỜI DÙNG	Chốt phạm vi, chức năng ưu tiên và nhu cầu người dùng - 18 giờ	Thái Quốc Hưng		Tuần 1				
+
+Thu Jan 01 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-5 - Xác định các nhóm người dùng chính (1h)	Xác định nhà đầu tư, chuyên viên phân tích và quản trị dữ liệu cùng nhu cầu chính của từng nhóm.	Hưng	Cao	Tuần 1	Mon Sep 21 2026 00:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 00:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	
+
+Sun Feb 01 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-6 - Chốt phạm vi và giới hạn của bản MVP (3h)	Xác định chức năng thuộc MVP, phần mở rộng và các nội dung nằm ngoài phạm vi dự án.	Hưng	Cao	Tuần 1	Mon Sep 21 2026 00:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 00:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	
+
+Sun Mar 01 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-7 - Lập danh sách chức năng theo thứ tự ưu tiên (4h)	Phân loại chức năng bắt buộc, nên có và có thể thực hiện ở giai đoạn sau.	Hưng	Cao	Tuần 1	Mon Sep 21 2026 00:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 00:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	
+
+Wed Apr 01 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-8 - Soạn bộ câu hỏi nghiên cứu và khảo sát (2h)	Chuẩn bị câu hỏi để tìm hiểu khó khăn, nhu cầu và kỳ vọng của người dùng.		Trung bình	Tuần 1	Mon Sep 21 2026 00:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 00:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	
+
+Fri May 01 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-9 - Thực hiện nghiên cứu và tổng hợp kết quả (4h)	Thực hiện khảo sát hoặc phỏng vấn và tổng hợp các phát hiện quan trọng.	Hưng	Cao	Tuần 1	Mon Sep 21 2026 00:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 00:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	
+
+Mon Jun 01 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-10 - Kiểm tra lại phạm vi và thống nhất (4h)	Đối chiếu kết quả nghiên cứu với phạm vi MVP và ghi nhận quyết định cuối cùng.		Cao	Tuần 1	Mon Sep 21 2026 00:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 00:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	
+
+2	NGUỒN DỮ LIỆU VÀ QUẢN LÝ DỮ LIỆU	Khảo sát nguồn dữ liệu cho ngành Ngân hàng và Công nghệ - 17 giờ	Nguyễn Minh Quân		Tuần 1				
+
+Fri Jan 02 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-11 - Lập danh sách nguồn dữ liệu (2h)	Tạo danh sách nguồn, loại tài liệu, đơn vị phát hành, đường dẫn và phạm vi dữ liệu cần thu thập.		Cao	Tuần 1	Mon Sep 21 2026 00:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 00:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	
+
+Mon Feb 02 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-12 - Tìm nguồn chính thức cho 5 công ty Ngân hàng (3h)	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.		Trung bình	Tuần 1	Mon Sep 21 2026 00:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 00:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	
+
+Mon Mar 02 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-13 - Tìm nguồn chính thức cho 5 công ty Công nghệ (3h)	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.		Trung bình	Tuần 1	Mon Sep 21 2026 00:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 00:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	
+
+Thu Apr 02 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-14 - Kiểm tra điều kiện truy cập và sử dụng dữ liệu (2h)	Kiểm tra khả năng truy cập, lưu trữ, xử lý và trích dẫn dữ liệu trong hệ thống.		Trung bình	Tuần 1	Mon Sep 21 2026 00:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 00:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	
+
+Sat May 02 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-15 - Xây dựng quy tắc kiểm tra và chốt bộ dữ liệu (4h)	Quy định cách kiểm tra công ty, kỳ báo cáo, đơn vị, phiên bản và tài liệu trùng lặp.		Trung bình	Tuần 1	Mon Sep 21 2026 00:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 00:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	
+
+Tue Jun 02 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-16 - Xác định nguồn dự phòng và đánh giá tính khả thi (3h)	Chuẩn bị nguồn thay thế và đánh giá rủi ro khi nguồn chính thay đổi hoặc không truy cập được.		Trung bình	Tuần 1	Mon Sep 21 2026 00:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 00:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	
+
+Thu Jul 02 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-28 - Tạo Git repository và cấu trúc dự án ban đầu (1h)	Tạo repository, README, .gitignore, nhánh chính và cấu trúc thư mục dự án.	Quân	Trung bình	Tuần 1	Mon Sep 21 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	
+
+3	ĐẶC TẢ SRS VÀ SƠ ĐỒ USE CASE	Rà soát đặc tả và hoàn thiện các sơ đồ SRS - 39 giờ			Tuần 2				
+
+Sat Jan 03 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-17 - Rà soát SRS và danh mục use case (4h)	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.		Cao	Tuần 2	Thu Sep 24 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+Tue Feb 03 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-18 - Vẽ context và business function diagram (5h)	Thể hiện tác nhân, hệ thống ngoài và phân rã chức năng; đối chiếu nội dung với SRS.		Cao	Tuần 2	Thu Sep 24 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+Tue Mar 03 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-19 - Vẽ activity diagram theo use case (8h)	Mô tả luồng chính, nhánh thay thế và ngoại lệ; kiểm tra node bắt đầu/kết thúc và lưu hình cùng draw.io.		Cao	Tuần 2	Thu Sep 24 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+Fri Apr 03 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-20 - Vẽ sequence diagram theo use case (8h)	Thể hiện actor, giao diện, dịch vụ và kho dữ liệu; thông điệp phải khớp kịch bản của từng use case.		Cao	Tuần 2	Thu Sep 24 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+Sun May 03 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-21 - Vẽ state diagram cho đối tượng có vòng đời (6h)	Gom các use case liên quan; xác định trạng thái, sự kiện, điều kiện chuyển và điểm kết thúc.		Cao	Tuần 2	Thu Sep 24 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+🔴 ~~Wed Jun 03 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-42- Vẽ usecase diagram cho từng đặc tả use case(4h)	Mô tả tương tác giữa người dùng (hoặc hệ thống bên ngoài) với hệ thống phần mềm		Cao	Tuần 2	Fri Sep 25 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	~~ → 🟡 **Wed Jun 03 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-44- Vẽ usecase diagram cho từng đặc tả use case(4h)	Mô tả tương tác giữa người dùng (hoặc hệ thống bên ngoài) với hệ thống phần mềm		Cao	Tuần 2	Fri Sep 25 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	**
+
+Fri Jul 03 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-22 - Rà soát tính nhất quán SRS (4h)	Đặt đúng số mục, tên hình; kiểm tra mã UC, FR/NFR và sự nhất quán giữa đặc tả với các sơ đồ.		Cao	Tuần 2	Fri Sep 25 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+4	PHÂN RÃ VÀ THIẾT KẾ DỮ LIỆU	Chia pipeline thành các phần nhỏ; thiết kế mô hình PostgreSQL/pgvector và Neo4j - 23 giờ			Tuần 2				
+
+Sun Jan 04 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-23 - Chia pipeline dữ liệu thành các phần nhỏ (4h)	Tách thu thập, chuẩn hóa, chunk/embedding, graph, truy vấn vector/graph và ranh giới đầu vào/đầu ra.		Cao	Tuần 2	Thu Sep 24 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+Wed Feb 04 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-24 - Đặc tả nguồn và cách cào dữ liệu mẫu (2h)	Chọn nguồn được phép dùng; ghi URL, loại tài liệu, lịch lấy, phiên bản và điều kiện truy cập.		Cao	Tuần 2	Thu Sep 24 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+Wed Mar 04 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-25 - Đặc tả chuẩn hóa và định danh dữ liệu (3h)	Xác định company ID, kỳ báo cáo, đơn vị, source ID, document hash và quy tắc kiểm tra trước khi lập chỉ mục.		Cao	Tuần 2	Fri Sep 25 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+Sat Apr 04 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-26 - Vẽ ERD dữ liệu nghiệp vụ PostgreSQL (4h)	Thiết kế công ty, tài liệu, nguồn, dữ kiện tài chính, khóa chính/ngoại và quan hệ truy vết.		Cao	Tuần 2	Fri Sep 25 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+Mon May 04 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-27 - Vẽ lược đồ bảng chunk/embedding pgvector (3h)	Xác định chunk, embedding, vector dimension, metadata, source locator và liên kết với PostgreSQL.		Cao	Tuần 2	Fri Sep 25 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+🔴 ~~Thu Jun 04 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-43 - Vẽ mô hình node–edge Neo4j (4h)	Định nghĩa nhãn node, kiểu quan hệ, thuộc tính và provenance cho từng edge; giới hạn truy vấn hai hop.		Cao	Tuần 2	Fri Sep 25 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	~~ → 🟡 **Thu Jun 04 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-45 - Vẽ mô hình node–edge Neo4j (4h)	Định nghĩa nhãn node, kiểu quan hệ, thuộc tính và provenance cho từng edge; giới hạn truy vấn hai hop.		Cao	Tuần 2	Fri Sep 25 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	**
+
+Sat Jul 04 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-29 - Đối chiếu ID giữa các mô hình dữ liệu (3h)	Kiểm tra ánh xạ company/source/document/chunk ID và provenance để truy vấn có thể quay về bằng chứng gốc.		Cao	Tuần 2	Fri Sep 25 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+5	POC DỮ LIỆU VÀ KIỂM THỬ RETRIEVAL	Thử từng bước trên dữ liệu mẫu và ghi bằng chứng kỹ thuật - 32 giờ			Tuần 2				
+
+🔴 ~~Mon Jan 05 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-30 - Cào bộ tài liệu mẫu theo nguồn đã chọn (3h)	Chạy PoC trên vài tài liệu trong phạm vi corpus; lưu tệp gốc và nhật ký URL/thời điểm.		Cao	Tuần 2	Fri Sep 25 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	~~ → 🟡 **Mon Jan 05 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-30 - Cào bộ tài liệu mẫu theo nguồn đã chọn (3h)	Chạy việc cào trên vài tài liệu trong phạm vi corpus; lưu tệp gốc và nhật ký URL/thời điểm.		Cao	Tuần 2	Fri Sep 25 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	**
+
+Thu Feb 05 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-31 - Ghi hash, phiên bản và metadata nguồn (2h)	Lưu checksum, ngày công bố, công ty, kỳ báo cáo và trạng thái trùng lặp của tài liệu mẫu.		Cao	Tuần 2	Fri Sep 25 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+Thu Mar 05 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-32 - Parse và chuẩn hóa tài liệu mẫu (3h)	Trích văn bản/bảng, chuẩn hóa ticker, kỳ, đơn vị và đánh dấu bản ghi lỗi để không đưa vào index.		Cao	Tuần 2	Fri Sep 25 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+Sun Apr 05 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-33 - Tách chunk gắn vị trí nguồn (3h)	Tạo chunk theo trang/mục/bảng và giữ document ID cùng source locator để phục vụ trích dẫn.		Cao	Tuần 2	Fri Sep 25 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+Tue May 05 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-34 - Tạo embedding và nạp mẫu vào pgvector (3h)	Vector hóa chunk hợp lệ; ghi model/version, dimension và khóa liên kết về tài liệu gốc.		Cao	Tuần 2	Sat Sep 26 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+Fri Jun 05 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-35 - Truy vấn pgvector để kiểm thử (3h)	Dùng câu hỏi mẫu để kiểm tra top-k, khoảng cách vector và khả năng truy về đúng đoạn nguồn.		Cao	Tuần 2	Sat Sep 26 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+Sun Jul 05 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-36 - Trích xuất entity cho graph mẫu (2h)	Nhận diện công ty, chỉ số, tài liệu, kỳ và sự kiện; ánh xạ entity ID ổn định.		Trung bình	Tuần 2	Sat Sep 26 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+Wed Aug 05 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-37 - Trích xuất quan hệ và provenance cho edge (2h)	Xác định quan hệ có bằng chứng, hướng edge và source locator; không tạo cạnh suy đoán.		Cao	Tuần 2	Sat Sep 26 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+Sat Sep 05 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-38 - Nạp node và edge mẫu vào Neo4j (3h)	Tạo graph thử nghiệm, kiểm tra ràng buộc ID và liên kết mỗi edge với nguồn.		Cao	Tuần 2	Sat Sep 26 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+Mon Oct 05 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-39 - Truy vấn Neo4j để kiểm thử (3h)	Thử truy vấn một hoặc hai bước theo công ty và quan hệ; kiểm tra kết quả cùng provenance.		Cao	Tuần 2	Sat Sep 26 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+Thu Nov 05 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-40 - Truy vấn dữ kiện PostgreSQL để đối chiếu (3h)	Lấy số liệu mẫu theo công ty, chỉ số, kỳ và đơn vị; so với bản ghi nguồn đã chuẩn hóa.		Trung bình	Tuần 2	Sat Sep 26 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	
+
+🔴 ~~Sat Dec 05 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-41 - Tổng hợp kết quả PoC và cập nhật SRS (2h)	Ghi truy vấn, kết quả đúng/sai, lỗi và giới hạn; sửa lược đồ/đặc tả nếu bằng chứng thử nghiệm yêu cầu.		Cao	Tuần 2	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	~~ → 🟡 **Sat Dec 05 2026 00:00:00 GMT+0700 (Indochina Time)	SCRUM-41 - Tổng hợp kết quả cào và cập nhật SRS (2h)	Ghi truy vấn, kết quả đúng/sai, lỗi và giới hạn; sửa lược đồ/đặc tả nếu bằng chứng thử nghiệm yêu cầu.		Cao	Tuần 2	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 00:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	**
+
 ## 2026-09-25 09:32 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
