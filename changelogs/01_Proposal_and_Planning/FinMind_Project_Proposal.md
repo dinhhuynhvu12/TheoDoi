@@ -1,5 +1,17 @@
 # Lịch sử thay đổi: FinMind_Project_Proposal.pdf
 
+## 2026-09-25 16:12 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `01_Proposal_and_Planning/FinMind_Project_Proposal`
+- **Ngày và giờ:** 2026-09-25 16:12
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **Acceptance decision. B3 is accepted as the MVP production candidate only if all hard thresholds in Table 15 pass in the recorded demo environment and no critical citation, numerical or privacy defect remains open. If B2 does not demonstrate an improvement over B1 on the pre-declared relationship and multi-hop evaluation metrics on the locked final split, graph retrieval is retained only for the question categories where a measured benefit is observed or is disabled by routing policy. The result ...**
+
+~~Acceptance decision. B3 is accepted as the MVP production candidate only if all hard thresholds in Table 15 pass in the recorded demo environment and no critical citation, numerical or privacy defect remains open. If B2 does not demonstrate a material relationship-question benefit over B1, graph retrieval is retained only for the categories with measured benefit or disabled by routing policy; the result is reported without changing the locked final set.~~
+
 ## 2026-09-25 16:07 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
