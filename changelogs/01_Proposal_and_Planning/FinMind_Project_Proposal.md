@@ -1,5 +1,15 @@
 # Lịch sử thay đổi: FinMind_Project_Proposal.pdf
 
+## 2026-09-25 16:02 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `01_Proposal_and_Planning/FinMind_Project_Proposal`
+- **Ngày và giờ:** 2026-09-25 16:02
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **Citation-control rule. B1, B2 and B3 use the same claim-to-evidence citation-binding mechanism for evaluation. Citation binding is held constant across these configurations and is therefore not treated as the experimental variable in the B1-versus-B2 comparison. Evidence Gate and Answer Verification remain disabled in B1 and B2 and are enabled only in B3. **
+
 ## 2026-09-25 15:57 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
