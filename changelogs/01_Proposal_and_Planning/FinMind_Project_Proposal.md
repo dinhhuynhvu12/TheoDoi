@@ -1,5 +1,29 @@
 # Lịch sử thay đổi: FinMind_Project_Proposal.pdf
 
+## 2026-09-25 14:37 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `01_Proposal_and_Planning/FinMind_Project_Proposal`
+- **Ngày và giờ:** 2026-09-25 14:37
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **Figure 1 - FinMind System Context Diagram	29**
+
+🟢 **Figure 2 - High-Level Hybrid Graph-Vector RAG Architecture	30**
+
+🟢 **Figure 3 - Evidence-Grounded Query Workflow	32**
+
+🟢 **Figure 4 - Logical Data and Provenance Model	32**
+
+~~Figure 1 - FinMind System Context Diagram……………………………….…………..26~~
+
+~~Figure 2 - High-Level Hybrid Graph-Vector RAG Architecture………………………...27~~
+
+~~Figure 3 - Evidence-Grounded Query Workflow………………………………………..28~~
+
+~~Figure 4 - Logical Data and Provenance Model…………………………………………29~~
+
 ## 2026-09-25 14:32 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
