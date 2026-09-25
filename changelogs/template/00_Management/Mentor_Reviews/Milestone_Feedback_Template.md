@@ -1,5 +1,11 @@
 # Lịch sử thay đổi: Milestone_Feedback_Template.md
 
+## 2026-09-25 17:23 - DA XOA
+
+- **Người đăng:** anhnq5@kaopiz.com (khong chac, file da bi xoa han khoi thung rac)
+- **Tên / vị trí:** `template/00_Management/Mentor_Reviews/Milestone_Feedback_Template.md`
+- **Ngày và giờ:** 2026-09-25 17:23
+
 ## 2026-09-19 11:27 - TAO MOI
 
 - **Người đăng:** anhnq5@kaopiz.com
