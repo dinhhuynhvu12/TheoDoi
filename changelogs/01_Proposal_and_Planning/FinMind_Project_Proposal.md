@@ -1,5 +1,21 @@
 # Lịch sử thay đổi: FinMind_Project_Proposal.pdf
 
+## 2026-09-25 15:47 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `01_Proposal_and_Planning/FinMind_Project_Proposal`
+- **Ngày và giờ:** 2026-09-25 15:47
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **Section 6.5 and Table 15. Used to evaluate retriever ranking quality through Context Precision in the RAG evaluation framework.**
+
+🟢 **Section 6.5 and Table 15. Used to inform the design of adversarial and noisy-context evaluation cases.**
+
+~~Section 6.5 and Table 15. Used to evaluate retriever ranking quality together with Precision@5 and citation coverage.~~
+
+~~Section 6.5 and Table 15. Used for distractor-evidence tests and the Noise Sensitivity acceptance threshold of no more than 0.10.~~
+
 ## 2026-09-25 15:42 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
