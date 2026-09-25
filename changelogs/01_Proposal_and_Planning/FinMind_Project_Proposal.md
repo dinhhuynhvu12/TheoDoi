@@ -1,5 +1,133 @@
 # Lịch sử thay đổi: FinMind_Project_Proposal.pdf
 
+## 2026-09-25 14:52 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `01_Proposal_and_Planning/FinMind_Project_Proposal`
+- **Ngày và giờ:** 2026-09-25 14:52
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **Table 1 - Project Information	1**
+
+🟢 **Table 2 - Project Team Members	2**
+
+🟢 **Table 3 - Revision History	2**
+
+🟢 **Table 4 - Project Team Roles, Module Ownership and Evidence	5**
+
+🟢 **Table 5 - User Validation Protocol and Evidence	7**
+
+🟢 **Table 6 - Survey of AI-Assisted Stock Research Products in Vietnam	8**
+
+🟢 **Table 7 - Specific Objectives and Deliverables	9**
+
+🟢 **Table 8 - SMART Objectives	10**
+
+🟢 **Table 9 - Research Questions and Testable Hypotheses	11**
+
+🟢 **Table 10 - FinMind Key Features	13**
+
+🟢 **Table 11 - Functional Requirements	14**
+
+🟢 **Table 12 - Non-Functional Requirements	17**
+
+🟢 **Table 13 - Controlled Evaluation Configurations B0-B3	19**
+
+🟢 **Table 14 - Golden Test Set, Calibration and Final-Split Protocol	19**
+
+🟢 **Table 15 - RAG Metrics and Acceptance Criteria	20**
+
+🟢 **Table 16 - Constraints and Assumptions	21**
+
+🟢 **Table 17 - Target Users and Stakeholders	24**
+
+🟢 **Table 18 - Technology Stack	24**
+
+🟢 **Table 19 - Security and Data-Governance Controls	25**
+
+🟢 **Table 20 - AI Tools Declaration	26**
+
+🟢 **Table 21 - Expected AI Usage by Project Phase	26**
+
+🟢 **Table 22 - Estimated Extent of AI Assistance	26**
+
+🟢 **Table 23 - Responsible AI Use Checklist	27**
+
+🟢 **Table 24 - Project Schedule	27**
+
+🟢 **Table 25 - Architecture Layers and Responsibilities	30**
+
+🟢 **Table 26 - Architecture Decision Register	34**
+
+🟢 **Table 27 - Risk Assessment and Mitigation	35**
+
+🟢 **Table 28 - Expected Outcomes and Acceptance Evidence	36**
+
+🟢 **Table 29 - Budget and Resource Allocation	37**
+
+🟢 **Table 30 - Global, Legal and Ethical Impact Controls	37**
+
+~~Table 1 - Project Information……………………………………………………………..2~~
+
+~~Table 2 - Project Team Members………………………………………………………...2~~
+
+~~Table 3 - Revision History                                                                                            	2~~
+
+~~Table 4 - Project Team Roles, Module Ownership and Evidence                                  	6~~
+
+~~Table 5 - User Validation Protocol and Evidence                                                          	7~~
+
+~~Table 6 - Survey of AI-Assisted Stock Research Products in Vietnam                          	9~~
+
+~~Table 7 - Specific Objectives and Deliverables                                                             	9~~
+
+~~Table 8 - SMART Objectives                                                                                     	10~~
+
+~~Table 9 - Research Questions and Testable Hypotheses                                              	11~~
+
+~~Table 10 - FinMind Key Features                                                                               	13~~
+
+~~Table 11 - Functional Requirements                                                                           	13~~
+
+~~Table 12 - Non-Functional Requirements                                                                   	16~~
+
+~~Table 13 - Controlled Evaluation Configurations B0-B3                                             	17~~
+
+~~Table 14 - Golden Test Set, Calibration and Final-Split Protocol                                	18~~
+
+~~Table 15 - RAG Metrics and Acceptance Criteria                                                       	19~~
+
+~~Table 16 - Constraints and Assumptions                                                                     	20~~
+
+~~Table 17 - Target Users and Stakeholders                                                                   	21~~
+
+~~Table 18 - Technology Stack                                                                                      	22~~
+
+~~Table 19 - Security and Data-Governance Controls                                                    	22~~
+
+~~Table 20 - AI Tools Declaration                                                                                 	23~~
+
+~~Table 21 - Expected AI Usage by Project Phase                                                         	23~~
+
+~~Table 22 - Estimated Extent of AI Assistance                                                             	23~~
+
+~~Table 23 - Responsible AI Use Checklist                                                                    	24~~
+
+~~Table 24 - Project Schedule                                                                                        	24~~
+
+~~Table 25 - Architecture Layers and Responsibilities                                                   	27~~
+
+~~Table 26 - Architecture Decision Register                                                                  	29~~
+
+~~Table 27 - Risk Assessment and Mitigation                                                                	30~~
+
+~~Table 28 - Expected Outcomes and Acceptance Evidence                                          	31~~
+
+~~Table 29 - Budget and Resource Allocation                                                                	32~~
+
+~~Table 30 - Global, Legal and Ethical Impact Controls                                                 	32~~
+
 ## 2026-09-25 14:47 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
