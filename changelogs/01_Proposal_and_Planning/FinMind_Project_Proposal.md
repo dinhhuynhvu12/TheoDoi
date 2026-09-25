@@ -1,5 +1,25 @@
 # Lịch sử thay đổi: FinMind_Project_Proposal.pdf
 
+## 2026-09-25 15:52 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `01_Proposal_and_Planning/FinMind_Project_Proposal`
+- **Ngày và giờ:** 2026-09-25 15:52
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **pgvector semantic retrieval plus Gemini under the common prompt and context budget. The common citation-binding mechanism is retained for evaluation and traceability. Graph traversal, Structured Retrieval, Evidence Gate and Answer Verification are disabled.**
+
+🟢 **Vector Retrieval + Graph Retrieval with normalized-score fusion and reranking, followed by Gemini. The same citation-binding mechanism used in B1 is retained. Evidence Gate and Answer Verification are disabled for ablation.**
+
+🟢 **B2 plus Structured Retrieval where required, Evidence Gate and Answer Verification. All released answers use the same claim-to-evidence citation-binding mechanism so that Citation Correctness and Citation Coverage remain comparable across B1–B3.**
+
+~~pgvector semantic retrieval plus Gemini under the common prompt and context budget. Graph traversal, Structured Retrieval, Evidence Gate and Answer Verification are disabled.~~
+
+~~Vector Retrieval + Graph Retrieval with normalized-score fusion and reranking, followed by Gemini. Evidence Gate and Answer Verification are disabled for ablation.~~
+
+~~B2 plus Structured Retrieval where required, Evidence Gate, claim-level citation and Answer Verification.~~
+
 ## 2026-09-25 15:47 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
