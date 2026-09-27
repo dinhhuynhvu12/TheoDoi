@@ -1,5 +1,17 @@
 # Lịch sử thay đổi: Worklog_Tracking
 
+## 2026-09-27 21:47 - TAO MOI
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-27 21:47
+
+## 2026-09-27 20:17 - DA XOA
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/Worklog_Tracking`
+- **Ngày và giờ:** 2026-09-27 20:17
+
 ## 2026-09-27 20:17 - TAO MOI
 
 - **Người đăng:** yu382005@gmail.com
