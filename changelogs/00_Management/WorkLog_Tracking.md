@@ -1,5 +1,113 @@
 # Lịch sử thay đổi: Worklog_Tracking
 
+## 2026-09-27 22:02 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-27 22:02
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	0	12 task tuần 1 chưa xác nhận.**
+
+🟢 **	S1-T13	Rà soát SRS và danh mục use case	Hoàn thiện SRS và các sơ đồ	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có bảng đối chiếu UC–FR/NFR đã rà.	Worklog Sprint 1, tuần 2	Cao	Đang làm	M03	FinMind	1	4		Trần Diệu Huyền	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T14	Vẽ context và business function diagram	Hoàn thiện SRS và các sơ đồ	Thể hiện tác nhân, hệ thống ngoài và phân rã chức năng; đối chiếu nội dung với SRS.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có context và business function diagram khớp SRS.	Worklog Sprint 1, tuần 2	Trung bình	Đang làm	M03	FinMind	1	5		Đinh Huỳnh Vũ	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T21	Đặc tả chuẩn hóa và định danh dữ liệu	Thiết kế mô hình dữ liệu	Xác định company ID, kỳ báo cáo, đơn vị, source ID, document hash và quy tắc kiểm tra trước khi lập chỉ mục.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có quy tắc chuẩn hóa ID, kỳ, đơn vị, nguồn.	Worklog Sprint 1, tuần 2	Cao	Chưa bắt đầu	M04	FinMind	1	3		Trần Diệu Huyền	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T29	Tạo thử truy vấn quan hệ bằng Neo4j	PoC thu thập và tìm kiếm vector	Viết và chạy thử truy vấn quan hệ trên dữ liệu mẫu trong Neo4j.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Truy vấn chạy được và kết quả quan hệ được đối chiếu với dữ liệu mẫu.	Worklog Sprint 1, tuần 2	Trung bình	Đang test	M05	FinMind	1	6		Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T38	Tạo Git repository và cấu trúc dự án ban đầu	Khởi tạo dự án	Tạo kho mã nguồn Git và các thư mục ban đầu để cả nhóm lưu, chia sẻ và quản lý phiên bản mã.	Có nơi lưu mã nguồn chung và cấu trúc thư mục thống nhất.	Repository truy cập được; cấu trúc thư mục và hướng dẫn khởi động được lưu.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu.	Thấp	Đã hoàn thành	M04	FinMind	1	1		Nguyễn Minh Quân	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 ...**
+
+🟢 **	S1-T39	Chuẩn bị Golden Test Set phiên bản đầu tiên	Chuẩn bị dữ liệu đánh giá	Soạn bộ câu hỏi kiểm thử ban đầu, đáp án tham chiếu và thông tin nguồn để kiểm tra kết quả trả lời.	Có bộ câu hỏi mẫu để đánh giá chất lượng tìm kiếm và trả lời.	Có danh sách câu hỏi, đáp án và nguồn đối chiếu; chưa coi đây là bộ test cuối đã khóa.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu.	Cao	Đã hoàn thành	M03	FinMind	1	4	0	Thái Quốc Hưng	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina T...**
+
+🟢 **	S1-T40	Vẽ usecase diagram cho từng đặc tả use case	Hoàn thiện SRS và các sơ đồ	Vẽ sơ đồ use case riêng cho từng đặc tả, thể hiện người sử dụng và chức năng liên quan.	SRS có sơ đồ dễ đối chiếu với từng đặc tả use case.	Các sơ đồ khớp actor, tên chức năng và mã use case trong SRS.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu; deadline chưa hiển thị trong ảnh.	Trung bình	Đang test	M03	FinMind	1	4		Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	S...**
+
+🟢 **	S1-T41	Vẽ usecase Diagram tổng	Hoàn thiện SRS và các sơ đồ	Vẽ sơ đồ use case tổng để thể hiện toàn bộ chức năng và các nhóm người dùng của FinMind.	Có hình tổng quan phạm vi chức năng của dự án.	Sơ đồ tổng khớp danh mục use case và phạm vi SRS.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu.	Trung bình	Chưa bắt đầu	M03	FinMind	1	5		Trần Diệu Huyền	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T42	Xây dựng module chuẩn hóa dữ liệu & khử lỗi	PoC thu thập và tìm kiếm vector	Xây dựng phần xử lý dữ liệu mẫu để thống nhất định dạng và xử lý giá trị số không hợp lệ.	Dữ liệu mẫu được chuẩn hóa trước các bước lưu trữ và tìm kiếm.	Có module, dữ liệu trước/sau xử lý và kết quả kiểm thử các trường hợp số không hợp lệ.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu; deadline chưa hiển thị trong ảnh; tên bị cắt và giờ dự kiến chưa hiển thị.	Trung bình	Đang test	M05	...**
+
+🟢 **	Sprint 1	SCRUM-17	Rà soát SRS và danh mục use case	Trần Diệu Huyền	Đang làm	4	0	4																				**
+
+🟢 **	Sprint 1	SCRUM-18	Vẽ context và business function diagram	Đinh Huỳnh Vũ	Đang làm	5	0	5																				**
+
+🟢 **	Sprint 1	SCRUM-25	Đặc tả chuẩn hóa và định danh dữ liệu	Trần Diệu Huyền	Chưa bắt đầu	3	0	3																				**
+
+🟢 **	Sprint 1	SCRUM-36	Tạo thử truy vấn quan hệ bằng Neo4j	Hồ Phạm Đăng Nhân	Đang test	6	0	6																				**
+
+🟢 **	Sprint 1	SCRUM-28	Tạo Git repository và cấu trúc dự án ban đầu	Nguyễn Minh Quân	Đã hoàn thành	1	1	0																				**
+
+🟢 **	Sprint 1	SCRUM-33	Chuẩn bị Golden Test Set phiên bản đầu tiên	Thái Quốc Hưng	Đã hoàn thành	4	4	0	0	-4																0		**
+
+🟢 **	Sprint 1	SCRUM-44	Vẽ usecase diagram cho từng đặc tả use case	Hồ Phạm Đăng Nhân	Đang test	4	0	4																				**
+
+🟢 **	Sprint 1	SCRUM-47	Vẽ usecase Diagram tổng	Trần Diệu Huyền	Chưa bắt đầu	5	0	5																				**
+
+🟢 **	Sprint 1	SCRUM-42	Xây dựng module chuẩn hóa dữ liệu & khử lỗi	Nguyễn Minh Quân	Đang test	4	0	4																				**
+
+🟢 **			Giờ dự kiến theo ngày (nhập)		Tổng task (h)	146		Tổng ngày (h)	0	-146																0		**
+
+🟢 **	Giờ dự kiến	146**
+
+🟢 **9	1	S1-T13	Rà soát SRS và danh mục use case	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	Có bảng đối chiếu UC–FR/NFR đã rà.	Đang làm	Trần Diệu Huyền	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T14	Vẽ context và business function diagram	Thể hiện tác nhân, hệ thống ngoài và phân rã chức năng; đối chiếu nội dung với SRS.	Có context và business function diagram khớp SRS.	Đang làm	Đinh Huỳnh Vũ	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T21	Đặc tả chuẩn hóa và định danh dữ liệu	Xác định company ID, kỳ báo cáo, đơn vị, source ID, document hash và quy tắc kiểm tra trước khi lập chỉ mục.	Có quy tắc chuẩn hóa ID, kỳ, đơn vị, nguồn.	Chưa bắt đầu	Trần Diệu Huyền	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T29	Tạo thử truy vấn quan hệ bằng Neo4j	Viết và chạy thử truy vấn quan hệ trên dữ liệu mẫu trong Neo4j.	Truy vấn chạy được và kết quả quan hệ được đối chiếu với dữ liệu mẫu.	Đang test	Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+~~	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	142	0	12 task tuần 1 chưa xác nhận.~~
+
+~~	S1-T13	Rà soát SRS và danh mục use case	Hoàn thiện SRS và các sơ đồ	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có bảng đối chiếu UC–FR/NFR đã rà.	Worklog Sprint 1, tuần 2	Cao	Đang làm	M03	FinMind	1	4			Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T14	Vẽ context và business function diagram	Hoàn thiện SRS và các sơ đồ	Thể hiện tác nhân, hệ thống ngoài và phân rã chức năng; đối chiếu nội dung với SRS.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có context và business function diagram khớp SRS.	Worklog Sprint 1, tuần 2	Trung bình	Đang làm	M03	FinMind	1	5			Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T21	Đặc tả chuẩn hóa và định danh dữ liệu	Thiết kế mô hình dữ liệu	Xác định company ID, kỳ báo cáo, đơn vị, source ID, document hash và quy tắc kiểm tra trước khi lập chỉ mục.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có quy tắc chuẩn hóa ID, kỳ, đơn vị, nguồn.	Worklog Sprint 1, tuần 2	Cao	Chưa bắt đầu	M04	FinMind	1	3			Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T29	Tạo thử truy vấn quan hệ bằng Neo4j	PoC thu thập và tìm kiếm vector	Viết và chạy thử truy vấn quan hệ trên dữ liệu mẫu trong Neo4j.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Truy vấn chạy được và kết quả quan hệ được đối chiếu với dữ liệu mẫu.	Worklog Sprint 1, tuần 2	Trung bình	Đang test	M05	FinMind	1	6			Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T38	Tạo Git repository và cấu trúc dự án ban đầu	Khởi tạo dự án	Tạo kho mã nguồn Git và các thư mục ban đầu để cả nhóm lưu, chia sẻ và quản lý phiên bản mã.	Có nơi lưu mã nguồn chung và cấu trúc thư mục thống nhất.	Repository truy cập được; cấu trúc thư mục và hướng dẫn khởi động được lưu.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu.	Thấp	Đã hoàn thành	M04	FinMind	1	1				Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T39	Chuẩn bị Golden Test Set phiên bản đầu tiên	Chuẩn bị dữ liệu đánh giá	Soạn bộ câu hỏi kiểm thử ban đầu, đáp án tham chiếu và thông tin nguồn để kiểm tra kết quả trả lời.	Có bộ câu hỏi mẫu để đánh giá chất lượng tìm kiếm và trả lời.	Có danh sách câu hỏi, đáp án và nguồn đối chiếu; chưa coi đây là bộ test cuối đã khóa.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu.	Cao	Đã hoàn thành	M03	FinMind	1	4	0			Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T40	Vẽ usecase diagram cho từng đặc tả use case	Hoàn thiện SRS và các sơ đồ	Vẽ sơ đồ use case riêng cho từng đặc tả, thể hiện người sử dụng và chức năng liên quan.	SRS có sơ đồ dễ đối chiếu với từng đặc tả use case.	Các sơ đồ khớp actor, tên chức năng và mã use case trong SRS.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu; deadline chưa hiển thị trong ảnh.	Trung bình	Đang test	M03	FinMind	1	4				~~
+
+~~	S1-T41	Vẽ usecase Diagram tổng	Hoàn thiện SRS và các sơ đồ	Vẽ sơ đồ use case tổng để thể hiện toàn bộ chức năng và các nhóm người dùng của FinMind.	Có hình tổng quan phạm vi chức năng của dự án.	Sơ đồ tổng khớp danh mục use case và phạm vi SRS.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu.	Trung bình	Chưa bắt đầu	M03	FinMind	1	5		Hồ Phạm Đăng Nhân		Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T42	Xây dựng module chuẩn hóa dữ liệu & khử lỗi	PoC thu thập và tìm kiếm vector	Xây dựng phần xử lý dữ liệu mẫu để thống nhất định dạng và xử lý giá trị số không hợp lệ.	Dữ liệu mẫu được chuẩn hóa trước các bước lưu trữ và tìm kiếm.	Có module, dữ liệu trước/sau xử lý và kết quả kiểm thử các trường hợp số không hợp lệ.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu; deadline chưa hiển thị trong ảnh; tên bị cắt và giờ dự kiến chưa hiển thị.	Trung bình	Đang test	M05	...~~
+
+~~	Sprint 1	SCRUM-17	Rà soát SRS và danh mục use case		Đang làm	4	0	4																				~~
+
+~~	Sprint 1	SCRUM-18	Vẽ context và business function diagram		Đang làm	5	0	5																				~~
+
+~~	Sprint 1	SCRUM-25	Đặc tả chuẩn hóa và định danh dữ liệu		Chưa bắt đầu	3	0	3																				~~
+
+~~	Sprint 1	SCRUM-36	Tạo thử truy vấn quan hệ bằng Neo4j		Đang test	6	0	6																				~~
+
+~~	Sprint 1	SCRUM-28	Tạo Git repository và cấu trúc dự án ban đầu		Đã hoàn thành	1	1	0																				~~
+
+~~	Sprint 1	SCRUM-33	Chuẩn bị Golden Test Set phiên bản đầu tiên		Đã hoàn thành	4	4	0	0	-4																0		~~
+
+~~	Sprint 1	SCRUM-44	Vẽ usecase diagram cho từng đặc tả use case		Đang test	4	0	4																				~~
+
+~~	Sprint 1	SCRUM-47	Vẽ usecase Diagram tổng	Hồ Phạm Đăng Nhân	Chưa bắt đầu	5	0	5																				~~
+
+~~	Sprint 1	SCRUM-42	Xây dựng module chuẩn hóa dữ liệu & khử lỗi	Nguyễn Minh Quân	Đang test																							~~
+
+~~			Giờ dự kiến theo ngày (nhập)		Tổng task (h)	142		Tổng ngày (h)	0	-142																0		~~
+
+~~	Giờ dự kiến	142~~
+
+~~9	1	S1-T13	Rà soát SRS và danh mục use case	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	Có bảng đối chiếu UC–FR/NFR đã rà.	Đang làm		Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T14	Vẽ context và business function diagram	Thể hiện tác nhân, hệ thống ngoài và phân rã chức năng; đối chiếu nội dung với SRS.	Có context và business function diagram khớp SRS.	Đang làm		Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T21	Đặc tả chuẩn hóa và định danh dữ liệu	Xác định company ID, kỳ báo cáo, đơn vị, source ID, document hash và quy tắc kiểm tra trước khi lập chỉ mục.	Có quy tắc chuẩn hóa ID, kỳ, đơn vị, nguồn.	Chưa bắt đầu		Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T29	Tạo thử truy vấn quan hệ bằng Neo4j	Viết và chạy thử truy vấn quan hệ trên dữ liệu mẫu trong Neo4j.	Truy vấn chạy được và kết quả quan hệ được đối chiếu với dữ liệu mẫu.	Đang test		Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
 ## 2026-09-27 21:57 - DA XOA
 
 - **Người đăng:** yu382005@gmail.com
