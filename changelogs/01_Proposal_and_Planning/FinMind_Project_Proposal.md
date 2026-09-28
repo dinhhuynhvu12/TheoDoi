@@ -1,5 +1,21 @@
 # Lịch sử thay đổi: FinMind_Project_Proposal.pdf
 
+## 2026-09-28 14:32 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `01_Proposal_and_Planning/FinMind_Project_Proposal`
+- **Ngày và giờ:** 2026-09-28 14:32
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **Structured facts use a canonical metric code, company ticker, reporting period, value, unit, currency where applicable, statement scope (consolidated/separate), audit status, publication date and source-document identifier. Each promoted fact retains a precise source locator including document hash and page, table, section or row where available. Documents are immutable by content hash; changed source content creates a new document version rather than overwriting previous evidence. FinMind uses ...**
+
+🟢 **Graph relationships are created only from deterministic structured-data rules or provenance-bearing extraction records that have passed validation. Every production graph edge must reference supporting evidence and the corpus version in which it was created. Unsupported or unvalidated relationships are not promoted to the active Neo4j graph. The LLM is not permitted to create untraceable production relationships. **
+
+🟢 **The active production corpus is represented by a versioned corpus manifest. The manifest identifies the immutable document versions, structured facts and graph/index versions used by production queries and controlled evaluation. Previous corpus versions remain recoverable for reproducibility.**
+
+~~Structured facts use a canonical metric code, company ticker, reporting period, unit, statement scope (consolidated/separate), audit status, source document and publication date. Documents are immutable by hash. A changed file creates a new version. Graph relations require either deterministic extraction from structured facts or a provenance-bearing extraction record that has passed validation; the LLM is not allowed to create untraceable production relations.~~
+
 ## 2026-09-28 10:42 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
