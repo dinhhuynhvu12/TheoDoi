@@ -1,5 +1,457 @@
 # Lịch sử thay đổi: Worklog_Tracking
 
+## 2026-09-28 07:12 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-28 07:12
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Chốt nhu cầu và phạm vi MVP	Chuẩn bị câu hỏi để tìm hiểu khó khăn, nhu cầu và kỳ vọng của người dùng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	2		Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T06	Kiểm tra lại phạm vi và thống nhất	Chốt nhu cầu và phạm vi MVP	Đối chiếu kết quả nghiên cứu với phạm vi MVP và ghi nhận quyết định cuối cùng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	4		Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T07	Lập danh sách nguồn dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Tạo danh sách nguồn, loại tài liệu, đơn vị phát hành, đường dẫn và phạm vi dữ liệu cần thu thập.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	2		Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T08	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Chốt nguồn và điều kiện dùng dữ liệu	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3		Nguyễn Minh Quân	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Chốt nguồn và điều kiện dùng dữ liệu	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3		Nguyễn Minh Quân	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T10	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Kiểm tra khả năng truy cập, lưu trữ, xử lý và trích dẫn dữ liệu trong hệ thống.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	2		Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T12	Xác định nguồn dự phòng và đánh giá tính khả thi	Chốt nguồn và điều kiện dùng dữ liệu	Chuẩn bị nguồn thay thế và đánh giá rủi ro khi nguồn chính thay đổi hoặc không truy cập được.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3		Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T13	Rà soát SRS và danh mục use case	Hoàn thiện SRS và các sơ đồ	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có bảng đối chiếu UC–FR/NFR đã rà.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M03	FinMind	1	4		Trần Diệu Huyền	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T14	Vẽ context và business function diagram	Hoàn thiện SRS và các sơ đồ	Thể hiện tác nhân, hệ thống ngoài và phân rã chức năng; đối chiếu nội dung với SRS.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có context và business function diagram khớp SRS.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	5		Đinh Huỳnh Vũ	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T16	Vẽ sequence diagram theo use case	Hoàn thiện SRS và các sơ đồ	Thể hiện actor, giao diện, dịch vụ và kho dữ liệu; thông điệp phải khớp kịch bản của từng use case.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có sequence diagrams theo use case.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	8		Đinh Huỳnh Vũ	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T18	Rà soát tính nhất quán SRS	Hoàn thiện SRS và các sơ đồ	Đặt đúng số mục, tên hình; kiểm tra mã UC, FR/NFR và sự nhất quán giữa đặc tả với các sơ đồ.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	SRS có đúng hình, số mục và mã tham chiếu.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	4		Trần Diệu Huyền	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T19	Chia pipeline dữ liệu thành các phần nhỏ	Thiết kế mô hình dữ liệu	Tách thu thập, chuẩn hóa, chunk/embedding, graph, truy vấn vector/graph và ranh giới đầu vào/đầu ra.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có bản đồ các bước xử lý dữ liệu và đầu vào/đầu ra.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M04	FinMind	1	4		Nguyễn Minh Quân	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T20	Đặc tả nguồn và cách cào dữ liệu mẫu	Thiết kế mô hình dữ liệu	Chọn nguồn được phép dùng; ghi URL, loại tài liệu, lịch lấy, phiên bản và điều kiện truy cập.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có danh sách nguồn được phép dùng và cách lấy.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M04	FinMind	1	2		Nguyễn Minh Quân	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T21	Đặc tả chuẩn hóa và định danh dữ liệu	Thiết kế mô hình dữ liệu	Xác định company ID, kỳ báo cáo, đơn vị, source ID, document hash và quy tắc kiểm tra trước khi lập chỉ mục.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có quy tắc chuẩn hóa ID, kỳ, đơn vị, nguồn.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M04	FinMind	1	3		Trần Diệu Huyền	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T23	Vẽ lược đồ bảng chunk/embedding pgvector	Thiết kế mô hình dữ liệu	Xác định chunk, embedding, vector dimension, metadata, source locator và liên kết với PostgreSQL.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có lược đồ chunk/embedding của pgvector.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M04	FinMind	1	3		Đinh Huỳnh Vũ	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T24	Vẽ mô hình node–edge Neo4j	Thiết kế mô hình dữ liệu	Định nghĩa nhãn node, kiểu quan hệ, thuộc tính và provenance cho từng edge; giới hạn truy vấn hai hop.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có mô hình node–edge Neo4j kèm provenance.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M04	FinMind	1	4		Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T26	Cào bộ tài liệu mẫu theo nguồn đã chọn	PoC thu thập và tìm kiếm vector	Chạy PoC trên vài tài liệu trong phạm vi corpus; lưu tệp gốc và nhật ký URL/thời điểm.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Có bộ tài liệu mẫu và nhật ký lấy dữ liệu.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M05	FinMind	1	3		Nguyễn Minh Quân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T27	Ghi hash, phiên bản và metadata nguồn	PoC thu thập và tìm kiếm vector	Lưu checksum, ngày công bố, công ty, kỳ báo cáo và trạng thái trùng lặp của tài liệu mẫu.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Có checksum, phiên bản, metadata của mẫu.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M05	FinMind	1	2		Nguyễn Minh Quân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T28	Parse và chuẩn hóa tài liệu mẫu	PoC thu thập và tìm kiếm vector	Trích văn bản/bảng, chuẩn hóa ticker, kỳ, đơn vị và đánh dấu bản ghi lỗi để không đưa vào index.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Có dữ liệu mẫu chuẩn hóa, lỗi được cách ly.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M05	FinMind	1	3		Đinh Huỳnh Vũ	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T29	Tạo thử truy vấn quan hệ bằng Neo4j	PoC thu thập và tìm kiếm vector	Viết và chạy thử truy vấn quan hệ trên dữ liệu mẫu trong Neo4j.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Truy vấn chạy được và kết quả quan hệ được đối chiếu với dữ liệu mẫu.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M05	FinMind	1	6		Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T30	Tạo embedding và nạp mẫu vào pgvector	PoC thu thập và tìm kiếm vector	Vector hóa chunk hợp lệ; ghi model/version, dimension và khóa liên kết về tài liệu gốc.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Có embedding mẫu trong pgvector.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M05	FinMind	1	3		Đinh Huỳnh Vũ	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T31	Truy vấn pgvector để kiểm thử	PoC thu thập và tìm kiếm vector	Dùng câu hỏi mẫu để kiểm tra top-k, khoảng cách vector và khả năng truy về đúng đoạn nguồn.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Có kết quả tìm vector theo câu hỏi mẫu.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M05	FinMind	1	3		Đinh Huỳnh Vũ	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T32	Trích xuất entity cho graph mẫu	PoC graph và đối chiếu nguồn	Nhận diện công ty, chỉ số, tài liệu, kỳ và sự kiện; ánh xạ entity ID ổn định.	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Có danh sách thực thể graph có ID.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M06	FinMind	1	2		Hồ Phạm Đăng Nhân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T33	Trích xuất quan hệ và provenance cho edge	PoC graph và đối chiếu nguồn	Xác định quan hệ có bằng chứng, hướng edge và source locator; không tạo cạnh suy đoán.	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Có edge chỉ tạo từ bằng chứng hợp lệ.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M06	FinMind	1	2		Hồ Phạm Đăng Nhân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T34	Nạp node và edge mẫu vào Neo4j	PoC graph và đối chiếu nguồn	Tạo graph thử nghiệm, kiểm tra ràng buộc ID và liên kết mỗi edge với nguồn.	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Có graph mẫu trong Neo4j.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M06	FinMind	1	3		Hồ Phạm Đăng Nhân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T35	Truy vấn Neo4j để kiểm thử	PoC graph và đối chiếu nguồn	Thử truy vấn một hoặc hai bước theo công ty và quan hệ; kiểm tra kết quả cùng provenance.	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Có kết quả truy vấn graph kèm nguồn.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M06	FinMind	1	3		Hồ Phạm Đăng Nhân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T36	Truy vấn dữ kiện PostgreSQL để đối chiếu	PoC graph và đối chiếu nguồn	Lấy số liệu mẫu theo công ty, chỉ số, kỳ và đơn vị; so với bản ghi nguồn đã chuẩn hóa.	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Có kết quả số liệu PostgreSQL để đối chiếu.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M06	FinMind	1	3		Nguyễn Minh Quân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T37	Tổng hợp kết quả cào và cập nhật SRS	PoC graph và đối chiếu nguồn	Ghi truy vấn, kết quả đúng/sai, lỗi và giới hạn; sửa lược đồ/đặc tả nếu bằng chứng thử nghiệm yêu cầu.	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Có báo cáo PoC và các điểm cần sửa trong SRS.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M06	FinMind	1	2		Nguyễn Minh Quân	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T40	Vẽ usecase diagram cho từng đặc tả use case	Hoàn thiện SRS và các sơ đồ	Vẽ sơ đồ use case riêng cho từng đặc tả, thể hiện người sử dụng và chức năng liên quan.	SRS có sơ đồ dễ đối chiếu với từng đặc tả use case.	Các sơ đồ khớp actor, tên chức năng và mã use case trong SRS.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu; deadline chưa hiển thị trong ảnh.	Trung bình	Đã hoàn thành	M03	FinMind	1	4		Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Tim...**
+
+🟢 **	S1-T41	Vẽ usecase Diagram tổng	Hoàn thiện SRS và các sơ đồ	Vẽ sơ đồ use case tổng để thể hiện toàn bộ chức năng và các nhóm người dùng của FinMind.	Có hình tổng quan phạm vi chức năng của dự án.	Sơ đồ tổng khớp danh mục use case và phạm vi SRS.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu.	Trung bình	Đã hoàn thành	M03	FinMind	1	5		Trần Diệu Huyền	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T42	Xây dựng module chuẩn hóa dữ liệu & khử lỗi	PoC thu thập và tìm kiếm vector	Xây dựng phần xử lý dữ liệu mẫu để thống nhất định dạng và xử lý giá trị số không hợp lệ.	Dữ liệu mẫu được chuẩn hóa trước các bước lưu trữ và tìm kiếm.	Có module, dữ liệu trước/sau xử lý và kết quả kiểm thử các trường hợp số không hợp lệ.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu; deadline chưa hiển thị trong ảnh; tên bị cắt và giờ dự kiến chưa hiển thị.	Trung bình	Đã hoàn thành	...**
+
+🟢 **	Sprint 1	S1-T01	Xác định các nhóm người dùng chính	Thái Quốc Hưng	Đã hoàn thành	1	1	0																				**
+
+🟢 **	Sprint 1	S1-T02	Chốt phạm vi và giới hạn của bản MVP	Thái Quốc Hưng	Đã hoàn thành	3	3	0																				**
+
+🟢 **	Sprint 1	S1-T03	Lập danh sách chức năng theo thứ tự ưu tiên	Thái Quốc Hưng	Đã hoàn thành	4	4	0																				**
+
+🟢 **	Sprint 1	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Trần Diệu Huyền	Đã hoàn thành	2	2	0																				**
+
+🟢 **	Sprint 1	S1-T05	Thực hiện nghiên cứu và tổng hợp kết quả	Thái Quốc Hưng	Đã hoàn thành	4	4	0																				**
+
+🟢 **	Sprint 1	S1-T06	Kiểm tra lại phạm vi và thống nhất	Trần Diệu Huyền	Đã hoàn thành	4	4	0																				**
+
+🟢 **	Sprint 1	S1-T07	Lập danh sách nguồn dữ liệu	Trần Diệu Huyền	Đã hoàn thành	2	2	0																				**
+
+🟢 **	Sprint 1	S1-T08	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Nguyễn Minh Quân	Đã hoàn thành	3	3	0																				**
+
+🟢 **	Sprint 1	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Nguyễn Minh Quân	Đã hoàn thành	3	3	0																				**
+
+🟢 **	Sprint 1	S1-T10	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Trần Diệu Huyền	Đã hoàn thành	2	2	0																				**
+
+🟢 **	Sprint 1	S1-T11	Xây dựng quy tắc kiểm tra và chốt bộ dữ liệu	Trần Diệu Huyền	Đã hoàn thành	4	4	0																				**
+
+🟢 **	Sprint 1	S1-T12	Xác định nguồn dự phòng và đánh giá tính khả thi	Trần Diệu Huyền	Đã hoàn thành	3	3	0																				**
+
+🟢 **	Sprint 1	S1-T13	Rà soát SRS và danh mục use case	Trần Diệu Huyền	Đã hoàn thành	4	4	0																				**
+
+🟢 **	Sprint 1	S1-T14	Vẽ context và business function diagram	Đinh Huỳnh Vũ	Đã hoàn thành	5	5	0																				**
+
+🟢 **	Sprint 1	S1-T15	Vẽ activity diagram theo use case	Thái Quốc Hưng	Đã hoàn thành	8	8	0																				**
+
+🟢 **	Sprint 1	S1-T16	Vẽ sequence diagram theo use case	Đinh Huỳnh Vũ	Đã hoàn thành	8	8	0																				**
+
+🟢 **	Sprint 1	S1-T17	Vẽ state diagram cho đối tượng có vòng đời	Thái Quốc Hưng	Đã hoàn thành	6	6	0																				**
+
+🟢 **	Sprint 1	S1-T18	Rà soát tính nhất quán SRS	Trần Diệu Huyền	Đã hoàn thành	4	4	0																				**
+
+🟢 **	Sprint 1	S1-T19	Chia pipeline dữ liệu thành các phần nhỏ	Nguyễn Minh Quân	Đã hoàn thành	4	4	0																				**
+
+🟢 **	Sprint 1	S1-T20	Đặc tả nguồn và cách cào dữ liệu mẫu	Nguyễn Minh Quân	Đã hoàn thành	2	2	0																				**
+
+🟢 **	Sprint 1	S1-T21	Đặc tả chuẩn hóa và định danh dữ liệu	Trần Diệu Huyền	Đã hoàn thành	3	3	0																				**
+
+🟢 **	Sprint 1	S1-T22	Vẽ ERD dữ liệu nghiệp vụ PostgreSQL	Nguyễn Minh Quân	Đã hoàn thành	4	4	0																				**
+
+🟢 **	Sprint 1	S1-T23	Vẽ lược đồ bảng chunk/embedding pgvector	Đinh Huỳnh Vũ	Đã hoàn thành	3	3	0																				**
+
+🟢 **	Sprint 1	S1-T24	Vẽ mô hình node–edge Neo4j	Hồ Phạm Đăng Nhân	Đã hoàn thành	4	4	0																				**
+
+🟢 **	Sprint 1	S1-T25	Đối chiếu ID giữa các mô hình dữ liệu	Trần Diệu Huyền	Đã hoàn thành	3	3	0																				**
+
+🟢 **	Sprint 1	S1-T26	Cào bộ tài liệu mẫu theo nguồn đã chọn	Nguyễn Minh Quân	Đã hoàn thành	3	3	0																				**
+
+🟢 **	Sprint 1	S1-T27	Ghi hash, phiên bản và metadata nguồn	Nguyễn Minh Quân	Đã hoàn thành	2	2	0																				**
+
+🟢 **	Sprint 1	S1-T28	Parse và chuẩn hóa tài liệu mẫu	Đinh Huỳnh Vũ	Đã hoàn thành	3	3	0																				**
+
+🟢 **	Sprint 1	S1-T29	Tạo thử truy vấn quan hệ bằng Neo4j	Hồ Phạm Đăng Nhân	Đã hoàn thành	6	6	0																				**
+
+🟢 **	Sprint 1	S1-T30	Tạo embedding và nạp mẫu vào pgvector	Đinh Huỳnh Vũ	Đã hoàn thành	3	3	0																				**
+
+🟢 **	Sprint 1	S1-T31	Truy vấn pgvector để kiểm thử	Đinh Huỳnh Vũ	Đã hoàn thành	3	3	0																				**
+
+🟢 **	Sprint 1	S1-T32	Trích xuất entity cho graph mẫu	Hồ Phạm Đăng Nhân	Đã hoàn thành	2	2	0																				**
+
+🟢 **	Sprint 1	S1-T33	Trích xuất quan hệ và provenance cho edge	Hồ Phạm Đăng Nhân	Đã hoàn thành	2	2	0																				**
+
+🟢 **	Sprint 1	S1-T34	Nạp node và edge mẫu vào Neo4j	Hồ Phạm Đăng Nhân	Đã hoàn thành	3	3	0																				**
+
+🟢 **	Sprint 1	S1-T35	Truy vấn Neo4j để kiểm thử	Hồ Phạm Đăng Nhân	Đã hoàn thành	3	3	0																				**
+
+🟢 **	Sprint 1	S1-T36	Truy vấn dữ kiện PostgreSQL để đối chiếu	Nguyễn Minh Quân	Đã hoàn thành	3	3	0																				**
+
+🟢 **	Sprint 1	S1-T37	Tổng hợp kết quả cào và cập nhật SRS	Nguyễn Minh Quân	Đã hoàn thành	2	2	0																				**
+
+🟢 **	Sprint 1	S1-T38	Tạo Git repository và cấu trúc dự án ban đầu	Nguyễn Minh Quân	Đã hoàn thành	1	1	0																				**
+
+🟢 **	Sprint 1	S1-T39	Chuẩn bị Golden Test Set phiên bản đầu tiên	Thái Quốc Hưng	Đã hoàn thành	4	4	0	0	-4																0		**
+
+🟢 **	Sprint 1	S1-T40	Vẽ usecase diagram cho từng đặc tả use case	Hồ Phạm Đăng Nhân	Đã hoàn thành	4	4	0																				**
+
+🟢 **	Sprint 1	S1-T41	Vẽ usecase Diagram tổng	Trần Diệu Huyền	Đã hoàn thành	5	5	0																				**
+
+🟢 **	Sprint 1	S1-T42	Xây dựng module chuẩn hóa dữ liệu & khử lỗi	Nguyễn Minh Quân	Đã hoàn thành	4	4	0																				**
+
+🟢 **	Task đã hoàn thành	42**
+
+🟢 **9	37	37	SRS, sơ đồ, mô hình dữ liệu và PoC mẫu.						**
+
+🟢 **9	1	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Chuẩn bị câu hỏi để tìm hiểu khó khăn, nhu cầu và kỳ vọng của người dùng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Đã hoàn thành	Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T06	Kiểm tra lại phạm vi và thống nhất	Đối chiếu kết quả nghiên cứu với phạm vi MVP và ghi nhận quyết định cuối cùng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Đã hoàn thành	Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T07	Lập danh sách nguồn dữ liệu	Tạo danh sách nguồn, loại tài liệu, đơn vị phát hành, đường dẫn và phạm vi dữ liệu cần thu thập.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Đã hoàn thành	Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T08	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Đã hoàn thành	Nguyễn Minh Quân	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Đã hoàn thành	Nguyễn Minh Quân	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T10	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Kiểm tra khả năng truy cập, lưu trữ, xử lý và trích dẫn dữ liệu trong hệ thống.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Đã hoàn thành	Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T12	Xác định nguồn dự phòng và đánh giá tính khả thi	Chuẩn bị nguồn thay thế và đánh giá rủi ro khi nguồn chính thay đổi hoặc không truy cập được.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Đã hoàn thành	Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T13	Rà soát SRS và danh mục use case	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	Có bảng đối chiếu UC–FR/NFR đã rà.	Đã hoàn thành	Trần Diệu Huyền	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T14	Vẽ context và business function diagram	Thể hiện tác nhân, hệ thống ngoài và phân rã chức năng; đối chiếu nội dung với SRS.	Có context và business function diagram khớp SRS.	Đã hoàn thành	Đinh Huỳnh Vũ	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T16	Vẽ sequence diagram theo use case	Thể hiện actor, giao diện, dịch vụ và kho dữ liệu; thông điệp phải khớp kịch bản của từng use case.	Có sequence diagrams theo use case.	Đã hoàn thành	Đinh Huỳnh Vũ	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T18	Rà soát tính nhất quán SRS	Đặt đúng số mục, tên hình; kiểm tra mã UC, FR/NFR và sự nhất quán giữa đặc tả với các sơ đồ.	SRS có đúng hình, số mục và mã tham chiếu.	Đã hoàn thành	Trần Diệu Huyền	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T19	Chia pipeline dữ liệu thành các phần nhỏ	Tách thu thập, chuẩn hóa, chunk/embedding, graph, truy vấn vector/graph và ranh giới đầu vào/đầu ra.	Có bản đồ các bước xử lý dữ liệu và đầu vào/đầu ra.	Đã hoàn thành	Nguyễn Minh Quân	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T20	Đặc tả nguồn và cách cào dữ liệu mẫu	Chọn nguồn được phép dùng; ghi URL, loại tài liệu, lịch lấy, phiên bản và điều kiện truy cập.	Có danh sách nguồn được phép dùng và cách lấy.	Đã hoàn thành	Nguyễn Minh Quân	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T21	Đặc tả chuẩn hóa và định danh dữ liệu	Xác định company ID, kỳ báo cáo, đơn vị, source ID, document hash và quy tắc kiểm tra trước khi lập chỉ mục.	Có quy tắc chuẩn hóa ID, kỳ, đơn vị, nguồn.	Đã hoàn thành	Trần Diệu Huyền	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T23	Vẽ lược đồ bảng chunk/embedding pgvector	Xác định chunk, embedding, vector dimension, metadata, source locator và liên kết với PostgreSQL.	Có lược đồ chunk/embedding của pgvector.	Đã hoàn thành	Đinh Huỳnh Vũ	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T24	Vẽ mô hình node–edge Neo4j	Định nghĩa nhãn node, kiểu quan hệ, thuộc tính và provenance cho từng edge; giới hạn truy vấn hai hop.	Có mô hình node–edge Neo4j kèm provenance.	Đã hoàn thành	Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T26	Cào bộ tài liệu mẫu theo nguồn đã chọn	Chạy PoC trên vài tài liệu trong phạm vi corpus; lưu tệp gốc và nhật ký URL/thời điểm.	Có bộ tài liệu mẫu và nhật ký lấy dữ liệu.	Đã hoàn thành	Nguyễn Minh Quân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T27	Ghi hash, phiên bản và metadata nguồn	Lưu checksum, ngày công bố, công ty, kỳ báo cáo và trạng thái trùng lặp của tài liệu mẫu.	Có checksum, phiên bản, metadata của mẫu.	Đã hoàn thành	Nguyễn Minh Quân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T28	Parse và chuẩn hóa tài liệu mẫu	Trích văn bản/bảng, chuẩn hóa ticker, kỳ, đơn vị và đánh dấu bản ghi lỗi để không đưa vào index.	Có dữ liệu mẫu chuẩn hóa, lỗi được cách ly.	Đã hoàn thành	Đinh Huỳnh Vũ	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T29	Tạo thử truy vấn quan hệ bằng Neo4j	Viết và chạy thử truy vấn quan hệ trên dữ liệu mẫu trong Neo4j.	Truy vấn chạy được và kết quả quan hệ được đối chiếu với dữ liệu mẫu.	Đã hoàn thành	Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T30	Tạo embedding và nạp mẫu vào pgvector	Vector hóa chunk hợp lệ; ghi model/version, dimension và khóa liên kết về tài liệu gốc.	Có embedding mẫu trong pgvector.	Đã hoàn thành	Đinh Huỳnh Vũ	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T31	Truy vấn pgvector để kiểm thử	Dùng câu hỏi mẫu để kiểm tra top-k, khoảng cách vector và khả năng truy về đúng đoạn nguồn.	Có kết quả tìm vector theo câu hỏi mẫu.	Đã hoàn thành	Đinh Huỳnh Vũ	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T32	Trích xuất entity cho graph mẫu	Nhận diện công ty, chỉ số, tài liệu, kỳ và sự kiện; ánh xạ entity ID ổn định.	Có danh sách thực thể graph có ID.	Đã hoàn thành	Hồ Phạm Đăng Nhân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T33	Trích xuất quan hệ và provenance cho edge	Xác định quan hệ có bằng chứng, hướng edge và source locator; không tạo cạnh suy đoán.	Có edge chỉ tạo từ bằng chứng hợp lệ.	Đã hoàn thành	Hồ Phạm Đăng Nhân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T34	Nạp node và edge mẫu vào Neo4j	Tạo graph thử nghiệm, kiểm tra ràng buộc ID và liên kết mỗi edge với nguồn.	Có graph mẫu trong Neo4j.	Đã hoàn thành	Hồ Phạm Đăng Nhân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T35	Truy vấn Neo4j để kiểm thử	Thử truy vấn một hoặc hai bước theo công ty và quan hệ; kiểm tra kết quả cùng provenance.	Có kết quả truy vấn graph kèm nguồn.	Đã hoàn thành	Hồ Phạm Đăng Nhân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T36	Truy vấn dữ kiện PostgreSQL để đối chiếu	Lấy số liệu mẫu theo công ty, chỉ số, kỳ và đơn vị; so với bản ghi nguồn đã chuẩn hóa.	Có kết quả số liệu PostgreSQL để đối chiếu.	Đã hoàn thành	Nguyễn Minh Quân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T37	Tổng hợp kết quả cào và cập nhật SRS	Ghi truy vấn, kết quả đúng/sai, lỗi và giới hạn; sửa lược đồ/đặc tả nếu bằng chứng thử nghiệm yêu cầu.	Có báo cáo PoC và các điểm cần sửa trong SRS.	Đã hoàn thành	Nguyễn Minh Quân	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **Task xong	42		Điều kiện hoàn thành	Mọi task xong; đầu ra của 16 mốc được nghiệm thu.					**
+
+🟢 **Mốc đạt	6 / 16		Tình trạng	Chưa hoàn tất					**
+
+🟢 **Kiểm tra lại phạm vi và thống nhất	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	6	6	Đã hoàn thành	Cần xác nhận các task cũ của tuần 1 nếu có.**
+
+🟢 **Xác định nguồn dự phòng và đánh giá tính khả thi	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	6	6	Đã hoàn thành	Cần xác nhận các task cũ của tuần 1 nếu có.**
+
+🟢 **Chèn hình và rà soát tính nhất quán SRS	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	9	9	Đã hoàn thành	Cần xác nhận các task cũ của tuần 1 nếu có.**
+
+🟢 **Đối chiếu ID giữa các mô hình dữ liệu	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	8	8	Đã hoàn thành	Cần xác nhận các task cũ của tuần 1 nếu có.**
+
+🟢 **Truy vấn pgvector để kiểm thử	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	7	7	Đã hoàn thành	Cần xác nhận các task cũ của tuần 1 nếu có.**
+
+🟢 **Tổng hợp kết quả PoC và cập nhật SRS	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	6	6	Đã hoàn thành	Cần xác nhận các task cũ của tuần 1 nếu có.**
+
+~~	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Chốt nhu cầu và phạm vi MVP	Chuẩn bị câu hỏi để tìm hiểu khó khăn, nhu cầu và kỳ vọng của người dùng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Chưa bắt đầu	M01	FinMind	1	2		Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T06	Kiểm tra lại phạm vi và thống nhất	Chốt nhu cầu và phạm vi MVP	Đối chiếu kết quả nghiên cứu với phạm vi MVP và ghi nhận quyết định cuối cùng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Chưa bắt đầu	M01	FinMind	1	4		Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T07	Lập danh sách nguồn dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Tạo danh sách nguồn, loại tài liệu, đơn vị phát hành, đường dẫn và phạm vi dữ liệu cần thu thập.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đang làm	M02	FinMind	1	2		Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T08	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Chốt nguồn và điều kiện dùng dữ liệu	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đang test	M02	FinMind	1	3		Nguyễn Minh Quân	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Chốt nguồn và điều kiện dùng dữ liệu	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đang test	M02	FinMind	1	3		Nguyễn Minh Quân	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T10	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Kiểm tra khả năng truy cập, lưu trữ, xử lý và trích dẫn dữ liệu trong hệ thống.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đang làm	M02	FinMind	1	2		Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T12	Xác định nguồn dự phòng và đánh giá tính khả thi	Chốt nguồn và điều kiện dùng dữ liệu	Chuẩn bị nguồn thay thế và đánh giá rủi ro khi nguồn chính thay đổi hoặc không truy cập được.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Chưa bắt đầu	M02	FinMind	1	3		Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T13	Rà soát SRS và danh mục use case	Hoàn thiện SRS và các sơ đồ	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có bảng đối chiếu UC–FR/NFR đã rà.	Worklog Sprint 1, tuần 2	Cao	Đang làm	M03	FinMind	1	4		Trần Diệu Huyền	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T14	Vẽ context và business function diagram	Hoàn thiện SRS và các sơ đồ	Thể hiện tác nhân, hệ thống ngoài và phân rã chức năng; đối chiếu nội dung với SRS.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có context và business function diagram khớp SRS.	Worklog Sprint 1, tuần 2	Trung bình	Đang làm	M03	FinMind	1	5		Đinh Huỳnh Vũ	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T16	Vẽ sequence diagram theo use case	Hoàn thiện SRS và các sơ đồ	Thể hiện actor, giao diện, dịch vụ và kho dữ liệu; thông điệp phải khớp kịch bản của từng use case.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có sequence diagrams theo use case.	Worklog Sprint 1, tuần 2	Trung bình	Chưa bắt đầu	M03	FinMind	1	8		Đinh Huỳnh Vũ	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T18	Rà soát tính nhất quán SRS	Hoàn thiện SRS và các sơ đồ	Đặt đúng số mục, tên hình; kiểm tra mã UC, FR/NFR và sự nhất quán giữa đặc tả với các sơ đồ.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	SRS có đúng hình, số mục và mã tham chiếu.	Worklog Sprint 1, tuần 2	Trung bình	Chưa bắt đầu	M03	FinMind	1	4		Trần Diệu Huyền	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T19	Chia pipeline dữ liệu thành các phần nhỏ	Thiết kế mô hình dữ liệu	Tách thu thập, chuẩn hóa, chunk/embedding, graph, truy vấn vector/graph và ranh giới đầu vào/đầu ra.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có bản đồ các bước xử lý dữ liệu và đầu vào/đầu ra.	Worklog Sprint 1, tuần 2	Cao	Đang test	M04	FinMind	1	4		Nguyễn Minh Quân	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T20	Đặc tả nguồn và cách cào dữ liệu mẫu	Thiết kế mô hình dữ liệu	Chọn nguồn được phép dùng; ghi URL, loại tài liệu, lịch lấy, phiên bản và điều kiện truy cập.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có danh sách nguồn được phép dùng và cách lấy.	Worklog Sprint 1, tuần 2	Trung bình	Đang test	M04	FinMind	1	2		Nguyễn Minh Quân	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T21	Đặc tả chuẩn hóa và định danh dữ liệu	Thiết kế mô hình dữ liệu	Xác định company ID, kỳ báo cáo, đơn vị, source ID, document hash và quy tắc kiểm tra trước khi lập chỉ mục.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có quy tắc chuẩn hóa ID, kỳ, đơn vị, nguồn.	Worklog Sprint 1, tuần 2	Cao	Chưa bắt đầu	M04	FinMind	1	3		Trần Diệu Huyền	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T23	Vẽ lược đồ bảng chunk/embedding pgvector	Thiết kế mô hình dữ liệu	Xác định chunk, embedding, vector dimension, metadata, source locator và liên kết với PostgreSQL.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có lược đồ chunk/embedding của pgvector.	Worklog Sprint 1, tuần 2	Trung bình	Đang làm	M04	FinMind	1	3		Đinh Huỳnh Vũ	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T24	Vẽ mô hình node–edge Neo4j	Thiết kế mô hình dữ liệu	Định nghĩa nhãn node, kiểu quan hệ, thuộc tính và provenance cho từng edge; giới hạn truy vấn hai hop.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có mô hình node–edge Neo4j kèm provenance.	Worklog Sprint 1, tuần 2	Trung bình	Đang test	M04	FinMind	1	4		Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T26	Cào bộ tài liệu mẫu theo nguồn đã chọn	PoC thu thập và tìm kiếm vector	Chạy PoC trên vài tài liệu trong phạm vi corpus; lưu tệp gốc và nhật ký URL/thời điểm.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Có bộ tài liệu mẫu và nhật ký lấy dữ liệu.	Worklog Sprint 1, tuần 2	Cao	Đang test	M05	FinMind	1	3		Nguyễn Minh Quân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T27	Ghi hash, phiên bản và metadata nguồn	PoC thu thập và tìm kiếm vector	Lưu checksum, ngày công bố, công ty, kỳ báo cáo và trạng thái trùng lặp của tài liệu mẫu.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Có checksum, phiên bản, metadata của mẫu.	Worklog Sprint 1, tuần 2	Cao	Đang test	M05	FinMind	1	2		Nguyễn Minh Quân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T28	Parse và chuẩn hóa tài liệu mẫu	PoC thu thập và tìm kiếm vector	Trích văn bản/bảng, chuẩn hóa ticker, kỳ, đơn vị và đánh dấu bản ghi lỗi để không đưa vào index.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Có dữ liệu mẫu chuẩn hóa, lỗi được cách ly.	Worklog Sprint 1, tuần 2	Cao	Đang làm	M05	FinMind	1	3			Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T29	Tạo thử truy vấn quan hệ bằng Neo4j	PoC thu thập và tìm kiếm vector	Viết và chạy thử truy vấn quan hệ trên dữ liệu mẫu trong Neo4j.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Truy vấn chạy được và kết quả quan hệ được đối chiếu với dữ liệu mẫu.	Worklog Sprint 1, tuần 2	Trung bình	Đang test	M05	FinMind	1	6		Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T30	Tạo embedding và nạp mẫu vào pgvector	PoC thu thập và tìm kiếm vector	Vector hóa chunk hợp lệ; ghi model/version, dimension và khóa liên kết về tài liệu gốc.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Có embedding mẫu trong pgvector.	Worklog Sprint 1, tuần 2	Cao	Chưa bắt đầu	M05	FinMind	1	3		Đinh Huỳnh Vũ	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T31	Truy vấn pgvector để kiểm thử	PoC thu thập và tìm kiếm vector	Dùng câu hỏi mẫu để kiểm tra top-k, khoảng cách vector và khả năng truy về đúng đoạn nguồn.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Có kết quả tìm vector theo câu hỏi mẫu.	Worklog Sprint 1, tuần 2	Trung bình	Chưa bắt đầu	M05	FinMind	1	3		Đinh Huỳnh Vũ	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T32	Trích xuất entity cho graph mẫu	PoC graph và đối chiếu nguồn	Nhận diện công ty, chỉ số, tài liệu, kỳ và sự kiện; ánh xạ entity ID ổn định.	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Có danh sách thực thể graph có ID.	Worklog Sprint 1, tuần 2	Trung bình	Đang test	M06	FinMind	1	2		Hồ Phạm Đăng Nhân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T33	Trích xuất quan hệ và provenance cho edge	PoC graph và đối chiếu nguồn	Xác định quan hệ có bằng chứng, hướng edge và source locator; không tạo cạnh suy đoán.	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Có edge chỉ tạo từ bằng chứng hợp lệ.	Worklog Sprint 1, tuần 2	Trung bình	Đang test	M06	FinMind	1	2		Hồ Phạm Đăng Nhân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T34	Nạp node và edge mẫu vào Neo4j	PoC graph và đối chiếu nguồn	Tạo graph thử nghiệm, kiểm tra ràng buộc ID và liên kết mỗi edge với nguồn.	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Có graph mẫu trong Neo4j.	Worklog Sprint 1, tuần 2	Trung bình	Đang test	M06	FinMind	1	3		Hồ Phạm Đăng Nhân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T35	Truy vấn Neo4j để kiểm thử	PoC graph và đối chiếu nguồn	Thử truy vấn một hoặc hai bước theo công ty và quan hệ; kiểm tra kết quả cùng provenance.	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Có kết quả truy vấn graph kèm nguồn.	Worklog Sprint 1, tuần 2	Trung bình	Đang test	M06	FinMind	1	3		Hồ Phạm Đăng Nhân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T36	Truy vấn dữ kiện PostgreSQL để đối chiếu	PoC graph và đối chiếu nguồn	Lấy số liệu mẫu theo công ty, chỉ số, kỳ và đơn vị; so với bản ghi nguồn đã chuẩn hóa.	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Có kết quả số liệu PostgreSQL để đối chiếu.	Worklog Sprint 1, tuần 2	Cao	Đang test	M06	FinMind	1	3		Nguyễn Minh Quân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T37	Tổng hợp kết quả cào và cập nhật SRS	PoC graph và đối chiếu nguồn	Ghi truy vấn, kết quả đúng/sai, lỗi và giới hạn; sửa lược đồ/đặc tả nếu bằng chứng thử nghiệm yêu cầu.	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Có báo cáo PoC và các điểm cần sửa trong SRS.	Worklog Sprint 1, tuần 2	Trung bình	Đang test	M06	FinMind	1	2		Nguyễn Minh Quân	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T40	Vẽ usecase diagram cho từng đặc tả use case	Hoàn thiện SRS và các sơ đồ	Vẽ sơ đồ use case riêng cho từng đặc tả, thể hiện người sử dụng và chức năng liên quan.	SRS có sơ đồ dễ đối chiếu với từng đặc tả use case.	Các sơ đồ khớp actor, tên chức năng và mã use case trong SRS.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu; deadline chưa hiển thị trong ảnh.	Trung bình	Đang test	M03	FinMind	1	4		Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	S...~~
+
+~~	S1-T41	Vẽ usecase Diagram tổng	Hoàn thiện SRS và các sơ đồ	Vẽ sơ đồ use case tổng để thể hiện toàn bộ chức năng và các nhóm người dùng của FinMind.	Có hình tổng quan phạm vi chức năng của dự án.	Sơ đồ tổng khớp danh mục use case và phạm vi SRS.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu.	Trung bình	Chưa bắt đầu	M03	FinMind	1	5		Trần Diệu Huyền	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T42	Xây dựng module chuẩn hóa dữ liệu & khử lỗi	PoC thu thập và tìm kiếm vector	Xây dựng phần xử lý dữ liệu mẫu để thống nhất định dạng và xử lý giá trị số không hợp lệ.	Dữ liệu mẫu được chuẩn hóa trước các bước lưu trữ và tìm kiếm.	Có module, dữ liệu trước/sau xử lý và kết quả kiểm thử các trường hợp số không hợp lệ.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu; deadline chưa hiển thị trong ảnh; tên bị cắt và giờ dự kiến chưa hiển thị.	Trung bình	Đang test	M05	...~~
+
+~~	Sprint 1	SCRUM-5	Xác định các nhóm người dùng chính	Thái Quốc Hưng	Đã hoàn thành	1	1	0																				~~
+
+~~	Sprint 1	SCRUM-6	Chốt phạm vi và giới hạn của bản MVP	Thái Quốc Hưng	Đã hoàn thành	3	3	0																				~~
+
+~~	Sprint 1	SCRUM-7	Lập danh sách chức năng theo thứ tự ưu tiên	Thái Quốc Hưng	Đã hoàn thành	4	4	0																				~~
+
+~~	Sprint 1	SCRUM-8	Soạn bộ câu hỏi nghiên cứu và khảo sát	Trần Diệu Huyền	Chưa bắt đầu	2	0	2																				~~
+
+~~	Sprint 1	SCRUM-9	Thực hiện nghiên cứu và tổng hợp kết quả	Thái Quốc Hưng	Đã hoàn thành	4	4	0																				~~
+
+~~	Sprint 1	SCRUM-10	Kiểm tra lại phạm vi và thống nhất	Trần Diệu Huyền	Chưa bắt đầu	4	0	4																				~~
+
+~~	Sprint 1	SCRUM-11	Lập danh sách nguồn dữ liệu	Trần Diệu Huyền	Đang làm	2	0	2																				~~
+
+~~	Sprint 1	SCRUM-12	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Nguyễn Minh Quân	Đang test	3	0	3																				~~
+
+~~	Sprint 1	SCRUM-13	Tìm nguồn chính thức cho 5 công ty Công nghệ	Nguyễn Minh Quân	Đang test	3	0	3																				~~
+
+~~	Sprint 1	SCRUM-14	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Trần Diệu Huyền	Đang làm	2	0	2																				~~
+
+~~	Sprint 1	SCRUM-15	Xây dựng quy tắc kiểm tra và chốt bộ dữ liệu	Trần Diệu Huyền	Đã hoàn thành	4	4	0																				~~
+
+~~	Sprint 1	SCRUM-16	Xác định nguồn dự phòng và đánh giá tính khả thi	Trần Diệu Huyền	Chưa bắt đầu	3	0	3																				~~
+
+~~	Sprint 1	SCRUM-17	Rà soát SRS và danh mục use case	Trần Diệu Huyền	Đang làm	4	0	4																				~~
+
+~~	Sprint 1	SCRUM-18	Vẽ context và business function diagram	Đinh Huỳnh Vũ	Đang làm	5	0	5																				~~
+
+~~	Sprint 1	SCRUM-19	Vẽ activity diagram theo use case	Thái Quốc Hưng	Đã hoàn thành	8	8	0																				~~
+
+~~	Sprint 1	SCRUM-20	Vẽ sequence diagram theo use case	Đinh Huỳnh Vũ	Chưa bắt đầu	8	0	8																				~~
+
+~~	Sprint 1	SCRUM-21	Vẽ state diagram cho đối tượng có vòng đời	Thái Quốc Hưng	Đã hoàn thành	6	6	0																				~~
+
+~~	Sprint 1	SCRUM-22	Rà soát tính nhất quán SRS	Trần Diệu Huyền	Chưa bắt đầu	4	0	4																				~~
+
+~~	Sprint 1	SCRUM-23	Chia pipeline dữ liệu thành các phần nhỏ	Nguyễn Minh Quân	Đang test	4	0	4																				~~
+
+~~	Sprint 1	SCRUM-24	Đặc tả nguồn và cách cào dữ liệu mẫu	Nguyễn Minh Quân	Đang test	2	0	2																				~~
+
+~~	Sprint 1	SCRUM-25	Đặc tả chuẩn hóa và định danh dữ liệu	Trần Diệu Huyền	Chưa bắt đầu	3	0	3																				~~
+
+~~	Sprint 1	SCRUM-26	Vẽ ERD dữ liệu nghiệp vụ PostgreSQL	Nguyễn Minh Quân	Đã hoàn thành	4	4	0																				~~
+
+~~	Sprint 1	SCRUM-27	Vẽ lược đồ bảng chunk/embedding pgvector	Đinh Huỳnh Vũ	Đang làm	3	0	3																				~~
+
+~~	Sprint 1	SCRUM-45	Vẽ mô hình node–edge Neo4j	Hồ Phạm Đăng Nhân	Đang test	4	0	4																				~~
+
+~~	Sprint 1	SCRUM-29	Đối chiếu ID giữa các mô hình dữ liệu	Trần Diệu Huyền	Đã hoàn thành	3	3	0																				~~
+
+~~	Sprint 1	SCRUM-30	Cào bộ tài liệu mẫu theo nguồn đã chọn	Nguyễn Minh Quân	Đang test	3	0	3																				~~
+
+~~	Sprint 1	SCRUM-31	Ghi hash, phiên bản và metadata nguồn	Nguyễn Minh Quân	Đang test	2	0	2																				~~
+
+~~	Sprint 1	SCRUM-32	Parse và chuẩn hóa tài liệu mẫu		Đang làm	3	0	3																				~~
+
+~~	Sprint 1	SCRUM-36	Tạo thử truy vấn quan hệ bằng Neo4j	Hồ Phạm Đăng Nhân	Đang test	6	0	6																				~~
+
+~~	Sprint 1	SCRUM-34	Tạo embedding và nạp mẫu vào pgvector	Đinh Huỳnh Vũ	Chưa bắt đầu	3	0	3																				~~
+
+~~	Sprint 1	SCRUM-35	Truy vấn pgvector để kiểm thử	Đinh Huỳnh Vũ	Chưa bắt đầu	3	0	3																				~~
+
+~~	Sprint 1	SCRUM-46	Trích xuất entity cho graph mẫu	Hồ Phạm Đăng Nhân	Đang test	2	0	2																				~~
+
+~~	Sprint 1	SCRUM-37	Trích xuất quan hệ và provenance cho edge	Hồ Phạm Đăng Nhân	Đang test	2	0	2																				~~
+
+~~	Sprint 1	SCRUM-38	Nạp node và edge mẫu vào Neo4j	Hồ Phạm Đăng Nhân	Đang test	3	0	3																				~~
+
+~~	Sprint 1	SCRUM-39	Truy vấn Neo4j để kiểm thử	Hồ Phạm Đăng Nhân	Đang test	3	0	3																				~~
+
+~~	Sprint 1	SCRUM-40	Truy vấn dữ kiện PostgreSQL để đối chiếu	Nguyễn Minh Quân	Đang test	3	0	3																				~~
+
+~~	Sprint 1	SCRUM-41	Tổng hợp kết quả cào và cập nhật SRS	Nguyễn Minh Quân	Đang test	2	0	2																				~~
+
+~~	Sprint 1	SCRUM-28	Tạo Git repository và cấu trúc dự án ban đầu	Nguyễn Minh Quân	Đã hoàn thành	1	1	0																				~~
+
+~~	Sprint 1	SCRUM-33	Chuẩn bị Golden Test Set phiên bản đầu tiên	Thái Quốc Hưng	Đã hoàn thành	4	4	0	0	-4																0		~~
+
+~~	Sprint 1	SCRUM-44	Vẽ usecase diagram cho từng đặc tả use case	Hồ Phạm Đăng Nhân	Đang test	4	0	4																				~~
+
+~~	Sprint 1	SCRUM-47	Vẽ usecase Diagram tổng	Trần Diệu Huyền	Chưa bắt đầu	5	0	5																				~~
+
+~~	Sprint 1	SCRUM-42	Xây dựng module chuẩn hóa dữ liệu & khử lỗi	Nguyễn Minh Quân	Đang test	4	0	4																				~~
+
+~~	Task đã hoàn thành	11~~
+
+~~9	37	9	SRS, sơ đồ, mô hình dữ liệu và PoC mẫu.						~~
+
+~~9	1	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Chuẩn bị câu hỏi để tìm hiểu khó khăn, nhu cầu và kỳ vọng của người dùng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Chưa bắt đầu	Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T06	Kiểm tra lại phạm vi và thống nhất	Đối chiếu kết quả nghiên cứu với phạm vi MVP và ghi nhận quyết định cuối cùng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Chưa bắt đầu	Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T07	Lập danh sách nguồn dữ liệu	Tạo danh sách nguồn, loại tài liệu, đơn vị phát hành, đường dẫn và phạm vi dữ liệu cần thu thập.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Đang làm	Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T08	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Đang test	Nguyễn Minh Quân	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Đang test	Nguyễn Minh Quân	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T10	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Kiểm tra khả năng truy cập, lưu trữ, xử lý và trích dẫn dữ liệu trong hệ thống.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Đang làm	Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T12	Xác định nguồn dự phòng và đánh giá tính khả thi	Chuẩn bị nguồn thay thế và đánh giá rủi ro khi nguồn chính thay đổi hoặc không truy cập được.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Chưa bắt đầu	Trần Diệu Huyền	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T13	Rà soát SRS và danh mục use case	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	Có bảng đối chiếu UC–FR/NFR đã rà.	Đang làm	Trần Diệu Huyền	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T14	Vẽ context và business function diagram	Thể hiện tác nhân, hệ thống ngoài và phân rã chức năng; đối chiếu nội dung với SRS.	Có context và business function diagram khớp SRS.	Đang làm	Đinh Huỳnh Vũ	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T16	Vẽ sequence diagram theo use case	Thể hiện actor, giao diện, dịch vụ và kho dữ liệu; thông điệp phải khớp kịch bản của từng use case.	Có sequence diagrams theo use case.	Chưa bắt đầu	Đinh Huỳnh Vũ	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T18	Rà soát tính nhất quán SRS	Đặt đúng số mục, tên hình; kiểm tra mã UC, FR/NFR và sự nhất quán giữa đặc tả với các sơ đồ.	SRS có đúng hình, số mục và mã tham chiếu.	Chưa bắt đầu	Trần Diệu Huyền	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T19	Chia pipeline dữ liệu thành các phần nhỏ	Tách thu thập, chuẩn hóa, chunk/embedding, graph, truy vấn vector/graph và ranh giới đầu vào/đầu ra.	Có bản đồ các bước xử lý dữ liệu và đầu vào/đầu ra.	Đang test	Nguyễn Minh Quân	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T20	Đặc tả nguồn và cách cào dữ liệu mẫu	Chọn nguồn được phép dùng; ghi URL, loại tài liệu, lịch lấy, phiên bản và điều kiện truy cập.	Có danh sách nguồn được phép dùng và cách lấy.	Đang test	Nguyễn Minh Quân	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T21	Đặc tả chuẩn hóa và định danh dữ liệu	Xác định company ID, kỳ báo cáo, đơn vị, source ID, document hash và quy tắc kiểm tra trước khi lập chỉ mục.	Có quy tắc chuẩn hóa ID, kỳ, đơn vị, nguồn.	Chưa bắt đầu	Trần Diệu Huyền	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T23	Vẽ lược đồ bảng chunk/embedding pgvector	Xác định chunk, embedding, vector dimension, metadata, source locator và liên kết với PostgreSQL.	Có lược đồ chunk/embedding của pgvector.	Đang làm	Đinh Huỳnh Vũ	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T24	Vẽ mô hình node–edge Neo4j	Định nghĩa nhãn node, kiểu quan hệ, thuộc tính và provenance cho từng edge; giới hạn truy vấn hai hop.	Có mô hình node–edge Neo4j kèm provenance.	Đang test	Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T26	Cào bộ tài liệu mẫu theo nguồn đã chọn	Chạy PoC trên vài tài liệu trong phạm vi corpus; lưu tệp gốc và nhật ký URL/thời điểm.	Có bộ tài liệu mẫu và nhật ký lấy dữ liệu.	Đang test	Nguyễn Minh Quân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T27	Ghi hash, phiên bản và metadata nguồn	Lưu checksum, ngày công bố, công ty, kỳ báo cáo và trạng thái trùng lặp của tài liệu mẫu.	Có checksum, phiên bản, metadata của mẫu.	Đang test	Nguyễn Minh Quân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T28	Parse và chuẩn hóa tài liệu mẫu	Trích văn bản/bảng, chuẩn hóa ticker, kỳ, đơn vị và đánh dấu bản ghi lỗi để không đưa vào index.	Có dữ liệu mẫu chuẩn hóa, lỗi được cách ly.	Đang làm		Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T29	Tạo thử truy vấn quan hệ bằng Neo4j	Viết và chạy thử truy vấn quan hệ trên dữ liệu mẫu trong Neo4j.	Truy vấn chạy được và kết quả quan hệ được đối chiếu với dữ liệu mẫu.	Đang test	Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T30	Tạo embedding và nạp mẫu vào pgvector	Vector hóa chunk hợp lệ; ghi model/version, dimension và khóa liên kết về tài liệu gốc.	Có embedding mẫu trong pgvector.	Chưa bắt đầu	Đinh Huỳnh Vũ	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T31	Truy vấn pgvector để kiểm thử	Dùng câu hỏi mẫu để kiểm tra top-k, khoảng cách vector và khả năng truy về đúng đoạn nguồn.	Có kết quả tìm vector theo câu hỏi mẫu.	Chưa bắt đầu	Đinh Huỳnh Vũ	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T32	Trích xuất entity cho graph mẫu	Nhận diện công ty, chỉ số, tài liệu, kỳ và sự kiện; ánh xạ entity ID ổn định.	Có danh sách thực thể graph có ID.	Đang test	Hồ Phạm Đăng Nhân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T33	Trích xuất quan hệ và provenance cho edge	Xác định quan hệ có bằng chứng, hướng edge và source locator; không tạo cạnh suy đoán.	Có edge chỉ tạo từ bằng chứng hợp lệ.	Đang test	Hồ Phạm Đăng Nhân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T34	Nạp node và edge mẫu vào Neo4j	Tạo graph thử nghiệm, kiểm tra ràng buộc ID và liên kết mỗi edge với nguồn.	Có graph mẫu trong Neo4j.	Đang test	Hồ Phạm Đăng Nhân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T35	Truy vấn Neo4j để kiểm thử	Thử truy vấn một hoặc hai bước theo công ty và quan hệ; kiểm tra kết quả cùng provenance.	Có kết quả truy vấn graph kèm nguồn.	Đang test	Hồ Phạm Đăng Nhân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T36	Truy vấn dữ kiện PostgreSQL để đối chiếu	Lấy số liệu mẫu theo công ty, chỉ số, kỳ và đơn vị; so với bản ghi nguồn đã chuẩn hóa.	Có kết quả số liệu PostgreSQL để đối chiếu.	Đang test	Nguyễn Minh Quân	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T37	Tổng hợp kết quả cào và cập nhật SRS	Ghi truy vấn, kết quả đúng/sai, lỗi và giới hạn; sửa lược đồ/đặc tả nếu bằng chứng thử nghiệm yêu cầu.	Có báo cáo PoC và các điểm cần sửa trong SRS.	Đang test	Nguyễn Minh Quân	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~Task xong	11		Điều kiện hoàn thành	Mọi task xong; đầu ra của 16 mốc được nghiệm thu.					~~
+
+~~Mốc đạt	0 / 16		Tình trạng	Chưa hoàn tất					~~
+
+~~Kiểm tra lại phạm vi và thống nhất	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	6	4	Chưa bắt đầu	Cần xác nhận các task cũ của tuần 1 nếu có.~~
+
+~~Xác định nguồn dự phòng và đánh giá tính khả thi	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	6	1	Đang thực hiện	Cần xác nhận các task cũ của tuần 1 nếu có.~~
+
+~~Chèn hình và rà soát tính nhất quán SRS	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	9	3	Đang thực hiện	Cần xác nhận các task cũ của tuần 1 nếu có.~~
+
+~~Đối chiếu ID giữa các mô hình dữ liệu	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	8	3	Đang thực hiện	Cần xác nhận các task cũ của tuần 1 nếu có.~~
+
+~~Truy vấn pgvector để kiểm thử	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	7	0	Đang thực hiện	Cần xác nhận các task cũ của tuần 1 nếu có.~~
+
+~~Tổng hợp kết quả PoC và cập nhật SRS	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	6	0	Đang thực hiện	Cần xác nhận các task cũ của tuần 1 nếu có.~~
+
 ## 2026-09-27 22:07 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
