@@ -1,5 +1,47 @@
 # Lịch sử thay đổi: Worklog_Tracking
 
+## 2026-09-28 07:57 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-28 07:57
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Chốt nguồn và điều kiện dùng dữ liệu	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3	2	Nguyễn Minh Quân	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T17	Vẽ state diagram cho đối tượng có vòng đời	Hoàn thiện SRS và các sơ đồ	Gom các use case liên quan; xác định trạng thái, sự kiện, điều kiện chuyển và điểm kết thúc.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có state diagrams cho vòng đời cần mô tả.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	6		Thái Quốc Hưng	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T29	Tạo thử truy vấn quan hệ bằng Neo4j	PoC thu thập và tìm kiếm vector	Viết và chạy thử truy vấn quan hệ trên dữ liệu mẫu trong Neo4j.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Truy vấn chạy được và kết quả quan hệ được đối chiếu với dữ liệu mẫu.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M05	FinMind	1	6	8	Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	Sprint 1	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Nguyễn Minh Quân	Đã hoàn thành	3	3	0	2	-1					3													**
+
+🟢 **	Sprint 1	S1-T17	Vẽ state diagram cho đối tượng có vòng đời	Thái Quốc Hưng	Đã hoàn thành	6	6	0																				**
+
+🟢 **	Sprint 1	S1-T29	Tạo thử truy vấn quan hệ bằng Neo4j	Hồ Phạm Đăng Nhân	Đã hoàn thành	6	6	0	8	2																		**
+
+🟢 **	Sprint 1	S1-T31	Truy vấn pgvector để kiểm thử	Đinh Huỳnh Vũ	Đã hoàn thành	3	3	0	6	3															3	3		**
+
+🟢 **			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	100	100	6	4	1		12	6	6	2	3			3	3	1	3	50		**
+
+🟢 **						#N/A																						**
+
+~~	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Chốt nguồn và điều kiện dùng dữ liệu	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3	3	Nguyễn Minh Quân	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T17	Vẽ state diagram cho đối tượng có vòng đời	Hoàn thiện SRS và các sơ đồ	Gom các use case liên quan; xác định trạng thái, sự kiện, điều kiện chuyển và điểm kết thúc.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có state diagrams cho vòng đời cần mô tả.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	6	7	Thái Quốc Hưng	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T29	Tạo thử truy vấn quan hệ bằng Neo4j	PoC thu thập và tìm kiếm vector	Viết và chạy thử truy vấn quan hệ trên dữ liệu mẫu trong Neo4j.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Truy vấn chạy được và kết quả quan hệ được đối chiếu với dữ liệu mẫu.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M05	FinMind	1	6		Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	Sprint 1	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Nguyễn Minh Quân	Đã hoàn thành	3	3	0	3	0					3													~~
+
+~~	Sprint 1	S1-T17	Vẽ state diagram cho đối tượng có vòng đời	Thái Quốc Hưng	Đã hoàn thành	6	6	0	7	1								2	3	2								~~
+
+~~	Sprint 1	S1-T29	Tạo thử truy vấn quan hệ bằng Neo4j	Hồ Phạm Đăng Nhân	Đã hoàn thành	6	6	0																				~~
+
+~~	Sprint 1	S1-T31	Truy vấn pgvector để kiểm thử	Đinh Huỳnh Vũ	Đã hoàn thành	3	3	0	6	2															3	2		~~
+
+~~			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	114	114	6	4	1		12	6	6	4	6	2		3	3	1	3	57		~~
+
 ## 2026-09-28 07:52 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
