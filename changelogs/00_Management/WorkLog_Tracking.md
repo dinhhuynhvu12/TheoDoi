@@ -1,5 +1,41 @@
 # Lịch sử thay đổi: Worklog_Tracking
 
+## 2026-09-28 08:22 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-28 08:22
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	79	12 task tuần 1 chưa xác nhận.**
+
+🟢 **	S1-T08	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Chốt nguồn và điều kiện dùng dữ liệu	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3		Nguyễn Minh Quân	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	Sprint 1	S1-T08	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Nguyễn Minh Quân	Đã hoàn thành	3	3	0																				**
+
+🟢 **	Sprint 1	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Nguyễn Minh Quân	Đã hoàn thành	3	3	0	2																			**
+
+🟢 **	Sprint 1	S1-T19	Chia pipeline dữ liệu thành các phần nhỏ	Nguyễn Minh Quân	Đã hoàn thành	4	4	0	5	1																		**
+
+🟢 **			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	112	112	6	4	1		6	4	6	2	5			6	6	4	6	56		**
+
+🟢 **	Giờ thực tế đã ghi	79**
+
+~~	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	82	12 task tuần 1 chưa xác nhận.~~
+
+~~	S1-T08	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Chốt nguồn và điều kiện dùng dữ liệu	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3	3	Nguyễn Minh Quân	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	Sprint 1	S1-T08	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Nguyễn Minh Quân	Đã hoàn thành	3	3	0	3	0					3													~~
+
+~~	Sprint 1	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Nguyễn Minh Quân	Đã hoàn thành	3	3	0	2	-1					2													~~
+
+~~	Sprint 1	S1-T19	Chia pipeline dữ liệu thành các phần nhỏ	Nguyễn Minh Quân	Đã hoàn thành	4	4	0	5	1					5													~~
+
+~~			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	132	132	6	4	1		16	4	6	2	5			6	6	4	6	66		~~
+
+~~	Giờ thực tế đã ghi	82~~
+
 ## 2026-09-28 08:17 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
