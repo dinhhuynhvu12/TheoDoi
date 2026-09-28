@@ -1,5 +1,29 @@
 # Lịch sử thay đổi: Worklog_Tracking
 
+## 2026-09-28 10:57 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-28 10:57
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	79	12 task tuần 1 chưa xác nhận.**
+
+🟢 **	S1-T42	Xây dựng module chuẩn hóa dữ liệu & khử lỗi	PoC thu thập và tìm kiếm vector	Xây dựng phần xử lý dữ liệu mẫu để thống nhất định dạng và xử lý giá trị số không hợp lệ.	Dữ liệu mẫu được chuẩn hóa trước các bước lưu trữ và tìm kiếm.	Có module, dữ liệu trước/sau xử lý và kết quả kiểm thử các trường hợp số không hợp lệ.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu; deadline chưa hiển thị trong ảnh; tên bị cắt và giờ dự kiến chưa hiển thị.	Trung bình	Đã hoàn thành	...**
+
+🟢 **	Sprint 1	S1-T42	Xây dựng module chuẩn hóa dữ liệu & khử lỗi	Nguyễn Minh Quân	Đã hoàn thành	4	4	0	5																			**
+
+🟢 **	Giờ thực tế đã ghi	79**
+
+~~	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	74	12 task tuần 1 chưa xác nhận.~~
+
+~~	S1-T42	Xây dựng module chuẩn hóa dữ liệu & khử lỗi	PoC thu thập và tìm kiếm vector	Xây dựng phần xử lý dữ liệu mẫu để thống nhất định dạng và xử lý giá trị số không hợp lệ.	Dữ liệu mẫu được chuẩn hóa trước các bước lưu trữ và tìm kiếm.	Có module, dữ liệu trước/sau xử lý và kết quả kiểm thử các trường hợp số không hợp lệ.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu; deadline chưa hiển thị trong ảnh; tên bị cắt và giờ dự kiến chưa hiển thị.	Trung bình	Đã hoàn thành	...~~
+
+~~	Sprint 1	S1-T42	Xây dựng module chuẩn hóa dữ liệu & khử lỗi	Nguyễn Minh Quân	Đã hoàn thành	4	4	0																				~~
+
+~~	Giờ thực tế đã ghi	74~~
+
 ## 2026-09-28 10:52 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
