@@ -1,5 +1,69 @@
 # Lịch sử thay đổi: Worklog_Tracking
 
+## 2026-09-28 07:22 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-28 07:22
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	20	12 task tuần 1 chưa xác nhận.**
+
+🟢 **	S1-T02	Chốt phạm vi và giới hạn của bản MVP	Chốt nhu cầu và phạm vi MVP	Xác định chức năng thuộc MVP, phần mở rộng và các nội dung nằm ngoài phạm vi dự án.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Rất cao	Đã hoàn thành	M01	FinMind	1	3	3	Thái Quốc Hưng	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Chốt nhu cầu và phạm vi MVP	Chuẩn bị câu hỏi để tìm hiểu khó khăn, nhu cầu và kỳ vọng của người dùng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	2	1	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T05	Thực hiện nghiên cứu và tổng hợp kết quả	Chốt nhu cầu và phạm vi MVP	Thực hiện khảo sát hoặc phỏng vấn và tổng hợp các phát hiện quan trọng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	4	5	Thái Quốc Hưng	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T06	Kiểm tra lại phạm vi và thống nhất	Chốt nhu cầu và phạm vi MVP	Đối chiếu kết quả nghiên cứu với phạm vi MVP và ghi nhận quyết định cuối cùng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	4	4	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T07	Lập danh sách nguồn dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Tạo danh sách nguồn, loại tài liệu, đơn vị phát hành, đường dẫn và phạm vi dữ liệu cần thu thập.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	2	2	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	Sprint 1	S1-T01	Xác định các nhóm người dùng chính	Thái Quốc Hưng	Đã hoàn thành	1	1	0	1	0					1													**
+
+🟢 **	Sprint 1	S1-T02	Chốt phạm vi và giới hạn của bản MVP	Thái Quốc Hưng	Đã hoàn thành	3	3	0	3	0					3													**
+
+🟢 **	Sprint 1	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Trần Diệu Huyền	Đã hoàn thành	2	2	0	1	-1					1													**
+
+🟢 **	Sprint 1	S1-T05	Thực hiện nghiên cứu và tổng hợp kết quả	Thái Quốc Hưng	Đã hoàn thành	4	4	0	5	1					3	2												**
+
+🟢 **	Sprint 1	S1-T06	Kiểm tra lại phạm vi và thống nhất	Trần Diệu Huyền	Đã hoàn thành	4	4	0	4	0						3	1											**
+
+🟢 **	Sprint 1	S1-T07	Lập danh sách nguồn dữ liệu	Trần Diệu Huyền	Đã hoàn thành	2	2	0	2	0							2											**
+
+🟢 **			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	40	40					11	6	3									20		**
+
+🟢 **	Giờ thực tế đã ghi	20**
+
+~~	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	14	12 task tuần 1 chưa xác nhận.~~
+
+~~	S1-T02	Chốt phạm vi và giới hạn của bản MVP	Chốt nhu cầu và phạm vi MVP	Xác định chức năng thuộc MVP, phần mở rộng và các nội dung nằm ngoài phạm vi dự án.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Rất cao	Đã hoàn thành	M01	FinMind	1	3	1	Thái Quốc Hưng	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Chốt nhu cầu và phạm vi MVP	Chuẩn bị câu hỏi để tìm hiểu khó khăn, nhu cầu và kỳ vọng của người dùng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	2	2	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T05	Thực hiện nghiên cứu và tổng hợp kết quả	Chốt nhu cầu và phạm vi MVP	Thực hiện khảo sát hoặc phỏng vấn và tổng hợp các phát hiện quan trọng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	4	3	Thái Quốc Hưng	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T06	Kiểm tra lại phạm vi và thống nhất	Chốt nhu cầu và phạm vi MVP	Đối chiếu kết quả nghiên cứu với phạm vi MVP và ghi nhận quyết định cuối cùng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	4	3	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T07	Lập danh sách nguồn dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Tạo danh sách nguồn, loại tài liệu, đơn vị phát hành, đường dẫn và phạm vi dữ liệu cần thu thập.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	2		Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	Sprint 1	S1-T01	Xác định các nhóm người dùng chính	Thái Quốc Hưng	Đã hoàn thành	1	1	0	1	0																		~~
+
+~~	Sprint 1	S1-T02	Chốt phạm vi và giới hạn của bản MVP	Thái Quốc Hưng	Đã hoàn thành	3	3	0	1	-2					1													~~
+
+~~	Sprint 1	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Trần Diệu Huyền	Đã hoàn thành	2	2	0	2	0																		~~
+
+~~	Sprint 1	S1-T05	Thực hiện nghiên cứu và tổng hợp kết quả	Thái Quốc Hưng	Đã hoàn thành	4	4	0	3	-1																		~~
+
+~~	Sprint 1	S1-T06	Kiểm tra lại phạm vi và thống nhất	Trần Diệu Huyền	Đã hoàn thành	4	4	0	3	-1																		~~
+
+~~	Sprint 1	S1-T07	Lập danh sách nguồn dữ liệu	Trần Diệu Huyền	Đã hoàn thành	2	2	0																				~~
+
+~~			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	10	10					4	1										5		~~
+
+~~	Giờ thực tế đã ghi	14~~
+
 ## 2026-09-28 07:17 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
