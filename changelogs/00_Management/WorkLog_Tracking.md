@@ -1,5 +1,61 @@
 # Lịch sử thay đổi: Worklog_Tracking
 
+## 2026-09-28 07:42 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-28 07:42
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	59	12 task tuần 1 chưa xác nhận.**
+
+🟢 **	S1-T13	Rà soát SRS và danh mục use case	Hoàn thiện SRS và các sơ đồ	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có bảng đối chiếu UC–FR/NFR đã rà.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M03	FinMind	1	4	3	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T16	Vẽ sequence diagram theo use case	Hoàn thiện SRS và các sơ đồ	Thể hiện actor, giao diện, dịch vụ và kho dữ liệu; thông điệp phải khớp kịch bản của từng use case.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có sequence diagrams theo use case.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	8	6	Đinh Huỳnh Vũ	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T23	Vẽ lược đồ bảng chunk/embedding pgvector	Thiết kế mô hình dữ liệu	Xác định chunk, embedding, vector dimension, metadata, source locator và liên kết với PostgreSQL.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có lược đồ chunk/embedding của pgvector.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M04	FinMind	1	3	3	Đinh Huỳnh Vũ	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T40	Vẽ usecase diagram cho từng đặc tả use case	Hoàn thiện SRS và các sơ đồ	Vẽ sơ đồ use case riêng cho từng đặc tả, thể hiện người sử dụng và chức năng liên quan.	SRS có sơ đồ dễ đối chiếu với từng đặc tả use case.	Các sơ đồ khớp actor, tên chức năng và mã use case trong SRS.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu; deadline chưa hiển thị trong ảnh.	Trung bình	Đã hoàn thành	M03	FinMind	1	4	9	Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Ti...**
+
+🟢 **	Sprint 1	S1-T14	Vẽ context và business function diagram	Đinh Huỳnh Vũ	Đã hoàn thành	5	0	5																				**
+
+🟢 **	Sprint 1	S1-T16	Vẽ sequence diagram theo use case	Đinh Huỳnh Vũ	Đã hoàn thành	8	8	0	6	-2					3	3												**
+
+🟢 **	Sprint 1	S1-T23	Vẽ lược đồ bảng chunk/embedding pgvector	Đinh Huỳnh Vũ	Đã hoàn thành	3	3	0	3	0	3																	**
+
+🟢 **	Sprint 1	S1-T40	Vẽ usecase diagram cho từng đặc tả use case	Hồ Phạm Đăng Nhân	Đã hoàn thành	4	4	0	9	5	8																1	**
+
+🟢 **			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	110	110	16	4	1		12	9	3	3	6							54	2	**
+
+🟢 **	Giờ thực tế đã ghi	59**
+
+🟢 **9	1	S1-T13	Rà soát SRS và danh mục use case	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	Có bảng đối chiếu UC–FR/NFR đã rà.	Đã hoàn thành	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+~~	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	47	12 task tuần 1 chưa xác nhận.~~
+
+~~	S1-T13	Rà soát SRS và danh mục use case	Hoàn thiện SRS và các sơ đồ	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có bảng đối chiếu UC–FR/NFR đã rà.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M03	FinMind	1	4	3	Trần Diệu Huyền	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T16	Vẽ sequence diagram theo use case	Hoàn thiện SRS và các sơ đồ	Thể hiện actor, giao diện, dịch vụ và kho dữ liệu; thông điệp phải khớp kịch bản của từng use case.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có sequence diagrams theo use case.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	8		Đinh Huỳnh Vũ	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T23	Vẽ lược đồ bảng chunk/embedding pgvector	Thiết kế mô hình dữ liệu	Xác định chunk, embedding, vector dimension, metadata, source locator và liên kết với PostgreSQL.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có lược đồ chunk/embedding của pgvector.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M04	FinMind	1	3		Đinh Huỳnh Vũ	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T40	Vẽ usecase diagram cho từng đặc tả use case	Hoàn thiện SRS và các sơ đồ	Vẽ sơ đồ use case riêng cho từng đặc tả, thể hiện người sử dụng và chức năng liên quan.	SRS có sơ đồ dễ đối chiếu với từng đặc tả use case.	Các sơ đồ khớp actor, tên chức năng và mã use case trong SRS.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu; deadline chưa hiển thị trong ảnh.	Trung bình	Đã hoàn thành	M03	FinMind	1	4	6	Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Ti...~~
+
+~~	Sprint 1	S1-T14	Vẽ context và business function diagram	Đinh Huỳnh Vũ	Đã hoàn thành	5	5	0																				~~
+
+~~	Sprint 1	S1-T16	Vẽ sequence diagram theo use case	Đinh Huỳnh Vũ	Đã hoàn thành	8	8	0																				~~
+
+~~	Sprint 1	S1-T23	Vẽ lược đồ bảng chunk/embedding pgvector	Đinh Huỳnh Vũ	Đã hoàn thành	3	3	0																				~~
+
+~~	Sprint 1	S1-T40	Vẽ usecase diagram cho từng đặc tả use case	Hồ Phạm Đăng Nhân	Đã hoàn thành	4	4	0	6	2	5																1	~~
+
+~~			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	86	86	10	4	1		9	6	3	3	6							42	2	~~
+
+~~	Giờ thực tế đã ghi	47~~
+
+~~9	1	S1-T13	Rà soát SRS và danh mục use case	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	Có bảng đối chiếu UC–FR/NFR đã rà.	Đã hoàn thành	Trần Diệu Huyền	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
 ## 2026-09-28 07:37 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
