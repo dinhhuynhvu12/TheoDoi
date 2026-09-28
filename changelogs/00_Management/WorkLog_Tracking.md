@@ -1,5 +1,153 @@
 # Lịch sử thay đổi: Worklog_Tracking
 
+## 2026-09-28 07:47 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-28 07:47
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	56	12 task tuần 1 chưa xác nhận.**
+
+🟢 **	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Chốt nhu cầu và phạm vi MVP	Chuẩn bị câu hỏi để tìm hiểu khó khăn, nhu cầu và kỳ vọng của người dùng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	2		Trần Diệu Huyền	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T05	Thực hiện nghiên cứu và tổng hợp kết quả	Chốt nhu cầu và phạm vi MVP	Thực hiện khảo sát hoặc phỏng vấn và tổng hợp các phát hiện quan trọng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	4	4	Thái Quốc Hưng	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T06	Kiểm tra lại phạm vi và thống nhất	Chốt nhu cầu và phạm vi MVP	Đối chiếu kết quả nghiên cứu với phạm vi MVP và ghi nhận quyết định cuối cùng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	4		Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T07	Lập danh sách nguồn dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Tạo danh sách nguồn, loại tài liệu, đơn vị phát hành, đường dẫn và phạm vi dữ liệu cần thu thập.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	2		Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Chốt nguồn và điều kiện dùng dữ liệu	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3		Nguyễn Minh Quân	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T10	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Kiểm tra khả năng truy cập, lưu trữ, xử lý và trích dẫn dữ liệu trong hệ thống.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	2		Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T11	Xây dựng quy tắc kiểm tra và chốt bộ dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Quy định cách kiểm tra công ty, kỳ báo cáo, đơn vị, phiên bản và tài liệu trùng lặp.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	4		Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T12	Xác định nguồn dự phòng và đánh giá tính khả thi	Chốt nguồn và điều kiện dùng dữ liệu	Chuẩn bị nguồn thay thế và đánh giá rủi ro khi nguồn chính thay đổi hoặc không truy cập được.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3		Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T13	Rà soát SRS và danh mục use case	Hoàn thiện SRS và các sơ đồ	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có bảng đối chiếu UC–FR/NFR đã rà.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M03	FinMind	1	4		Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T15	Vẽ activity diagram theo use case	Hoàn thiện SRS và các sơ đồ	Mô tả luồng chính, nhánh thay thế và ngoại lệ; kiểm tra node bắt đầu/kết thúc và lưu hình cùng draw.io.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có activity diagrams và file chỉnh sửa được.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	8	6	Thái Quốc Hưng	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T17	Vẽ state diagram cho đối tượng có vòng đời	Hoàn thiện SRS và các sơ đồ	Gom các use case liên quan; xác định trạng thái, sự kiện, điều kiện chuyển và điểm kết thúc.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có state diagrams cho vòng đời cần mô tả.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	6	7	Thái Quốc Hưng	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T23	Vẽ lược đồ bảng chunk/embedding pgvector	Thiết kế mô hình dữ liệu	Xác định chunk, embedding, vector dimension, metadata, source locator và liên kết với PostgreSQL.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có lược đồ chunk/embedding của pgvector.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M04	FinMind	1	3	4	Đinh Huỳnh Vũ	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T28	Parse và chuẩn hóa tài liệu mẫu	PoC thu thập và tìm kiếm vector	Trích văn bản/bảng, chuẩn hóa ticker, kỳ, đơn vị và đánh dấu bản ghi lỗi để không đưa vào index.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Có dữ liệu mẫu chuẩn hóa, lỗi được cách ly.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M05	FinMind	1	3	6	Đinh Huỳnh Vũ	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T30	Tạo embedding và nạp mẫu vào pgvector	PoC thu thập và tìm kiếm vector	Vector hóa chunk hợp lệ; ghi model/version, dimension và khóa liên kết về tài liệu gốc.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Có embedding mẫu trong pgvector.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M05	FinMind	1	3	4	Đinh Huỳnh Vũ	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T31	Truy vấn pgvector để kiểm thử	PoC thu thập và tìm kiếm vector	Dùng câu hỏi mẫu để kiểm tra top-k, khoảng cách vector và khả năng truy về đúng đoạn nguồn.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Có kết quả tìm vector theo câu hỏi mẫu.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M05	FinMind	1	3	5	Đinh Huỳnh Vũ	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T40	Vẽ usecase diagram cho từng đặc tả use case	Hoàn thiện SRS và các sơ đồ	Vẽ sơ đồ use case riêng cho từng đặc tả, thể hiện người sử dụng và chức năng liên quan.	SRS có sơ đồ dễ đối chiếu với từng đặc tả use case.	Các sơ đồ khớp actor, tên chức năng và mã use case trong SRS.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu; deadline chưa hiển thị trong ảnh.	Trung bình	Đã hoàn thành	M03	FinMind	1	4	3	Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Ti...**
+
+🟢 **	Sprint 1	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Trần Diệu Huyền	Đã hoàn thành	2	2	0																				**
+
+🟢 **	Sprint 1	S1-T05	Thực hiện nghiên cứu và tổng hợp kết quả	Thái Quốc Hưng	Đã hoàn thành	4	4	0	4	0					3	1												**
+
+🟢 **	Sprint 1	S1-T06	Kiểm tra lại phạm vi và thống nhất	Trần Diệu Huyền	Đã hoàn thành	4	4	0																				**
+
+🟢 **	Sprint 1	S1-T07	Lập danh sách nguồn dữ liệu	Trần Diệu Huyền	Đã hoàn thành	2	2	0																				**
+
+🟢 **	Sprint 1	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Nguyễn Minh Quân	Đã hoàn thành	3	3	0																				**
+
+🟢 **	Sprint 1	S1-T10	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Trần Diệu Huyền	Đã hoàn thành	2	2	0																				**
+
+🟢 **	Sprint 1	S1-T11	Xây dựng quy tắc kiểm tra và chốt bộ dữ liệu	Trần Diệu Huyền	Đã hoàn thành	4	4	0																				**
+
+🟢 **	Sprint 1	S1-T12	Xác định nguồn dự phòng và đánh giá tính khả thi	Trần Diệu Huyền	Đã hoàn thành	3	3	0																				**
+
+🟢 **	Sprint 1	S1-T13	Rà soát SRS và danh mục use case	Trần Diệu Huyền	Đã hoàn thành	4	4	0																				**
+
+🟢 **	Sprint 1	S1-T15	Vẽ activity diagram theo use case	Thái Quốc Hưng	Đã hoàn thành	8	8	0	6	-2						2	3	1										**
+
+🟢 **	Sprint 1	S1-T17	Vẽ state diagram cho đối tượng có vòng đời	Thái Quốc Hưng	Đã hoàn thành	6	6	0	7	1								2	3	2								**
+
+🟢 **	Sprint 1	S1-T23	Vẽ lược đồ bảng chunk/embedding pgvector	Đinh Huỳnh Vũ	Đã hoàn thành	3	3	0	4	1							3	1										**
+
+🟢 **	Sprint 1	S1-T28	Parse và chuẩn hóa tài liệu mẫu	Đinh Huỳnh Vũ	Đã hoàn thành	3	3	0	6	3									3			3						**
+
+🟢 **	Sprint 1	S1-T30	Tạo embedding và nạp mẫu vào pgvector	Đinh Huỳnh Vũ	Đã hoàn thành	3	3	0	4	1													3	1				**
+
+🟢 **	Sprint 1	S1-T31	Truy vấn pgvector để kiểm thử	Đinh Huỳnh Vũ	Đã hoàn thành	3	3	0	5	2															3	2		**
+
+🟢 **	Sprint 1	S1-T40	Vẽ usecase diagram cho từng đặc tả use case	Hồ Phạm Đăng Nhân	Đã hoàn thành	4	4	0	3	-1	3																	**
+
+🟢 **			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	108	108	6	4	1		9	6	6	4	6	2		3	3	1	3	54		**
+
+🟢 **	Giờ thực tế đã ghi	56**
+
+~~	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	59	12 task tuần 1 chưa xác nhận.~~
+
+~~	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Chốt nhu cầu và phạm vi MVP	Chuẩn bị câu hỏi để tìm hiểu khó khăn, nhu cầu và kỳ vọng của người dùng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	2	2	Trần Diệu Huyền	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T05	Thực hiện nghiên cứu và tổng hợp kết quả	Chốt nhu cầu và phạm vi MVP	Thực hiện khảo sát hoặc phỏng vấn và tổng hợp các phát hiện quan trọng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	4	3	Thái Quốc Hưng	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T06	Kiểm tra lại phạm vi và thống nhất	Chốt nhu cầu và phạm vi MVP	Đối chiếu kết quả nghiên cứu với phạm vi MVP và ghi nhận quyết định cuối cùng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	4	4	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T07	Lập danh sách nguồn dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Tạo danh sách nguồn, loại tài liệu, đơn vị phát hành, đường dẫn và phạm vi dữ liệu cần thu thập.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	2	2	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Chốt nguồn và điều kiện dùng dữ liệu	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3	3	Nguyễn Minh Quân	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T10	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Kiểm tra khả năng truy cập, lưu trữ, xử lý và trích dẫn dữ liệu trong hệ thống.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	2	2	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T11	Xây dựng quy tắc kiểm tra và chốt bộ dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Quy định cách kiểm tra công ty, kỳ báo cáo, đơn vị, phiên bản và tài liệu trùng lặp.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	4	4	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T12	Xác định nguồn dự phòng và đánh giá tính khả thi	Chốt nguồn và điều kiện dùng dữ liệu	Chuẩn bị nguồn thay thế và đánh giá rủi ro khi nguồn chính thay đổi hoặc không truy cập được.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3	3	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T13	Rà soát SRS và danh mục use case	Hoàn thiện SRS và các sơ đồ	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có bảng đối chiếu UC–FR/NFR đã rà.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M03	FinMind	1	4	3	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T15	Vẽ activity diagram theo use case	Hoàn thiện SRS và các sơ đồ	Mô tả luồng chính, nhánh thay thế và ngoại lệ; kiểm tra node bắt đầu/kết thúc và lưu hình cùng draw.io.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có activity diagrams và file chỉnh sửa được.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	8	4	Thái Quốc Hưng	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T17	Vẽ state diagram cho đối tượng có vòng đời	Hoàn thiện SRS và các sơ đồ	Gom các use case liên quan; xác định trạng thái, sự kiện, điều kiện chuyển và điểm kết thúc.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có state diagrams cho vòng đời cần mô tả.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	6		Thái Quốc Hưng	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T23	Vẽ lược đồ bảng chunk/embedding pgvector	Thiết kế mô hình dữ liệu	Xác định chunk, embedding, vector dimension, metadata, source locator và liên kết với PostgreSQL.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có lược đồ chunk/embedding của pgvector.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M04	FinMind	1	3	3	Đinh Huỳnh Vũ	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T28	Parse và chuẩn hóa tài liệu mẫu	PoC thu thập và tìm kiếm vector	Trích văn bản/bảng, chuẩn hóa ticker, kỳ, đơn vị và đánh dấu bản ghi lỗi để không đưa vào index.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Có dữ liệu mẫu chuẩn hóa, lỗi được cách ly.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M05	FinMind	1	3		Đinh Huỳnh Vũ	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T30	Tạo embedding và nạp mẫu vào pgvector	PoC thu thập và tìm kiếm vector	Vector hóa chunk hợp lệ; ghi model/version, dimension và khóa liên kết về tài liệu gốc.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Có embedding mẫu trong pgvector.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M05	FinMind	1	3		Đinh Huỳnh Vũ	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T31	Truy vấn pgvector để kiểm thử	PoC thu thập và tìm kiếm vector	Dùng câu hỏi mẫu để kiểm tra top-k, khoảng cách vector và khả năng truy về đúng đoạn nguồn.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Có kết quả tìm vector theo câu hỏi mẫu.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M05	FinMind	1	3		Đinh Huỳnh Vũ	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T40	Vẽ usecase diagram cho từng đặc tả use case	Hoàn thiện SRS và các sơ đồ	Vẽ sơ đồ use case riêng cho từng đặc tả, thể hiện người sử dụng và chức năng liên quan.	SRS có sơ đồ dễ đối chiếu với từng đặc tả use case.	Các sơ đồ khớp actor, tên chức năng và mã use case trong SRS.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu; deadline chưa hiển thị trong ảnh.	Trung bình	Đã hoàn thành	M03	FinMind	1	4	9	Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Ti...~~
+
+~~	Sprint 1	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Trần Diệu Huyền	Đã hoàn thành	2	2	0	2	0	2																	~~
+
+~~	Sprint 1	S1-T05	Thực hiện nghiên cứu và tổng hợp kết quả	Thái Quốc Hưng	Đã hoàn thành	4	4	0	3	-1					3													~~
+
+~~	Sprint 1	S1-T06	Kiểm tra lại phạm vi và thống nhất	Trần Diệu Huyền	Đã hoàn thành	4	4	0	4	0					3	1												~~
+
+~~	Sprint 1	S1-T07	Lập danh sách nguồn dữ liệu	Trần Diệu Huyền	Đã hoàn thành	2	2	0	2	0						2												~~
+
+~~	Sprint 1	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Nguyễn Minh Quân	Đã hoàn thành	3	3	0	3	0						3												~~
+
+~~	Sprint 1	S1-T10	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Trần Diệu Huyền	Đã hoàn thành	2	2	0	2	0							2											~~
+
+~~	Sprint 1	S1-T11	Xây dựng quy tắc kiểm tra và chốt bộ dữ liệu	Trần Diệu Huyền	Đã hoàn thành	4	4	0	4	0							1	3										~~
+
+~~	Sprint 1	S1-T12	Xác định nguồn dự phòng và đánh giá tính khả thi	Trần Diệu Huyền	Đã hoàn thành	3	3	0	3	0									3									~~
+
+~~	Sprint 1	S1-T13	Rà soát SRS và danh mục use case	Trần Diệu Huyền	Đã hoàn thành	4	4	0	3	-1									3									~~
+
+~~	Sprint 1	S1-T15	Vẽ activity diagram theo use case	Thái Quốc Hưng	Đã hoàn thành	8	8	0	4	-4																3	1	~~
+
+~~	Sprint 1	S1-T17	Vẽ state diagram cho đối tượng có vòng đời	Thái Quốc Hưng	Đã hoàn thành	6	6	0																				~~
+
+~~	Sprint 1	S1-T23	Vẽ lược đồ bảng chunk/embedding pgvector	Đinh Huỳnh Vũ	Đã hoàn thành	3	3	0	3	0	3																	~~
+
+~~	Sprint 1	S1-T28	Parse và chuẩn hóa tài liệu mẫu	Đinh Huỳnh Vũ	Đã hoàn thành	3	3	0																				~~
+
+~~	Sprint 1	S1-T30	Tạo embedding và nạp mẫu vào pgvector	Đinh Huỳnh Vũ	Đã hoàn thành	3	3	0																				~~
+
+~~	Sprint 1	S1-T31	Truy vấn pgvector để kiểm thử	Đinh Huỳnh Vũ	Đã hoàn thành	3	3	0																				~~
+
+~~	Sprint 1	S1-T40	Vẽ usecase diagram cho từng đặc tả use case	Hồ Phạm Đăng Nhân	Đã hoàn thành	4	4	0	9	5	8																1	~~
+
+~~			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	110	110	16	4	1		12	9	3	3	6							54	2	~~
+
+~~	Giờ thực tế đã ghi	59~~
+
 ## 2026-09-28 07:42 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
