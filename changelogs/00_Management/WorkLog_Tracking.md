@@ -1,5 +1,149 @@
 # Lịch sử thay đổi: Worklog_Tracking
 
+## 2026-09-28 07:37 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-28 07:37
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	47	12 task tuần 1 chưa xác nhận.**
+
+🟢 **	S1-T01	Xác định các nhóm người dùng chính	Chốt nhu cầu và phạm vi MVP	Xác định nhà đầu tư, chuyên viên phân tích và quản trị dữ liệu cùng nhu cầu chính của từng nhóm.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Rất cao	Đã hoàn thành	M01	FinMind	1	1	1	Thái Quốc Hưng	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T02	Chốt phạm vi và giới hạn của bản MVP	Chốt nhu cầu và phạm vi MVP	Xác định chức năng thuộc MVP, phần mở rộng và các nội dung nằm ngoài phạm vi dự án.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Rất cao	Đã hoàn thành	M01	FinMind	1	3	3	Thái Quốc Hưng	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T03	Lập danh sách chức năng theo thứ tự ưu tiên	Chốt nhu cầu và phạm vi MVP	Phân loại chức năng bắt buộc, nên có và có thể thực hiện ở giai đoạn sau.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Rất cao	Đã hoàn thành	M01	FinMind	1	4	4	Thái Quốc Hưng	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Chốt nhu cầu và phạm vi MVP	Chuẩn bị câu hỏi để tìm hiểu khó khăn, nhu cầu và kỳ vọng của người dùng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	2	2	Trần Diệu Huyền	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T05	Thực hiện nghiên cứu và tổng hợp kết quả	Chốt nhu cầu và phạm vi MVP	Thực hiện khảo sát hoặc phỏng vấn và tổng hợp các phát hiện quan trọng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	4	3	Thái Quốc Hưng	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Chốt nguồn và điều kiện dùng dữ liệu	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3	3	Nguyễn Minh Quân	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T10	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Kiểm tra khả năng truy cập, lưu trữ, xử lý và trích dẫn dữ liệu trong hệ thống.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	2	2	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T11	Xây dựng quy tắc kiểm tra và chốt bộ dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Quy định cách kiểm tra công ty, kỳ báo cáo, đơn vị, phiên bản và tài liệu trùng lặp.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	4	4	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T13	Rà soát SRS và danh mục use case	Hoàn thiện SRS và các sơ đồ	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có bảng đối chiếu UC–FR/NFR đã rà.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M03	FinMind	1	4	3	Trần Diệu Huyền	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T14	Vẽ context và business function diagram	Hoàn thiện SRS và các sơ đồ	Thể hiện tác nhân, hệ thống ngoài và phân rã chức năng; đối chiếu nội dung với SRS.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có context và business function diagram khớp SRS.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	5		Đinh Huỳnh Vũ	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T15	Vẽ activity diagram theo use case	Hoàn thiện SRS và các sơ đồ	Mô tả luồng chính, nhánh thay thế và ngoại lệ; kiểm tra node bắt đầu/kết thúc và lưu hình cùng draw.io.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có activity diagrams và file chỉnh sửa được.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	8	4	Thái Quốc Hưng	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T40	Vẽ usecase diagram cho từng đặc tả use case	Hoàn thiện SRS và các sơ đồ	Vẽ sơ đồ use case riêng cho từng đặc tả, thể hiện người sử dụng và chức năng liên quan.	SRS có sơ đồ dễ đối chiếu với từng đặc tả use case.	Các sơ đồ khớp actor, tên chức năng và mã use case trong SRS.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu; deadline chưa hiển thị trong ảnh.	Trung bình	Đã hoàn thành	M03	FinMind	1	4	6	Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Ti...**
+
+🟢 **	Sprint 1	S1-T01	Xác định các nhóm người dùng chính	Thái Quốc Hưng	Đã hoàn thành	1	1	0	1	0	1																	**
+
+🟢 **	Sprint 1	S1-T02	Chốt phạm vi và giới hạn của bản MVP	Thái Quốc Hưng	Đã hoàn thành	3	3	0	3	0	2	1																**
+
+🟢 **	Sprint 1	S1-T03	Lập danh sách chức năng theo thứ tự ưu tiên	Thái Quốc Hưng	Đã hoàn thành	4	4	0	4	0		3	1															**
+
+🟢 **	Sprint 1	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Trần Diệu Huyền	Đã hoàn thành	2	2	0	2	0	2																	**
+
+🟢 **	Sprint 1	S1-T05	Thực hiện nghiên cứu và tổng hợp kết quả	Thái Quốc Hưng	Đã hoàn thành	4	4	0	3	-1					3													**
+
+🟢 **	Sprint 1	S1-T06	Kiểm tra lại phạm vi và thống nhất	Trần Diệu Huyền	Đã hoàn thành	4	4	0	4	0					3	1												**
+
+🟢 **	Sprint 1	S1-T08	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Nguyễn Minh Quân	Đã hoàn thành	3	3	0	3	0					3													**
+
+🟢 **	Sprint 1	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Nguyễn Minh Quân	Đã hoàn thành	3	3	0	3	0						3												**
+
+🟢 **	Sprint 1	S1-T10	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Trần Diệu Huyền	Đã hoàn thành	2	2	0	2	0							2											**
+
+🟢 **	Sprint 1	S1-T11	Xây dựng quy tắc kiểm tra và chốt bộ dữ liệu	Trần Diệu Huyền	Đã hoàn thành	4	4	0	4	0							1	3										**
+
+🟢 **	Sprint 1	S1-T12	Xác định nguồn dự phòng và đánh giá tính khả thi	Trần Diệu Huyền	Đã hoàn thành	3	3	0	3	0									3									**
+
+🟢 **	Sprint 1	S1-T13	Rà soát SRS và danh mục use case	Trần Diệu Huyền	Đã hoàn thành	4	4	0	3	-1									3									**
+
+🟢 **	Sprint 1	S1-T14	Vẽ context và business function diagram	Đinh Huỳnh Vũ	Đã hoàn thành	5	5	0																				**
+
+🟢 **	Sprint 1	S1-T15	Vẽ activity diagram theo use case	Thái Quốc Hưng	Đã hoàn thành	8	8	0	4	-4																3	1	**
+
+🟢 **	Sprint 1	S1-T40	Vẽ usecase diagram cho từng đặc tả use case	Hồ Phạm Đăng Nhân	Đã hoàn thành	4	4	0	6	2	5																1	**
+
+🟢 **			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	86	86	10	4	1		9	6	3	3	6							42	2	**
+
+🟢 **	Giờ thực tế đã ghi	47**
+
+🟢 **9	1	S1-T01	Xác định các nhóm người dùng chính	Xác định nhà đầu tư, chuyên viên phân tích và quản trị dữ liệu cùng nhu cầu chính của từng nhóm.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Đã hoàn thành	Thái Quốc Hưng	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T02	Chốt phạm vi và giới hạn của bản MVP	Xác định chức năng thuộc MVP, phần mở rộng và các nội dung nằm ngoài phạm vi dự án.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Đã hoàn thành	Thái Quốc Hưng	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T03	Lập danh sách chức năng theo thứ tự ưu tiên	Phân loại chức năng bắt buộc, nên có và có thể thực hiện ở giai đoạn sau.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Đã hoàn thành	Thái Quốc Hưng	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **9	1	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Chuẩn bị câu hỏi để tìm hiểu khó khăn, nhu cầu và kỳ vọng của người dùng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Đã hoàn thành	Trần Diệu Huyền	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+~~	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	54	12 task tuần 1 chưa xác nhận.~~
+
+~~	S1-T01	Xác định các nhóm người dùng chính	Chốt nhu cầu và phạm vi MVP	Xác định nhà đầu tư, chuyên viên phân tích và quản trị dữ liệu cùng nhu cầu chính của từng nhóm.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Rất cao	Đã hoàn thành	M01	FinMind	1	1	1	Thái Quốc Hưng	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T02	Chốt phạm vi và giới hạn của bản MVP	Chốt nhu cầu và phạm vi MVP	Xác định chức năng thuộc MVP, phần mở rộng và các nội dung nằm ngoài phạm vi dự án.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Rất cao	Đã hoàn thành	M01	FinMind	1	3	3	Thái Quốc Hưng	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T03	Lập danh sách chức năng theo thứ tự ưu tiên	Chốt nhu cầu và phạm vi MVP	Phân loại chức năng bắt buộc, nên có và có thể thực hiện ở giai đoạn sau.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Rất cao	Đã hoàn thành	M01	FinMind	1	4	4	Thái Quốc Hưng	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Chốt nhu cầu và phạm vi MVP	Chuẩn bị câu hỏi để tìm hiểu khó khăn, nhu cầu và kỳ vọng của người dùng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	2	1	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T05	Thực hiện nghiên cứu và tổng hợp kết quả	Chốt nhu cầu và phạm vi MVP	Thực hiện khảo sát hoặc phỏng vấn và tổng hợp các phát hiện quan trọng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	4	5	Thái Quốc Hưng	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Chốt nguồn và điều kiện dùng dữ liệu	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3	2	Nguyễn Minh Quân	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T10	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Kiểm tra khả năng truy cập, lưu trữ, xử lý và trích dẫn dữ liệu trong hệ thống.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	2	3	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T11	Xây dựng quy tắc kiểm tra và chốt bộ dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Quy định cách kiểm tra công ty, kỳ báo cáo, đơn vị, phiên bản và tài liệu trùng lặp.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	4	5	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T13	Rà soát SRS và danh mục use case	Hoàn thiện SRS và các sơ đồ	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có bảng đối chiếu UC–FR/NFR đã rà.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M03	FinMind	1	4	4	Trần Diệu Huyền	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T14	Vẽ context và business function diagram	Hoàn thiện SRS và các sơ đồ	Thể hiện tác nhân, hệ thống ngoài và phân rã chức năng; đối chiếu nội dung với SRS.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có context và business function diagram khớp SRS.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	5	6	Đinh Huỳnh Vũ	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T15	Vẽ activity diagram theo use case	Hoàn thiện SRS và các sơ đồ	Mô tả luồng chính, nhánh thay thế và ngoại lệ; kiểm tra node bắt đầu/kết thúc và lưu hình cùng draw.io.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có activity diagrams và file chỉnh sửa được.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	8	7	Thái Quốc Hưng	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T40	Vẽ usecase diagram cho từng đặc tả use case	Hoàn thiện SRS và các sơ đồ	Vẽ sơ đồ use case riêng cho từng đặc tả, thể hiện người sử dụng và chức năng liên quan.	SRS có sơ đồ dễ đối chiếu với từng đặc tả use case.	Các sơ đồ khớp actor, tên chức năng và mã use case trong SRS.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu; deadline chưa hiển thị trong ảnh.	Trung bình	Đã hoàn thành	M03	FinMind	1	4	1	Hồ Phạm Đăng Nhân	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Ti...~~
+
+~~	Sprint 1	S1-T01	Xác định các nhóm người dùng chính	Thái Quốc Hưng	Đã hoàn thành	1	1	0	1	0					1													~~
+
+~~	Sprint 1	S1-T02	Chốt phạm vi và giới hạn của bản MVP	Thái Quốc Hưng	Đã hoàn thành	3	3	0	3	0					3													~~
+
+~~	Sprint 1	S1-T03	Lập danh sách chức năng theo thứ tự ưu tiên	Thái Quốc Hưng	Đã hoàn thành	4	4	0	4	0					3	1												~~
+
+~~	Sprint 1	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Trần Diệu Huyền	Đã hoàn thành	2	2	0	1	-1					1													~~
+
+~~	Sprint 1	S1-T05	Thực hiện nghiên cứu và tổng hợp kết quả	Thái Quốc Hưng	Đã hoàn thành	4	4	0	5	1					3	2												~~
+
+~~	Sprint 1	S1-T06	Kiểm tra lại phạm vi và thống nhất	Trần Diệu Huyền	Đã hoàn thành	4	4	0	4	0						3	1											~~
+
+~~	Sprint 1	S1-T08	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Nguyễn Minh Quân	Đã hoàn thành	3	3	0	3	0							3											~~
+
+~~	Sprint 1	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Nguyễn Minh Quân	Đã hoàn thành	3	3	0	2	-1							2											~~
+
+~~	Sprint 1	S1-T10	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Trần Diệu Huyền	Đã hoàn thành	2	2	0	3	1								3										~~
+
+~~	Sprint 1	S1-T11	Xây dựng quy tắc kiểm tra và chốt bộ dữ liệu	Trần Diệu Huyền	Đã hoàn thành	4	4	0	5	1									3			2						~~
+
+~~	Sprint 1	S1-T12	Xác định nguồn dự phòng và đánh giá tính khả thi	Trần Diệu Huyền	Đã hoàn thành	3	3	0	3	0													3					~~
+
+~~	Sprint 1	S1-T13	Rà soát SRS và danh mục use case	Trần Diệu Huyền	Đã hoàn thành	4	4	0	4	0														3	1			~~
+
+~~	Sprint 1	S1-T14	Vẽ context và business function diagram	Đinh Huỳnh Vũ	Đã hoàn thành	5	5	0	6	1														3	3			~~
+
+~~	Sprint 1	S1-T15	Vẽ activity diagram theo use case	Thái Quốc Hưng	Đã hoàn thành	8	8	0	7	-1															3	3	1	~~
+
+~~	Sprint 1	S1-T40	Vẽ usecase diagram cho từng đặc tả use case	Hồ Phạm Đăng Nhân	Đã hoàn thành	4	4	0	1	-3																	1	~~
+
+~~			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	100	100					11	8	6	3	3			2	3	6	7	49	2	~~
+
+~~	Giờ thực tế đã ghi	54~~
+
+~~9	1	S1-T01	Xác định các nhóm người dùng chính	Xác định nhà đầu tư, chuyên viên phân tích và quản trị dữ liệu cùng nhu cầu chính của từng nhóm.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Đã hoàn thành	Thái Quốc Hưng	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T02	Chốt phạm vi và giới hạn của bản MVP	Xác định chức năng thuộc MVP, phần mở rộng và các nội dung nằm ngoài phạm vi dự án.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Đã hoàn thành	Thái Quốc Hưng	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T03	Lập danh sách chức năng theo thứ tự ưu tiên	Phân loại chức năng bắt buộc, nên có và có thể thực hiện ở giai đoạn sau.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Đã hoàn thành	Thái Quốc Hưng	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~9	1	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Chuẩn bị câu hỏi để tìm hiểu khó khăn, nhu cầu và kỳ vọng của người dùng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Đã hoàn thành	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
 ## 2026-09-28 07:32 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
