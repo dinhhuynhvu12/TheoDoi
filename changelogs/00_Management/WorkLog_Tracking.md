@@ -1,5 +1,23 @@
 # Lịch sử thay đổi: Worklog_Tracking
 
+## 2026-09-28 08:52 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-28 08:52
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **			Giờ dự kiến theo ngày (nhập)		Tổng task (h)	146		Tổng ngày (h)	76	-70	6	6			7	7	7	7	6			6	6	6	6	6		**
+
+🟢 **			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	112	36	6	4	1		6	4	6	2	5			6	6	4	6	56		**
+
+~~			Giờ dự kiến theo ngày (nhập)		Tổng task (h)	146		Tổng ngày (h)	79	-67	6	6			7	7	7	7	7			7	7	6	6	6		~~
+
+~~			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	62	-17	6	4	1		6	4	6	2	5			6	6	4	6	6		~~
+
+~~						#N/A																						~~
+
 ## 2026-09-28 08:47 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
