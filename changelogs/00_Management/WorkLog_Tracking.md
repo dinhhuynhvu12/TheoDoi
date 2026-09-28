@@ -1,5 +1,41 @@
 # Lịch sử thay đổi: Worklog_Tracking
 
+## 2026-09-28 10:52 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-28 10:52
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	74	12 task tuần 1 chưa xác nhận.**
+
+🟢 **	S1-T08	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Chốt nguồn và điều kiện dùng dữ liệu	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3	3	Nguyễn Minh Quân	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T38	Tạo Git repository và cấu trúc dự án ban đầu	Khởi tạo dự án	Tạo kho mã nguồn Git và các thư mục ban đầu để cả nhóm lưu, chia sẻ và quản lý phiên bản mã.	Có nơi lưu mã nguồn chung và cấu trúc thư mục thống nhất.	Repository truy cập được; cấu trúc thư mục và hướng dẫn khởi động được lưu.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu.	Thấp	Đã hoàn thành	M04	FinMind	1	1	1	Nguyễn Minh Quân	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00...**
+
+🟢 **	Sprint 1	S1-T08	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Nguyễn Minh Quân	Đã hoàn thành	3	3	0	3	0																		**
+
+🟢 **	Sprint 1	S1-T38	Tạo Git repository và cấu trúc dự án ban đầu	Nguyễn Minh Quân	Đã hoàn thành	1	1	0	1	0				1														**
+
+🟢 **			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	114	-32	6	4	1	1	6	4	6	2	5			6	6	4	6	57		**
+
+🟢 **	Giờ thực tế đã ghi	74**
+
+~~	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	70	12 task tuần 1 chưa xác nhận.~~
+
+~~	S1-T08	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Chốt nguồn và điều kiện dùng dữ liệu	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3		Nguyễn Minh Quân	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T38	Tạo Git repository và cấu trúc dự án ban đầu	Khởi tạo dự án	Tạo kho mã nguồn Git và các thư mục ban đầu để cả nhóm lưu, chia sẻ và quản lý phiên bản mã.	Có nơi lưu mã nguồn chung và cấu trúc thư mục thống nhất.	Repository truy cập được; cấu trúc thư mục và hướng dẫn khởi động được lưu.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu.	Thấp	Đã hoàn thành	M04	FinMind	1	1		Nguyễn Minh Quân	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 ...~~
+
+~~	Sprint 1	S1-T08	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Nguyễn Minh Quân	Đã hoàn thành	3	3	0																				~~
+
+~~	Sprint 1	S1-T38	Tạo Git repository và cấu trúc dự án ban đầu	Nguyễn Minh Quân	Đã hoàn thành	1	1	0																				~~
+
+~~			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	112	-34	6	4	1		6	4	6	2	5			6	6	4	6	56		~~
+
+~~	Giờ thực tế đã ghi	70~~
+
 ## 2026-09-28 10:27 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
