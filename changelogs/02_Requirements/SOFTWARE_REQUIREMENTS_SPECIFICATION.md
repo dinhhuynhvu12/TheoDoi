@@ -1,5 +1,17 @@
 # Lịch sử thay đổi: SOFTWARE REQUIREMENTS SPECIFICATION
 
+## 2026-09-28 15:42 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `02_Requirements/SOFTWARE REQUIREMENTS SPECIFICATION`
+- **Ngày và giờ:** 2026-09-28 15:42
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **The system shall retrieve promoted canonical financial facts extracted from approved financial-statement sources and perform deterministic calculations using those facts. Each promoted fact shall retain its canonical metric code, value, unit, reporting period, statement scope, audit status, immutable document identifier/hash and page/table/row or equivalent source locator. Period, unit, formula and statement-scope validation shall be applied before a numerical result is released.**
+
+~~The system shall retrieve normalized facts and perform deterministic calculations with period, unit, formula and statement-scope validation.~~
+
 ## 2026-09-28 14:13 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
