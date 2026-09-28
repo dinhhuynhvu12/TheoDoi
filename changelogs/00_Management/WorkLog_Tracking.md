@@ -1,5 +1,141 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-09-28 15:07 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-28 15:07
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	146	111	Giữ giờ gốc; kiểm tra P47 ở Sprint 1 để tránh tính trùng.**
+
+🟢 **	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Chốt nhu cầu và phạm vi MVP	Chuẩn bị câu hỏi để tìm hiểu khó khăn, nhu cầu và kỳ vọng của người dùng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	2	3	Trần Diệu Huyền	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Khởi động**
+
+🟢 **	S1-T06	Kiểm tra lại phạm vi và thống nhất	Chốt nhu cầu và phạm vi MVP	Đối chiếu kết quả nghiên cứu với phạm vi MVP và ghi nhận quyết định cuối cùng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	4	6	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S1-T07	Lập danh sách nguồn dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Tạo danh sách nguồn, loại tài liệu, đơn vị phát hành, đường dẫn và phạm vi dữ liệu cần thu thập.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	2	3	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S1-T10	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Kiểm tra khả năng truy cập, lưu trữ, xử lý và trích dẫn dữ liệu trong hệ thống.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	2	3	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S1-T11	Xây dựng quy tắc kiểm tra và chốt bộ dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Quy định cách kiểm tra công ty, kỳ báo cáo, đơn vị, phiên bản và tài liệu trùng lặp.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	4	3	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S1-T12	Xác định nguồn dự phòng và đánh giá tính khả thi	Chốt nguồn và điều kiện dùng dữ liệu	Chuẩn bị nguồn thay thế và đánh giá rủi ro khi nguồn chính thay đổi hoặc không truy cập được.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3	3	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S1-T13	Rà soát SRS và danh mục use case	Hoàn thiện SRS và các sơ đồ	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có bảng đối chiếu UC–FR/NFR đã rà.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M03	FinMind	1	4	6	Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S1-T14	Vẽ context và business function diagram	Hoàn thiện SRS và các sơ đồ	Thể hiện tác nhân, hệ thống ngoài và phân rã chức năng; đối chiếu nội dung với SRS.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có context và business function diagram khớp SRS.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	5	6	Đinh Huỳnh Vũ	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S1-T18	Rà soát tính nhất quán SRS	Hoàn thiện SRS và các sơ đồ	Đặt đúng số mục, tên hình; kiểm tra mã UC, FR/NFR và sự nhất quán giữa đặc tả với các sơ đồ.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	SRS có đúng hình, số mục và mã tham chiếu.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	4	3	Trần Diệu Huyền	Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S1-T21	Đặc tả chuẩn hóa và định danh dữ liệu	Thiết kế mô hình dữ liệu	Xác định company ID, kỳ báo cáo, đơn vị, source ID, document hash và quy tắc kiểm tra trước khi lập chỉ mục.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có quy tắc chuẩn hóa ID, kỳ, đơn vị, nguồn.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M04	FinMind	1	3	3	Trần Diệu Huyền	Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S1-T25	Đối chiếu ID giữa các mô hình dữ liệu	Thiết kế mô hình dữ liệu	Kiểm tra ánh xạ company/source/document/chunk ID và provenance để truy vấn có thể quay về bằng chứng gốc.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có quy tắc ánh xạ ID giữa các mô hình.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M04	FinMind	1	3	3	Trần Diệu Huyền	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S1-T41	Vẽ usecase Diagram tổng	Hoàn thiện SRS và các sơ đồ	Vẽ sơ đồ use case tổng để thể hiện toàn bộ chức năng và các nhóm người dùng của FinMind.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Sơ đồ tổng khớp danh mục use case và phạm vi SRS.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu.	Trung bình	Đã hoàn thành	M03	FinMind	1	5	6	Trần Diệu Huyền	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT...**
+
+🟢 **	Số task	42	Giờ dự kiến	146	Tổng giờ thực tế đã ghi	111																										**
+
+🟢 **	Sprint 1	S1-T04	M01	Khởi động	Soạn bộ câu hỏi nghiên cứu và khảo sát	Trần Diệu Huyền	Đã hoàn thành	2	3	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Chuẩn bị câu hỏi để tìm hiểu khó khăn, nhu cầu và kỳ vọng của người dùng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.																		**
+
+🟢 **	Sprint 1	S1-T06	M01	1	Kiểm tra lại phạm vi và thống nhất	Trần Diệu Huyền	Đã hoàn thành	4	6	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu kết quả nghiên cứu với phạm vi MVP và ghi nhận quyết định cuối cùng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.																		**
+
+🟢 **	Sprint 1	S1-T07	M02	1	Lập danh sách nguồn dữ liệu	Trần Diệu Huyền	Đã hoàn thành	2	3	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo danh sách nguồn, loại tài liệu, đơn vị phát hành, đường dẫn và phạm vi dữ liệu cần thu thập.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.																		**
+
+🟢 **	Sprint 1	S1-T10	M02	1	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Trần Diệu Huyền	Đã hoàn thành	2	3	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra khả năng truy cập, lưu trữ, xử lý và trích dẫn dữ liệu trong hệ thống.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.																		**
+
+🟢 **	Sprint 1	S1-T11	M02	1	Xây dựng quy tắc kiểm tra và chốt bộ dữ liệu	Trần Diệu Huyền	Đã hoàn thành	4	3	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Quy định cách kiểm tra công ty, kỳ báo cáo, đơn vị, phiên bản và tài liệu trùng lặp.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.																		**
+
+🟢 **	Sprint 1	S1-T12	M02	1	Xác định nguồn dự phòng và đánh giá tính khả thi	Trần Diệu Huyền	Đã hoàn thành	3	3	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Chuẩn bị nguồn thay thế và đánh giá rủi ro khi nguồn chính thay đổi hoặc không truy cập được.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.																		**
+
+🟢 **	Sprint 1	S1-T13	M03	1	Rà soát SRS và danh mục use case	Trần Diệu Huyền	Đã hoàn thành	4	6	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	Có bảng đối chiếu UC–FR/NFR đã rà.	Giữ kế hoạch Sprint 1 đã nhập.																		**
+
+🟢 **	Sprint 1	S1-T14	M03	1	Vẽ context và business function diagram	Đinh Huỳnh Vũ	Đã hoàn thành	5	6	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Thể hiện tác nhân, hệ thống ngoài và phân rã chức năng; đối chiếu nội dung với SRS.	Có context và business function diagram khớp SRS.	Giữ kế hoạch Sprint 1 đã nhập.																		**
+
+🟢 **	Sprint 1	S1-T18	M03	1	Rà soát tính nhất quán SRS	Trần Diệu Huyền	Đã hoàn thành	4	3	Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đặt đúng số mục, tên hình; kiểm tra mã UC, FR/NFR và sự nhất quán giữa đặc tả với các sơ đồ.	SRS có đúng hình, số mục và mã tham chiếu.	Giữ kế hoạch Sprint 1 đã nhập.																		**
+
+🟢 **	Sprint 1	S1-T21	M04	1	Đặc tả chuẩn hóa và định danh dữ liệu	Trần Diệu Huyền	Đã hoàn thành	3	3	Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Xác định company ID, kỳ báo cáo, đơn vị, source ID, document hash và quy tắc kiểm tra trước khi lập chỉ mục.	Có quy tắc chuẩn hóa ID, kỳ, đơn vị, nguồn.	Giữ kế hoạch Sprint 1 đã nhập.																		**
+
+🟢 **	Sprint 1	S1-T25	M04	2	Đối chiếu ID giữa các mô hình dữ liệu	Trần Diệu Huyền	Đã hoàn thành	3	3	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra ánh xạ company/source/document/chunk ID và provenance để truy vấn có thể quay về bằng chứng gốc.	Có quy tắc ánh xạ ID giữa các mô hình.	Giữ kế hoạch Sprint 1 đã nhập.																		**
+
+🟢 **	Sprint 1	S1-T41	M03	2	Vẽ usecase Diagram tổng	Trần Diệu Huyền	Đã hoàn thành	5	6	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Vẽ sơ đồ use case tổng để thể hiện toàn bộ chức năng và các nhóm người dùng của FinMind.	Sơ đồ tổng khớp danh mục use case và phạm vi SRS.	Giữ kế hoạch Sprint 1 đã nhập.																		**
+
+🟢 **					Tổng giờ các task			146	111																							**
+
+🟢 **	Giờ thực tế đã ghi	111**
+
+🟢 **Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	M01	1	Chốt nhu cầu và phạm vi MVP	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	6	6	1	Đã hoàn thành	18	25	Sprint 1 Backlog**
+
+🟢 **Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	M02	1	Chốt nguồn và điều kiện dùng dữ liệu	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	6	6	1	Đã hoàn thành	17	12	Sprint 1 Backlog**
+
+🟢 **Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	M03	1	Hoàn thiện SRS và các sơ đồ	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	9	9	1	Đã hoàn thành	48	47	Sprint 1 Backlog**
+
+🟢 **Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	M04	1	Thiết kế mô hình dữ liệu	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	8	8	1	Đã hoàn thành	24	11	Sprint 1 Backlog**
+
+~~	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	146	63	Giữ giờ gốc; kiểm tra P47 ở Sprint 1 để tránh tính trùng.~~
+
+~~	S1-T04	Soạn bộ câu hỏi nghiên cứu và khảo sát	Chốt nhu cầu và phạm vi MVP	Chuẩn bị câu hỏi để tìm hiểu khó khăn, nhu cầu và kỳ vọng của người dùng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	2		Trần Diệu Huyền	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Khởi động~~
+
+~~	S1-T06	Kiểm tra lại phạm vi và thống nhất	Chốt nhu cầu và phạm vi MVP	Đối chiếu kết quả nghiên cứu với phạm vi MVP và ghi nhận quyết định cuối cùng.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M01	FinMind	1	4		Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S1-T07	Lập danh sách nguồn dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Tạo danh sách nguồn, loại tài liệu, đơn vị phát hành, đường dẫn và phạm vi dữ liệu cần thu thập.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	2		Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S1-T10	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Kiểm tra khả năng truy cập, lưu trữ, xử lý và trích dẫn dữ liệu trong hệ thống.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	2		Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S1-T11	Xây dựng quy tắc kiểm tra và chốt bộ dữ liệu	Chốt nguồn và điều kiện dùng dữ liệu	Quy định cách kiểm tra công ty, kỳ báo cáo, đơn vị, phiên bản và tài liệu trùng lặp.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	4		Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S1-T12	Xác định nguồn dự phòng và đánh giá tính khả thi	Chốt nguồn và điều kiện dùng dữ liệu	Chuẩn bị nguồn thay thế và đánh giá rủi ro khi nguồn chính thay đổi hoặc không truy cập được.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3		Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S1-T13	Rà soát SRS và danh mục use case	Hoàn thiện SRS và các sơ đồ	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có bảng đối chiếu UC–FR/NFR đã rà.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M03	FinMind	1	4		Trần Diệu Huyền	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S1-T14	Vẽ context và business function diagram	Hoàn thiện SRS và các sơ đồ	Thể hiện tác nhân, hệ thống ngoài và phân rã chức năng; đối chiếu nội dung với SRS.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có context và business function diagram khớp SRS.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	5		Đinh Huỳnh Vũ	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S1-T18	Rà soát tính nhất quán SRS	Hoàn thiện SRS và các sơ đồ	Đặt đúng số mục, tên hình; kiểm tra mã UC, FR/NFR và sự nhất quán giữa đặc tả với các sơ đồ.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	SRS có đúng hình, số mục và mã tham chiếu.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	4		Trần Diệu Huyền	Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S1-T21	Đặc tả chuẩn hóa và định danh dữ liệu	Thiết kế mô hình dữ liệu	Xác định company ID, kỳ báo cáo, đơn vị, source ID, document hash và quy tắc kiểm tra trước khi lập chỉ mục.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có quy tắc chuẩn hóa ID, kỳ, đơn vị, nguồn.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M04	FinMind	1	3		Trần Diệu Huyền	Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S1-T25	Đối chiếu ID giữa các mô hình dữ liệu	Thiết kế mô hình dữ liệu	Kiểm tra ánh xạ company/source/document/chunk ID và provenance để truy vấn có thể quay về bằng chứng gốc.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có quy tắc ánh xạ ID giữa các mô hình.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M04	FinMind	1	3		Trần Diệu Huyền	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S1-T41	Vẽ usecase Diagram tổng	Hoàn thiện SRS và các sơ đồ	Vẽ sơ đồ use case tổng để thể hiện toàn bộ chức năng và các nhóm người dùng của FinMind.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Sơ đồ tổng khớp danh mục use case và phạm vi SRS.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu.	Trung bình	Đã hoàn thành	M03	FinMind	1	5		Trần Diệu Huyền	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+...~~
+
+~~	Số task	42	Giờ dự kiến	146	Tổng giờ thực tế đã ghi	63																										~~
+
+~~	Sprint 1	S1-T04	M01	Khởi động	Soạn bộ câu hỏi nghiên cứu và khảo sát	Trần Diệu Huyền	Đã hoàn thành	2		Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Chuẩn bị câu hỏi để tìm hiểu khó khăn, nhu cầu và kỳ vọng của người dùng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.																		~~
+
+~~	Sprint 1	S1-T06	M01	1	Kiểm tra lại phạm vi và thống nhất	Trần Diệu Huyền	Đã hoàn thành	4		Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu kết quả nghiên cứu với phạm vi MVP và ghi nhận quyết định cuối cùng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.																		~~
+
+~~	Sprint 1	S1-T07	M02	1	Lập danh sách nguồn dữ liệu	Trần Diệu Huyền	Đã hoàn thành	2		Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo danh sách nguồn, loại tài liệu, đơn vị phát hành, đường dẫn và phạm vi dữ liệu cần thu thập.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.																		~~
+
+~~	Sprint 1	S1-T10	M02	1	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Trần Diệu Huyền	Đã hoàn thành	2		Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra khả năng truy cập, lưu trữ, xử lý và trích dẫn dữ liệu trong hệ thống.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.																		~~
+
+~~	Sprint 1	S1-T11	M02	1	Xây dựng quy tắc kiểm tra và chốt bộ dữ liệu	Trần Diệu Huyền	Đã hoàn thành	4		Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Quy định cách kiểm tra công ty, kỳ báo cáo, đơn vị, phiên bản và tài liệu trùng lặp.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.																		~~
+
+~~	Sprint 1	S1-T12	M02	1	Xác định nguồn dự phòng và đánh giá tính khả thi	Trần Diệu Huyền	Đã hoàn thành	3		Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Chuẩn bị nguồn thay thế và đánh giá rủi ro khi nguồn chính thay đổi hoặc không truy cập được.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.																		~~
+
+~~	Sprint 1	S1-T13	M03	1	Rà soát SRS và danh mục use case	Trần Diệu Huyền	Đã hoàn thành	4		Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	Có bảng đối chiếu UC–FR/NFR đã rà.	Giữ kế hoạch Sprint 1 đã nhập.																		~~
+
+~~	Sprint 1	S1-T14	M03	1	Vẽ context và business function diagram	Đinh Huỳnh Vũ	Đã hoàn thành	5		Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Thể hiện tác nhân, hệ thống ngoài và phân rã chức năng; đối chiếu nội dung với SRS.	Có context và business function diagram khớp SRS.	Giữ kế hoạch Sprint 1 đã nhập.																		~~
+
+~~	Sprint 1	S1-T18	M03	1	Rà soát tính nhất quán SRS	Trần Diệu Huyền	Đã hoàn thành	4		Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đặt đúng số mục, tên hình; kiểm tra mã UC, FR/NFR và sự nhất quán giữa đặc tả với các sơ đồ.	SRS có đúng hình, số mục và mã tham chiếu.	Giữ kế hoạch Sprint 1 đã nhập.																		~~
+
+~~	Sprint 1	S1-T21	M04	1	Đặc tả chuẩn hóa và định danh dữ liệu	Trần Diệu Huyền	Đã hoàn thành	3		Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Xác định company ID, kỳ báo cáo, đơn vị, source ID, document hash và quy tắc kiểm tra trước khi lập chỉ mục.	Có quy tắc chuẩn hóa ID, kỳ, đơn vị, nguồn.	Giữ kế hoạch Sprint 1 đã nhập.																		~~
+
+~~	Sprint 1	S1-T25	M04	2	Đối chiếu ID giữa các mô hình dữ liệu	Trần Diệu Huyền	Đã hoàn thành	3		Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra ánh xạ company/source/document/chunk ID và provenance để truy vấn có thể quay về bằng chứng gốc.	Có quy tắc ánh xạ ID giữa các mô hình.	Giữ kế hoạch Sprint 1 đã nhập.																		~~
+
+~~	Sprint 1	S1-T41	M03	2	Vẽ usecase Diagram tổng	Trần Diệu Huyền	Đã hoàn thành	5		Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Vẽ sơ đồ use case tổng để thể hiện toàn bộ chức năng và các nhóm người dùng của FinMind.	Sơ đồ tổng khớp danh mục use case và phạm vi SRS.	Giữ kế hoạch Sprint 1 đã nhập.																		~~
+
+~~					Tổng giờ các task			146	63																							~~
+
+~~	Giờ thực tế đã ghi	63~~
+
+~~Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	M01	1	Chốt nhu cầu và phạm vi MVP	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	6	6	1	Đã hoàn thành	18	16	Sprint 1 Backlog~~
+
+~~Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	M02	1	Chốt nguồn và điều kiện dùng dữ liệu	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	6	6	1	Đã hoàn thành	17		Sprint 1 Backlog~~
+
+~~Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	M03	1	Hoàn thiện SRS và các sơ đồ	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	9	9	1	Đã hoàn thành	48	26	Sprint 1 Backlog~~
+
+~~Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	M04	1	Thiết kế mô hình dữ liệu	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	8	8	1	Đã hoàn thành	24	5	Sprint 1 Backlog~~
+
 ## 2026-09-28 14:47 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
