@@ -1,5 +1,113 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-09-28 16:12 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-28 16:12
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	150	Giữ giờ gốc; kiểm tra P47 ở Sprint 1 để tránh tính trùng.**
+
+🟢 **	S1-T08	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Chốt nguồn và điều kiện dùng dữ liệu	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3	3	Nguyễn Minh Quân	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Chốt nguồn và điều kiện dùng dữ liệu	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3	3	Nguyễn Minh Quân	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S1-T19	Chia pipeline dữ liệu thành các phần nhỏ	Thiết kế mô hình dữ liệu	Tách thu thập, chuẩn hóa, chunk/embedding, graph, truy vấn vector/graph và ranh giới đầu vào/đầu ra.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có bản đồ các bước xử lý dữ liệu và đầu vào/đầu ra.	Worklog Sprint 1, tuần 2	Cao	Đang test	M04	FinMind	1	4	5	Nguyễn Minh Quân	Tue Sep 15 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S1-T20	Đặc tả nguồn và cách cào dữ liệu mẫu	Thiết kế mô hình dữ liệu	Chọn nguồn được phép dùng; ghi URL, loại tài liệu, lịch lấy, phiên bản và điều kiện truy cập.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có danh sách nguồn được phép dùng và cách lấy.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M04	FinMind	1	2	2	Nguyễn Minh Quân	Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S1-T22	Vẽ ERD dữ liệu nghiệp vụ PostgreSQL	Thiết kế mô hình dữ liệu	Thiết kế công ty, tài liệu, nguồn, dữ kiện tài chính, khóa chính/ngoại và quan hệ truy vết.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có ERD PostgreSQL cho dữ liệu nghiệp vụ.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M04	FinMind	1	4		Nguyễn Minh Quân	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S1-T38	Tạo Git repository và cấu trúc dự án ban đầu	Thiết kế mô hình dữ liệu	Tạo kho mã nguồn Git và các thư mục ban đầu để cả nhóm lưu, chia sẻ và quản lý phiên bản mã.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Repository truy cập được; cấu trúc thư mục và hướng dẫn khởi động được lưu.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu.	Thấp	Đã hoàn thành	M04	FinMind	1	1		Nguyễn Minh Quân	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Ti...**
+
+🟢 **	Số task	42	Giờ dự kiến	146	Tổng giờ thực tế đã ghi	150																										**
+
+🟢 **	Sprint 1	S1-T08	M02	1	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Nguyễn Minh Quân	Đã hoàn thành	3	3	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.					3													**
+
+🟢 **	Sprint 1	S1-T09	M02	1	Tìm nguồn chính thức cho 5 công ty Công nghệ	Nguyễn Minh Quân	Đã hoàn thành	3	3	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.						3												**
+
+🟢 **	Sprint 1	S1-T19	M04	1	Chia pipeline dữ liệu thành các phần nhỏ	Nguyễn Minh Quân	Đang test	4	5	Tue Sep 15 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Tách thu thập, chuẩn hóa, chunk/embedding, graph, truy vấn vector/graph và ranh giới đầu vào/đầu ra.	Có bản đồ các bước xử lý dữ liệu và đầu vào/đầu ra.	Giữ kế hoạch Sprint 1 đã nhập.							3	2										**
+
+🟢 **	Sprint 1	S1-T20	M04	1	Đặc tả nguồn và cách cào dữ liệu mẫu	Nguyễn Minh Quân	Đã hoàn thành	2	2	Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chọn nguồn được phép dùng; ghi URL, loại tài liệu, lịch lấy, phiên bản và điều kiện truy cập.	Có danh sách nguồn được phép dùng và cách lấy.	Giữ kế hoạch Sprint 1 đã nhập.								1	1									**
+
+🟢 **	Sprint 1	S1-T22	M04	2	Vẽ ERD dữ liệu nghiệp vụ PostgreSQL	Nguyễn Minh Quân	Đã hoàn thành	4		Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Thiết kế công ty, tài liệu, nguồn, dữ kiện tài chính, khóa chính/ngoại và quan hệ truy vết.	Có ERD PostgreSQL cho dữ liệu nghiệp vụ.	Giữ kế hoạch Sprint 1 đã nhập.																		**
+
+🟢 **	Sprint 1	S1-T38	M04	2	Tạo Git repository và cấu trúc dự án ban đầu	Nguyễn Minh Quân	Đã hoàn thành	1		Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo kho mã nguồn Git và các thư mục ban đầu để cả nhóm lưu, chia sẻ và quản lý phiên bản mã.	Repository truy cập được; cấu trúc thư mục và hướng dẫn khởi động được lưu.	Giữ kế hoạch Sprint 1 đã nhập.																		**
+
+🟢 **					Tổng giờ các task			146	150																							**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				144						6	7	1	0	15	13	15	11	12	0	0	12	12	10	12	15	3	0**
+
+🟢 **	Task đã hoàn thành	41**
+
+🟢 **	Giờ thực tế đã ghi	154**
+
+🟢 **Tue Sep 01 2026 07:00:00 GMT+0700 (Indochina Time)	50	41	0.82	178	SRS và nguồn. Bắt đầu xác nhận, tải và chuẩn hóa dữ liệu.								**
+
+🟢 **Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	M02	1	Chốt nguồn và điều kiện dùng dữ liệu	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	6	6	1	Đã hoàn thành	17	18	Sprint 1 Backlog**
+
+🟢 **Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	M04	1	Thiết kế mô hình dữ liệu	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	8	7	0.875	Đang test	24	27	Sprint 1 Backlog**
+
+🟢 **Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	M05	1	PoC thu thập và tìm kiếm vector	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	7	7	1	Đã hoàn thành	24	27	Sprint 1 Backlog**
+
+🟢 **Task đã hoàn thành	41		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.18468468468468469		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **S1-T38: Tạo Git repository và cấu trúc dự án ban đầu	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	8	7	0.875	Đang test	Cần xác nhận các task cũ của tuần 1 nếu có.**
+
+~~	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	146	138	Giữ giờ gốc; kiểm tra P47 ở Sprint 1 để tránh tính trùng.~~
+
+~~	S1-T08	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Chốt nguồn và điều kiện dùng dữ liệu	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3		Nguyễn Minh Quân	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Chốt nguồn và điều kiện dùng dữ liệu	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Cao	Đã hoàn thành	M02	FinMind	1	3		Nguyễn Minh Quân	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S1-T19	Chia pipeline dữ liệu thành các phần nhỏ	Thiết kế mô hình dữ liệu	Tách thu thập, chuẩn hóa, chunk/embedding, graph, truy vấn vector/graph và ranh giới đầu vào/đầu ra.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có bản đồ các bước xử lý dữ liệu và đầu vào/đầu ra.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M04	FinMind	1	4		Nguyễn Minh Quân	Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S1-T20	Đặc tả nguồn và cách cào dữ liệu mẫu	Thiết kế mô hình dữ liệu	Chọn nguồn được phép dùng; ghi URL, loại tài liệu, lịch lấy, phiên bản và điều kiện truy cập.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có danh sách nguồn được phép dùng và cách lấy.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M04	FinMind	1	2		Nguyễn Minh Quân	Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S1-T22	Vẽ ERD dữ liệu nghiệp vụ PostgreSQL	Thiết kế mô hình dữ liệu	Thiết kế công ty, tài liệu, nguồn, dữ kiện tài chính, khóa chính/ngoại và quan hệ truy vết.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có ERD PostgreSQL cho dữ liệu nghiệp vụ.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M04	FinMind	1	4		Nguyễn Minh Quân	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S1-T38	Tạo Git repository và cấu trúc dự án ban đầu	Thiết kế mô hình dữ liệu	Tạo kho mã nguồn Git và các thư mục ban đầu để cả nhóm lưu, chia sẻ và quản lý phiên bản mã.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Repository truy cập được; cấu trúc thư mục và hướng dẫn khởi động được lưu.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu.	Thấp	Đã hoàn thành	M04	FinMind	1	1	1	Nguyễn Minh Quân	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina T...~~
+
+~~	Số task	42	Giờ dự kiến	146	Tổng giờ thực tế đã ghi	138																										~~
+
+~~	Sprint 1	S1-T08	M02	1	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Nguyễn Minh Quân	Đã hoàn thành	3		Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.																		~~
+
+~~	Sprint 1	S1-T09	M02	1	Tìm nguồn chính thức cho 5 công ty Công nghệ	Nguyễn Minh Quân	Đã hoàn thành	3		Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.																		~~
+
+~~	Sprint 1	S1-T19	M04	1	Chia pipeline dữ liệu thành các phần nhỏ	Nguyễn Minh Quân	Đã hoàn thành	4		Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Tách thu thập, chuẩn hóa, chunk/embedding, graph, truy vấn vector/graph và ranh giới đầu vào/đầu ra.	Có bản đồ các bước xử lý dữ liệu và đầu vào/đầu ra.	Giữ kế hoạch Sprint 1 đã nhập.																		~~
+
+~~	Sprint 1	S1-T20	M04	1	Đặc tả nguồn và cách cào dữ liệu mẫu	Nguyễn Minh Quân	Đã hoàn thành	2		Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chọn nguồn được phép dùng; ghi URL, loại tài liệu, lịch lấy, phiên bản và điều kiện truy cập.	Có danh sách nguồn được phép dùng và cách lấy.	Giữ kế hoạch Sprint 1 đã nhập.																		~~
+
+~~	Sprint 1	S1-T22	M04	2	Vẽ ERD dữ liệu nghiệp vụ PostgreSQL	Nguyễn Minh Quân	Đã hoàn thành	4		Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Thiết kế công ty, tài liệu, nguồn, dữ kiện tài chính, khóa chính/ngoại và quan hệ truy vết.	Có ERD PostgreSQL cho dữ liệu nghiệp vụ.	Giữ kế hoạch Sprint 1 đã nhập.																		~~
+
+~~	Sprint 1	S1-T38	M04	2	Tạo Git repository và cấu trúc dự án ban đầu	Nguyễn Minh Quân	Đã hoàn thành	1	1	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo kho mã nguồn Git và các thư mục ban đầu để cả nhóm lưu, chia sẻ và quản lý phiên bản mã.	Repository truy cập được; cấu trúc thư mục và hướng dẫn khởi động được lưu.	Giữ kế hoạch Sprint 1 đã nhập.				1														~~
+
+~~					Tổng giờ các task			146	138																							~~
+
+~~					Giờ thực tế theo ngày (tự tính)				132						6	7	1	1	12	10	12	8	11	0	0	12	12	10	12	15	3	0~~
+
+~~	Task đã hoàn thành	42~~
+
+~~	Giờ thực tế đã ghi	138~~
+
+~~Tue Sep 01 2026 07:00:00 GMT+0700 (Indochina Time)	50	42	0.84	178	SRS và nguồn. Bắt đầu xác nhận, tải và chuẩn hóa dữ liệu.								~~
+
+~~Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	M02	1	Chốt nguồn và điều kiện dùng dữ liệu	Có danh sách nguồn chính thức, nguồn dự phòng và quy tắc sử dụng.	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	6	6	1	Đã hoàn thành	17	12	Sprint 1 Backlog~~
+
+~~Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	M04	1	Thiết kế mô hình dữ liệu	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	8	8	1	Đã hoàn thành	24	17	Sprint 1 Backlog~~
+
+~~Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	M05	1	PoC thu thập và tìm kiếm vector	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	7	7	1	Đã hoàn thành	24	24	Sprint 1 Backlog~~
+
+~~Task đã hoàn thành	42		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.1891891891891892		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~S1-T38: Tạo Git repository và cấu trúc dự án ban đầu	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	8	8	1	Đã hoàn thành	Cần xác nhận các task cũ của tuần 1 nếu có.~~
+
 ## 2026-09-28 16:02 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
