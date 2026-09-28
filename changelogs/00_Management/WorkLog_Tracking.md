@@ -1,5 +1,21 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-09-28 14:02 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-28 14:02
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS04	Xác định phần dữ liệu nào được chấp nhận làm evidence chính	Xác nhận nguồn báo cáo của 10 công ty	Đối chiếu 3 năm tài chính và 4 quý gần nhất tại ngày chốt. Tách kỳ thiếu; không coi là dữ liệu đã có.	5 công ty có URL kiểm tra được hoặc ghi rõ kỳ chưa tìm thấy.**
+
+🟢 **	Sprint 2	S2-WBS04	S2-G01	1	Xác định phần dữ liệu nào được chấp nhận làm evidence chính	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu 3 năm tài chính và 4 quý gần nhất tại ngày chốt. Tách kỳ thiếu; không coi là dữ liệu đã có.	Danh mục công ty, kỳ, URL và trạng thái nguồn được nhóm duyệt.	Danh sách 10 công ty và phạm vi kỳ báo cáo trong SRS.														**
+
+~~	S2-WBS04	Chốt phạm vi dữ liệu được phép nạp	Xác nhận nguồn báo cáo của 10 công ty	Đối chiếu 3 năm tài chính và 4 quý gần nhất tại ngày chốt. Tách kỳ thiếu; không coi là dữ liệu đã có.	5 công ty có URL kiểm tra được hoặc ghi rõ kỳ chưa tìm thấy.~~
+
+~~	Sprint 2	S2-WBS04	S2-G01	1	Chốt phạm vi dữ liệu được phép nạp	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu 3 năm tài chính và 4 quý gần nhất tại ngày chốt. Tách kỳ thiếu; không coi là dữ liệu đã có.	Danh mục công ty, kỳ, URL và trạng thái nguồn được nhóm duyệt.	Danh sách 10 công ty và phạm vi kỳ báo cáo trong SRS.														~~
+
 ## 2026-09-28 13:57 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
