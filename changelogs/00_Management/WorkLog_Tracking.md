@@ -1,5 +1,33 @@
 # Lịch sử thay đổi: Worklog_Tracking
 
+## 2026-09-28 08:17 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-28 08:17
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	82	12 task tuần 1 chưa xác nhận.**
+
+🟢 **	S1-T39	Chuẩn bị Golden Test Set phiên bản đầu tiên	Chuẩn bị dữ liệu đánh giá	Soạn bộ câu hỏi kiểm thử ban đầu, đáp án tham chiếu và thông tin nguồn để kiểm tra kết quả trả lời.	Có bộ câu hỏi mẫu để đánh giá chất lượng tìm kiếm và trả lời.	Có danh sách câu hỏi, đáp án và nguồn đối chiếu; chưa coi đây là bộ test cuối đã khóa.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu.	Trung bình	Đã hoàn thành	M03	FinMind	1	4	4	Thái Quốc Hưng	Fri Sep 18 2026 07:00:00 GMT+0700 (Indo...**
+
+🟢 **	Sprint 1	S1-T39	Chuẩn bị Golden Test Set phiên bản đầu tiên	Thái Quốc Hưng	Đã hoàn thành	4	4	0	4	0															1	3		**
+
+🟢 **			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	132	132	6	4	1		16	4	6	2	5			6	6	4	6	66		**
+
+🟢 **	Giờ thực tế đã ghi	82**
+
+~~	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	78	12 task tuần 1 chưa xác nhận.~~
+
+~~	S1-T39	Chuẩn bị Golden Test Set phiên bản đầu tiên	Chuẩn bị dữ liệu đánh giá	Soạn bộ câu hỏi kiểm thử ban đầu, đáp án tham chiếu và thông tin nguồn để kiểm tra kết quả trả lời.	Có bộ câu hỏi mẫu để đánh giá chất lượng tìm kiếm và trả lời.	Có danh sách câu hỏi, đáp án và nguồn đối chiếu; chưa coi đây là bộ test cuối đã khóa.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu.	Trung bình	Đã hoàn thành	M03	FinMind	1	4	0	Thái Quốc Hưng	Fri Sep 18 2026 07:00:00 GMT+0700 (Indo...~~
+
+~~	Sprint 1	S1-T39	Chuẩn bị Golden Test Set phiên bản đầu tiên	Thái Quốc Hưng	Đã hoàn thành	4	4	0	0	-4																0		~~
+
+~~			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	130	130	6	4	1		16	4	6	2	5			6	6	4	5	65		~~
+
+~~	Giờ thực tế đã ghi	78~~
+
 ## 2026-09-28 08:12 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
