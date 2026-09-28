@@ -1,5 +1,73 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-09-28 15:57 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-28 15:57
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	146	138	Giữ giờ gốc; kiểm tra P47 ở Sprint 1 để tránh tính trùng.**
+
+🟢 **	S1-T29	Tạo thử truy vấn quan hệ bằng Neo4j	PoC thu thập và tìm kiếm vector	Viết và chạy thử truy vấn quan hệ trên dữ liệu mẫu trong Neo4j.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Truy vấn chạy được và kết quả quan hệ được đối chiếu với dữ liệu mẫu.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M05	FinMind	1	6	8	Hồ Phạm Đăng Nhân	Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S1-T33	Trích xuất quan hệ và provenance cho edge	PoC graph và đối chiếu nguồn	Xác định quan hệ có bằng chứng, hướng edge và source locator; không tạo cạnh suy đoán.	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Có edge chỉ tạo từ bằng chứng hợp lệ.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M06	FinMind	1	2	5	Hồ Phạm Đăng Nhân	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S1-T35	Truy vấn Neo4j để kiểm thử	PoC graph và đối chiếu nguồn	Thử truy vấn một hoặc hai bước theo công ty và quan hệ; kiểm tra kết quả cùng provenance.	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Có kết quả truy vấn graph kèm nguồn.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M06	FinMind	1	3	3	Hồ Phạm Đăng Nhân	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	Số task	42	Giờ dự kiến	146	Tổng giờ thực tế đã ghi	138																										**
+
+🟢 **	Sprint 1	S1-T29	M05	1	Tạo thử truy vấn quan hệ bằng Neo4j	Hồ Phạm Đăng Nhân	Đã hoàn thành	6	8	Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Viết và chạy thử truy vấn quan hệ trên dữ liệu mẫu trong Neo4j.	Truy vấn chạy được và kết quả quan hệ được đối chiếu với dữ liệu mẫu.	Giữ kế hoạch Sprint 1 đã nhập.							3	3	1					1				**
+
+🟢 **	Sprint 1	S1-T33	M06	2	Trích xuất quan hệ và provenance cho edge	Hồ Phạm Đăng Nhân	Đã hoàn thành	2	5	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Xác định quan hệ có bằng chứng, hướng edge và source locator; không tạo cạnh suy đoán.	Có edge chỉ tạo từ bằng chứng hợp lệ.	Giữ kế hoạch Sprint 1 đã nhập.												2		2	1			**
+
+🟢 **	Sprint 1	S1-T34	M06	2	Nạp node và edge mẫu vào Neo4j	Hồ Phạm Đăng Nhân	Đã hoàn thành	3	3	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo graph thử nghiệm, kiểm tra ràng buộc ID và liên kết mỗi edge với nguồn.	Có graph mẫu trong Neo4j.	Giữ kế hoạch Sprint 1 đã nhập.												1			2			**
+
+🟢 **	Sprint 1	S1-T35	M06	2	Truy vấn Neo4j để kiểm thử	Hồ Phạm Đăng Nhân	Đã hoàn thành	3	3	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Thử truy vấn một hoặc hai bước theo công ty và quan hệ; kiểm tra kết quả cùng provenance.	Có kết quả truy vấn graph kèm nguồn.	Giữ kế hoạch Sprint 1 đã nhập.													3					**
+
+🟢 **	Sprint 1	S1-T40	M03	2	Vẽ usecase diagram cho từng đặc tả use case	Hồ Phạm Đăng Nhân	Đã hoàn thành	4	6	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Vẽ sơ đồ use case riêng cho từng đặc tả, thể hiện người sử dụng và chức năng liên quan.	Các sơ đồ khớp actor, tên chức năng và mã use case trong SRS.	File gốc có công thức cộng giờ các task khác trong dòng này. Cần kiểm tra để tránh tính trùng.																3	3	**
+
+🟢 **					Tổng giờ các task			146	138																							**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				132						6	7	1	1	12	10	12	8	11	0	0	12	12	10	12	15	3	0**
+
+🟢 **	Giờ thực tế đã ghi	138**
+
+🟢 **Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	M05	1	PoC thu thập và tìm kiếm vector	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	7	7	1	Đã hoàn thành	24	24	Sprint 1 Backlog**
+
+🟢 **Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	M06	1	PoC graph và đối chiếu nguồn	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Tue Sep 15 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	6	6	1	Đã hoàn thành	15	13	Sprint 1 Backlog**
+
+~~	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	146	132	Giữ giờ gốc; kiểm tra P47 ở Sprint 1 để tránh tính trùng.~~
+
+~~	S1-T29	Tạo thử truy vấn quan hệ bằng Neo4j	PoC thu thập và tìm kiếm vector	Viết và chạy thử truy vấn quan hệ trên dữ liệu mẫu trong Neo4j.	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Truy vấn chạy được và kết quả quan hệ được đối chiếu với dữ liệu mẫu.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M05	FinMind	1	6	7	Hồ Phạm Đăng Nhân	Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S1-T33	Trích xuất quan hệ và provenance cho edge	PoC graph và đối chiếu nguồn	Xác định quan hệ có bằng chứng, hướng edge và source locator; không tạo cạnh suy đoán.	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Có edge chỉ tạo từ bằng chứng hợp lệ.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M06	FinMind	1	2	2	Hồ Phạm Đăng Nhân	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S1-T35	Truy vấn Neo4j để kiểm thử	PoC graph và đối chiếu nguồn	Thử truy vấn một hoặc hai bước theo công ty và quan hệ; kiểm tra kết quả cùng provenance.	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Có kết quả truy vấn graph kèm nguồn.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M06	FinMind	1	3	1	Hồ Phạm Đăng Nhân	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	Số task	42	Giờ dự kiến	146	Tổng giờ thực tế đã ghi	132																										~~
+
+~~	Sprint 1	S1-T29	M05	1	Tạo thử truy vấn quan hệ bằng Neo4j	Hồ Phạm Đăng Nhân	Đã hoàn thành	6	7	Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Viết và chạy thử truy vấn quan hệ trên dữ liệu mẫu trong Neo4j.	Truy vấn chạy được và kết quả quan hệ được đối chiếu với dữ liệu mẫu.	Giữ kế hoạch Sprint 1 đã nhập.							3	3	1									~~
+
+~~	Sprint 1	S1-T33	M06	2	Trích xuất quan hệ và provenance cho edge	Hồ Phạm Đăng Nhân	Đã hoàn thành	2	2	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Xác định quan hệ có bằng chứng, hướng edge và source locator; không tạo cạnh suy đoán.	Có edge chỉ tạo từ bằng chứng hợp lệ.	Giữ kế hoạch Sprint 1 đã nhập.												2						~~
+
+~~	Sprint 1	S1-T34	M06	2	Nạp node và edge mẫu vào Neo4j	Hồ Phạm Đăng Nhân	Đã hoàn thành	3	3	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo graph thử nghiệm, kiểm tra ràng buộc ID và liên kết mỗi edge với nguồn.	Có graph mẫu trong Neo4j.	Giữ kế hoạch Sprint 1 đã nhập.									1			2						~~
+
+~~	Sprint 1	S1-T35	M06	2	Truy vấn Neo4j để kiểm thử	Hồ Phạm Đăng Nhân	Đã hoàn thành	3	1	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Thử truy vấn một hoặc hai bước theo công ty và quan hệ; kiểm tra kết quả cùng provenance.	Có kết quả truy vấn graph kèm nguồn.	Giữ kế hoạch Sprint 1 đã nhập.												1						~~
+
+~~	Sprint 1	S1-T40	M03	2	Vẽ usecase diagram cho từng đặc tả use case	Hồ Phạm Đăng Nhân	Đã hoàn thành	4	6	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Vẽ sơ đồ use case riêng cho từng đặc tả, thể hiện người sử dụng và chức năng liên quan.	Các sơ đồ khớp actor, tên chức năng và mã use case trong SRS.	File gốc có công thức cộng giờ các task khác trong dòng này. Cần kiểm tra để tránh tính trùng.	6																	~~
+
+~~					Tổng giờ các task			146	132																							~~
+
+~~					Giờ thực tế theo ngày (tự tính)				126						12	7	1	1	12	10	12	8	12	0	0	14	9	7	9	12	0	0~~
+
+~~	Giờ thực tế đã ghi	132~~
+
+~~Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	M05	1	PoC thu thập và tìm kiếm vector	Tài liệu mẫu có hash/nguồn; chunk, embedding và truy vấn pgvector thử được.	Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	7	7	1	Đã hoàn thành	24	23	Sprint 1 Backlog~~
+
+~~Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	M06	1	PoC graph và đối chiếu nguồn	Neo4j có node/edge kèm provenance; truy vấn graph/SQL mẫu và báo cáo PoC.	Tue Sep 15 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	6	6	1	Đã hoàn thành	15	8	Sprint 1 Backlog~~
+
 ## 2026-09-28 15:52 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
