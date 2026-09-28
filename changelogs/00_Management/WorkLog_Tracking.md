@@ -1,5 +1,77 @@
 # Lịch sử thay đổi: Worklog_Tracking
 
+## 2026-09-28 08:12 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-28 08:12
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	78	12 task tuần 1 chưa xác nhận.**
+
+🟢 **	S1-T02	Chốt phạm vi và giới hạn của bản MVP	Chốt nhu cầu và phạm vi MVP	Xác định chức năng thuộc MVP, phần mở rộng và các nội dung nằm ngoài phạm vi dự án.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Rất cao	Đã hoàn thành	M01	FinMind	1	3	4	Thái Quốc Hưng	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T03	Lập danh sách chức năng theo thứ tự ưu tiên	Chốt nhu cầu và phạm vi MVP	Phân loại chức năng bắt buộc, nên có và có thể thực hiện ở giai đoạn sau.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Rất cao	Đã hoàn thành	M01	FinMind	1	4	7	Thái Quốc Hưng	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T17	Vẽ state diagram cho đối tượng có vòng đời	Hoàn thiện SRS và các sơ đồ	Gom các use case liên quan; xác định trạng thái, sự kiện, điều kiện chuyển và điểm kết thúc.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có state diagrams cho vòng đời cần mô tả.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	6	7	Thái Quốc Hưng	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T19	Chia pipeline dữ liệu thành các phần nhỏ	Thiết kế mô hình dữ liệu	Tách thu thập, chuẩn hóa, chunk/embedding, graph, truy vấn vector/graph và ranh giới đầu vào/đầu ra.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có bản đồ các bước xử lý dữ liệu và đầu vào/đầu ra.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M04	FinMind	1	4	5	Nguyễn Minh Quân	Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T20	Đặc tả nguồn và cách cào dữ liệu mẫu	Thiết kế mô hình dữ liệu	Chọn nguồn được phép dùng; ghi URL, loại tài liệu, lịch lấy, phiên bản và điều kiện truy cập.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có danh sách nguồn được phép dùng và cách lấy.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M04	FinMind	1	2	2	Nguyễn Minh Quân	Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)**
+
+🟢 **	S1-T39	Chuẩn bị Golden Test Set phiên bản đầu tiên	Chuẩn bị dữ liệu đánh giá	Soạn bộ câu hỏi kiểm thử ban đầu, đáp án tham chiếu và thông tin nguồn để kiểm tra kết quả trả lời.	Có bộ câu hỏi mẫu để đánh giá chất lượng tìm kiếm và trả lời.	Có danh sách câu hỏi, đáp án và nguồn đối chiếu; chưa coi đây là bộ test cuối đã khóa.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu.	Trung bình	Đã hoàn thành	M03	FinMind	1	4	0	Thái Quốc Hưng	Fri Sep 18 2026 07:00:00 GMT+0700 (Indo...**
+
+🟢 **	Sprint 1	S1-T02	Chốt phạm vi và giới hạn của bản MVP	Thái Quốc Hưng	Đã hoàn thành	3	3	0	4	1	2	1					1											**
+
+🟢 **	Sprint 1	S1-T03	Lập danh sách chức năng theo thứ tự ưu tiên	Thái Quốc Hưng	Đã hoàn thành	4	4	0	7	3		3	1				2	1										**
+
+🟢 **	Sprint 1	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Nguyễn Minh Quân	Đã hoàn thành	3	3	0	2	-1					2													**
+
+🟢 **	Sprint 1	S1-T15	Vẽ activity diagram theo use case	Thái Quốc Hưng	Đã hoàn thành	8	8	0	6	-2									2			3	1					**
+
+🟢 **	Sprint 1	S1-T17	Vẽ state diagram cho đối tượng có vòng đời	Thái Quốc Hưng	Đã hoàn thành	6	6	0	7	1													2	3	2			**
+
+🟢 **	Sprint 1	S1-T19	Chia pipeline dữ liệu thành các phần nhỏ	Nguyễn Minh Quân	Đã hoàn thành	4	4	0	5	1					5													**
+
+🟢 **	Sprint 1	S1-T20	Đặc tả nguồn và cách cào dữ liệu mẫu	Nguyễn Minh Quân	Đã hoàn thành	2	2	0	2	0																		**
+
+🟢 **			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	130	130	6	4	1		16	4	6	2	5			6	6	4	5	65		**
+
+🟢 **	Giờ thực tế đã ghi	78**
+
+~~	1	FinMind MVP	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	SRS/PoC, dữ liệu, truy vấn, ứng dụng, đánh giá và bàn giao.		1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	146	60	12 task tuần 1 chưa xác nhận.~~
+
+~~	S1-T02	Chốt phạm vi và giới hạn của bản MVP	Chốt nhu cầu và phạm vi MVP	Xác định chức năng thuộc MVP, phần mở rộng và các nội dung nằm ngoài phạm vi dự án.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Rất cao	Đã hoàn thành	M01	FinMind	1	3	3	Thái Quốc Hưng	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T03	Lập danh sách chức năng theo thứ tự ưu tiên	Chốt nhu cầu và phạm vi MVP	Phân loại chức năng bắt buộc, nên có và có thể thực hiện ở giai đoạn sau.	Vai trò người dùng, phạm vi và danh sách chức năng được nhóm thống nhất.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Worklog Sprint 1, tuần 1	Rất cao	Đã hoàn thành	M01	FinMind	1	4	4	Thái Quốc Hưng	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T17	Vẽ state diagram cho đối tượng có vòng đời	Hoàn thiện SRS và các sơ đồ	Gom các use case liên quan; xác định trạng thái, sự kiện, điều kiện chuyển và điểm kết thúc.	SRS khớp use case, FR/NFR và đủ context, business function, activity, sequence, state.	Có state diagrams cho vòng đời cần mô tả.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M03	FinMind	1	6		Thái Quốc Hưng	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T19	Chia pipeline dữ liệu thành các phần nhỏ	Thiết kế mô hình dữ liệu	Tách thu thập, chuẩn hóa, chunk/embedding, graph, truy vấn vector/graph và ranh giới đầu vào/đầu ra.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có bản đồ các bước xử lý dữ liệu và đầu vào/đầu ra.	Worklog Sprint 1, tuần 2	Cao	Đã hoàn thành	M04	FinMind	1	4		Nguyễn Minh Quân	Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T20	Đặc tả nguồn và cách cào dữ liệu mẫu	Thiết kế mô hình dữ liệu	Chọn nguồn được phép dùng; ghi URL, loại tài liệu, lịch lấy, phiên bản và điều kiện truy cập.	Có pipeline, ERD PostgreSQL, lược đồ pgvector, node–edge Neo4j và ánh xạ ID.	Có danh sách nguồn được phép dùng và cách lấy.	Worklog Sprint 1, tuần 2	Trung bình	Đã hoàn thành	M04	FinMind	1	2		Nguyễn Minh Quân	Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)~~
+
+~~	S1-T39	Chuẩn bị Golden Test Set phiên bản đầu tiên	Chuẩn bị dữ liệu đánh giá	Soạn bộ câu hỏi kiểm thử ban đầu, đáp án tham chiếu và thông tin nguồn để kiểm tra kết quả trả lời.	Có bộ câu hỏi mẫu để đánh giá chất lượng tìm kiếm và trả lời.	Có danh sách câu hỏi, đáp án và nguồn đối chiếu; chưa coi đây là bộ test cuối đã khóa.	Đối chiếu ảnh Jira Sprint 1. Chưa xác nhận người phụ trách và ngày bắt đầu.	Cao	Đã hoàn thành	M03	FinMind	1	4	0	Thái Quốc Hưng	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina T...~~
+
+~~	Sprint 1	S1-T02	Chốt phạm vi và giới hạn của bản MVP	Thái Quốc Hưng	Đã hoàn thành	3	3	0	3	0	2	1																~~
+
+~~	Sprint 1	S1-T03	Lập danh sách chức năng theo thứ tự ưu tiên	Thái Quốc Hưng	Đã hoàn thành	4	4	0	4	0		3	1															~~
+
+~~	Sprint 1	S1-T09	Tìm nguồn chính thức cho 5 công ty Công nghệ	Nguyễn Minh Quân	Đã hoàn thành	3	3	0	2	-1					3													~~
+
+~~	Sprint 1	S1-T15	Vẽ activity diagram theo use case	Thái Quốc Hưng	Đã hoàn thành	8	8	0	6	-2						2	3	1										~~
+
+~~	Sprint 1	S1-T17	Vẽ state diagram cho đối tượng có vòng đời	Thái Quốc Hưng	Đã hoàn thành	6	6	0																				~~
+
+~~	Sprint 1	S1-T19	Chia pipeline dữ liệu thành các phần nhỏ	Nguyễn Minh Quân	Đã hoàn thành	4	4	0																				~~
+
+~~	Sprint 1	S1-T20	Đặc tả nguồn và cách cào dữ liệu mẫu	Nguyễn Minh Quân	Đã hoàn thành	2	2	0																				~~
+
+~~			Giờ thực tế theo ngày (tự cộng)					Tổng thực tế	100	100	6	4	1		12	6	6	2	3			3	3	1	3	50		~~
+
+~~	Giờ thực tế đã ghi	60~~
+
 ## 2026-09-28 07:57 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
