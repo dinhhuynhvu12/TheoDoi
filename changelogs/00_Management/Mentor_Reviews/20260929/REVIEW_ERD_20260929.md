@@ -1,5 +1,12 @@
 # Lịch sử thay đổi: REVIEW_ERD_20260929.md
 
+## 2026-09-29 17:28 - DOI TEN / DI CHUYEN
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/Mentor_Reviews/20260929/REVIEW_ERD_20260929.md`
+- **Vị trí cũ:** `00_Management/Mentor_Reviews/REVIEW_ERD_20260929.md`
+- **Ngày và giờ:** 2026-09-29 17:28
+
 ## 2026-09-29 17:17 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
