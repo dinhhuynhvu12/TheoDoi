@@ -1,5 +1,485 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-09-29 14:22 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-29 14:22
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS05	Hoàn thiện bộ tải BCTC và BCTN	Cào đủ nguồn và lưu bản gốc theo phiên bản	Dùng danh sách URL đã duyệt để tải PDF/HTML theo nguồn. Cấu hình thời gian chờ, số lần thử lại và khoảng nghỉ; nhận biết file hỏng hoặc trang lỗi thay vì lưu nhầm làm báo cáo.	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Chạy thành công trên mẫu BCTC và BCTN của cả hai ngành. Lỗi tải có mã, URL và cách thử lại; không vượt điều kiện sử dụng nguồn.	Mô tả Công vi...**
+
+🟢 **	S2-WBS07	Lưu bản gốc, hash và phiên bản cho ba loại nguồn	Cào đủ nguồn và lưu bản gốc theo phiên bản	Giữ file/nội dung gốc không sửa. Ghi thời điểm lấy và SHA-256 để nhận biết nội dung giống nhau; liên kết bản chuẩn hóa về bản gốc. Bản công bố lại có nội dung khác được lưu phiên bản mới.	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Mỗi item truy được bản gốc và metadata. Tải lại nội dung giống nhau không tạo bản trùng; nội dung thay đổi khôn...**
+
+🟢 **	S2-WBS11	Chuẩn hóa chỉ tiêu tài chính và nội dung báo cáo	Trích và chuẩn hóa báo cáo, News	Ánh xạ tên chỉ tiêu sang mã thống nhất theo danh mục đã duyệt cho từng ngành. Chuẩn hóa kỳ, ngày, đơn vị tiền, dấu âm và phạm vi báo cáo. Giữ giá trị/đơn vị gốc và phép chuyển đổi; không cộng sai lũy kế với quý riêng.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Dữ kiện có company\_id, metric\_id, kỳ, scope, đơn vị chuẩn và vị trí nguồn....**
+
+🟢 **	S2-WBS16	Chốt corpus chuẩn hóa và bàn giao cho vector, graph	Kiểm tra, lưu và chốt corpus chuẩn hóa	Lập manifest: danh sách item, hash, phiên bản, số lượng và kết quả kiểm tra. Chốt bản dùng tiếp, giữ bản cũ và đường dẫn có quyền truy cập. Ghi rõ đây là corpus chuẩn hóa, chưa phải chỉ mục vector/graph sẵn sàng truy vấn.	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Gói dữ liệu và manifest tái tạo được, không còn lỗ...**
+
+🟢 **	S2-WBS23	Code điều hướng, phiên mẫu và màn hình truy cập	Code skeleton và lớp dữ liệu mẫu	Code route, điều hướng, giao diện đăng nhập/đăng xuất và thông báo hết phiên/hết quyền bằng phiên mẫu. Mô phỏng các vai trò để kiểm tra UI. Kiểm tra quyền trên UI không được coi là bảo mật thật; API đăng nhập/RBAC làm ở Sprint 3.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Các route chính và trạng thái truy cập chạy với mock. Không nhầm tài khoản m...**
+
+🟢 **	S2-WBS27	Code màn hình nguồn, history, watchlist và feedback	Code màn hình nghiên cứu bằng dữ liệu mẫu	Code mở citation theo ID mẫu, xem locator/đoạn nguồn, fact/calc và provenance. Code xem/xóa lịch sử, pin/unpin và gửi feedback với hộp xác nhận. Mô phỏng lỗi và dữ liệu riêng theo user mẫu, chưa coi là lưu trữ/bảo mật thật.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Các màn hình/luồng đã chốt chạy với mock, không trùng watchlist,...**
+
+🟢 **	S2-WBS29	Code màn hình nguồn, ingestion và dữ liệu lỗi	Code màn hình quản trị và evaluator bằng mock	Code cấu hình/test/pause nguồn, bắt đầu/xem run, counts/retry, quarantine và bản ghi. Dùng mock cho thao tác quản trị; cần xác nhận thao tác quan trọng. Không chạy bộ cào thật từ UI khi API chưa nối.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Màn hình operator chạy với mock, hiển thị lỗi đã làm sạch và thời điểm cập nhậ...**
+
+🟢 **	S2-WBS32	Kiểm tra toàn bộ màn hình theo vai trò và bố cục	Code màn hình quản trị và evaluator bằng mock	Chạy lại danh sách màn hình/use case, route, trạng thái, bàn phím và kích thước màn hình đã duyệt. So code với prototype; sửa lỗi component/điều hướng. Ghi rõ màn hình nào còn dùng mock và API nào cần nối.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Không còn màn hình bắt buộc chỉ có ảnh thiết kế. Checklist UI và buil...**
+
+🟢 ** Tài liệu mẫu được chia thành các đoạn không rỗng và không trùng ID.**
+
+🟢 ** Tài liệu mẫu được chia thành các đoạn không rỗng và không trùng ID.**
+
+🟢 ** Tài liệu mẫu được chia thành các đoạn không rỗng và không trùng ID.**
+
+🟢 ** Mở một chunk mẫu thấy được vị trí gốc trong PDF.**
+
+🟢 ** Mở một chunk mẫu thấy được vị trí gốc trong PDF.**
+
+🟢 ** Mở một chunk mẫu thấy được vị trí gốc trong PDF.**
+
+🟢 ** Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Có cấu hình chia đoạn và ví dụ trước sau để nhóm duyệt.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G01	FinMind	3	4		Hồ Phạm Đăng Nhân	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 ** Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Tài liệu mẫu được chia thành các đoạn không rỗng và không trùng ID.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G01	FinMind	3	4		Hồ Phạm Đăng Nhân	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 ** Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Mở một chunk mẫu thấy được vị trí gốc trong PDF.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G01	FinMind	3	4		Hồ Phạm Đăng Nhân	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 ** Có bảng định tuyến và mẫu kiểm tra cho từng dạng.**
+
+🟢 ** Không trả đoạn của công ty hoặc phiên bản ngoài phạm vi.**
+
+🟢 ** Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G04	FinMind	3	3		Hồ Phạm Đăng Nhân	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 ** Mỗi đáp án có vị trí nguồn mở lại được.**
+
+🟢 ** Không còn bất đồng chưa giải quyết trong bộ hiệu chỉnh đã duyệt.**
+
+🟢 ** Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Không còn bất đồng chưa giải quyết trong bộ hiệu chỉnh đã duyệt.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G06	FinMind	3	4		Hồ Phạm Đăng Nhân	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 ** Có ca kiểm tra kết quả đúng sai cho từng chỉ số.**
+
+🟢 ** Kết quả từng câu có manifest, trace và thông số đo.**
+
+🟢 ** Có bảng so sánh và phiên bản cấu hình được nhóm duyệt.	Có ca kiểm tra kết quả đúng sai cho từng chỉ số.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G07	FinMind	3	4		Hồ Phạm Đăng Nhân	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 ** Mỗi trace ghi đúng phiên bản cấu hình được sử dụng.**
+
+🟢 ** Ca vượt trần không tạo cuộc gọi Gemini ngoài ngân sách.**
+
+🟢 ** API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Mẫu sai vai trò bị từ chối trên mọi API bắt buộc.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G08	FinMind	3	7		Hồ Phạm Đăng Nhân	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 ** Mỗi entity mẫu có nguồn và corpus version.**
+
+🟢 ** Mỗi entity mẫu có nguồn và corpus version.**
+
+🟢 ** Mỗi entity mẫu có nguồn và corpus version.**
+
+🟢 ** Không tạo hai node cho cùng một công ty đã xác định.**
+
+🟢 ** Không tạo hai node cho cùng một công ty đã xác định.**
+
+🟢 ** Không tạo hai node cho cùng một công ty đã xác định.**
+
+🟢 ** Nạp lặp không tạo node trùng; ID sai bị chặn.	Danh mục node và khóa liên kết được duyệt.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S4-G01	FinMind	4	4		Hồ Phạm Đăng Nhân	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 ** Nạp lặp không tạo node trùng; ID sai bị chặn.	Mỗi entity mẫu có nguồn và corpus version.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S4-G01	FinMind	4	4		Hồ Phạm Đăng Nhân	Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 ** Nạp lặp không tạo node trùng; ID sai bị chặn.	Không tạo hai node cho cùng một công ty đã xác định.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S4-G01	FinMind	4	4		Hồ Phạm Đăng Nhân	Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 ** Điểm so sánh được trên thang đã định, không so trực tiếp hai thang khác nhau.**
+
+🟢 ** Kết quả gộp không mất locator hoặc nhân đôi bằng chứng.**
+
+🟢 ** Bằng chứng đứng đầu có điểm và lý do lựa chọn kiểm tra được.	Bằng chứng đứng đầu có điểm và lý do lựa chọn kiểm tra được.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S4-G04	FinMind	4	3		Hồ Phạm Đăng Nhân	Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 ** Nháp B2 giữ nguồn cho nhận định quan hệ.**
+
+🟢 ** Nháp B2 giữ nguồn cho nhận định quan hệ.**
+
+🟢 ** B1 B2 so sánh được trên cùng điều kiện chạy.**
+
+🟢 ** B1 B2 so sánh được trên cùng điều kiện chạy.**
+
+🟢 ** Có danh sách ca và bằng chứng, không chỉ báo một điểm trung bình.	Manifest thể hiện khác biệt B1 B2 đúng phần thử nghiệm graph.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S4-G06	FinMind	4	4		Hồ Phạm Đăng Nhân	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 ** Có danh sách ca và bằng chứng, không chỉ báo một điểm trung bình.	Có danh sách ca và bằng chứng, không chỉ báo một điểm trung bình.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S4-G06	FinMind	4	4		Hồ Phạm Đăng Nhân	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 ** Ngưỡng có phiên bản, không dựa vào nhãn 80 ca cuối.**
+
+🟢 ** Ngưỡng có phiên bản, không dựa vào nhãn 80 ca cuối.**
+
+🟢 ** Có thể phục dựng đúng phiên bản đã chốt.**
+
+🟢 ** Có thể phục dựng đúng phiên bản đã chốt.**
+
+🟢 ** Sprint 5 có hợp đồng và dữ liệu đầu vào rõ ràng.	Lý do chọn tham số và kết quả thử được lưu lại.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S4-G08	FinMind	4	5		Hồ Phạm Đăng Nhân	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 ** Sprint 5 có hợp đồng và dữ liệu đầu vào rõ ràng.	Sprint 5 có hợp đồng và dữ liệu đầu vào rõ ràng.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S4-G08	FinMind	4	2		Hồ Phạm Đăng Nhân	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 ** Nháp theo schema và có candidate evidence cho các nhận định.**
+
+🟢 ** Nháp theo schema và có candidate evidence cho các nhận định.**
+
+🟢 ** Nháp sai cấu trúc không được hiển thị như kết quả cuối.**
+
+🟢 ** Nháp sai cấu trúc không được hiển thị như kết quả cuối.**
+
+🟢 ** Tuyến không dùng Gemini không bỏ bước kiểm chứng.	Context không chứa nguồn chưa duyệt hoặc ID ngoài allowlist.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S5-G02	FinMind	5	4		Hồ Phạm Đăng Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 ** Tuyến không dùng Gemini không bỏ bước kiểm chứng.	Tuyến không dùng Gemini không bỏ bước kiểm chứng.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S5-G02	FinMind	5	4		Hồ Phạm Đăng Nhân	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 ** ID hợp lệ mở đúng metadata; ID không thuộc câu trả lời bị chặn.**
+
+🟢 ** Người đọc biết nguồn nào hỗ trợ nhận định đang chọn.**
+
+🟢 ** Không chỉ hiện nguồn chung mà thiếu các đầu vào hoặc edge liên quan.	Mỗi nhận định quan trọng liên kết đúng nguồn chứng minh.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S5-G03	FinMind	5	4		Hồ Phạm Đăng Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 ** Kết quả tính sai hoặc thiếu input bị chặn.**
+
+🟢 ** Nhận định không được hỗ trợ không thể được phát hành.**
+
+🟢 ** UI không hiện nháp chưa kiểm chứng như câu trả lời chính thức.	Nhận định không được hỗ trợ không thể được phát hành.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S5-G04	FinMind	5	3		Hồ Phạm Đăng Nhân	Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 ** Người dùng không nhầm yêu cầu lỗi với câu trả lời hoàn tất.**
+
+🟢 ** Marker mở được đúng trích dẫn của nhận định.**
+
+🟢 ** Luồng sử dụng chính chạy xuyên suốt mà không lẫn dữ liệu người dùng.	Marker mở được đúng trích dẫn của nhận định.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S5-G06	FinMind	5	4		Hồ Phạm Đăng Nhân	Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 ** Bảng so sánh nêu giả định và từng khoảng trống dữ liệu.**
+
+🟢 ** Bảng so sánh nêu giả định và từng khoảng trống dữ liệu.**
+
+🟢 ** Không so sánh một cặp khi thiếu dữ kiện bắt buộc của một bên.**
+
+🟢 ** Không so sánh một cặp khi thiếu dữ kiện bắt buộc của một bên.**
+
+🟢 ** Manifest và trace mô tả được luồng B3 thực sự đã chạy.	Công ty ngoài phạm vi hoặc kỳ mơ hồ được báo để làm rõ.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S5-G07	FinMind	5	4		Hồ Phạm Đăng Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 ** Manifest và trace mô tả được luồng B3 thực sự đã chạy.	Manifest và trace mô tả được luồng B3 thực sự đã chạy.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S5-G07	FinMind	5	7		Hồ Phạm Đăng Nhân	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 ** Không bật các thành phần chỉ thuộc B3 trong B1.**
+
+🟢 ** Không bật các thành phần chỉ thuộc B3 trong B1.**
+
+🟢 ** Có đủ dữ liệu từng câu để đối chiếu với B1.**
+
+🟢 ** Có đủ dữ liệu từng câu để đối chiếu với B1.**
+
+🟢 ** Mỗi tag chỉ có lượt final hợp lệ theo policy, không chọn lượt đẹp nhất.	Có kết quả từng câu của B0 với manifest và trace.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S6-G02	FinMind	6	4		Hồ Phạm Đăng Nhân	Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 ** Mỗi tag chỉ có lượt final hợp lệ theo policy, không chọn lượt đẹp nhất.	Mỗi tag chỉ có lượt final hợp lệ theo policy, không chọn lượt đẹp nhất.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S6-G02	FinMind	6	4		Hồ Phạm Đăng Nhân	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 ** Có số đúng sai và mẫu lỗi cho từng chỉ số bắt buộc.**
+
+🟢 ** Bảng phân tích nêu số mẫu và nhóm không đủ kết luận.**
+
+🟢 ** Không biến mục tiêu hoặc giả thuyết thành kết quả đã đo.	Không biến mục tiêu hoặc giả thuyết thành kết quả đã đo.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S6-G03	FinMind	6	5		Hồ Phạm Đăng Nhân	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 ** Có cấu hình tải, máy chạy và raw latency của từng yêu cầu.**
+
+🟢 ** Bảng tốc độ không loại lượt sửa để làm đẹp số đo.**
+
+🟢 ** Báo cáo phân biệt token đo được và chi phí chưa xác định.	Báo cáo phân biệt token đo được và chi phí chưa xác định.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S6-G04	FinMind	6	2		Hồ Phạm Đăng Nhân	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 ** Người khác biết cần cấu hình gì mà không nhận khóa thật của nhóm.**
+
+🟢 ** Người khác biết cần cấu hình gì mà không nhận khóa thật của nhóm.**
+
+🟢 ** Có log cài sạch và danh sách bước cần sửa.**
+
+🟢 ** Có log cài sạch và danh sách bước cần sửa.**
+
+🟢 ** Gói đánh giá tái hiện được nguồn của từng kết quả trong phạm vi quyền lưu.	Có log cài sạch và danh sách bước cần sửa.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S6-G06	FinMind	6	4		Hồ Phạm Đăng Nhân	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 ** Gói đánh giá tái hiện được nguồn của từng kết quả trong phạm vi quyền lưu.	Gói đánh giá tái hiện được nguồn của từng kết quả trong phạm vi quyền lưu.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S6-G06	FinMind	6	4		Hồ Phạm Đăng Nhân	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 ** Người đọc làm theo được từng luồng cơ bản.**
+
+🟢 ** Báo cáo nêu cả mục chưa đạt, không chỉ các ca thành công.**
+
+🟢 ** Không tự tạo phần trăm sử dụng AI hoặc xác nhận khi chưa có dữ liệu.	Không tự tạo phần trăm sử dụng AI hoặc xác nhận khi chưa có dữ liệu.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S6-G07	FinMind	6	5		Hồ Phạm Đăng Nhân	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 ** Demo dùng đúng phiên bản đã đánh giá, không thay cấu hình ngầm.**
+
+🟢 ** Nhóm biết thao tác và người phụ trách từng phần demo.**
+
+🟢 ** Có danh mục bàn giao và người nhận xác nhận các phần thực tế đã có.	Có danh mục bàn giao và người nhận xác nhận các phần thực tế đã có.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S6-G08	FinMind	6	2		Hồ Phạm Đăng Nhân	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+~~	S2-WBS05	Hoàn thiện bộ tải BCTC và BCTN~~
+
+~~ Cách làm: Dùng danh sách URL đã duyệt để tải PDF/HTML theo nguồn. Cấu hình thời gian chờ, số lần thử lại và khoảng nghỉ; nhận biết file hỏng hoặc trang lỗi thay vì lưu nhầm làm báo cáo.~~
+
+~~ Kết quả cần có: Chạy thành công trên mẫu BCTC và BCTN của cả hai ngành. Lỗi tải có mã, URL và cách thử lại; không vượt điều kiện sử dụng nguồn.	Xây bộ lấy tài liệu và ghi phiên bản	Đọc cấu hình nguồn và tải báo cáo được duyệt. Giới hạn thời gian chờ, số lần thử lại và tốc độ truy cập.	Tải được PDF mẫu; lỗi truy cập được báo rõ, không lặp vô hạn.~~
+
+~~Một tài liệu tải về truy ra được file gốc và toàn bộ thông tin nguồn.~~
+
+~~Một tài liệu tải về truy ra được file gốc và toàn bộ thông tin nguồn.~~
+
+~~Nạp lại file giống nhau không sinh bản trùng; file sửa đổi giữ được lịch sử.~~
+
+~~Nạp lại file giống nhau không sinh bản trùng; file sửa đổi giữ được lịch sử.~~
+
+~~Tra được một lần chạy; thông báo lỗi không chứa khóa API hoặc mật khẩu.	Tải được PDF mẫu; lỗi truy cập được báo rõ, không lặp vô hạn.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S2-G02	FinMind	2	8		Hồ Phạm Đăng Nhân	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S2-WBS07	Lưu bản gốc, hash và phiên bản cho ba loại nguồn~~
+
+~~ Cách làm: Giữ file/nội dung gốc không sửa. Ghi thời điểm lấy và SHA-256 để nhận biết nội dung giống nhau; liên kết bản chuẩn hóa về bản gốc. Bản công bố lại có nội dung khác được lưu phiên bản mới.~~
+
+~~ Kết quả cần có: Mỗi item truy được bản gốc và metadata. Tải lại nội dung giống nhau không tạo bản trùng; nội dung thay đổi không ghi đè lịch sử.	Xây bộ lấy tài liệu và ghi phiên bản	So sánh SHA-256 khi nạp lại. Giữ tài liệu sửa đổi thành phiên bản riêng, không ghi đè bản cũ.	Tải được PDF mẫu; lỗi truy cập được báo rõ, không lặp vô hạn.~~
+
+~~Tra được một lần chạy; thông báo lỗi không chứa khóa API hoặc mật khẩu.	Nạp lại file giống nhau không sinh bản trùng; file sửa đổi giữ được lịch sử.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S2-G02	FinMind	2	6		Hồ Phạm Đăng Nhân	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~Số OCR chưa được xác minh không được đưa vào kho dùng để trả lời.~~
+
+~~Không trộn số khác kỳ hoặc phạm vi; lưu cả giá trị gốc và giá trị chuẩn.~~
+
+~~	S2-WBS11	Chuẩn hóa chỉ tiêu tài chính và nội dung báo cáo~~
+
+~~ Cách làm: Ánh xạ tên chỉ tiêu sang mã thống nhất theo danh mục đã duyệt cho từng ngành. Chuẩn hóa kỳ, ngày, đơn vị tiền, dấu âm và phạm vi báo cáo. Giữ giá trị/đơn vị gốc và phép chuyển đổi; không cộng sai lũy kế với quý riêng.~~
+
+~~ Kết quả cần có: Dữ kiện có company\_id, metric\_id, kỳ, scope, đơn vị chuẩn và vị trí nguồn. Chỉ tiêu không ánh xạ được hoặc mâu thuẫn được đưa vào xử lý lỗi.	Trích bảng báo cáo và chuẩn hóa số liệu	Đổi ticker sang mã công ty ổn định, chuẩn hóa ngày và đơn vị VND. Phân biệt hợp nhất, riêng lẻ, năm và quý.	Mỗi số mẫu mở lại được đúng trang và dòng trong tài liệu.~~
+
+~~Bảng ánh xạ ghi rõ chỉ tiêu, dòng nguồn, đơn vị và trường hợp chưa xác định.	Không trộn số khác kỳ hoặc phạm vi; lưu cả giá trị gốc và giá trị chuẩn.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S2-G03	FinMind	2	12		Hồ Phạm Đăng Nhân	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~Bằng chứng không mất vị trí nguồn khi chuyển giữa các bước xử lý.~~
+
+~~Truy vấn biết đang dùng phiên bản nào; bản cũ không bị ghi đè.~~
+
+~~	S2-WBS16	Chốt corpus chuẩn hóa và bàn giao cho vector, graph~~
+
+~~ Cách làm: Lập manifest: danh sách item, hash, phiên bản, số lượng và kết quả kiểm tra. Chốt bản dùng tiếp, giữ bản cũ và đường dẫn có quyền truy cập. Ghi rõ đây là corpus chuẩn hóa, chưa phải chỉ mục vector/graph sẵn sàng truy vấn.~~
+
+~~ Kết quả cần có: Gói dữ liệu và manifest tái tạo được, không còn lỗi chặn hoặc thiếu nguồn bắt buộc. Có hướng dẫn đọc schema và danh sách giới hạn được nghiệm thu.	Tạo kho dữ liệu và mô hình bằng chứng	Nạp mẫu của một công ty mỗi ngành trước khi nạp rộng. Đối chiếu số dòng và nguồn sau khi lưu.	Migration chạy được trên database trống; khóa ngoại và mã định danh hợp lệ.~~
+
+~~Kho mẫu có dữ kiện hợp lệ; dữ kiện không có nguồn bị từ chối.	Kho mẫu có dữ kiện hợp lệ; dữ kiện không có nguồn bị từ chối.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S2-G04	FinMind	2	4		Hồ Phạm Đăng Nhân	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~Đăng nhập hợp lệ tạo phiên; thông tin sai không cho truy cập.~~
+
+~~Gọi API trực tiếp bằng sai vai trò vẫn bị từ chối.~~
+
+~~	S2-WBS23	Code điều hướng, phiên mẫu và màn hình truy cập~~
+
+~~ Cách làm: Code route, điều hướng, giao diện đăng nhập/đăng xuất và thông báo hết phiên/hết quyền bằng phiên mẫu. Mô phỏng các vai trò để kiểm tra UI. Kiểm tra quyền trên UI không được coi là bảo mật thật; API đăng nhập/RBAC làm ở Sprint 3.~~
+
+~~ Kết quả cần có: Các route chính và trạng thái truy cập chạy với mock. Không nhầm tài khoản mẫu với hệ thống xác thực thật; có hợp đồng API cần nối.	Xây đăng nhập và phân quyền nền tảng	Chặn thao tác quản trị nguồn, corpus và đánh giá với người không có quyền.	Tài khoản thử có đúng vai trò và quyền được cấp.~~
+
+~~Người dùng vào được vùng được cấp quyền và đăng xuất được.	Gọi API trực tiếp bằng sai vai trò vẫn bị từ chối.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S2-G06	FinMind	2	8		Hồ Phạm Đăng Nhân	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~Lựa chọn trên giao diện khớp mã công ty gửi tới API.~~
+
+~~Một yêu cầu mẫu tạo trace có các trường bắt buộc.~~
+
+~~	S2-WBS27	Code màn hình nguồn, history, watchlist và feedback~~
+
+~~ Cách làm: Code mở citation theo ID mẫu, xem locator/đoạn nguồn, fact/calc và provenance. Code xem/xóa lịch sử, pin/unpin và gửi feedback với hộp xác nhận. Mô phỏng lỗi và dữ liệu riêng theo user mẫu, chưa coi là lưu trữ/bảo mật thật.~~
+
+~~ Kết quả cần có: Các màn hình/luồng đã chốt chạy với mock, không trùng watchlist, không mở URL client tùy ý; không có xuất PDF/Markdown.	Xây tìm công ty và nhật ký truy vấn	Định nghĩa trace ID, phiên bản corpus, tuyến truy vấn, thời gian và mã lỗi; chưa giả lập telemetry thật.	Không tìm thấy công ty ngoài phạm vi; nhiều kết quả không bị chọn tự động.~~
+
+~~Mẫu log lỗi không lộ bí mật; quản trị viên chỉ thấy dữ liệu được phép.	Một yêu cầu mẫu tạo trace có các trường bắt buộc.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S2-G07	FinMind	2	12		Hồ Phạm Đăng Nhân	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S2-WBS29	Code màn hình nguồn, ingestion và dữ liệu lỗi~~
+
+~~ Cách làm: Code cấu hình/test/pause nguồn, bắt đầu/xem run, counts/retry, quarantine và bản ghi. Dùng mock cho thao tác quản trị; cần xác nhận thao tác quan trọng. Không chạy bộ cào thật từ UI khi API chưa nối.~~
+
+~~ Kết quả cần có: Màn hình operator chạy với mock, hiển thị lỗi đã làm sạch và thời điểm cập nhật; không lộ khóa truy cập.	Nạp corpus và kiểm tra phiên bản	Chạy pipeline trên các kỳ có nguồn hợp lệ. Ghi tỷ lệ phủ và danh sách kỳ thiếu, không lấp bằng số tự tạo.	Báo cáo nạp tách rõ công ty, kỳ thành công và kỳ còn thiếu.~~
+
+~~Manifest truy được về nguồn gốc và không chứa bản ghi bị cách ly.~~
+
+~~Manifest truy được về nguồn gốc và không chứa bản ghi bị cách ly.~~
+
+~~Không có trạng thái nửa cũ nửa mới; lịch sử thao tác được ghi lại.~~
+
+~~Không có trạng thái nửa cũ nửa mới; lịch sử thao tác được ghi lại.~~
+
+~~Nhóm biết dữ liệu nào dùng được và phần nào phải tiếp tục bổ sung.	Báo cáo nạp tách rõ công ty, kỳ thành công và kỳ còn thiếu.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S2-G08	FinMind	2	12		Hồ Phạm Đăng Nhân	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S2-WBS32	Kiểm tra toàn bộ màn hình theo vai trò và bố cục~~
+
+~~ Cách làm: Chạy lại danh sách màn hình/use case, route, trạng thái, bàn phím và kích thước màn hình đã duyệt. So code với prototype; sửa lỗi component/điều hướng. Ghi rõ màn hình nào còn dùng mock và API nào cần nối.~~
+
+~~ Kết quả cần có: Không còn màn hình bắt buộc chỉ có ảnh thiết kế. Checklist UI và build chạy được; lỗi chặn thao tác đã sửa và kiểm lại.	Nạp corpus và kiểm tra phiên bản	Liệt kê nguồn chưa duyệt, PDF chưa đọc được và lỗi chưa xử lý. Xác định phần được phép đưa sang Sprint 3.	Báo cáo nạp tách rõ công ty, kỳ thành công và kỳ còn thiếu.~~
+
+~~Nhóm biết dữ liệu nào dùng được và phần nào phải tiếp tục bổ sung.	Nhóm biết dữ liệu nào dùng được và phần nào phải tiếp tục bổ sung.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S2-G08	FinMind	2	10		Hồ Phạm Đăng Nhân	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~Tài liệu mẫu được chia thành các đoạn không rỗng và không trùng ID.~~
+
+~~Tài liệu mẫu được chia thành các đoạn không rỗng và không trùng ID.~~
+
+~~Tài liệu mẫu được chia thành các đoạn không rỗng và không trùng ID.~~
+
+~~Mở một chunk mẫu thấy được vị trí gốc trong PDF.~~
+
+~~Mở một chunk mẫu thấy được vị trí gốc trong PDF.~~
+
+~~Mở một chunk mẫu thấy được vị trí gốc trong PDF.~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Có cấu hình chia đoạn và ví dụ trước sau để nhóm duyệt.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G01	FinMind	3	4		Hồ Phạm Đăng Nhân	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Tài liệu mẫu được chia thành các đoạn không rỗng và không trùng ID.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G01	FinMind	3	4		Hồ Phạm Đăng Nhân	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Mở một chunk mẫu thấy được vị trí gốc trong PDF.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G01	FinMind	3	4		Hồ Phạm Đăng Nhân	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~Có bảng định tuyến và mẫu kiểm tra cho từng dạng.~~
+
+~~Không trả đoạn của công ty hoặc phiên bản ngoài phạm vi.~~
+
+~~Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G04	FinMind	3	3		Hồ Phạm Đăng Nhân	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~Mỗi đáp án có vị trí nguồn mở lại được.~~
+
+~~Không còn bất đồng chưa giải quyết trong bộ hiệu chỉnh đã duyệt.~~
+
+~~Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Không còn bất đồng chưa giải quyết trong bộ hiệu chỉnh đã duyệt.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G06	FinMind	3	4		Hồ Phạm Đăng Nhân	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~Có ca kiểm tra kết quả đúng sai cho từng chỉ số.~~
+
+~~Kết quả từng câu có manifest, trace và thông số đo.~~
+
+~~Có bảng so sánh và phiên bản cấu hình được nhóm duyệt.	Có ca kiểm tra kết quả đúng sai cho từng chỉ số.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G07	FinMind	3	4		Hồ Phạm Đăng Nhân	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~Mỗi trace ghi đúng phiên bản cấu hình được sử dụng.~~
+
+~~Ca vượt trần không tạo cuộc gọi Gemini ngoài ngân sách.~~
+
+~~API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Mẫu sai vai trò bị từ chối trên mọi API bắt buộc.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G08	FinMind	3	7		Hồ Phạm Đăng Nhân	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~Mỗi entity mẫu có nguồn và corpus version.~~
+
+~~Mỗi entity mẫu có nguồn và corpus version.~~
+
+~~Mỗi entity mẫu có nguồn và corpus version.~~
+
+~~Không tạo hai node cho cùng một công ty đã xác định.~~
+
+~~Không tạo hai node cho cùng một công ty đã xác định.~~
+
+~~Không tạo hai node cho cùng một công ty đã xác định.~~
+
+~~Nạp lặp không tạo node trùng; ID sai bị chặn.	Danh mục node và khóa liên kết được duyệt.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S4-G01	FinMind	4	4		Hồ Phạm Đăng Nhân	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~Nạp lặp không tạo node trùng; ID sai bị chặn.	Mỗi entity mẫu có nguồn và corpus version.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S4-G01	FinMind	4	4		Hồ Phạm Đăng Nhân	Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~Nạp lặp không tạo node trùng; ID sai bị chặn.	Không tạo hai node cho cùng một công ty đã xác định.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S4-G01	FinMind	4	4		Hồ Phạm Đăng Nhân	Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~Điểm so sánh được trên thang đã định, không so trực tiếp hai thang khác nhau.~~
+
+~~Kết quả gộp không mất locator hoặc nhân đôi bằng chứng.~~
+
+~~Bằng chứng đứng đầu có điểm và lý do lựa chọn kiểm tra được.	Bằng chứng đứng đầu có điểm và lý do lựa chọn kiểm tra được.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S4-G04	FinMind	4	3		Hồ Phạm Đăng Nhân	Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~Nháp B2 giữ nguồn cho nhận định quan hệ.~~
+
+~~Nháp B2 giữ nguồn cho nhận định quan hệ.~~
+
+~~B1 B2 so sánh được trên cùng điều kiện chạy.~~
+
+~~B1 B2 so sánh được trên cùng điều kiện chạy.~~
+
+~~Có danh sách ca và bằng chứng, không chỉ báo một điểm trung bình.	Manifest thể hiện khác biệt B1 B2 đúng phần thử nghiệm graph.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S4-G06	FinMind	4	4		Hồ Phạm Đăng Nhân	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~Có danh sách ca và bằng chứng, không chỉ báo một điểm trung bình.	Có danh sách ca và bằng chứng, không chỉ báo một điểm trung bình.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S4-G06	FinMind	4	4		Hồ Phạm Đăng Nhân	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~Ngưỡng có phiên bản, không dựa vào nhãn 80 ca cuối.~~
+
+~~Ngưỡng có phiên bản, không dựa vào nhãn 80 ca cuối.~~
+
+~~Có thể phục dựng đúng phiên bản đã chốt.~~
+
+~~Có thể phục dựng đúng phiên bản đã chốt.~~
+
+~~Sprint 5 có hợp đồng và dữ liệu đầu vào rõ ràng.	Lý do chọn tham số và kết quả thử được lưu lại.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S4-G08	FinMind	4	5		Hồ Phạm Đăng Nhân	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~Sprint 5 có hợp đồng và dữ liệu đầu vào rõ ràng.	Sprint 5 có hợp đồng và dữ liệu đầu vào rõ ràng.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S4-G08	FinMind	4	2		Hồ Phạm Đăng Nhân	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~Nháp theo schema và có candidate evidence cho các nhận định.~~
+
+~~Nháp theo schema và có candidate evidence cho các nhận định.~~
+
+~~Nháp sai cấu trúc không được hiển thị như kết quả cuối.~~
+
+~~Nháp sai cấu trúc không được hiển thị như kết quả cuối.~~
+
+~~Tuyến không dùng Gemini không bỏ bước kiểm chứng.	Context không chứa nguồn chưa duyệt hoặc ID ngoài allowlist.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S5-G02	FinMind	5	4		Hồ Phạm Đăng Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~Tuyến không dùng Gemini không bỏ bước kiểm chứng.	Tuyến không dùng Gemini không bỏ bước kiểm chứng.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S5-G02	FinMind	5	4		Hồ Phạm Đăng Nhân	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~ID hợp lệ mở đúng metadata; ID không thuộc câu trả lời bị chặn.~~
+
+~~Người đọc biết nguồn nào hỗ trợ nhận định đang chọn.~~
+
+~~Không chỉ hiện nguồn chung mà thiếu các đầu vào hoặc edge liên quan.	Mỗi nhận định quan trọng liên kết đúng nguồn chứng minh.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S5-G03	FinMind	5	4		Hồ Phạm Đăng Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~Kết quả tính sai hoặc thiếu input bị chặn.~~
+
+~~Nhận định không được hỗ trợ không thể được phát hành.~~
+
+~~UI không hiện nháp chưa kiểm chứng như câu trả lời chính thức.	Nhận định không được hỗ trợ không thể được phát hành.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S5-G04	FinMind	5	3		Hồ Phạm Đăng Nhân	Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~Người dùng không nhầm yêu cầu lỗi với câu trả lời hoàn tất.~~
+
+~~Marker mở được đúng trích dẫn của nhận định.~~
+
+~~Luồng sử dụng chính chạy xuyên suốt mà không lẫn dữ liệu người dùng.	Marker mở được đúng trích dẫn của nhận định.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S5-G06	FinMind	5	4		Hồ Phạm Đăng Nhân	Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~Bảng so sánh nêu giả định và từng khoảng trống dữ liệu.~~
+
+~~Bảng so sánh nêu giả định và từng khoảng trống dữ liệu.~~
+
+~~Không so sánh một cặp khi thiếu dữ kiện bắt buộc của một bên.~~
+
+~~Không so sánh một cặp khi thiếu dữ kiện bắt buộc của một bên.~~
+
+~~Manifest và trace mô tả được luồng B3 thực sự đã chạy.	Công ty ngoài phạm vi hoặc kỳ mơ hồ được báo để làm rõ.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S5-G07	FinMind	5	4		Hồ Phạm Đăng Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~Manifest và trace mô tả được luồng B3 thực sự đã chạy.	Manifest và trace mô tả được luồng B3 thực sự đã chạy.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S5-G07	FinMind	5	7		Hồ Phạm Đăng Nhân	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~Không bật các thành phần chỉ thuộc B3 trong B1.~~
+
+~~Không bật các thành phần chỉ thuộc B3 trong B1.~~
+
+~~Có đủ dữ liệu từng câu để đối chiếu với B1.~~
+
+~~Có đủ dữ liệu từng câu để đối chiếu với B1.~~
+
+~~Mỗi tag chỉ có lượt final hợp lệ theo policy, không chọn lượt đẹp nhất.	Có kết quả từng câu của B0 với manifest và trace.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S6-G02	FinMind	6	4		Hồ Phạm Đăng Nhân	Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~Mỗi tag chỉ có lượt final hợp lệ theo policy, không chọn lượt đẹp nhất.	Mỗi tag chỉ có lượt final hợp lệ theo policy, không chọn lượt đẹp nhất.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S6-G02	FinMind	6	4		Hồ Phạm Đăng Nhân	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~Có số đúng sai và mẫu lỗi cho từng chỉ số bắt buộc.~~
+
+~~Bảng phân tích nêu số mẫu và nhóm không đủ kết luận.~~
+
+~~Không biến mục tiêu hoặc giả thuyết thành kết quả đã đo.	Không biến mục tiêu hoặc giả thuyết thành kết quả đã đo.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S6-G03	FinMind	6	5		Hồ Phạm Đăng Nhân	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~Có cấu hình tải, máy chạy và raw latency của từng yêu cầu.~~
+
+~~Bảng tốc độ không loại lượt sửa để làm đẹp số đo.~~
+
+~~Báo cáo phân biệt token đo được và chi phí chưa xác định.	Báo cáo phân biệt token đo được và chi phí chưa xác định.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S6-G04	FinMind	6	2		Hồ Phạm Đăng Nhân	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~Người khác biết cần cấu hình gì mà không nhận khóa thật của nhóm.~~
+
+~~Người khác biết cần cấu hình gì mà không nhận khóa thật của nhóm.~~
+
+~~Có log cài sạch và danh sách bước cần sửa.~~
+
+~~Có log cài sạch và danh sách bước cần sửa.~~
+
+~~Gói đánh giá tái hiện được nguồn của từng kết quả trong phạm vi quyền lưu.	Có log cài sạch và danh sách bước cần sửa.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S6-G06	FinMind	6	4		Hồ Phạm Đăng Nhân	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~Gói đánh giá tái hiện được nguồn của từng kết quả trong phạm vi quyền lưu.	Gói đánh giá tái hiện được nguồn của từng kết quả trong phạm vi quyền lưu.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S6-G06	FinMind	6	4		Hồ Phạm Đăng Nhân	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~Người đọc làm theo được từng luồng cơ bản.~~
+
+~~Báo cáo nêu cả mục chưa đạt, không chỉ các ca thành công.~~
+
+~~Không tự tạo phần trăm sử dụng AI hoặc xác nhận khi chưa có dữ liệu.	Không tự tạo phần trăm sử dụng AI hoặc xác nhận khi chưa có dữ liệu.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S6-G07	FinMind	6	5		Hồ Phạm Đăng Nhân	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~Demo dùng đúng phiên bản đã đánh giá, không thay cấu hình ngầm.~~
+
+~~Nhóm biết thao tác và người phụ trách từng phần demo.~~
+
+~~Có danh mục bàn giao và người nhận xác nhận các phần thực tế đã có.	Có danh mục bàn giao và người nhận xác nhận các phần thực tế đã có.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S6-G08	FinMind	6	2		Hồ Phạm Đăng Nhân	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
 ## 2026-09-29 14:17 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
