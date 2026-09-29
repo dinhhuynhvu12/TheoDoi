@@ -1,34 +1,8 @@
-# Lịch sử thay đổi: REVIEW_FinMind_v2_20260918
+# Lịch sử thay đổi: REVIEW_FinMind_v2_20260918.html
 
-## 2026-09-29 17:27 - DOI TEN / DI CHUYEN
-
-- **Người đăng:** minhquan9125@gmail.com
-- **Tên / vị trí:** `00_Management/Mentor_Reviews/20260918/REVIEW_FinMind_v2_20260918`
-- **Vị trí cũ:** `00_Management/Mentor_Reviews/REVIEW_FinMind_v2_20260918`
-- **Ngày và giờ:** 2026-09-29 17:27
-
-## 2026-09-25 17:23 - DOI TEN / DI CHUYEN
-
-- **Người đăng:** minhquan9125@gmail.com
-- **Tên / vị trí:** `00_Management/Mentor_Reviews/REVIEW_FinMind_v2_20260918`
-- **Vị trí cũ:** `Review/REVIEW_FinMind_v2_20260918`
-- **Ngày và giờ:** 2026-09-25 17:23
-
-## 2026-09-25 17:23 - DA XOA
+## 2026-09-25 17:22 - TAO MOI
 
 - **Người đăng:** nguyenquocanh41@gmail.com
-- **Tên / vị trí:** `Review/REVIEW_FinMind_v2_20260918.html`
-- **Ngày và giờ:** 2026-09-25 17:23
-
-## 2026-09-19 11:28 - TAO MOI
-
-- **Người đăng:** nguyenquocanh41@gmail.com
-- **Tên / vị trí:** `Review/REVIEW_FinMind_v2_20260918.html`
-- **Ngày và giờ:** 2026-09-19 11:28
-
-## 2026-09-19 11:28 - TAO MOI
-
-- **Người đăng:** minhquan9125@gmail.com
-- **Tên / vị trí:** `Review/REVIEW_FinMind_v2_20260918`
-- **Ngày và giờ:** 2026-09-19 11:28
+- **Tên / vị trí:** `00_Management/Mentor_Reviews/REVIEW_FinMind_v2_20260918.html`
+- **Ngày và giờ:** 2026-09-25 17:22
 
