@@ -1,5 +1,39 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-09-29 17:02 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-29 17:02
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	142	0	28 task; 142h dự kiến.**
+
+🟢 **	S2-WBS01	Chốt phạm vi và danh sách nguồn BCTC, BCTN, News	Chốt phạm vi và nguồn BCTC, BCTN, News	Gộp việc lập URL và kiểm quyền nguồn vào một bảng. Rà kết quả Sprint 1 cho 10 công ty; bổ sung URL thực, loại tài liệu, kỳ và khoảng ngày News. Ghi nguồn được phép dùng và các mục còn thiếu. Không nghiên cứu lại toàn bộ phạm vi đã chốt.	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Một danh sách được nhóm duyệt, phân biệt đủ/thiếu và có URL ki...**
+
+🟢 **Kết quả cần có: Một danh sách được nhóm duyệt, phân biệt đủ/thiếu và có URL kiểm tra được. Chưa có danh sách hoặc nguồn thì chưa được coi xong.	Nguyễn Minh Quân	Đang test	3		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Gộp việc lập URL và kiểm quyền nguồn vào một bảng. Rà kết quả Sprint 1 cho 10 công ty; bổ sung URL thực, loại tài liệu, kỳ và khoảng ngày News. Ghi nguồn được phép dùng và các mục còn thiếu. Không nghiên cứu lại toàn bộ phạm...**
+
+🟢 **Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G01	2	Chốt phạm vi và nguồn BCTC, BCTN, News	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Đang test	5		Sprint 2 Backlog**
+
+🟢 **S2-WBS04: Rà schema chung và mẫu dữ liệu bàn giao	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Đang test	Ngày và phân công là kế hoạch đề xuất.**
+
+~~								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	142	0	28 task; 142h dự kiến.~~
+
+~~	S2-WBS01	Chốt phạm vi và danh sách nguồn BCTC, BCTN, News	Chốt phạm vi và nguồn BCTC, BCTN, News	Gộp việc lập URL và kiểm quyền nguồn vào một bảng. Rà kết quả Sprint 1 cho 10 công ty; bổ sung URL thực, loại tài liệu, kỳ và khoảng ngày News. Ghi nguồn được phép dùng và các mục còn thiếu. Không nghiên cứu lại toàn bộ phạm vi đã chốt.	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Một danh sách được nhóm duyệt, phân biệt đủ/thiếu và có URL ki...~~
+
+~~	Sửa trạng thái, phụ trách và ngày tại sheet sprint. Product Backlog, tháng và 3 tháng tự cập nhật.																											~~
+
+~~	Giờ là ước lượng lại cho MVP khi tái dùng crawler/parser, ERD và repository Sprint 1; UI dùng component/template chung và mock, chưa nối backend thật. Số tài liệu, nguồn News và file scan chưa xác nhận: nếu khối lượng hoặc công cụ không đáp ứng phải ước lượng lại, không tự giảm độ phủ hoặc bỏ kiểm tra nguồn.~~
+
+~~Bỏ 8 task độc lập do gộp: 02/03 vào 01; 07 vào 05/06; 10 vào 09; 33 vào 09/20; 34 vào task sửa lỗi; 35 vào 15/32; 36 vào 16/32. Giữ nguyên mã các task còn lại và nội dung Sprint 1.																											~~
+
+~~Kết quả cần có: Một danh sách được nhóm duyệt, phân biệt đủ/thiếu và có URL kiểm tra được. Chưa có danh sách hoặc nguồn thì chưa được coi xong.	Nguyễn Minh Quân	Chưa bắt đầu	3		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Gộp việc lập URL và kiểm quyền nguồn vào một bảng. Rà kết quả Sprint 1 cho 10 công ty; bổ sung URL thực, loại tài liệu, kỳ và khoảng ngày News. Ghi nguồn được phép dùng và các mục còn thiếu. Không nghiên cứu lại toàn bộ p...~~
+
+~~Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G01	2	Chốt phạm vi và nguồn BCTC, BCTN, News	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	5		Sprint 2 Backlog~~
+
+~~S2-WBS04: Rà schema chung và mẫu dữ liệu bàn giao	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-09-29 16:17 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
