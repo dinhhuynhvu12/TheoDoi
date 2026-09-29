@@ -1,5 +1,525 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-09-29 14:27 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-29 14:27
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **  Cách làm: Lập bảng cho 10 công ty đã chọn. Ghi từng loại tài liệu, kỳ/năm và ngày bắt đầu/kết thúc của News, nguồn được phép lấy, người duyệt và mục bắt buộc. BCTC/BCTN theo kỳ đã chốt, không tự đổi theo ngày chạy.**
+
+🟢 **  Cách làm: Lập bảng cho 10 công ty đã chọn. Ghi từng loại tài liệu, kỳ/năm và ngày bắt đầu/kết thúc của News, nguồn được phép lấy, người duyệt và mục bắt buộc. BCTC/BCTN theo kỳ đã chốt, không tự đổi theo ngày chạy.**
+
+🟢 **  Kết quả cần có: Bảng phạm vi có phiên bản và được nhóm duyệt. Mục chưa chốt được đánh dấu, không tự coi đã có nguồn.	Xác nhận nguồn báo cáo của 10 công ty	Ghi URL báo cáo chính thức cho VCB, BID, CTG, MBB, TCB theo kỳ trong phạm vi. Không điền URL dự đoán.	5 công ty có URL kiểm tra được hoặc ghi rõ kỳ chưa tìm thấy.**
+
+🟢 **  Cách làm: Tìm URL chính thức cho VCB, BID, CTG, MBB, TCB, FPT, CMG, ELC, ITD, ICT. Mỗi dòng ghi công ty, loại báo cáo, kỳ, URL và tình trạng truy cập. Phân biệt BCTN với BCTC đính kèm để không đếm trùng.**
+
+🟢 **  Cách làm: Tìm URL chính thức cho VCB, BID, CTG, MBB, TCB, FPT, CMG, ELC, ITD, ICT. Mỗi dòng ghi công ty, loại báo cáo, kỳ, URL và tình trạng truy cập. Phân biệt BCTN với BCTC đính kèm để không đếm trùng.**
+
+🟢 **  Kết quả cần có: Danh sách đối chiếu đủ công ty/kỳ đã duyệt. URL thiếu hoặc không truy cập được có lý do và phương án xử lý, không tạo URL giả.	Xác nhận nguồn báo cáo của 10 công ty	Ghi URL báo cáo chính thức cho FPT, CMG, ELC, ITD, ICT theo cùng phạm vi.	5 công ty có URL kiểm tra được hoặc ghi rõ kỳ chưa tìm thấy.**
+
+🟢 **  Cách làm: Liệt kê nguồn tin, quyền sử dụng, cách truy cập và khoảng ngày. Định nghĩa bài liên quan bằng tên/mã công ty và kiểm tra ngữ cảnh để tránh nhầm tên. Ghi cách xử lý bài đăng lại, tin cập nhật và ngày thiếu.**
+
+🟢 **  Cách làm: Liệt kê nguồn tin, quyền sử dụng, cách truy cập và khoảng ngày. Định nghĩa bài liên quan bằng tên/mã công ty và kiểm tra ngữ cảnh để tránh nhầm tên. Ghi cách xử lý bài đăng lại, tin cập nhật và ngày thiếu.**
+
+🟢 **  Kết quả cần có: Danh sách nguồn được duyệt, bộ tiêu chí nhận/loại bài và mẫu đúng/sai. Chỉ cào nội dung được phép theo phạm vi chốt.	Xác nhận nguồn báo cáo của 10 công ty	Đọc điều kiện truy cập, ghi chủ nguồn, cách lấy và quyền lưu bản sao. Đề xuất nguồn dự phòng hợp lệ.	5 công ty có URL kiểm tra được hoặc ghi rõ kỳ chưa tìm thấy.**
+
+🟢 **  Cách làm: Định nghĩa trường chung: company\_id, source\_id, URL, ngày công bố, ngày lấy, SHA-256, phiên bản. Báo cáo thêm kỳ, đơn vị, phạm vi hợp nhất/riêng lẻ và vị trí nguồn. News thêm tiêu đề, tác giả nếu có, nội dung và ngày bài.**
+
+🟢 **  Cách làm: Định nghĩa trường chung: company\_id, source\_id, URL, ngày công bố, ngày lấy, SHA-256, phiên bản. Báo cáo thêm kỳ, đơn vị, phạm vi hợp nhất/riêng lẻ và vị trí nguồn. News thêm tiêu đề, tác giả nếu có, nội dung và ngày bài.**
+
+🟢 **  Kết quả cần có: Mẫu dữ liệu chung được thống nhất với người làm vector/graph. Phân biệt giá trị 0, thiếu, chưa kiểm tra; có danh mục mã lỗi.	Xác nhận nguồn báo cáo của 10 công ty	Đối chiếu 3 năm tài chính và 4 quý gần nhất tại ngày chốt. Tách kỳ thiếu; không coi là dữ liệu đã có.	5 công ty có URL kiểm tra được hoặc ghi rõ kỳ chưa tìm thấy.**
+
+🟢 **  Cách làm: Lấy các bài trong khoảng ngày đã chốt, xử lý phân trang, lấy nội dung chính thay vì menu/quảng cáo. Lọc theo công ty và quy tắc đã duyệt. Giữ URL và ngày gốc; không tự vượt paywall hay nguồn bị cấm.**
+
+🟢 **  Cách làm: Lấy các bài trong khoảng ngày đã chốt, xử lý phân trang, lấy nội dung chính thay vì menu/quảng cáo. Lọc theo công ty và quy tắc đã duyệt. Giữ URL và ngày gốc; không tự vượt paywall hay nguồn bị cấm.**
+
+🟢 **  Kết quả cần có: Tải được danh sách và nội dung mẫu đúng phạm vi. Bài bị loại/lỗi có lý do; ngày không xác định không được tự điền.	Xây bộ lấy tài liệu và ghi phiên bản	Lưu file gốc bất biến cùng URL, thời điểm lấy, mã công ty, kỳ và SHA-256 để nhận diện đúng phiên bản.	Tải được PDF mẫu; lỗi truy cập được báo rõ, không lặp vô hạn.**
+
+🟢 **  Cách làm: Chạy bộ cào cho toàn bộ báo cáo và News bắt buộc, ghi số mục dự kiến, đã lấy, bị loại và lỗi. Chỉ chạy lại mục lỗi; kiểm tra phân trang và ranh giới ngày để không bỏ sót.**
+
+🟢 **  Cách làm: Chạy bộ cào cho toàn bộ báo cáo và News bắt buộc, ghi số mục dự kiến, đã lấy, bị loại và lỗi. Chỉ chạy lại mục lỗi; kiểm tra phân trang và ranh giới ngày để không bỏ sót.**
+
+🟢 **  Kết quả cần có: Bảng độ phủ đối chiếu được phạm vi đã duyệt. Không còn mục bắt buộc chưa lấy hoặc lỗi chưa giải quyết mới được nghiệm thu cào.	Xây bộ lấy tài liệu và ghi phiên bản	Tạo mã lần chạy, số tài liệu thành công, thất bại, số lần thử lại và thời điểm kết thúc.	Tải được PDF mẫu; lỗi truy cập được báo rõ, không lặp vô hạn.**
+
+🟢 **  Cách làm: Đọc PDF/HTML thành văn bản và bảng, giữ số trang, mục, tên bảng và vị trí dòng. Giữ cả nội dung giải thích trong BCTN để dùng truy vấn sau. Đối chiếu mẫu với tài liệu gốc.**
+
+🟢 **  Cách làm: Đọc PDF/HTML thành văn bản và bảng, giữ số trang, mục, tên bảng và vị trí dòng. Giữ cả nội dung giải thích trong BCTN để dùng truy vấn sau. Đối chiếu mẫu với tài liệu gốc.**
+
+🟢 **  Kết quả cần có: Có dữ liệu trích thử cho hai ngành và hai loại báo cáo. Nội dung và bảng giữ được vị trí nguồn, không lẫn trang hoặc cột số.	Trích bảng báo cáo và chuẩn hóa số liệu	Đọc bảng báo cáo; lưu tên bảng, trang, dòng, cột và giá trị gốc trước khi chuyển đổi.	Mỗi số mẫu mở lại được đúng trang và dòng trong tài liệu.**
+
+🟢 **  Cách làm: Nhận biết trang không có chữ và dùng OCR khi cần. Kiểm tra dấu âm, dấu thập phân và số trong bảng với ảnh gốc. Tài liệu mờ hoặc bảng lệch phải đưa vào hàng chờ xử lý, không tự xác nhận đúng.**
+
+🟢 **  Cách làm: Nhận biết trang không có chữ và dùng OCR khi cần. Kiểm tra dấu âm, dấu thập phân và số trong bảng với ảnh gốc. Tài liệu mờ hoặc bảng lệch phải đưa vào hàng chờ xử lý, không tự xác nhận đúng.**
+
+🟢 **  Kết quả cần có: Các trang scan đọc được đã kiểm tra. Trang không đáng tin có mã lỗi và bị loại khỏi dữ liệu được phép dùng.	Trích bảng báo cáo và chuẩn hóa số liệu	Nhận diện trang scan, đọc bằng OCR. Gắn cờ để người kiểm tra; cách ly trang không đọc rõ.	Mỗi số mẫu mở lại được đúng trang và dòng trong tài liệu.**
+
+🟢 **  Cách làm: Làm sạch phần menu/quảng cáo, chuẩn hóa ngày theo múi giờ xác định, gắn công ty có bằng chứng trong bài. Giữ tiêu đề, nội dung, nguồn và URL gốc. So hash/URL và nhận biết đăng lại; không nhập hai bài khác nhau thành một chỉ vì tiêu đề giống.**
+
+🟢 **  Cách làm: Làm sạch phần menu/quảng cáo, chuẩn hóa ngày theo múi giờ xác định, gắn công ty có bằng chứng trong bài. Giữ tiêu đề, nội dung, nguồn và URL gốc. So hash/URL và nhận biết đăng lại; không nhập hai bài khác nhau thành một chỉ vì tiêu đề giống.**
+
+🟢 **  Kết quả cần có: Tin nằm trong khoảng ngày đã duyệt, gắn đúng công ty, còn nguồn gốc. Bài trùng được liên kết; bài thiếu ngày hoặc chưa rõ công ty được cách ly.	Trích bảng báo cáo và chuẩn hóa số liệu	Ánh xạ tên dòng báo cáo vào danh mục 17 chỉ tiêu Ngân hàng và 17 chỉ tiêu Công nghệ trong SRS.	Mỗi số mẫu mở lại được đúng trang và dòng trong tài liệu.**
+
+🟢 **  Cách làm: Rà ERD đã có, tạo migration cho nguồn, tài liệu, phiên bản, facts, News và Evidence. Giữ quan hệ dữ liệu chuẩn với bản gốc và vị trí nguồn; có ràng buộc khóa/phiên bản. Chưa tạo embedding hoặc suy diễn edge ở task này.**
+
+🟢 **  Cách làm: Rà ERD đã có, tạo migration cho nguồn, tài liệu, phiên bản, facts, News và Evidence. Giữ quan hệ dữ liệu chuẩn với bản gốc và vị trí nguồn; có ràng buộc khóa/phiên bản. Chưa tạo embedding hoặc suy diễn edge ở task này.**
+
+🟢 **  Kết quả cần có: Migration chạy trên DB mới. Lưu và đọc được mẫu ba loại nguồn, khóa ngoại hợp lệ và không mất liên kết nguồn.	Tạo kho dữ liệu và mô hình bằng chứng	Viết migration PostgreSQL cho nguồn, tài liệu, phiên bản và FinancialFact theo mô hình đã duyệt.	Migration chạy được trên database trống; khóa ngoại và mã định danh hợp lệ.**
+
+🟢 **  Cách làm: Viết quy tắc trường bắt buộc, ngày/kỳ, đơn vị, company\_id, scope, hash và source locator. Cho dữ liệu lỗi vào quarantine (kho chờ sửa). Sau khi sửa hoặc lấy lại nguồn phải chạy lại toàn bộ kiểm tra trước khi cho dùng.**
+
+🟢 **  Cách làm: Viết quy tắc trường bắt buộc, ngày/kỳ, đơn vị, company\_id, scope, hash và source locator. Cho dữ liệu lỗi vào quarantine (kho chờ sửa). Sau khi sửa hoặc lấy lại nguồn phải chạy lại toàn bộ kiểm tra trước khi cho dùng.**
+
+🟢 **  Kết quả cần có: Ca đúng được nhận; ca sai bị cách ly và có lý do. Thiếu bản gốc hoặc chưa kiểm lại thì không được đưa vào corpus hợp lệ.	Tạo kho dữ liệu và mô hình bằng chứng	Lưu Evidence cùng hash tài liệu, trang, bảng, dòng hoặc mục để dùng chung cho truy vấn và trích dẫn.	Migration chạy được trên database trống; khóa ngoại và mã định danh hợp lệ.**
+
+🟢 **  Cách làm: Nạp các bản đã qua kiểm tra, so bảng/số báo cáo với nguồn gốc và so News với bài gốc theo mẫu kiểm tra đã chốt. Tổng hợp đủ/thiếu theo công ty, loại nguồn, kỳ và khoảng ngày; kiểm tra các ranh giới và phiên bản công bố lại.**
+
+🟢 **  Cách làm: Nạp các bản đã qua kiểm tra, so bảng/số báo cáo với nguồn gốc và so News với bài gốc theo mẫu kiểm tra đã chốt. Tổng hợp đủ/thiếu theo công ty, loại nguồn, kỳ và khoảng ngày; kiểm tra các ranh giới và phiên bản công bố lại.**
+
+🟢 **  Kết quả cần có: Tất cả dữ liệu được nhận đều qua quy tắc kiểm tra. Báo cáo đối chiếu có mẫu audit, lỗi đã sửa và độ phủ; mục bắt buộc thiếu vẫn là chưa xong.	Tạo kho dữ liệu và mô hình bằng chứng	Lưu 10 công ty, manifest và phiên bản corpus. Chỉ phiên bản đủ kiểm tra mới được đặt là đang sử dụng.	Migration chạy được trên database trống; khóa ngoại và mã định danh hợp lệ.**
+
+🟢 **  Cách làm: Đối chiếu use case đã chốt để liệt kê màn hình cho người dùng, người vận hành và evaluator. Vẽ đường đi đăng nhập, chọn công ty, hỏi, xem nguồn, lịch sử, watchlist và quản trị. Không đưa chức năng xuất PDF/Markdown đã bỏ vào UI.**
+
+🟢 **  Cách làm: Đối chiếu use case đã chốt để liệt kê màn hình cho người dùng, người vận hành và evaluator. Vẽ đường đi đăng nhập, chọn công ty, hỏi, xem nguồn, lịch sử, watchlist và quản trị. Không đưa chức năng xuất PDF/Markdown đã bỏ vào UI.**
+
+🟢 **  Kết quả cần có: Danh sách màn hình/luồng có đối chiếu use case. Phạm vi màn hình đã duyệt; quyền mỗi vai trò và đường quay lại được ghi rõ.	Kiểm tra chất lượng và cách ly dữ liệu lỗi	Kiểm tra metadata bắt buộc, đơn vị, kỳ, phạm vi báo cáo và nguồn tồn tại trước khi cho phép sử dụng.	Mỗi quy tắc có ít nhất một mẫu hợp lệ và một mẫu lỗi.**
+
+🟢 **  Cách làm: Vẽ bố cục từng màn hình: menu, tiêu đề, vùng nội dung, bộ lọc và nút chính. Thiết kế đường chuyển màn hình và trạng thái được phép xem theo vai trò. Đảm bảo màn hình chính dễ tìm, có chỗ hiển thị nguồn và trạng thái dữ liệu.**
+
+🟢 **  Cách làm: Vẽ bố cục từng màn hình: menu, tiêu đề, vùng nội dung, bộ lọc và nút chính. Thiết kế đường chuyển màn hình và trạng thái được phép xem theo vai trò. Đảm bảo màn hình chính dễ tìm, có chỗ hiển thị nguồn và trạng thái dữ liệu.**
+
+🟢 **  Kết quả cần có: Khung bố cục đủ các màn hình đã chốt, điều hướng không có ngõ cụt và được nhóm duyệt trước khi code.	Kiểm tra chất lượng và cách ly dữ liệu lỗi	Lưu bản ghi lỗi cùng lý do và nguồn. Cho sửa metadata hoặc từ chối; phải kiểm tra lại trước khi đưa vào kho.	Mỗi quy tắc có ít nhất một mẫu hợp lệ và một mẫu lỗi.**
+
+🟢 **  Cách làm: Chốt màu, font, khoảng cách, bảng, form, nút, citation marker và nhãn trạng thái. Thiết kế cả đang tải, rỗng, thiếu dữ liệu, hết quyền và lỗi. Làm bố cục desktop và màn hình hẹp theo phạm vi nghiệm thu.**
+
+🟢 **  Cách làm: Chốt màu, font, khoảng cách, bảng, form, nút, citation marker và nhãn trạng thái. Thiết kế cả đang tải, rỗng, thiếu dữ liệu, hết quyền và lỗi. Làm bố cục desktop và màn hình hẹp theo phạm vi nghiệm thu.**
+
+🟢 **  Kết quả cần có: Bản thiết kế chi tiết và bộ component nhất quán, đủ trạng thái chính. Không để phần thiết kế chi tiết sang Sprint 5.	Kiểm tra chất lượng và cách ly dữ liệu lỗi	Chọn một công ty Ngân hàng và hai kỳ. So sánh số trích xuất với bảng PDF; ghi sai lệch và cách xử lý.	Mỗi quy tắc có ít nhất một mẫu hợp lệ và một mẫu lỗi.**
+
+🟢 **  Cách làm: Nối các màn hình thiết kế thành bản bấm thử. Dùng dữ liệu mẫu có nhãn, chạy các luồng theo vai trò, ghi lỗi thao tác và sửa. Phân biệt prototype với giao diện bằng code sẽ bàn giao ở tuần 2.**
+
+🟢 **  Cách làm: Nối các màn hình thiết kế thành bản bấm thử. Dùng dữ liệu mẫu có nhãn, chạy các luồng theo vai trò, ghi lỗi thao tác và sửa. Phân biệt prototype với giao diện bằng code sẽ bàn giao ở tuần 2.**
+
+🟢 **  Kết quả cần có: Prototype mở được bằng link/file, các luồng đã chốt bấm được, có kết quả review và bản thiết kế được duyệt.	Kiểm tra chất lượng và cách ly dữ liệu lỗi	Thực hiện kiểm tra tương tự cho một công ty Công nghệ, gồm đơn vị và phạm vi báo cáo.	Mỗi quy tắc có ít nhất một mẫu hợp lệ và một mẫu lỗi.**
+
+🟢 **  Cách làm: Tạo cấu trúc source frontend trong repository đã có, cấu hình môi trường mẫu và lệnh chạy/build. Code layout chung, menu, header và vùng nội dung theo thiết kế. Không tự gắn secrets vào frontend.**
+
+🟢 **  Cách làm: Tạo cấu trúc source frontend trong repository đã có, cấu hình môi trường mẫu và lệnh chạy/build. Code layout chung, menu, header và vùng nội dung theo thiết kế. Không tự gắn secrets vào frontend.**
+
+🟢 **  Kết quả cần có: Clone/cài/chạy/build được theo hướng dẫn; khung trang bằng code khớp thiết kế. Đây là source code, không chỉ ảnh hoặc link prototype.	Xây đăng nhập và phân quyền nền tảng	Tạo Researcher, Data Operator, Evaluator, System Admin. Định nghĩa quyền theo ma trận SRS; chưa làm đăng ký tự do.	Tài khoản thử có đúng vai trò và quyền được cấp.**
+
+🟢 **  Cách làm: Code bảng, form, nút, bộ lọc và hộp thoại theo thiết kế. Tạo dữ liệu giả rõ nhãn, gồm đủ/rỗng/lỗi/thiếu nguồn; không lấy dữ liệu giả làm bằng chứng thật. Dùng một lớp gọi dữ liệu để thay mock bằng API sau.**
+
+🟢 **  Cách làm: Code bảng, form, nút, bộ lọc và hộp thoại theo thiết kế. Tạo dữ liệu giả rõ nhãn, gồm đủ/rỗng/lỗi/thiếu nguồn; không lấy dữ liệu giả làm bằng chứng thật. Dùng một lớp gọi dữ liệu để thay mock bằng API sau.**
+
+🟢 **  Kết quả cần có: Component tái sử dụng được; dữ liệu mẫu tách khỏi UI. Có cách đổi sang API thật mà không phải viết lại bố cục.	Xây đăng nhập và phân quyền nền tảng	Xác minh thông tin đăng nhập, tạo phiên có thời hạn và xử lý đăng xuất. Không ghi mật khẩu vào log.	Tài khoản thử có đúng vai trò và quyền được cấp.**
+
+🟢 **  Cách làm: Code loading, empty, error, retry và thiếu dữ liệu. Định nghĩa payload yêu cầu/đáp ứng, trace\_id và citation\_id với người làm backend. Màn hình dùng dữ liệu mẫu nhưng lời hiển thị không được giả là kết quả đã kiểm chứng.**
+
+🟢 **  Cách làm: Code loading, empty, error, retry và thiếu dữ liệu. Định nghĩa payload yêu cầu/đáp ứng, trace\_id và citation\_id với người làm backend. Màn hình dùng dữ liệu mẫu nhưng lời hiển thị không được giả là kết quả đã kiểm chứng.**
+
+🟢 **  Kết quả cần có: Trạng thái lỗi/thành công có thể chạy thử bằng mock. Có bảng hợp đồng API, điểm thay dữ liệu và kịch bản kiểm thử để nối thật ở Sprint 3–4.	Xây đăng nhập và phân quyền nền tảng	Làm màn hình đăng nhập tối thiểu và hiển thị lỗi dễ hiểu; giữ phiên theo quy tắc đã chốt.	Tài khoản thử có đúng vai trò và quyền được cấp.**
+
+🟢 **  Cách làm: Code tìm/chọn công ty trong danh sách 10 mã, bộ lọc kỳ, profile, facts và News. Nếu có panel thị trường trong phạm vi thì ghi rõ dữ liệu mẫu/EOD, không gọi là live. Hiển thị nguồn, ngày, đơn vị và thiếu dữ liệu theo thiết kế.**
+
+🟢 **  Cách làm: Code tìm/chọn công ty trong danh sách 10 mã, bộ lọc kỳ, profile, facts và News. Nếu có panel thị trường trong phạm vi thì ghi rõ dữ liệu mẫu/EOD, không gọi là live. Hiển thị nguồn, ngày, đơn vị và thiếu dữ liệu theo thiết kế.**
+
+🟢 **  Kết quả cần có: Màn hình chạy với dữ liệu mẫu, chọn công ty/kỳ cập nhật đúng panel, trạng thái rỗng/lỗi và nhãn nguồn rõ ràng.	Xây tìm công ty và nhật ký truy vấn	Tìm theo ticker và tên trong 10 công ty; trả mã ổn định, tên chính thức và ngành.	Không tìm thấy công ty ngoài phạm vi; nhiều kết quả không bị chọn tự động.**
+
+🟢 **  Cách làm: Code nhập câu hỏi, chọn công ty/kỳ, gửi và hiển thị trạng thái chờ, kết quả mẫu, partial/insufficient-data/refusal. Code bố cục so sánh, giả định căn chỉnh và phần thiếu. Chưa tuyên bố backend RAG đã hoạt động.**
+
+🟢 **  Cách làm: Code nhập câu hỏi, chọn công ty/kỳ, gửi và hiển thị trạng thái chờ, kết quả mẫu, partial/insufficient-data/refusal. Code bố cục so sánh, giả định căn chỉnh và phần thiếu. Chưa tuyên bố backend RAG đã hoạt động.**
+
+🟢 **  Kết quả cần có: Luồng hỏi và so sánh chạy bằng mock, hủy/thử lại và lỗi hiển thị rõ. Không có nút hay nội dung tư vấn mua/bán ngoài phạm vi.	Xây tìm công ty và nhật ký truy vấn	Hiện danh sách kết quả, cho chọn một công ty hoặc xóa lựa chọn; xử lý không có kết quả.	Không tìm thấy công ty ngoài phạm vi; nhiều kết quả không bị chọn tự động.**
+
+🟢 **  Cách làm: Code hiển thị node/edge mẫu, chọn root, lọc và mở provenance. Mô phỏng mở rộng một/hai hop, graph rỗng và lỗi. Chặn mở rộng vượt hai hop trong UI; backend sẽ kiểm giới hạn khi nối thật ở Sprint 4.**
+
+🟢 **  Cách làm: Code hiển thị node/edge mẫu, chọn root, lọc và mở provenance. Mô phỏng mở rộng một/hai hop, graph rỗng và lỗi. Chặn mở rộng vượt hai hop trong UI; backend sẽ kiểm giới hạn khi nối thật ở Sprint 4.**
+
+🟢 **  Kết quả cần có: Graph mẫu thao tác được, edge mở nguồn và trạng thái lỗi/rỗng rõ. Không tự sinh quan hệ không có trong dữ liệu mẫu.	Xây tìm công ty và nhật ký truy vấn	Che khóa API, mật khẩu và dữ liệu người dùng ngoài chính sách trước khi lưu hoặc hiển thị nhật ký.	Không tìm thấy công ty ngoài phạm vi; nhiều kết quả không bị chọn tự động.**
+
+🟢 **  Cách làm: Code danh sách phiên bản, readiness, promote/restore bằng mock. Code form ngưỡng/budget có kiểm tra giá trị và màn hình trace theo quyền mẫu. Giữ lịch sử thay đổi mẫu; không gọi dữ liệu mô phỏng là telemetry thật.**
+
+🟢 **  Cách làm: Code danh sách phiên bản, readiness, promote/restore bằng mock. Code form ngưỡng/budget có kiểm tra giá trị và màn hình trace theo quyền mẫu. Giữ lịch sử thay đổi mẫu; không gọi dữ liệu mô phỏng là telemetry thật.**
+
+🟢 **  Kết quả cần có: Màn hình chạy và xử lý trạng thái không đủ điều kiện, lỗi và giới hạn. Có hợp đồng API/audit để backend triển khai tiếp.	Nạp corpus và kiểm tra phiên bản	Ghi các tài liệu, hash, dữ kiện và trạng thái kiểm tra thuộc một phiên bản ứng viên.	Báo cáo nạp tách rõ công ty, kỳ thành công và kỳ còn thiếu.**
+
+🟢 **  Cách làm: Code nhập/xem ca kiểm thử, review/freeze trạng thái mẫu, chọn cấu hình B0–B3 và xem run/metrics. Luồng final phải mô phỏng giới hạn xem nhãn đúng vai trò, không lộ vào runtime. Chỉ thêm xuất metrics nếu nằm trong phạm vi đã duyệt.**
+
+🟢 **  Cách làm: Code nhập/xem ca kiểm thử, review/freeze trạng thái mẫu, chọn cấu hình B0–B3 và xem run/metrics. Luồng final phải mô phỏng giới hạn xem nhãn đúng vai trò, không lộ vào runtime. Chỉ thêm xuất metrics nếu nằm trong phạm vi đã duyệt.**
+
+🟢 **  Kết quả cần có: Màn hình evaluator chạy với mock, phân biệt partial/completed, thiếu trace và calibration/final. Không tự tạo điểm đánh giá như kết quả thật.	Nạp corpus và kiểm tra phiên bản	Kiểm tra đổi phiên bản đang dùng theo thao tác nguyên tử và trở lại phiên bản hợp lệ trước đó.	Báo cáo nạp tách rõ công ty, kỳ thành công và kỳ còn thiếu.**
+
+🟢 **  Cách làm: Demo tải/trích/chuẩn hóa mẫu ba loại nguồn và code skeleton đang chạy. Review phạm vi, nguồn còn thiếu, thiết kế chi tiết và prototype. Ghi các việc chưa đạt và kế hoạch sửa tuần 2, không nghiệm thu toàn bộ corpus từ vài file mẫu.**
+
+🟢 **  Cách làm: Demo tải/trích/chuẩn hóa mẫu ba loại nguồn và code skeleton đang chạy. Review phạm vi, nguồn còn thiếu, thiết kế chi tiết và prototype. Ghi các việc chưa đạt và kế hoạch sửa tuần 2, không nghiệm thu toàn bộ corpus từ vài file mẫu.**
+
+🟢 **  Kết quả cần có: Có biên bản demo tuần 1, đầu ra mẫu và danh sách lỗi/nguồn cần bổ sung. Prototype và skeleton được kiểm theo phạm vi.	Tích hợp và nghiệm thu Sprint 2	Chạy luồng tải, trích, chuẩn hóa, kiểm tra và lưu trên mẫu hai ngành.	Luồng mẫu truy ra đúng tài liệu; lỗi được cách ly đúng bước.**
+
+🟢 **  Cách làm: Ưu tiên lỗi chặn cào, trích bảng, chuẩn hóa, migration, route và component. Gắn lỗi với task gốc và kiểm lại trên trường hợp đã lỗi. Không đánh dấu xong nếu chỉ sửa code mà chưa chạy lại.**
+
+🟢 **  Cách làm: Ưu tiên lỗi chặn cào, trích bảng, chuẩn hóa, migration, route và component. Gắn lỗi với task gốc và kiểm lại trên trường hợp đã lỗi. Không đánh dấu xong nếu chỉ sửa code mà chưa chạy lại.**
+
+🟢 **  Kết quả cần có: Lỗi chặn tuần 1 được xử lý/kiểm lại, không mất metadata hay nguồn. Việc chưa sửa được ghi rõ tác động lên nghiệm thu.	Tích hợp và nghiệm thu Sprint 2	Xử lý các lỗi ghi nhận ở tuần 1, ưu tiên sai số và mất nguồn.	Luồng mẫu truy ra đúng tài liệu; lỗi được cách ly đúng bước.**
+
+🟢 **  Cách làm: Đối chiếu corpus với danh sách bắt buộc đã chốt; kiểm sample nội dung/số và lineage. Chạy UI bằng source trên môi trường sạch, kiểm đủ màn hình/luồng/states với mock. Hai đầu ra được nghiệm thu riêng, không dùng % task làm bằng chứng đủ dữ liệu.**
+
+🟢 **  Cách làm: Đối chiếu corpus với danh sách bắt buộc đã chốt; kiểm sample nội dung/số và lineage. Chạy UI bằng source trên môi trường sạch, kiểm đủ màn hình/luồng/states với mock. Hai đầu ra được nghiệm thu riêng, không dùng % task làm bằng chứng đủ dữ liệu.**
+
+🟢 **  Kết quả cần có: Cào và chuẩn hóa không còn thiếu mục bắt buộc/lỗi chặn. Prototype và frontend build chạy được. Có checklist, bằng chứng và danh sách API chưa nối.	Tích hợp và nghiệm thu Sprint 2	Thử hết hạn phiên, sai vai trò, nhiều kết quả và registry lỗi.	Luồng mẫu truy ra đúng tài liệu; lỗi được cách ly đúng bước.**
+
+🟢 **  Cách làm: Bàn giao raw/normalized corpus, manifest, DB migration, thiết kế, prototype, frontend source và hướng dẫn chạy. Liệt kê API/auth còn phải làm thật ở Sprint 3–4. Cập nhật SRS/Proposal/sơ đồ theo quyết định thực tế và ghi rủi ro giờ công.**
+
+🟢 **  Cách làm: Bàn giao raw/normalized corpus, manifest, DB migration, thiết kế, prototype, frontend source và hướng dẫn chạy. Liệt kê API/auth còn phải làm thật ở Sprint 3–4. Cập nhật SRS/Proposal/sơ đồ theo quyết định thực tế và ghi rủi ro giờ công.**
+
+🟢 **  Kết quả cần có: Gói bàn giao truy cập được, người nhận chạy lại được. Sprint 5 không còn thiết kế/code UI từ đầu; việc nối API và auth có task kế tiếp rõ ràng.	Tích hợp và nghiệm thu Sprint 2	Đối chiếu migration, audit hai ngành, manifest và API với yêu cầu. Ghi rõ phần chưa đạt.	Luồng mẫu truy ra đúng tài liệu; lỗi được cách ly đúng bước.**
+
+🟢 **  Kết quả cần có: Bảng phạm vi có phiên bản và được nhóm duyệt. Mục chưa chốt được đánh dấu, không tự coi đã có nguồn.	Nguyễn Minh Quân	Chưa bắt đầu	4		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Ghi URL báo cáo chính thức cho VCB, BID, CTG, MBB, TCB theo kỳ trong phạm vi. Không điền URL dự đoán.	5 công ty có URL kiểm tra được hoặc ghi rõ kỳ chưa tìm thấy.	Danh sách 10 công ty và phạm vi kỳ báo cáo trong SRS.														**
+
+🟢 **  Kết quả cần có: Danh sách đối chiếu đủ công ty/kỳ đã duyệt. URL thiếu hoặc không truy cập được có lý do và phương án xử lý, không tạo URL giả.	Nguyễn Minh Quân	Chưa bắt đầu	8		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Ghi URL báo cáo chính thức cho FPT, CMG, ELC, ITD, ICT theo cùng phạm vi.	5 công ty có URL kiểm tra được hoặc danh sách thiếu nguồn cụ thể.	Danh sách 10 công ty và phạm vi kỳ báo cáo trong SRS.														**
+
+🟢 **  Kết quả cần có: Danh sách nguồn được duyệt, bộ tiêu chí nhận/loại bài và mẫu đúng/sai. Chỉ cào nội dung được phép theo phạm vi chốt.	Nguyễn Minh Quân	Chưa bắt đầu	6		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Đọc điều kiện truy cập, ghi chủ nguồn, cách lấy và quyền lưu bản sao. Đề xuất nguồn dự phòng hợp lệ.	Mỗi nguồn có người rà soát và quyết định cho phép hoặc chưa cho phép.	Danh sách 10 công ty và phạm vi kỳ báo cáo trong SRS.						...**
+
+🟢 **  Kết quả cần có: Mẫu dữ liệu chung được thống nhất với người làm vector/graph. Phân biệt giá trị 0, thiếu, chưa kiểm tra; có danh mục mã lỗi.	Đinh Huỳnh Vũ	Chưa bắt đầu	6		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu 3 năm tài chính và 4 quý gần nhất tại ngày chốt. Tách kỳ thiếu; không coi là dữ liệu đã có.	Danh mục công ty, kỳ, URL và trạng thái nguồn được nhóm duyệt.	Danh sách 10 công ty và phạm vi kỳ báo cáo trong SRS.							...**
+
+🟢 **  Cách làm: Dùng danh sách URL đã duyệt để tải PDF/HTML theo nguồn. Cấu hình thời gian chờ, số lần thử lại và khoảng nghỉ; nhận biết file hỏng hoặc trang lỗi thay vì lưu nhầm làm báo cáo.**
+
+🟢 **  Kết quả cần có: Chạy thành công trên mẫu BCTC và BCTN của cả hai ngành. Lỗi tải có mã, URL và cách thử lại; không vượt điều kiện sử dụng nguồn.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	8		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Đọc cấu hình nguồn và tải báo cáo được duyệt. Giới hạn thời gian chờ, số lần thử lại và tốc độ truy cập.	Tải được PDF mẫu; lỗi truy cập được báo rõ, không lặp vô hạn.	Kiểm tra đầu ra liên quan của S2-G01 trước khi làm....**
+
+🟢 **  Kết quả cần có: Tải được danh sách và nội dung mẫu đúng phạm vi. Bài bị loại/lỗi có lý do; ngày không xác định không được tự điền.	Đinh Huỳnh Vũ	Chưa bắt đầu	10		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Lưu file gốc bất biến cùng URL, thời điểm lấy, mã công ty, kỳ và SHA-256 để nhận diện đúng phiên bản.	Một tài liệu tải về truy ra được file gốc và toàn bộ thông tin nguồn.	Kiểm tra đầu ra liên quan của S2-G01 trước khi làm.											...**
+
+🟢 **  Cách làm: Giữ file/nội dung gốc không sửa. Ghi thời điểm lấy và SHA-256 để nhận biết nội dung giống nhau; liên kết bản chuẩn hóa về bản gốc. Bản công bố lại có nội dung khác được lưu phiên bản mới.**
+
+🟢 **  Kết quả cần có: Mỗi item truy được bản gốc và metadata. Tải lại nội dung giống nhau không tạo bản trùng; nội dung thay đổi không ghi đè lịch sử.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	6		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	So sánh SHA-256 khi nạp lại. Giữ tài liệu sửa đổi thành phiên bản riêng, không ghi đè bản cũ.	Nạp lại file giống nhau không sinh bản trùng; file sửa đổi giữ được lịch sử.	Kiểm tra đầu ra liên quan của S2-G01 trước khi...**
+
+🟢 **  Kết quả cần có: Bảng độ phủ đối chiếu được phạm vi đã duyệt. Không còn mục bắt buộc chưa lấy hoặc lỗi chưa giải quyết mới được nghiệm thu cào.	Thái Quốc Hưng	Chưa bắt đầu	10		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo mã lần chạy, số tài liệu thành công, thất bại, số lần thử lại và thời điểm kết thúc.	Tra được một lần chạy; thông báo lỗi không chứa khóa API hoặc mật khẩu.	Kiểm tra đầu ra liên quan của S2-G01 trước khi làm.									...**
+
+🟢 **  Kết quả cần có: Có dữ liệu trích thử cho hai ngành và hai loại báo cáo. Nội dung và bảng giữ được vị trí nguồn, không lẫn trang hoặc cột số.	Trần Diệu Huyền	Chưa bắt đầu	10		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Đọc bảng báo cáo; lưu tên bảng, trang, dòng, cột và giá trị gốc trước khi chuyển đổi.	Mỗi số mẫu mở lại được đúng trang và dòng trong tài liệu.	Kiểm tra đầu ra liên quan của S2-G02 trước khi làm.														**
+
+🟢 **  Kết quả cần có: Các trang scan đọc được đã kiểm tra. Trang không đáng tin có mã lỗi và bị loại khỏi dữ liệu được phép dùng.	Đinh Huỳnh Vũ	Chưa bắt đầu	8		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Nhận diện trang scan, đọc bằng OCR. Gắn cờ để người kiểm tra; cách ly trang không đọc rõ.	Số OCR chưa được xác minh không được đưa vào kho dùng để trả lời.	Kiểm tra đầu ra liên quan của S2-G02 trước khi làm.														**
+
+🟢 **  Cách làm: Ánh xạ tên chỉ tiêu sang mã thống nhất theo danh mục đã duyệt cho từng ngành. Chuẩn hóa kỳ, ngày, đơn vị tiền, dấu âm và phạm vi báo cáo. Giữ giá trị/đơn vị gốc và phép chuyển đổi; không cộng sai lũy kế với quý riêng.**
+
+🟢 **  Kết quả cần có: Dữ kiện có company\_id, metric\_id, kỳ, scope, đơn vị chuẩn và vị trí nguồn. Chỉ tiêu không ánh xạ được hoặc mâu thuẫn được đưa vào xử lý lỗi.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	12		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Đổi ticker sang mã công ty ổn định, chuẩn hóa ngày và đơn vị VND. Phân biệt hợp nhất, riêng lẻ, năm và quý.	Không trộn số khác kỳ hoặc phạm vi; lưu cả giá trị gốc và giá trị chuẩn.	Kiểm tra đầu ra liên qu...**
+
+🟢 **  Kết quả cần có: Tin nằm trong khoảng ngày đã duyệt, gắn đúng công ty, còn nguồn gốc. Bài trùng được liên kết; bài thiếu ngày hoặc chưa rõ công ty được cách ly.	Thái Quốc Hưng	Chưa bắt đầu	8		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ánh xạ tên dòng báo cáo vào danh mục 17 chỉ tiêu Ngân hàng và 17 chỉ tiêu Công nghệ trong SRS.	Bảng ánh xạ ghi rõ chỉ tiêu, dòng nguồn, đơn vị và trường hợp chưa xác định.	Kiểm tra đầu ra liên quan của S2-...**
+
+🟢 **  Kết quả cần có: Migration chạy trên DB mới. Lưu và đọc được mẫu ba loại nguồn, khóa ngoại hợp lệ và không mất liên kết nguồn.	Trần Diệu Huyền	Chưa bắt đầu	8		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Viết migration PostgreSQL cho nguồn, tài liệu, phiên bản và FinancialFact theo mô hình đã duyệt.	Migration chạy được trên database trống; khóa ngoại và mã định danh hợp lệ.	Kiểm tra đầu ra liên quan của S2-G03 trước khi làm.														**
+
+🟢 **  Kết quả cần có: Ca đúng được nhận; ca sai bị cách ly và có lý do. Thiếu bản gốc hoặc chưa kiểm lại thì không được đưa vào corpus hợp lệ.	Nguyễn Minh Quân	Chưa bắt đầu	10		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Lưu Evidence cùng hash tài liệu, trang, bảng, dòng hoặc mục để dùng chung cho truy vấn và trích dẫn.	Bằng chứng không mất vị trí nguồn khi chuyển giữa các bước xử lý.	Kiểm tra đầu ra liên quan của S2-G03 trước khi làm.							...**
+
+🟢 **  Kết quả cần có: Tất cả dữ liệu được nhận đều qua quy tắc kiểm tra. Báo cáo đối chiếu có mẫu audit, lỗi đã sửa và độ phủ; mục bắt buộc thiếu vẫn là chưa xong.	Đinh Huỳnh Vũ	Chưa bắt đầu	12		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Lưu 10 công ty, manifest và phiên bản corpus. Chỉ phiên bản đủ kiểm tra mới được đặt là đang sử dụng.	Truy vấn biết đang dùng phiên bản nào; bản cũ không bị ghi đè.	Kiểm tra đầu ra liên quan của S2-G03 trước...**
+
+🟢 **  Cách làm: Lập manifest: danh sách item, hash, phiên bản, số lượng và kết quả kiểm tra. Chốt bản dùng tiếp, giữ bản cũ và đường dẫn có quyền truy cập. Ghi rõ đây là corpus chuẩn hóa, chưa phải chỉ mục vector/graph sẵn sàng truy vấn.**
+
+🟢 **  Kết quả cần có: Gói dữ liệu và manifest tái tạo được, không còn lỗi chặn hoặc thiếu nguồn bắt buộc. Có hướng dẫn đọc schema và danh sách giới hạn được nghiệm thu.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Nạp mẫu của một công ty mỗi ngành trước khi nạp rộng. Đối chiếu số dòng và nguồn sau khi lưu.	Kho mẫu có dữ kiện hợp lệ; dữ kiện không có nguồn bị từ chối.	Kiểm tra đầu ra liên quan của S2-G03 trước ...**
+
+🟢 **  Kết quả cần có: Danh sách màn hình/luồng có đối chiếu use case. Phạm vi màn hình đã duyệt; quyền mỗi vai trò và đường quay lại được ghi rõ.	Trần Diệu Huyền	Chưa bắt đầu	6		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra metadata bắt buộc, đơn vị, kỳ, phạm vi báo cáo và nguồn tồn tại trước khi cho phép sử dụng.	Mỗi quy tắc có ít nhất một mẫu hợp lệ và một mẫu lỗi.	Kiểm tra đầu ra liên quan của S2-G04 trước khi làm.														**
+
+🟢 **  Kết quả cần có: Khung bố cục đủ các màn hình đã chốt, điều hướng không có ngõ cụt và được nhóm duyệt trước khi code.	Trần Diệu Huyền	Chưa bắt đầu	8		Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Lưu bản ghi lỗi cùng lý do và nguồn. Cho sửa metadata hoặc từ chối; phải kiểm tra lại trước khi đưa vào kho.	Dữ liệu bị cách ly không xuất hiện trong kết quả truy vấn.	Kiểm tra đầu ra liên quan của S2-G04 trước khi làm.														**
+
+🟢 **  Kết quả cần có: Bản thiết kế chi tiết và bộ component nhất quán, đủ trạng thái chính. Không để phần thiết kế chi tiết sang Sprint 5.	Nguyễn Minh Quân	Chưa bắt đầu	10		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Chọn một công ty Ngân hàng và hai kỳ. So sánh số trích xuất với bảng PDF; ghi sai lệch và cách xử lý.	Có biên bản kiểm tra từng số mẫu và danh sách lỗi chưa giải quyết.	Kiểm tra đầu ra liên quan của S2-G04 trước khi làm.									...**
+
+🟢 **  Kết quả cần có: Prototype mở được bằng link/file, các luồng đã chốt bấm được, có kết quả review và bản thiết kế được duyệt.	Đinh Huỳnh Vũ	Chưa bắt đầu	6		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Thực hiện kiểm tra tương tự cho một công ty Công nghệ, gồm đơn vị và phạm vi báo cáo.	Có biên bản kiểm tra; chỉ dữ kiện đạt mới được đưa vào corpus.	Kiểm tra đầu ra liên quan của S2-G04 trước khi làm.														**
+
+🟢 **  Kết quả cần có: Clone/cài/chạy/build được theo hướng dẫn; khung trang bằng code khớp thiết kế. Đây là source code, không chỉ ảnh hoặc link prototype.	Thái Quốc Hưng	Chưa bắt đầu	8		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo Researcher, Data Operator, Evaluator, System Admin. Định nghĩa quyền theo ma trận SRS; chưa làm đăng ký tự do.	Tài khoản thử có đúng vai trò và quyền được cấp.	Kiểm tra đầu ra liên quan của S2-G05 trước khi làm....**
+
+🟢 **  Kết quả cần có: Component tái sử dụng được; dữ liệu mẫu tách khỏi UI. Có cách đổi sang API thật mà không phải viết lại bố cục.	Thái Quốc Hưng	Chưa bắt đầu	10		Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Xác minh thông tin đăng nhập, tạo phiên có thời hạn và xử lý đăng xuất. Không ghi mật khẩu vào log.	Đăng nhập hợp lệ tạo phiên; thông tin sai không cho truy cập.	Kiểm tra đầu ra liên quan của S2-G05 trước khi làm.														**
+
+🟢 **  Cách làm: Code route, điều hướng, giao diện đăng nhập/đăng xuất và thông báo hết phiên/hết quyền bằng phiên mẫu. Mô phỏng các vai trò để kiểm tra UI. Kiểm tra quyền trên UI không được coi là bảo mật thật; API đăng nhập/RBAC làm ở Sprint 3.**
+
+🟢 **  Kết quả cần có: Các route chính và trạng thái truy cập chạy với mock. Không nhầm tài khoản mẫu với hệ thống xác thực thật; có hợp đồng API cần nối.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	8		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Chặn thao tác quản trị nguồn, corpus và đánh giá với người không có quyền.	Gọi API trực tiếp bằng sai vai trò vẫn bị từ chối.	Kiểm tra đầu ra liên quan của S2-G05 trước khi làm.														**
+
+🟢 **  Kết quả cần có: Trạng thái lỗi/thành công có thể chạy thử bằng mock. Có bảng hợp đồng API, điểm thay dữ liệu và kịch bản kiểm thử để nối thật ở Sprint 3–4.	Nguyễn Minh Quân	Chưa bắt đầu	8		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Làm màn hình đăng nhập tối thiểu và hiển thị lỗi dễ hiểu; giữ phiên theo quy tắc đã chốt.	Người dùng vào được vùng được cấp quyền và đăng xuất được.	Kiểm tra đầu ra liên quan của S2-G05 trước khi làm.							...**
+
+🟢 **  Kết quả cần có: Màn hình chạy với dữ liệu mẫu, chọn công ty/kỳ cập nhật đúng panel, trạng thái rỗng/lỗi và nhãn nguồn rõ ràng.	Đinh Huỳnh Vũ	Chưa bắt đầu	10		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Tìm theo ticker và tên trong 10 công ty; trả mã ổn định, tên chính thức và ngành.	Không tìm thấy công ty ngoài phạm vi; nhiều kết quả không bị chọn tự động.	Kiểm tra đầu ra liên quan của S2-G06 trước khi làm.														**
+
+🟢 **  Kết quả cần có: Luồng hỏi và so sánh chạy bằng mock, hủy/thử lại và lỗi hiển thị rõ. Không có nút hay nội dung tư vấn mua/bán ngoài phạm vi.	Đinh Huỳnh Vũ	Chưa bắt đầu	12		Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Hiện danh sách kết quả, cho chọn một công ty hoặc xóa lựa chọn; xử lý không có kết quả.	Lựa chọn trên giao diện khớp mã công ty gửi tới API.	Kiểm tra đầu ra liên quan của S2-G06 trước khi làm.														**
+
+🟢 **  Cách làm: Code mở citation theo ID mẫu, xem locator/đoạn nguồn, fact/calc và provenance. Code xem/xóa lịch sử, pin/unpin và gửi feedback với hộp xác nhận. Mô phỏng lỗi và dữ liệu riêng theo user mẫu, chưa coi là lưu trữ/bảo mật thật.**
+
+🟢 **  Kết quả cần có: Các màn hình/luồng đã chốt chạy với mock, không trùng watchlist, không mở URL client tùy ý; không có xuất PDF/Markdown.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	12		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Định nghĩa trace ID, phiên bản corpus, tuyến truy vấn, thời gian và mã lỗi; chưa giả lập telemetry thật.	Một yêu cầu mẫu tạo trace có các trường bắt buộc.	Kiểm tra đầu ra liên quan của S2-G06 trước khi làm.														**
+
+🟢 **  Kết quả cần có: Graph mẫu thao tác được, edge mở nguồn và trạng thái lỗi/rỗng rõ. Không tự sinh quan hệ không có trong dữ liệu mẫu.	Nguyễn Minh Quân	Chưa bắt đầu	10		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Che khóa API, mật khẩu và dữ liệu người dùng ngoài chính sách trước khi lưu hoặc hiển thị nhật ký.	Mẫu log lỗi không lộ bí mật; quản trị viên chỉ thấy dữ liệu được phép.	Kiểm tra đầu ra liên quan của S2-G06 trước khi làm.									...**
+
+🟢 **  Cách làm: Code cấu hình/test/pause nguồn, bắt đầu/xem run, counts/retry, quarantine và bản ghi. Dùng mock cho thao tác quản trị; cần xác nhận thao tác quan trọng. Không chạy bộ cào thật từ UI khi API chưa nối.**
+
+🟢 **  Kết quả cần có: Màn hình operator chạy với mock, hiển thị lỗi đã làm sạch và thời điểm cập nhật; không lộ khóa truy cập.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	12		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy pipeline trên các kỳ có nguồn hợp lệ. Ghi tỷ lệ phủ và danh sách kỳ thiếu, không lấp bằng số tự tạo.	Báo cáo nạp tách rõ công ty, kỳ thành công và kỳ còn thiếu.	Kiểm tra đầu ra liên quan của S2-G07 trước khi làm.														**
+
+🟢 **  Kết quả cần có: Màn hình chạy và xử lý trạng thái không đủ điều kiện, lỗi và giới hạn. Có hợp đồng API/audit để backend triển khai tiếp.	Đinh Huỳnh Vũ	Chưa bắt đầu	10		Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Ghi các tài liệu, hash, dữ kiện và trạng thái kiểm tra thuộc một phiên bản ứng viên.	Manifest truy được về nguồn gốc và không chứa bản ghi bị cách ly.	Kiểm tra đầu ra liên quan của S2-G07 trước khi làm.														**
+
+🟢 **  Kết quả cần có: Màn hình evaluator chạy với mock, phân biệt partial/completed, thiếu trace và calibration/final. Không tự tạo điểm đánh giá như kết quả thật.	Nguyễn Minh Quân	Chưa bắt đầu	12		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra đổi phiên bản đang dùng theo thao tác nguyên tử và trở lại phiên bản hợp lệ trước đó.	Không có trạng thái nửa cũ nửa mới; lịch sử thao tác được ghi lại.	Kiểm tra đầu ra liên quan của S2-G07 trước...**
+
+🟢 **  Cách làm: Chạy lại danh sách màn hình/use case, route, trạng thái, bàn phím và kích thước màn hình đã duyệt. So code với prototype; sửa lỗi component/điều hướng. Ghi rõ màn hình nào còn dùng mock và API nào cần nối.**
+
+🟢 **  Kết quả cần có: Không còn màn hình bắt buộc chỉ có ảnh thiết kế. Checklist UI và build chạy được; lỗi chặn thao tác đã sửa và kiểm lại.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	10		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Liệt kê nguồn chưa duyệt, PDF chưa đọc được và lỗi chưa xử lý. Xác định phần được phép đưa sang Sprint 3.	Nhóm biết dữ liệu nào dùng được và phần nào phải tiếp tục bổ sung.	Kiểm tra đầu ra liên quan của S2-G07 trước khi làm.	...**
+
+🟢 **  Kết quả cần có: Có biên bản demo tuần 1, đầu ra mẫu và danh sách lỗi/nguồn cần bổ sung. Prototype và skeleton được kiểm theo phạm vi.	Thái Quốc Hưng	Chưa bắt đầu	4		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy luồng tải, trích, chuẩn hóa, kiểm tra và lưu trên mẫu hai ngành.	Luồng mẫu truy ra đúng tài liệu; lỗi được cách ly đúng bước.	Các task chức năng liên quan có đầu ra để kiểm tra.														**
+
+🟢 **  Kết quả cần có: Lỗi chặn tuần 1 được xử lý/kiểm lại, không mất metadata hay nguồn. Việc chưa sửa được ghi rõ tác động lên nghiệm thu.	Trần Diệu Huyền	Chưa bắt đầu	6		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Xử lý các lỗi ghi nhận ở tuần 1, ưu tiên sai số và mất nguồn.	Có log sửa lỗi và kết quả chạy lại cho từng lỗi được đóng.	Các task chức năng liên quan có đầu ra để kiểm tra.														**
+
+🟢 **  Kết quả cần có: Cào và chuẩn hóa không còn thiếu mục bắt buộc/lỗi chặn. Prototype và frontend build chạy được. Có checklist, bằng chứng và danh sách API chưa nối.	Trần Diệu Huyền	Chưa bắt đầu	6		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Thử hết hạn phiên, sai vai trò, nhiều kết quả và registry lỗi.	Không vượt quyền và không giữ lựa chọn công ty sai sau lỗi.	Các task chức năng liên quan có đầu ra để kiểm tra.														**
+
+🟢 **  Kết quả cần có: Gói bàn giao truy cập được, người nhận chạy lại được. Sprint 5 không còn thiết kế/code UI từ đầu; việc nối API và auth có task kế tiếp rõ ràng.	Thái Quốc Hưng	Chưa bắt đầu	4		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu migration, audit hai ngành, manifest và API với yêu cầu. Ghi rõ phần chưa đạt.	Có biên bản review và danh sách đầu vào sẵn sàng cho Sprint 3.	Các task chức năng liên quan có đầu ra để kiểm tra.		...**
+
+~~ Cách làm: Lập bảng cho 10 công ty đã chọn. Ghi từng loại tài liệu, kỳ/năm và ngày bắt đầu/kết thúc của News, nguồn được phép lấy, người duyệt và mục bắt buộc. BCTC/BCTN theo kỳ đã chốt, không tự đổi theo ngày chạy.~~
+
+~~ Cách làm: Lập bảng cho 10 công ty đã chọn. Ghi từng loại tài liệu, kỳ/năm và ngày bắt đầu/kết thúc của News, nguồn được phép lấy, người duyệt và mục bắt buộc. BCTC/BCTN theo kỳ đã chốt, không tự đổi theo ngày chạy.~~
+
+~~ Kết quả cần có: Bảng phạm vi có phiên bản và được nhóm duyệt. Mục chưa chốt được đánh dấu, không tự coi đã có nguồn.	Xác nhận nguồn báo cáo của 10 công ty	Ghi URL báo cáo chính thức cho VCB, BID, CTG, MBB, TCB theo kỳ trong phạm vi. Không điền URL dự đoán.	5 công ty có URL kiểm tra được hoặc ghi rõ kỳ chưa tìm thấy.~~
+
+~~ Cách làm: Tìm URL chính thức cho VCB, BID, CTG, MBB, TCB, FPT, CMG, ELC, ITD, ICT. Mỗi dòng ghi công ty, loại báo cáo, kỳ, URL và tình trạng truy cập. Phân biệt BCTN với BCTC đính kèm để không đếm trùng.~~
+
+~~ Cách làm: Tìm URL chính thức cho VCB, BID, CTG, MBB, TCB, FPT, CMG, ELC, ITD, ICT. Mỗi dòng ghi công ty, loại báo cáo, kỳ, URL và tình trạng truy cập. Phân biệt BCTN với BCTC đính kèm để không đếm trùng.~~
+
+~~ Kết quả cần có: Danh sách đối chiếu đủ công ty/kỳ đã duyệt. URL thiếu hoặc không truy cập được có lý do và phương án xử lý, không tạo URL giả.	Xác nhận nguồn báo cáo của 10 công ty	Ghi URL báo cáo chính thức cho FPT, CMG, ELC, ITD, ICT theo cùng phạm vi.	5 công ty có URL kiểm tra được hoặc ghi rõ kỳ chưa tìm thấy.~~
+
+~~ Cách làm: Liệt kê nguồn tin, quyền sử dụng, cách truy cập và khoảng ngày. Định nghĩa bài liên quan bằng tên/mã công ty và kiểm tra ngữ cảnh để tránh nhầm tên. Ghi cách xử lý bài đăng lại, tin cập nhật và ngày thiếu.~~
+
+~~ Cách làm: Liệt kê nguồn tin, quyền sử dụng, cách truy cập và khoảng ngày. Định nghĩa bài liên quan bằng tên/mã công ty và kiểm tra ngữ cảnh để tránh nhầm tên. Ghi cách xử lý bài đăng lại, tin cập nhật và ngày thiếu.~~
+
+~~ Kết quả cần có: Danh sách nguồn được duyệt, bộ tiêu chí nhận/loại bài và mẫu đúng/sai. Chỉ cào nội dung được phép theo phạm vi chốt.	Xác nhận nguồn báo cáo của 10 công ty	Đọc điều kiện truy cập, ghi chủ nguồn, cách lấy và quyền lưu bản sao. Đề xuất nguồn dự phòng hợp lệ.	5 công ty có URL kiểm tra được hoặc ghi rõ kỳ chưa tìm thấy.~~
+
+~~ Cách làm: Định nghĩa trường chung: company\_id, source\_id, URL, ngày công bố, ngày lấy, SHA-256, phiên bản. Báo cáo thêm kỳ, đơn vị, phạm vi hợp nhất/riêng lẻ và vị trí nguồn. News thêm tiêu đề, tác giả nếu có, nội dung và ngày bài.~~
+
+~~ Cách làm: Định nghĩa trường chung: company\_id, source\_id, URL, ngày công bố, ngày lấy, SHA-256, phiên bản. Báo cáo thêm kỳ, đơn vị, phạm vi hợp nhất/riêng lẻ và vị trí nguồn. News thêm tiêu đề, tác giả nếu có, nội dung và ngày bài.~~
+
+~~ Kết quả cần có: Mẫu dữ liệu chung được thống nhất với người làm vector/graph. Phân biệt giá trị 0, thiếu, chưa kiểm tra; có danh mục mã lỗi.	Xác nhận nguồn báo cáo của 10 công ty	Đối chiếu 3 năm tài chính và 4 quý gần nhất tại ngày chốt. Tách kỳ thiếu; không coi là dữ liệu đã có.	5 công ty có URL kiểm tra được hoặc ghi rõ kỳ chưa tìm thấy.~~
+
+~~ Cách làm: Lấy các bài trong khoảng ngày đã chốt, xử lý phân trang, lấy nội dung chính thay vì menu/quảng cáo. Lọc theo công ty và quy tắc đã duyệt. Giữ URL và ngày gốc; không tự vượt paywall hay nguồn bị cấm.~~
+
+~~ Cách làm: Lấy các bài trong khoảng ngày đã chốt, xử lý phân trang, lấy nội dung chính thay vì menu/quảng cáo. Lọc theo công ty và quy tắc đã duyệt. Giữ URL và ngày gốc; không tự vượt paywall hay nguồn bị cấm.~~
+
+~~ Kết quả cần có: Tải được danh sách và nội dung mẫu đúng phạm vi. Bài bị loại/lỗi có lý do; ngày không xác định không được tự điền.	Xây bộ lấy tài liệu và ghi phiên bản	Lưu file gốc bất biến cùng URL, thời điểm lấy, mã công ty, kỳ và SHA-256 để nhận diện đúng phiên bản.	Tải được PDF mẫu; lỗi truy cập được báo rõ, không lặp vô hạn.~~
+
+~~ Cách làm: Chạy bộ cào cho toàn bộ báo cáo và News bắt buộc, ghi số mục dự kiến, đã lấy, bị loại và lỗi. Chỉ chạy lại mục lỗi; kiểm tra phân trang và ranh giới ngày để không bỏ sót.~~
+
+~~ Cách làm: Chạy bộ cào cho toàn bộ báo cáo và News bắt buộc, ghi số mục dự kiến, đã lấy, bị loại và lỗi. Chỉ chạy lại mục lỗi; kiểm tra phân trang và ranh giới ngày để không bỏ sót.~~
+
+~~ Kết quả cần có: Bảng độ phủ đối chiếu được phạm vi đã duyệt. Không còn mục bắt buộc chưa lấy hoặc lỗi chưa giải quyết mới được nghiệm thu cào.	Xây bộ lấy tài liệu và ghi phiên bản	Tạo mã lần chạy, số tài liệu thành công, thất bại, số lần thử lại và thời điểm kết thúc.	Tải được PDF mẫu; lỗi truy cập được báo rõ, không lặp vô hạn.~~
+
+~~ Cách làm: Đọc PDF/HTML thành văn bản và bảng, giữ số trang, mục, tên bảng và vị trí dòng. Giữ cả nội dung giải thích trong BCTN để dùng truy vấn sau. Đối chiếu mẫu với tài liệu gốc.~~
+
+~~ Cách làm: Đọc PDF/HTML thành văn bản và bảng, giữ số trang, mục, tên bảng và vị trí dòng. Giữ cả nội dung giải thích trong BCTN để dùng truy vấn sau. Đối chiếu mẫu với tài liệu gốc.~~
+
+~~ Kết quả cần có: Có dữ liệu trích thử cho hai ngành và hai loại báo cáo. Nội dung và bảng giữ được vị trí nguồn, không lẫn trang hoặc cột số.	Trích bảng báo cáo và chuẩn hóa số liệu	Đọc bảng báo cáo; lưu tên bảng, trang, dòng, cột và giá trị gốc trước khi chuyển đổi.	Mỗi số mẫu mở lại được đúng trang và dòng trong tài liệu.~~
+
+~~ Cách làm: Nhận biết trang không có chữ và dùng OCR khi cần. Kiểm tra dấu âm, dấu thập phân và số trong bảng với ảnh gốc. Tài liệu mờ hoặc bảng lệch phải đưa vào hàng chờ xử lý, không tự xác nhận đúng.~~
+
+~~ Cách làm: Nhận biết trang không có chữ và dùng OCR khi cần. Kiểm tra dấu âm, dấu thập phân và số trong bảng với ảnh gốc. Tài liệu mờ hoặc bảng lệch phải đưa vào hàng chờ xử lý, không tự xác nhận đúng.~~
+
+~~ Kết quả cần có: Các trang scan đọc được đã kiểm tra. Trang không đáng tin có mã lỗi và bị loại khỏi dữ liệu được phép dùng.	Trích bảng báo cáo và chuẩn hóa số liệu	Nhận diện trang scan, đọc bằng OCR. Gắn cờ để người kiểm tra; cách ly trang không đọc rõ.	Mỗi số mẫu mở lại được đúng trang và dòng trong tài liệu.~~
+
+~~ Cách làm: Làm sạch phần menu/quảng cáo, chuẩn hóa ngày theo múi giờ xác định, gắn công ty có bằng chứng trong bài. Giữ tiêu đề, nội dung, nguồn và URL gốc. So hash/URL và nhận biết đăng lại; không nhập hai bài khác nhau thành một chỉ vì tiêu đề giống.~~
+
+~~ Cách làm: Làm sạch phần menu/quảng cáo, chuẩn hóa ngày theo múi giờ xác định, gắn công ty có bằng chứng trong bài. Giữ tiêu đề, nội dung, nguồn và URL gốc. So hash/URL và nhận biết đăng lại; không nhập hai bài khác nhau thành một chỉ vì tiêu đề giống.~~
+
+~~ Kết quả cần có: Tin nằm trong khoảng ngày đã duyệt, gắn đúng công ty, còn nguồn gốc. Bài trùng được liên kết; bài thiếu ngày hoặc chưa rõ công ty được cách ly.	Trích bảng báo cáo và chuẩn hóa số liệu	Ánh xạ tên dòng báo cáo vào danh mục 17 chỉ tiêu Ngân hàng và 17 chỉ tiêu Công nghệ trong SRS.	Mỗi số mẫu mở lại được đúng trang và dòng trong tài liệu.~~
+
+~~ Cách làm: Rà ERD đã có, tạo migration cho nguồn, tài liệu, phiên bản, facts, News và Evidence. Giữ quan hệ dữ liệu chuẩn với bản gốc và vị trí nguồn; có ràng buộc khóa/phiên bản. Chưa tạo embedding hoặc suy diễn edge ở task này.~~
+
+~~ Cách làm: Rà ERD đã có, tạo migration cho nguồn, tài liệu, phiên bản, facts, News và Evidence. Giữ quan hệ dữ liệu chuẩn với bản gốc và vị trí nguồn; có ràng buộc khóa/phiên bản. Chưa tạo embedding hoặc suy diễn edge ở task này.~~
+
+~~ Kết quả cần có: Migration chạy trên DB mới. Lưu và đọc được mẫu ba loại nguồn, khóa ngoại hợp lệ và không mất liên kết nguồn.	Tạo kho dữ liệu và mô hình bằng chứng	Viết migration PostgreSQL cho nguồn, tài liệu, phiên bản và FinancialFact theo mô hình đã duyệt.	Migration chạy được trên database trống; khóa ngoại và mã định danh hợp lệ.~~
+
+~~ Cách làm: Viết quy tắc trường bắt buộc, ngày/kỳ, đơn vị, company\_id, scope, hash và source locator. Cho dữ liệu lỗi vào quarantine (kho chờ sửa). Sau khi sửa hoặc lấy lại nguồn phải chạy lại toàn bộ kiểm tra trước khi cho dùng.~~
+
+~~ Cách làm: Viết quy tắc trường bắt buộc, ngày/kỳ, đơn vị, company\_id, scope, hash và source locator. Cho dữ liệu lỗi vào quarantine (kho chờ sửa). Sau khi sửa hoặc lấy lại nguồn phải chạy lại toàn bộ kiểm tra trước khi cho dùng.~~
+
+~~ Kết quả cần có: Ca đúng được nhận; ca sai bị cách ly và có lý do. Thiếu bản gốc hoặc chưa kiểm lại thì không được đưa vào corpus hợp lệ.	Tạo kho dữ liệu và mô hình bằng chứng	Lưu Evidence cùng hash tài liệu, trang, bảng, dòng hoặc mục để dùng chung cho truy vấn và trích dẫn.	Migration chạy được trên database trống; khóa ngoại và mã định danh hợp lệ.~~
+
+~~ Cách làm: Nạp các bản đã qua kiểm tra, so bảng/số báo cáo với nguồn gốc và so News với bài gốc theo mẫu kiểm tra đã chốt. Tổng hợp đủ/thiếu theo công ty, loại nguồn, kỳ và khoảng ngày; kiểm tra các ranh giới và phiên bản công bố lại.~~
+
+~~ Cách làm: Nạp các bản đã qua kiểm tra, so bảng/số báo cáo với nguồn gốc và so News với bài gốc theo mẫu kiểm tra đã chốt. Tổng hợp đủ/thiếu theo công ty, loại nguồn, kỳ và khoảng ngày; kiểm tra các ranh giới và phiên bản công bố lại.~~
+
+~~ Kết quả cần có: Tất cả dữ liệu được nhận đều qua quy tắc kiểm tra. Báo cáo đối chiếu có mẫu audit, lỗi đã sửa và độ phủ; mục bắt buộc thiếu vẫn là chưa xong.	Tạo kho dữ liệu và mô hình bằng chứng	Lưu 10 công ty, manifest và phiên bản corpus. Chỉ phiên bản đủ kiểm tra mới được đặt là đang sử dụng.	Migration chạy được trên database trống; khóa ngoại và mã định danh hợp lệ.~~
+
+~~ Cách làm: Đối chiếu use case đã chốt để liệt kê màn hình cho người dùng, người vận hành và evaluator. Vẽ đường đi đăng nhập, chọn công ty, hỏi, xem nguồn, lịch sử, watchlist và quản trị. Không đưa chức năng xuất PDF/Markdown đã bỏ vào UI.~~
+
+~~ Cách làm: Đối chiếu use case đã chốt để liệt kê màn hình cho người dùng, người vận hành và evaluator. Vẽ đường đi đăng nhập, chọn công ty, hỏi, xem nguồn, lịch sử, watchlist và quản trị. Không đưa chức năng xuất PDF/Markdown đã bỏ vào UI.~~
+
+~~ Kết quả cần có: Danh sách màn hình/luồng có đối chiếu use case. Phạm vi màn hình đã duyệt; quyền mỗi vai trò và đường quay lại được ghi rõ.	Kiểm tra chất lượng và cách ly dữ liệu lỗi	Kiểm tra metadata bắt buộc, đơn vị, kỳ, phạm vi báo cáo và nguồn tồn tại trước khi cho phép sử dụng.	Mỗi quy tắc có ít nhất một mẫu hợp lệ và một mẫu lỗi.~~
+
+~~ Cách làm: Vẽ bố cục từng màn hình: menu, tiêu đề, vùng nội dung, bộ lọc và nút chính. Thiết kế đường chuyển màn hình và trạng thái được phép xem theo vai trò. Đảm bảo màn hình chính dễ tìm, có chỗ hiển thị nguồn và trạng thái dữ liệu.~~
+
+~~ Cách làm: Vẽ bố cục từng màn hình: menu, tiêu đề, vùng nội dung, bộ lọc và nút chính. Thiết kế đường chuyển màn hình và trạng thái được phép xem theo vai trò. Đảm bảo màn hình chính dễ tìm, có chỗ hiển thị nguồn và trạng thái dữ liệu.~~
+
+~~ Kết quả cần có: Khung bố cục đủ các màn hình đã chốt, điều hướng không có ngõ cụt và được nhóm duyệt trước khi code.	Kiểm tra chất lượng và cách ly dữ liệu lỗi	Lưu bản ghi lỗi cùng lý do và nguồn. Cho sửa metadata hoặc từ chối; phải kiểm tra lại trước khi đưa vào kho.	Mỗi quy tắc có ít nhất một mẫu hợp lệ và một mẫu lỗi.~~
+
+~~ Cách làm: Chốt màu, font, khoảng cách, bảng, form, nút, citation marker và nhãn trạng thái. Thiết kế cả đang tải, rỗng, thiếu dữ liệu, hết quyền và lỗi. Làm bố cục desktop và màn hình hẹp theo phạm vi nghiệm thu.~~
+
+~~ Cách làm: Chốt màu, font, khoảng cách, bảng, form, nút, citation marker và nhãn trạng thái. Thiết kế cả đang tải, rỗng, thiếu dữ liệu, hết quyền và lỗi. Làm bố cục desktop và màn hình hẹp theo phạm vi nghiệm thu.~~
+
+~~ Kết quả cần có: Bản thiết kế chi tiết và bộ component nhất quán, đủ trạng thái chính. Không để phần thiết kế chi tiết sang Sprint 5.	Kiểm tra chất lượng và cách ly dữ liệu lỗi	Chọn một công ty Ngân hàng và hai kỳ. So sánh số trích xuất với bảng PDF; ghi sai lệch và cách xử lý.	Mỗi quy tắc có ít nhất một mẫu hợp lệ và một mẫu lỗi.~~
+
+~~ Cách làm: Nối các màn hình thiết kế thành bản bấm thử. Dùng dữ liệu mẫu có nhãn, chạy các luồng theo vai trò, ghi lỗi thao tác và sửa. Phân biệt prototype với giao diện bằng code sẽ bàn giao ở tuần 2.~~
+
+~~ Cách làm: Nối các màn hình thiết kế thành bản bấm thử. Dùng dữ liệu mẫu có nhãn, chạy các luồng theo vai trò, ghi lỗi thao tác và sửa. Phân biệt prototype với giao diện bằng code sẽ bàn giao ở tuần 2.~~
+
+~~ Kết quả cần có: Prototype mở được bằng link/file, các luồng đã chốt bấm được, có kết quả review và bản thiết kế được duyệt.	Kiểm tra chất lượng và cách ly dữ liệu lỗi	Thực hiện kiểm tra tương tự cho một công ty Công nghệ, gồm đơn vị và phạm vi báo cáo.	Mỗi quy tắc có ít nhất một mẫu hợp lệ và một mẫu lỗi.~~
+
+~~ Cách làm: Tạo cấu trúc source frontend trong repository đã có, cấu hình môi trường mẫu và lệnh chạy/build. Code layout chung, menu, header và vùng nội dung theo thiết kế. Không tự gắn secrets vào frontend.~~
+
+~~ Cách làm: Tạo cấu trúc source frontend trong repository đã có, cấu hình môi trường mẫu và lệnh chạy/build. Code layout chung, menu, header và vùng nội dung theo thiết kế. Không tự gắn secrets vào frontend.~~
+
+~~ Kết quả cần có: Clone/cài/chạy/build được theo hướng dẫn; khung trang bằng code khớp thiết kế. Đây là source code, không chỉ ảnh hoặc link prototype.	Xây đăng nhập và phân quyền nền tảng	Tạo Researcher, Data Operator, Evaluator, System Admin. Định nghĩa quyền theo ma trận SRS; chưa làm đăng ký tự do.	Tài khoản thử có đúng vai trò và quyền được cấp.~~
+
+~~ Cách làm: Code bảng, form, nút, bộ lọc và hộp thoại theo thiết kế. Tạo dữ liệu giả rõ nhãn, gồm đủ/rỗng/lỗi/thiếu nguồn; không lấy dữ liệu giả làm bằng chứng thật. Dùng một lớp gọi dữ liệu để thay mock bằng API sau.~~
+
+~~ Cách làm: Code bảng, form, nút, bộ lọc và hộp thoại theo thiết kế. Tạo dữ liệu giả rõ nhãn, gồm đủ/rỗng/lỗi/thiếu nguồn; không lấy dữ liệu giả làm bằng chứng thật. Dùng một lớp gọi dữ liệu để thay mock bằng API sau.~~
+
+~~ Kết quả cần có: Component tái sử dụng được; dữ liệu mẫu tách khỏi UI. Có cách đổi sang API thật mà không phải viết lại bố cục.	Xây đăng nhập và phân quyền nền tảng	Xác minh thông tin đăng nhập, tạo phiên có thời hạn và xử lý đăng xuất. Không ghi mật khẩu vào log.	Tài khoản thử có đúng vai trò và quyền được cấp.~~
+
+~~ Cách làm: Code loading, empty, error, retry và thiếu dữ liệu. Định nghĩa payload yêu cầu/đáp ứng, trace\_id và citation\_id với người làm backend. Màn hình dùng dữ liệu mẫu nhưng lời hiển thị không được giả là kết quả đã kiểm chứng.~~
+
+~~ Cách làm: Code loading, empty, error, retry và thiếu dữ liệu. Định nghĩa payload yêu cầu/đáp ứng, trace\_id và citation\_id với người làm backend. Màn hình dùng dữ liệu mẫu nhưng lời hiển thị không được giả là kết quả đã kiểm chứng.~~
+
+~~ Kết quả cần có: Trạng thái lỗi/thành công có thể chạy thử bằng mock. Có bảng hợp đồng API, điểm thay dữ liệu và kịch bản kiểm thử để nối thật ở Sprint 3–4.	Xây đăng nhập và phân quyền nền tảng	Làm màn hình đăng nhập tối thiểu và hiển thị lỗi dễ hiểu; giữ phiên theo quy tắc đã chốt.	Tài khoản thử có đúng vai trò và quyền được cấp.~~
+
+~~ Cách làm: Code tìm/chọn công ty trong danh sách 10 mã, bộ lọc kỳ, profile, facts và News. Nếu có panel thị trường trong phạm vi thì ghi rõ dữ liệu mẫu/EOD, không gọi là live. Hiển thị nguồn, ngày, đơn vị và thiếu dữ liệu theo thiết kế.~~
+
+~~ Cách làm: Code tìm/chọn công ty trong danh sách 10 mã, bộ lọc kỳ, profile, facts và News. Nếu có panel thị trường trong phạm vi thì ghi rõ dữ liệu mẫu/EOD, không gọi là live. Hiển thị nguồn, ngày, đơn vị và thiếu dữ liệu theo thiết kế.~~
+
+~~ Kết quả cần có: Màn hình chạy với dữ liệu mẫu, chọn công ty/kỳ cập nhật đúng panel, trạng thái rỗng/lỗi và nhãn nguồn rõ ràng.	Xây tìm công ty và nhật ký truy vấn	Tìm theo ticker và tên trong 10 công ty; trả mã ổn định, tên chính thức và ngành.	Không tìm thấy công ty ngoài phạm vi; nhiều kết quả không bị chọn tự động.~~
+
+~~ Cách làm: Code nhập câu hỏi, chọn công ty/kỳ, gửi và hiển thị trạng thái chờ, kết quả mẫu, partial/insufficient-data/refusal. Code bố cục so sánh, giả định căn chỉnh và phần thiếu. Chưa tuyên bố backend RAG đã hoạt động.~~
+
+~~ Cách làm: Code nhập câu hỏi, chọn công ty/kỳ, gửi và hiển thị trạng thái chờ, kết quả mẫu, partial/insufficient-data/refusal. Code bố cục so sánh, giả định căn chỉnh và phần thiếu. Chưa tuyên bố backend RAG đã hoạt động.~~
+
+~~ Kết quả cần có: Luồng hỏi và so sánh chạy bằng mock, hủy/thử lại và lỗi hiển thị rõ. Không có nút hay nội dung tư vấn mua/bán ngoài phạm vi.	Xây tìm công ty và nhật ký truy vấn	Hiện danh sách kết quả, cho chọn một công ty hoặc xóa lựa chọn; xử lý không có kết quả.	Không tìm thấy công ty ngoài phạm vi; nhiều kết quả không bị chọn tự động.~~
+
+~~ Cách làm: Code hiển thị node/edge mẫu, chọn root, lọc và mở provenance. Mô phỏng mở rộng một/hai hop, graph rỗng và lỗi. Chặn mở rộng vượt hai hop trong UI; backend sẽ kiểm giới hạn khi nối thật ở Sprint 4.~~
+
+~~ Cách làm: Code hiển thị node/edge mẫu, chọn root, lọc và mở provenance. Mô phỏng mở rộng một/hai hop, graph rỗng và lỗi. Chặn mở rộng vượt hai hop trong UI; backend sẽ kiểm giới hạn khi nối thật ở Sprint 4.~~
+
+~~ Kết quả cần có: Graph mẫu thao tác được, edge mở nguồn và trạng thái lỗi/rỗng rõ. Không tự sinh quan hệ không có trong dữ liệu mẫu.	Xây tìm công ty và nhật ký truy vấn	Che khóa API, mật khẩu và dữ liệu người dùng ngoài chính sách trước khi lưu hoặc hiển thị nhật ký.	Không tìm thấy công ty ngoài phạm vi; nhiều kết quả không bị chọn tự động.~~
+
+~~ Cách làm: Code danh sách phiên bản, readiness, promote/restore bằng mock. Code form ngưỡng/budget có kiểm tra giá trị và màn hình trace theo quyền mẫu. Giữ lịch sử thay đổi mẫu; không gọi dữ liệu mô phỏng là telemetry thật.~~
+
+~~ Cách làm: Code danh sách phiên bản, readiness, promote/restore bằng mock. Code form ngưỡng/budget có kiểm tra giá trị và màn hình trace theo quyền mẫu. Giữ lịch sử thay đổi mẫu; không gọi dữ liệu mô phỏng là telemetry thật.~~
+
+~~ Kết quả cần có: Màn hình chạy và xử lý trạng thái không đủ điều kiện, lỗi và giới hạn. Có hợp đồng API/audit để backend triển khai tiếp.	Nạp corpus và kiểm tra phiên bản	Ghi các tài liệu, hash, dữ kiện và trạng thái kiểm tra thuộc một phiên bản ứng viên.	Báo cáo nạp tách rõ công ty, kỳ thành công và kỳ còn thiếu.~~
+
+~~ Cách làm: Code nhập/xem ca kiểm thử, review/freeze trạng thái mẫu, chọn cấu hình B0–B3 và xem run/metrics. Luồng final phải mô phỏng giới hạn xem nhãn đúng vai trò, không lộ vào runtime. Chỉ thêm xuất metrics nếu nằm trong phạm vi đã duyệt.~~
+
+~~ Cách làm: Code nhập/xem ca kiểm thử, review/freeze trạng thái mẫu, chọn cấu hình B0–B3 và xem run/metrics. Luồng final phải mô phỏng giới hạn xem nhãn đúng vai trò, không lộ vào runtime. Chỉ thêm xuất metrics nếu nằm trong phạm vi đã duyệt.~~
+
+~~ Kết quả cần có: Màn hình evaluator chạy với mock, phân biệt partial/completed, thiếu trace và calibration/final. Không tự tạo điểm đánh giá như kết quả thật.	Nạp corpus và kiểm tra phiên bản	Kiểm tra đổi phiên bản đang dùng theo thao tác nguyên tử và trở lại phiên bản hợp lệ trước đó.	Báo cáo nạp tách rõ công ty, kỳ thành công và kỳ còn thiếu.~~
+
+~~ Cách làm: Demo tải/trích/chuẩn hóa mẫu ba loại nguồn và code skeleton đang chạy. Review phạm vi, nguồn còn thiếu, thiết kế chi tiết và prototype. Ghi các việc chưa đạt và kế hoạch sửa tuần 2, không nghiệm thu toàn bộ corpus từ vài file mẫu.~~
+
+~~ Cách làm: Demo tải/trích/chuẩn hóa mẫu ba loại nguồn và code skeleton đang chạy. Review phạm vi, nguồn còn thiếu, thiết kế chi tiết và prototype. Ghi các việc chưa đạt và kế hoạch sửa tuần 2, không nghiệm thu toàn bộ corpus từ vài file mẫu.~~
+
+~~ Kết quả cần có: Có biên bản demo tuần 1, đầu ra mẫu và danh sách lỗi/nguồn cần bổ sung. Prototype và skeleton được kiểm theo phạm vi.	Tích hợp và nghiệm thu Sprint 2	Chạy luồng tải, trích, chuẩn hóa, kiểm tra và lưu trên mẫu hai ngành.	Luồng mẫu truy ra đúng tài liệu; lỗi được cách ly đúng bước.~~
+
+~~ Cách làm: Ưu tiên lỗi chặn cào, trích bảng, chuẩn hóa, migration, route và component. Gắn lỗi với task gốc và kiểm lại trên trường hợp đã lỗi. Không đánh dấu xong nếu chỉ sửa code mà chưa chạy lại.~~
+
+~~ Cách làm: Ưu tiên lỗi chặn cào, trích bảng, chuẩn hóa, migration, route và component. Gắn lỗi với task gốc và kiểm lại trên trường hợp đã lỗi. Không đánh dấu xong nếu chỉ sửa code mà chưa chạy lại.~~
+
+~~ Kết quả cần có: Lỗi chặn tuần 1 được xử lý/kiểm lại, không mất metadata hay nguồn. Việc chưa sửa được ghi rõ tác động lên nghiệm thu.	Tích hợp và nghiệm thu Sprint 2	Xử lý các lỗi ghi nhận ở tuần 1, ưu tiên sai số và mất nguồn.	Luồng mẫu truy ra đúng tài liệu; lỗi được cách ly đúng bước.~~
+
+~~ Cách làm: Đối chiếu corpus với danh sách bắt buộc đã chốt; kiểm sample nội dung/số và lineage. Chạy UI bằng source trên môi trường sạch, kiểm đủ màn hình/luồng/states với mock. Hai đầu ra được nghiệm thu riêng, không dùng % task làm bằng chứng đủ dữ liệu.~~
+
+~~ Cách làm: Đối chiếu corpus với danh sách bắt buộc đã chốt; kiểm sample nội dung/số và lineage. Chạy UI bằng source trên môi trường sạch, kiểm đủ màn hình/luồng/states với mock. Hai đầu ra được nghiệm thu riêng, không dùng % task làm bằng chứng đủ dữ liệu.~~
+
+~~ Kết quả cần có: Cào và chuẩn hóa không còn thiếu mục bắt buộc/lỗi chặn. Prototype và frontend build chạy được. Có checklist, bằng chứng và danh sách API chưa nối.	Tích hợp và nghiệm thu Sprint 2	Thử hết hạn phiên, sai vai trò, nhiều kết quả và registry lỗi.	Luồng mẫu truy ra đúng tài liệu; lỗi được cách ly đúng bước.~~
+
+~~ Cách làm: Bàn giao raw/normalized corpus, manifest, DB migration, thiết kế, prototype, frontend source và hướng dẫn chạy. Liệt kê API/auth còn phải làm thật ở Sprint 3–4. Cập nhật SRS/Proposal/sơ đồ theo quyết định thực tế và ghi rủi ro giờ công.~~
+
+~~ Cách làm: Bàn giao raw/normalized corpus, manifest, DB migration, thiết kế, prototype, frontend source và hướng dẫn chạy. Liệt kê API/auth còn phải làm thật ở Sprint 3–4. Cập nhật SRS/Proposal/sơ đồ theo quyết định thực tế và ghi rủi ro giờ công.~~
+
+~~ Kết quả cần có: Gói bàn giao truy cập được, người nhận chạy lại được. Sprint 5 không còn thiết kế/code UI từ đầu; việc nối API và auth có task kế tiếp rõ ràng.	Tích hợp và nghiệm thu Sprint 2	Đối chiếu migration, audit hai ngành, manifest và API với yêu cầu. Ghi rõ phần chưa đạt.	Luồng mẫu truy ra đúng tài liệu; lỗi được cách ly đúng bước.~~
+
+~~ Kết quả cần có: Bảng phạm vi có phiên bản và được nhóm duyệt. Mục chưa chốt được đánh dấu, không tự coi đã có nguồn.	Nguyễn Minh Quân	Chưa bắt đầu	4		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Ghi URL báo cáo chính thức cho VCB, BID, CTG, MBB, TCB theo kỳ trong phạm vi. Không điền URL dự đoán.	5 công ty có URL kiểm tra được hoặc ghi rõ kỳ chưa tìm thấy.	Danh sách 10 công ty và phạm vi kỳ báo cáo trong SRS.														~~
+
+~~ Kết quả cần có: Danh sách đối chiếu đủ công ty/kỳ đã duyệt. URL thiếu hoặc không truy cập được có lý do và phương án xử lý, không tạo URL giả.	Nguyễn Minh Quân	Chưa bắt đầu	8		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Ghi URL báo cáo chính thức cho FPT, CMG, ELC, ITD, ICT theo cùng phạm vi.	5 công ty có URL kiểm tra được hoặc danh sách thiếu nguồn cụ thể.	Danh sách 10 công ty và phạm vi kỳ báo cáo trong SRS.														~~
+
+~~ Kết quả cần có: Danh sách nguồn được duyệt, bộ tiêu chí nhận/loại bài và mẫu đúng/sai. Chỉ cào nội dung được phép theo phạm vi chốt.	Nguyễn Minh Quân	Chưa bắt đầu	6		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Đọc điều kiện truy cập, ghi chủ nguồn, cách lấy và quyền lưu bản sao. Đề xuất nguồn dự phòng hợp lệ.	Mỗi nguồn có người rà soát và quyết định cho phép hoặc chưa cho phép.	Danh sách 10 công ty và phạm vi kỳ báo cáo trong SRS.							...~~
+
+~~ Kết quả cần có: Mẫu dữ liệu chung được thống nhất với người làm vector/graph. Phân biệt giá trị 0, thiếu, chưa kiểm tra; có danh mục mã lỗi.	Đinh Huỳnh Vũ	Chưa bắt đầu	6		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu 3 năm tài chính và 4 quý gần nhất tại ngày chốt. Tách kỳ thiếu; không coi là dữ liệu đã có.	Danh mục công ty, kỳ, URL và trạng thái nguồn được nhóm duyệt.	Danh sách 10 công ty và phạm vi kỳ báo cáo trong SRS.								...~~
+
+~~ Cách làm: Dùng danh sách URL đã duyệt để tải PDF/HTML theo nguồn. Cấu hình thời gian chờ, số lần thử lại và khoảng nghỉ; nhận biết file hỏng hoặc trang lỗi thay vì lưu nhầm làm báo cáo.~~
+
+~~ Kết quả cần có: Chạy thành công trên mẫu BCTC và BCTN của cả hai ngành. Lỗi tải có mã, URL và cách thử lại; không vượt điều kiện sử dụng nguồn.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	8		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Đọc cấu hình nguồn và tải báo cáo được duyệt. Giới hạn thời gian chờ, số lần thử lại và tốc độ truy cập.	Tải được PDF mẫu; lỗi truy cập được báo rõ, không lặp vô hạn.	Kiểm tra đầu ra liên quan của S2-G01 trước khi làm.	...~~
+
+~~ Kết quả cần có: Tải được danh sách và nội dung mẫu đúng phạm vi. Bài bị loại/lỗi có lý do; ngày không xác định không được tự điền.	Đinh Huỳnh Vũ	Chưa bắt đầu	10		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Lưu file gốc bất biến cùng URL, thời điểm lấy, mã công ty, kỳ và SHA-256 để nhận diện đúng phiên bản.	Một tài liệu tải về truy ra được file gốc và toàn bộ thông tin nguồn.	Kiểm tra đầu ra liên quan của S2-G01 trước khi làm.												...~~
+
+~~ Cách làm: Giữ file/nội dung gốc không sửa. Ghi thời điểm lấy và SHA-256 để nhận biết nội dung giống nhau; liên kết bản chuẩn hóa về bản gốc. Bản công bố lại có nội dung khác được lưu phiên bản mới.~~
+
+~~ Kết quả cần có: Mỗi item truy được bản gốc và metadata. Tải lại nội dung giống nhau không tạo bản trùng; nội dung thay đổi không ghi đè lịch sử.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	6		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	So sánh SHA-256 khi nạp lại. Giữ tài liệu sửa đổi thành phiên bản riêng, không ghi đè bản cũ.	Nạp lại file giống nhau không sinh bản trùng; file sửa đổi giữ được lịch sử.	Kiểm tra đầu ra liên quan của S2-G01 trước khi ...~~
+
+~~ Kết quả cần có: Bảng độ phủ đối chiếu được phạm vi đã duyệt. Không còn mục bắt buộc chưa lấy hoặc lỗi chưa giải quyết mới được nghiệm thu cào.	Thái Quốc Hưng	Chưa bắt đầu	10		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo mã lần chạy, số tài liệu thành công, thất bại, số lần thử lại và thời điểm kết thúc.	Tra được một lần chạy; thông báo lỗi không chứa khóa API hoặc mật khẩu.	Kiểm tra đầu ra liên quan của S2-G01 trước khi làm.										...~~
+
+~~ Kết quả cần có: Có dữ liệu trích thử cho hai ngành và hai loại báo cáo. Nội dung và bảng giữ được vị trí nguồn, không lẫn trang hoặc cột số.	Trần Diệu Huyền	Chưa bắt đầu	10		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Đọc bảng báo cáo; lưu tên bảng, trang, dòng, cột và giá trị gốc trước khi chuyển đổi.	Mỗi số mẫu mở lại được đúng trang và dòng trong tài liệu.	Kiểm tra đầu ra liên quan của S2-G02 trước khi làm.														~~
+
+~~ Kết quả cần có: Các trang scan đọc được đã kiểm tra. Trang không đáng tin có mã lỗi và bị loại khỏi dữ liệu được phép dùng.	Đinh Huỳnh Vũ	Chưa bắt đầu	8		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Nhận diện trang scan, đọc bằng OCR. Gắn cờ để người kiểm tra; cách ly trang không đọc rõ.	Số OCR chưa được xác minh không được đưa vào kho dùng để trả lời.	Kiểm tra đầu ra liên quan của S2-G02 trước khi làm.														~~
+
+~~ Cách làm: Ánh xạ tên chỉ tiêu sang mã thống nhất theo danh mục đã duyệt cho từng ngành. Chuẩn hóa kỳ, ngày, đơn vị tiền, dấu âm và phạm vi báo cáo. Giữ giá trị/đơn vị gốc và phép chuyển đổi; không cộng sai lũy kế với quý riêng.~~
+
+~~ Kết quả cần có: Dữ kiện có company\_id, metric\_id, kỳ, scope, đơn vị chuẩn và vị trí nguồn. Chỉ tiêu không ánh xạ được hoặc mâu thuẫn được đưa vào xử lý lỗi.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	12		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Đổi ticker sang mã công ty ổn định, chuẩn hóa ngày và đơn vị VND. Phân biệt hợp nhất, riêng lẻ, năm và quý.	Không trộn số khác kỳ hoặc phạm vi; lưu cả giá trị gốc và giá trị chuẩn.	Kiểm tra đầu ra liên qua...~~
+
+~~ Kết quả cần có: Tin nằm trong khoảng ngày đã duyệt, gắn đúng công ty, còn nguồn gốc. Bài trùng được liên kết; bài thiếu ngày hoặc chưa rõ công ty được cách ly.	Thái Quốc Hưng	Chưa bắt đầu	8		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ánh xạ tên dòng báo cáo vào danh mục 17 chỉ tiêu Ngân hàng và 17 chỉ tiêu Công nghệ trong SRS.	Bảng ánh xạ ghi rõ chỉ tiêu, dòng nguồn, đơn vị và trường hợp chưa xác định.	Kiểm tra đầu ra liên quan của S2-G...~~
+
+~~ Kết quả cần có: Migration chạy trên DB mới. Lưu và đọc được mẫu ba loại nguồn, khóa ngoại hợp lệ và không mất liên kết nguồn.	Trần Diệu Huyền	Chưa bắt đầu	8		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Viết migration PostgreSQL cho nguồn, tài liệu, phiên bản và FinancialFact theo mô hình đã duyệt.	Migration chạy được trên database trống; khóa ngoại và mã định danh hợp lệ.	Kiểm tra đầu ra liên quan của S2-G03 trước khi làm.														~~
+
+~~ Kết quả cần có: Ca đúng được nhận; ca sai bị cách ly và có lý do. Thiếu bản gốc hoặc chưa kiểm lại thì không được đưa vào corpus hợp lệ.	Nguyễn Minh Quân	Chưa bắt đầu	10		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Lưu Evidence cùng hash tài liệu, trang, bảng, dòng hoặc mục để dùng chung cho truy vấn và trích dẫn.	Bằng chứng không mất vị trí nguồn khi chuyển giữa các bước xử lý.	Kiểm tra đầu ra liên quan của S2-G03 trước khi làm.								...~~
+
+~~ Kết quả cần có: Tất cả dữ liệu được nhận đều qua quy tắc kiểm tra. Báo cáo đối chiếu có mẫu audit, lỗi đã sửa và độ phủ; mục bắt buộc thiếu vẫn là chưa xong.	Đinh Huỳnh Vũ	Chưa bắt đầu	12		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Lưu 10 công ty, manifest và phiên bản corpus. Chỉ phiên bản đủ kiểm tra mới được đặt là đang sử dụng.	Truy vấn biết đang dùng phiên bản nào; bản cũ không bị ghi đè.	Kiểm tra đầu ra liên quan của S2-G03 trước ...~~
+
+~~ Cách làm: Lập manifest: danh sách item, hash, phiên bản, số lượng và kết quả kiểm tra. Chốt bản dùng tiếp, giữ bản cũ và đường dẫn có quyền truy cập. Ghi rõ đây là corpus chuẩn hóa, chưa phải chỉ mục vector/graph sẵn sàng truy vấn.~~
+
+~~ Kết quả cần có: Gói dữ liệu và manifest tái tạo được, không còn lỗi chặn hoặc thiếu nguồn bắt buộc. Có hướng dẫn đọc schema và danh sách giới hạn được nghiệm thu.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Nạp mẫu của một công ty mỗi ngành trước khi nạp rộng. Đối chiếu số dòng và nguồn sau khi lưu.	Kho mẫu có dữ kiện hợp lệ; dữ kiện không có nguồn bị từ chối.	Kiểm tra đầu ra liên quan của S2-G03 trước k...~~
+
+~~ Kết quả cần có: Danh sách màn hình/luồng có đối chiếu use case. Phạm vi màn hình đã duyệt; quyền mỗi vai trò và đường quay lại được ghi rõ.	Trần Diệu Huyền	Chưa bắt đầu	6		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra metadata bắt buộc, đơn vị, kỳ, phạm vi báo cáo và nguồn tồn tại trước khi cho phép sử dụng.	Mỗi quy tắc có ít nhất một mẫu hợp lệ và một mẫu lỗi.	Kiểm tra đầu ra liên quan của S2-G04 trước khi làm.														~~
+
+~~ Kết quả cần có: Khung bố cục đủ các màn hình đã chốt, điều hướng không có ngõ cụt và được nhóm duyệt trước khi code.	Trần Diệu Huyền	Chưa bắt đầu	8		Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Lưu bản ghi lỗi cùng lý do và nguồn. Cho sửa metadata hoặc từ chối; phải kiểm tra lại trước khi đưa vào kho.	Dữ liệu bị cách ly không xuất hiện trong kết quả truy vấn.	Kiểm tra đầu ra liên quan của S2-G04 trước khi làm.														~~
+
+~~ Kết quả cần có: Bản thiết kế chi tiết và bộ component nhất quán, đủ trạng thái chính. Không để phần thiết kế chi tiết sang Sprint 5.	Nguyễn Minh Quân	Chưa bắt đầu	10		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Chọn một công ty Ngân hàng và hai kỳ. So sánh số trích xuất với bảng PDF; ghi sai lệch và cách xử lý.	Có biên bản kiểm tra từng số mẫu và danh sách lỗi chưa giải quyết.	Kiểm tra đầu ra liên quan của S2-G04 trước khi làm.										...~~
+
+~~ Kết quả cần có: Prototype mở được bằng link/file, các luồng đã chốt bấm được, có kết quả review và bản thiết kế được duyệt.	Đinh Huỳnh Vũ	Chưa bắt đầu	6		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Thực hiện kiểm tra tương tự cho một công ty Công nghệ, gồm đơn vị và phạm vi báo cáo.	Có biên bản kiểm tra; chỉ dữ kiện đạt mới được đưa vào corpus.	Kiểm tra đầu ra liên quan của S2-G04 trước khi làm.														~~
+
+~~ Kết quả cần có: Clone/cài/chạy/build được theo hướng dẫn; khung trang bằng code khớp thiết kế. Đây là source code, không chỉ ảnh hoặc link prototype.	Thái Quốc Hưng	Chưa bắt đầu	8		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo Researcher, Data Operator, Evaluator, System Admin. Định nghĩa quyền theo ma trận SRS; chưa làm đăng ký tự do.	Tài khoản thử có đúng vai trò và quyền được cấp.	Kiểm tra đầu ra liên quan của S2-G05 trước khi làm.	...~~
+
+~~ Kết quả cần có: Component tái sử dụng được; dữ liệu mẫu tách khỏi UI. Có cách đổi sang API thật mà không phải viết lại bố cục.	Thái Quốc Hưng	Chưa bắt đầu	10		Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Xác minh thông tin đăng nhập, tạo phiên có thời hạn và xử lý đăng xuất. Không ghi mật khẩu vào log.	Đăng nhập hợp lệ tạo phiên; thông tin sai không cho truy cập.	Kiểm tra đầu ra liên quan của S2-G05 trước khi làm.														~~
+
+~~ Cách làm: Code route, điều hướng, giao diện đăng nhập/đăng xuất và thông báo hết phiên/hết quyền bằng phiên mẫu. Mô phỏng các vai trò để kiểm tra UI. Kiểm tra quyền trên UI không được coi là bảo mật thật; API đăng nhập/RBAC làm ở Sprint 3.~~
+
+~~ Kết quả cần có: Các route chính và trạng thái truy cập chạy với mock. Không nhầm tài khoản mẫu với hệ thống xác thực thật; có hợp đồng API cần nối.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	8		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Chặn thao tác quản trị nguồn, corpus và đánh giá với người không có quyền.	Gọi API trực tiếp bằng sai vai trò vẫn bị từ chối.	Kiểm tra đầu ra liên quan của S2-G05 trước khi làm.														~~
+
+~~ Kết quả cần có: Trạng thái lỗi/thành công có thể chạy thử bằng mock. Có bảng hợp đồng API, điểm thay dữ liệu và kịch bản kiểm thử để nối thật ở Sprint 3–4.	Nguyễn Minh Quân	Chưa bắt đầu	8		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Làm màn hình đăng nhập tối thiểu và hiển thị lỗi dễ hiểu; giữ phiên theo quy tắc đã chốt.	Người dùng vào được vùng được cấp quyền và đăng xuất được.	Kiểm tra đầu ra liên quan của S2-G05 trước khi làm.								...~~
+
+~~ Kết quả cần có: Màn hình chạy với dữ liệu mẫu, chọn công ty/kỳ cập nhật đúng panel, trạng thái rỗng/lỗi và nhãn nguồn rõ ràng.	Đinh Huỳnh Vũ	Chưa bắt đầu	10		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Tìm theo ticker và tên trong 10 công ty; trả mã ổn định, tên chính thức và ngành.	Không tìm thấy công ty ngoài phạm vi; nhiều kết quả không bị chọn tự động.	Kiểm tra đầu ra liên quan của S2-G06 trước khi làm.														~~
+
+~~ Kết quả cần có: Luồng hỏi và so sánh chạy bằng mock, hủy/thử lại và lỗi hiển thị rõ. Không có nút hay nội dung tư vấn mua/bán ngoài phạm vi.	Đinh Huỳnh Vũ	Chưa bắt đầu	12		Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Hiện danh sách kết quả, cho chọn một công ty hoặc xóa lựa chọn; xử lý không có kết quả.	Lựa chọn trên giao diện khớp mã công ty gửi tới API.	Kiểm tra đầu ra liên quan của S2-G06 trước khi làm.														~~
+
+~~ Cách làm: Code mở citation theo ID mẫu, xem locator/đoạn nguồn, fact/calc và provenance. Code xem/xóa lịch sử, pin/unpin và gửi feedback với hộp xác nhận. Mô phỏng lỗi và dữ liệu riêng theo user mẫu, chưa coi là lưu trữ/bảo mật thật.~~
+
+~~ Kết quả cần có: Các màn hình/luồng đã chốt chạy với mock, không trùng watchlist, không mở URL client tùy ý; không có xuất PDF/Markdown.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	12		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Định nghĩa trace ID, phiên bản corpus, tuyến truy vấn, thời gian và mã lỗi; chưa giả lập telemetry thật.	Một yêu cầu mẫu tạo trace có các trường bắt buộc.	Kiểm tra đầu ra liên quan của S2-G06 trước khi làm.														~~
+
+~~ Kết quả cần có: Graph mẫu thao tác được, edge mở nguồn và trạng thái lỗi/rỗng rõ. Không tự sinh quan hệ không có trong dữ liệu mẫu.	Nguyễn Minh Quân	Chưa bắt đầu	10		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Che khóa API, mật khẩu và dữ liệu người dùng ngoài chính sách trước khi lưu hoặc hiển thị nhật ký.	Mẫu log lỗi không lộ bí mật; quản trị viên chỉ thấy dữ liệu được phép.	Kiểm tra đầu ra liên quan của S2-G06 trước khi làm.										...~~
+
+~~ Cách làm: Code cấu hình/test/pause nguồn, bắt đầu/xem run, counts/retry, quarantine và bản ghi. Dùng mock cho thao tác quản trị; cần xác nhận thao tác quan trọng. Không chạy bộ cào thật từ UI khi API chưa nối.~~
+
+~~ Kết quả cần có: Màn hình operator chạy với mock, hiển thị lỗi đã làm sạch và thời điểm cập nhật; không lộ khóa truy cập.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	12		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy pipeline trên các kỳ có nguồn hợp lệ. Ghi tỷ lệ phủ và danh sách kỳ thiếu, không lấp bằng số tự tạo.	Báo cáo nạp tách rõ công ty, kỳ thành công và kỳ còn thiếu.	Kiểm tra đầu ra liên quan của S2-G07 trước khi làm.														~~
+
+~~ Kết quả cần có: Màn hình chạy và xử lý trạng thái không đủ điều kiện, lỗi và giới hạn. Có hợp đồng API/audit để backend triển khai tiếp.	Đinh Huỳnh Vũ	Chưa bắt đầu	10		Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Ghi các tài liệu, hash, dữ kiện và trạng thái kiểm tra thuộc một phiên bản ứng viên.	Manifest truy được về nguồn gốc và không chứa bản ghi bị cách ly.	Kiểm tra đầu ra liên quan của S2-G07 trước khi làm.														~~
+
+~~ Kết quả cần có: Màn hình evaluator chạy với mock, phân biệt partial/completed, thiếu trace và calibration/final. Không tự tạo điểm đánh giá như kết quả thật.	Nguyễn Minh Quân	Chưa bắt đầu	12		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra đổi phiên bản đang dùng theo thao tác nguyên tử và trở lại phiên bản hợp lệ trước đó.	Không có trạng thái nửa cũ nửa mới; lịch sử thao tác được ghi lại.	Kiểm tra đầu ra liên quan của S2-G07 trước ...~~
+
+~~ Cách làm: Chạy lại danh sách màn hình/use case, route, trạng thái, bàn phím và kích thước màn hình đã duyệt. So code với prototype; sửa lỗi component/điều hướng. Ghi rõ màn hình nào còn dùng mock và API nào cần nối.~~
+
+~~ Kết quả cần có: Không còn màn hình bắt buộc chỉ có ảnh thiết kế. Checklist UI và build chạy được; lỗi chặn thao tác đã sửa và kiểm lại.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	10		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Liệt kê nguồn chưa duyệt, PDF chưa đọc được và lỗi chưa xử lý. Xác định phần được phép đưa sang Sprint 3.	Nhóm biết dữ liệu nào dùng được và phần nào phải tiếp tục bổ sung.	Kiểm tra đầu ra liên quan của S2-G07 trước khi làm.		...~~
+
+~~ Kết quả cần có: Có biên bản demo tuần 1, đầu ra mẫu và danh sách lỗi/nguồn cần bổ sung. Prototype và skeleton được kiểm theo phạm vi.	Thái Quốc Hưng	Chưa bắt đầu	4		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy luồng tải, trích, chuẩn hóa, kiểm tra và lưu trên mẫu hai ngành.	Luồng mẫu truy ra đúng tài liệu; lỗi được cách ly đúng bước.	Các task chức năng liên quan có đầu ra để kiểm tra.														~~
+
+~~ Kết quả cần có: Lỗi chặn tuần 1 được xử lý/kiểm lại, không mất metadata hay nguồn. Việc chưa sửa được ghi rõ tác động lên nghiệm thu.	Trần Diệu Huyền	Chưa bắt đầu	6		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Xử lý các lỗi ghi nhận ở tuần 1, ưu tiên sai số và mất nguồn.	Có log sửa lỗi và kết quả chạy lại cho từng lỗi được đóng.	Các task chức năng liên quan có đầu ra để kiểm tra.														~~
+
+~~ Kết quả cần có: Cào và chuẩn hóa không còn thiếu mục bắt buộc/lỗi chặn. Prototype và frontend build chạy được. Có checklist, bằng chứng và danh sách API chưa nối.	Trần Diệu Huyền	Chưa bắt đầu	6		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Thử hết hạn phiên, sai vai trò, nhiều kết quả và registry lỗi.	Không vượt quyền và không giữ lựa chọn công ty sai sau lỗi.	Các task chức năng liên quan có đầu ra để kiểm tra.														~~
+
+~~ Kết quả cần có: Gói bàn giao truy cập được, người nhận chạy lại được. Sprint 5 không còn thiết kế/code UI từ đầu; việc nối API và auth có task kế tiếp rõ ràng.	Thái Quốc Hưng	Chưa bắt đầu	4		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu migration, audit hai ngành, manifest và API với yêu cầu. Ghi rõ phần chưa đạt.	Có biên bản review và danh sách đầu vào sẵn sàng cho Sprint 3.	Các task chức năng liên quan có đầu ra để kiểm tra.			...~~
+
 ## 2026-09-29 14:22 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
