@@ -1,5 +1,77 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-09-30 10:28 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-30 10:28
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS01	Chốt phạm vi và danh sách nguồn BCTC, BCTN, News	Chốt phạm vi và nguồn BCTC, BCTN, News	Gộp việc lập URL và kiểm quyền nguồn vào một bảng. Rà kết quả Sprint 1 cho 10 công ty; bổ sung URL thực, loại tài liệu, kỳ và khoảng ngày News. Ghi nguồn được phép dùng và các mục còn thiếu. Không nghiên cứu lại toàn bộ phạm vi đã chốt.	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Một danh sách được nhóm duyệt, phân biệt đủ/thiếu và có URL ki...**
+
+🟢 **								Rất cao										**
+
+🟢 **								Rất cao										**
+
+🟢 **								Rất cao										**
+
+🟢 **	S2-WBS02	Rà schema chung và mẫu dữ liệu bàn giao	Chốt phạm vi và nguồn BCTC, BCTN, News	Dùng ERD Sprint 1 để chốt company\_id, loại nguồn, URL, ngày công bố/lấy, hash, phiên bản, kỳ, đơn vị và vị trí nguồn. Thống nhất mẫu facts và News với UI; không vẽ lại ERD từ đầu.	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệu. UI và người làm DB dùng cùng tên trường.	Ước lượng lại khi tái...**
+
+🟢 **	S2-WBS03	Hoàn thiện bộ tải BCTC/BCTN và lưu bản gốc	Cào đủ nguồn và lưu bản gốc theo phiên bản	Tái dùng bộ tải mẫu Sprint 1. Bổ sung tải theo danh sách, timeout/retry, nhận file lỗi; lưu file gốc, URL, thời điểm lấy và SHA-256 ngay trong bộ tải. File giống nhau không tạo bản trùng, file đổi nội dung giữ phiên bản.	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Tải thử được BCTC và BCTN, mở lại được bản gốc và metadata; có log lỗi. Đã gồm phần ...**
+
+🟢 **	S2-WBS06	Trích văn bản/bảng và xử lý scan khi cần	Trích và chuẩn hóa báo cáo, News	Tái dùng parser/thư viện trích xuất hiện có, giữ trang/mục/bảng/dòng. Nhận biết file scan và gọi công cụ OCR sẵn có khi cần, kiểm số với ảnh gốc. Không tự xây OCR hoặc mô hình nhận dạng bảng mới; file chưa đọc tin cậy đưa vào danh sách lỗi.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Mẫu hai ngành và BCTC/BCTN giữ đúng locator. Số OCR được đố...**
+
+🟢 **								Cao										**
+
+🟢 **	S2-WBS07	Chuẩn hóa dữ kiện và nội dung BCTC/BCTN	Trích và chuẩn hóa báo cáo, News	Dùng danh mục chỉ tiêu đã chốt và hàm chuẩn hóa mẫu Sprint 1. Chuẩn kỳ/ngày/đơn vị/dấu âm/scope, lưu giá trị gốc và chuyển đổi; giữ nội dung BCTN cùng locator. Chỉ bổ sung ánh xạ còn thiếu, không xây bộ hiểu mọi biểu mẫu.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Dữ kiện đúng company/metric/period/unit/scope và truy về nguồn; mâu thuẫn hoặc ...**
+
+🟢 **	S2-WBS08	Chuẩn hóa News và loại bản trùng	Trích và chuẩn hóa báo cáo, News	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Sprint 2.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề...**
+
+🟢 **	S2-WBS09	Tạo migration PostgreSQL và thử lưu/đọc dữ liệu	Kiểm tra, lưu và chốt corpus chuẩn hóa	Triển khai ERD đã có cho source/document/version/facts/News/Evidence; tái dùng script nạp mẫu. Tạo khóa và ràng buộc, thử một luồng lưu/đọc từ dữ liệu chuẩn về bản gốc. Chưa làm embedding, graph hay API nghiệp vụ.	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Migration chạy trên DB mới, khóa ngoại đúng và lưu/đọc được ba...**
+
+🟢 **	S2-WBS10	Kiểm trường bắt buộc và cách ly bản ghi sai	Kiểm tra, lưu và chốt corpus chuẩn hóa	Gắn kiểm tra vào pipeline nạp: ID, ngày/kỳ, đơn vị, scope, nguồn, hash và locator. Dùng bảng/file quarantine đơn giản có reason code, chưa làm màn hình hay công cụ sửa dữ liệu thật. Sửa lỗi và chạy lại kiểm tra trong chính task liên quan.	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Mẫu đúng được nhận, mẫu sai bị cách ly và...**
+
+🟢 **	S2-WBS16	Dựng prototype bấm thử từ bản thiết kế đã duyệt	Hoàn tất thiết kế UI và prototype	Vũ dựng prototype từng màn hình ngay sau khi wireframe mốc tương ứng được Huyền duyệt và có visual áp dụng; làm trước luồng chọn công ty → Dashboard → Copilot → citation, rồi nối các màn hình còn lại khi mốc 2 sẵn sàng. Ghi rõ phần nào là prototype đã duyệt, phần nào đang chờ; không tự đoán bố cục chưa được duyệt.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Có...**
+
+🟢 **	S2-WBS19	Code routes và giao diện truy cập bằng phiên mẫu	Code skeleton và lớp dữ liệu mẫu	Huyền dùng router chung để nối màn hình, code form login/logout, phiên hết hạn và vai trò mẫu. Có thể chuẩn bị route map và phiên mẫu từ sitemap trong khi Nhân làm wireframe; chỉ ghép layout và smoke test điều hướng khi skeleton/component sẵn sàng. Không triển khai API auth/RBAC thật hoặc coi ẩn nút là bảo mật.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tác...**
+
+🟢 **	S2-WBS20	Lead UI review theo mốc và bàn giao thiết kế/API	Code skeleton và lớp dữ liệu mẫu	Huyền review từng mốc wireframe của Nhân ngay khi bàn giao, ghi rõ màn hình đã duyệt/chờ sửa và bàn giao cho Vũ bắt đầu prototype phần tương ứng. Sau đó review prototype đầy đủ so với sitemap, wireframe, visual; chốt tên trường payload/trace\_id/citation\_id cho mock adapter. Không ký nghiệm thu cả task khi còn mốc hoặc lỗi chặn chưa xong.	Frontend source chạy/build được, component/route/trạng thái truy cập...**
+
+🟢 **	S2-WBS21	Code chọn công ty và Dashboard bằng mock	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; khô...**
+
+🟢 **	S2-WBS22	Code Copilot và so sánh bằng component chung	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng form, chat/result và bảng chung để nhập câu hỏi, chọn công ty/kỳ, xem response/so sánh mẫu. Thêm partial/insufficient-data/refusal và retry; không làm streaming tùy biến, backend RAG hoặc tư vấn đầu tư.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Các luồng đã chốt chạy với mock và nhãn rõ; filter/payload đúng, kết quả chờ/lỗi/thiếu ...**
+
+🟢 **	S2-WBS23	Code nguồn, history, watchlist và feedback bằng mock	Code màn hình nghiên cứu bằng dữ liệu mẫu	Tái dùng modal/detail/list/form để mở citation ID, xem locator/fact/provenance, xem/xóa history, pin/unpin và feedback. Chỉ mô phỏng lưu theo user, chưa xây backend lưu trữ; xác nhận thao tác xóa và thử lỗi bằng fixture.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Các luồng MVP chạy được với mock, không trùng watchlist và không m...**
+
+~~	S2-WBS01	Chốt phạm vi và danh sách nguồn BCTC, BCTN, News	Chốt phạm vi và nguồn BCTC, BCTN, News	Gộp việc lập URL và kiểm quyền nguồn vào một bảng. Rà kết quả Sprint 1 cho 10 công ty; bổ sung URL thực, loại tài liệu, kỳ và khoảng ngày News. Ghi nguồn được phép dùng và các mục còn thiếu. Không nghiên cứu lại toàn bộ phạm vi đã chốt.	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Một danh sách được nhóm duyệt, phân biệt đủ/thiếu và có URL ki...~~
+
+~~	S2-WBS02	Rà schema chung và mẫu dữ liệu bàn giao	Chốt phạm vi và nguồn BCTC, BCTN, News	Dùng ERD Sprint 1 để chốt company\_id, loại nguồn, URL, ngày công bố/lấy, hash, phiên bản, kỳ, đơn vị và vị trí nguồn. Thống nhất mẫu facts và News với UI; không vẽ lại ERD từ đầu.	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệu. UI và người làm DB dùng cùng tên trường.	Ước lượng lại khi tái...~~
+
+~~	S2-WBS03	Hoàn thiện bộ tải BCTC/BCTN và lưu bản gốc	Cào đủ nguồn và lưu bản gốc theo phiên bản	Tái dùng bộ tải mẫu Sprint 1. Bổ sung tải theo danh sách, timeout/retry, nhận file lỗi; lưu file gốc, URL, thời điểm lấy và SHA-256 ngay trong bộ tải. File giống nhau không tạo bản trùng, file đổi nội dung giữ phiên bản.	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Tải thử được BCTC và BCTN, mở lại được bản gốc và metadata; có log lỗi. Đã gồm phần ...~~
+
+~~	S2-WBS06	Trích văn bản/bảng và xử lý scan khi cần	Trích và chuẩn hóa báo cáo, News	Tái dùng parser/thư viện trích xuất hiện có, giữ trang/mục/bảng/dòng. Nhận biết file scan và gọi công cụ OCR sẵn có khi cần, kiểm số với ảnh gốc. Không tự xây OCR hoặc mô hình nhận dạng bảng mới; file chưa đọc tin cậy đưa vào danh sách lỗi.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Mẫu hai ngành và BCTC/BCTN giữ đúng locator. Số OCR được đố...~~
+
+~~	S2-WBS07	Chuẩn hóa dữ kiện và nội dung BCTC/BCTN	Trích và chuẩn hóa báo cáo, News	Dùng danh mục chỉ tiêu đã chốt và hàm chuẩn hóa mẫu Sprint 1. Chuẩn kỳ/ngày/đơn vị/dấu âm/scope, lưu giá trị gốc và chuyển đổi; giữ nội dung BCTN cùng locator. Chỉ bổ sung ánh xạ còn thiếu, không xây bộ hiểu mọi biểu mẫu.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Dữ kiện đúng company/metric/period/unit/scope và truy về nguồn; mâu thuẫn hoặc ...~~
+
+~~	S2-WBS08	Chuẩn hóa News và loại bản trùng	Trích và chuẩn hóa báo cáo, News	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Sprint 2.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề...~~
+
+~~	S2-WBS09	Tạo migration PostgreSQL và thử lưu/đọc dữ liệu	Kiểm tra, lưu và chốt corpus chuẩn hóa	Triển khai ERD đã có cho source/document/version/facts/News/Evidence; tái dùng script nạp mẫu. Tạo khóa và ràng buộc, thử một luồng lưu/đọc từ dữ liệu chuẩn về bản gốc. Chưa làm embedding, graph hay API nghiệp vụ.	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Migration chạy trên DB mới, khóa ngoại đúng và lưu/đọc được ba...~~
+
+~~	S2-WBS10	Kiểm trường bắt buộc và cách ly bản ghi sai	Kiểm tra, lưu và chốt corpus chuẩn hóa	Gắn kiểm tra vào pipeline nạp: ID, ngày/kỳ, đơn vị, scope, nguồn, hash và locator. Dùng bảng/file quarantine đơn giản có reason code, chưa làm màn hình hay công cụ sửa dữ liệu thật. Sửa lỗi và chạy lại kiểm tra trong chính task liên quan.	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Mẫu đúng được nhận, mẫu sai bị cách ly và...~~
+
+~~	S2-WBS16	Dựng prototype bấm thử từ bản thiết kế đã duyệt	Hoàn tất thiết kế UI và prototype	Vũ dựng prototype từng màn hình ngay sau khi wireframe mốc tương ứng được Huyền duyệt và có visual áp dụng; làm trước luồng chọn công ty → Dashboard → Copilot → citation, rồi nối các màn hình còn lại khi mốc 2 sẵn sàng. Ghi rõ phần nào là prototype đã duyệt, phần nào đang chờ; không tự đoán bố cục chưa được duyệt.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Có...~~
+
+~~	S2-WBS19	Code routes và giao diện truy cập bằng phiên mẫu	Code skeleton và lớp dữ liệu mẫu	Huyền dùng router chung để nối màn hình, code form login/logout, phiên hết hạn và vai trò mẫu. Có thể chuẩn bị route map và phiên mẫu từ sitemap trong khi Nhân làm wireframe; chỉ ghép layout và smoke test điều hướng khi skeleton/component sẵn sàng. Không triển khai API auth/RBAC thật hoặc coi ẩn nút là bảo mật.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tác...~~
+
+~~	S2-WBS20	Lead UI review theo mốc và bàn giao thiết kế/API	Code skeleton và lớp dữ liệu mẫu	Huyền review từng mốc wireframe của Nhân ngay khi bàn giao, ghi rõ màn hình đã duyệt/chờ sửa và bàn giao cho Vũ bắt đầu prototype phần tương ứng. Sau đó review prototype đầy đủ so với sitemap, wireframe, visual; chốt tên trường payload/trace\_id/citation\_id cho mock adapter. Không ký nghiệm thu cả task khi còn mốc hoặc lỗi chặn chưa xong.	Frontend source chạy/build được, component/route/trạng thái truy cập...~~
+
+~~	S2-WBS21	Code chọn công ty và Dashboard bằng mock	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; khô...~~
+
+~~	S2-WBS22	Code Copilot và so sánh bằng component chung	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng form, chat/result và bảng chung để nhập câu hỏi, chọn công ty/kỳ, xem response/so sánh mẫu. Thêm partial/insufficient-data/refusal và retry; không làm streaming tùy biến, backend RAG hoặc tư vấn đầu tư.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Các luồng đã chốt chạy với mock và nhãn rõ; filter/payload đúng, kết quả chờ/lỗi/thiếu ...~~
+
+~~	S2-WBS23	Code nguồn, history, watchlist và feedback bằng mock	Code màn hình nghiên cứu bằng dữ liệu mẫu	Tái dùng modal/detail/list/form để mở citation ID, xem locator/fact/provenance, xem/xóa history, pin/unpin và feedback. Chỉ mô phỏng lưu theo user, chưa xây backend lưu trữ; xác nhận thao tác xóa và thử lỗi bằng fixture.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Các luồng MVP chạy được với mock, không trùng watchlist và không m...~~
+
 ## 2026-09-30 10:22 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
