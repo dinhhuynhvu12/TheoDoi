@@ -1,5 +1,553 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-09-30 10:12 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-30 10:12
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	141	0	28 task; 142h.**
+
+🟢 **Huyền lead UI.**
+
+🟢 **	Sprint 2: 28 task, 142h. Huyền lead thiết kế UI và review; Vũ/Nhân dựng prototype, frontend code dùng mock. Data do Hưng/Quân phụ trách.																	**
+
+🟢 **	Đã gỡ bộ lọc người phụ trách để hiện toàn bộ 42 task Sprint 1 và 28 task Sprint 2. Các sprint khác chưa phân lại theo giới hạn 15h/tuần.																	**
+
+🟢 **	S2-WBS01	Chốt phạm vi và danh sách nguồn BCTC, BCTN, News	Chốt phạm vi và nguồn BCTC, BCTN, News	Gộp việc lập URL và kiểm quyền nguồn vào một bảng. Rà kết quả Sprint 1 cho 10 công ty; bổ sung URL thực, loại tài liệu, kỳ và khoảng ngày News. Ghi nguồn được phép dùng và các mục còn thiếu. Không nghiên cứu lại toàn bộ phạm vi đã chốt.	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Một danh sách được nhóm duyệt, phân biệt đủ/thiếu và có URL ki...**
+
+🟢 **	S2-WBS02	Rà schema chung và mẫu dữ liệu bàn giao	Chốt phạm vi và nguồn BCTC, BCTN, News	Dùng ERD Sprint 1 để chốt company\_id, loại nguồn, URL, ngày công bố/lấy, hash, phiên bản, kỳ, đơn vị và vị trí nguồn. Thống nhất mẫu facts và News với UI; không vẽ lại ERD từ đầu.	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệu. UI và người làm DB dùng cùng tên trường.	Ước lượng lại khi tái...**
+
+🟢 **	S2-WBS03	Hoàn thiện bộ tải BCTC/BCTN và lưu bản gốc	Cào đủ nguồn và lưu bản gốc theo phiên bản	Tái dùng bộ tải mẫu Sprint 1. Bổ sung tải theo danh sách, timeout/retry, nhận file lỗi; lưu file gốc, URL, thời điểm lấy và SHA-256 ngay trong bộ tải. File giống nhau không tạo bản trùng, file đổi nội dung giữ phiên bản.	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Tải thử được BCTC và BCTN, mở lại được bản gốc và metadata; có log lỗi. Đã gồm phần ...**
+
+🟢 **	S2-WBS04	Hoàn thiện bộ cào News và lưu nguồn gốc	Cào đủ nguồn và lưu bản gốc theo phiên bản	Tái dùng khung crawler chung, cấu hình các nguồn News được duyệt. Lấy danh sách/nội dung trong khoảng ngày, xử lý phân trang, lọc công ty và lưu URL/ngày/hash/version. Không làm crawler tổng quát cho mọi website hoặc vượt paywall.	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Lấy đúng bài mẫu và nguồn gốc; có retry/log và lý do loại bài. Bộ cào chỉ hỗ ...**
+
+🟢 **	S2-WBS05	Chạy cào đủ danh sách và xử lý mục tải lỗi	Cào đủ nguồn và lưu bản gốc theo phiên bản	Chạy tự động trên danh sách được duyệt, theo dõi số cần lấy/đã lấy/lỗi và chạy lại mục lỗi. Giờ dự kiến là công sức theo dõi/xử lý, không tính thời gian máy chạy không cần người. Kiểm ranh giới ngày và phân trang.	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Độ phủ khớp danh sách bắt buộc; mục thiếu hoặc lỗi còn chặn thì task chưa xong. Không lấy v...**
+
+🟢 **	S2-WBS06	Trích văn bản/bảng và xử lý scan khi cần	Trích và chuẩn hóa báo cáo, News	Tái dùng parser/thư viện trích xuất hiện có, giữ trang/mục/bảng/dòng. Nhận biết file scan và gọi công cụ OCR sẵn có khi cần, kiểm số với ảnh gốc. Không tự xây OCR hoặc mô hình nhận dạng bảng mới; file chưa đọc tin cậy đưa vào danh sách lỗi.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Mẫu hai ngành và BCTC/BCTN giữ đúng locator. Số OCR được đố...**
+
+🟢 **	S2-WBS07	Chuẩn hóa dữ kiện và nội dung BCTC/BCTN	Trích và chuẩn hóa báo cáo, News	Dùng danh mục chỉ tiêu đã chốt và hàm chuẩn hóa mẫu Sprint 1. Chuẩn kỳ/ngày/đơn vị/dấu âm/scope, lưu giá trị gốc và chuyển đổi; giữ nội dung BCTN cùng locator. Chỉ bổ sung ánh xạ còn thiếu, không xây bộ hiểu mọi biểu mẫu.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Dữ kiện đúng company/metric/period/unit/scope và truy về nguồn; mâu thuẫn hoặc ...**
+
+🟢 **	S2-WBS08	Chuẩn hóa News và loại bản trùng	Trích và chuẩn hóa báo cáo, News	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Sprint 2.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề...**
+
+🟢 **	S2-WBS09	Tạo migration PostgreSQL và thử lưu/đọc dữ liệu	Kiểm tra, lưu và chốt corpus chuẩn hóa	Triển khai ERD đã có cho source/document/version/facts/News/Evidence; tái dùng script nạp mẫu. Tạo khóa và ràng buộc, thử một luồng lưu/đọc từ dữ liệu chuẩn về bản gốc. Chưa làm embedding, graph hay API nghiệp vụ.	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Migration chạy trên DB mới, khóa ngoại đúng và lưu/đọc được ba...**
+
+🟢 **	S2-WBS10	Kiểm trường bắt buộc và cách ly bản ghi sai	Kiểm tra, lưu và chốt corpus chuẩn hóa	Gắn kiểm tra vào pipeline nạp: ID, ngày/kỳ, đơn vị, scope, nguồn, hash và locator. Dùng bảng/file quarantine đơn giản có reason code, chưa làm màn hình hay công cụ sửa dữ liệu thật. Sửa lỗi và chạy lại kiểm tra trong chính task liên quan.	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Mẫu đúng được nhận, mẫu sai bị cách ly và...**
+
+🟢 **	S2-WBS11	Nạp toàn bộ dữ liệu đạt và đối chiếu độ phủ	Kiểm tra, lưu và chốt corpus chuẩn hóa	Chạy script nạp, đối chiếu số item với danh sách bắt buộc và audit nội dung/số theo mẫu kiểm đã duyệt. Kiểm liên kết về nguồn, tổng hợp thiếu/lỗi theo công ty và kỳ; review data và kiểm lại lỗi nằm trong task này.	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Dữ liệu được nạp đều qua validation. Có bảng độ phủ, mẫu đối chiếu...**
+
+🟢 **	S2-WBS12	Chốt manifest và bàn giao data cho Sprint 3	Nghiệm thu dữ liệu và frontend, bàn giao	Từ kết quả nạp, xuất danh sách item/hash/version/locator, schema và hướng dẫn đọc PostgreSQL. Ghi giới hạn, item bị cách ly và biên bản nghiệm thu. Cập nhật phần tài liệu bị ảnh hưởng, không làm lại bộ SRS/Proposal hoặc tổ chức thêm một task bàn giao chung.	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	Người nhận đọc lại đư...**
+
+🟢 **	S2-WBS13	Thiết kế sơ đồ luồng người dùng và sitemap UI	Hoàn tất thiết kế UI và prototype	Huyền làm lead UI, đối chiếu use case MVP để vẽ sơ đồ màn hình theo vai trò và luồng đăng nhập, chọn công ty, hỏi, xem nguồn, history/watchlist. Chỉ vẽ luồng cần code Sprint 2, không thêm xuất PDF/Markdown.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Có file sơ đồ luồng/sitemap chỉnh sửa được, liệt kê đủ màn hình, quyền và đường quay lại; nhóm duyệt trước khi th...**
+
+🟢 **	S2-WBS14	Thiết kế wireframe và khung các màn hình	Hoàn tất thiết kế UI và prototype	Nhân dùng sitemap đã duyệt để vẽ wireframe chỉnh sửa được và bàn giao theo hai mốc: mốc 1 (29/09) gồm chọn công ty, Dashboard, Copilot và mở citation; mốc 2 (30/09) gồm history/watchlist, Graph Viewer, trang vận hành/evaluator. Mỗi mốc thể hiện menu, form, bộ lọc, dữ liệu, CTA, màn hình hẹp và liên kết qua lại. Huyền review từng mốc; Vũ chỉ làm trên màn hình đã được duyệt. Nếu mốc trễ, báo blocker trong Daily Sc...**
+
+🟢 **	S2-WBS15	Thiết kế visual UI và trạng thái component chung	Hoàn tất thiết kế UI và prototype	Huyền chốt màu, chữ, khoảng cách, bảng, form, nút, citation marker và các trạng thái loading/empty/error/missing-data từ sitemap đã duyệt và bộ component sẵn có. Có thể làm quy tắc chung song song với wireframe của Nhân; áp dụng lên từng màn hình sau khi nhận wireframe. Bàn giao cho Vũ/Nhân dùng khi code; không xây design system riêng.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototy...**
+
+🟢 **	S2-WBS16	Dựng prototype bấm thử từ bản thiết kế đã duyệt	Hoàn tất thiết kế UI và prototype	Vũ dựng prototype từng màn hình ngay sau khi wireframe mốc tương ứng được Huyền duyệt và có visual áp dụng; làm trước luồng chọn công ty → Dashboard → Copilot → citation, rồi nối các màn hình còn lại khi mốc 2 sẵn sàng. Ghi rõ phần nào là prototype đã duyệt, phần nào đang chờ; không tự đoán bố cục chưa được duyệt.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Có...**
+
+🟢 **	S2-WBS17	Code project frontend và layout skeleton	Code skeleton và lớp dữ liệu mẫu	Vũ dựng project frontend, lệnh chạy/build, cấu hình môi trường và mock adapter từ repository Sprint 1 trước khi nhận đủ wireframe. Chỉ ghép menu/layout của từng màn hình sau khi wireframe và visual mốc đó được duyệt; giữ chỗ rõ ràng cho phần chưa duyệt, không coi khung tạm là giao diện hoàn chỉnh.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Source clone/c...**
+
+🟢 **	S2-WBS18	Code component chung và dữ liệu mock	Code skeleton và lớp dữ liệu mẫu	Nhân cấu hình bảng/form/nút/filter/modal và fixture đủ/rỗng/lỗi từ schema chung, quy tắc visual đã có. Có thể làm component và mock độc lập trong khi hoàn thiện wireframe; tích hợp theo từng màn hình được duyệt với skeleton của Vũ. Không để việc chờ đủ mọi màn hình chặn toàn bộ component.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Component tái sử dụng và mo...**
+
+🟢 **	S2-WBS19	Code routes và giao diện truy cập bằng phiên mẫu	Code skeleton và lớp dữ liệu mẫu	Huyền dùng router chung để nối màn hình, code form login/logout, phiên hết hạn và vai trò mẫu. Có thể chuẩn bị route map và phiên mẫu từ sitemap trong khi Nhân làm wireframe; chỉ ghép layout và smoke test điều hướng khi skeleton/component sẵn sàng. Không triển khai API auth/RBAC thật hoặc coi ẩn nút là bảo mật.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tác...**
+
+🟢 **	S2-WBS20	Lead UI review theo mốc và bàn giao thiết kế/API	Code skeleton và lớp dữ liệu mẫu	Huyền review từng mốc wireframe của Nhân ngay khi bàn giao, ghi rõ màn hình đã duyệt/chờ sửa và bàn giao cho Vũ bắt đầu prototype phần tương ứng. Sau đó review prototype đầy đủ so với sitemap, wireframe, visual; chốt tên trường payload/trace\_id/citation\_id cho mock adapter. Không ký nghiệm thu cả task khi còn mốc hoặc lỗi chặn chưa xong.	Frontend source chạy/build được, component/route/trạng thái truy cập...**
+
+🟢 **	S2-WBS21	Code chọn công ty và Dashboard bằng mock	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; khô...**
+
+🟢 **	S2-WBS22	Code Copilot và so sánh bằng component chung	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng form, chat/result và bảng chung để nhập câu hỏi, chọn công ty/kỳ, xem response/so sánh mẫu. Thêm partial/insufficient-data/refusal và retry; không làm streaming tùy biến, backend RAG hoặc tư vấn đầu tư.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Các luồng đã chốt chạy với mock và nhãn rõ; filter/payload đúng, kết quả chờ/lỗi/thiếu ...**
+
+🟢 **	S2-WBS23	Code nguồn, history, watchlist và feedback bằng mock	Code màn hình nghiên cứu bằng dữ liệu mẫu	Tái dùng modal/detail/list/form để mở citation ID, xem locator/fact/provenance, xem/xóa history, pin/unpin và feedback. Chỉ mô phỏng lưu theo user, chưa xây backend lưu trữ; xác nhận thao tác xóa và thử lỗi bằng fixture.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Các luồng MVP chạy được với mock, không trùng watchlist và không m...**
+
+🟢 **	S2-WBS24	Code Graph Viewer mẫu bằng thư viện sẵn có	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng component/thư viện graph đã chọn, nạp fixture node/edge, chọn root, mở rộng tối đa hai hop và xem nguồn edge. Không tự viết thuật toán layout, animation hoặc Neo4j API trong task này.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Viewer thao tác được và mở đúng provenance mẫu; thử graph rỗng/lỗi, chặn hơn hai hop. Backend sẽ kiểm giới h...**
+
+🟢 **	S2-WBS25	Code trang source, ingestion và quarantine theo template	Code màn hình quản trị và evaluator bằng mock	Dùng chung bảng/list/detail/form cho source, runs/counts/retries và quarantine. Đổi cấu hình/fixture theo trang thay vì viết một hệ thống quản trị riêng; thao tác quan trọng có xác nhận. Không gọi bộ cào thật từ mock UI.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Các màn hình operator trong checklist chạy với...**
+
+🟢 **	S2-WBS26	Code trang corpus, budget và traces theo template	Code màn hình quản trị và evaluator bằng mock	Dùng lại trang quản trị của task trước, thay schema/form/fixture cho manifest/promote/restore, ngưỡng/budget và trace. Kiểm giá trị và readiness mẫu, không làm backend quản lý cấu hình/audit hoặc telemetry thật.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Trang có đủ luồng MVP và trạng thái không đủ điều kiện/lỗi với...**
+
+🟢 **	S2-WBS27	Code trang test set và evaluation theo template	Code màn hình quản trị và evaluator bằng mock	Dùng bảng/form/detail chung để nhập/review/freeze ca mẫu, chọn B0–B3 và xem run/metrics fixture. Thêm calibration/final và quyền mẫu; chưa tạo 120 câu thật, chạy Ragas hoặc xây engine đánh giá.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Màn hình evaluator trong checklist thao tác được, phân biệt partial/completed/thiế...**
+
+🟢 **	S2-WBS28	Lead UI review bản code và nghiệm thu bàn giao	Nghiệm thu dữ liệu và frontend, bàn giao	Huyền đối chiếu code của Vũ/Nhân với bản thiết kế và prototype, chạy smoke test màn hình/route/trạng thái bằng mock trên bản build sạch. Ghi lỗi chặn về đúng task để chủ task sửa, xác nhận lại sau sửa; không làm lại toàn bộ QA.	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	Có checklist đối chiếu thiết kế–code và biên bản...**
+
+🟢 **	Sửa trạng thái, phụ trách và ngày tại sheet sprint. Product Backlog, tháng và 3 tháng tự cập nhật.																											**
+
+🟢 **	Sprint 2 có hai đầu ra UI riêng: file thiết kế chỉnh sửa được và frontend source chạy với mock. Huyền lead UI, thiết kế luồng/visual và review; Nhân thiết kế wireframe, bàn giao hai mốc có duyệt để Vũ làm prototype song song. Giờ review ở WBS24 và WBS32, không cộng hai lần. Chỉ đánh dấu task hoàn thành khi đủ toàn bộ đầu ra; mốc trung gian không phải hoàn thành task.																											**
+
+🟢 **Data: Thái Quốc Hưng. Tuần 1 14h; tuần 2 15h. Trong giới hạn**
+
+🟢 **UI: Đinh Huỳnh Vũ. Tuần 1 13h; tuần 2 14h. Trong giới hạn**
+
+🟢 **UI: Hồ Phạm Đăng Nhân. Tuần 1 13h; tuần 2 14h. Trong giới hạn**
+
+🟢 **UI: Trần Diệu Huyền. Tuần 1 15h; tuần 2 14h. Trong giới hạn**
+
+🟢 **	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi																							**
+
+🟢 **Kết quả cần có: Một danh sách được nhóm duyệt, phân biệt đủ/thiếu và có URL kiểm tra được. Chưa có danh sách hoặc nguồn thì chưa được coi xong.	Nguyễn Minh Quân	Chưa bắt đầu	3		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Gộp việc lập URL và kiểm quyền nguồn vào một bảng. Rà kết quả Sprint 1 cho 10 công ty; bổ sung URL thực, loại tài liệu, kỳ và khoảng ngày News. Ghi nguồn được phép dùng và các mục còn thiếu. Không nghiên cứu lại toàn bộ p...**
+
+🟢 **	Sprint 2	S2-WBS02	S2-G01	1	Rà schema chung và mẫu dữ liệu bàn giao**
+
+🟢 **Kết quả cần có: Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệu. UI và người làm DB dùng cùng tên trường.	Thái Quốc Hưng	Chưa bắt đầu	2		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng ERD Sprint 1 để chốt company\_id, loại nguồn, URL, ngày công bố/lấy, hash, phiên bản, kỳ, đơn vị và vị trí nguồn. Thống nhất mẫu facts và News với UI; không vẽ lại ERD từ đầu.	Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệu...**
+
+🟢 **	Sprint 2	S2-WBS03	S2-G02	1	Hoàn thiện bộ tải BCTC/BCTN và lưu bản gốc**
+
+🟢 **Kết quả cần có: Tải thử được BCTC và BCTN, mở lại được bản gốc và metadata; có log lỗi. Đã gồm phần lưu hash/version, không tách thêm task.	Nguyễn Minh Quân	Chưa bắt đầu	5		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng bộ tải mẫu Sprint 1. Bổ sung tải theo danh sách, timeout/retry, nhận file lỗi; lưu file gốc, URL, thời điểm lấy và SHA-256 ngay trong bộ tải. File giống nhau không tạo bản trùng, file đổi nội dung giữ phiên bản.	Tải ...**
+
+🟢 **	Sprint 2	S2-WBS04	S2-G02	1	Hoàn thiện bộ cào News và lưu nguồn gốc**
+
+🟢 **Kết quả cần có: Lấy đúng bài mẫu và nguồn gốc; có retry/log và lý do loại bài. Bộ cào chỉ hỗ trợ danh sách nguồn đã chốt.	Thái Quốc Hưng	Chưa bắt đầu	5		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng khung crawler chung, cấu hình các nguồn News được duyệt. Lấy danh sách/nội dung trong khoảng ngày, xử lý phân trang, lọc công ty và lưu URL/ngày/hash/version. Không làm crawler tổng quát cho mọi website hoặc vượt paywall.	Lấy đúng bài m...**
+
+🟢 **	Sprint 2	S2-WBS05	S2-G02	2	Chạy cào đủ danh sách và xử lý mục tải lỗi**
+
+🟢 **Kết quả cần có: Độ phủ khớp danh sách bắt buộc; mục thiếu hoặc lỗi còn chặn thì task chưa xong. Không lấy vài mẫu để thay cho toàn bộ phạm vi.	Nguyễn Minh Quân	Chưa bắt đầu	6		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy tự động trên danh sách được duyệt, theo dõi số cần lấy/đã lấy/lỗi và chạy lại mục lỗi. Giờ dự kiến là công sức theo dõi/xử lý, không tính thời gian máy chạy không cần người. Kiểm ranh giới ngày và phân trang.	Độ phủ k...**
+
+🟢 **	Sprint 2	S2-WBS06	S2-G03	1	Trích văn bản/bảng và xử lý scan khi cần**
+
+🟢 **Kết quả cần có: Mẫu hai ngành và BCTC/BCTN giữ đúng locator. Số OCR được đối chiếu; trường hợp chưa xử lý được không được xác nhận hợp lệ. Kiểm tiếp toàn bộ item khi chạy tuần 2.	Nguyễn Minh Quân	Chưa bắt đầu	6		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng parser/thư viện trích xuất hiện có, giữ trang/mục/bảng/dòng. Nhận biết file scan và gọi công cụ OCR sẵn có khi cần, kiểm số với ảnh gốc. Không tự xây OCR hoặc mô hình nhận dạng ...**
+
+🟢 **	Sprint 2	S2-WBS07	S2-G03	2	Chuẩn hóa dữ kiện và nội dung BCTC/BCTN**
+
+🟢 **Kết quả cần có: Dữ kiện đúng company/metric/period/unit/scope và truy về nguồn; mâu thuẫn hoặc chưa ánh xạ được phải cách ly. Không trộn quý riêng với lũy kế.	Thái Quốc Hưng	Chưa bắt đầu	7		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng danh mục chỉ tiêu đã chốt và hàm chuẩn hóa mẫu Sprint 1. Chuẩn kỳ/ngày/đơn vị/dấu âm/scope, lưu giá trị gốc và chuyển đổi; giữ nội dung BCTN cùng locator. Chỉ bổ sung ánh xạ còn thiếu, không xây bộ hiểu ...**
+
+🟢 **	Sprint 2	S2-WBS08	S2-G03	2	Chuẩn hóa News và loại bản trùng**
+
+🟢 **Kết quả cần có: News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề. Bài thiếu ngày/công ty rõ ràng được cách ly.	Nguyễn Minh Quân	Chưa bắt đầu	5		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Spri...**
+
+🟢 **	Sprint 2	S2-WBS09	S2-G04	1	Tạo migration PostgreSQL và thử lưu/đọc dữ liệu**
+
+🟢 **Kết quả cần có: Migration chạy trên DB mới, khóa ngoại đúng và lưu/đọc được ba loại nguồn với locator. Có hướng dẫn chạy, không lưu secrets trong source.	Thái Quốc Hưng	Chưa bắt đầu	7		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Triển khai ERD đã có cho source/document/version/facts/News/Evidence; tái dùng script nạp mẫu. Tạo khóa và ràng buộc, thử một luồng lưu/đọc từ dữ liệu chuẩn về bản gốc. Chưa làm embedding, graph hay API nghiệp vụ....**
+
+🟢 **	Sprint 2	S2-WBS10	S2-G04	2	Kiểm trường bắt buộc và cách ly bản ghi sai**
+
+🟢 **Kết quả cần có: Mẫu đúng được nhận, mẫu sai bị cách ly và không vào corpus hợp lệ. Bản sửa phải kiểm lại; thiếu bản gốc không được cho qua.	Thái Quốc Hưng	Chưa bắt đầu	3		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Gắn kiểm tra vào pipeline nạp: ID, ngày/kỳ, đơn vị, scope, nguồn, hash và locator. Dùng bảng/file quarantine đơn giản có reason code, chưa làm màn hình hay công cụ sửa dữ liệu thật. Sửa lỗi và chạy lại kiểm tra trong chính task...**
+
+🟢 **	Sprint 2	S2-WBS11	S2-G04	2	Nạp toàn bộ dữ liệu đạt và đối chiếu độ phủ**
+
+🟢 **Kết quả cần có: Dữ liệu được nạp đều qua validation. Có bảng độ phủ, mẫu đối chiếu và lỗi đã xử lý; nguồn bắt buộc còn thiếu thì không nghiệm thu data hoàn thành.	Thái Quốc Hưng	Chưa bắt đầu	5		Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy script nạp, đối chiếu số item với danh sách bắt buộc và audit nội dung/số theo mẫu kiểm đã duyệt. Kiểm liên kết về nguồn, tổng hợp thiếu/lỗi theo công ty và kỳ; review data và kiểm lại lỗi nằm trong ...**
+
+🟢 **	Sprint 2	S2-WBS12	S2-G09	2	Chốt manifest và bàn giao data cho Sprint 3**
+
+🟢 **Kết quả cần có: Người nhận đọc lại được corpus chuẩn hóa, bản gốc và manifest; các mục bắt buộc đủ và không còn lỗi chặn mới được chốt. Vector/graph chưa được coi đã xây.	Nguyễn Minh Quân	Chưa bắt đầu	4		Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Từ kết quả nạp, xuất danh sách item/hash/version/locator, schema và hướng dẫn đọc PostgreSQL. Ghi giới hạn, item bị cách ly và biên bản nghiệm thu. Cập nhật phần tài liệu bị ảnh hưởng, không làm...**
+
+🟢 **	Sprint 2	S2-WBS13	S2-G05	1	Thiết kế sơ đồ luồng người dùng và sitemap UI**
+
+🟢 **Cách làm: Huyền làm lead UI, đối chiếu use case MVP để vẽ sơ đồ màn hình theo vai trò và luồng đăng nhập, chọn công ty, hỏi, xem nguồn, history/watchlist. Chỉ vẽ luồng cần code Sprint 2, không thêm xuất PDF/Markdown.**
+
+🟢 **Kết quả cần có: Có file sơ đồ luồng/sitemap chỉnh sửa được, liệt kê đủ màn hình, quyền và đường quay lại; nhóm duyệt trước khi thiết kế wireframe.	Trần Diệu Huyền	Chưa bắt đầu	2		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền làm lead UI, đối chiếu use case MVP để vẽ sơ đồ màn hình theo vai trò và luồng đăng nhập, chọn công ty, hỏi, xem nguồn, history/watchlist. Chỉ vẽ luồng cần code Sprint 2, không thêm xuất PDF/Markdown.	Có file sơ đ...**
+
+🟢 **	Sprint 2	S2-WBS14	S2-G05	1	Thiết kế wireframe và khung các màn hình**
+
+🟢 **Cách làm: Nhân dùng sitemap đã duyệt để vẽ wireframe chỉnh sửa được và bàn giao theo hai mốc: mốc 1 (29/09) gồm chọn công ty, Dashboard, Copilot và mở citation; mốc 2 (30/09) gồm history/watchlist, Graph Viewer, trang vận hành/evaluator. Mỗi mốc thể hiện menu, form, bộ lọc, dữ liệu, CTA, màn hình hẹp và liên kết qua lại. Huyền review từng mốc; Vũ chỉ làm trên màn hình đã được duyệt. Nếu mốc trễ, báo blocker trong Daily Scrum và cập nhật lịch, không coi bản nháp là đã duyệt.**
+
+🟢 **Kết quả cần có: Mốc 1 và mốc 2 đều có link/file wireframe chỉnh sửa được và ý kiến duyệt của Huyền. Chỉ đánh dấu hoàn thành WBS18 khi đủ toàn bộ màn hình MVP và các lỗi điều hướng chặn đã sửa; bàn giao một mốc không đồng nghĩa hoàn thành cả task.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	5		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Nhân dùng sitemap đã duyệt để vẽ wireframe chỉnh sửa được và bàn giao theo hai mốc: mốc 1 (29/09) gồm chọn công ty, D...**
+
+🟢 **	Sprint 2	S2-WBS15	S2-G05	1	Thiết kế visual UI và trạng thái component chung**
+
+🟢 **Cách làm: Huyền chốt màu, chữ, khoảng cách, bảng, form, nút, citation marker và các trạng thái loading/empty/error/missing-data từ sitemap đã duyệt và bộ component sẵn có. Có thể làm quy tắc chung song song với wireframe của Nhân; áp dụng lên từng màn hình sau khi nhận wireframe. Bàn giao cho Vũ/Nhân dùng khi code; không xây design system riêng.**
+
+🟢 **Kết quả cần có: Có file thiết kế chỉnh sửa được gồm style, component mẫu và các trạng thái; nhóm xác nhận tính nhất quán với wireframe.	Trần Diệu Huyền	Chưa bắt đầu	4		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền chốt màu, chữ, khoảng cách, bảng, form, nút, citation marker và các trạng thái loading/empty/error/missing-data từ sitemap đã duyệt và bộ component sẵn có. Có thể làm quy tắc chung song song với wireframe của Nhân; áp dụng l...**
+
+🟢 **	Sprint 2	S2-WBS16	S2-G05	1	Dựng prototype bấm thử từ bản thiết kế đã duyệt**
+
+🟢 **Cách làm: Vũ dựng prototype từng màn hình ngay sau khi wireframe mốc tương ứng được Huyền duyệt và có visual áp dụng; làm trước luồng chọn công ty → Dashboard → Copilot → citation, rồi nối các màn hình còn lại khi mốc 2 sẵn sàng. Ghi rõ phần nào là prototype đã duyệt, phần nào đang chờ; không tự đoán bố cục chưa được duyệt.**
+
+🟢 **Kết quả cần có: Có link/file prototype bấm thử cho đầy đủ màn hình và trạng thái lỗi mẫu, khớp cả hai mốc wireframe/visual; Huyền review và Vũ sửa lỗi chặn. Prototype mốc 1 chỉ là bàn giao trung gian, chưa được tính hoàn thành WBS20.	Đinh Huỳnh Vũ	Chưa bắt đầu	7		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Vũ dựng prototype từng màn hình ngay sau khi wireframe mốc tương ứng được Huyền duyệt và có visual áp dụng; làm trước luồng chọn công ...**
+
+🟢 **	Sprint 2	S2-WBS17	S2-G06	1	Code project frontend và layout skeleton**
+
+🟢 **Cách làm: Vũ dựng project frontend, lệnh chạy/build, cấu hình môi trường và mock adapter từ repository Sprint 1 trước khi nhận đủ wireframe. Chỉ ghép menu/layout của từng màn hình sau khi wireframe và visual mốc đó được duyệt; giữ chỗ rõ ràng cho phần chưa duyệt, không coi khung tạm là giao diện hoàn chỉnh.**
+
+🟢 **Kết quả cần có: Source clone/cài/chạy/build được theo README; khung trang hoạt động, không có secrets; layout cuối khớp màn hình đã duyệt.	Đinh Huỳnh Vũ	Chưa bắt đầu	6		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Vũ dựng project frontend, lệnh chạy/build, cấu hình môi trường và mock adapter từ repository Sprint 1 trước khi nhận đủ wireframe. Chỉ ghép menu/layout của từng màn hình sau khi wireframe và visual mốc đó được duyệt; giữ chỗ rõ r...**
+
+🟢 **	Sprint 2	S2-WBS18	S2-G06	1	Code component chung và dữ liệu mock**
+
+🟢 **Cách làm: Nhân cấu hình bảng/form/nút/filter/modal và fixture đủ/rỗng/lỗi từ schema chung, quy tắc visual đã có. Có thể làm component và mock độc lập trong khi hoàn thiện wireframe; tích hợp theo từng màn hình được duyệt với skeleton của Vũ. Không để việc chờ đủ mọi màn hình chặn toàn bộ component.**
+
+🟢 **Kết quả cần có: Component tái sử dụng và mock tách riêng, có trạng thái đủ/rỗng/lỗi và hướng dẫn đổi API; tích hợp được với các màn hình đã duyệt.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	8		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Nhân cấu hình bảng/form/nút/filter/modal và fixture đủ/rỗng/lỗi từ schema chung, quy tắc visual đã có. Có thể làm component và mock độc lập trong khi hoàn thiện wireframe; tích hợp theo từng màn hình được duyệt với sk...**
+
+🟢 **	Sprint 2	S2-WBS19	S2-G06	1	Code routes và giao diện truy cập bằng phiên mẫu**
+
+🟢 **Cách làm: Huyền dùng router chung để nối màn hình, code form login/logout, phiên hết hạn và vai trò mẫu. Có thể chuẩn bị route map và phiên mẫu từ sitemap trong khi Nhân làm wireframe; chỉ ghép layout và smoke test điều hướng khi skeleton/component sẵn sàng. Không triển khai API auth/RBAC thật hoặc coi ẩn nút là bảo mật.**
+
+🟢 **Kết quả cần có: Routes và trạng thái truy cập hoạt động với mock, các phần cần API thật được liệt kê. Có smoke test điều hướng tuần 1.	Trần Diệu Huyền	Chưa bắt đầu	5		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền dùng router chung để nối màn hình, code form login/logout, phiên hết hạn và vai trò mẫu. Có thể chuẩn bị route map và phiên mẫu từ sitemap trong khi Nhân làm wireframe; chỉ ghép layout và smoke test điều hướng khi skeleton/co...**
+
+🟢 **	Sprint 2	S2-WBS20	S2-G06	1	Lead UI review theo mốc và bàn giao thiết kế/API**
+
+🟢 **Cách làm: Huyền review từng mốc wireframe của Nhân ngay khi bàn giao, ghi rõ màn hình đã duyệt/chờ sửa và bàn giao cho Vũ bắt đầu prototype phần tương ứng. Sau đó review prototype đầy đủ so với sitemap, wireframe, visual; chốt tên trường payload/trace\_id/citation\_id cho mock adapter. Không ký nghiệm thu cả task khi còn mốc hoặc lỗi chặn chưa xong.**
+
+🟢 **Kết quả cần có: Có checklist duyệt từng mốc wireframe, review prototype, danh sách lỗi chặn và bộ file thiết kế/API mock bàn giao; chỉ chốt khi đủ hai mốc.	Trần Diệu Huyền	Chưa bắt đầu	4		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền review từng mốc wireframe của Nhân ngay khi bàn giao, ghi rõ màn hình đã duyệt/chờ sửa và bàn giao cho Vũ bắt đầu prototype phần tương ứng. Sau đó review prototype đầy đủ so với sitemap, wireframe, visual...**
+
+🟢 **	Sprint 2	S2-WBS21	S2-G07	2	Code chọn công ty và Dashboard bằng mock**
+
+🟢 **Kết quả cần có: Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; không chỉ bàn giao ảnh thiết kế.	Đinh Huỳnh Vũ	Chưa bắt đầu	7		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Màn hình code chạy được...**
+
+🟢 **	Sprint 2	S2-WBS22	S2-G07	2	Code Copilot và so sánh bằng component chung**
+
+🟢 **Kết quả cần có: Các luồng đã chốt chạy với mock và nhãn rõ; filter/payload đúng, kết quả chờ/lỗi/thiếu không bị hiển thị như verified.	Trần Diệu Huyền	Chưa bắt đầu	6		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng form, chat/result và bảng chung để nhập câu hỏi, chọn công ty/kỳ, xem response/so sánh mẫu. Thêm partial/insufficient-data/refusal và retry; không làm streaming tùy biến, backend RAG hoặc tư vấn đầu tư.	Các luồng đã chốt chạy ...**
+
+🟢 **	Sprint 2	S2-WBS23	S2-G07	2	Code nguồn, history, watchlist và feedback bằng mock**
+
+🟢 **Kết quả cần có: Các luồng MVP chạy được với mock, không trùng watchlist và không mở URL client tùy ý. Không có xuất PDF/Markdown; thiếu API thật được ghi rõ.	Trần Diệu Huyền	Chưa bắt đầu	6		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng modal/detail/list/form để mở citation ID, xem locator/fact/provenance, xem/xóa history, pin/unpin và feedback. Chỉ mô phỏng lưu theo user, chưa xây backend lưu trữ; xác nhận thao tác xóa và thử lỗi b...**
+
+🟢 **	Sprint 2	S2-WBS24	S2-G07	2	Code Graph Viewer mẫu bằng thư viện sẵn có**
+
+🟢 **Kết quả cần có: Viewer thao tác được và mở đúng provenance mẫu; thử graph rỗng/lỗi, chặn hơn hai hop. Backend sẽ kiểm giới hạn khi nối thật.	Đinh Huỳnh Vũ	Chưa bắt đầu	7		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng component/thư viện graph đã chọn, nạp fixture node/edge, chọn root, mở rộng tối đa hai hop và xem nguồn edge. Không tự viết thuật toán layout, animation hoặc Neo4j API trong task này.	Viewer thao tác được và mở đúng proven...**
+
+🟢 **	Sprint 2	S2-WBS25	S2-G08	2	Code trang source, ingestion và quarantine theo template**
+
+🟢 **Kết quả cần có: Các màn hình operator trong checklist chạy với mock, có counts/reason/refresh-time và trạng thái lỗi; không lộ secrets.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	5		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng chung bảng/list/detail/form cho source, runs/counts/retries và quarantine. Đổi cấu hình/fixture theo trang thay vì viết một hệ thống quản trị riêng; thao tác quan trọng có xác nhận. Không gọi bộ cào thật từ mock UI.	Các màn...**
+
+🟢 **	Sprint 2	S2-WBS26	S2-G08	2	Code trang corpus, budget và traces theo template**
+
+🟢 **Kết quả cần có: Trang có đủ luồng MVP và trạng thái không đủ điều kiện/lỗi với mock, hợp đồng API thật được liệt kê.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng lại trang quản trị của task trước, thay schema/form/fixture cho manifest/promote/restore, ngưỡng/budget và trace. Kiểm giá trị và readiness mẫu, không làm backend quản lý cấu hình/audit hoặc telemetry thật.	Trang có đủ luồng MVP và trạng thái...**
+
+🟢 **	Sprint 2	S2-WBS27	S2-G08	2	Code trang test set và evaluation theo template**
+
+🟢 **Kết quả cần có: Màn hình evaluator trong checklist thao tác được, phân biệt partial/completed/thiếu trace và không hiển thị điểm giả như kết quả thật.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	5		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng bảng/form/detail chung để nhập/review/freeze ca mẫu, chọn B0–B3 và xem run/metrics fixture. Thêm calibration/final và quyền mẫu; chưa tạo 120 câu thật, chạy Ragas hoặc xây engine đánh giá.	Màn hình evaluator ...**
+
+🟢 **	Sprint 2	S2-WBS28	S2-G09	2	Lead UI review bản code và nghiệm thu bàn giao**
+
+🟢 **Cách làm: Huyền đối chiếu code của Vũ/Nhân với bản thiết kế và prototype, chạy smoke test màn hình/route/trạng thái bằng mock trên bản build sạch. Ghi lỗi chặn về đúng task để chủ task sửa, xác nhận lại sau sửa; không làm lại toàn bộ QA.**
+
+🟢 **Kết quả cần có: Có checklist đối chiếu thiết kế–code và biên bản review UI, bản build chạy được; màn hình lệch thiết kế hoặc lỗi chặn chưa sửa thì chưa ký bàn giao.	Trần Diệu Huyền	Chưa bắt đầu	2		Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền đối chiếu code của Vũ/Nhân với bản thiết kế và prototype, chạy smoke test màn hình/route/trạng thái bằng mock trên bản build sạch. Ghi lỗi chặn về đúng task để chủ task sửa, xác nhận lại sau sửa;...**
+
+🟢 **					Tổng giờ các task			141	0																			**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				0						0	0	0	0	0	0	0	0	0	0	0	0	0	0**
+
+🟢 **Tue Sep 01 2026 07:00:00 GMT+0700 (Indochina Time)	47	42	0.8936170212765957	162	SRS và nguồn. Bắt đầu xác nhận, tải và chuẩn hóa dữ liệu.								**
+
+🟢 **Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G01	2	Chốt phạm vi và nguồn BCTC, BCTN, News	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	5		Sprint 2 Backlog**
+
+🟢 **Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G05	2	Thiết kế UI, wireframe và prototype đã review	Thiết kế được bàn giao theo hai mốc có Huyền duyệt: mốc 1 chọn công ty, Dashboard, Copilot, citation; mốc 2 history/watchlist, Graph Viewer, trang vận hành/evaluator. Vũ chỉ bắt đầu prototype/code bố cục cho màn hình đã duyệt; toàn bộ thiết kế/prototype chỉ được nghiệm thu khi đủ hai mốc.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	...**
+
+🟢 **Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G06	2	Code skeleton và lớp dữ liệu mẫu	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	23		Sprint 2 Backlog**
+
+🟢 **S2-WBS02: Rà schema chung và mẫu dữ liệu bàn giao	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **S2-G02	2	Cào đủ nguồn và lưu bản gốc theo phiên bản	S2-WBS03: Hoàn thiện bộ tải BCTC/BCTN và lưu bản gốc**
+
+🟢 **S2-WBS04: Hoàn thiện bộ cào News và lưu nguồn gốc**
+
+🟢 **S2-WBS05: Chạy cào đủ danh sách và xử lý mục tải lỗi	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	3	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **S2-G03	2	Trích và chuẩn hóa báo cáo, News	S2-WBS06: Trích văn bản/bảng và xử lý scan khi cần**
+
+🟢 **S2-WBS07: Chuẩn hóa dữ kiện và nội dung BCTC/BCTN**
+
+🟢 **S2-WBS08: Chuẩn hóa News và loại bản trùng	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	3	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **S2-G04	2	Kiểm tra, lưu và chốt corpus chuẩn hóa	S2-WBS09: Tạo migration PostgreSQL và thử lưu/đọc dữ liệu**
+
+🟢 **S2-WBS10: Kiểm trường bắt buộc và cách ly bản ghi sai**
+
+🟢 **S2-WBS11: Nạp toàn bộ dữ liệu đạt và đối chiếu độ phủ	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	3	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **S2-G05	2	Thiết kế UI, wireframe và prototype đã review	S2-WBS13: Thiết kế sơ đồ luồng người dùng và sitemap UI**
+
+🟢 **S2-WBS14: Thiết kế wireframe và khung các màn hình**
+
+🟢 **S2-WBS15: Thiết kế visual UI và trạng thái component chung**
+
+🟢 **S2-WBS16: Dựng prototype bấm thử từ bản thiết kế đã duyệt	Thiết kế được bàn giao theo hai mốc có Huyền duyệt: mốc 1 chọn công ty, Dashboard, Copilot, citation; mốc 2 history/watchlist, Graph Viewer, trang vận hành/evaluator. Vũ chỉ bắt đầu prototype/code bố cục cho màn hình đã duyệt; toàn bộ thiết kế/prototype chỉ được nghiệm thu khi đủ hai mốc.	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **S2-G06	2	Code skeleton và lớp dữ liệu mẫu	S2-WBS17: Code project frontend và layout skeleton**
+
+🟢 **S2-WBS18: Code component chung và dữ liệu mock**
+
+🟢 **S2-WBS19: Code routes và giao diện truy cập bằng phiên mẫu**
+
+🟢 **S2-WBS20: Chốt API adapter và trạng thái UI dùng chung	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **S2-G07	2	Code màn hình nghiên cứu bằng dữ liệu mẫu	S2-WBS21: Code chọn công ty và Dashboard bằng mock**
+
+🟢 **S2-WBS22: Code Copilot và so sánh bằng component chung**
+
+🟢 **S2-WBS23: Code nguồn, history, watchlist và feedback bằng mock**
+
+🟢 **S2-WBS24: Code Graph Viewer mẫu bằng thư viện sẵn có	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **S2-G08	2	Code màn hình quản trị và evaluator bằng mock	S2-WBS25: Code trang source, ingestion và quarantine theo template**
+
+🟢 **S2-WBS26: Code trang corpus, budget và traces theo template**
+
+🟢 **S2-WBS27: Code trang test set và evaluation theo template	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	3	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **S2-G09	2	Nghiệm thu dữ liệu và frontend, bàn giao	S2-WBS12: Chốt manifest và bàn giao data cho Sprint 3**
+
+🟢 **S2-WBS28: Kiểm build, review UI và bàn giao source	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	Khoảng 22 giờ cho tích hợp, review và sửa lỗi.**
+
+~~								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	142	3	28 task; 142h dự kiến.~~
+
+~~12–15h/người/tuần.~~
+
+~~	Sprint 2 đã gọn còn 28 task, 142h dự kiến; mỗi người 12–15h/tuần. Đã gộp việc trùng và đồng bộ hướng dẫn/đầu ra. Không giảm tiêu chí đủ nguồn hoặc chất lượng dữ liệu.																	~~
+
+~~	Sprint 1 giữ đủ 42 task. Bộ lọc người phụ trách hiện có được giữ; Data → Clear để xem toàn bộ. Sprint 3–5 còn kế hoạch cũ, chưa phân lại theo giới hạn 15h/tuần.																	~~
+
+~~	S2-WBS01	Chốt phạm vi và danh sách nguồn BCTC, BCTN, News	Chốt phạm vi và nguồn BCTC, BCTN, News	Gộp việc lập URL và kiểm quyền nguồn vào một bảng. Rà kết quả Sprint 1 cho 10 công ty; bổ sung URL thực, loại tài liệu, kỳ và khoảng ngày News. Ghi nguồn được phép dùng và các mục còn thiếu. Không nghiên cứu lại toàn bộ phạm vi đã chốt.	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Một danh sách được nhóm duyệt, phân biệt đủ/thiếu và có URL ki...~~
+
+~~	S2-WBS04	Rà schema chung và mẫu dữ liệu bàn giao	Chốt phạm vi và nguồn BCTC, BCTN, News	Dùng ERD Sprint 1 để chốt company\_id, loại nguồn, URL, ngày công bố/lấy, hash, phiên bản, kỳ, đơn vị và vị trí nguồn. Thống nhất mẫu facts và News với UI; không vẽ lại ERD từ đầu.	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệu. UI và người làm DB dùng cùng tên trường.	Ước lượng lại khi tái...~~
+
+~~	S2-WBS05	Hoàn thiện bộ tải BCTC/BCTN và lưu bản gốc	Cào đủ nguồn và lưu bản gốc theo phiên bản	Tái dùng bộ tải mẫu Sprint 1. Bổ sung tải theo danh sách, timeout/retry, nhận file lỗi; lưu file gốc, URL, thời điểm lấy và SHA-256 ngay trong bộ tải. File giống nhau không tạo bản trùng, file đổi nội dung giữ phiên bản.	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Tải thử được BCTC và BCTN, mở lại được bản gốc và metadata; có log lỗi. Đã gồm phần ...~~
+
+~~	S2-WBS06	Hoàn thiện bộ cào News và lưu nguồn gốc	Cào đủ nguồn và lưu bản gốc theo phiên bản	Tái dùng khung crawler chung, cấu hình các nguồn News được duyệt. Lấy danh sách/nội dung trong khoảng ngày, xử lý phân trang, lọc công ty và lưu URL/ngày/hash/version. Không làm crawler tổng quát cho mọi website hoặc vượt paywall.	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Lấy đúng bài mẫu và nguồn gốc; có retry/log và lý do loại bài. Bộ cào chỉ hỗ ...~~
+
+~~	S2-WBS08	Chạy cào đủ danh sách và xử lý mục tải lỗi	Cào đủ nguồn và lưu bản gốc theo phiên bản	Chạy tự động trên danh sách được duyệt, theo dõi số cần lấy/đã lấy/lỗi và chạy lại mục lỗi. Giờ dự kiến là công sức theo dõi/xử lý, không tính thời gian máy chạy không cần người. Kiểm ranh giới ngày và phân trang.	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Độ phủ khớp danh sách bắt buộc; mục thiếu hoặc lỗi còn chặn thì task chưa xong. Không lấy v...~~
+
+~~	S2-WBS09	Trích văn bản/bảng và xử lý scan khi cần	Trích và chuẩn hóa báo cáo, News	Tái dùng parser/thư viện trích xuất hiện có, giữ trang/mục/bảng/dòng. Nhận biết file scan và gọi công cụ OCR sẵn có khi cần, kiểm số với ảnh gốc. Không tự xây OCR hoặc mô hình nhận dạng bảng mới; file chưa đọc tin cậy đưa vào danh sách lỗi.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Mẫu hai ngành và BCTC/BCTN giữ đúng locator. Số OCR được đố...~~
+
+~~	S2-WBS11	Chuẩn hóa dữ kiện và nội dung BCTC/BCTN	Trích và chuẩn hóa báo cáo, News	Dùng danh mục chỉ tiêu đã chốt và hàm chuẩn hóa mẫu Sprint 1. Chuẩn kỳ/ngày/đơn vị/dấu âm/scope, lưu giá trị gốc và chuyển đổi; giữ nội dung BCTN cùng locator. Chỉ bổ sung ánh xạ còn thiếu, không xây bộ hiểu mọi biểu mẫu.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Dữ kiện đúng company/metric/period/unit/scope và truy về nguồn; mâu thuẫn hoặc ...~~
+
+~~	S2-WBS12	Chuẩn hóa News và loại bản trùng	Trích và chuẩn hóa báo cáo, News	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Sprint 2.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề...~~
+
+~~	S2-WBS13	Tạo migration PostgreSQL và thử lưu/đọc dữ liệu	Kiểm tra, lưu và chốt corpus chuẩn hóa	Triển khai ERD đã có cho source/document/version/facts/News/Evidence; tái dùng script nạp mẫu. Tạo khóa và ràng buộc, thử một luồng lưu/đọc từ dữ liệu chuẩn về bản gốc. Chưa làm embedding, graph hay API nghiệp vụ.	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Migration chạy trên DB mới, khóa ngoại đúng và lưu/đọc được ba...~~
+
+~~	S2-WBS14	Kiểm trường bắt buộc và cách ly bản ghi sai	Kiểm tra, lưu và chốt corpus chuẩn hóa	Gắn kiểm tra vào pipeline nạp: ID, ngày/kỳ, đơn vị, scope, nguồn, hash và locator. Dùng bảng/file quarantine đơn giản có reason code, chưa làm màn hình hay công cụ sửa dữ liệu thật. Sửa lỗi và chạy lại kiểm tra trong chính task liên quan.	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Mẫu đúng được nhận, mẫu sai bị cách ly và...~~
+
+~~	S2-WBS15	Nạp toàn bộ dữ liệu đạt và đối chiếu độ phủ	Kiểm tra, lưu và chốt corpus chuẩn hóa	Chạy script nạp, đối chiếu số item với danh sách bắt buộc và audit nội dung/số theo mẫu kiểm đã duyệt. Kiểm liên kết về nguồn, tổng hợp thiếu/lỗi theo công ty và kỳ; review data và kiểm lại lỗi nằm trong task này.	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Dữ liệu được nạp đều qua validation. Có bảng độ phủ, mẫu đối chiếu...~~
+
+~~	S2-WBS16	Chốt manifest và bàn giao data cho Sprint 3	Nghiệm thu dữ liệu và frontend, bàn giao	Từ kết quả nạp, xuất danh sách item/hash/version/locator, schema và hướng dẫn đọc PostgreSQL. Ghi giới hạn, item bị cách ly và biên bản nghiệm thu. Cập nhật phần tài liệu bị ảnh hưởng, không làm lại bộ SRS/Proposal hoặc tổ chức thêm một task bàn giao chung.	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	Người nhận đọc lại đư...~~
+
+~~	S2-WBS17	Rà danh sách màn hình và các luồng MVP	Hoàn tất thiết kế UI và prototype	Dùng use case đã chốt để lập checklist màn hình theo vai trò và đường đi chính. Tận dụng sơ đồ Sprint 1, chỉ rà thiếu/sai; không nghiên cứu lại người dùng hoặc đưa xuất PDF/Markdown vào UI.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Checklist đủ màn hình MVP và đường đi, có vai trò/điểm quay lại; đầu ra dùng để kiểm code sau.	Ước lượng lại khi tái dùng phần Sprint 1 v...~~
+
+~~	S2-WBS18	Thiết kế skeleton bằng bố cục dùng chung	Hoàn tất thiết kế UI và prototype	Dùng một layout/menu/header và mẫu bảng/form nhất quán; thiết kế khung các màn hình từ checklist. Dùng thư viện component đang chọn của dự án, không vẽ riêng mọi nút hay nhiều phương án mỹ thuật.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Khung màn hình đủ vùng dữ liệu/nguồn/bộ lọc và điều hướng không ngõ cụt; được duyệt để code.	Ước lượng lại khi tái dùng phần Spri...~~
+
+~~	S2-WBS19	Chốt style và trạng thái của component chung	Hoàn tất thiết kế UI và prototype	Chốt màu/font/khoảng cách và cấu hình component có sẵn; thiết kế loading/empty/error/missing-data và kích thước đã duyệt. Dùng một hệ thống style chung, không xây design system riêng hoặc animation nâng cao.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Style/component thống nhất trên màn hình MVP, đủ trạng thái chính. Không để thiết kế lại UI sang Sprint 5.	Ước lư...~~
+
+~~	S2-WBS20	Nối và review prototype bấm thử	Hoàn tất thiết kế UI và prototype	Nối khung màn hình bằng luồng chính và trạng thái lỗi mẫu theo vai trò. Cho nhóm bấm thử, ghi/sửa lỗi điều hướng ngay; thời gian đã gồm review thiết kế tuần 1. Không dựng thêm prototype thứ hai trùng cùng luồng.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Prototype bấm được các luồng MVP, có kết quả review và thiết kế được duyệt; phân biệt với frontend source bàn giao.	Ước lư...~~
+
+~~	S2-WBS21	Code project frontend và layout skeleton	Code skeleton và lớp dữ liệu mẫu	Dùng repository Sprint 1 và cấu hình/thư viện UI sẵn có. Code layout/menu/header, lệnh chạy/build và môi trường mẫu. Dùng lại bố cục thiết kế, không tạo project/repository mới hoặc backend ở task này.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Source clone/cài/chạy/build được theo README; khung trang hoạt động và không có secrets.	Ước lượng lại khi tái d...~~
+
+~~	S2-WBS22	Code component chung và dữ liệu mock	Code skeleton và lớp dữ liệu mẫu	Cấu hình bảng/form/nút/filter/modal từ thư viện hiện có; làm bộ fixture đủ/rỗng/lỗi với nhãn mock. Tách data adapter khỏi view để thay API sau; không tự viết lại thư viện UI hay tạo dữ liệu giả như bằng chứng thật.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Component tái sử dụng được cho mọi màn hình, mock tách riêng; có ví dụ trạng thái và hướng dẫn đổi API...~~
+
+~~	S2-WBS23	Code routes và giao diện truy cập bằng phiên mẫu	Code skeleton và lớp dữ liệu mẫu	Dùng router chung để nối màn hình, code form login/logout, phiên hết hạn và vai trò mẫu. Kiểm menu/đường quay lại; không triển khai API auth/RBAC thật hoặc coi ẩn nút là bảo mật.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Routes và trạng thái truy cập hoạt động với mock, các phần cần API thật được liệt kê. Có smoke test điều hướng tuần 1.	Ước lượ...~~
+
+~~	S2-WBS24	Chốt API adapter và trạng thái UI dùng chung	Code skeleton và lớp dữ liệu mẫu	Dùng mock adapter chung, thống nhất tên trường payload/trace\_id/citation\_id với data team. Dùng loading/empty/error/retry đã có ở component, không code riêng từng màn hình hoặc triển khai backend.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Hợp đồng payload và điểm thay mock rõ; trạng thái được tái sử dụng, response mẫu có nhãn và không giả verified.	...~~
+
+~~	S2-WBS25	Code chọn công ty và Dashboard bằng mock	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; khô...~~
+
+~~	S2-WBS26	Code Copilot và so sánh bằng component chung	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng form, chat/result và bảng chung để nhập câu hỏi, chọn công ty/kỳ, xem response/so sánh mẫu. Thêm partial/insufficient-data/refusal và retry; không làm streaming tùy biến, backend RAG hoặc tư vấn đầu tư.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Các luồng đã chốt chạy với mock và nhãn rõ; filter/payload đúng, kết quả chờ/lỗi/thiếu ...~~
+
+~~	S2-WBS27	Code nguồn, history, watchlist và feedback bằng mock	Code màn hình nghiên cứu bằng dữ liệu mẫu	Tái dùng modal/detail/list/form để mở citation ID, xem locator/fact/provenance, xem/xóa history, pin/unpin và feedback. Chỉ mô phỏng lưu theo user, chưa xây backend lưu trữ; xác nhận thao tác xóa và thử lỗi bằng fixture.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Các luồng MVP chạy được với mock, không trùng watchlist và không m...~~
+
+~~	S2-WBS28	Code Graph Viewer mẫu bằng thư viện sẵn có	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng component/thư viện graph đã chọn, nạp fixture node/edge, chọn root, mở rộng tối đa hai hop và xem nguồn edge. Không tự viết thuật toán layout, animation hoặc Neo4j API trong task này.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Viewer thao tác được và mở đúng provenance mẫu; thử graph rỗng/lỗi, chặn hơn hai hop. Backend sẽ kiểm giới h...~~
+
+~~	S2-WBS29	Code trang source, ingestion và quarantine theo template	Code màn hình quản trị và evaluator bằng mock	Dùng chung bảng/list/detail/form cho source, runs/counts/retries và quarantine. Đổi cấu hình/fixture theo trang thay vì viết một hệ thống quản trị riêng; thao tác quan trọng có xác nhận. Không gọi bộ cào thật từ mock UI.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Các màn hình operator trong checklist chạy với...~~
+
+~~	S2-WBS30	Code trang corpus, budget và traces theo template	Code màn hình quản trị và evaluator bằng mock	Dùng lại trang quản trị của task trước, thay schema/form/fixture cho manifest/promote/restore, ngưỡng/budget và trace. Kiểm giá trị và readiness mẫu, không làm backend quản lý cấu hình/audit hoặc telemetry thật.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Trang có đủ luồng MVP và trạng thái không đủ điều kiện/lỗi với...~~
+
+~~	S2-WBS31	Code trang test set và evaluation theo template	Code màn hình quản trị và evaluator bằng mock	Dùng bảng/form/detail chung để nhập/review/freeze ca mẫu, chọn B0–B3 và xem run/metrics fixture. Thêm calibration/final và quyền mẫu; chưa tạo 120 câu thật, chạy Ragas hoặc xây engine đánh giá.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Màn hình evaluator trong checklist thao tác được, phân biệt partial/completed/thiế...~~
+
+~~	S2-WBS32	Kiểm build, review UI và bàn giao source	Nghiệm thu dữ liệu và frontend, bàn giao	Chạy checklist route/màn hình/role/state, build môi trường sạch và demo luồng chính. Mỗi chủ task đã tự test và sửa lỗi trong giờ task; task này tổng hợp smoke test cuối, README và API còn thiếu, không làm lại toàn bộ QA.	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	Frontend code/prototype và README bàn giao được; không còn m...~~
+
+~~Data: Thái Quốc Hưng. Tuần 1 12h; tuần 2 15h. Trong giới hạn~~
+
+~~UI: Đinh Huỳnh Vũ. Tuần 1 14h; tuần 2 14h. Trong giới hạn~~
+
+~~UI: Hồ Phạm Đăng Nhân. Tuần 1 14h; tuần 2 14h. Trong giới hạn~~
+
+~~UI: Trần Diệu Huyền. Tuần 1 14h; tuần 2 14h. Trong giới hạn~~
+
+~~	Số task	28	Giờ dự kiến	142	Tổng giờ thực tế đã ghi	3																						~~
+
+~~Kết quả cần có: Một danh sách được nhóm duyệt, phân biệt đủ/thiếu và có URL kiểm tra được. Chưa có danh sách hoặc nguồn thì chưa được coi xong.	Nguyễn Minh Quân	Đang test	3	3	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Gộp việc lập URL và kiểm quyền nguồn vào một bảng. Rà kết quả Sprint 1 cho 10 công ty; bổ sung URL thực, loại tài liệu, kỳ và khoảng ngày News. Ghi nguồn được phép dùng và các mục còn thiếu. Không nghiên cứu lại toàn bộ phạ...~~
+
+~~	Sprint 2	S2-WBS04	S2-G01	1	Rà schema chung và mẫu dữ liệu bàn giao~~
+
+~~Kết quả cần có: Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệu. UI và người làm DB dùng cùng tên trường.	 	Chưa bắt đầu	2		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng ERD Sprint 1 để chốt company\_id, loại nguồn, URL, ngày công bố/lấy, hash, phiên bản, kỳ, đơn vị và vị trí nguồn. Thống nhất mẫu facts và News với UI; không vẽ lại ERD từ đầu.	Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệu. UI và người...~~
+
+~~	Sprint 2	S2-WBS05	S2-G02	1	Hoàn thiện bộ tải BCTC/BCTN và lưu bản gốc~~
+
+~~Kết quả cần có: Tải thử được BCTC và BCTN, mở lại được bản gốc và metadata; có log lỗi. Đã gồm phần lưu hash/version, không tách thêm task.	Nguyễn Minh Quân	Chưa bắt đầu	5		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng bộ tải mẫu Sprint 1. Bổ sung tải theo danh sách, timeout/retry, nhận file lỗi; lưu file gốc, URL, thời điểm lấy và SHA-256 ngay trong bộ tải. File giống nhau không tạo bản trùng, file đổi nội dung giữ phiên bản.	Tải ...~~
+
+~~	Sprint 2	S2-WBS06	S2-G02	1	Hoàn thiện bộ cào News và lưu nguồn gốc~~
+
+~~Kết quả cần có: Lấy đúng bài mẫu và nguồn gốc; có retry/log và lý do loại bài. Bộ cào chỉ hỗ trợ danh sách nguồn đã chốt.	Thái Quốc Hưng	Chưa bắt đầu	5		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng khung crawler chung, cấu hình các nguồn News được duyệt. Lấy danh sách/nội dung trong khoảng ngày, xử lý phân trang, lọc công ty và lưu URL/ngày/hash/version. Không làm crawler tổng quát cho mọi website hoặc vượt paywall.	Lấy đúng bài m...~~
+
+~~	Sprint 2	S2-WBS08	S2-G02	2	Chạy cào đủ danh sách và xử lý mục tải lỗi~~
+
+~~Kết quả cần có: Độ phủ khớp danh sách bắt buộc; mục thiếu hoặc lỗi còn chặn thì task chưa xong. Không lấy vài mẫu để thay cho toàn bộ phạm vi.	Nguyễn Minh Quân	Chưa bắt đầu	6		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy tự động trên danh sách được duyệt, theo dõi số cần lấy/đã lấy/lỗi và chạy lại mục lỗi. Giờ dự kiến là công sức theo dõi/xử lý, không tính thời gian máy chạy không cần người. Kiểm ranh giới ngày và phân trang.	Độ phủ k...~~
+
+~~	Sprint 2	S2-WBS09	S2-G03	1	Trích văn bản/bảng và xử lý scan khi cần~~
+
+~~Kết quả cần có: Mẫu hai ngành và BCTC/BCTN giữ đúng locator. Số OCR được đối chiếu; trường hợp chưa xử lý được không được xác nhận hợp lệ. Kiểm tiếp toàn bộ item khi chạy tuần 2.	Nguyễn Minh Quân	Chưa bắt đầu	6		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng parser/thư viện trích xuất hiện có, giữ trang/mục/bảng/dòng. Nhận biết file scan và gọi công cụ OCR sẵn có khi cần, kiểm số với ảnh gốc. Không tự xây OCR hoặc mô hình nhận dạng ...~~
+
+~~	Sprint 2	S2-WBS11	S2-G03	2	Chuẩn hóa dữ kiện và nội dung BCTC/BCTN~~
+
+~~Kết quả cần có: Dữ kiện đúng company/metric/period/unit/scope và truy về nguồn; mâu thuẫn hoặc chưa ánh xạ được phải cách ly. Không trộn quý riêng với lũy kế.	Thái Quốc Hưng	Chưa bắt đầu	7		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng danh mục chỉ tiêu đã chốt và hàm chuẩn hóa mẫu Sprint 1. Chuẩn kỳ/ngày/đơn vị/dấu âm/scope, lưu giá trị gốc và chuyển đổi; giữ nội dung BCTN cùng locator. Chỉ bổ sung ánh xạ còn thiếu, không xây bộ hiểu ...~~
+
+~~	Sprint 2	S2-WBS12	S2-G03	2	Chuẩn hóa News và loại bản trùng~~
+
+~~Kết quả cần có: News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề. Bài thiếu ngày/công ty rõ ràng được cách ly.	Nguyễn Minh Quân	Chưa bắt đầu	5		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Spri...~~
+
+~~	Sprint 2	S2-WBS13	S2-G04	1	Tạo migration PostgreSQL và thử lưu/đọc dữ liệu~~
+
+~~Kết quả cần có: Migration chạy trên DB mới, khóa ngoại đúng và lưu/đọc được ba loại nguồn với locator. Có hướng dẫn chạy, không lưu secrets trong source.	Thái Quốc Hưng	Chưa bắt đầu	7		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Triển khai ERD đã có cho source/document/version/facts/News/Evidence; tái dùng script nạp mẫu. Tạo khóa và ràng buộc, thử một luồng lưu/đọc từ dữ liệu chuẩn về bản gốc. Chưa làm embedding, graph hay API nghiệp vụ....~~
+
+~~	Sprint 2	S2-WBS14	S2-G04	2	Kiểm trường bắt buộc và cách ly bản ghi sai~~
+
+~~Kết quả cần có: Mẫu đúng được nhận, mẫu sai bị cách ly và không vào corpus hợp lệ. Bản sửa phải kiểm lại; thiếu bản gốc không được cho qua.	Thái Quốc Hưng	Chưa bắt đầu	3		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Gắn kiểm tra vào pipeline nạp: ID, ngày/kỳ, đơn vị, scope, nguồn, hash và locator. Dùng bảng/file quarantine đơn giản có reason code, chưa làm màn hình hay công cụ sửa dữ liệu thật. Sửa lỗi và chạy lại kiểm tra trong chính task...~~
+
+~~	Sprint 2	S2-WBS15	S2-G04	2	Nạp toàn bộ dữ liệu đạt và đối chiếu độ phủ~~
+
+~~Kết quả cần có: Dữ liệu được nạp đều qua validation. Có bảng độ phủ, mẫu đối chiếu và lỗi đã xử lý; nguồn bắt buộc còn thiếu thì không nghiệm thu data hoàn thành.	Thái Quốc Hưng	Chưa bắt đầu	5		Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy script nạp, đối chiếu số item với danh sách bắt buộc và audit nội dung/số theo mẫu kiểm đã duyệt. Kiểm liên kết về nguồn, tổng hợp thiếu/lỗi theo công ty và kỳ; review data và kiểm lại lỗi nằm trong ...~~
+
+~~	Sprint 2	S2-WBS16	S2-G09	2	Chốt manifest và bàn giao data cho Sprint 3~~
+
+~~Kết quả cần có: Người nhận đọc lại được corpus chuẩn hóa, bản gốc và manifest; các mục bắt buộc đủ và không còn lỗi chặn mới được chốt. Vector/graph chưa được coi đã xây.	Nguyễn Minh Quân	Chưa bắt đầu	4		Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Từ kết quả nạp, xuất danh sách item/hash/version/locator, schema và hướng dẫn đọc PostgreSQL. Ghi giới hạn, item bị cách ly và biên bản nghiệm thu. Cập nhật phần tài liệu bị ảnh hưởng, không làm...~~
+
+~~	Sprint 2	S2-WBS17	S2-G05	1	Rà danh sách màn hình và các luồng MVP~~
+
+~~Cách làm: Dùng use case đã chốt để lập checklist màn hình theo vai trò và đường đi chính. Tận dụng sơ đồ Sprint 1, chỉ rà thiếu/sai; không nghiên cứu lại người dùng hoặc đưa xuất PDF/Markdown vào UI.~~
+
+~~Kết quả cần có: Checklist đủ màn hình MVP và đường đi, có vai trò/điểm quay lại; đầu ra dùng để kiểm code sau.	Trần Diệu Huyền	Chưa bắt đầu	2		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng use case đã chốt để lập checklist màn hình theo vai trò và đường đi chính. Tận dụng sơ đồ Sprint 1, chỉ rà thiếu/sai; không nghiên cứu lại người dùng hoặc đưa xuất PDF/Markdown vào UI.	Checklist đủ màn hình MVP và đường đi, có vai trò/điểm quay lại; ...~~
+
+~~	Sprint 2	S2-WBS18	S2-G05	1	Thiết kế skeleton bằng bố cục dùng chung~~
+
+~~Cách làm: Dùng một layout/menu/header và mẫu bảng/form nhất quán; thiết kế khung các màn hình từ checklist. Dùng thư viện component đang chọn của dự án, không vẽ riêng mọi nút hay nhiều phương án mỹ thuật.~~
+
+~~Kết quả cần có: Khung màn hình đủ vùng dữ liệu/nguồn/bộ lọc và điều hướng không ngõ cụt; được duyệt để code.	Đinh Huỳnh Vũ	Chưa bắt đầu	5		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng một layout/menu/header và mẫu bảng/form nhất quán; thiết kế khung các màn hình từ checklist. Dùng thư viện component đang chọn của dự án, không vẽ riêng mọi nút hay nhiều phương án mỹ thuật.	Khung màn hình đủ vùng dữ liệu/nguồn/bộ lọc và điều hướng không...~~
+
+~~	Sprint 2	S2-WBS19	S2-G05	1	Chốt style và trạng thái của component chung~~
+
+~~Cách làm: Chốt màu/font/khoảng cách và cấu hình component có sẵn; thiết kế loading/empty/error/missing-data và kích thước đã duyệt. Dùng một hệ thống style chung, không xây design system riêng hoặc animation nâng cao.~~
+
+~~Kết quả cần có: Style/component thống nhất trên màn hình MVP, đủ trạng thái chính. Không để thiết kế lại UI sang Sprint 5.	Trần Diệu Huyền	Chưa bắt đầu	5		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Chốt màu/font/khoảng cách và cấu hình component có sẵn; thiết kế loading/empty/error/missing-data và kích thước đã duyệt. Dùng một hệ thống style chung, không xây design system riêng hoặc animation nâng cao.	Style/component thống nhất trên màn...~~
+
+~~	Sprint 2	S2-WBS20	S2-G05	1	Nối và review prototype bấm thử~~
+
+~~Cách làm: Nối khung màn hình bằng luồng chính và trạng thái lỗi mẫu theo vai trò. Cho nhóm bấm thử, ghi/sửa lỗi điều hướng ngay; thời gian đã gồm review thiết kế tuần 1. Không dựng thêm prototype thứ hai trùng cùng luồng.~~
+
+~~Kết quả cần có: Prototype bấm được các luồng MVP, có kết quả review và thiết kế được duyệt; phân biệt với frontend source bàn giao.	Trần Diệu Huyền	Chưa bắt đầu	7		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Nối khung màn hình bằng luồng chính và trạng thái lỗi mẫu theo vai trò. Cho nhóm bấm thử, ghi/sửa lỗi điều hướng ngay; thời gian đã gồm review thiết kế tuần 1. Không dựng thêm prototype thứ hai trùng cùng luồng.	Prototype bấm được các...~~
+
+~~	Sprint 2	S2-WBS21	S2-G06	1	Code project frontend và layout skeleton~~
+
+~~Cách làm: Dùng repository Sprint 1 và cấu hình/thư viện UI sẵn có. Code layout/menu/header, lệnh chạy/build và môi trường mẫu. Dùng lại bố cục thiết kế, không tạo project/repository mới hoặc backend ở task này.~~
+
+~~Kết quả cần có: Source clone/cài/chạy/build được theo README; khung trang hoạt động và không có secrets.	Đinh Huỳnh Vũ	Chưa bắt đầu	6		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng repository Sprint 1 và cấu hình/thư viện UI sẵn có. Code layout/menu/header, lệnh chạy/build và môi trường mẫu. Dùng lại bố cục thiết kế, không tạo project/repository mới hoặc backend ở task này.	Source clone/cài/chạy/build được theo README; khung trang hoạt...~~
+
+~~	Sprint 2	S2-WBS22	S2-G06	1	Code component chung và dữ liệu mock~~
+
+~~Cách làm: Cấu hình bảng/form/nút/filter/modal từ thư viện hiện có; làm bộ fixture đủ/rỗng/lỗi với nhãn mock. Tách data adapter khỏi view để thay API sau; không tự viết lại thư viện UI hay tạo dữ liệu giả như bằng chứng thật.~~
+
+~~Kết quả cần có: Component tái sử dụng được cho mọi màn hình, mock tách riêng; có ví dụ trạng thái và hướng dẫn đổi API.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	8		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Cấu hình bảng/form/nút/filter/modal từ thư viện hiện có; làm bộ fixture đủ/rỗng/lỗi với nhãn mock. Tách data adapter khỏi view để thay API sau; không tự viết lại thư viện UI hay tạo dữ liệu giả như bằng chứng thật.	Component tái sử dụng được ch...~~
+
+~~	Sprint 2	S2-WBS23	S2-G06	1	Code routes và giao diện truy cập bằng phiên mẫu~~
+
+~~Cách làm: Dùng router chung để nối màn hình, code form login/logout, phiên hết hạn và vai trò mẫu. Kiểm menu/đường quay lại; không triển khai API auth/RBAC thật hoặc coi ẩn nút là bảo mật.~~
+
+~~Kết quả cần có: Routes và trạng thái truy cập hoạt động với mock, các phần cần API thật được liệt kê. Có smoke test điều hướng tuần 1.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	6		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng router chung để nối màn hình, code form login/logout, phiên hết hạn và vai trò mẫu. Kiểm menu/đường quay lại; không triển khai API auth/RBAC thật hoặc coi ẩn nút là bảo mật.	Routes và trạng thái truy cập hoạt động với mock, ...~~
+
+~~	Sprint 2	S2-WBS24	S2-G06	1	Chốt API adapter và trạng thái UI dùng chung~~
+
+~~Cách làm: Dùng mock adapter chung, thống nhất tên trường payload/trace\_id/citation\_id với data team. Dùng loading/empty/error/retry đã có ở component, không code riêng từng màn hình hoặc triển khai backend.~~
+
+~~Kết quả cần có: Hợp đồng payload và điểm thay mock rõ; trạng thái được tái sử dụng, response mẫu có nhãn và không giả verified.	Đinh Huỳnh Vũ	Chưa bắt đầu	3		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng mock adapter chung, thống nhất tên trường payload/trace\_id/citation\_id với data team. Dùng loading/empty/error/retry đã có ở component, không code riêng từng màn hình hoặc triển khai backend.	Hợp đồng payload và điểm thay mock rõ; trạn...~~
+
+~~	Sprint 2	S2-WBS25	S2-G07	2	Code chọn công ty và Dashboard bằng mock~~
+
+~~Kết quả cần có: Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; không chỉ bàn giao ảnh thiết kế.	Đinh Huỳnh Vũ	Chưa bắt đầu	7		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Màn hình code chạy được...~~
+
+~~	Sprint 2	S2-WBS26	S2-G07	2	Code Copilot và so sánh bằng component chung~~
+
+~~Kết quả cần có: Các luồng đã chốt chạy với mock và nhãn rõ; filter/payload đúng, kết quả chờ/lỗi/thiếu không bị hiển thị như verified.	Trần Diệu Huyền	Chưa bắt đầu	7		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng form, chat/result và bảng chung để nhập câu hỏi, chọn công ty/kỳ, xem response/so sánh mẫu. Thêm partial/insufficient-data/refusal và retry; không làm streaming tùy biến, backend RAG hoặc tư vấn đầu tư.	Các luồng đã chốt chạy ...~~
+
+~~	Sprint 2	S2-WBS27	S2-G07	2	Code nguồn, history, watchlist và feedback bằng mock~~
+
+~~Kết quả cần có: Các luồng MVP chạy được với mock, không trùng watchlist và không mở URL client tùy ý. Không có xuất PDF/Markdown; thiếu API thật được ghi rõ.	Trần Diệu Huyền	Chưa bắt đầu	7		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng modal/detail/list/form để mở citation ID, xem locator/fact/provenance, xem/xóa history, pin/unpin và feedback. Chỉ mô phỏng lưu theo user, chưa xây backend lưu trữ; xác nhận thao tác xóa và thử lỗi b...~~
+
+~~	Sprint 2	S2-WBS28	S2-G07	2	Code Graph Viewer mẫu bằng thư viện sẵn có~~
+
+~~Kết quả cần có: Viewer thao tác được và mở đúng provenance mẫu; thử graph rỗng/lỗi, chặn hơn hai hop. Backend sẽ kiểm giới hạn khi nối thật.	Đinh Huỳnh Vũ	Chưa bắt đầu	5		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng component/thư viện graph đã chọn, nạp fixture node/edge, chọn root, mở rộng tối đa hai hop và xem nguồn edge. Không tự viết thuật toán layout, animation hoặc Neo4j API trong task này.	Viewer thao tác được và mở đúng proven...~~
+
+~~	Sprint 2	S2-WBS29	S2-G08	2	Code trang source, ingestion và quarantine theo template~~
+
+~~Kết quả cần có: Các màn hình operator trong checklist chạy với mock, có counts/reason/refresh-time và trạng thái lỗi; không lộ secrets.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	5		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng chung bảng/list/detail/form cho source, runs/counts/retries và quarantine. Đổi cấu hình/fixture theo trang thay vì viết một hệ thống quản trị riêng; thao tác quan trọng có xác nhận. Không gọi bộ cào thật từ mock UI.	Các màn...~~
+
+~~	Sprint 2	S2-WBS30	S2-G08	2	Code trang corpus, budget và traces theo template~~
+
+~~Kết quả cần có: Trang có đủ luồng MVP và trạng thái không đủ điều kiện/lỗi với mock, hợp đồng API thật được liệt kê.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng lại trang quản trị của task trước, thay schema/form/fixture cho manifest/promote/restore, ngưỡng/budget và trace. Kiểm giá trị và readiness mẫu, không làm backend quản lý cấu hình/audit hoặc telemetry thật.	Trang có đủ luồng MVP và trạng thái...~~
+
+~~	Sprint 2	S2-WBS31	S2-G08	2	Code trang test set và evaluation theo template~~
+
+~~Kết quả cần có: Màn hình evaluator trong checklist thao tác được, phân biệt partial/completed/thiếu trace và không hiển thị điểm giả như kết quả thật.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	5		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng bảng/form/detail chung để nhập/review/freeze ca mẫu, chọn B0–B3 và xem run/metrics fixture. Thêm calibration/final và quyền mẫu; chưa tạo 120 câu thật, chạy Ragas hoặc xây engine đánh giá.	Màn hình evaluator ...~~
+
+~~	Sprint 2	S2-WBS32	S2-G09	2	Kiểm build, review UI và bàn giao source~~
+
+~~Cách làm: Chạy checklist route/màn hình/role/state, build môi trường sạch và demo luồng chính. Mỗi chủ task đã tự test và sửa lỗi trong giờ task; task này tổng hợp smoke test cuối, README và API còn thiếu, không làm lại toàn bộ QA.~~
+
+~~Kết quả cần có: Frontend code/prototype và README bàn giao được; không còn màn hình bắt buộc chỉ là ảnh. Lỗi chặn còn mở thì chưa nghiệm thu, không dùng hết giờ làm lý do cho qua.	Đinh Huỳnh Vũ	Chưa bắt đầu	2		Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy checklist route/màn hình/role/state, build môi trường sạch và demo luồng chính. Mỗi chủ task đã tự test và sửa lỗi trong giờ task; task này tổng hợp smoke test cuối, README và API còn...~~
+
+~~					Tổng giờ các task			142	3																			~~
+
+~~					Giờ thực tế theo ngày (tự tính)				3						0	3	0	0	0	0	0	0	0	0	0	0	0	0~~
+
+~~Tue Sep 01 2026 07:00:00 GMT+0700 (Indochina Time)	47	42	0.8936170212765957	163	SRS và nguồn. Bắt đầu xác nhận, tải và chuẩn hóa dữ liệu.								~~
+
+~~Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G01	2	Chốt phạm vi và nguồn BCTC, BCTN, News	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Đang test	5	3	Sprint 2 Backlog~~
+
+~~Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G05	2	Hoàn tất thiết kế UI và prototype	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	19		Sprint 2 Backlog~~
+
+~~Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G06	2	Code skeleton và lớp dữ liệu mẫu	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	23		Sprint 2 Backlog~~
+
+~~S2-WBS04: Rà schema chung và mẫu dữ liệu bàn giao	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Đang test	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~S2-G02	2	Cào đủ nguồn và lưu bản gốc theo phiên bản	S2-WBS05: Hoàn thiện bộ tải BCTC/BCTN và lưu bản gốc~~
+
+~~S2-WBS06: Hoàn thiện bộ cào News và lưu nguồn gốc~~
+
+~~S2-WBS08: Chạy cào đủ danh sách và xử lý mục tải lỗi	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	3	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~S2-G03	2	Trích và chuẩn hóa báo cáo, News	S2-WBS09: Trích văn bản/bảng và xử lý scan khi cần~~
+
+~~S2-WBS11: Chuẩn hóa dữ kiện và nội dung BCTC/BCTN~~
+
+~~S2-WBS12: Chuẩn hóa News và loại bản trùng	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	3	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~S2-G04	2	Kiểm tra, lưu và chốt corpus chuẩn hóa	S2-WBS13: Tạo migration PostgreSQL và thử lưu/đọc dữ liệu~~
+
+~~S2-WBS14: Kiểm trường bắt buộc và cách ly bản ghi sai~~
+
+~~S2-WBS15: Nạp toàn bộ dữ liệu đạt và đối chiếu độ phủ	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	3	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~S2-G05	2	Hoàn tất thiết kế UI và prototype	S2-WBS17: Rà danh sách màn hình và các luồng MVP~~
+
+~~S2-WBS18: Thiết kế skeleton bằng bố cục dùng chung~~
+
+~~S2-WBS19: Chốt style và trạng thái của component chung~~
+
+~~S2-WBS20: Nối và review prototype bấm thử	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~S2-G06	2	Code skeleton và lớp dữ liệu mẫu	S2-WBS21: Code project frontend và layout skeleton~~
+
+~~S2-WBS22: Code component chung và dữ liệu mock~~
+
+~~S2-WBS23: Code routes và giao diện truy cập bằng phiên mẫu~~
+
+~~S2-WBS24: Chốt API adapter và trạng thái UI dùng chung	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~S2-G07	2	Code màn hình nghiên cứu bằng dữ liệu mẫu	S2-WBS25: Code chọn công ty và Dashboard bằng mock~~
+
+~~S2-WBS26: Code Copilot và so sánh bằng component chung~~
+
+~~S2-WBS27: Code nguồn, history, watchlist và feedback bằng mock~~
+
+~~S2-WBS28: Code Graph Viewer mẫu bằng thư viện sẵn có	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~S2-G08	2	Code màn hình quản trị và evaluator bằng mock	S2-WBS29: Code trang source, ingestion và quarantine theo template~~
+
+~~S2-WBS30: Code trang corpus, budget và traces theo template~~
+
+~~S2-WBS31: Code trang test set và evaluation theo template	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	3	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~S2-G09	2	Nghiệm thu dữ liệu và frontend, bàn giao	S2-WBS16: Chốt manifest và bàn giao data cho Sprint 3~~
+
+~~S2-WBS32: Kiểm build, review UI và bàn giao source	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	Khoảng 22 giờ cho tích hợp, review và sửa lỗi.~~
+
 ## 2026-09-30 09:57 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
