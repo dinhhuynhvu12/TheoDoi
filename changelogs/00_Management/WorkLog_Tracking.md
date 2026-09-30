@@ -1,5 +1,17 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-09-30 09:27 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-30 09:27
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G01	2	Chốt phạm vi và nguồn BCTC, BCTN, News	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Đang test	5	3	Sprint 2 Backlog**
+
+~~Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G01	2	Chốt phạm vi và nguồn BCTC, BCTN, News	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Đang test	5		Sprint 2 Backlog~~
+
 ## 2026-09-30 09:07 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
