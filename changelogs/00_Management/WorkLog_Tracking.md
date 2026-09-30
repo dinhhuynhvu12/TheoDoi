@@ -1,5 +1,37 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-09-30 09:32 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-09-30 09:32
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	142	3	28 task; 142h dự kiến.**
+
+🟢 **	S2-WBS01	Chốt phạm vi và danh sách nguồn BCTC, BCTN, News	Chốt phạm vi và nguồn BCTC, BCTN, News	Gộp việc lập URL và kiểm quyền nguồn vào một bảng. Rà kết quả Sprint 1 cho 10 công ty; bổ sung URL thực, loại tài liệu, kỳ và khoảng ngày News. Ghi nguồn được phép dùng và các mục còn thiếu. Không nghiên cứu lại toàn bộ phạm vi đã chốt.	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Một danh sách được nhóm duyệt, phân biệt đủ/thiếu và có URL ki...**
+
+🟢 **	Số task	28	Giờ dự kiến	142	Tổng giờ thực tế đã ghi	3																						**
+
+🟢 **Kết quả cần có: Một danh sách được nhóm duyệt, phân biệt đủ/thiếu và có URL kiểm tra được. Chưa có danh sách hoặc nguồn thì chưa được coi xong.	Nguyễn Minh Quân	Đang test	3	3	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Gộp việc lập URL và kiểm quyền nguồn vào một bảng. Rà kết quả Sprint 1 cho 10 công ty; bổ sung URL thực, loại tài liệu, kỳ và khoảng ngày News. Ghi nguồn được phép dùng và các mục còn thiếu. Không nghiên cứu lại toàn bộ phạ...**
+
+🟢 **					Tổng giờ các task			142	3																			**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				3						0	3	0	0	0	0	0	0	0	0	0	0	0	0**
+
+~~								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	142	0	28 task; 142h dự kiến.~~
+
+~~	S2-WBS01	Chốt phạm vi và danh sách nguồn BCTC, BCTN, News	Chốt phạm vi và nguồn BCTC, BCTN, News	Gộp việc lập URL và kiểm quyền nguồn vào một bảng. Rà kết quả Sprint 1 cho 10 công ty; bổ sung URL thực, loại tài liệu, kỳ và khoảng ngày News. Ghi nguồn được phép dùng và các mục còn thiếu. Không nghiên cứu lại toàn bộ phạm vi đã chốt.	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Một danh sách được nhóm duyệt, phân biệt đủ/thiếu và có URL ki...~~
+
+~~	Số task	28	Giờ dự kiến	142	Tổng giờ thực tế đã ghi																							~~
+
+~~Kết quả cần có: Một danh sách được nhóm duyệt, phân biệt đủ/thiếu và có URL kiểm tra được. Chưa có danh sách hoặc nguồn thì chưa được coi xong.	Nguyễn Minh Quân	Đang test	3		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Gộp việc lập URL và kiểm quyền nguồn vào một bảng. Rà kết quả Sprint 1 cho 10 công ty; bổ sung URL thực, loại tài liệu, kỳ và khoảng ngày News. Ghi nguồn được phép dùng và các mục còn thiếu. Không nghiên cứu lại toàn bộ phạm...~~
+
+~~					Tổng giờ các task			142	0																			~~
+
+~~					Giờ thực tế theo ngày (tự tính)				0						0	0	0	0	0	0	0	0	0	0	0	0	0	0~~
+
 ## 2026-09-30 09:27 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
