@@ -1,5 +1,37 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-01 16:37 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-01 16:37
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS07	Chuẩn hóa dữ kiện và nội dung BCTC/BCTN	Trích và chuẩn hóa báo cáo, News	Dùng danh mục chỉ tiêu đã chốt và hàm chuẩn hóa mẫu Sprint 1. Chuẩn kỳ/ngày/đơn vị/dấu âm/scope, lưu giá trị gốc và chuyển đổi; giữ nội dung BCTN cùng locator. Chỉ bổ sung ánh xạ còn thiếu, không xây bộ hiểu mọi biểu mẫu.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Dữ kiện đúng company/metric/period/unit/scope và truy về nguồn; mâu thuẫn hoặc ...**
+
+🟢 **	S2-WBS08	Chuẩn hóa News và loại bản trùng	Trích và chuẩn hóa báo cáo, News	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Sprint 2.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề...**
+
+🟢 **Data: Thái Quốc Hưng. Tuần 1 14h; tuần 2 13h. Trong giới hạn**
+
+🟢 **Data: Nguyễn Minh Quân. Tuần 1 14h; tuần 2 17h. CẦN CHIA LẠI GIỜ**
+
+🟢 **Kết quả cần có: Dữ kiện đúng company/metric/period/unit/scope và truy về nguồn; mâu thuẫn hoặc chưa ánh xạ được phải cách ly. Không trộn quý riêng với lũy kế.	Nguyễn Minh Quân	Chưa bắt đầu	7		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng danh mục chỉ tiêu đã chốt và hàm chuẩn hóa mẫu Sprint 1. Chuẩn kỳ/ngày/đơn vị/dấu âm/scope, lưu giá trị gốc và chuyển đổi; giữ nội dung BCTN cùng locator. Chỉ bổ sung ánh xạ còn thiếu, không xây bộ hiể...**
+
+🟢 **Kết quả cần có: News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề. Bài thiếu ngày/công ty rõ ràng được cách ly.	Thái Quốc Hưng	Chưa bắt đầu	5		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Sprint...**
+
+~~	S2-WBS07	Chuẩn hóa dữ kiện và nội dung BCTC/BCTN	Trích và chuẩn hóa báo cáo, News	Dùng danh mục chỉ tiêu đã chốt và hàm chuẩn hóa mẫu Sprint 1. Chuẩn kỳ/ngày/đơn vị/dấu âm/scope, lưu giá trị gốc và chuyển đổi; giữ nội dung BCTN cùng locator. Chỉ bổ sung ánh xạ còn thiếu, không xây bộ hiểu mọi biểu mẫu.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Dữ kiện đúng company/metric/period/unit/scope và truy về nguồn; mâu thuẫn hoặc ...~~
+
+~~	S2-WBS08	Chuẩn hóa News và loại bản trùng	Trích và chuẩn hóa báo cáo, News	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Sprint 2.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề...~~
+
+~~Data: Thái Quốc Hưng. Tuần 1 14h; tuần 2 15h. Trong giới hạn~~
+
+~~Data: Nguyễn Minh Quân. Tuần 1 14h; tuần 2 15h. Trong giới hạn~~
+
+~~Kết quả cần có: Dữ kiện đúng company/metric/period/unit/scope và truy về nguồn; mâu thuẫn hoặc chưa ánh xạ được phải cách ly. Không trộn quý riêng với lũy kế.	Thái Quốc Hưng	Chưa bắt đầu	7		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng danh mục chỉ tiêu đã chốt và hàm chuẩn hóa mẫu Sprint 1. Chuẩn kỳ/ngày/đơn vị/dấu âm/scope, lưu giá trị gốc và chuyển đổi; giữ nội dung BCTN cùng locator. Chỉ bổ sung ánh xạ còn thiếu, không xây bộ hiểu ...~~
+
+~~Kết quả cần có: News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề. Bài thiếu ngày/công ty rõ ràng được cách ly.	Nguyễn Minh Quân	Chưa bắt đầu	5		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Spri...~~
+
 ## 2026-10-01 16:32 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
