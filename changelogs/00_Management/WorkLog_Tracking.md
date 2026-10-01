@@ -1,5 +1,65 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-01 16:27 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-01 16:27
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	141	6	28 task; 142h.**
+
+🟢 **	S2-WBS02	Rà schema chung và mẫu dữ liệu bàn giao	Chốt phạm vi và nguồn BCTC, BCTN, News	Dùng ERD Sprint 1 để chốt company\_id, loại nguồn, URL, ngày công bố/lấy, hash, phiên bản, kỳ, đơn vị và vị trí nguồn. Thống nhất mẫu facts và News với UI; không vẽ lại ERD từ đầu.	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệu. UI và người làm DB dùng cùng tên trường.	Ước lượng lại khi tái...**
+
+🟢 **	S2-WBS04	Hoàn thiện bộ cào News và lưu nguồn gốc	Cào đủ nguồn và lưu bản gốc theo phiên bản	Tái dùng khung crawler chung, cấu hình các nguồn News được duyệt. Lấy danh sách/nội dung trong khoảng ngày, xử lý phân trang, lọc công ty và lưu URL/ngày/hash/version. Không làm crawler tổng quát cho mọi website hoặc vượt paywall.	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Lấy đúng bài mẫu và nguồn gốc; có retry/log và lý do loại bài. Bộ cào chỉ hỗ ...**
+
+🟢 **	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi	6																						**
+
+🟢 **Kết quả cần có: Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệu. UI và người làm DB dùng cùng tên trường.	Thái Quốc Hưng	Chưa bắt đầu	2	1	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng ERD Sprint 1 để chốt company\_id, loại nguồn, URL, ngày công bố/lấy, hash, phiên bản, kỳ, đơn vị và vị trí nguồn. Thống nhất mẫu facts và News với UI; không vẽ lại ERD từ đầu.	Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệ...**
+
+🟢 **Kết quả cần có: Lấy đúng bài mẫu và nguồn gốc; có retry/log và lý do loại bài. Bộ cào chỉ hỗ trợ danh sách nguồn đã chốt.	Thái Quốc Hưng	Đang test	5	5	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng khung crawler chung, cấu hình các nguồn News được duyệt. Lấy danh sách/nội dung trong khoảng ngày, xử lý phân trang, lọc công ty và lưu URL/ngày/hash/version. Không làm crawler tổng quát cho mọi website hoặc vượt paywall.	Lấy đúng bài mẫu...**
+
+🟢 **					Tổng giờ các task			141	6																			**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				6						0	3	3	0	0	0	0	0	0	0	0	0	0	0**
+
+🟢 **Tue Sep 01 2026 07:00:00 GMT+0700 (Indochina Time)	46	42	0.9130434782608695	160	SRS và nguồn. Bắt đầu xác nhận, tải và chuẩn hóa dữ liệu.								**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	0	0	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G01	2	Chốt phạm vi và nguồn BCTC, BCTN, News	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	5	1	Sprint 2 Backlog**
+
+🟢 **Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G02	2	Cào đủ nguồn và lưu bản gốc theo phiên bản	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	3	0	0	Đang test	16	5	Sprint 2 Backlog**
+
+🟢 **S2-WBS02: Rà schema chung và mẫu dữ liệu bàn giao	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.**
+
+~~								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	141	0	28 task; 142h.~~
+
+~~	S2-WBS02	Rà schema chung và mẫu dữ liệu bàn giao	Chốt phạm vi và nguồn BCTC, BCTN, News	Dùng ERD Sprint 1 để chốt company\_id, loại nguồn, URL, ngày công bố/lấy, hash, phiên bản, kỳ, đơn vị và vị trí nguồn. Thống nhất mẫu facts và News với UI; không vẽ lại ERD từ đầu.	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệu. UI và người làm DB dùng cùng tên trường.	Ước lượng lại khi tái...~~
+
+~~	S2-WBS04	Hoàn thiện bộ cào News và lưu nguồn gốc	Cào đủ nguồn và lưu bản gốc theo phiên bản	Tái dùng khung crawler chung, cấu hình các nguồn News được duyệt. Lấy danh sách/nội dung trong khoảng ngày, xử lý phân trang, lọc công ty và lưu URL/ngày/hash/version. Không làm crawler tổng quát cho mọi website hoặc vượt paywall.	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Lấy đúng bài mẫu và nguồn gốc; có retry/log và lý do loại bài. Bộ cào chỉ hỗ ...~~
+
+~~	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi																							~~
+
+~~Kết quả cần có: Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệu. UI và người làm DB dùng cùng tên trường.	Thái Quốc Hưng	Chưa bắt đầu	2		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng ERD Sprint 1 để chốt company\_id, loại nguồn, URL, ngày công bố/lấy, hash, phiên bản, kỳ, đơn vị và vị trí nguồn. Thống nhất mẫu facts và News với UI; không vẽ lại ERD từ đầu.	Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệu...~~
+
+~~Kết quả cần có: Lấy đúng bài mẫu và nguồn gốc; có retry/log và lý do loại bài. Bộ cào chỉ hỗ trợ danh sách nguồn đã chốt.	Thái Quốc Hưng	Đang test	5		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng khung crawler chung, cấu hình các nguồn News được duyệt. Lấy danh sách/nội dung trong khoảng ngày, xử lý phân trang, lọc công ty và lưu URL/ngày/hash/version. Không làm crawler tổng quát cho mọi website hoặc vượt paywall.	Lấy đúng bài mẫu ...~~
+
+~~					Tổng giờ các task			141	0																			~~
+
+~~					Giờ thực tế theo ngày (tự tính)				0						0	0	0	0	0	0	0	0	0	0	0	0	0	0~~
+
+~~Tue Sep 01 2026 07:00:00 GMT+0700 (Indochina Time)	47	42	0.8936170212765957	162	SRS và nguồn. Bắt đầu xác nhận, tải và chuẩn hóa dữ liệu.								~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	77	0	0	350	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G01	2	Chốt phạm vi và nguồn BCTC, BCTN, News	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	5		Sprint 2 Backlog~~
+
+~~Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G02	2	Cào đủ nguồn và lưu bản gốc theo phiên bản	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	3	0	0	Đang test	16		Sprint 2 Backlog~~
+
+~~S2-WBS02: Rà schema chung và mẫu dữ liệu bàn giao	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-01 15:37 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
