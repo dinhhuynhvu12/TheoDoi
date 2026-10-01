@@ -1,5 +1,29 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-01 13:37 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-01 13:37
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS14	Thiết kế wireframe và khung các màn hình	Hoàn tất thiết kế UI và prototype	Nhân dùng sitemap đã duyệt để vẽ wireframe chỉnh sửa được và bàn giao theo hai mốc: mốc 1 (29/09) gồm chọn công ty, Dashboard, Copilot và mở citation; mốc 2 (30/09) gồm history/watchlist, Graph Viewer, trang vận hành/evaluator. Mỗi mốc thể hiện menu, form, bộ lọc, dữ liệu, CTA, màn hình hẹp và liên kết qua lại. Huyền review từng mốc; Vũ chỉ làm trên màn hình đã được duyệt. Nếu mốc trễ, báo blocker trong Daily Sc...**
+
+🟢 **Kết quả cần có: Mốc 1 và mốc 2 đều có link/file wireframe chỉnh sửa được và ý kiến duyệt của Huyền. Chỉ đánh dấu hoàn thành WBS18 khi đủ toàn bộ màn hình MVP và các lỗi điều hướng chặn đã sửa; bàn giao một mốc không đồng nghĩa hoàn thành cả task.	Hồ Phạm Đăng Nhân	Đang làm	5		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Nhân dùng sitemap đã duyệt để vẽ wireframe chỉnh sửa được và bàn giao theo hai mốc: mốc 1 (29/09) gồm chọn công ty, Dashb...**
+
+🟢 **Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G05	2	Thiết kế UI, wireframe và prototype đã review	Thiết kế được bàn giao theo hai mốc có Huyền duyệt: mốc 1 chọn công ty, Dashboard, Copilot, citation; mốc 2 history/watchlist, Graph Viewer, trang vận hành/evaluator. Vũ chỉ bắt đầu prototype/code bố cục cho màn hình đã duyệt; toàn bộ thiết kế/prototype chỉ được nghiệm thu khi đủ hai mốc.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	...**
+
+🟢 **S2-WBS16: Dựng prototype bấm thử từ bản thiết kế đã duyệt	Thiết kế được bàn giao theo hai mốc có Huyền duyệt: mốc 1 chọn công ty, Dashboard, Copilot, citation; mốc 2 history/watchlist, Graph Viewer, trang vận hành/evaluator. Vũ chỉ bắt đầu prototype/code bố cục cho màn hình đã duyệt; toàn bộ thiết kế/prototype chỉ được nghiệm thu khi đủ hai mốc.	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S2-WBS14	Thiết kế wireframe và khung các màn hình	Hoàn tất thiết kế UI và prototype	Nhân dùng sitemap đã duyệt để vẽ wireframe chỉnh sửa được và bàn giao theo hai mốc: mốc 1 (29/09) gồm chọn công ty, Dashboard, Copilot và mở citation; mốc 2 (30/09) gồm history/watchlist, Graph Viewer, trang vận hành/evaluator. Mỗi mốc thể hiện menu, form, bộ lọc, dữ liệu, CTA, màn hình hẹp và liên kết qua lại. Huyền review từng mốc; Vũ chỉ làm trên màn hình đã được duyệt. Nếu mốc trễ, báo blocker trong Daily Sc...~~
+
+~~Kết quả cần có: Mốc 1 và mốc 2 đều có link/file wireframe chỉnh sửa được và ý kiến duyệt của Huyền. Chỉ đánh dấu hoàn thành WBS18 khi đủ toàn bộ màn hình MVP và các lỗi điều hướng chặn đã sửa; bàn giao một mốc không đồng nghĩa hoàn thành cả task.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	5		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Nhân dùng sitemap đã duyệt để vẽ wireframe chỉnh sửa được và bàn giao theo hai mốc: mốc 1 (29/09) gồm chọn công ty, D...~~
+
+~~Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G05	2	Thiết kế UI, wireframe và prototype đã review	Thiết kế được bàn giao theo hai mốc có Huyền duyệt: mốc 1 chọn công ty, Dashboard, Copilot, citation; mốc 2 history/watchlist, Graph Viewer, trang vận hành/evaluator. Vũ chỉ bắt đầu prototype/code bố cục cho màn hình đã duyệt; toàn bộ thiết kế/prototype chỉ được nghiệm thu khi đủ hai mốc.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	...~~
+
+~~S2-WBS16: Dựng prototype bấm thử từ bản thiết kế đã duyệt	Thiết kế được bàn giao theo hai mốc có Huyền duyệt: mốc 1 chọn công ty, Dashboard, Copilot, citation; mốc 2 history/watchlist, Graph Viewer, trang vận hành/evaluator. Vũ chỉ bắt đầu prototype/code bố cục cho màn hình đã duyệt; toàn bộ thiết kế/prototype chỉ được nghiệm thu khi đủ hai mốc.	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-09-30 19:47 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
