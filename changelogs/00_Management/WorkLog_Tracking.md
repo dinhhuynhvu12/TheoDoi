@@ -1,5 +1,21 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-03 20:02 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-03 20:02
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS16	Dựng prototype bấm thử từ bản thiết kế đã duyệt	Hoàn tất thiết kế UI và prototype	Vũ dựng prototype từng màn hình ngay sau khi wireframe mốc tương ứng được Huyền duyệt và có visual áp dụng; làm trước luồng chọn công ty → Dashboard → Copilot → citation, rồi nối các màn hình còn lại khi mốc 2 sẵn sàng. Ghi rõ phần nào là prototype đã duyệt, phần nào đang chờ; không tự đoán bố cục chưa được duyệt.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Có...**
+
+🟢 **Kết quả cần có: Có link/file prototype bấm thử cho đầy đủ màn hình và trạng thái lỗi mẫu, khớp cả hai mốc wireframe/visual; Huyền review và Vũ sửa lỗi chặn. Prototype mốc 1 chỉ là bàn giao trung gian, chưa được tính hoàn thành WBS20.	Đinh Huỳnh Vũ	Đang làm	7		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Vũ dựng prototype từng màn hình ngay sau khi wireframe mốc tương ứng được Huyền duyệt và có visual áp dụng; làm trước luồng chọn công ty →...**
+
+~~	S2-WBS16	Dựng prototype bấm thử từ bản thiết kế đã duyệt	Hoàn tất thiết kế UI và prototype	Vũ dựng prototype từng màn hình ngay sau khi wireframe mốc tương ứng được Huyền duyệt và có visual áp dụng; làm trước luồng chọn công ty → Dashboard → Copilot → citation, rồi nối các màn hình còn lại khi mốc 2 sẵn sàng. Ghi rõ phần nào là prototype đã duyệt, phần nào đang chờ; không tự đoán bố cục chưa được duyệt.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Có...~~
+
+~~Kết quả cần có: Có link/file prototype bấm thử cho đầy đủ màn hình và trạng thái lỗi mẫu, khớp cả hai mốc wireframe/visual; Huyền review và Vũ sửa lỗi chặn. Prototype mốc 1 chỉ là bàn giao trung gian, chưa được tính hoàn thành WBS20.	Đinh Huỳnh Vũ	Chưa bắt đầu	7		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Vũ dựng prototype từng màn hình ngay sau khi wireframe mốc tương ứng được Huyền duyệt và có visual áp dụng; làm trước luồng chọn công ...~~
+
 ## 2026-10-02 14:02 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
