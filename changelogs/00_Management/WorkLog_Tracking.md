@@ -1,5 +1,41 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-05 14:17 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-05 14:17
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS25	Code trang source, ingestion và quarantine theo template	Code màn hình quản trị và evaluator bằng mock	Dùng chung bảng/list/detail/form cho source, runs/counts/retries và quarantine. Đổi cấu hình/fixture theo trang thay vì viết một hệ thống quản trị riêng; thao tác quan trọng có xác nhận. Không gọi bộ cào thật từ mock UI.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Các màn hình operator trong checklist chạy với...**
+
+🟢 **	S2-WBS26	Code trang corpus, budget và traces theo template	Code màn hình quản trị và evaluator bằng mock	Dùng lại trang quản trị của task trước, thay schema/form/fixture cho manifest/promote/restore, ngưỡng/budget và trace. Kiểm giá trị và readiness mẫu, không làm backend quản lý cấu hình/audit hoặc telemetry thật.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Trang có đủ luồng MVP và trạng thái không đủ điều kiện/lỗi với...**
+
+🟢 **UI: Đinh Huỳnh Vũ. Tuần 1 13h; tuần 2 28h. CẦN CHIA LẠI GIỜ**
+
+🟢 **UI: Hồ Phạm Đăng Nhân. Tuần 1 13h; tuần 2 0h. CẦN CHIA LẠI GIỜ**
+
+🟢 **Kết quả cần có: Các màn hình operator trong checklist chạy với mock, có counts/reason/refresh-time và trạng thái lỗi; không lộ secrets.	Đinh Huỳnh Vũ	Chưa bắt đầu	5		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng chung bảng/list/detail/form cho source, runs/counts/retries và quarantine. Đổi cấu hình/fixture theo trang thay vì viết một hệ thống quản trị riêng; thao tác quan trọng có xác nhận. Không gọi bộ cào thật từ mock UI.	Các màn hìn...**
+
+🟢 **Kết quả cần có: Trang có đủ luồng MVP và trạng thái không đủ điều kiện/lỗi với mock, hợp đồng API thật được liệt kê.	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng lại trang quản trị của task trước, thay schema/form/fixture cho manifest/promote/restore, ngưỡng/budget và trace. Kiểm giá trị và readiness mẫu, không làm backend quản lý cấu hình/audit hoặc telemetry thật.	Trang có đủ luồng MVP và trạng thái khô...**
+
+🟢 **Kết quả cần có: Màn hình evaluator trong checklist thao tác được, phân biệt partial/completed/thiếu trace và không hiển thị điểm giả như kết quả thật.	Đinh Huỳnh Vũ	Chưa bắt đầu	5		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng bảng/form/detail chung để nhập/review/freeze ca mẫu, chọn B0–B3 và xem run/metrics fixture. Thêm calibration/final và quyền mẫu; chưa tạo 120 câu thật, chạy Ragas hoặc xây engine đánh giá.	Màn hình evaluator tron...**
+
+~~	S2-WBS25	Code trang source, ingestion và quarantine theo template	Code màn hình quản trị và evaluator bằng mock	Dùng chung bảng/list/detail/form cho source, runs/counts/retries và quarantine. Đổi cấu hình/fixture theo trang thay vì viết một hệ thống quản trị riêng; thao tác quan trọng có xác nhận. Không gọi bộ cào thật từ mock UI.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Các màn hình operator trong checklist chạy với...~~
+
+~~	S2-WBS26	Code trang corpus, budget và traces theo template	Code màn hình quản trị và evaluator bằng mock	Dùng lại trang quản trị của task trước, thay schema/form/fixture cho manifest/promote/restore, ngưỡng/budget và trace. Kiểm giá trị và readiness mẫu, không làm backend quản lý cấu hình/audit hoặc telemetry thật.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Trang có đủ luồng MVP và trạng thái không đủ điều kiện/lỗi với...~~
+
+~~UI: Đinh Huỳnh Vũ. Tuần 1 13h; tuần 2 14h. Trong giới hạn~~
+
+~~UI: Hồ Phạm Đăng Nhân. Tuần 1 13h; tuần 2 14h. Trong giới hạn~~
+
+~~Kết quả cần có: Các màn hình operator trong checklist chạy với mock, có counts/reason/refresh-time và trạng thái lỗi; không lộ secrets.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	5		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng chung bảng/list/detail/form cho source, runs/counts/retries và quarantine. Đổi cấu hình/fixture theo trang thay vì viết một hệ thống quản trị riêng; thao tác quan trọng có xác nhận. Không gọi bộ cào thật từ mock UI.	Các màn...~~
+
+~~Kết quả cần có: Trang có đủ luồng MVP và trạng thái không đủ điều kiện/lỗi với mock, hợp đồng API thật được liệt kê.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng lại trang quản trị của task trước, thay schema/form/fixture cho manifest/promote/restore, ngưỡng/budget và trace. Kiểm giá trị và readiness mẫu, không làm backend quản lý cấu hình/audit hoặc telemetry thật.	Trang có đủ luồng MVP và trạng thái...~~
+
+~~Kết quả cần có: Màn hình evaluator trong checklist thao tác được, phân biệt partial/completed/thiếu trace và không hiển thị điểm giả như kết quả thật.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	5		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng bảng/form/detail chung để nhập/review/freeze ca mẫu, chọn B0–B3 và xem run/metrics fixture. Thêm calibration/final và quyền mẫu; chưa tạo 120 câu thật, chạy Ragas hoặc xây engine đánh giá.	Màn hình evaluator ...~~
+
 ## 2026-10-05 14:02 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
