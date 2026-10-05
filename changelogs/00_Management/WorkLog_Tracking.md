@@ -1,5 +1,33 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-05 14:22 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-05 14:22
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS21	Code chọn công ty và Dashboard bằng mock	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; khô...**
+
+🟢 **	S2-WBS27	Code trang test set và evaluation theo template	Code màn hình quản trị và evaluator bằng mock	Dùng bảng/form/detail chung để nhập/review/freeze ca mẫu, chọn B0–B3 và xem run/metrics fixture. Thêm calibration/final và quyền mẫu; chưa tạo 120 câu thật, chạy Ragas hoặc xây engine đánh giá.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Màn hình evaluator trong checklist thao tác được, phân biệt partial/completed/thiế...**
+
+🟢 **UI: Đinh Huỳnh Vũ. Tuần 1 13h; tuần 2 21h. CẦN CHIA LẠI GIỜ**
+
+🟢 **UI: Hồ Phạm Đăng Nhân. Tuần 1 13h; tuần 2 7h. CẦN CHIA LẠI GIỜ**
+
+🟢 **Kết quả cần có: Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; không chỉ bàn giao ảnh thiết kế.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	7		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Màn hình code chạy ...**
+
+~~	S2-WBS21	Code chọn công ty và Dashboard bằng mock	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; khô...~~
+
+~~	S2-WBS27	Code trang test set và evaluation theo template	Code màn hình quản trị và evaluator bằng mock	Dùng bảng/form/detail chung để nhập/review/freeze ca mẫu, chọn B0–B3 và xem run/metrics fixture. Thêm calibration/final và quyền mẫu; chưa tạo 120 câu thật, chạy Ragas hoặc xây engine đánh giá.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Màn hình evaluator trong checklist thao tác được, phân biệt partial/completed/thiế...~~
+
+~~UI: Đinh Huỳnh Vũ. Tuần 1 13h; tuần 2 28h. CẦN CHIA LẠI GIỜ~~
+
+~~UI: Hồ Phạm Đăng Nhân. Tuần 1 13h; tuần 2 0h. CẦN CHIA LẠI GIỜ~~
+
+~~Kết quả cần có: Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; không chỉ bàn giao ảnh thiết kế.	Đinh Huỳnh Vũ	Chưa bắt đầu	7		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Màn hình code chạy được...~~
+
 ## 2026-10-05 14:17 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
