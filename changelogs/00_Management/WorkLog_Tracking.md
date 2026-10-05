@@ -1,5 +1,29 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-05 14:32 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-05 14:32
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS24	Code Graph Viewer mẫu bằng thư viện sẵn có	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng component/thư viện graph đã chọn, nạp fixture node/edge, chọn root, mở rộng tối đa hai hop và xem nguồn edge. Không tự viết thuật toán layout, animation hoặc Neo4j API trong task này.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Viewer thao tác được và mở đúng provenance mẫu; thử graph rỗng/lỗi, chặn hơn hai hop. Backend sẽ kiểm giới h...**
+
+🟢 **UI: Đinh Huỳnh Vũ. Tuần 1 13h; tuần 2 14h. Trong giới hạn**
+
+🟢 **UI: Hồ Phạm Đăng Nhân. Tuần 1 13h; tuần 2 14h. Trong giới hạn**
+
+🟢 **Kết quả cần có: Viewer thao tác được và mở đúng provenance mẫu; thử graph rỗng/lỗi, chặn hơn hai hop. Backend sẽ kiểm giới hạn khi nối thật.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	7		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng component/thư viện graph đã chọn, nạp fixture node/edge, chọn root, mở rộng tối đa hai hop và xem nguồn edge. Không tự viết thuật toán layout, animation hoặc Neo4j API trong task này.	Viewer thao tác được và mở đúng pr...**
+
+~~	S2-WBS24	Code Graph Viewer mẫu bằng thư viện sẵn có	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng component/thư viện graph đã chọn, nạp fixture node/edge, chọn root, mở rộng tối đa hai hop và xem nguồn edge. Không tự viết thuật toán layout, animation hoặc Neo4j API trong task này.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Viewer thao tác được và mở đúng provenance mẫu; thử graph rỗng/lỗi, chặn hơn hai hop. Backend sẽ kiểm giới h...~~
+
+~~UI: Đinh Huỳnh Vũ. Tuần 1 13h; tuần 2 21h. CẦN CHIA LẠI GIỜ~~
+
+~~UI: Hồ Phạm Đăng Nhân. Tuần 1 13h; tuần 2 7h. CẦN CHIA LẠI GIỜ~~
+
+~~Kết quả cần có: Viewer thao tác được và mở đúng provenance mẫu; thử graph rỗng/lỗi, chặn hơn hai hop. Backend sẽ kiểm giới hạn khi nối thật.	Đinh Huỳnh Vũ	Chưa bắt đầu	7		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng component/thư viện graph đã chọn, nạp fixture node/edge, chọn root, mở rộng tối đa hai hop và xem nguồn edge. Không tự viết thuật toán layout, animation hoặc Neo4j API trong task này.	Viewer thao tác được và mở đúng proven...~~
+
 ## 2026-10-05 14:27 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
