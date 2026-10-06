@@ -1,5 +1,49 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-06 14:12 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-06 14:12
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS13	Thiết kế sơ đồ luồng người dùng và sitemap UI	Hoàn tất thiết kế UI và prototype	Huyền làm lead UI, đối chiếu use case MVP để vẽ sơ đồ màn hình theo vai trò và luồng đăng nhập, chọn công ty, hỏi, xem nguồn, history/watchlist. Chỉ vẽ luồng cần code Sprint 2, không thêm xuất PDF/Markdown.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Có file sơ đồ luồng/sitemap chỉnh sửa được, liệt kê đủ màn hình, quyền và đường quay lại; nhóm duyệt trước khi th...**
+
+🟢 **	S2-WBS15	Thiết kế visual UI và trạng thái component chung	Hoàn tất thiết kế UI và prototype	Huyền chốt màu, chữ, khoảng cách, bảng, form, nút, citation marker và các trạng thái loading/empty/error/missing-data từ sitemap đã duyệt và bộ component sẵn có. Có thể làm quy tắc chung song song với wireframe của Nhân; áp dụng lên từng màn hình sau khi nhận wireframe. Bàn giao cho Vũ/Nhân dùng khi code; không xây design system riêng.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototy...**
+
+🟢 **Kết quả cần có: Có file sơ đồ luồng/sitemap chỉnh sửa được, liệt kê đủ màn hình, quyền và đường quay lại; nhóm duyệt trước khi thiết kế wireframe.	Trần Diệu Huyền	Đã hoàn thành	2		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền làm lead UI, đối chiếu use case MVP để vẽ sơ đồ màn hình theo vai trò và luồng đăng nhập, chọn công ty, hỏi, xem nguồn, history/watchlist. Chỉ vẽ luồng cần code Sprint 2, không thêm xuất PDF/Markdown.	Có file sơ ...**
+
+🟢 **Kết quả cần có: Có file thiết kế chỉnh sửa được gồm style, component mẫu và các trạng thái; nhóm xác nhận tính nhất quán với wireframe.	Trần Diệu Huyền	Đã hoàn thành	4		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền chốt màu, chữ, khoảng cách, bảng, form, nút, citation marker và các trạng thái loading/empty/error/missing-data từ sitemap đã duyệt và bộ component sẵn có. Có thể làm quy tắc chung song song với wireframe của Nhân; áp dụng ...**
+
+🟢 **Tue Sep 01 2026 07:00:00 GMT+0700 (Indochina Time)	46	45	0.9782608695652174	160	SRS và nguồn. Bắt đầu xác nhận, tải và chuẩn hóa dữ liệu.								**
+
+🟢 **Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G05	2	Thiết kế UI, wireframe và prototype đã review	Thiết kế được bàn giao theo hai mốc có Huyền duyệt: mốc 1 chọn công ty, Dashboard, Copilot, citation; mốc 2 history/watchlist, Graph Viewer, trang vận hành/evaluator. Vũ chỉ bắt đầu prototype/code bố cục cho màn hình đã duyệt; toàn bộ thiết kế/prototype chỉ được nghiệm thu khi đủ hai mốc.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	...**
+
+🟢 **Task đã hoàn thành	50		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.2336448598130841		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **S2-WBS16: Dựng prototype bấm thử từ bản thiết kế đã duyệt	Thiết kế được bàn giao theo hai mốc có Huyền duyệt: mốc 1 chọn công ty, Dashboard, Copilot, citation; mốc 2 history/watchlist, Graph Viewer, trang vận hành/evaluator. Vũ chỉ bắt đầu prototype/code bố cục cho màn hình đã duyệt; toàn bộ thiết kế/prototype chỉ được nghiệm thu khi đủ hai mốc.	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	3	0.75	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S2-WBS13	Thiết kế sơ đồ luồng người dùng và sitemap UI	Hoàn tất thiết kế UI và prototype	Huyền làm lead UI, đối chiếu use case MVP để vẽ sơ đồ màn hình theo vai trò và luồng đăng nhập, chọn công ty, hỏi, xem nguồn, history/watchlist. Chỉ vẽ luồng cần code Sprint 2, không thêm xuất PDF/Markdown.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Có file sơ đồ luồng/sitemap chỉnh sửa được, liệt kê đủ màn hình, quyền và đường quay lại; nhóm duyệt trước khi th...~~
+
+~~	S2-WBS15	Thiết kế visual UI và trạng thái component chung	Hoàn tất thiết kế UI và prototype	Huyền chốt màu, chữ, khoảng cách, bảng, form, nút, citation marker và các trạng thái loading/empty/error/missing-data từ sitemap đã duyệt và bộ component sẵn có. Có thể làm quy tắc chung song song với wireframe của Nhân; áp dụng lên từng màn hình sau khi nhận wireframe. Bàn giao cho Vũ/Nhân dùng khi code; không xây design system riêng.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototy...~~
+
+~~Kết quả cần có: Có file sơ đồ luồng/sitemap chỉnh sửa được, liệt kê đủ màn hình, quyền và đường quay lại; nhóm duyệt trước khi thiết kế wireframe.	Trần Diệu Huyền	Chưa bắt đầu	2		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền làm lead UI, đối chiếu use case MVP để vẽ sơ đồ màn hình theo vai trò và luồng đăng nhập, chọn công ty, hỏi, xem nguồn, history/watchlist. Chỉ vẽ luồng cần code Sprint 2, không thêm xuất PDF/Markdown.	Có file sơ đ...~~
+
+~~Kết quả cần có: Có file thiết kế chỉnh sửa được gồm style, component mẫu và các trạng thái; nhóm xác nhận tính nhất quán với wireframe.	Trần Diệu Huyền	Chưa bắt đầu	4		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền chốt màu, chữ, khoảng cách, bảng, form, nút, citation marker và các trạng thái loading/empty/error/missing-data từ sitemap đã duyệt và bộ component sẵn có. Có thể làm quy tắc chung song song với wireframe của Nhân; áp dụng l...~~
+
+~~Tue Sep 01 2026 07:00:00 GMT+0700 (Indochina Time)	46	43	0.9347826086956522	160	SRS và nguồn. Bắt đầu xác nhận, tải và chuẩn hóa dữ liệu.								~~
+
+~~Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G05	2	Thiết kế UI, wireframe và prototype đã review	Thiết kế được bàn giao theo hai mốc có Huyền duyệt: mốc 1 chọn công ty, Dashboard, Copilot, citation; mốc 2 history/watchlist, Graph Viewer, trang vận hành/evaluator. Vũ chỉ bắt đầu prototype/code bố cục cho màn hình đã duyệt; toàn bộ thiết kế/prototype chỉ được nghiệm thu khi đủ hai mốc.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	...~~
+
+~~Task đã hoàn thành	48		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.22429906542056074		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~S2-WBS16: Dựng prototype bấm thử từ bản thiết kế đã duyệt	Thiết kế được bàn giao theo hai mốc có Huyền duyệt: mốc 1 chọn công ty, Dashboard, Copilot, citation; mốc 2 history/watchlist, Graph Viewer, trang vận hành/evaluator. Vũ chỉ bắt đầu prototype/code bố cục cho màn hình đã duyệt; toàn bộ thiết kế/prototype chỉ được nghiệm thu khi đủ hai mốc.	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	1	0.25	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-06 13:42 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
