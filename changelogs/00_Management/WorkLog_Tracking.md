@@ -1,5 +1,89 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-06 13:17 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-06 13:17
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS02	Rà schema chung và mẫu dữ liệu bàn giao	Chốt phạm vi và nguồn BCTC, BCTN, News	Dùng ERD Sprint 1 để chốt company\_id, loại nguồn, URL, ngày công bố/lấy, hash, phiên bản, kỳ, đơn vị và vị trí nguồn. Thống nhất mẫu facts và News với UI; không vẽ lại ERD từ đầu.	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệu. UI và người làm DB dùng cùng tên trường.	Ước lượng lại khi tái...**
+
+🟢 **	S2-WBS08	Chuẩn hóa News và loại bản trùng	Trích và chuẩn hóa báo cáo, News	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Sprint 2.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề...**
+
+🟢 **	S2-WBS18	Code component chung và dữ liệu mock	Code skeleton và lớp dữ liệu mẫu	Nhân cấu hình bảng/form/nút/filter/modal và fixture đủ/rỗng/lỗi từ schema chung, quy tắc visual đã có. Có thể làm component và mock độc lập trong khi hoàn thiện wireframe; tích hợp theo từng màn hình được duyệt với skeleton của Vũ. Không để việc chờ đủ mọi màn hình chặn toàn bộ component.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Component tái sử dụng và mo...**
+
+🟢 **	S2-WBS21	Code chọn công ty và Dashboard bằng mock	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; khô...**
+
+🟢 **Kết quả cần có: Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệu. UI và người làm DB dùng cùng tên trường.	Thái Quốc Hưng	Đã hoàn thành	2	1	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng ERD Sprint 1 để chốt company\_id, loại nguồn, URL, ngày công bố/lấy, hash, phiên bản, kỳ, đơn vị và vị trí nguồn. Thống nhất mẫu facts và News với UI; không vẽ lại ERD từ đầu.	Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ li...**
+
+🟢 **Kết quả cần có: News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề. Bài thiếu ngày/công ty rõ ràng được cách ly.	Thái Quốc Hưng	Đã hoàn thành	5		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Sprin...**
+
+🟢 **Kết quả cần có: Component tái sử dụng và mock tách riêng, có trạng thái đủ/rỗng/lỗi và hướng dẫn đổi API; tích hợp được với các màn hình đã duyệt.	Hồ Phạm Đăng Nhân	Đã hoàn thành	8		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Nhân cấu hình bảng/form/nút/filter/modal và fixture đủ/rỗng/lỗi từ schema chung, quy tắc visual đã có. Có thể làm component và mock độc lập trong khi hoàn thiện wireframe; tích hợp theo từng màn hình được duyệt với s...**
+
+🟢 **Kết quả cần có: Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; không chỉ bàn giao ảnh thiết kế.	Hồ Phạm Đăng Nhân	Đã hoàn thành	7		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Màn hình code chạy...**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	5	0.0641025641025641	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G01	2	Chốt phạm vi và nguồn BCTC, BCTN, News	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	2	1	0.5	Đang làm	5	1	Sprint 2 Backlog**
+
+🟢 **Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G03	2	Trích và chuẩn hóa báo cáo, News	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	3	1	0.3333333333333333	Đang làm	18		Sprint 2 Backlog**
+
+🟢 **Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G06	2	Code skeleton và lớp dữ liệu mẫu	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	1	0.25	Đang làm	23		Sprint 2 Backlog**
+
+🟢 **Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G07	2	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	4	1	0.25	Đang làm	26		Sprint 2 Backlog**
+
+🟢 **Task đã hoàn thành	48		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.22429906542056074		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **S2-WBS02: Rà schema chung và mẫu dữ liệu bàn giao	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	2	1	0.5	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **S2-WBS08: Chuẩn hóa News và loại bản trùng	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	3	1	0.3333333333333333	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **S2-WBS20: Chốt API adapter và trạng thái UI dùng chung	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	1	0.25	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **S2-WBS24: Code Graph Viewer mẫu bằng thư viện sẵn có	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	4	1	0.25	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S2-WBS02	Rà schema chung và mẫu dữ liệu bàn giao	Chốt phạm vi và nguồn BCTC, BCTN, News	Dùng ERD Sprint 1 để chốt company\_id, loại nguồn, URL, ngày công bố/lấy, hash, phiên bản, kỳ, đơn vị và vị trí nguồn. Thống nhất mẫu facts và News với UI; không vẽ lại ERD từ đầu.	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệu. UI và người làm DB dùng cùng tên trường.	Ước lượng lại khi tái...~~
+
+~~	S2-WBS08	Chuẩn hóa News và loại bản trùng	Trích và chuẩn hóa báo cáo, News	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Sprint 2.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề...~~
+
+~~	S2-WBS18	Code component chung và dữ liệu mock	Code skeleton và lớp dữ liệu mẫu	Nhân cấu hình bảng/form/nút/filter/modal và fixture đủ/rỗng/lỗi từ schema chung, quy tắc visual đã có. Có thể làm component và mock độc lập trong khi hoàn thiện wireframe; tích hợp theo từng màn hình được duyệt với skeleton của Vũ. Không để việc chờ đủ mọi màn hình chặn toàn bộ component.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Component tái sử dụng và mo...~~
+
+~~	S2-WBS21	Code chọn công ty và Dashboard bằng mock	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; khô...~~
+
+~~Kết quả cần có: Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệu. UI và người làm DB dùng cùng tên trường.	Thái Quốc Hưng	Chưa bắt đầu	2	1	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng ERD Sprint 1 để chốt company\_id, loại nguồn, URL, ngày công bố/lấy, hash, phiên bản, kỳ, đơn vị và vị trí nguồn. Thống nhất mẫu facts và News với UI; không vẽ lại ERD từ đầu.	Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệ...~~
+
+~~Kết quả cần có: News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề. Bài thiếu ngày/công ty rõ ràng được cách ly.	Thái Quốc Hưng	Chưa bắt đầu	5		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Sprint...~~
+
+~~Kết quả cần có: Component tái sử dụng và mock tách riêng, có trạng thái đủ/rỗng/lỗi và hướng dẫn đổi API; tích hợp được với các màn hình đã duyệt.	Hồ Phạm Đăng Nhân	Đang làm	8		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Nhân cấu hình bảng/form/nút/filter/modal và fixture đủ/rỗng/lỗi từ schema chung, quy tắc visual đã có. Có thể làm component và mock độc lập trong khi hoàn thiện wireframe; tích hợp theo từng màn hình được duyệt với skelet...~~
+
+~~Kết quả cần có: Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; không chỉ bàn giao ảnh thiết kế.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	7		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Màn hình code chạy ...~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	1	0.01282051282051282	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G01	2	Chốt phạm vi và nguồn BCTC, BCTN, News	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	5	1	Sprint 2 Backlog~~
+
+~~Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G03	2	Trích và chuẩn hóa báo cáo, News	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	3	0	0	Chưa bắt đầu	18		Sprint 2 Backlog~~
+
+~~Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G06	2	Code skeleton và lớp dữ liệu mẫu	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Đang làm	23		Sprint 2 Backlog~~
+
+~~Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G07	2	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	26		Sprint 2 Backlog~~
+
+~~Task đã hoàn thành	44		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.205607476635514		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~S2-WBS02: Rà schema chung và mẫu dữ liệu bàn giao	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~S2-WBS08: Chuẩn hóa News và loại bản trùng	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	3	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~S2-WBS20: Chốt API adapter và trạng thái UI dùng chung	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~S2-WBS24: Code Graph Viewer mẫu bằng thư viện sẵn có	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-05 15:27 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
