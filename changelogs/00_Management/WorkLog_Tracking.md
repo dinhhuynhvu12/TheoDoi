@@ -1,5 +1,21 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-06 14:57 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-06 14:57
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS19	Code routes và giao diện truy cập bằng phiên mẫu	Code skeleton và lớp dữ liệu mẫu	Huyền dùng router chung để nối màn hình, code form login/resgister, phiên hết hạn và vai trò mẫu. Có thể chuẩn bị route map và phiên mẫu từ sitemap trong khi Nhân làm wireframe; chỉ ghép layout và smoke test điều hướng khi skeleton/component sẵn sàng. Không triển khai API auth/RBAC thật hoặc coi ẩn nút là bảo mật.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API ...**
+
+🟢 **Cách làm: Huyền dùng router chung để nối màn hình, code form login/resgister, phiên hết hạn và vai trò mẫu. Có thể chuẩn bị route map và phiên mẫu từ sitemap trong khi Nhân làm wireframe; chỉ ghép layout và smoke test điều hướng khi skeleton/component sẵn sàng. Không triển khai API auth/RBAC thật hoặc coi ẩn nút là bảo mật.**
+
+~~	S2-WBS19	Code routes và giao diện truy cập bằng phiên mẫu	Code skeleton và lớp dữ liệu mẫu	Huyền dùng router chung để nối màn hình, code form login/logout, phiên hết hạn và vai trò mẫu. Có thể chuẩn bị route map và phiên mẫu từ sitemap trong khi Nhân làm wireframe; chỉ ghép layout và smoke test điều hướng khi skeleton/component sẵn sàng. Không triển khai API auth/RBAC thật hoặc coi ẩn nút là bảo mật.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tác...~~
+
+~~Cách làm: Huyền dùng router chung để nối màn hình, code form login/logout, phiên hết hạn và vai trò mẫu. Có thể chuẩn bị route map và phiên mẫu từ sitemap trong khi Nhân làm wireframe; chỉ ghép layout và smoke test điều hướng khi skeleton/component sẵn sàng. Không triển khai API auth/RBAC thật hoặc coi ẩn nút là bảo mật.~~
+
 ## 2026-10-06 14:17 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
