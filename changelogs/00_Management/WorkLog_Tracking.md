@@ -1,5 +1,65 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-07 09:47 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-07 09:47
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS22	Code Copilot và so sánh bằng component chung	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng form, chat/result và bảng chung để nhập câu hỏi, chọn công ty/kỳ, xem response/so sánh mẫu. Thêm partial/insufficient-data/refusal và retry; không làm streaming tùy biến, backend RAG hoặc tư vấn đầu tư.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Các luồng đã chốt chạy với mock và nhãn rõ; filter/payload đúng, kết quả chờ/lỗi/thiếu ...**
+
+🟢 **	S2-WBS23	Code nguồn, history, watchlist và feedback bằng mock	Code màn hình nghiên cứu bằng dữ liệu mẫu	Tái dùng modal/detail/list/form để mở citation ID, xem locator/fact/provenance, xem/xóa history, pin/unpin và feedback. Chỉ mô phỏng lưu theo user, chưa xây backend lưu trữ; xác nhận thao tác xóa và thử lỗi bằng fixture.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Các luồng MVP chạy được với mock, không trùng watchlist và không m...**
+
+🟢 **	S2-WBS28	Lead UI review bản code và nghiệm thu bàn giao	Nghiệm thu dữ liệu và frontend, bàn giao	Huyền đối chiếu code của Vũ/Nhân với bản thiết kế và prototype, chạy smoke test màn hình/route/trạng thái bằng mock trên bản build sạch. Ghi lỗi chặn về đúng task để chủ task sửa, xác nhận lại sau sửa; không làm lại toàn bộ QA.	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	Có checklist đối chiếu thiết kế–code và biên bản...**
+
+🟢 **Kết quả cần có: Các luồng đã chốt chạy với mock và nhãn rõ; filter/payload đúng, kết quả chờ/lỗi/thiếu không bị hiển thị như verified.	Trần Diệu Huyền	Đã hoàn thành	6		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng form, chat/result và bảng chung để nhập câu hỏi, chọn công ty/kỳ, xem response/so sánh mẫu. Thêm partial/insufficient-data/refusal và retry; không làm streaming tùy biến, backend RAG hoặc tư vấn đầu tư.	Các luồng đã chốt chạy...**
+
+🟢 **Kết quả cần có: Các luồng MVP chạy được với mock, không trùng watchlist và không mở URL client tùy ý. Không có xuất PDF/Markdown; thiếu API thật được ghi rõ.	Trần Diệu Huyền	Đã hoàn thành	6		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng modal/detail/list/form để mở citation ID, xem locator/fact/provenance, xem/xóa history, pin/unpin và feedback. Chỉ mô phỏng lưu theo user, chưa xây backend lưu trữ; xác nhận thao tác xóa và thử lỗi ...**
+
+🟢 **Kết quả cần có: Có checklist đối chiếu thiết kế–code và biên bản review UI, bản build chạy được; màn hình lệch thiết kế hoặc lỗi chặn chưa sửa thì chưa ký bàn giao.	Trần Diệu Huyền	Đã hoàn thành	2		Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền đối chiếu code của Vũ/Nhân với bản thiết kế và prototype, chạy smoke test màn hình/route/trạng thái bằng mock trên bản build sạch. Ghi lỗi chặn về đúng task để chủ task sửa, xác nhận lại sau sửa...**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	12	0.15384615384615385	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G07	2	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	4	3	0.75	Đang làm	26		Sprint 2 Backlog**
+
+🟢 **Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G09	2	Nghiệm thu dữ liệu và frontend, bàn giao	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	2	1	0.5	Đang làm	6		Sprint 2 Backlog**
+
+🟢 **Task đã hoàn thành	57		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.26635514018691586		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **S2-WBS24: Code Graph Viewer mẫu bằng thư viện sẵn có	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	4	3	0.75	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **S2-WBS28: Kiểm build, review UI và bàn giao source	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	2	1	0.5	Đang làm	Khoảng 22 giờ cho tích hợp, review và sửa lỗi.**
+
+~~	S2-WBS22	Code Copilot và so sánh bằng component chung	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng form, chat/result và bảng chung để nhập câu hỏi, chọn công ty/kỳ, xem response/so sánh mẫu. Thêm partial/insufficient-data/refusal và retry; không làm streaming tùy biến, backend RAG hoặc tư vấn đầu tư.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Các luồng đã chốt chạy với mock và nhãn rõ; filter/payload đúng, kết quả chờ/lỗi/thiếu ...~~
+
+~~	S2-WBS23	Code nguồn, history, watchlist và feedback bằng mock	Code màn hình nghiên cứu bằng dữ liệu mẫu	Tái dùng modal/detail/list/form để mở citation ID, xem locator/fact/provenance, xem/xóa history, pin/unpin và feedback. Chỉ mô phỏng lưu theo user, chưa xây backend lưu trữ; xác nhận thao tác xóa và thử lỗi bằng fixture.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Các luồng MVP chạy được với mock, không trùng watchlist và không m...~~
+
+~~	S2-WBS28	Lead UI review bản code và nghiệm thu bàn giao	Nghiệm thu dữ liệu và frontend, bàn giao	Huyền đối chiếu code của Vũ/Nhân với bản thiết kế và prototype, chạy smoke test màn hình/route/trạng thái bằng mock trên bản build sạch. Ghi lỗi chặn về đúng task để chủ task sửa, xác nhận lại sau sửa; không làm lại toàn bộ QA.	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	Có checklist đối chiếu thiết kế–code và biên bản...~~
+
+~~Kết quả cần có: Các luồng đã chốt chạy với mock và nhãn rõ; filter/payload đúng, kết quả chờ/lỗi/thiếu không bị hiển thị như verified.	Trần Diệu Huyền	Chưa bắt đầu	6		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng form, chat/result và bảng chung để nhập câu hỏi, chọn công ty/kỳ, xem response/so sánh mẫu. Thêm partial/insufficient-data/refusal và retry; không làm streaming tùy biến, backend RAG hoặc tư vấn đầu tư.	Các luồng đã chốt chạy ...~~
+
+~~Kết quả cần có: Các luồng MVP chạy được với mock, không trùng watchlist và không mở URL client tùy ý. Không có xuất PDF/Markdown; thiếu API thật được ghi rõ.	Trần Diệu Huyền	Chưa bắt đầu	6		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng modal/detail/list/form để mở citation ID, xem locator/fact/provenance, xem/xóa history, pin/unpin và feedback. Chỉ mô phỏng lưu theo user, chưa xây backend lưu trữ; xác nhận thao tác xóa và thử lỗi b...~~
+
+~~Kết quả cần có: Có checklist đối chiếu thiết kế–code và biên bản review UI, bản build chạy được; màn hình lệch thiết kế hoặc lỗi chặn chưa sửa thì chưa ký bàn giao.	Trần Diệu Huyền	Chưa bắt đầu	2		Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền đối chiếu code của Vũ/Nhân với bản thiết kế và prototype, chạy smoke test màn hình/route/trạng thái bằng mock trên bản build sạch. Ghi lỗi chặn về đúng task để chủ task sửa, xác nhận lại sau sửa;...~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	9	0.11538461538461539	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G07	2	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	4	1	0.25	Đang làm	26		Sprint 2 Backlog~~
+
+~~Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G09	2	Nghiệm thu dữ liệu và frontend, bàn giao	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	6		Sprint 2 Backlog~~
+
+~~Task đã hoàn thành	54		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.2523364485981308		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~S2-WBS24: Code Graph Viewer mẫu bằng thư viện sẵn có	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	4	1	0.25	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~S2-WBS28: Kiểm build, review UI và bàn giao source	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	Khoảng 22 giờ cho tích hợp, review và sửa lỗi.~~
+
 ## 2026-10-07 09:32 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
