@@ -1,5 +1,41 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-07 10:47 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-07 10:47
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS20	Lead UI review theo mốc và bàn giao thiết kế/API	Code skeleton và lớp dữ liệu mẫu	Huyền review từng mốc wireframe của Nhân ngay khi bàn giao, ghi rõ màn hình đã duyệt/chờ sửa và bàn giao cho Vũ bắt đầu prototype phần tương ứng. Sau đó review prototype đầy đủ so với sitemap, wireframe, visual; chốt tên trường payload/trace\_id/citation\_id cho mock adapter. Không ký nghiệm thu cả task khi còn mốc hoặc lỗi chặn chưa xong.	Frontend source chạy/build được, component/route/trạng thái truy cập...**
+
+🟢 **Kết quả cần có: Có checklist duyệt từng mốc wireframe, review prototype, danh sách lỗi chặn và bộ file thiết kế/API mock bàn giao; chỉ chốt khi đủ hai mốc.	Trần Diệu Huyền	Đã hoàn thành	4		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền review từng mốc wireframe của Nhân ngay khi bàn giao, ghi rõ màn hình đã duyệt/chờ sửa và bàn giao cho Vũ bắt đầu prototype phần tương ứng. Sau đó review prototype đầy đủ so với sitemap, wireframe, visua...**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	14	0.1794871794871795	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G06	2	Code skeleton và lớp dữ liệu mẫu	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	4	1	Đã hoàn thành	23		Sprint 2 Backlog**
+
+🟢 **Task đã hoàn thành	59		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.2757009345794392		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **S2-WBS20: Chốt API adapter và trạng thái UI dùng chung	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	4	1	Đã hoàn thành	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S2-WBS20	Lead UI review theo mốc và bàn giao thiết kế/API	Code skeleton và lớp dữ liệu mẫu	Huyền review từng mốc wireframe của Nhân ngay khi bàn giao, ghi rõ màn hình đã duyệt/chờ sửa và bàn giao cho Vũ bắt đầu prototype phần tương ứng. Sau đó review prototype đầy đủ so với sitemap, wireframe, visual; chốt tên trường payload/trace\_id/citation\_id cho mock adapter. Không ký nghiệm thu cả task khi còn mốc hoặc lỗi chặn chưa xong.	Frontend source chạy/build được, component/route/trạng thái truy cập...~~
+
+~~Kết quả cần có: Có checklist duyệt từng mốc wireframe, review prototype, danh sách lỗi chặn và bộ file thiết kế/API mock bàn giao; chỉ chốt khi đủ hai mốc.	Trần Diệu Huyền	Chưa bắt đầu	4		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền review từng mốc wireframe của Nhân ngay khi bàn giao, ghi rõ màn hình đã duyệt/chờ sửa và bàn giao cho Vũ bắt đầu prototype phần tương ứng. Sau đó review prototype đầy đủ so với sitemap, wireframe, visual...~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	13	0.16666666666666666	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G06	2	Code skeleton và lớp dữ liệu mẫu	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	3	0.75	Đang làm	23		Sprint 2 Backlog~~
+
+~~Task đã hoàn thành	58		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.27102803738317754		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~S2-WBS20: Chốt API adapter và trạng thái UI dùng chung	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	3	0.75	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-07 10:17 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
