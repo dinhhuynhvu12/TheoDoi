@@ -1,5 +1,57 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-07 09:22 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-07 09:22
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS16	Dựng prototype bấm thử từ bản thiết kế đã duyệt	Hoàn tất thiết kế UI và prototype	Vũ dựng prototype từng màn hình ngay sau khi wireframe mốc tương ứng được Huyền duyệt và có visual áp dụng; làm trước luồng chọn công ty → Dashboard → Copilot → citation, rồi nối các màn hình còn lại khi mốc 2 sẵn sàng. Ghi rõ phần nào là prototype đã duyệt, phần nào đang chờ; không tự đoán bố cục chưa được duyệt.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Có...**
+
+🟢 **	S2-WBS17	Code project frontend và layout skeleton	Code skeleton và lớp dữ liệu mẫu	Vũ dựng project frontend, lệnh chạy/build, cấu hình môi trường và mock adapter từ repository Sprint 1 trước khi nhận đủ wireframe. Chỉ ghép menu/layout của từng màn hình sau khi wireframe và visual mốc đó được duyệt; giữ chỗ rõ ràng cho phần chưa duyệt, không coi khung tạm là giao diện hoàn chỉnh.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Source clone/c...**
+
+🟢 **Kết quả cần có: Có link/file prototype bấm thử cho đầy đủ màn hình và trạng thái lỗi mẫu, khớp cả hai mốc wireframe/visual; Huyền review và Vũ sửa lỗi chặn. Prototype mốc 1 chỉ là bàn giao trung gian, chưa được tính hoàn thành WBS20.	Đinh Huỳnh Vũ	Đã hoàn thành	7		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Vũ dựng prototype từng màn hình ngay sau khi wireframe mốc tương ứng được Huyền duyệt và có visual áp dụng; làm trước luồng chọn công...**
+
+🟢 **Kết quả cần có: Source clone/cài/chạy/build được theo README; khung trang hoạt động, không có secrets; layout cuối khớp màn hình đã duyệt.	Đinh Huỳnh Vũ	Đã hoàn thành	6		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Vũ dựng project frontend, lệnh chạy/build, cấu hình môi trường và mock adapter từ repository Sprint 1 trước khi nhận đủ wireframe. Chỉ ghép menu/layout của từng màn hình sau khi wireframe và visual mốc đó được duyệt; giữ chỗ rõ ...**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	8	0.10256410256410256	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G05	2	Thiết kế UI, wireframe và prototype đã review	Thiết kế được bàn giao theo hai mốc có Huyền duyệt: mốc 1 chọn công ty, Dashboard, Copilot, citation; mốc 2 history/watchlist, Graph Viewer, trang vận hành/evaluator. Vũ chỉ bắt đầu prototype/code bố cục cho màn hình đã duyệt; toàn bộ thiết kế/prototype chỉ được nghiệm thu khi đủ hai mốc.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	...**
+
+🟢 **Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G06	2	Code skeleton và lớp dữ liệu mẫu	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	3	0.75	Đang làm	23		Sprint 2 Backlog**
+
+🟢 **Task đã hoàn thành	53		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.24766355140186916		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **S2-WBS16: Dựng prototype bấm thử từ bản thiết kế đã duyệt	Thiết kế được bàn giao theo hai mốc có Huyền duyệt: mốc 1 chọn công ty, Dashboard, Copilot, citation; mốc 2 history/watchlist, Graph Viewer, trang vận hành/evaluator. Vũ chỉ bắt đầu prototype/code bố cục cho màn hình đã duyệt; toàn bộ thiết kế/prototype chỉ được nghiệm thu khi đủ hai mốc.	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	4	1	Đã hoàn thành	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **S2-WBS20: Chốt API adapter và trạng thái UI dùng chung	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	3	0.75	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S2-WBS16	Dựng prototype bấm thử từ bản thiết kế đã duyệt	Hoàn tất thiết kế UI và prototype	Vũ dựng prototype từng màn hình ngay sau khi wireframe mốc tương ứng được Huyền duyệt và có visual áp dụng; làm trước luồng chọn công ty → Dashboard → Copilot → citation, rồi nối các màn hình còn lại khi mốc 2 sẵn sàng. Ghi rõ phần nào là prototype đã duyệt, phần nào đang chờ; không tự đoán bố cục chưa được duyệt.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Có...~~
+
+~~	S2-WBS17	Code project frontend và layout skeleton	Code skeleton và lớp dữ liệu mẫu	Vũ dựng project frontend, lệnh chạy/build, cấu hình môi trường và mock adapter từ repository Sprint 1 trước khi nhận đủ wireframe. Chỉ ghép menu/layout của từng màn hình sau khi wireframe và visual mốc đó được duyệt; giữ chỗ rõ ràng cho phần chưa duyệt, không coi khung tạm là giao diện hoàn chỉnh.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Source clone/c...~~
+
+~~Kết quả cần có: Có link/file prototype bấm thử cho đầy đủ màn hình và trạng thái lỗi mẫu, khớp cả hai mốc wireframe/visual; Huyền review và Vũ sửa lỗi chặn. Prototype mốc 1 chỉ là bàn giao trung gian, chưa được tính hoàn thành WBS20.	Đinh Huỳnh Vũ	Đang làm	7		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Vũ dựng prototype từng màn hình ngay sau khi wireframe mốc tương ứng được Huyền duyệt và có visual áp dụng; làm trước luồng chọn công ty →...~~
+
+~~Kết quả cần có: Source clone/cài/chạy/build được theo README; khung trang hoạt động, không có secrets; layout cuối khớp màn hình đã duyệt.	Đinh Huỳnh Vũ	Chưa bắt đầu	6		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Vũ dựng project frontend, lệnh chạy/build, cấu hình môi trường và mock adapter từ repository Sprint 1 trước khi nhận đủ wireframe. Chỉ ghép menu/layout của từng màn hình sau khi wireframe và visual mốc đó được duyệt; giữ chỗ rõ r...~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	6	0.07692307692307693	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G05	2	Thiết kế UI, wireframe và prototype đã review	Thiết kế được bàn giao theo hai mốc có Huyền duyệt: mốc 1 chọn công ty, Dashboard, Copilot, citation; mốc 2 history/watchlist, Graph Viewer, trang vận hành/evaluator. Vũ chỉ bắt đầu prototype/code bố cục cho màn hình đã duyệt; toàn bộ thiết kế/prototype chỉ được nghiệm thu khi đủ hai mốc.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	...~~
+
+~~Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G06	2	Code skeleton và lớp dữ liệu mẫu	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	2	0.5	Đang làm	23		Sprint 2 Backlog~~
+
+~~Task đã hoàn thành	51		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.2383177570093458		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~S2-WBS16: Dựng prototype bấm thử từ bản thiết kế đã duyệt	Thiết kế được bàn giao theo hai mốc có Huyền duyệt: mốc 1 chọn công ty, Dashboard, Copilot, citation; mốc 2 history/watchlist, Graph Viewer, trang vận hành/evaluator. Vũ chỉ bắt đầu prototype/code bố cục cho màn hình đã duyệt; toàn bộ thiết kế/prototype chỉ được nghiệm thu khi đủ hai mốc.	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	3	0.75	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~S2-WBS20: Chốt API adapter và trạng thái UI dùng chung	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	2	0.5	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-06 21:52 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
