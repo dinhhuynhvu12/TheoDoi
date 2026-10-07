@@ -1,5 +1,41 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-07 10:17 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-07 10:17
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS26	Code trang corpus, budget và traces theo template	Code màn hình quản trị và evaluator bằng mock	Dùng lại trang quản trị của task trước, thay schema/form/fixture cho manifest/promote/restore, ngưỡng/budget và trace. Kiểm giá trị và readiness mẫu, không làm backend quản lý cấu hình/audit hoặc telemetry thật.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Trang có đủ luồng MVP và trạng thái không đủ điều kiện/lỗi với...**
+
+🟢 **Kết quả cần có: Trang có đủ luồng MVP và trạng thái không đủ điều kiện/lỗi với mock, hợp đồng API thật được liệt kê.	Đinh Huỳnh Vũ	Đã hoàn thành	4		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng lại trang quản trị của task trước, thay schema/form/fixture cho manifest/promote/restore, ngưỡng/budget và trace. Kiểm giá trị và readiness mẫu, không làm backend quản lý cấu hình/audit hoặc telemetry thật.	Trang có đủ luồng MVP và trạng thái kh...**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	13	0.16666666666666666	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G08	2	Code màn hình quản trị và evaluator bằng mock	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	3	2	0.6666666666666666	Đang làm	14		Sprint 2 Backlog**
+
+🟢 **Task đã hoàn thành	58		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.27102803738317754		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **S2-WBS27: Code trang test set và evaluation theo template	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	3	2	0.6666666666666666	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S2-WBS26	Code trang corpus, budget và traces theo template	Code màn hình quản trị và evaluator bằng mock	Dùng lại trang quản trị của task trước, thay schema/form/fixture cho manifest/promote/restore, ngưỡng/budget và trace. Kiểm giá trị và readiness mẫu, không làm backend quản lý cấu hình/audit hoặc telemetry thật.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Trang có đủ luồng MVP và trạng thái không đủ điều kiện/lỗi với...~~
+
+~~Kết quả cần có: Trang có đủ luồng MVP và trạng thái không đủ điều kiện/lỗi với mock, hợp đồng API thật được liệt kê.	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng lại trang quản trị của task trước, thay schema/form/fixture cho manifest/promote/restore, ngưỡng/budget và trace. Kiểm giá trị và readiness mẫu, không làm backend quản lý cấu hình/audit hoặc telemetry thật.	Trang có đủ luồng MVP và trạng thái khô...~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	12	0.15384615384615385	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G08	2	Code màn hình quản trị và evaluator bằng mock	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	3	1	0.3333333333333333	Đang làm	14		Sprint 2 Backlog~~
+
+~~Task đã hoàn thành	57		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.26635514018691586		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~S2-WBS27: Code trang test set và evaluation theo template	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	3	1	0.3333333333333333	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-07 09:52 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
