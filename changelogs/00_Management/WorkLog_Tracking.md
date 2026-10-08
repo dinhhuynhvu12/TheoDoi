@@ -1,5 +1,27 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-08 20:47 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-08 20:47
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS01	Tên công việc	Người thực hiện	Trạng thái	Giờ	Ngày bắt đầu	Ngày kết thúc	Mô tả chi tiết	Kết quả đầu ra	Chốt phạm vi và nguồn BCTC, BCTN, News	#VALUE!	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Chưa bắt đầu	S2-G01	FinMind	2	3		Nguyễn Minh Quân	Mon Sep 28 2026 07:00:00 GMT+0700 (Indo...**
+
+🟢 **	Sprint 2	S2-WBS01	S2-G01	1	Tên công việc	Người thực hiện	Trạng thái	Giờ	Ngày bắt đầu	Ngày kết thúc	Mô tả chi tiết	Kết quả đầu ra**
+
+🟢 **Chốt hợp đồng dữ liệu đầu vào/đầu ra	Nguyễn Minh Quân	Chưa bắt đầu	3		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Gộp việc lập URL và kiểm quyền nguồn vào một bảng. Rà kết quả Sprint 1 cho 10 công ty; bổ sung URL thực, loại tài liệu, kỳ và khoảng ngày News. Ghi nguồn được phép dùng và các mục còn thiếu. Không nghiên cứu lại toàn bộ phạm vi đã chốt.	Một danh sách được nhóm duyệt, phân biệt đủ/thiếu và có URL kiểm tra được. Chưa có danh sác...**
+
+~~	S2-WBS01	Chốt phạm vi và danh sách nguồn BCTC, BCTN, News	Chốt phạm vi và nguồn BCTC, BCTN, News	Gộp việc lập URL và kiểm quyền nguồn vào một bảng. Rà kết quả Sprint 1 cho 10 công ty; bổ sung URL thực, loại tài liệu, kỳ và khoảng ngày News. Ghi nguồn được phép dùng và các mục còn thiếu. Không nghiên cứu lại toàn bộ phạm vi đã chốt.	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Một danh sách được nhóm duyệt, phân biệt đủ/thiếu và có URL ki...~~
+
+~~	Sprint 2	S2-WBS01	S2-G01	1	Chốt phạm vi và danh sách nguồn BCTC, BCTN, News~~
+
+~~Cách làm: Gộp việc lập URL và kiểm quyền nguồn vào một bảng. Rà kết quả Sprint 1 cho 10 công ty; bổ sung URL thực, loại tài liệu, kỳ và khoảng ngày News. Ghi nguồn được phép dùng và các mục còn thiếu. Không nghiên cứu lại toàn bộ phạm vi đã chốt.~~
+
+~~Kết quả cần có: Một danh sách được nhóm duyệt, phân biệt đủ/thiếu và có URL kiểm tra được. Chưa có danh sách hoặc nguồn thì chưa được coi xong.	Nguyễn Minh Quân	Chưa bắt đầu	3		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Gộp việc lập URL và kiểm quyền nguồn vào một bảng. Rà kết quả Sprint 1 cho 10 công ty; bổ sung URL thực, loại tài liệu, kỳ và khoảng ngày News. Ghi nguồn được phép dùng và các mục còn thiếu. Không nghiên cứu lại toàn bộ p...~~
+
 ## 2026-10-08 20:18 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
