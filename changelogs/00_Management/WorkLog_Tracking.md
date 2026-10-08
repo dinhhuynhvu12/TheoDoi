@@ -1,5 +1,59 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-08 20:52 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-08 20:52
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS01	Chốt hợp đồng dữ liệu đầu vào/đầu ra	Chốt phạm vi và nguồn BCTC, BCTN, News	#VALUE!	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Chưa bắt đầu	S2-G01	FinMind	2	3		Nguyễn Minh Quân	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S2-WBS03	Làm ổn định bộ thu thập dữ liệu (Collector	Cào đủ nguồn và lưu bản gốc theo phiên bản	#VALUE!	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Chưa bắt đầu	S2-G02	FinMind	2	5		Nguyễn Minh Quân	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Ti...**
+
+🟢 **	S2-WBS05	Chuẩn hóa dữ liệu số & Bảo toàn dữ liệu nguồn	Cào đủ nguồn và lưu bản gốc theo phiên bản	#VALUE!	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Chưa bắt đầu	S2-G02	FinMind	2	6		Nguyễn Minh Quân	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina...**
+
+🟢 **	S2-WBS06	Xây dựng bộ OCR Router bóc tách PDF (Text Layer - Tesseract)	Trích và chuẩn hóa báo cáo, News	#VALUE!	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Cao	Chưa bắt đầu	S2-G03	FinMind	2	6		Nguyễn Minh Quân	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 G...**
+
+🟢 **	Sprint 2	S2-WBS01	S2-G01	1	Chốt hợp đồng dữ liệu đầu vào/đầu ra	Nguyễn Minh Quân	Chưa bắt đầu	3		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Rà soát  giá, tỷ số, KQKD, CĐKT, LCTT; chốt schema raw/normalized; phân biệt kỳ quý và năm	Có schema thống nhất raw/normalized; JSON UTF-8 hợp lệ; xử lý an toàn NaN/null.	Kế thừa từ ERD PostgreSQL của Sprint 1.														**
+
+🟢 **	Sprint 2	S2-WBS03	S2-G02	1	Làm ổn định bộ thu thập dữ liệu (Collector	Nguyễn Minh Quân	Chưa bắt đầu	5		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy collector cào 10 mã (5 Bank + 5 Tech); bổ sung retry, timeout, cô lập lỗi từng mã để không dừng pipeline	Collector chạy ổn định 10 mã; log lỗi độc lập; có CLI chạy lại từng mã.	Hoàn thiện từ bộ cào mẫu Sprint 1.														**
+
+🟢 **	Sprint 2	S2-WBS05	S2-G02	2	Chuẩn hóa dữ liệu số & Bảo toàn dữ liệu nguồn	Nguyễn Minh Quân	Chưa bắt đầu	6		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Kho file PDF BCTC/BCTN mẫu đã tải từ Sprint 1; công cụ hệ thống (pdftotext, pdftoppm, tesseract tiếng Việt).	Dùng pdftotext đọc text có sẵn (lọc mojibake, chi phí 0đ); render ảnh 300 DPI, tự xoay trang và chạy Tesseract OCR tiếng Việt.	Nâng cấp từ module chuẩn hóa Sprint 1.														**
+
+🟢 **	Sprint 2	S2-WBS06	S2-G03	1	Xây dựng bộ OCR Router bóc tách PDF (Text Layer - Tesseract)	Nguyễn Minh Quân	Chưa bắt đầu	6		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng parser/thư viện trích xuất hiện có, giữ trang/mục/bảng/dòng. Nhận biết file scan và gọi công cụ OCR sẵn có khi cần, kiểm số với ảnh gốc. Không tự xây OCR hoặc mô hình nhận dạng bảng mới; file chưa đọc tin cậy đưa vào danh sách lỗi.	Mẫu hai ngành và BCTC/BCTN giữ đúng...**
+
+~~	S2-WBS01	Tên công việc	Người thực hiện	Trạng thái	Giờ	Ngày bắt đầu	Ngày kết thúc	Mô tả chi tiết	Kết quả đầu ra	Chốt phạm vi và nguồn BCTC, BCTN, News	#VALUE!	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Chưa bắt đầu	S2-G01	FinMind	2	3		Nguyễn Minh Quân	Mon Sep 28 2026 07:00:00 GMT+0700 (Indo...~~
+
+~~	S2-WBS03	Hoàn thiện bộ tải BCTC/BCTN và lưu bản gốc	Cào đủ nguồn và lưu bản gốc theo phiên bản	Tái dùng bộ tải mẫu Sprint 1. Bổ sung tải theo danh sách, timeout/retry, nhận file lỗi; lưu file gốc, URL, thời điểm lấy và SHA-256 ngay trong bộ tải. File giống nhau không tạo bản trùng, file đổi nội dung giữ phiên bản.	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Tải thử được BCTC và BCTN, mở lại được bản gốc và metadata; có log lỗi. Đã gồm phần ...~~
+
+~~	S2-WBS05	Chạy cào đủ danh sách và xử lý mục tải lỗi	Cào đủ nguồn và lưu bản gốc theo phiên bản	Chạy tự động trên danh sách được duyệt, theo dõi số cần lấy/đã lấy/lỗi và chạy lại mục lỗi. Giờ dự kiến là công sức theo dõi/xử lý, không tính thời gian máy chạy không cần người. Kiểm ranh giới ngày và phân trang.	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Độ phủ khớp danh sách bắt buộc; mục thiếu hoặc lỗi còn chặn thì task chưa xong. Không lấy v...~~
+
+~~	S2-WBS06	Trích văn bản/bảng và xử lý scan khi cần	Trích và chuẩn hóa báo cáo, News	Tái dùng parser/thư viện trích xuất hiện có, giữ trang/mục/bảng/dòng. Nhận biết file scan và gọi công cụ OCR sẵn có khi cần, kiểm số với ảnh gốc. Không tự xây OCR hoặc mô hình nhận dạng bảng mới; file chưa đọc tin cậy đưa vào danh sách lỗi.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Mẫu hai ngành và BCTC/BCTN giữ đúng locator. Số OCR được đố...~~
+
+~~	Sprint 2	S2-WBS01	S2-G01	1	Tên công việc	Người thực hiện	Trạng thái	Giờ	Ngày bắt đầu	Ngày kết thúc	Mô tả chi tiết	Kết quả đầu ra~~
+
+~~Chốt hợp đồng dữ liệu đầu vào/đầu ra	Nguyễn Minh Quân	Chưa bắt đầu	3		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Gộp việc lập URL và kiểm quyền nguồn vào một bảng. Rà kết quả Sprint 1 cho 10 công ty; bổ sung URL thực, loại tài liệu, kỳ và khoảng ngày News. Ghi nguồn được phép dùng và các mục còn thiếu. Không nghiên cứu lại toàn bộ phạm vi đã chốt.	Một danh sách được nhóm duyệt, phân biệt đủ/thiếu và có URL kiểm tra được. Chưa có danh sác...~~
+
+~~	Sprint 2	S2-WBS03	S2-G02	1	Hoàn thiện bộ tải BCTC/BCTN và lưu bản gốc~~
+
+~~Cách làm: Tái dùng bộ tải mẫu Sprint 1. Bổ sung tải theo danh sách, timeout/retry, nhận file lỗi; lưu file gốc, URL, thời điểm lấy và SHA-256 ngay trong bộ tải. File giống nhau không tạo bản trùng, file đổi nội dung giữ phiên bản.~~
+
+~~Kết quả cần có: Tải thử được BCTC và BCTN, mở lại được bản gốc và metadata; có log lỗi. Đã gồm phần lưu hash/version, không tách thêm task.	Nguyễn Minh Quân	Chưa bắt đầu	5		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng bộ tải mẫu Sprint 1. Bổ sung tải theo danh sách, timeout/retry, nhận file lỗi; lưu file gốc, URL, thời điểm lấy và SHA-256 ngay trong bộ tải. File giống nhau không tạo bản trùng, file đổi nội dung giữ phiên bản.	Tải ...~~
+
+~~	Sprint 2	S2-WBS05	S2-G02	2	Chạy cào đủ danh sách và xử lý mục tải lỗi~~
+
+~~Cách làm: Chạy tự động trên danh sách được duyệt, theo dõi số cần lấy/đã lấy/lỗi và chạy lại mục lỗi. Giờ dự kiến là công sức theo dõi/xử lý, không tính thời gian máy chạy không cần người. Kiểm ranh giới ngày và phân trang.~~
+
+~~Kết quả cần có: Độ phủ khớp danh sách bắt buộc; mục thiếu hoặc lỗi còn chặn thì task chưa xong. Không lấy vài mẫu để thay cho toàn bộ phạm vi.	Nguyễn Minh Quân	Chưa bắt đầu	6		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy tự động trên danh sách được duyệt, theo dõi số cần lấy/đã lấy/lỗi và chạy lại mục lỗi. Giờ dự kiến là công sức theo dõi/xử lý, không tính thời gian máy chạy không cần người. Kiểm ranh giới ngày và phân trang.	Độ phủ k...~~
+
+~~	Sprint 2	S2-WBS06	S2-G03	1	Trích văn bản/bảng và xử lý scan khi cần~~
+
+~~Cách làm: Tái dùng parser/thư viện trích xuất hiện có, giữ trang/mục/bảng/dòng. Nhận biết file scan và gọi công cụ OCR sẵn có khi cần, kiểm số với ảnh gốc. Không tự xây OCR hoặc mô hình nhận dạng bảng mới; file chưa đọc tin cậy đưa vào danh sách lỗi.~~
+
+~~Kết quả cần có: Mẫu hai ngành và BCTC/BCTN giữ đúng locator. Số OCR được đối chiếu; trường hợp chưa xử lý được không được xác nhận hợp lệ. Kiểm tiếp toàn bộ item khi chạy tuần 2.	Nguyễn Minh Quân	Chưa bắt đầu	6		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng parser/thư viện trích xuất hiện có, giữ trang/mục/bảng/dòng. Nhận biết file scan và gọi công cụ OCR sẵn có khi cần, kiểm số với ảnh gốc. Không tự xây OCR hoặc mô hình nhận dạng ...~~
+
 ## 2026-10-08 20:47 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
