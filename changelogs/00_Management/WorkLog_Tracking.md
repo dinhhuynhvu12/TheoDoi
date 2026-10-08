@@ -1,5 +1,49 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-08 20:57 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-08 20:57
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS07	Tích hợp LLM Vision (Gemini + OpenRouter) xử lý bảng scan	Trích và chuẩn hóa báo cáo, News	#VALUE!	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Chưa bắt đầu	S2-G03	FinMind	2	7		Nguyễn Minh Quân	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 ...**
+
+🟢 **	S2-WBS12	Đối soát chéo số liệu (Cross-check) chống sai lệch	Nghiệm thu dữ liệu và frontend, bàn giao	#VALUE!	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Chưa bắt đầu	S2-G09	FinMind	2	4		Nguyễn Minh Quân	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 202...**
+
+🟢 **	Sprint 2	S2-WBS03	S2-G02	1	Làm ổn định bộ thu thập dữ liệu (Collector	Nguyễn Minh Quân	Chưa bắt đầu	5		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy collector cào 10 mã (5 Bank + 5 Tech); bổ sung retry, timeout, cô lập lỗi từng mã để không dừng pipeline	Collector chạy ổn định 10 mã; log lỗi độc lập; có CLI chạy lại từng mã.	Collector chạy ổn định 10 mã; log lỗi độc lập; có CLI chạy lại từng mã.														**
+
+🟢 **	Sprint 2	S2-WBS05	S2-G02	2	Chuẩn hóa dữ liệu số & Bảo toàn dữ liệu nguồn	Nguyễn Minh Quân	Chưa bắt đầu	6		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	File raw JSON thu được từ Collector; quy tắc ép kiểu dữ liệu và chuẩn hóa kỳ báo cáo.	Chuẩn hóa key kỳ, ép kiểu số liệu; giữ nguyên bản raw; giữ nguyên key lạ chưa xác minh; tách biệt đơn vị VND, %, EPS.	Dữ liệu normalized truy ngược được về raw; không tự đoán hoặc làm mất key nguồn.							...**
+
+🟢 **	Sprint 2	S2-WBS06	S2-G03	1	Xây dựng bộ OCR Router bóc tách PDF (Text Layer - Tesseract)	Nguyễn Minh Quân	Chưa bắt đầu	6		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Kho file PDF BCTC/BCTN mẫu đã tải từ Sprint 1; công cụ hệ thống (pdftotext, pdftoppm, tesseract tiếng Việt).	Dùng pdftotext đọc text có sẵn (lọc mojibake, chi phí 0đ); render ảnh 300 DPI, tự xoay trang và chạy Tesseract OCR tiếng Việt.	Tuyến text\_layer chạy tức thì; trang sca...**
+
+🟢 **	Sprint 2	S2-WBS07	S2-G03	2	Tích hợp LLM Vision (Gemini + OpenRouter) xử lý bảng scan	Nguyễn Minh Quân	Chưa bắt đầu	7		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Ảnh PNG render từ các trang scan/bảng phức tạp; API Key Gemini và OpenRouter; JSON Schema yêu cầu.	Gọi Gemini 3.8 Flash ép JSON trích xuất bảng Markdown; thêm OpenRouter fallback; cache SHA-256; chặn rate limit 429.	LLM đọc nguyên văn bảng biểu, con dấu \[stamp\] cho các trang sca...**
+
+🟢 **	Sprint 2	S2-WBS12	S2-G09	2	Đối soát chéo số liệu (Cross-check) chống sai lệch	Nguyễn Minh Quân	Chưa bắt đầu	4		Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Bản text OCR từ Tesseract và bản text Markdown từ LLM của cùng một trang PDF.	Đối soát số giữa Tesseract và LLM (numberAgreement); gắn cờ NUMBERS\_UNVERIFIED cho trang BCTC lệch số; escalate model.	Loại bỏ rủi ro AI đọc sai số; gắn nhãn trạng thái OK/REVIEW trên từng trang.													...**
+
+~~	S2-WBS07	Chuẩn hóa dữ kiện và nội dung BCTC/BCTN	Trích và chuẩn hóa báo cáo, News	Dùng danh mục chỉ tiêu đã chốt và hàm chuẩn hóa mẫu Sprint 1. Chuẩn kỳ/ngày/đơn vị/dấu âm/scope, lưu giá trị gốc và chuyển đổi; giữ nội dung BCTN cùng locator. Chỉ bổ sung ánh xạ còn thiếu, không xây bộ hiểu mọi biểu mẫu.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Dữ kiện đúng company/metric/period/unit/scope và truy về nguồn; mâu thuẫn hoặc ...~~
+
+~~	S2-WBS12	Chốt manifest và bàn giao data cho Sprint 3	Nghiệm thu dữ liệu và frontend, bàn giao	Từ kết quả nạp, xuất danh sách item/hash/version/locator, schema và hướng dẫn đọc PostgreSQL. Ghi giới hạn, item bị cách ly và biên bản nghiệm thu. Cập nhật phần tài liệu bị ảnh hưởng, không làm lại bộ SRS/Proposal hoặc tổ chức thêm một task bàn giao chung.	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	Người nhận đọc lại đư...~~
+
+~~	Sprint 2	S2-WBS03	S2-G02	1	Làm ổn định bộ thu thập dữ liệu (Collector	Nguyễn Minh Quân	Chưa bắt đầu	5		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy collector cào 10 mã (5 Bank + 5 Tech); bổ sung retry, timeout, cô lập lỗi từng mã để không dừng pipeline	Collector chạy ổn định 10 mã; log lỗi độc lập; có CLI chạy lại từng mã.	Hoàn thiện từ bộ cào mẫu Sprint 1.														~~
+
+~~	Sprint 2	S2-WBS05	S2-G02	2	Chuẩn hóa dữ liệu số & Bảo toàn dữ liệu nguồn	Nguyễn Minh Quân	Chưa bắt đầu	6		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Kho file PDF BCTC/BCTN mẫu đã tải từ Sprint 1; công cụ hệ thống (pdftotext, pdftoppm, tesseract tiếng Việt).	Dùng pdftotext đọc text có sẵn (lọc mojibake, chi phí 0đ); render ảnh 300 DPI, tự xoay trang và chạy Tesseract OCR tiếng Việt.	Nâng cấp từ module chuẩn hóa Sprint 1.														~~
+
+~~	Sprint 2	S2-WBS06	S2-G03	1	Xây dựng bộ OCR Router bóc tách PDF (Text Layer - Tesseract)	Nguyễn Minh Quân	Chưa bắt đầu	6		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng parser/thư viện trích xuất hiện có, giữ trang/mục/bảng/dòng. Nhận biết file scan và gọi công cụ OCR sẵn có khi cần, kiểm số với ảnh gốc. Không tự xây OCR hoặc mô hình nhận dạng bảng mới; file chưa đọc tin cậy đưa vào danh sách lỗi.	Mẫu hai ngành và BCTC/BCTN giữ đúng...~~
+
+~~	Sprint 2	S2-WBS07	S2-G03	2	Chuẩn hóa dữ kiện và nội dung BCTC/BCTN~~
+
+~~Cách làm: Dùng danh mục chỉ tiêu đã chốt và hàm chuẩn hóa mẫu Sprint 1. Chuẩn kỳ/ngày/đơn vị/dấu âm/scope, lưu giá trị gốc và chuyển đổi; giữ nội dung BCTN cùng locator. Chỉ bổ sung ánh xạ còn thiếu, không xây bộ hiểu mọi biểu mẫu.~~
+
+~~Kết quả cần có: Dữ kiện đúng company/metric/period/unit/scope và truy về nguồn; mâu thuẫn hoặc chưa ánh xạ được phải cách ly. Không trộn quý riêng với lũy kế.	Nguyễn Minh Quân	Chưa bắt đầu	7		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng danh mục chỉ tiêu đã chốt và hàm chuẩn hóa mẫu Sprint 1. Chuẩn kỳ/ngày/đơn vị/dấu âm/scope, lưu giá trị gốc và chuyển đổi; giữ nội dung BCTN cùng locator. Chỉ bổ sung ánh xạ còn thiếu, không xây bộ hiể...~~
+
+~~	Sprint 2	S2-WBS12	S2-G09	2	Chốt manifest và bàn giao data cho Sprint 3~~
+
+~~Cách làm: Từ kết quả nạp, xuất danh sách item/hash/version/locator, schema và hướng dẫn đọc PostgreSQL. Ghi giới hạn, item bị cách ly và biên bản nghiệm thu. Cập nhật phần tài liệu bị ảnh hưởng, không làm lại bộ SRS/Proposal hoặc tổ chức thêm một task bàn giao chung.~~
+
+~~Kết quả cần có: Người nhận đọc lại được corpus chuẩn hóa, bản gốc và manifest; các mục bắt buộc đủ và không còn lỗi chặn mới được chốt. Vector/graph chưa được coi đã xây.	Nguyễn Minh Quân	Chưa bắt đầu	4		Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Từ kết quả nạp, xuất danh sách item/hash/version/locator, schema và hướng dẫn đọc PostgreSQL. Ghi giới hạn, item bị cách ly và biên bản nghiệm thu. Cập nhật phần tài liệu bị ảnh hưởng, không làm...~~
+
 ## 2026-10-08 20:52 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
