@@ -1,5 +1,37 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-08 21:02 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-08 21:02
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS05	Chuẩn hóa dữ liệu số & Bảo toàn dữ liệu nguồn	Cào đủ nguồn và lưu bản gốc theo phiên bản	#VALUE!	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Chưa bắt đầu	S2-G02	FinMind	2	6		Nguyễn Minh Quân	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina...**
+
+🟢 **Data: Nguyễn Minh Quân. Tuần 1 20h; tuần 2 11h. CẦN CHIA LẠI GIỜ**
+
+🟢 **	Sprint 2	S2-WBS01	S2-G01	1	Chốt hợp đồng dữ liệu đầu vào/đầu ra	Nguyễn Minh Quân	Chưa bắt đầu	3		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Rà soát giá, tỷ số, KQKD, CĐKT, LCTT; chốt schema raw/normalized; phân biệt quý/năm.	Có schema thống nhất raw/normalized; JSON UTF-8 hợp lệ; xử lý an toàn NaN/null.	ERD Sprint 1; mẫu payload API; danh sách 10 mã.														**
+
+🟢 **	Sprint 2	S2-WBS03	S2-G02	1	Làm ổn định bộ thu thập dữ liệu (Collector	Nguyễn Minh Quân	Chưa bắt đầu	5		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy collector cào 10 mã (5 Bank + 5 Tech); bổ sung retry, timeout, cô lập lỗi từng mã để không dừng pipeline	Collector chạy ổn định 10 mã; log lỗi độc lập; có CLI chạy lại từng mã.	Schema raw; endpoint API; danh sách 10 mã (5 Bank + 5 Tech).														**
+
+🟢 **	Sprint 2	S2-WBS05	S2-G02	1	Chuẩn hóa dữ liệu số & Bảo toàn dữ liệu nguồn	Nguyễn Minh Quân	Chưa bắt đầu	6		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	File raw JSON thu được từ Collector; quy tắc ép kiểu dữ liệu và chuẩn hóa kỳ báo cáo.	Chuẩn hóa key kỳ, ép kiểu số liệu; giữ nguyên bản raw; giữ nguyên key lạ chưa xác minh; tách biệt đơn vị VND, %, EPS.	Dữ liệu normalized truy ngược được về raw; không tự đoán hoặc làm mất key nguồn.							...**
+
+🟢 **	Sprint 2	S2-WBS06	S2-G03	1	Xây dựng bộ OCR Router bóc tách PDF (Text Layer - Tesseract)	Nguyễn Minh Quân	Chưa bắt đầu	6		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Kho file PDF BCTC/BCTN mẫu đã tải từ Sprint 1; công cụ hệ thống (pdftotext, pdftoppm, tesseract tiếng Việt).	Tuyến text\_layer chạy tức thì; trang scan có text và toạ độ BBox.	Tuyến text\_layer chạy tức thì; trang scan có text và toạ độ BBox từ Tesseract.														**
+
+~~	S2-WBS05	Chuẩn hóa dữ liệu số & Bảo toàn dữ liệu nguồn	Cào đủ nguồn và lưu bản gốc theo phiên bản	#VALUE!	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Chưa bắt đầu	S2-G02	FinMind	2	6		Nguyễn Minh Quân	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina...~~
+
+~~Data: Nguyễn Minh Quân. Tuần 1 14h; tuần 2 17h. CẦN CHIA LẠI GIỜ~~
+
+~~	Sprint 2	S2-WBS01	S2-G01	1	Chốt hợp đồng dữ liệu đầu vào/đầu ra	Nguyễn Minh Quân	Chưa bắt đầu	3		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Rà soát  giá, tỷ số, KQKD, CĐKT, LCTT; chốt schema raw/normalized; phân biệt kỳ quý và năm	Có schema thống nhất raw/normalized; JSON UTF-8 hợp lệ; xử lý an toàn NaN/null.	Kế thừa từ ERD PostgreSQL của Sprint 1.														~~
+
+~~	Sprint 2	S2-WBS03	S2-G02	1	Làm ổn định bộ thu thập dữ liệu (Collector	Nguyễn Minh Quân	Chưa bắt đầu	5		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy collector cào 10 mã (5 Bank + 5 Tech); bổ sung retry, timeout, cô lập lỗi từng mã để không dừng pipeline	Collector chạy ổn định 10 mã; log lỗi độc lập; có CLI chạy lại từng mã.	Collector chạy ổn định 10 mã; log lỗi độc lập; có CLI chạy lại từng mã.														~~
+
+~~	Sprint 2	S2-WBS05	S2-G02	2	Chuẩn hóa dữ liệu số & Bảo toàn dữ liệu nguồn	Nguyễn Minh Quân	Chưa bắt đầu	6		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	File raw JSON thu được từ Collector; quy tắc ép kiểu dữ liệu và chuẩn hóa kỳ báo cáo.	Chuẩn hóa key kỳ, ép kiểu số liệu; giữ nguyên bản raw; giữ nguyên key lạ chưa xác minh; tách biệt đơn vị VND, %, EPS.	Dữ liệu normalized truy ngược được về raw; không tự đoán hoặc làm mất key nguồn.							...~~
+
+~~	Sprint 2	S2-WBS06	S2-G03	1	Xây dựng bộ OCR Router bóc tách PDF (Text Layer - Tesseract)	Nguyễn Minh Quân	Chưa bắt đầu	6		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Kho file PDF BCTC/BCTN mẫu đã tải từ Sprint 1; công cụ hệ thống (pdftotext, pdftoppm, tesseract tiếng Việt).	Dùng pdftotext đọc text có sẵn (lọc mojibake, chi phí 0đ); render ảnh 300 DPI, tự xoay trang và chạy Tesseract OCR tiếng Việt.	Tuyến text\_layer chạy tức thì; trang sca...~~
+
 ## 2026-10-08 20:57 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
