@@ -1,5 +1,41 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-09 08:52 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-09 08:52
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	141	39	28 task; 142h.**
+
+🟢 **	S2-WBS14	Thiết kế wireframe và khung các màn hình	Hoàn tất thiết kế UI và prototype	Nhân dùng sitemap đã duyệt để vẽ wireframe chỉnh sửa được và bàn giao theo hai mốc: mốc 1 (29/09) gồm chọn công ty, Dashboard, Copilot và mở citation; mốc 2 (30/09) gồm history/watchlist, Graph Viewer, trang vận hành/evaluator. Mỗi mốc thể hiện menu, form, bộ lọc, dữ liệu, CTA, màn hình hẹp và liên kết qua lại. Huyền review từng mốc; Vũ chỉ làm trên màn hình đã được duyệt. Nếu mốc trễ, báo blocker trong Daily Sc...**
+
+🟢 **	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi	39																						**
+
+🟢 **Kết quả cần có: Mốc 1 và mốc 2 đều có link/file wireframe chỉnh sửa được và ý kiến duyệt của Huyền. Chỉ đánh dấu hoàn thành WBS18 khi đủ toàn bộ màn hình MVP và các lỗi điều hướng chặn đã sửa; bàn giao một mốc không đồng nghĩa hoàn thành cả task.	Hồ Phạm Đăng Nhân	Đã hoàn thành	5	10	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Nhân dùng sitemap đã duyệt để vẽ wireframe chỉnh sửa được và bàn giao theo hai mốc: mốc 1 (29/09) gồm chọn công ty...**
+
+🟢 **					Tổng giờ các task			141	39																			**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				39						3	6	6	4	3	2	0	3	3	3	3	3	0	0**
+
+🟢 **Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G05	2	Thiết kế UI, wireframe và prototype đã review	Thiết kế được bàn giao theo hai mốc có Huyền duyệt: mốc 1 chọn công ty, Dashboard, Copilot, citation; mốc 2 history/watchlist, Graph Viewer, trang vận hành/evaluator. Vũ chỉ bắt đầu prototype/code bố cục cho màn hình đã duyệt; toàn bộ thiết kế/prototype chỉ được nghiệm thu khi đủ hai mốc.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	...**
+
+~~								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	141	29	28 task; 142h.~~
+
+~~	S2-WBS14	Thiết kế wireframe và khung các màn hình	Hoàn tất thiết kế UI và prototype	Nhân dùng sitemap đã duyệt để vẽ wireframe chỉnh sửa được và bàn giao theo hai mốc: mốc 1 (29/09) gồm chọn công ty, Dashboard, Copilot và mở citation; mốc 2 (30/09) gồm history/watchlist, Graph Viewer, trang vận hành/evaluator. Mỗi mốc thể hiện menu, form, bộ lọc, dữ liệu, CTA, màn hình hẹp và liên kết qua lại. Huyền review từng mốc; Vũ chỉ làm trên màn hình đã được duyệt. Nếu mốc trễ, báo blocker trong Daily Sc...~~
+
+~~	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi	29																						~~
+
+~~Kết quả cần có: Mốc 1 và mốc 2 đều có link/file wireframe chỉnh sửa được và ý kiến duyệt của Huyền. Chỉ đánh dấu hoàn thành WBS18 khi đủ toàn bộ màn hình MVP và các lỗi điều hướng chặn đã sửa; bàn giao một mốc không đồng nghĩa hoàn thành cả task.	Hồ Phạm Đăng Nhân	Đã hoàn thành	5		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Nhân dùng sitemap đã duyệt để vẽ wireframe chỉnh sửa được và bàn giao theo hai mốc: mốc 1 (29/09) gồm chọn công ty, ...~~
+
+~~					Tổng giờ các task			141	29																			~~
+
+~~					Giờ thực tế theo ngày (tự tính)				29						0	3	3	3	3	2	0	3	3	3	3	3	0	0~~
+
+~~Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G05	2	Thiết kế UI, wireframe và prototype đã review	Thiết kế được bàn giao theo hai mốc có Huyền duyệt: mốc 1 chọn công ty, Dashboard, Copilot, citation; mốc 2 history/watchlist, Graph Viewer, trang vận hành/evaluator. Vũ chỉ bắt đầu prototype/code bố cục cho màn hình đã duyệt; toàn bộ thiết kế/prototype chỉ được nghiệm thu khi đủ hai mốc.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	...~~
+
 ## 2026-10-09 08:47 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
