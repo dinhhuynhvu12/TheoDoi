@@ -1,5 +1,65 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-09 09:02 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-09 09:02
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	141	69	28 task; 142h.**
+
+🟢 **	S2-WBS16	Dựng prototype bấm thử từ bản thiết kế đã duyệt	Hoàn tất thiết kế UI và prototype	Vũ dựng prototype từng màn hình ngay sau khi wireframe mốc tương ứng được Huyền duyệt và có visual áp dụng; làm trước luồng chọn công ty → Dashboard → Copilot → citation, rồi nối các màn hình còn lại khi mốc 2 sẵn sàng. Ghi rõ phần nào là prototype đã duyệt, phần nào đang chờ; không tự đoán bố cục chưa được duyệt.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Có...**
+
+🟢 **	S2-WBS18	Code component chung và dữ liệu mock	Code skeleton và lớp dữ liệu mẫu	Nhân cấu hình bảng/form/nút/filter/modal và fixture đủ/rỗng/lỗi từ schema chung, quy tắc visual đã có. Có thể làm component và mock độc lập trong khi hoàn thiện wireframe; tích hợp theo từng màn hình được duyệt với skeleton của Vũ. Không để việc chờ đủ mọi màn hình chặn toàn bộ component.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Component tái sử dụng và mo...**
+
+🟢 **	S2-WBS21	Code chọn công ty và Dashboard bằng mock	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; khô...**
+
+🟢 **	S2-WBS24	Code Graph Viewer mẫu bằng thư viện sẵn có	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng component/thư viện graph đã chọn, nạp fixture node/edge, chọn root, mở rộng tối đa hai hop và xem nguồn edge. Không tự viết thuật toán layout, animation hoặc Neo4j API trong task này.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Viewer thao tác được và mở đúng provenance mẫu; thử graph rỗng/lỗi, chặn hơn hai hop. Backend sẽ kiểm giới h...**
+
+🟢 **	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi	69																						**
+
+🟢 **Kết quả cần có: Có link/file prototype bấm thử cho đầy đủ màn hình và trạng thái lỗi mẫu, khớp cả hai mốc wireframe/visual; Huyền review và Vũ sửa lỗi chặn. Prototype mốc 1 chỉ là bàn giao trung gian, chưa được tính hoàn thành WBS20.	Đinh Huỳnh Vũ	Đã hoàn thành	7	10	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Vũ dựng prototype từng màn hình ngay sau khi wireframe mốc tương ứng được Huyền duyệt và có visual áp dụng; làm trước luồng chọn cô...**
+
+🟢 **Kết quả cần có: Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; không chỉ bàn giao ảnh thiết kế.	Hồ Phạm Đăng Nhân	Đã hoàn thành	7	7	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Màn hình code chạ...**
+
+🟢 **Kết quả cần có: Viewer thao tác được và mở đúng provenance mẫu; thử graph rỗng/lỗi, chặn hơn hai hop. Backend sẽ kiểm giới hạn khi nối thật.	Hồ Phạm Đăng Nhân	Đã hoàn thành	7	6	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng component/thư viện graph đã chọn, nạp fixture node/edge, chọn root, mở rộng tối đa hai hop và xem nguồn edge. Không tự viết thuật toán layout, animation hoặc Neo4j API trong task này.	Viewer thao tác được và mở đúng ...**
+
+🟢 **					Tổng giờ các task			141	69																			**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				69						6	9	6	6	6	6	0	6	6	6	6	6	0	0**
+
+🟢 **Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G05	2	Thiết kế UI, wireframe và prototype đã review	Thiết kế được bàn giao theo hai mốc có Huyền duyệt: mốc 1 chọn công ty, Dashboard, Copilot, citation; mốc 2 history/watchlist, Graph Viewer, trang vận hành/evaluator. Vũ chỉ bắt đầu prototype/code bố cục cho màn hình đã duyệt; toàn bộ thiết kế/prototype chỉ được nghiệm thu khi đủ hai mốc.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	...**
+
+🟢 **Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G07	2	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	4	4	1	Đã hoàn thành	26	13	Sprint 2 Backlog**
+
+~~								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	141	44	28 task; 142h.~~
+
+~~	S2-WBS16	Dựng prototype bấm thử từ bản thiết kế đã duyệt	Hoàn tất thiết kế UI và prototype	Vũ dựng prototype từng màn hình ngay sau khi wireframe mốc tương ứng được Huyền duyệt và có visual áp dụng; làm trước luồng chọn công ty → Dashboard → Copilot → citation, rồi nối các màn hình còn lại khi mốc 2 sẵn sàng. Ghi rõ phần nào là prototype đã duyệt, phần nào đang chờ; không tự đoán bố cục chưa được duyệt.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Có...~~
+
+~~	S2-WBS18	Code component chung và dữ liệu mock	Code skeleton và lớp dữ liệu mẫu	Nhân cấu hình bảng/form/nút/filter/modal và fixture đủ/rỗng/lỗi từ schema chung, quy tắc visual đã có. Có thể làm component và mock độc lập trong khi hoàn thiện wireframe; tích hợp theo từng màn hình được duyệt với skeleton của Vũ. Không để việc chờ đủ mọi màn hình chặn toàn bộ component.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Component tái sử dụng và mo...~~
+
+~~	S2-WBS21	Code chọn công ty và Dashboard bằng mock	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; khô...~~
+
+~~	S2-WBS24	Code Graph Viewer mẫu bằng thư viện sẵn có	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng component/thư viện graph đã chọn, nạp fixture node/edge, chọn root, mở rộng tối đa hai hop và xem nguồn edge. Không tự viết thuật toán layout, animation hoặc Neo4j API trong task này.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Viewer thao tác được và mở đúng provenance mẫu; thử graph rỗng/lỗi, chặn hơn hai hop. Backend sẽ kiểm giới h...~~
+
+~~	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi	46																						~~
+
+~~Kết quả cần có: Có link/file prototype bấm thử cho đầy đủ màn hình và trạng thái lỗi mẫu, khớp cả hai mốc wireframe/visual; Huyền review và Vũ sửa lỗi chặn. Prototype mốc 1 chỉ là bàn giao trung gian, chưa được tính hoàn thành WBS20.	Đinh Huỳnh Vũ	Đã hoàn thành	7		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Vũ dựng prototype từng màn hình ngay sau khi wireframe mốc tương ứng được Huyền duyệt và có visual áp dụng; làm trước luồng chọn công...~~
+
+~~Kết quả cần có: Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; không chỉ bàn giao ảnh thiết kế.	Hồ Phạm Đăng Nhân	Đã hoàn thành	7		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Màn hình code chạy...~~
+
+~~Kết quả cần có: Viewer thao tác được và mở đúng provenance mẫu; thử graph rỗng/lỗi, chặn hơn hai hop. Backend sẽ kiểm giới hạn khi nối thật.	Hồ Phạm Đăng Nhân	Đã hoàn thành	7		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng component/thư viện graph đã chọn, nạp fixture node/edge, chọn root, mở rộng tối đa hai hop và xem nguồn edge. Không tự viết thuật toán layout, animation hoặc Neo4j API trong task này.	Viewer thao tác được và mở đúng p...~~
+
+~~					Tổng giờ các task			141	46																			~~
+
+~~					Giờ thực tế theo ngày (tự tính)				46						3	6	6	6	6	2	0	5	3	3	3	3	0	0~~
+
+~~Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G05	2	Thiết kế UI, wireframe và prototype đã review	Thiết kế được bàn giao theo hai mốc có Huyền duyệt: mốc 1 chọn công ty, Dashboard, Copilot, citation; mốc 2 history/watchlist, Graph Viewer, trang vận hành/evaluator. Vũ chỉ bắt đầu prototype/code bố cục cho màn hình đã duyệt; toàn bộ thiết kế/prototype chỉ được nghiệm thu khi đủ hai mốc.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	...~~
+
+~~Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G07	2	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	4	4	1	Đã hoàn thành	26		Sprint 2 Backlog~~
+
 ## 2026-10-09 08:57 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
