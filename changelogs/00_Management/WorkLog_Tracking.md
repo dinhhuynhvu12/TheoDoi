@@ -1,5 +1,85 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-09 09:07 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-09 09:07
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	141	87	28 task; 142h.**
+
+🟢 **	S2-WBS17	Code project frontend và layout skeleton	Code skeleton và lớp dữ liệu mẫu	Vũ dựng project frontend, lệnh chạy/build, cấu hình môi trường và mock adapter từ repository Sprint 1 trước khi nhận đủ wireframe. Chỉ ghép menu/layout của từng màn hình sau khi wireframe và visual mốc đó được duyệt; giữ chỗ rõ ràng cho phần chưa duyệt, không coi khung tạm là giao diện hoàn chỉnh.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Source clone/c...**
+
+🟢 **	S2-WBS25	Code trang source, ingestion và quarantine theo template	Code màn hình quản trị và evaluator bằng mock	Dùng chung bảng/list/detail/form cho source, runs/counts/retries và quarantine. Đổi cấu hình/fixture theo trang thay vì viết một hệ thống quản trị riêng; thao tác quan trọng có xác nhận. Không gọi bộ cào thật từ mock UI.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Các màn hình operator trong checklist chạy với...**
+
+🟢 **	S2-WBS26	Code trang corpus, budget và traces theo template	Code màn hình quản trị và evaluator bằng mock	Dùng lại trang quản trị của task trước, thay schema/form/fixture cho manifest/promote/restore, ngưỡng/budget và trace. Kiểm giá trị và readiness mẫu, không làm backend quản lý cấu hình/audit hoặc telemetry thật.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Trang có đủ luồng MVP và trạng thái không đủ điều kiện/lỗi với...**
+
+🟢 **	S2-WBS27	Code trang test set và evaluation theo template	Code màn hình quản trị và evaluator bằng mock	Dùng bảng/form/detail chung để nhập/review/freeze ca mẫu, chọn B0–B3 và xem run/metrics fixture. Thêm calibration/final và quyền mẫu; chưa tạo 120 câu thật, chạy Ragas hoặc xây engine đánh giá.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Màn hình evaluator trong checklist thao tác được, phân biệt partial/completed/thiế...**
+
+🟢 **	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi	87																						**
+
+🟢 **Kết quả cần có: Source clone/cài/chạy/build được theo README; khung trang hoạt động, không có secrets; layout cuối khớp màn hình đã duyệt.	Đinh Huỳnh Vũ	Đã hoàn thành	6	3	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Vũ dựng project frontend, lệnh chạy/build, cấu hình môi trường và mock adapter từ repository Sprint 1 trước khi nhận đủ wireframe. Chỉ ghép menu/layout của từng màn hình sau khi wireframe và visual mốc đó được duyệt; giữ chỗ rõ...**
+
+🟢 **Kết quả cần có: Các màn hình operator trong checklist chạy với mock, có counts/reason/refresh-time và trạng thái lỗi; không lộ secrets.	Đinh Huỳnh Vũ	Đã hoàn thành	5	4	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng chung bảng/list/detail/form cho source, runs/counts/retries và quarantine. Đổi cấu hình/fixture theo trang thay vì viết một hệ thống quản trị riêng; thao tác quan trọng có xác nhận. Không gọi bộ cào thật từ mock UI.	Các màn h...**
+
+🟢 **Kết quả cần có: Trang có đủ luồng MVP và trạng thái không đủ điều kiện/lỗi với mock, hợp đồng API thật được liệt kê.	Đinh Huỳnh Vũ	Đã hoàn thành	4	6	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng lại trang quản trị của task trước, thay schema/form/fixture cho manifest/promote/restore, ngưỡng/budget và trace. Kiểm giá trị và readiness mẫu, không làm backend quản lý cấu hình/audit hoặc telemetry thật.	Trang có đủ luồng MVP và trạng thái k...**
+
+🟢 **Kết quả cần có: Màn hình evaluator trong checklist thao tác được, phân biệt partial/completed/thiếu trace và không hiển thị điểm giả như kết quả thật.	Đinh Huỳnh Vũ	Đã hoàn thành	5	5	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng bảng/form/detail chung để nhập/review/freeze ca mẫu, chọn B0–B3 và xem run/metrics fixture. Thêm calibration/final và quyền mẫu; chưa tạo 120 câu thật, chạy Ragas hoặc xây engine đánh giá.	Màn hình evaluator tr...**
+
+🟢 **					Tổng giờ các task			141	87																			**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				87						6	9	9	9	7	6	0	9	9	9	7	7	0	0**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	19	0.24358974358974358	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G06	2	Code skeleton và lớp dữ liệu mẫu	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	4	1	Đã hoàn thành	23	10	Sprint 2 Backlog**
+
+🟢 **Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G08	2	Code màn hình quản trị và evaluator bằng mock	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	3	3	1	Đã hoàn thành	14	15	Sprint 2 Backlog**
+
+🟢 **Task đã hoàn thành	64		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.29906542056074764		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **S2-WBS27: Code trang test set và evaluation theo template	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	3	3	1	Đã hoàn thành	Ngày và phân công là kế hoạch đề xuất.**
+
+~~								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	141	69	28 task; 142h.~~
+
+~~	S2-WBS17	Code project frontend và layout skeleton	Code skeleton và lớp dữ liệu mẫu	Vũ dựng project frontend, lệnh chạy/build, cấu hình môi trường và mock adapter từ repository Sprint 1 trước khi nhận đủ wireframe. Chỉ ghép menu/layout của từng màn hình sau khi wireframe và visual mốc đó được duyệt; giữ chỗ rõ ràng cho phần chưa duyệt, không coi khung tạm là giao diện hoàn chỉnh.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Source clone/c...~~
+
+~~	S2-WBS25	Code trang source, ingestion và quarantine theo template	Code màn hình quản trị và evaluator bằng mock	Dùng chung bảng/list/detail/form cho source, runs/counts/retries và quarantine. Đổi cấu hình/fixture theo trang thay vì viết một hệ thống quản trị riêng; thao tác quan trọng có xác nhận. Không gọi bộ cào thật từ mock UI.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Các màn hình operator trong checklist chạy với...~~
+
+~~	S2-WBS26	Code trang corpus, budget và traces theo template	Code màn hình quản trị và evaluator bằng mock	Dùng lại trang quản trị của task trước, thay schema/form/fixture cho manifest/promote/restore, ngưỡng/budget và trace. Kiểm giá trị và readiness mẫu, không làm backend quản lý cấu hình/audit hoặc telemetry thật.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Trang có đủ luồng MVP và trạng thái không đủ điều kiện/lỗi với...~~
+
+~~	S2-WBS27	Code trang test set và evaluation theo template	Code màn hình quản trị và evaluator bằng mock	Dùng bảng/form/detail chung để nhập/review/freeze ca mẫu, chọn B0–B3 và xem run/metrics fixture. Thêm calibration/final và quyền mẫu; chưa tạo 120 câu thật, chạy Ragas hoặc xây engine đánh giá.	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Màn hình evaluator trong checklist thao tác được, phân biệt partial/completed/thiế...~~
+
+~~	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi	69																						~~
+
+~~Kết quả cần có: Source clone/cài/chạy/build được theo README; khung trang hoạt động, không có secrets; layout cuối khớp màn hình đã duyệt.	Đinh Huỳnh Vũ	Đã hoàn thành	6		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Vũ dựng project frontend, lệnh chạy/build, cấu hình môi trường và mock adapter từ repository Sprint 1 trước khi nhận đủ wireframe. Chỉ ghép menu/layout của từng màn hình sau khi wireframe và visual mốc đó được duyệt; giữ chỗ rõ ...~~
+
+~~Kết quả cần có: Các màn hình operator trong checklist chạy với mock, có counts/reason/refresh-time và trạng thái lỗi; không lộ secrets.	Đinh Huỳnh Vũ	Đã hoàn thành	5		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng chung bảng/list/detail/form cho source, runs/counts/retries và quarantine. Đổi cấu hình/fixture theo trang thay vì viết một hệ thống quản trị riêng; thao tác quan trọng có xác nhận. Không gọi bộ cào thật từ mock UI.	Các màn hì...~~
+
+~~Kết quả cần có: Trang có đủ luồng MVP và trạng thái không đủ điều kiện/lỗi với mock, hợp đồng API thật được liệt kê.	Đinh Huỳnh Vũ	Đã hoàn thành	4		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng lại trang quản trị của task trước, thay schema/form/fixture cho manifest/promote/restore, ngưỡng/budget và trace. Kiểm giá trị và readiness mẫu, không làm backend quản lý cấu hình/audit hoặc telemetry thật.	Trang có đủ luồng MVP và trạng thái kh...~~
+
+~~Kết quả cần có: Màn hình evaluator trong checklist thao tác được, phân biệt partial/completed/thiếu trace và không hiển thị điểm giả như kết quả thật.	Đinh Huỳnh Vũ	Chưa bắt đầu	5		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng bảng/form/detail chung để nhập/review/freeze ca mẫu, chọn B0–B3 và xem run/metrics fixture. Thêm calibration/final và quyền mẫu; chưa tạo 120 câu thật, chạy Ragas hoặc xây engine đánh giá.	Màn hình evaluator tron...~~
+
+~~					Tổng giờ các task			141	69																			~~
+
+~~					Giờ thực tế theo ngày (tự tính)				69						6	9	6	6	6	6	0	6	6	6	6	6	0	0~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	18	0.23076923076923078	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G06	2	Code skeleton và lớp dữ liệu mẫu	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	4	1	Đã hoàn thành	23	7	Sprint 2 Backlog~~
+
+~~Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G08	2	Code màn hình quản trị và evaluator bằng mock	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	3	2	0.6666666666666666	Đang làm	14		Sprint 2 Backlog~~
+
+~~Task đã hoàn thành	63		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.29439252336448596		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~S2-WBS27: Code trang test set và evaluation theo template	Màn hình vận hành nguồn/run/quarantine/corpus/budget/trace/test set/evaluation chạy với mock và được kiểm theo vai trò.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	3	2	0.6666666666666666	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-09 09:02 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
