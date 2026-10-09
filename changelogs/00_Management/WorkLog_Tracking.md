@@ -1,5 +1,113 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-09 08:47 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-09 08:47
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	141	29	28 task; 142h.**
+
+🟢 **	S2-WBS04	Hoàn thiện bộ cào News và lưu nguồn gốc	Cào đủ nguồn và lưu bản gốc theo phiên bản	Tái dùng khung crawler chung, cấu hình các nguồn News được duyệt. Lấy danh sách/nội dung trong khoảng ngày, xử lý phân trang, lọc công ty và lưu URL/ngày/hash/version. Không làm crawler tổng quát cho mọi website hoặc vượt paywall.	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Lấy đúng bài mẫu và nguồn gốc; có retry/log và lý do loại bài. Bộ cào chỉ hỗ ...**
+
+🟢 **	S2-WBS08	Chuẩn hóa News và loại bản trùng	Trích và chuẩn hóa báo cáo, News	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Sprint 2.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề...**
+
+🟢 **	S2-WBS09	Tạo migration PostgreSQL và thử lưu/đọc dữ liệu	Kiểm tra, lưu và chốt corpus chuẩn hóa	Triển khai ERD đã có cho source/document/version/facts/News/Evidence; tái dùng script nạp mẫu. Tạo khóa và ràng buộc, thử một luồng lưu/đọc từ dữ liệu chuẩn về bản gốc. Chưa làm embedding, graph hay API nghiệp vụ.	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Migration chạy trên DB mới, khóa ngoại đúng và lưu/đọc được ba...**
+
+🟢 **	S2-WBS10	Kiểm trường bắt buộc và cách ly bản ghi sai	Kiểm tra, lưu và chốt corpus chuẩn hóa	Gắn kiểm tra vào pipeline nạp: ID, ngày/kỳ, đơn vị, scope, nguồn, hash và locator. Dùng bảng/file quarantine đơn giản có reason code, chưa làm màn hình hay công cụ sửa dữ liệu thật. Sửa lỗi và chạy lại kiểm tra trong chính task liên quan.	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Mẫu đúng được nhận, mẫu sai bị cách ly và...**
+
+🟢 **	S2-WBS11	Nạp toàn bộ dữ liệu đạt và đối chiếu độ phủ	Kiểm tra, lưu và chốt corpus chuẩn hóa	Chạy script nạp, đối chiếu số item với danh sách bắt buộc và audit nội dung/số theo mẫu kiểm đã duyệt. Kiểm liên kết về nguồn, tổng hợp thiếu/lỗi theo công ty và kỳ; review data và kiểm lại lỗi nằm trong task này.	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Dữ liệu được nạp đều qua validation. Có bảng độ phủ, mẫu đối chiếu...**
+
+🟢 **	S2-WBS24	Code Graph Viewer mẫu bằng thư viện sẵn có	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng component/thư viện graph đã chọn, nạp fixture node/edge, chọn root, mở rộng tối đa hai hop và xem nguồn edge. Không tự viết thuật toán layout, animation hoặc Neo4j API trong task này.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Viewer thao tác được và mở đúng provenance mẫu; thử graph rỗng/lỗi, chặn hơn hai hop. Backend sẽ kiểm giới h...**
+
+🟢 **	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi	29																						**
+
+🟢 **Kết quả cần có: Lấy đúng bài mẫu và nguồn gốc; có retry/log và lý do loại bài. Bộ cào chỉ hỗ trợ danh sách nguồn đã chốt.	Thái Quốc Hưng	Đã hoàn thành	5	7	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng khung crawler chung, cấu hình các nguồn News được duyệt. Lấy danh sách/nội dung trong khoảng ngày, xử lý phân trang, lọc công ty và lưu URL/ngày/hash/version. Không làm crawler tổng quát cho mọi website hoặc vượt paywall.	Lấy đúng bài...**
+
+🟢 **Kết quả cần có: News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề. Bài thiếu ngày/công ty rõ ràng được cách ly.	Thái Quốc Hưng	Đã hoàn thành	5	6	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Spri...**
+
+🟢 **Kết quả cần có: Migration chạy trên DB mới, khóa ngoại đúng và lưu/đọc được ba loại nguồn với locator. Có hướng dẫn chạy, không lưu secrets trong source.	Thái Quốc Hưng	Đã hoàn thành	7	6	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Triển khai ERD đã có cho source/document/version/facts/News/Evidence; tái dùng script nạp mẫu. Tạo khóa và ràng buộc, thử một luồng lưu/đọc từ dữ liệu chuẩn về bản gốc. Chưa làm embedding, graph hay API nghiệp v...**
+
+🟢 **Kết quả cần có: Mẫu đúng được nhận, mẫu sai bị cách ly và không vào corpus hợp lệ. Bản sửa phải kiểm lại; thiếu bản gốc không được cho qua.	Thái Quốc Hưng	Đã hoàn thành	3	3	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Gắn kiểm tra vào pipeline nạp: ID, ngày/kỳ, đơn vị, scope, nguồn, hash và locator. Dùng bảng/file quarantine đơn giản có reason code, chưa làm màn hình hay công cụ sửa dữ liệu thật. Sửa lỗi và chạy lại kiểm tra trong chính ta...**
+
+🟢 **Kết quả cần có: Dữ liệu được nạp đều qua validation. Có bảng độ phủ, mẫu đối chiếu và lỗi đã xử lý; nguồn bắt buộc còn thiếu thì không nghiệm thu data hoàn thành.	Thái Quốc Hưng	Đã hoàn thành	5	6	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy script nạp, đối chiếu số item với danh sách bắt buộc và audit nội dung/số theo mẫu kiểm đã duyệt. Kiểm liên kết về nguồn, tổng hợp thiếu/lỗi theo công ty và kỳ; review data và kiểm lại lỗi nằm tron...**
+
+🟢 **Kết quả cần có: Viewer thao tác được và mở đúng provenance mẫu; thử graph rỗng/lỗi, chặn hơn hai hop. Backend sẽ kiểm giới hạn khi nối thật.	Hồ Phạm Đăng Nhân	Đã hoàn thành	7		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng component/thư viện graph đã chọn, nạp fixture node/edge, chọn root, mở rộng tối đa hai hop và xem nguồn edge. Không tự viết thuật toán layout, animation hoặc Neo4j API trong task này.	Viewer thao tác được và mở đúng p...**
+
+🟢 **					Tổng giờ các task			141	29																			**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				29						0	3	3	3	3	2	0	3	3	3	3	3	0	0**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	18	0.23076923076923078	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G02	2	Cào đủ nguồn và lưu bản gốc theo phiên bản	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	3	1	0.3333333333333333	Đang làm	16	7	Sprint 2 Backlog**
+
+🟢 **Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G03	2	Trích và chuẩn hóa báo cáo, News	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	3	1	0.3333333333333333	Đang làm	18	6	Sprint 2 Backlog**
+
+🟢 **Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G04	2	Kiểm tra, lưu và chốt corpus chuẩn hóa	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	3	3	1	Đã hoàn thành	15	15	Sprint 2 Backlog**
+
+🟢 **Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G07	2	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	4	4	1	Đã hoàn thành	26		Sprint 2 Backlog**
+
+🟢 **Task đã hoàn thành	63		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.29439252336448596		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **S2-WBS11: Nạp toàn bộ dữ liệu đạt và đối chiếu độ phủ	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	3	3	1	Đã hoàn thành	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **S2-WBS24: Code Graph Viewer mẫu bằng thư viện sẵn có	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	4	4	1	Đã hoàn thành	Ngày và phân công là kế hoạch đề xuất.**
+
+~~								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	141	8	28 task; 142h.~~
+
+~~	S2-WBS04	Hoàn thiện bộ cào News và lưu nguồn gốc	Cào đủ nguồn và lưu bản gốc theo phiên bản	Tái dùng khung crawler chung, cấu hình các nguồn News được duyệt. Lấy danh sách/nội dung trong khoảng ngày, xử lý phân trang, lọc công ty và lưu URL/ngày/hash/version. Không làm crawler tổng quát cho mọi website hoặc vượt paywall.	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Lấy đúng bài mẫu và nguồn gốc; có retry/log và lý do loại bài. Bộ cào chỉ hỗ ...~~
+
+~~	S2-WBS08	Chuẩn hóa News và loại bản trùng	Trích và chuẩn hóa báo cáo, News	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Sprint 2.	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề...~~
+
+~~	S2-WBS09	Tạo migration PostgreSQL và thử lưu/đọc dữ liệu	Kiểm tra, lưu và chốt corpus chuẩn hóa	Triển khai ERD đã có cho source/document/version/facts/News/Evidence; tái dùng script nạp mẫu. Tạo khóa và ràng buộc, thử một luồng lưu/đọc từ dữ liệu chuẩn về bản gốc. Chưa làm embedding, graph hay API nghiệp vụ.	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Migration chạy trên DB mới, khóa ngoại đúng và lưu/đọc được ba...~~
+
+~~	S2-WBS10	Kiểm trường bắt buộc và cách ly bản ghi sai	Kiểm tra, lưu và chốt corpus chuẩn hóa	Gắn kiểm tra vào pipeline nạp: ID, ngày/kỳ, đơn vị, scope, nguồn, hash và locator. Dùng bảng/file quarantine đơn giản có reason code, chưa làm màn hình hay công cụ sửa dữ liệu thật. Sửa lỗi và chạy lại kiểm tra trong chính task liên quan.	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Mẫu đúng được nhận, mẫu sai bị cách ly và...~~
+
+~~	S2-WBS11	Nạp toàn bộ dữ liệu đạt và đối chiếu độ phủ	Kiểm tra, lưu và chốt corpus chuẩn hóa	Chạy script nạp, đối chiếu số item với danh sách bắt buộc và audit nội dung/số theo mẫu kiểm đã duyệt. Kiểm liên kết về nguồn, tổng hợp thiếu/lỗi theo công ty và kỳ; review data và kiểm lại lỗi nằm trong task này.	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Dữ liệu được nạp đều qua validation. Có bảng độ phủ, mẫu đối chiếu...~~
+
+~~	S2-WBS24	Code Graph Viewer mẫu bằng thư viện sẵn có	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng component/thư viện graph đã chọn, nạp fixture node/edge, chọn root, mở rộng tối đa hai hop và xem nguồn edge. Không tự viết thuật toán layout, animation hoặc Neo4j API trong task này.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Viewer thao tác được và mở đúng provenance mẫu; thử graph rỗng/lỗi, chặn hơn hai hop. Backend sẽ kiểm giới h...~~
+
+~~	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi	8																						~~
+
+~~Kết quả cần có: Lấy đúng bài mẫu và nguồn gốc; có retry/log và lý do loại bài. Bộ cào chỉ hỗ trợ danh sách nguồn đã chốt.	Thái Quốc Hưng	Đã hoàn thành	5	7	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng khung crawler chung, cấu hình các nguồn News được duyệt. Lấy danh sách/nội dung trong khoảng ngày, xử lý phân trang, lọc công ty và lưu URL/ngày/hash/version. Không làm crawler tổng quát cho mọi website hoặc vượt paywall.	Lấy đúng bài...~~
+
+~~Kết quả cần có: News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề. Bài thiếu ngày/công ty rõ ràng được cách ly.	Thái Quốc Hưng	Đã hoàn thành	5		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Sprin...~~
+
+~~Kết quả cần có: Migration chạy trên DB mới, khóa ngoại đúng và lưu/đọc được ba loại nguồn với locator. Có hướng dẫn chạy, không lưu secrets trong source.	Thái Quốc Hưng	Chưa bắt đầu	7		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Triển khai ERD đã có cho source/document/version/facts/News/Evidence; tái dùng script nạp mẫu. Tạo khóa và ràng buộc, thử một luồng lưu/đọc từ dữ liệu chuẩn về bản gốc. Chưa làm embedding, graph hay API nghiệp vụ....~~
+
+~~Kết quả cần có: Mẫu đúng được nhận, mẫu sai bị cách ly và không vào corpus hợp lệ. Bản sửa phải kiểm lại; thiếu bản gốc không được cho qua.	Thái Quốc Hưng	Chưa bắt đầu	3		Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Gắn kiểm tra vào pipeline nạp: ID, ngày/kỳ, đơn vị, scope, nguồn, hash và locator. Dùng bảng/file quarantine đơn giản có reason code, chưa làm màn hình hay công cụ sửa dữ liệu thật. Sửa lỗi và chạy lại kiểm tra trong chính task...~~
+
+~~Kết quả cần có: Dữ liệu được nạp đều qua validation. Có bảng độ phủ, mẫu đối chiếu và lỗi đã xử lý; nguồn bắt buộc còn thiếu thì không nghiệm thu data hoàn thành.	Thái Quốc Hưng	Chưa bắt đầu	5		Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy script nạp, đối chiếu số item với danh sách bắt buộc và audit nội dung/số theo mẫu kiểm đã duyệt. Kiểm liên kết về nguồn, tổng hợp thiếu/lỗi theo công ty và kỳ; review data và kiểm lại lỗi nằm trong ...~~
+
+~~Kết quả cần có: Viewer thao tác được và mở đúng provenance mẫu; thử graph rỗng/lỗi, chặn hơn hai hop. Backend sẽ kiểm giới hạn khi nối thật.	Hồ Phạm Đăng Nhân	Chưa bắt đầu	7		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng component/thư viện graph đã chọn, nạp fixture node/edge, chọn root, mở rộng tối đa hai hop và xem nguồn edge. Không tự viết thuật toán layout, animation hoặc Neo4j API trong task này.	Viewer thao tác được và mở đúng pr...~~
+
+~~					Tổng giờ các task			141	8																			~~
+
+~~					Giờ thực tế theo ngày (tự tính)				8						0	3	3	2	0	0	0	0	0	0	0	0	0	0~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	14	0.1794871794871795	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G02	2	Cào đủ nguồn và lưu bản gốc theo phiên bản	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	3	1	0.3333333333333333	Đang làm	16	7	Sprint 2 Backlog~~
+
+~~Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G03	2	Trích và chuẩn hóa báo cáo, News	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	3	1	0.3333333333333333	Đang làm	18		Sprint 2 Backlog~~
+
+~~Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G04	2	Kiểm tra, lưu và chốt corpus chuẩn hóa	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	3	0	0	Chưa bắt đầu	15		Sprint 2 Backlog~~
+
+~~Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G07	2	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	4	3	0.75	Đang làm	26		Sprint 2 Backlog~~
+
+~~Task đã hoàn thành	59		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.2757009345794392		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~S2-WBS11: Nạp toàn bộ dữ liệu đạt và đối chiếu độ phủ	Dữ liệu qua validation và audit, nạp PostgreSQL, đủ phạm vi bắt buộc và có manifest bàn giao. Chưa tính là index vector/graph.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	3	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~S2-WBS24: Code Graph Viewer mẫu bằng thư viện sẵn có	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	4	3	0.75	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-09 08:42 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
