@@ -1,5 +1,41 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-09 08:57 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-09 08:57
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	141	44	28 task; 142h.**
+
+🟢 **	S2-WBS18	Code component chung và dữ liệu mock	Code skeleton và lớp dữ liệu mẫu	Nhân cấu hình bảng/form/nút/filter/modal và fixture đủ/rỗng/lỗi từ schema chung, quy tắc visual đã có. Có thể làm component và mock độc lập trong khi hoàn thiện wireframe; tích hợp theo từng màn hình được duyệt với skeleton của Vũ. Không để việc chờ đủ mọi màn hình chặn toàn bộ component.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Component tái sử dụng và mo...**
+
+🟢 **	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi	46																						**
+
+🟢 **Kết quả cần có: Component tái sử dụng và mock tách riêng, có trạng thái đủ/rỗng/lỗi và hướng dẫn đổi API; tích hợp được với các màn hình đã duyệt.	Hồ Phạm Đăng Nhân	Đã hoàn thành	8	7	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Nhân cấu hình bảng/form/nút/filter/modal và fixture đủ/rỗng/lỗi từ schema chung, quy tắc visual đã có. Có thể làm component và mock độc lập trong khi hoàn thiện wireframe; tích hợp theo từng màn hình được duyệt với ...**
+
+🟢 **					Tổng giờ các task			141	46																			**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				46						3	6	6	6	6	2	0	5	3	3	3	3	0	0**
+
+🟢 **Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G06	2	Code skeleton và lớp dữ liệu mẫu	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	4	1	Đã hoàn thành	23	7	Sprint 2 Backlog**
+
+~~								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	141	39	28 task; 142h.~~
+
+~~	S2-WBS18	Code component chung và dữ liệu mock	Code skeleton và lớp dữ liệu mẫu	Nhân cấu hình bảng/form/nút/filter/modal và fixture đủ/rỗng/lỗi từ schema chung, quy tắc visual đã có. Có thể làm component và mock độc lập trong khi hoàn thiện wireframe; tích hợp theo từng màn hình được duyệt với skeleton của Vũ. Không để việc chờ đủ mọi màn hình chặn toàn bộ component.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Component tái sử dụng và mo...~~
+
+~~	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi	39																						~~
+
+~~Kết quả cần có: Component tái sử dụng và mock tách riêng, có trạng thái đủ/rỗng/lỗi và hướng dẫn đổi API; tích hợp được với các màn hình đã duyệt.	Hồ Phạm Đăng Nhân	Đã hoàn thành	8		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Nhân cấu hình bảng/form/nút/filter/modal và fixture đủ/rỗng/lỗi từ schema chung, quy tắc visual đã có. Có thể làm component và mock độc lập trong khi hoàn thiện wireframe; tích hợp theo từng màn hình được duyệt với s...~~
+
+~~					Tổng giờ các task			141	39																			~~
+
+~~					Giờ thực tế theo ngày (tự tính)				39						3	6	6	4	3	2	0	3	3	3	3	3	0	0~~
+
+~~Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G06	2	Code skeleton và lớp dữ liệu mẫu	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API tách biệt.	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	4	4	1	Đã hoàn thành	23		Sprint 2 Backlog~~
+
 ## 2026-10-09 08:52 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
