@@ -1,5 +1,21 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-10 11:57 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-10 11:57
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS03	Làm ổn định bộ thu thập dữ liệu (Collector)	Cào đủ nguồn và lưu bản gốc theo phiên bản	#VALUE!	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Chưa bắt đầu	S2-G02	FinMind	2	5		Nguyễn Minh Quân	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina T...**
+
+🟢 **	Sprint 2	S2-WBS03	S2-G02	1	Làm ổn định bộ thu thập dữ liệu (Collector)	Nguyễn Minh Quân	Chưa bắt đầu	5		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy collector cào 10 mã (5 Bank + 5 Tech); bổ sung retry, timeout, cô lập lỗi từng mã để không dừng pipeline	Collector chạy ổn định 10 mã; log lỗi độc lập; có CLI chạy lại từng mã.	Schema raw; endpoint API; danh sách 10 mã (5 Bank + 5 Tech).														**
+
+~~	S2-WBS03	Làm ổn định bộ thu thập dữ liệu (Collector	Cào đủ nguồn và lưu bản gốc theo phiên bản	#VALUE!	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Chưa bắt đầu	S2-G02	FinMind	2	5		Nguyễn Minh Quân	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Ti...~~
+
+~~	Sprint 2	S2-WBS03	S2-G02	1	Làm ổn định bộ thu thập dữ liệu (Collector	Nguyễn Minh Quân	Chưa bắt đầu	5		Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy collector cào 10 mã (5 Bank + 5 Tech); bổ sung retry, timeout, cô lập lỗi từng mã để không dừng pipeline	Collector chạy ổn định 10 mã; log lỗi độc lập; có CLI chạy lại từng mã.	Schema raw; endpoint API; danh sách 10 mã (5 Bank + 5 Tech).														~~
+
 ## 2026-10-10 11:52 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
