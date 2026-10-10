@@ -1,5 +1,57 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-10 11:52 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-10 11:52
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	141	91	28 task; 142h.**
+
+🟢 **	S2-WBS01	Chốt hợp đồng dữ liệu đầu vào/đầu ra	Chốt phạm vi và nguồn BCTC, BCTN, News	#VALUE!	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Đã hoàn thành	S2-G01	FinMind	2	3	4	Nguyễn Minh Quân	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	...**
+
+🟢 **	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi	91																						**
+
+🟢 **	Sprint 2	S2-WBS01	S2-G01	1	Chốt hợp đồng dữ liệu đầu vào/đầu ra	Nguyễn Minh Quân	Đã hoàn thành	3	4	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Rà soát giá, tỷ số, KQKD, CĐKT, LCTT; chốt schema raw/normalized; phân biệt quý/năm.	Có schema thống nhất raw/normalized; JSON UTF-8 hợp lệ; xử lý an toàn NaN/null.	ERD Sprint 1; mẫu payload API; danh sách 10 mã.		4												**
+
+🟢 **					Tổng giờ các task			141	91																			**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				91						6	13	9	9	7	6	0	9	9	9	7	7	0	0**
+
+🟢 **Tue Sep 01 2026 07:00:00 GMT+0700 (Indochina Time)	46	46	1	160	SRS và nguồn. Bắt đầu xác nhận, tải và chuẩn hóa dữ liệu.								**
+
+🟢 **Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G01	2	Chốt phạm vi và nguồn BCTC, BCTN, News	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	2	2	1	Đã hoàn thành	5	5	Sprint 2 Backlog**
+
+🟢 **Task đã hoàn thành	65		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.3037383177570093		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **S2-WBS02: Rà schema chung và mẫu dữ liệu bàn giao	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	2	2	1	Đã hoàn thành	Ngày và phân công là kế hoạch đề xuất.**
+
+~~								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	141	87	28 task; 142h.~~
+
+~~	S2-WBS01	Chốt hợp đồng dữ liệu đầu vào/đầu ra	Chốt phạm vi và nguồn BCTC, BCTN, News	#VALUE!	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Chưa bắt đầu	S2-G01	FinMind	2	3		Nguyễn Minh Quân	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi	87																						~~
+
+~~	Sprint 2	S2-WBS01	S2-G01	1	Chốt hợp đồng dữ liệu đầu vào/đầu ra	Nguyễn Minh Quân	Chưa bắt đầu	3		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Rà soát giá, tỷ số, KQKD, CĐKT, LCTT; chốt schema raw/normalized; phân biệt quý/năm.	Có schema thống nhất raw/normalized; JSON UTF-8 hợp lệ; xử lý an toàn NaN/null.	ERD Sprint 1; mẫu payload API; danh sách 10 mã.														~~
+
+~~					Tổng giờ các task			141	87																			~~
+
+~~					Giờ thực tế theo ngày (tự tính)				87						6	9	9	9	7	6	0	9	9	9	7	7	0	0~~
+
+~~Tue Sep 01 2026 07:00:00 GMT+0700 (Indochina Time)	46	45	0.9782608695652174	160	SRS và nguồn. Bắt đầu xác nhận, tải và chuẩn hóa dữ liệu.								~~
+
+~~Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G01	2	Chốt phạm vi và nguồn BCTC, BCTN, News	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	2	1	0.5	Đang làm	5	1	Sprint 2 Backlog~~
+
+~~Task đã hoàn thành	64		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.29906542056074764		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~S2-WBS02: Rà schema chung và mẫu dữ liệu bàn giao	Danh sách công ty, nguồn, tài liệu/kỳ và khoảng ngày News được duyệt; có schema và tiêu chí nhận/loại.	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	2	1	0.5	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-09 09:07 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
