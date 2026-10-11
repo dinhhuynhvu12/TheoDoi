@@ -1,5 +1,21 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-11 20:27 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-11 20:27
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	Sprint 2	S2-WBS01	S2-G01	1	Chốt hợp đồng dữ liệu đầu vào/đầu ra	Nguyễn Minh Quân	Đã hoàn thành	3	4	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Rà soát giá, tỷ số, KQKD, CĐKT, LCTT; chốt schema raw/normalized; phân biệt quý/năm.	Có schema thống nhất raw/normalized; JSON UTF-8 hợp lệ; xử lý an toàn NaN/null.	ERD Sprint 1; mẫu payload API; danh sách 10 mã.	1	3												**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				91						7	12	9	9	7	6	0	9	9	9	7	7	0	0**
+
+~~	Sprint 2	S2-WBS01	S2-G01	1	Chốt hợp đồng dữ liệu đầu vào/đầu ra	Nguyễn Minh Quân	Đã hoàn thành	3	4	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Rà soát giá, tỷ số, KQKD, CĐKT, LCTT; chốt schema raw/normalized; phân biệt quý/năm.	Có schema thống nhất raw/normalized; JSON UTF-8 hợp lệ; xử lý an toàn NaN/null.	ERD Sprint 1; mẫu payload API; danh sách 10 mã.		4												~~
+
+~~					Giờ thực tế theo ngày (tự tính)				91						6	13	9	9	7	6	0	9	9	9	7	7	0	0~~
+
 ## 2026-10-11 16:52 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
