@@ -1,5 +1,29 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-12 08:47 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-12 08:47
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS06	Xây dựng bộ OCR Router bóc tách PDF	Trích và chuẩn hóa báo cáo, News	#VALUE!	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Cao	Chưa bắt đầu	S2-G03	FinMind	2	6		Nguyễn Minh Quân	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	...**
+
+🟢 **	S2-WBS07	Tích hợp LLM Vision xử lý bảng scan	Trích và chuẩn hóa báo cáo, News	#VALUE!	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Chưa bắt đầu	S2-G03	FinMind	2	7		Nguyễn Minh Quân	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Ti...**
+
+🟢 **	Sprint 2	S2-WBS06	S2-G03	1	Xây dựng bộ OCR Router bóc tách PDF 	Nguyễn Minh Quân	Chưa bắt đầu	6		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Kho file PDF BCTC/BCTN mẫu đã tải từ Sprint 1; công cụ hệ thống (pdftotext, pdftoppm, tesseract tiếng Việt).	Tuyến text\_layer chạy tức thì; trang scan có text và toạ độ BBox.	Tuyến text\_layer chạy tức thì; trang scan có text và toạ độ BBox từ Tesseract.														**
+
+🟢 **	Sprint 2	S2-WBS07	S2-G03	2	Tích hợp LLM Vision xử lý bảng scan	Nguyễn Minh Quân	Chưa bắt đầu	7		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Ảnh PNG render từ các trang scan/bảng phức tạp; API Key Gemini và OpenRouter; JSON Schema yêu cầu.	Gọi Gemini 3.8 Flash ép JSON trích xuất bảng Markdown; thêm OpenRouter fallback; cache SHA-256; chặn rate limit 429.	LLM đọc nguyên văn bảng biểu, con dấu \[stamp\] cho các trang scan khó.														**
+
+~~	S2-WBS06	Xây dựng bộ OCR Router bóc tách PDF (Text Layer - Tesseract)	Trích và chuẩn hóa báo cáo, News	#VALUE!	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Cao	Chưa bắt đầu	S2-G03	FinMind	2	6		Nguyễn Minh Quân	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 G...~~
+
+~~	S2-WBS07	Tích hợp LLM Vision (Gemini + OpenRouter) xử lý bảng scan	Trích và chuẩn hóa báo cáo, News	#VALUE!	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Chưa bắt đầu	S2-G03	FinMind	2	7		Nguyễn Minh Quân	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 ...~~
+
+~~	Sprint 2	S2-WBS06	S2-G03	1	Xây dựng bộ OCR Router bóc tách PDF (Text Layer - Tesseract)	Nguyễn Minh Quân	Chưa bắt đầu	6		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Kho file PDF BCTC/BCTN mẫu đã tải từ Sprint 1; công cụ hệ thống (pdftotext, pdftoppm, tesseract tiếng Việt).	Tuyến text\_layer chạy tức thì; trang scan có text và toạ độ BBox.	Tuyến text\_layer chạy tức thì; trang scan có text và toạ độ BBox từ Tesseract.														~~
+
+~~	Sprint 2	S2-WBS07	S2-G03	2	Tích hợp LLM Vision (Gemini + OpenRouter) xử lý bảng scan	Nguyễn Minh Quân	Chưa bắt đầu	7		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Ảnh PNG render từ các trang scan/bảng phức tạp; API Key Gemini và OpenRouter; JSON Schema yêu cầu.	Gọi Gemini 3.8 Flash ép JSON trích xuất bảng Markdown; thêm OpenRouter fallback; cache SHA-256; chặn rate limit 429.	LLM đọc nguyên văn bảng biểu, con dấu \[stamp\] cho các trang sca...~~
+
 ## 2026-10-11 21:12 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
