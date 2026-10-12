@@ -1,5 +1,73 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-12 13:22 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-12 13:22
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	141	122	28 task; 142h.**
+
+🟢 **	S2-WBS03	Làm ổn định bộ thu thập dữ liệu (Collector)	Cào đủ nguồn và lưu bản gốc theo phiên bản	#VALUE!	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Đã hoàn thành	S2-G02	FinMind	2	5	6	Nguyễn Minh Quân	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina...**
+
+🟢 **	S2-WBS06	Xây dựng bộ OCR Router bóc tách PDF	Trích và chuẩn hóa báo cáo, News	#VALUE!	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Cao	Đã hoàn thành	S2-G03	FinMind	2	6	6	Nguyễn Minh Quân	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time...**
+
+🟢 **	S2-WBS07	Tích hợp LLM Vision xử lý bảng scan	Trích và chuẩn hóa báo cáo, News	#VALUE!	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Đã hoàn thành	S2-G03	FinMind	2	7	8	Nguyễn Minh Quân	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina ...**
+
+🟢 **	S2-WBS12	Đối soát chéo số liệu (Cross-check) chống sai lệch	Nghiệm thu dữ liệu và frontend, bàn giao	#VALUE!	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Đã hoàn thành	S2-G09	FinMind	2	4	4	Nguyễn Minh Quân	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2...**
+
+🟢 **	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi	122																						**
+
+🟢 **	Sprint 2	S2-WBS03	S2-G02	1	Làm ổn định bộ thu thập dữ liệu (Collector)	Nguyễn Minh Quân	Đã hoàn thành	5	6	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy collector cào 10 mã (5 Bank + 5 Tech); bổ sung retry, timeout, cô lập lỗi từng mã để không dừng pipeline	Collector chạy ổn định 10 mã; log lỗi độc lập; có CLI chạy lại từng mã.	Schema raw; endpoint API; danh sách 10 mã (5 Bank + 5 Tech).			4	2										**
+
+🟢 **	Sprint 2	S2-WBS06	S2-G03	1	Xây dựng bộ OCR Router bóc tách PDF 	Nguyễn Minh Quân	Đã hoàn thành	6	6	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Kho file PDF BCTC/BCTN mẫu đã tải từ Sprint 1; công cụ hệ thống (pdftotext, pdftoppm, tesseract tiếng Việt).	Tuyến text\_layer chạy tức thì; trang scan có text và toạ độ BBox.	Tuyến text\_layer chạy tức thì; trang scan có text và toạ độ BBox từ Tesseract.				2	4									**
+
+🟢 **	Sprint 2	S2-WBS07	S2-G03	2	Tích hợp LLM Vision xử lý bảng scan	Nguyễn Minh Quân	Đã hoàn thành	7	8	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Ảnh PNG render từ các trang scan/bảng phức tạp; API Key Gemini và OpenRouter; JSON Schema yêu cầu.	Gọi Gemini 3.8 Flash ép JSON trích xuất bảng Markdown; thêm OpenRouter fallback; cache SHA-256; chặn rate limit 429.	LLM đọc nguyên văn bảng biểu, con dấu \[stamp\] cho các trang scan khó.										4	4	...**
+
+🟢 **	Sprint 2	S2-WBS12	S2-G09	2	Đối soát chéo số liệu (Cross-check) chống sai lệch	Nguyễn Minh Quân	Đã hoàn thành	4	4	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Bản text OCR từ Tesseract và bản text Markdown từ LLM của cùng một trang PDF.	Đối soát số giữa Tesseract và LLM (numberAgreement); gắn cờ NUMBERS\_UNVERIFIED cho trang BCTC lệch số; escalate model.	Loại bỏ rủi ro AI đọc sai số; gắn nhãn trạng thái OK/REVIEW trên từng trang.											...**
+
+🟢 **					Tổng giờ các task			141	122																			**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				122						7	12	13	13	11	6	0	12	13	13	11	11	0	0**
+
+🟢 **Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G02	2	Cào đủ nguồn và lưu bản gốc theo phiên bản	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	3	3	1	Đã hoàn thành	16	20	Sprint 2 Backlog**
+
+🟢 **Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G03	2	Trích và chuẩn hóa báo cáo, News	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	3	3	1	Đã hoàn thành	18	20	Sprint 2 Backlog**
+
+🟢 **Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G09	2	Nghiệm thu dữ liệu và frontend, bàn giao	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	2	2	1	Đã hoàn thành	6	4	Sprint 2 Backlog**
+
+~~								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	141	105	28 task; 142h.~~
+
+~~	S2-WBS03	Làm ổn định bộ thu thập dữ liệu (Collector)	Cào đủ nguồn và lưu bản gốc theo phiên bản	#VALUE!	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Đã hoàn thành	S2-G02	FinMind	2	5	7	Nguyễn Minh Quân	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina...~~
+
+~~	S2-WBS06	Xây dựng bộ OCR Router bóc tách PDF	Trích và chuẩn hóa báo cáo, News	#VALUE!	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Cao	Đã hoàn thành	S2-G03	FinMind	2	6		Nguyễn Minh Quân	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)...~~
+
+~~	S2-WBS07	Tích hợp LLM Vision xử lý bảng scan	Trích và chuẩn hóa báo cáo, News	#VALUE!	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Đã hoàn thành	S2-G03	FinMind	2	7		Nguyễn Minh Quân	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina T...~~
+
+~~	S2-WBS12	Đối soát chéo số liệu (Cross-check) chống sai lệch	Nghiệm thu dữ liệu và frontend, bàn giao	#VALUE!	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	#VALUE!	Ước lượng lại khi tái dùng phần Sprint 1 và template chung. Công việc và nghiệm thu liên kết từ Sprint 2; giờ thực tế không tự điền.	Rất cao	Đã hoàn thành	S2-G09	FinMind	2	4		Nguyễn Minh Quân	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 20...~~
+
+~~	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi	105																						~~
+
+~~	Sprint 2	S2-WBS03	S2-G02	1	Làm ổn định bộ thu thập dữ liệu (Collector)	Nguyễn Minh Quân	Đã hoàn thành	5	7	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy collector cào 10 mã (5 Bank + 5 Tech); bổ sung retry, timeout, cô lập lỗi từng mã để không dừng pipeline	Collector chạy ổn định 10 mã; log lỗi độc lập; có CLI chạy lại từng mã.	Schema raw; endpoint API; danh sách 10 mã (5 Bank + 5 Tech).			3	4										~~
+
+~~	Sprint 2	S2-WBS06	S2-G03	1	Xây dựng bộ OCR Router bóc tách PDF 	Nguyễn Minh Quân	Đã hoàn thành	6		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Kho file PDF BCTC/BCTN mẫu đã tải từ Sprint 1; công cụ hệ thống (pdftotext, pdftoppm, tesseract tiếng Việt).	Tuyến text\_layer chạy tức thì; trang scan có text và toạ độ BBox.	Tuyến text\_layer chạy tức thì; trang scan có text và toạ độ BBox từ Tesseract.														~~
+
+~~	Sprint 2	S2-WBS07	S2-G03	2	Tích hợp LLM Vision xử lý bảng scan	Nguyễn Minh Quân	Đã hoàn thành	7		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Ảnh PNG render từ các trang scan/bảng phức tạp; API Key Gemini và OpenRouter; JSON Schema yêu cầu.	Gọi Gemini 3.8 Flash ép JSON trích xuất bảng Markdown; thêm OpenRouter fallback; cache SHA-256; chặn rate limit 429.	LLM đọc nguyên văn bảng biểu, con dấu \[stamp\] cho các trang scan khó.														~~
+
+~~	Sprint 2	S2-WBS12	S2-G09	2	Đối soát chéo số liệu (Cross-check) chống sai lệch	Nguyễn Minh Quân	Đã hoàn thành	4		Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Bản text OCR từ Tesseract và bản text Markdown từ LLM của cùng một trang PDF.	Đối soát số giữa Tesseract và LLM (numberAgreement); gắn cờ NUMBERS\_UNVERIFIED cho trang BCTC lệch số; escalate model.	Loại bỏ rủi ro AI đọc sai số; gắn nhãn trạng thái OK/REVIEW trên từng trang.												...~~
+
+~~					Tổng giờ các task			141	105																			~~
+
+~~					Giờ thực tế theo ngày (tự tính)				105						7	12	12	13	7	6	0	12	13	9	7	7	0	0~~
+
+~~Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G02	2	Cào đủ nguồn và lưu bản gốc theo phiên bản	Toàn bộ mục bắt buộc được lấy theo danh sách chốt, có bản gốc, hash, metadata, lịch sử và log lỗi.	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	3	3	1	Đã hoàn thành	16	18	Sprint 2 Backlog~~
+
+~~Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G03	2	Trích và chuẩn hóa báo cáo, News	BCTC/BCTN có facts/nội dung và locator; News có ngày/công ty/nội dung/nguồn. Dữ liệu sai hoặc chưa rõ được cách ly.	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	3	3	1	Đã hoàn thành	18	6	Sprint 2 Backlog~~
+
+~~Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	S2-G09	2	Nghiệm thu dữ liệu và frontend, bàn giao	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	2	2	1	Đã hoàn thành	6		Sprint 2 Backlog~~
+
 ## 2026-10-12 13:17 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
