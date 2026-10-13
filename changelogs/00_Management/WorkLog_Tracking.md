@@ -1,5 +1,21 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-13 21:27 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-13 21:27
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS10	Code đăng ký và đăng nhập backend	Tài khoản và phân quyền	Bước 1: Tạo chức năng đăng ký bằng thông tin hợp lệ và lưu mật khẩu dưới dạng đã bảo vệ, không lưu bản gốc. Bước 2: Tạo đăng nhập, xử lý sai mật khẩu và giới hạn thử liên tiếp; trả thông báo không tiết lộ dữ liệu nhạy cảm. Bước 3: Kiểm thử tài khoản đúng/sai và xác nhận người dùng không tự cấp quyền cao hơn.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Ca hợp lệ đăng ký/đăng nhập được; sai...**
+
+🟢 **	Sprint 3	S3-WBS10	S3-G08	1	Code đăng ký và đăng nhập backend	Nguyễn Minh Quân	Đang làm	8		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo chức năng đăng ký bằng thông tin hợp lệ và lưu mật khẩu dưới dạng đã bảo vệ, không lưu bản gốc. Bước 2: Tạo đăng nhập, xử lý sai mật khẩu và giới hạn thử liên tiếp; trả thông báo không tiết lộ dữ liệu nhạy cảm. Bước 3: Kiểm thử tài khoản đúng/sai và xác nhận người dùng không tự cấp quyền cao hơ...**
+
+~~	S3-WBS10	Code đăng ký và đăng nhập backend	Tài khoản và phân quyền	Bước 1: Tạo chức năng đăng ký bằng thông tin hợp lệ và lưu mật khẩu dưới dạng đã bảo vệ, không lưu bản gốc. Bước 2: Tạo đăng nhập, xử lý sai mật khẩu và giới hạn thử liên tiếp; trả thông báo không tiết lộ dữ liệu nhạy cảm. Bước 3: Kiểm thử tài khoản đúng/sai và xác nhận người dùng không tự cấp quyền cao hơn.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Ca hợp lệ đăng ký/đăng nhập được; sai...~~
+
+~~	Sprint 3	S3-WBS10	S3-G08	1	Code đăng ký và đăng nhập backend	Nguyễn Minh Quân	Chưa bắt đầu	8		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo chức năng đăng ký bằng thông tin hợp lệ và lưu mật khẩu dưới dạng đã bảo vệ, không lưu bản gốc. Bước 2: Tạo đăng nhập, xử lý sai mật khẩu và giới hạn thử liên tiếp; trả thông báo không tiết lộ dữ liệu nhạy cảm. Bước 3: Kiểm thử tài khoản đúng/sai và xác nhận người dùng không tự cấp quyền ca...~~
+
 ## 2026-10-13 21:02 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
