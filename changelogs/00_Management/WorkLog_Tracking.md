@@ -1,5 +1,617 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-13 09:12 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-13 09:12
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS01	Chốt hợp đồng chunk ID và cấu trúc nguồn	Chunk và vị trí nguồn	Thống nhất chunk\_id, document\_id, corpus\_version, trang, mục, bảng và hash. Viết 2 fixture mẫu cho Nhân và Hưng dùng trước khi có chunk thật.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Có schema và fixture được nhóm chấp nhận; chunk ID ổn định khi chạy lại.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G01	FinMind	3	2		Đinh Huỳnh Vũ	Mon Oct 12 ...**
+
+🟢 **	S3-WBS02	Chốt mô hình embedding và cấu hình	Embedding và pgvector	Xác nhận model, chiều vector, phiên bản, batch size và môi trường chạy; dùng fixture văn bản, chưa chờ chunk thật.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Tạo được vector mẫu và lưu cấu hình có phiên bản.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G02	FinMind	3	3		Hồ Phạm Đăng Nhân	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT...**
+
+🟢 **	S3-WBS03	Chốt intent và phạm vi câu hỏi B1	B1 Vector RAG	Định nghĩa cách nhận công ty, kỳ, chỉ tiêu và trường hợp mơ hồ; viết mẫu hỏi Việt/Anh và phản hồi yêu cầu làm rõ.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Có bảng intent, scope và ca kiểm thử cho câu hỏi đủ/thiếu thông tin.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Cao	Chưa bắt đầu	S3-G04	FinMind	3	4		Thái Quốc Hưng	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct ...**
+
+🟢 **	S3-WBS04	Chốt phân bổ Golden40	Golden40 và đánh giá	Phân 40 ca theo dạng câu hỏi, ngành, ngôn ngữ, kỳ; tách khỏi 80 ca cuối và giao lô 10 ca để review sớm.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	Bảng phân bổ 40 ID không trùng, không lộ nhãn test cuối.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G06	FinMind	3	3		Trần Diệu Huyền	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GM...**
+
+🟢 **	S3-WBS05	Chốt thiết kế tài khoản và API	Tài khoản và phân quyền	Kiểm tra route/mock hiện có, schema users/sessions/roles; chốt API đăng ký, đăng nhập, quên/đặt lại mật khẩu, logout và phương án auth provider.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Có contract và quyết định provider; không lưu mật khẩu hoặc token trong log.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G08	FinMind	3	3		Nguyễn Minh Q...**
+
+🟢 **	S3-WBS06	Nâng cấp chunker cho mục và bảng	Chunk và vị trí nguồn	Sửa chunker sẵn có để không cắt ngang bảng BCTC/BCTN, giữ thứ tự mục và đoạn chồng lấn; viết test cho tài liệu mẫu khó.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Các fixture cho ra chunk không rỗng, không lặp ID và bảng quan trọng không bị xé sai.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G01	FinMind	3	7		Đinh Huỳnh Vũ	Tue Oct 13 2026 07:00:00 GMT...**
+
+🟢 **	S3-WBS07	Tạo embedding theo lô có báo lỗi	Embedding và pgvector	Xây batch embedding trên fixture, retry có giới hạn, ghi lỗi theo chunk và version; không bỏ qua mục lỗi âm thầm.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Một mục lỗi trong lô được định danh để chạy lại, mục thành công không xử lý trùng.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Cao	Chưa bắt đầu	S3-G02	FinMind	3	4		Hồ Phạm Đăng Nhân	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	We...**
+
+🟢 **	S3-WBS08	Chốt cấu trúc evidence pack	B1 Vector RAG	Định nghĩa gói fact/chunk, điểm liên quan, locator và corpus version; làm adapter fixture để B1 có thể code trước ingest thật.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	B1 đọc được gói mẫu và báo thiếu metadata bắt buộc.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G04	FinMind	3	3		Thái Quốc Hưng	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 202...**
+
+🟢 **	S3-WBS09	Soạn Golden40 lô 1–2	Golden40 và đánh giá	Viết câu hỏi, đáp án chuẩn và tài liệu chứng minh cho 20 ca đầu; dùng trang/bảng/mục gốc, không chỉ chunk ID.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	20 ca có đáp án và locator mở lại được; đánh dấu câu còn bất đồng.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Cao	Chưa bắt đầu	S3-G06	FinMind	3	6		Trần Diệu Huyền	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 ...**
+
+🟢 **	S3-WBS10	Code đăng ký và đăng nhập backend	Tài khoản và phân quyền	Xây API theo provider đã chọn, hash mật khẩu/kiểm tra phiên, lỗi an toàn và rate limit cơ bản; không trả secret trong log.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Ca hợp lệ đăng ký/đăng nhập được; sai mật khẩu bị từ chối, quyền không tự nâng.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G08	FinMind	3	8		Nguyễn Minh Quân	Tue Oct 13 2...**
+
+🟢 **	S3-WBS11	Gắn locator vào từng chunk	Chunk và vị trí nguồn	Ghi document hash, trang, mục, bảng và offset vào chunk; kiểm tra trích dẫn mở được vị trí gốc.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Chunk mẫu truy được vị trí nguồn chính xác trong tài liệu.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G01	FinMind	3	4		Đinh Huỳnh Vũ	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 ...**
+
+🟢 **	S3-WBS12	Lưu vector và metadata vào pgvector	Embedding và pgvector	Gắn vector với chunk ID/corpus version, kiểm tra chiều vector, khóa và chống trùng; dùng fixture trước, ingest thật sau khi Vũ bàn giao.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Vector mẫu truy ngược đúng chunk và không trộn corpus version.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G02	FinMind	3	5		Hồ Phạm Đăng Nhân	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochin...**
+
+🟢 **	S3-WBS13	Dựng B1 retrieval orchestration bằng fixture	B1 Vector RAG	Nối intent với retrieval contract và evidence pack; tạo đường xử lý thiếu nguồn, timeout, kết quả rỗng mà không cần vector thật.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	B1 trên fixture trả schema đúng, không tạo câu trả lời khi thiếu chứng cứ.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Cao	Chưa bắt đầu	S3-G04	FinMind	3	5		Thái Quốc Hưng	Wed Oct 14 2026 07:00:00 GM...**
+
+🟢 **	S3-WBS14	Soạn Golden40 lô 3–4	Golden40 và đánh giá	Hoàn tất 20 ca còn lại, kiểm tra phân bổ và locator; gửi từng lô 10 ca để Vũ review tuần 2.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	Đủ 40 ca có đáp án, nguồn gốc và trạng thái cần review.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G06	FinMind	3	6		Trần Diệu Huyền	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indoch...**
+
+🟢 **	S3-WBS15	Nối login/register UI với API	Tài khoản và phân quyền	Thay mock ở màn hình đăng nhập/đăng ký bằng client API và trạng thái lỗi/loading; không triển khai lại UI nền.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Luồng UI đăng nhập/đăng ký dùng backend thật và không lưu secret trong localStorage.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Cao	Chưa bắt đầu	S3-G08	FinMind	3	4		Nguyễn Minh Quân	Thu Oct 15 2026 07:00:00 GM...**
+
+🟢 **	S3-WBS16	Tạo manifest chunk phiên bản đầu	Chunk và vị trí nguồn	Ghi hash nguồn, cấu hình chunker và danh sách ID; chạy lại tài liệu không sinh chunk trùng.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Có manifest phiên bản và danh sách thay đổi khi nguồn đổi.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Cao	Chưa bắt đầu	S3-G01	FinMind	3	2		Đinh Huỳnh Vũ	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (I...**
+
+🟢 **	S3-WBS17	Ingest thử corpus vào pgvector	Embedding và pgvector	Nạp một tập chunk thật đã có manifest; ghi số thành công/lỗi, chống trùng và đối chiếu document ID.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Truy vấn pgvector thấy đúng số chunk hợp lệ và lỗi được lưu để chạy lại.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G02	FinMind	3	3		Hồ Phạm Đăng Nhân	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00...**
+
+🟢 **	S3-WBS18	Xử lý B1 khi câu hỏi hoặc nguồn mơ hồ	B1 Vector RAG	Bổ sung phản hồi làm rõ công ty/kỳ/chỉ tiêu và từ chối trả lời khi bằng chứng rỗng hoặc ngoài phạm vi.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Ca thiếu công ty/kỳ hoặc không có nguồn không bị bịa câu trả lời.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Cao	Chưa bắt đầu	S3-G04	FinMind	3	3		Thái Quốc Hưng	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07...**
+
+🟢 **	S3-WBS19	Ổn định chunker trên tài liệu khó	Chunk và vị trí nguồn	Chạy BCTC/BCTN có bảng dài, nhiều cột và trang; sửa lỗi phá bảng, ghi rõ loại tài liệu chưa hỗ trợ.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Test hồi quy trên mẫu khó qua; giới hạn còn lại được ghi cụ thể.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G01	FinMind	3	3		Đinh Huỳnh Vũ	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 19 2026 0...**
+
+🟢 **	S3-WBS20	Tạo chỉ mục pgvector và đo baseline	Embedding và pgvector	Tạo/chỉnh index phù hợp tập dữ liệu hiện có; đo thời gian truy vấn với câu hỏi Việt/Anh và lưu cấu hình.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Có kết quả baseline, index và truy vấn trả chunk đúng corpus.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Cao	Chưa bắt đầu	S3-G02	FinMind	3	4		Hồ Phạm Đăng Nhân	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 19 2026 07:00:00 GMT+...**
+
+🟢 **	S3-WBS21	Nối B1 với retrieval và Gemini	B1 Vector RAG	Thay fixture bằng retrieval thật khi Nhân bàn giao; prompt giữ ID bằng chứng, phiên bản model và token limit; không bật Gate/verifier B3.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	B1 trả nháp có nguồn ứng viên, manifest ghi rõ thành phần bật/tắt.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G04	FinMind	3	5		Thái Quốc Hưng	Mon Oct 19 2026 07:00:00 GMT+0700 (I...**
+
+🟢 **	S3-WBS22	Hoàn thiện đáp án và locator Golden40	Golden40 và đánh giá	Kiểm tra từng ca với tài liệu gốc, sửa đáp án/đơn vị/kỳ và xử lý câu trùng; gửi lô cho Vũ rà soát chéo.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	40 ca đủ trường bắt buộc; mỗi ca có locator nguồn, câu trùng được loại.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G06	FinMind	3	8		Trần Diệu Huyền	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Ti...**
+
+🟢 **	S3-WBS23	Code quên và đặt lại mật khẩu	Tài khoản và phân quyền	Tạo token reset một lần có hạn dùng, chỉ lưu hash, phản hồi không lộ tài khoản tồn tại; hoàn thiện trang forgot/reset hiện đang placeholder.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Token dùng lại hoặc hết hạn bị từ chối; email không tồn tại không bị lộ.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G08	FinMind	3	6		Nguyễn Minh Quân	Mon O...**
+
+🟢 **	S3-WBS24	Kiểm tra citation locator đầu-cuối	Chunk và vị trí nguồn	Nối chunk locator với evidence pack; thử mở vị trí nguồn từ câu trả lời mẫu, cả bảng nhiều trang.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Citation mẫu dẫn đúng document/trang/bảng và không dùng chunk khác version.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G01	FinMind	3	4		Đinh Huỳnh Vũ	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct...**
+
+🟢 **	S3-WBS25	Truy vấn vector có lọc phạm vi	Embedding và pgvector	Thêm lọc corpus version, công ty, kỳ và loại tài liệu; trả top-k kèm score/locator, không lẫn nguồn ngoài phạm vi.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Ca lọc sai công ty/kỳ/corpus trả rỗng hoặc đúng phạm vi; contract cho Hưng dùng.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G02	FinMind	3	4		Hồ Phạm Đăng Nhân	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	W...**
+
+🟢 **	S3-WBS26	Kiểm tra trích dẫn và câu trả lời B1	B1 Vector RAG	Ánh xạ từng nhận định sang evidence ID, xử lý câu không chứng minh được; chạy mẫu thiếu nguồn và nguồn mâu thuẫn.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Không có claim vô nguồn trong ca mẫu; citation mở được locator.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G04	FinMind	3	3		Thái Quốc Hưng	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oc...**
+
+🟢 **	S3-WBS27	Khóa Golden40 sau rà soát chéo	Golden40 và đánh giá	Giải quyết bất đồng với Vũ, lưu hash tập câu/đáp án/nguồn và bản manifest; không dùng 80 ca cuối để tuning.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	40 ca có version khóa; không còn bất đồng chưa xử lý.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G06	FinMind	3	2		Trần Diệu Huyền	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 0...**
+
+🟢 **	S3-WBS28	Hoàn thiện session logout refresh	Tài khoản và phân quyền	Code hết hạn phiên, logout và refresh an toàn theo provider; đồng bộ UI khi phiên hết hạn.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Logout thu hồi phiên; refresh sai/hết hạn bị từ chối, UI trở về login.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Cao	Chưa bắt đầu	S3-G08	FinMind	3	4		Nguyễn Minh Quân	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oc...**
+
+🟢 **	S3-WBS29	Rà soát chéo Golden40 theo lô	Golden40 và đánh giá	Đối chiếu 40 đáp án, đơn vị, kỳ và locator với nguồn gốc; phản hồi sớm theo lô 10, ghi bất đồng để Huyền xử lý.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	Mỗi ca có dấu review người thứ hai; không còn lỗi nguồn âm thầm.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G06	FinMind	3	8		Đinh Huỳnh Vũ	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu O...**
+
+🟢 **	S3-WBS30	Ghi timing và lỗi retrieval	Embedding và pgvector	Lưu latency, số chunk tìm được, score và lỗi đã che dữ liệu nhạy cảm cho từng truy vấn.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Một truy vấn có trace thật đủ phân tích chậm/lỗi; không lộ secret.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Cao	Chưa bắt đầu	S3-G02	FinMind	3	3		Hồ Phạm Đăng Nhân	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time...**
+
+🟢 **	S3-WBS31	Áp giới hạn token timeout và budget	B1 Vector RAG	Dừng an toàn khi vượt trần theo manifest; ghi mã lý do, tránh gọi Gemini ngoài ngân sách.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Ca vượt trần bị chặn và có trace; cấu hình được phiên bản hóa.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Cao	Chưa bắt đầu	S3-G04	FinMind	3	3		Thái Quốc Hưng	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (I...**
+
+🟢 **	S3-WBS32	Chuẩn bị metric và bàn giao Golden40	Golden40 và đánh giá	Lập rubric deterministic/human audit, script tính metric trên fixture; sau khi khóa, chạy kiểm tra và ghi việc cần Sprint 4.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	Có metric theo ca, danh sách lỗi và bàn giao manifest; kết quả trước freeze ghi là tạm.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Cao	Chưa bắt đầu	S3-G06	FinMind	3	5		Trần Diệu Huyền	Thu Oct 22 2026...**
+
+🟢 **	S3-WBS33	Bảo vệ API theo vai trò	Tài khoản và phân quyền	Kiểm tra quyền trên route tài khoản, nguồn, corpus, truy vấn/đánh giá có trong Sprint 3; không dựa vào nút ẩn trên UI.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Sai vai trò bị từ chối server-side ở API trong phạm vi và có test.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G08	FinMind	3	3		Nguyễn Minh Quân	Fri Oct 23 2026 07:00:00 GMT+0700 (Indo...**
+
+🟢 **	S3-WBS34	Kiểm thử E2E vector retrieval	Embedding và pgvector	Chạy tài liệu sạch → chunk → embedding → pgvector → truy vấn có lọc; kiểm tra dedupe, version và citation ID.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Ca E2E qua hoặc có lỗi kèm owner rõ; không trộn version.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G02	FinMind	3	4		Hồ Phạm Đăng Nhân	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+07...**
+
+🟢 **	S3-WBS35	Chạy B1 trên Golden40 đã khóa	B1 Vector RAG	Sau mốc freeze, chạy cùng manifest corpus/prompt/model; lưu output, evidence, latency, token và lỗi từng ca để so sánh sau.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Có trace từng ca; partial run được dán nhãn, không công bố aggregate khi thiếu trace.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Rất cao	Chưa bắt đầu	S3-G04	FinMind	3	4		Thái Quốc Hưng	Fri Oct 23 2026 07:00:00 GMT+070...**
+
+🟢 **	S3-WBS36	Kiểm thử bảo mật tài khoản	Tài khoản và phân quyền	Test reset token dùng lại/hết hạn, sai quyền, logout, không lộ tồn tại email hoặc secret trong log.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Các ca bảo mật thiết yếu qua; lỗi còn lại ghi rõ và không đánh dấu Done.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách tài khoản.	Cao	Chưa bắt đầu	S3-G08	FinMind	3	2		Nguyễn Minh Quân	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fr...**
+
+🟢 **	Sprint 3	S3-WBS01	S3-G01	1	Chốt hợp đồng chunk ID và cấu trúc nguồn	Đinh Huỳnh Vũ	Chưa bắt đầu	2		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Thống nhất chunk\_id, document\_id, corpus\_version, trang, mục, bảng và hash. Viết 2 fixture mẫu cho Nhân và Hưng dùng trước khi có chunk thật.	Có schema và fixture được nhóm chấp nhận; chunk ID ổn định khi chạy lại.	Tài liệu mẫu sạch từ Sprint 2.														**
+
+🟢 **	Sprint 3	S3-WBS02	S3-G02	1	Chốt mô hình embedding và cấu hình	Hồ Phạm Đăng Nhân	Chưa bắt đầu	3		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Xác nhận model, chiều vector, phiên bản, batch size và môi trường chạy; dùng fixture văn bản, chưa chờ chunk thật.	Tạo được vector mẫu và lưu cấu hình có phiên bản.	Fixture chunk do Vũ công bố hoặc mẫu tạm cùng schema.														**
+
+🟢 **	Sprint 3	S3-WBS03	S3-G04	1	Chốt intent và phạm vi câu hỏi B1	Thái Quốc Hưng	Chưa bắt đầu	4		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Định nghĩa cách nhận công ty, kỳ, chỉ tiêu và trường hợp mơ hồ; viết mẫu hỏi Việt/Anh và phản hồi yêu cầu làm rõ.	Có bảng intent, scope và ca kiểm thử cho câu hỏi đủ/thiếu thông tin.	SRS đã duyệt và bộ lọc hiện có.														**
+
+🟢 **	Sprint 3	S3-WBS04	S3-G06	1	Chốt phân bổ Golden40	Trần Diệu Huyền	Chưa bắt đầu	3		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Phân 40 ca theo dạng câu hỏi, ngành, ngôn ngữ, kỳ; tách khỏi 80 ca cuối và giao lô 10 ca để review sớm.	Bảng phân bổ 40 ID không trùng, không lộ nhãn test cuối.	SRS và danh sách nguồn đã duyệt.														**
+
+🟢 **	Sprint 3	S3-WBS05	S3-G08	1	Chốt thiết kế tài khoản và API	Nguyễn Minh Quân	Chưa bắt đầu	3		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra route/mock hiện có, schema users/sessions/roles; chốt API đăng ký, đăng nhập, quên/đặt lại mật khẩu, logout và phương án auth provider.	Có contract và quyết định provider; không lưu mật khẩu hoặc token trong log.	Repo frontend/backend và migration hiện tại.														**
+
+🟢 **	Sprint 3	S3-WBS06	S3-G01	1	Nâng cấp chunker cho mục và bảng	Đinh Huỳnh Vũ	Chưa bắt đầu	7		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sửa chunker sẵn có để không cắt ngang bảng BCTC/BCTN, giữ thứ tự mục và đoạn chồng lấn; viết test cho tài liệu mẫu khó.	Các fixture cho ra chunk không rỗng, không lặp ID và bảng quan trọng không bị xé sai.	Hợp đồng chunk ID đã chốt; tài liệu sạch.														**
+
+🟢 **	Sprint 3	S3-WBS07	S3-G02	1	Tạo embedding theo lô có báo lỗi	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Xây batch embedding trên fixture, retry có giới hạn, ghi lỗi theo chunk và version; không bỏ qua mục lỗi âm thầm.	Một mục lỗi trong lô được định danh để chạy lại, mục thành công không xử lý trùng.	Model/chiều vector đã chốt; fixture chunk.														**
+
+🟢 **	Sprint 3	S3-WBS08	S3-G04	1	Chốt cấu trúc evidence pack	Thái Quốc Hưng	Chưa bắt đầu	3		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Định nghĩa gói fact/chunk, điểm liên quan, locator và corpus version; làm adapter fixture để B1 có thể code trước ingest thật.	B1 đọc được gói mẫu và báo thiếu metadata bắt buộc.	Schema chunk ID của Vũ và contract retrieval dự kiến của Nhân.														**
+
+🟢 **	Sprint 3	S3-WBS09	S3-G06	1	Soạn Golden40 lô 1–2	Trần Diệu Huyền	Chưa bắt đầu	6		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Viết câu hỏi, đáp án chuẩn và tài liệu chứng minh cho 20 ca đầu; dùng trang/bảng/mục gốc, không chỉ chunk ID.	20 ca có đáp án và locator mở lại được; đánh dấu câu còn bất đồng.	Bảng phân bổ Golden40 và nguồn đã duyệt.														**
+
+🟢 **	Sprint 3	S3-WBS10	S3-G08	1	Code đăng ký và đăng nhập backend	Nguyễn Minh Quân	Chưa bắt đầu	8		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Xây API theo provider đã chọn, hash mật khẩu/kiểm tra phiên, lỗi an toàn và rate limit cơ bản; không trả secret trong log.	Ca hợp lệ đăng ký/đăng nhập được; sai mật khẩu bị từ chối, quyền không tự nâng.	Contract auth và schema hiện có; quyết định provider.														**
+
+🟢 **	Sprint 3	S3-WBS11	S3-G01	1	Gắn locator vào từng chunk	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ghi document hash, trang, mục, bảng và offset vào chunk; kiểm tra trích dẫn mở được vị trí gốc.	Chunk mẫu truy được vị trí nguồn chính xác trong tài liệu.	Chunker qua test trên fixture.														**
+
+🟢 **	Sprint 3	S3-WBS12	S3-G02	1	Lưu vector và metadata vào pgvector	Hồ Phạm Đăng Nhân	Chưa bắt đầu	5		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Gắn vector với chunk ID/corpus version, kiểm tra chiều vector, khóa và chống trùng; dùng fixture trước, ingest thật sau khi Vũ bàn giao.	Vector mẫu truy ngược đúng chunk và không trộn corpus version.	Schema Vũ; embedding theo lô; pgvector hiện có.														**
+
+🟢 **	Sprint 3	S3-WBS13	S3-G04	1	Dựng B1 retrieval orchestration bằng fixture	Thái Quốc Hưng	Chưa bắt đầu	5		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Nối intent với retrieval contract và evidence pack; tạo đường xử lý thiếu nguồn, timeout, kết quả rỗng mà không cần vector thật.	B1 trên fixture trả schema đúng, không tạo câu trả lời khi thiếu chứng cứ.	Intent/scope và evidence pack đã chốt.														**
+
+🟢 **	Sprint 3	S3-WBS14	S3-G06	1	Soạn Golden40 lô 3–4	Trần Diệu Huyền	Chưa bắt đầu	6		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Hoàn tất 20 ca còn lại, kiểm tra phân bổ và locator; gửi từng lô 10 ca để Vũ review tuần 2.	Đủ 40 ca có đáp án, nguồn gốc và trạng thái cần review.	Golden40 lô 1–2; tài liệu nguồn.														**
+
+🟢 **	Sprint 3	S3-WBS15	S3-G08	1	Nối login/register UI với API	Nguyễn Minh Quân	Chưa bắt đầu	4		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Thay mock ở màn hình đăng nhập/đăng ký bằng client API và trạng thái lỗi/loading; không triển khai lại UI nền.	Luồng UI đăng nhập/đăng ký dùng backend thật và không lưu secret trong localStorage.	Backend auth đạt smoke test; UI sẵn có.														**
+
+🟢 **	Sprint 3	S3-WBS16	S3-G01	1	Tạo manifest chunk phiên bản đầu	Đinh Huỳnh Vũ	Chưa bắt đầu	2		Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ghi hash nguồn, cấu hình chunker và danh sách ID; chạy lại tài liệu không sinh chunk trùng.	Có manifest phiên bản và danh sách thay đổi khi nguồn đổi.	Chunker và locator đã qua test.														**
+
+🟢 **	Sprint 3	S3-WBS17	S3-G02	1	Ingest thử corpus vào pgvector	Hồ Phạm Đăng Nhân	Chưa bắt đầu	3		Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Nạp một tập chunk thật đã có manifest; ghi số thành công/lỗi, chống trùng và đối chiếu document ID.	Truy vấn pgvector thấy đúng số chunk hợp lệ và lỗi được lưu để chạy lại.	Vũ bàn giao locator và manifest; trước đó dùng fixture.														**
+
+🟢 **	Sprint 3	S3-WBS18	S3-G04	1	Xử lý B1 khi câu hỏi hoặc nguồn mơ hồ	Thái Quốc Hưng	Chưa bắt đầu	3		Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bổ sung phản hồi làm rõ công ty/kỳ/chỉ tiêu và từ chối trả lời khi bằng chứng rỗng hoặc ngoài phạm vi.	Ca thiếu công ty/kỳ hoặc không có nguồn không bị bịa câu trả lời.	B1 fixture đã chạy; bộ ca intent.														**
+
+🟢 **	Sprint 3	S3-WBS19	S3-G01	2	Ổn định chunker trên tài liệu khó	Đinh Huỳnh Vũ	Chưa bắt đầu	3		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy BCTC/BCTN có bảng dài, nhiều cột và trang; sửa lỗi phá bảng, ghi rõ loại tài liệu chưa hỗ trợ.	Test hồi quy trên mẫu khó qua; giới hạn còn lại được ghi cụ thể.	Lỗi từ ingest thật của tuần 1.														**
+
+🟢 **	Sprint 3	S3-WBS20	S3-G02	2	Tạo chỉ mục pgvector và đo baseline	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo/chỉnh index phù hợp tập dữ liệu hiện có; đo thời gian truy vấn với câu hỏi Việt/Anh và lưu cấu hình.	Có kết quả baseline, index và truy vấn trả chunk đúng corpus.	Vector ingest thật; nếu chưa sẵn, đo trên fixture và đánh dấu tạm.														**
+
+🟢 **	Sprint 3	S3-WBS21	S3-G04	2	Nối B1 với retrieval và Gemini	Thái Quốc Hưng	Chưa bắt đầu	5		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thay fixture bằng retrieval thật khi Nhân bàn giao; prompt giữ ID bằng chứng, phiên bản model và token limit; không bật Gate/verifier B3.	B1 trả nháp có nguồn ứng viên, manifest ghi rõ thành phần bật/tắt.	Retrieval contract; tích hợp cuối chờ Nhân có truy vấn thật.														**
+
+🟢 **	Sprint 3	S3-WBS22	S3-G06	2	Hoàn thiện đáp án và locator Golden40	Trần Diệu Huyền	Chưa bắt đầu	8		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra từng ca với tài liệu gốc, sửa đáp án/đơn vị/kỳ và xử lý câu trùng; gửi lô cho Vũ rà soát chéo.	40 ca đủ trường bắt buộc; mỗi ca có locator nguồn, câu trùng được loại.	Bản nháp 40 ca và tài liệu gốc.														**
+
+🟢 **	Sprint 3	S3-WBS23	S3-G08	2	Code quên và đặt lại mật khẩu	Nguyễn Minh Quân	Chưa bắt đầu	6		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo token reset một lần có hạn dùng, chỉ lưu hash, phản hồi không lộ tài khoản tồn tại; hoàn thiện trang forgot/reset hiện đang placeholder.	Token dùng lại hoặc hết hạn bị từ chối; email không tồn tại không bị lộ.	Auth backend đã chạy và provider đã chốt.														**
+
+🟢 **	Sprint 3	S3-WBS24	S3-G01	2	Kiểm tra citation locator đầu-cuối	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Nối chunk locator với evidence pack; thử mở vị trí nguồn từ câu trả lời mẫu, cả bảng nhiều trang.	Citation mẫu dẫn đúng document/trang/bảng và không dùng chunk khác version.	Chunk ổn định; evidence pack của Hưng.														**
+
+🟢 **	Sprint 3	S3-WBS25	S3-G02	2	Truy vấn vector có lọc phạm vi	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thêm lọc corpus version, công ty, kỳ và loại tài liệu; trả top-k kèm score/locator, không lẫn nguồn ngoài phạm vi.	Ca lọc sai công ty/kỳ/corpus trả rỗng hoặc đúng phạm vi; contract cho Hưng dùng.	Index và metadata pgvector đã có.														**
+
+🟢 **	Sprint 3	S3-WBS26	S3-G04	2	Kiểm tra trích dẫn và câu trả lời B1	Thái Quốc Hưng	Chưa bắt đầu	3		Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ánh xạ từng nhận định sang evidence ID, xử lý câu không chứng minh được; chạy mẫu thiếu nguồn và nguồn mâu thuẫn.	Không có claim vô nguồn trong ca mẫu; citation mở được locator.	B1 tích hợp thật và locator của Vũ.														**
+
+🟢 **	Sprint 3	S3-WBS27	S3-G06	2	Khóa Golden40 sau rà soát chéo	Trần Diệu Huyền	Chưa bắt đầu	2		Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Giải quyết bất đồng với Vũ, lưu hash tập câu/đáp án/nguồn và bản manifest; không dùng 80 ca cuối để tuning.	40 ca có version khóa; không còn bất đồng chưa xử lý.	Vũ hoàn tất review các lô trước khi khóa.														**
+
+🟢 **	Sprint 3	S3-WBS28	S3-G08	2	Hoàn thiện session logout refresh	Nguyễn Minh Quân	Chưa bắt đầu	4		Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Code hết hạn phiên, logout và refresh an toàn theo provider; đồng bộ UI khi phiên hết hạn.	Logout thu hồi phiên; refresh sai/hết hạn bị từ chối, UI trở về login.	Đăng nhập backend/UI đã chạy.														**
+
+🟢 **	Sprint 3	S3-WBS29	S3-G06	2	Rà soát chéo Golden40 theo lô	Đinh Huỳnh Vũ	Chưa bắt đầu	8		Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu 40 đáp án, đơn vị, kỳ và locator với nguồn gốc; phản hồi sớm theo lô 10, ghi bất đồng để Huyền xử lý.	Mỗi ca có dấu review người thứ hai; không còn lỗi nguồn âm thầm.	Huyền giao từng lô, không chờ đủ 40 mới bắt đầu.														**
+
+🟢 **	Sprint 3	S3-WBS30	S3-G02	2	Ghi timing và lỗi retrieval	Hồ Phạm Đăng Nhân	Chưa bắt đầu	3		Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Lưu latency, số chunk tìm được, score và lỗi đã che dữ liệu nhạy cảm cho từng truy vấn.	Một truy vấn có trace thật đủ phân tích chậm/lỗi; không lộ secret.	Truy vấn vector có lọc đã chạy.														**
+
+🟢 **	Sprint 3	S3-WBS31	S3-G04	2	Áp giới hạn token timeout và budget	Thái Quốc Hưng	Chưa bắt đầu	3		Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dừng an toàn khi vượt trần theo manifest; ghi mã lý do, tránh gọi Gemini ngoài ngân sách.	Ca vượt trần bị chặn và có trace; cấu hình được phiên bản hóa.	B1 và cấu hình giới hạn đã chốt.														**
+
+🟢 **	Sprint 3	S3-WBS32	S3-G06	2	Chuẩn bị metric và bàn giao Golden40	Trần Diệu Huyền	Chưa bắt đầu	5		Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Lập rubric deterministic/human audit, script tính metric trên fixture; sau khi khóa, chạy kiểm tra và ghi việc cần Sprint 4.	Có metric theo ca, danh sách lỗi và bàn giao manifest; kết quả trước freeze ghi là tạm.	40 ca nháp; kết quả cuối chỉ sau khi Golden40 khóa.														**
+
+🟢 **	Sprint 3	S3-WBS33	S3-G08	2	Bảo vệ API theo vai trò	Nguyễn Minh Quân	Chưa bắt đầu	3		Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra quyền trên route tài khoản, nguồn, corpus, truy vấn/đánh giá có trong Sprint 3; không dựa vào nút ẩn trên UI.	Sai vai trò bị từ chối server-side ở API trong phạm vi và có test.	Session/role đã hoạt động.														**
+
+🟢 **	Sprint 3	S3-WBS34	S3-G02	2	Kiểm thử E2E vector retrieval	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy tài liệu sạch → chunk → embedding → pgvector → truy vấn có lọc; kiểm tra dedupe, version và citation ID.	Ca E2E qua hoặc có lỗi kèm owner rõ; không trộn version.	Vũ bàn giao chunk/locator; truy vấn vector có lọc.														**
+
+🟢 **	Sprint 3	S3-WBS35	S3-G04	2	Chạy B1 trên Golden40 đã khóa	Thái Quốc Hưng	Chưa bắt đầu	4		Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Sau mốc freeze, chạy cùng manifest corpus/prompt/model; lưu output, evidence, latency, token và lỗi từng ca để so sánh sau.	Có trace từng ca; partial run được dán nhãn, không công bố aggregate khi thiếu trace.	Golden40 khóa; B1 tích hợp; giới hạn budget.														**
+
+🟢 **	Sprint 3	S3-WBS36	S3-G08	2	Kiểm thử bảo mật tài khoản	Nguyễn Minh Quân	Chưa bắt đầu	2		Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Test reset token dùng lại/hết hạn, sai quyền, logout, không lộ tồn tại email hoặc secret trong log.	Các ca bảo mật thiết yếu qua; lỗi còn lại ghi rõ và không đánh dấu Done.	Các route auth và RBAC đã code.														**
+
+🟢 **Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	S3-G01	3	Chia tài liệu thành đoạn có nguồn	Có cấu hình chia đoạn và ví dụ trước sau để nhóm duyệt.**
+
+🟢 **Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	0	0	Chưa bắt đầu	22		Sprint 3 Backlog**
+
+🟢 **Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	S3-G02	3	Tạo embedding và chỉ mục pgvector	Chuyển được văn bản mẫu thành vector; cấu hình được lưu lại.**
+
+🟢 **Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	0	0	Chưa bắt đầu	30		Sprint 3 Backlog**
+
+🟢 **	S3-G03	3	Truy vấn dữ kiện và công thức cố định	Truy vấn không trộn số riêng lẻ với hợp nhất hoặc khác kỳ.**
+
+🟢 **Nháp chính xác vẫn đi qua kiểm chứng ở B3; không phát hành qua đường tắt.			0	0	Chưa có task	Chưa có task	0		Sprint 3 Backlog**
+
+🟢 **Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	S3-G04	3	Hiểu câu hỏi và tìm bằng chứng	Bộ mẫu cho ra đúng công ty, kỳ, metric hoặc yêu cầu làm rõ.**
+
+🟢 **Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	0	0	Chưa bắt đầu	30		Sprint 3 Backlog**
+
+🟢 **	S3-G05	3	Xây cấu hình vector RAG B1	Manifest B1 thể hiện đúng thành phần được bật và tắt.**
+
+🟢 **Một ca thử có đủ dữ liệu để so sánh lại với B2 và B3.			0	0	Chưa có task	Chưa có task	0		Sprint 3 Backlog**
+
+🟢 **Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	0	0	Chưa bắt đầu	38		Sprint 3 Backlog**
+
+🟢 **	S3-G07	3	Đo và hiệu chỉnh cấu hình B0 B1	B0 chạy được các ca phù hợp và báo rõ ca không trả lời được.**
+
+🟢 **Có bảng so sánh và phiên bản cấu hình được nhóm duyệt.			0	0	Chưa có task	Chưa có task	0		Sprint 3 Backlog**
+
+🟢 **API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	0	0	Chưa bắt đầu	30		Sprint 3 Backlog**
+
+🟢 **	S3-G09	3	Tích hợp và nghiệm thu Sprint 3	Không mất vị trí nguồn và không trộn phiên bản corpus.**
+
+🟢 **Có phiên bản đầu vào rõ ràng cho thử nghiệm graph.			0	0	Chưa có task	Chưa có task	0		Sprint 3 Backlog**
+
+🟢 **Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **Nháp chính xác vẫn đi qua kiểm chứng ở B3; không phát hành qua đường tắt.		0	0	Chưa có task	Chưa có task	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **Một ca thử có đủ dữ liệu để so sánh lại với B2 và B3.		0	0	Chưa có task	Chưa có task	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **Có bảng so sánh và phiên bản cấu hình được nhóm duyệt.		0	0	Chưa có task	Chưa có task	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **Có phiên bản đầu vào rõ ràng cho thử nghiệm graph.		0	0	Chưa có task	Chưa có task	Khoảng 22 giờ cho tích hợp, review và sửa lỗi.**
+
+~~	S3-WBS01	Chốt quy tắc chia đoạn tài liệu	Chia tài liệu thành đoạn có nguồn	Chọn cách tách theo mục và bảng, kích thước đoạn và phần chồng lấn. Không cắt đứt bảng số liệu.	Có cấu hình chia đoạn và ví dụ trước sau để nhóm duyệt.~~
+
+~~Tài liệu mẫu được chia thành các đoạn không rỗng và không trùng ID.~~
+
+~~Tài liệu mẫu được chia thành các đoạn không rỗng và không trùng ID.~~
+
+~~Tài liệu mẫu được chia thành các đoạn không rỗng và không trùng ID.~~
+
+~~Tài liệu mẫu được chia thành các đoạn không rỗng và không trùng ID.~~
+
+~~Mở một chunk mẫu thấy được vị trí gốc trong PDF.~~
+
+~~Mở một chunk mẫu thấy được vị trí gốc trong PDF.~~
+
+~~Mở một chunk mẫu thấy được vị trí gốc trong PDF.~~
+
+~~Mở một chunk mẫu thấy được vị trí gốc trong PDF.~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Có cấu hình chia đoạn và ví dụ trước sau để nhóm duyệt.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G01	FinMind	3	4		Hồ Phạm Đăng Nhân	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S3-WBS02	Viết bộ chia đoạn cho tài liệu hợp lệ	Chia tài liệu thành đoạn có nguồn	Chỉ xử lý tài liệu đã được xác minh; giữ thứ tự đoạn và liên kết tài liệu nguồn.	Có cấu hình chia đoạn và ví dụ trước sau để nhóm duyệt.~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Tài liệu mẫu được chia thành các đoạn không rỗng và không trùng ID.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G01	FinMind	3	4		Hồ Phạm Đăng Nhân	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S3-WBS03	Gắn vị trí nguồn vào từng đoạn	Chia tài liệu thành đoạn có nguồn	Lưu hash, trang, mục hoặc bảng cho từng chunk để tìm đúng đoạn chứng minh.	Có cấu hình chia đoạn và ví dụ trước sau để nhóm duyệt.~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Mở một chunk mẫu thấy được vị trí gốc trong PDF.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G01	FinMind	3	4		Hồ Phạm Đăng Nhân	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S3-WBS04	Tạo manifest chunk theo phiên bản	Chia tài liệu thành đoạn có nguồn	Ghi chunk thuộc corpus nào; chỉ tạo lại phần thay đổi khi có phiên bản mới.	Có cấu hình chia đoạn và ví dụ trước sau để nhóm duyệt.~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G01	FinMind	3	4		Nguyễn Minh Quân	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S3-WBS05	Thiết lập mô hình embedding đã chọn	Tạo embedding và chỉ mục pgvector	Cấu hình BAAI bge-m3 theo môi trường dự án; ghi phiên bản mô hình và chiều vector thực tế.	Chuyển được văn bản mẫu thành vector; cấu hình được lưu lại.~~
+
+~~Lô có một mục lỗi vẫn biết rõ mục nào cần chạy lại.~~
+
+~~Lô có một mục lỗi vẫn biết rõ mục nào cần chạy lại.~~
+
+~~Lô có một mục lỗi vẫn biết rõ mục nào cần chạy lại.~~
+
+~~Lô có một mục lỗi vẫn biết rõ mục nào cần chạy lại.~~
+
+~~Vector truy ra đúng chunk, tài liệu và phiên bản.~~
+
+~~Vector truy ra đúng chunk, tài liệu và phiên bản.~~
+
+~~Vector truy ra đúng chunk, tài liệu và phiên bản.~~
+
+~~Vector truy ra đúng chunk, tài liệu và phiên bản.~~
+
+~~Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Chuyển được văn bản mẫu thành vector; cấu hình được lưu lại.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G02	FinMind	3	4		Đinh Huỳnh Vũ	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S3-WBS06	Viết dịch vụ embedding theo lô	Tạo embedding và chỉ mục pgvector	Tạo vector cho chunk theo lô và ghi lỗi từng mục; không bỏ qua lỗi âm thầm.	Chuyển được văn bản mẫu thành vector; cấu hình được lưu lại.~~
+
+~~Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Lô có một mục lỗi vẫn biết rõ mục nào cần chạy lại.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G02	FinMind	3	4		Nguyễn Minh Quân	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S3-WBS07	Lưu vector và metadata vào pgvector	Tạo embedding và chỉ mục pgvector	Lưu embedding gắn chunk ID và corpus version; kiểm tra chiều vector và khóa ngoại.	Chuyển được văn bản mẫu thành vector; cấu hình được lưu lại.~~
+
+~~Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Vector truy ra đúng chunk, tài liệu và phiên bản.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G02	FinMind	3	4		Đinh Huỳnh Vũ	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S3-WBS08	Tạo chỉ mục và thử truy vấn tương đồng	Tạo embedding và chỉ mục pgvector	Chọn chỉ mục phù hợp, thử câu hỏi tiếng Việt và tiếng Anh với cùng mô hình embedding.	Chuyển được văn bản mẫu thành vector; cấu hình được lưu lại.~~
+
+~~Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G02	FinMind	3	4		Trần Diệu Huyền	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S3-WBS09	Viết truy vấn số liệu theo phạm vi	Truy vấn dữ kiện và công thức cố định	Lọc FinancialFact theo công ty, chỉ tiêu, kỳ, đơn vị và phạm vi báo cáo.	Truy vấn không trộn số riêng lẻ với hợp nhất hoặc khác kỳ.~~
+
+~~Kết quả khớp phép tính kiểm tra độc lập; thiếu số không được tự điền.~~
+
+~~Kết quả khớp phép tính kiểm tra độc lập; thiếu số không được tự điền.~~
+
+~~Kết quả khớp phép tính kiểm tra độc lập; thiếu số không được tự điền.~~
+
+~~Kết quả khớp phép tính kiểm tra độc lập; thiếu số không được tự điền.~~
+
+~~Một kết quả tính toán truy về được mọi số đầu vào và nguồn.~~
+
+~~Một kết quả tính toán truy về được mọi số đầu vào và nguồn.~~
+
+~~Một kết quả tính toán truy về được mọi số đầu vào và nguồn.~~
+
+~~Một kết quả tính toán truy về được mọi số đầu vào và nguồn.~~
+
+~~Nháp chính xác vẫn đi qua kiểm chứng ở B3; không phát hành qua đường tắt.	Truy vấn không trộn số riêng lẻ với hợp nhất hoặc khác kỳ.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G03	FinMind	3	4		Nguyễn Minh Quân	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S3-WBS10	Cài công thức tài chính được phép	Truy vấn dữ kiện và công thức cố định	Viết công thức tăng trưởng và tỷ lệ trong phạm vi SRS. Kiểm tra mẫu số bằng không và thiếu đầu vào.	Truy vấn không trộn số riêng lẻ với hợp nhất hoặc khác kỳ.~~
+
+~~Nháp chính xác vẫn đi qua kiểm chứng ở B3; không phát hành qua đường tắt.	Kết quả khớp phép tính kiểm tra độc lập; thiếu số không được tự điền.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G03	FinMind	3	4		Thái Quốc Hưng	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S3-WBS11	Lưu vết các dữ kiện dùng để tính	Truy vấn dữ kiện và công thức cố định	Tạo Calculation và CalculationInput, giữ công thức, phiên bản và các fact đầu vào.	Truy vấn không trộn số riêng lẻ với hợp nhất hoặc khác kỳ.~~
+
+~~Nháp chính xác vẫn đi qua kiểm chứng ở B3; không phát hành qua đường tắt.	Một kết quả tính toán truy về được mọi số đầu vào và nguồn.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G03	FinMind	3	4		Đinh Huỳnh Vũ	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S3-WBS12	Tạo nháp có cấu trúc không cần Gemini	Truy vấn dữ kiện và công thức cố định	Tạo câu trả lời số liệu theo mẫu, kèm đơn vị, kỳ và nguồn. Để sẵn giao diện Gate, citation và verifier.	Truy vấn không trộn số riêng lẻ với hợp nhất hoặc khác kỳ.~~
+
+~~Nháp chính xác vẫn đi qua kiểm chứng ở B3; không phát hành qua đường tắt.	Nháp chính xác vẫn đi qua kiểm chứng ở B3; không phát hành qua đường tắt.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G03	FinMind	3	6		Trần Diệu Huyền	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S3-WBS13	Nhận diện công ty kỳ và chỉ tiêu	Hiểu câu hỏi và tìm bằng chứng	Đọc câu hỏi Việt hoặc Anh và bộ lọc; yêu cầu làm rõ khi thiếu hoặc mơ hồ.	Bộ mẫu cho ra đúng công ty, kỳ, metric hoặc yêu cầu làm rõ.~~
+
+~~Có bảng định tuyến và mẫu kiểm tra cho từng dạng.~~
+
+~~Có bảng định tuyến và mẫu kiểm tra cho từng dạng.~~
+
+~~Có bảng định tuyến và mẫu kiểm tra cho từng dạng.~~
+
+~~Có bảng định tuyến và mẫu kiểm tra cho từng dạng.~~
+
+~~Không trả đoạn của công ty hoặc phiên bản ngoài phạm vi.~~
+
+~~Không trả đoạn của công ty hoặc phiên bản ngoài phạm vi.~~
+
+~~Không trả đoạn của công ty hoặc phiên bản ngoài phạm vi.~~
+
+~~Không trả đoạn của công ty hoặc phiên bản ngoài phạm vi.~~
+
+~~Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Bộ mẫu cho ra đúng công ty, kỳ, metric hoặc yêu cầu làm rõ.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G04	FinMind	3	5		Thái Quốc Hưng	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S3-WBS14	Phân loại sáu dạng câu hỏi	Hiểu câu hỏi và tìm bằng chứng	Ánh xạ dạng câu hỏi trong SRS sang nhánh bắt buộc và điều kiện đủ bằng chứng.	Bộ mẫu cho ra đúng công ty, kỳ, metric hoặc yêu cầu làm rõ.~~
+
+~~Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Có bảng định tuyến và mẫu kiểm tra cho từng dạng.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G04	FinMind	3	3		Nguyễn Minh Quân	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S3-WBS15	Viết truy vấn vector có bộ lọc	Hiểu câu hỏi và tìm bằng chứng	Tìm top-k đoạn theo công ty, kỳ và corpus đang dùng; ghi điểm và đoạn được chọn.	Bộ mẫu cho ra đúng công ty, kỳ, metric hoặc yêu cầu làm rõ.~~
+
+~~Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Không trả đoạn của công ty hoặc phiên bản ngoài phạm vi.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G04	FinMind	3	3		Đinh Huỳnh Vũ	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S3-WBS16	Chuẩn hóa gói bằng chứng dùng chung	Hiểu câu hỏi và tìm bằng chứng	Tạo cấu trúc chứa fact, chunk, điểm liên quan và vị trí nguồn để các bước sau cùng đọc.	Bộ mẫu cho ra đúng công ty, kỳ, metric hoặc yêu cầu làm rõ.~~
+
+~~Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G04	FinMind	3	3		Hồ Phạm Đăng Nhân	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S3-WBS17	Cấu hình B1 theo giao thức đánh giá	Xây cấu hình vector RAG B1	Dùng vector retrieval và Gemini, cùng prompt và giới hạn context đã ghi. Không bật Gate hoặc verifier của B3.	Manifest B1 thể hiện đúng thành phần được bật và tắt.~~
+
+~~Nháp đọc được theo schema và giữ danh sách bằng chứng ứng viên.~~
+
+~~Nháp đọc được theo schema và giữ danh sách bằng chứng ứng viên.~~
+
+~~Nháp đọc được theo schema và giữ danh sách bằng chứng ứng viên.~~
+
+~~Nháp đọc được theo schema và giữ danh sách bằng chứng ứng viên.~~
+
+~~Trích dẫn mở được vị trí nguồn; cùng quy tắc được dùng cho các cấu hình.~~
+
+~~Trích dẫn mở được vị trí nguồn; cùng quy tắc được dùng cho các cấu hình.~~
+
+~~Trích dẫn mở được vị trí nguồn; cùng quy tắc được dùng cho các cấu hình.~~
+
+~~Trích dẫn mở được vị trí nguồn; cùng quy tắc được dùng cho các cấu hình.~~
+
+~~Một ca thử có đủ dữ liệu để so sánh lại với B2 và B3.	Manifest B1 thể hiện đúng thành phần được bật và tắt.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G05	FinMind	3	4		Thái Quốc Hưng	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S3-WBS18	Sinh câu trả lời với bằng chứng tìm được	Xây cấu hình vector RAG B1	Gửi đoạn liên quan và ID nguồn, yêu cầu đầu ra có cấu trúc cho từng nhận định.	Manifest B1 thể hiện đúng thành phần được bật và tắt.~~
+
+~~Một ca thử có đủ dữ liệu để so sánh lại với B2 và B3.	Nháp đọc được theo schema và giữ danh sách bằng chứng ứng viên.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G05	FinMind	3	4		Thái Quốc Hưng	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S3-WBS19	Gắn trích dẫn theo cơ chế chung	Xây cấu hình vector RAG B1	Liên kết nhận định của B1 với bằng chứng theo hợp đồng dùng chung B1, B2, B3.	Manifest B1 thể hiện đúng thành phần được bật và tắt.~~
+
+~~Một ca thử có đủ dữ liệu để so sánh lại với B2 và B3.	Trích dẫn mở được vị trí nguồn; cùng quy tắc được dùng cho các cấu hình.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G05	FinMind	3	4		Nguyễn Minh Quân	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S3-WBS20	Ghi kết quả thời gian và token B1	Xây cấu hình vector RAG B1	Lưu câu hỏi, đầu ra, bằng chứng, thời gian và token từng lần chạy.	Manifest B1 thể hiện đúng thành phần được bật và tắt.~~
+
+~~Một ca thử có đủ dữ liệu để so sánh lại với B2 và B3.	Một ca thử có đủ dữ liệu để so sánh lại với B2 và B3.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G05	FinMind	3	4		Đinh Huỳnh Vũ	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S3-WBS21	Chọn câu hỏi theo phân bổ đã duyệt	Hoàn thiện bộ 40 câu hiệu chỉnh	Chọn 40 ca theo loại câu, ngành, ngôn ngữ và kỳ trong SRS. Không lấy câu cuối để chỉnh tham số.	Bảng phân bổ đủ 40 ca và tách khỏi 80 ca đánh giá cuối.~~
+
+~~Mỗi đáp án có vị trí nguồn mở lại được.~~
+
+~~Mỗi đáp án có vị trí nguồn mở lại được.~~
+
+~~Mỗi đáp án có vị trí nguồn mở lại được.~~
+
+~~Mỗi đáp án có vị trí nguồn mở lại được.~~
+
+~~Không còn bất đồng chưa giải quyết trong bộ hiệu chỉnh đã duyệt.~~
+
+~~Không còn bất đồng chưa giải quyết trong bộ hiệu chỉnh đã duyệt.~~
+
+~~Không còn bất đồng chưa giải quyết trong bộ hiệu chỉnh đã duyệt.~~
+
+~~Không còn bất đồng chưa giải quyết trong bộ hiệu chỉnh đã duyệt.~~
+
+~~Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Bảng phân bổ đủ 40 ca và tách khỏi 80 ca đánh giá cuối.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G06	FinMind	3	4		Trần Diệu Huyền	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S3-WBS22	Gắn đáp án chuẩn và vị trí chứng minh	Hoàn thiện bộ 40 câu hiệu chỉnh	Ghi đáp án chuẩn, hash tài liệu và trang bảng dòng hoặc mục. Không dùng chunk ID làm nguồn chuẩn duy nhất.	Bảng phân bổ đủ 40 ca và tách khỏi 80 ca đánh giá cuối.~~
+
+~~Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Mỗi đáp án có vị trí nguồn mở lại được.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G06	FinMind	3	5		Trần Diệu Huyền	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S3-WBS23	Rà soát chéo và loại câu trùng	Hoàn thiện bộ 40 câu hiệu chỉnh	Người thứ hai kiểm tra câu chữ, đáp án và nguồn; xử lý bất đồng và câu gần trùng.	Bảng phân bổ đủ 40 ca và tách khỏi 80 ca đánh giá cuối.~~
+
+~~Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Không còn bất đồng chưa giải quyết trong bộ hiệu chỉnh đã duyệt.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G06	FinMind	3	4		Hồ Phạm Đăng Nhân	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S3-WBS24	Lưu phiên bản bộ hiệu chỉnh	Hoàn thiện bộ 40 câu hiệu chỉnh	Ghi ID, phiên bản, thay đổi và người duyệt. Giữ 80 ca cuối trong vùng riêng chưa dùng để tuning.	Bảng phân bổ đủ 40 ca và tách khỏi 80 ca đánh giá cuối.~~
+
+~~Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G06	FinMind	3	4		Nguyễn Minh Quân	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S3-WBS25	Xây runner và cấu hình B0	Đo và hiệu chỉnh cấu hình B0 B1	B0 chỉ dùng dữ kiện và công thức cố định; ghi cùng thông tin lần chạy với các cấu hình khác.	B0 chạy được các ca phù hợp và báo rõ ca không trả lời được.~~
+
+~~Có ca kiểm tra kết quả đúng sai cho từng chỉ số.~~
+
+~~Có ca kiểm tra kết quả đúng sai cho từng chỉ số.~~
+
+~~Có ca kiểm tra kết quả đúng sai cho từng chỉ số.~~
+
+~~Có ca kiểm tra kết quả đúng sai cho từng chỉ số.~~
+
+~~Kết quả từng câu có manifest, trace và thông số đo.~~
+
+~~Kết quả từng câu có manifest, trace và thông số đo.~~
+
+~~Kết quả từng câu có manifest, trace và thông số đo.~~
+
+~~Kết quả từng câu có manifest, trace và thông số đo.~~
+
+~~Có bảng so sánh và phiên bản cấu hình được nhóm duyệt.	B0 chạy được các ca phù hợp và báo rõ ca không trả lời được.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G07	FinMind	3	4		Đinh Huỳnh Vũ	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S3-WBS26	Tạo công cụ tính chỉ số chất lượng	Đo và hiệu chỉnh cấu hình B0 B1	Cài chỉ số số liệu, trích dẫn, độ phủ và Ragas theo định nghĩa đã chốt. Ghi phiên bản judge.	B0 chạy được các ca phù hợp và báo rõ ca không trả lời được.~~
+
+~~Có bảng so sánh và phiên bản cấu hình được nhóm duyệt.	Có ca kiểm tra kết quả đúng sai cho từng chỉ số.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G07	FinMind	3	4		Hồ Phạm Đăng Nhân	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S3-WBS27	Chạy B0 B1 trên bộ hiệu chỉnh	Đo và hiệu chỉnh cấu hình B0 B1	Chạy cùng corpus và bộ câu hỏi; giữ toàn bộ đầu ra và lỗi để phân tích.	B0 chạy được các ca phù hợp và báo rõ ca không trả lời được.~~
+
+~~Có bảng so sánh và phiên bản cấu hình được nhóm duyệt.	Kết quả từng câu có manifest, trace và thông số đo.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G07	FinMind	3	4		Nguyễn Minh Quân	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S3-WBS28	Hiệu chỉnh top-k và ngưỡng liên quan	Đo và hiệu chỉnh cấu hình B0 B1	Dùng 40 ca để thử tham số và ghi lý do chọn. Không thay đổi nhãn hoặc dùng bộ cuối để tuning.	B0 chạy được các ca phù hợp và báo rõ ca không trả lời được.~~
+
+~~Có bảng so sánh và phiên bản cấu hình được nhóm duyệt.	Có bảng so sánh và phiên bản cấu hình được nhóm duyệt.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G07	FinMind	3	5		Đinh Huỳnh Vũ	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S3-WBS29	Hoàn thiện kiểm tra vai trò trên API	Hoàn thiện vận hành tài khoản và API	Rà soát các API nguồn, corpus, truy vấn và đánh giá theo bốn vai trò.	Mẫu sai vai trò bị từ chối trên mọi API bắt buộc.~~
+
+~~Mỗi trace ghi đúng phiên bản cấu hình được sử dụng.~~
+
+~~Mỗi trace ghi đúng phiên bản cấu hình được sử dụng.~~
+
+~~Mỗi trace ghi đúng phiên bản cấu hình được sử dụng.~~
+
+~~Mỗi trace ghi đúng phiên bản cấu hình được sử dụng.~~
+
+~~Ca vượt trần không tạo cuộc gọi Gemini ngoài ngân sách.~~
+
+~~Ca vượt trần không tạo cuộc gọi Gemini ngoài ngân sách.~~
+
+~~Ca vượt trần không tạo cuộc gọi Gemini ngoài ngân sách.~~
+
+~~Ca vượt trần không tạo cuộc gọi Gemini ngoài ngân sách.~~
+
+~~API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Mẫu sai vai trò bị từ chối trên mọi API bắt buộc.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G08	FinMind	3	7		Hồ Phạm Đăng Nhân	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S3-WBS30	Phiên bản hóa giới hạn và ngân sách	Hoàn thiện vận hành tài khoản và API	Lưu context limit, token limit và budget theo cấu hình; chỉ áp dụng bản mới cho yêu cầu mới.	Mẫu sai vai trò bị từ chối trên mọi API bắt buộc.~~
+
+~~API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Mỗi trace ghi đúng phiên bản cấu hình được sử dụng.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G08	FinMind	3	3		Nguyễn Minh Quân	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S3-WBS31	Dừng an toàn khi vượt giới hạn API	Hoàn thiện vận hành tài khoản và API	Kiểm tra trần chi phí, token và thời gian. Báo mã lý do thay vì tiếp tục gọi API.	Mẫu sai vai trò bị từ chối trên mọi API bắt buộc.~~
+
+~~API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Ca vượt trần không tạo cuộc gọi Gemini ngoài ngân sách.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G08	FinMind	3	2		Thái Quốc Hưng	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S3-WBS32	Hoàn thiện API xem trace được phép	Hoàn thiện vận hành tài khoản và API	Cho quản trị viên xem trạng thái, thời gian và lỗi đã che thông tin; kiểm tra tìm công ty và phiên hết hạn.	Mẫu sai vai trò bị từ chối trên mọi API bắt buộc.~~
+
+~~API vận hành hiển thị dữ liệu thật và không lộ bí mật.	API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G08	FinMind	3	2		Đinh Huỳnh Vũ	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S3-WBS33	Kiểm thử chunk embedding và truy vấn	Tích hợp và nghiệm thu Sprint 3	Chạy từ tài liệu hợp lệ đến tìm đoạn và mở đúng nguồn bằng tiếng Việt, tiếng Anh.	Không mất vị trí nguồn và không trộn phiên bản corpus.~~
+
+~~Các lỗi đã đóng có kết quả kiểm tra lại.~~
+
+~~Các lỗi đã đóng có kết quả kiểm tra lại.~~
+
+~~Các lỗi đã đóng có kết quả kiểm tra lại.~~
+
+~~Các lỗi đã đóng có kết quả kiểm tra lại.~~
+
+~~Không vượt quyền hoặc giới hạn; log phản ánh đúng lỗi.~~
+
+~~Không vượt quyền hoặc giới hạn; log phản ánh đúng lỗi.~~
+
+~~Không vượt quyền hoặc giới hạn; log phản ánh đúng lỗi.~~
+
+~~Không vượt quyền hoặc giới hạn; log phản ánh đúng lỗi.~~
+
+~~Có phiên bản đầu vào rõ ràng cho thử nghiệm graph.	Không mất vị trí nguồn và không trộn phiên bản corpus.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G09	FinMind	3	5		Trần Diệu Huyền	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S3-WBS34	Sửa lỗi số liệu và vector tuần 1	Tích hợp và nghiệm thu Sprint 3	Sửa lỗi lọc kỳ, embedding và phép tính đã ghi nhận; chạy lại mẫu lỗi.	Không mất vị trí nguồn và không trộn phiên bản corpus.~~
+
+~~Có phiên bản đầu vào rõ ràng cho thử nghiệm graph.	Các lỗi đã đóng có kết quả kiểm tra lại.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G09	FinMind	3	6		Thái Quốc Hưng	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S3-WBS35	Kiểm thử B1 tài khoản và budget	Tích hợp và nghiệm thu Sprint 3	Chạy các trường hợp thiếu nguồn, timeout, vượt budget và sai quyền.	Không mất vị trí nguồn và không trộn phiên bản corpus.~~
+
+~~Có phiên bản đầu vào rõ ràng cho thử nghiệm graph.	Không vượt quyền hoặc giới hạn; log phản ánh đúng lỗi.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G09	FinMind	3	5		Thái Quốc Hưng	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S3-WBS36	Review kết quả và bàn giao Sprint 4	Tích hợp và nghiệm thu Sprint 3	Chốt bộ 40 ca, B0 B1, schema bằng chứng và tham số hiện tại; ghi việc còn thiếu.	Không mất vị trí nguồn và không trộn phiên bản corpus.~~
+
+~~Có phiên bản đầu vào rõ ràng cho thử nghiệm graph.	Có phiên bản đầu vào rõ ràng cho thử nghiệm graph.	Proposal đã sửa, mục 11 Timeline; SRS và phản hồi F01–F16.	Cao	Chưa bắt đầu	S3-G09	FinMind	3	6		Trần Diệu Huyền	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	Sprint 3	S3-WBS01	S3-G01	1	Chốt quy tắc chia đoạn tài liệu	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Chọn cách tách theo mục và bảng, kích thước đoạn và phần chồng lấn. Không cắt đứt bảng số liệu.	Có cấu hình chia đoạn và ví dụ trước sau để nhóm duyệt.	Phiên bản bàn giao của sprint trước đã được duyệt.														~~
+
+~~	Sprint 3	S3-WBS02	S3-G01	1	Viết bộ chia đoạn cho tài liệu hợp lệ	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ xử lý tài liệu đã được xác minh; giữ thứ tự đoạn và liên kết tài liệu nguồn.	Tài liệu mẫu được chia thành các đoạn không rỗng và không trùng ID.	Phiên bản bàn giao của sprint trước đã được duyệt.														~~
+
+~~	Sprint 3	S3-WBS03	S3-G01	1	Gắn vị trí nguồn vào từng đoạn	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Lưu hash, trang, mục hoặc bảng cho từng chunk để tìm đúng đoạn chứng minh.	Mở một chunk mẫu thấy được vị trí gốc trong PDF.	Phiên bản bàn giao của sprint trước đã được duyệt.														~~
+
+~~	Sprint 3	S3-WBS04	S3-G01	1	Tạo manifest chunk theo phiên bản	Nguyễn Minh Quân	Chưa bắt đầu	4		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ghi chunk thuộc corpus nào; chỉ tạo lại phần thay đổi khi có phiên bản mới.	Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Phiên bản bàn giao của sprint trước đã được duyệt.														~~
+
+~~	Sprint 3	S3-WBS05	S3-G02	1	Thiết lập mô hình embedding đã chọn	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Cấu hình BAAI bge-m3 theo môi trường dự án; ghi phiên bản mô hình và chiều vector thực tế.	Chuyển được văn bản mẫu thành vector; cấu hình được lưu lại.	Kiểm tra đầu ra liên quan của S3-G01 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS06	S3-G02	1	Viết dịch vụ embedding theo lô	Nguyễn Minh Quân	Chưa bắt đầu	4		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo vector cho chunk theo lô và ghi lỗi từng mục; không bỏ qua lỗi âm thầm.	Lô có một mục lỗi vẫn biết rõ mục nào cần chạy lại.	Kiểm tra đầu ra liên quan của S3-G01 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS07	S3-G02	1	Lưu vector và metadata vào pgvector	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Lưu embedding gắn chunk ID và corpus version; kiểm tra chiều vector và khóa ngoại.	Vector truy ra đúng chunk, tài liệu và phiên bản.	Kiểm tra đầu ra liên quan của S3-G01 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS08	S3-G02	1	Tạo chỉ mục và thử truy vấn tương đồng	Trần Diệu Huyền	Chưa bắt đầu	4		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Chọn chỉ mục phù hợp, thử câu hỏi tiếng Việt và tiếng Anh với cùng mô hình embedding.	Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Kiểm tra đầu ra liên quan của S3-G01 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS09	S3-G03	1	Viết truy vấn số liệu theo phạm vi	Nguyễn Minh Quân	Chưa bắt đầu	4		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Lọc FinancialFact theo công ty, chỉ tiêu, kỳ, đơn vị và phạm vi báo cáo.	Truy vấn không trộn số riêng lẻ với hợp nhất hoặc khác kỳ.	Kiểm tra đầu ra liên quan của S3-G02 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS10	S3-G03	1	Cài công thức tài chính được phép	Thái Quốc Hưng	Chưa bắt đầu	4		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Viết công thức tăng trưởng và tỷ lệ trong phạm vi SRS. Kiểm tra mẫu số bằng không và thiếu đầu vào.	Kết quả khớp phép tính kiểm tra độc lập; thiếu số không được tự điền.	Kiểm tra đầu ra liên quan của S3-G02 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS11	S3-G03	1	Lưu vết các dữ kiện dùng để tính	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo Calculation và CalculationInput, giữ công thức, phiên bản và các fact đầu vào.	Một kết quả tính toán truy về được mọi số đầu vào và nguồn.	Kiểm tra đầu ra liên quan của S3-G02 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS12	S3-G03	1	Tạo nháp có cấu trúc không cần Gemini	Trần Diệu Huyền	Chưa bắt đầu	6		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo câu trả lời số liệu theo mẫu, kèm đơn vị, kỳ và nguồn. Để sẵn giao diện Gate, citation và verifier.	Nháp chính xác vẫn đi qua kiểm chứng ở B3; không phát hành qua đường tắt.	Kiểm tra đầu ra liên quan của S3-G02 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS13	S3-G04	1	Nhận diện công ty kỳ và chỉ tiêu	Thái Quốc Hưng	Chưa bắt đầu	5		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Đọc câu hỏi Việt hoặc Anh và bộ lọc; yêu cầu làm rõ khi thiếu hoặc mơ hồ.	Bộ mẫu cho ra đúng công ty, kỳ, metric hoặc yêu cầu làm rõ.	Kiểm tra đầu ra liên quan của S3-G03 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS14	S3-G04	1	Phân loại sáu dạng câu hỏi	Nguyễn Minh Quân	Chưa bắt đầu	3		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ánh xạ dạng câu hỏi trong SRS sang nhánh bắt buộc và điều kiện đủ bằng chứng.	Có bảng định tuyến và mẫu kiểm tra cho từng dạng.	Kiểm tra đầu ra liên quan của S3-G03 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS15	S3-G04	1	Viết truy vấn vector có bộ lọc	Đinh Huỳnh Vũ	Chưa bắt đầu	3		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Tìm top-k đoạn theo công ty, kỳ và corpus đang dùng; ghi điểm và đoạn được chọn.	Không trả đoạn của công ty hoặc phiên bản ngoài phạm vi.	Kiểm tra đầu ra liên quan của S3-G03 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS16	S3-G04	1	Chuẩn hóa gói bằng chứng dùng chung	Hồ Phạm Đăng Nhân	Chưa bắt đầu	3		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo cấu trúc chứa fact, chunk, điểm liên quan và vị trí nguồn để các bước sau cùng đọc.	Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Kiểm tra đầu ra liên quan của S3-G03 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS17	S3-G05	2	Cấu hình B1 theo giao thức đánh giá	Thái Quốc Hưng	Chưa bắt đầu	4		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng vector retrieval và Gemini, cùng prompt và giới hạn context đã ghi. Không bật Gate hoặc verifier của B3.	Manifest B1 thể hiện đúng thành phần được bật và tắt.	Kiểm tra đầu ra liên quan của S3-G04 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS18	S3-G05	2	Sinh câu trả lời với bằng chứng tìm được	Thái Quốc Hưng	Chưa bắt đầu	4		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Gửi đoạn liên quan và ID nguồn, yêu cầu đầu ra có cấu trúc cho từng nhận định.	Nháp đọc được theo schema và giữ danh sách bằng chứng ứng viên.	Kiểm tra đầu ra liên quan của S3-G04 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS19	S3-G05	2	Gắn trích dẫn theo cơ chế chung	Nguyễn Minh Quân	Chưa bắt đầu	4		Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Liên kết nhận định của B1 với bằng chứng theo hợp đồng dùng chung B1, B2, B3.	Trích dẫn mở được vị trí nguồn; cùng quy tắc được dùng cho các cấu hình.	Kiểm tra đầu ra liên quan của S3-G04 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS20	S3-G05	2	Ghi kết quả thời gian và token B1	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Lưu câu hỏi, đầu ra, bằng chứng, thời gian và token từng lần chạy.	Một ca thử có đủ dữ liệu để so sánh lại với B2 và B3.	Kiểm tra đầu ra liên quan của S3-G04 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS21	S3-G06	2	Chọn câu hỏi theo phân bổ đã duyệt	Trần Diệu Huyền	Chưa bắt đầu	4		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Chọn 40 ca theo loại câu, ngành, ngôn ngữ và kỳ trong SRS. Không lấy câu cuối để chỉnh tham số.	Bảng phân bổ đủ 40 ca và tách khỏi 80 ca đánh giá cuối.	Kiểm tra đầu ra liên quan của S3-G05 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS22	S3-G06	2	Gắn đáp án chuẩn và vị trí chứng minh	Trần Diệu Huyền	Chưa bắt đầu	5		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ghi đáp án chuẩn, hash tài liệu và trang bảng dòng hoặc mục. Không dùng chunk ID làm nguồn chuẩn duy nhất.	Mỗi đáp án có vị trí nguồn mở lại được.	Kiểm tra đầu ra liên quan của S3-G05 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS23	S3-G06	2	Rà soát chéo và loại câu trùng	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Người thứ hai kiểm tra câu chữ, đáp án và nguồn; xử lý bất đồng và câu gần trùng.	Không còn bất đồng chưa giải quyết trong bộ hiệu chỉnh đã duyệt.	Kiểm tra đầu ra liên quan của S3-G05 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS24	S3-G06	2	Lưu phiên bản bộ hiệu chỉnh	Nguyễn Minh Quân	Chưa bắt đầu	4		Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ghi ID, phiên bản, thay đổi và người duyệt. Giữ 80 ca cuối trong vùng riêng chưa dùng để tuning.	Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Kiểm tra đầu ra liên quan của S3-G05 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS25	S3-G07	2	Xây runner và cấu hình B0	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	B0 chỉ dùng dữ kiện và công thức cố định; ghi cùng thông tin lần chạy với các cấu hình khác.	B0 chạy được các ca phù hợp và báo rõ ca không trả lời được.	Kiểm tra đầu ra liên quan của S3-G06 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS26	S3-G07	2	Tạo công cụ tính chỉ số chất lượng	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Cài chỉ số số liệu, trích dẫn, độ phủ và Ragas theo định nghĩa đã chốt. Ghi phiên bản judge.	Có ca kiểm tra kết quả đúng sai cho từng chỉ số.	Kiểm tra đầu ra liên quan của S3-G06 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS27	S3-G07	2	Chạy B0 B1 trên bộ hiệu chỉnh	Nguyễn Minh Quân	Chưa bắt đầu	4		Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy cùng corpus và bộ câu hỏi; giữ toàn bộ đầu ra và lỗi để phân tích.	Kết quả từng câu có manifest, trace và thông số đo.	Kiểm tra đầu ra liên quan của S3-G06 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS28	S3-G07	2	Hiệu chỉnh top-k và ngưỡng liên quan	Đinh Huỳnh Vũ	Chưa bắt đầu	5		Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng 40 ca để thử tham số và ghi lý do chọn. Không thay đổi nhãn hoặc dùng bộ cuối để tuning.	Có bảng so sánh và phiên bản cấu hình được nhóm duyệt.	Kiểm tra đầu ra liên quan của S3-G06 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS29	S3-G08	2	Hoàn thiện kiểm tra vai trò trên API	Hồ Phạm Đăng Nhân	Chưa bắt đầu	7		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Rà soát các API nguồn, corpus, truy vấn và đánh giá theo bốn vai trò.	Mẫu sai vai trò bị từ chối trên mọi API bắt buộc.	Kiểm tra đầu ra liên quan của S3-G07 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS30	S3-G08	2	Phiên bản hóa giới hạn và ngân sách	Nguyễn Minh Quân	Chưa bắt đầu	3		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Lưu context limit, token limit và budget theo cấu hình; chỉ áp dụng bản mới cho yêu cầu mới.	Mỗi trace ghi đúng phiên bản cấu hình được sử dụng.	Kiểm tra đầu ra liên quan của S3-G07 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS31	S3-G08	2	Dừng an toàn khi vượt giới hạn API	Thái Quốc Hưng	Chưa bắt đầu	2		Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra trần chi phí, token và thời gian. Báo mã lý do thay vì tiếp tục gọi API.	Ca vượt trần không tạo cuộc gọi Gemini ngoài ngân sách.	Kiểm tra đầu ra liên quan của S3-G07 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS32	S3-G08	2	Hoàn thiện API xem trace được phép	Đinh Huỳnh Vũ	Chưa bắt đầu	2		Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Cho quản trị viên xem trạng thái, thời gian và lỗi đã che thông tin; kiểm tra tìm công ty và phiên hết hạn.	API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Kiểm tra đầu ra liên quan của S3-G07 trước khi làm.														~~
+
+~~	Sprint 3	S3-WBS33	S3-G09	1	Kiểm thử chunk embedding và truy vấn	Trần Diệu Huyền	Chưa bắt đầu	5		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy từ tài liệu hợp lệ đến tìm đoạn và mở đúng nguồn bằng tiếng Việt, tiếng Anh.	Không mất vị trí nguồn và không trộn phiên bản corpus.	Các task chức năng liên quan có đầu ra để kiểm tra.														~~
+
+~~	Sprint 3	S3-WBS34	S3-G09	1	Sửa lỗi số liệu và vector tuần 1	Thái Quốc Hưng	Chưa bắt đầu	6		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sửa lỗi lọc kỳ, embedding và phép tính đã ghi nhận; chạy lại mẫu lỗi.	Các lỗi đã đóng có kết quả kiểm tra lại.	Các task chức năng liên quan có đầu ra để kiểm tra.														~~
+
+~~	Sprint 3	S3-WBS35	S3-G09	2	Kiểm thử B1 tài khoản và budget	Thái Quốc Hưng	Chưa bắt đầu	5		Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy các trường hợp thiếu nguồn, timeout, vượt budget và sai quyền.	Không vượt quyền hoặc giới hạn; log phản ánh đúng lỗi.	Các task chức năng liên quan có đầu ra để kiểm tra.														~~
+
+~~	Sprint 3	S3-WBS36	S3-G09	2	Review kết quả và bàn giao Sprint 4	Trần Diệu Huyền	Chưa bắt đầu	6		Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Chốt bộ 40 ca, B0 B1, schema bằng chứng và tham số hiện tại; ghi việc còn thiếu.	Có phiên bản đầu vào rõ ràng cho thử nghiệm graph.	Các task chức năng liên quan có đầu ra để kiểm tra.														~~
+
+~~Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	S3-G01	3	Chia tài liệu thành đoạn có nguồn	Có cấu hình chia đoạn và ví dụ trước sau để nhóm duyệt.~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	16		Sprint 3 Backlog~~
+
+~~Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	S3-G02	3	Tạo embedding và chỉ mục pgvector	Chuyển được văn bản mẫu thành vector; cấu hình được lưu lại.~~
+
+~~Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	16		Sprint 3 Backlog~~
+
+~~Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	S3-G03	3	Truy vấn dữ kiện và công thức cố định	Truy vấn không trộn số riêng lẻ với hợp nhất hoặc khác kỳ.~~
+
+~~Nháp chính xác vẫn đi qua kiểm chứng ở B3; không phát hành qua đường tắt.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	18		Sprint 3 Backlog~~
+
+~~Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	S3-G04	3	Hiểu câu hỏi và tìm bằng chứng	Bộ mẫu cho ra đúng công ty, kỳ, metric hoặc yêu cầu làm rõ.~~
+
+~~Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	14		Sprint 3 Backlog~~
+
+~~Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	S3-G05	3	Xây cấu hình vector RAG B1	Manifest B1 thể hiện đúng thành phần được bật và tắt.~~
+
+~~Một ca thử có đủ dữ liệu để so sánh lại với B2 và B3.	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	16		Sprint 3 Backlog~~
+
+~~Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	17		Sprint 3 Backlog~~
+
+~~Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	S3-G07	3	Đo và hiệu chỉnh cấu hình B0 B1	B0 chạy được các ca phù hợp và báo rõ ca không trả lời được.~~
+
+~~Có bảng so sánh và phiên bản cấu hình được nhóm duyệt.	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	17		Sprint 3 Backlog~~
+
+~~API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	14		Sprint 3 Backlog~~
+
+~~Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	S3-G09	3	Tích hợp và nghiệm thu Sprint 3	Không mất vị trí nguồn và không trộn phiên bản corpus.~~
+
+~~Có phiên bản đầu vào rõ ràng cho thử nghiệm graph.	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	22		Sprint 3 Backlog~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~Nháp chính xác vẫn đi qua kiểm chứng ở B3; không phát hành qua đường tắt.	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~Một ca thử có đủ dữ liệu để so sánh lại với B2 và B3.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~Có bảng so sánh và phiên bản cấu hình được nhóm duyệt.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~Có phiên bản đầu vào rõ ràng cho thử nghiệm graph.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	4	0	0	Chưa bắt đầu	Khoảng 22 giờ cho tích hợp, review và sửa lỗi.~~
+
 ## 2026-10-12 20:47 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
