@@ -1,5 +1,65 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-13 21:02 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-13 21:02
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **								3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	150	6	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **	S3-WBS03	Chốt intent và phạm vi câu hỏi B1	B1 Vector RAG	Bước 1: Liệt kê thông tin phải hiểu từ câu hỏi: công ty, thời kỳ và chỉ tiêu tài chính. Bước 2: Viết ví dụ câu hỏi tiếng Việt/Anh đủ thông tin, thiếu thông tin và mơ hồ. Bước 3: Quy định khi nào hệ thống được tìm dữ liệu, khi nào phải hỏi lại người dùng; thử bằng dữ liệu mẫu trước.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Có bảng intent, scope và ca kiểm thử cho câu hỏi đủ/thiếu thông tin.	Kế hoạch Sprint ...**
+
+🟢 **	S3-WBS08	Chốt cấu trúc evidence pack	B1 Vector RAG	Bước 1: Quy định một gói bằng chứng cần có nội dung đoạn, mã nguồn, vị trí trang/bảng, phiên bản dữ liệu và điểm phù hợp. Bước 2: Tạo vài gói mẫu và cho luồng trả lời B1 đọc thử, ngay cả khi tìm kiếm vector thật chưa xong. Bước 3: Kiểm tra gói thiếu vị trí nguồn hoặc phiên bản bị báo lỗi rõ ràng.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	B1 đọc được gói mẫu và báo thiếu metadata bắt buộc.	Kế hoạch Sprint 3 đã chố...**
+
+🟢 **	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	6																						**
+
+🟢 **	Sprint 3	S3-WBS03	S3-G04	1	Chốt intent và phạm vi câu hỏi B1	Thái Quốc Hưng	Đã hoàn thành	4	4	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Liệt kê thông tin phải hiểu từ câu hỏi: công ty, thời kỳ và chỉ tiêu tài chính. Bước 2: Viết ví dụ câu hỏi tiếng Việt/Anh đủ thông tin, thiếu thông tin và mơ hồ. Bước 3: Quy định khi nào hệ thống được tìm dữ liệu, khi nào phải hỏi lại người dùng; thử bằng dữ liệu mẫu trước.	Có bảng intent, scop...**
+
+🟢 **	Sprint 3	S3-WBS08	S3-G04	1	Chốt cấu trúc evidence pack	Thái Quốc Hưng	Đang làm	3		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Quy định một gói bằng chứng cần có nội dung đoạn, mã nguồn, vị trí trang/bảng, phiên bản dữ liệu và điểm phù hợp. Bước 2: Tạo vài gói mẫu và cho luồng trả lời B1 đọc thử, ngay cả khi tìm kiếm vector thật chưa xong. Bước 3: Kiểm tra gói thiếu vị trí nguồn hoặc phiên bản bị báo lỗi rõ ràng.	B1 đọc được gói m...**
+
+🟢 **					Tổng giờ các task			150	6																			**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				6						5	1	0	0	0	0	0	0	0	0	0	0	0	0**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	27	0.34615384615384615	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	1	0.125	Đang làm	30	4	Sprint 3 Backlog**
+
+🟢 **Task đã hoàn thành	73		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.3411214953271028		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	1	0.125	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~								3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	150	2	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~	S3-WBS03	Chốt intent và phạm vi câu hỏi B1	B1 Vector RAG	Bước 1: Liệt kê thông tin phải hiểu từ câu hỏi: công ty, thời kỳ và chỉ tiêu tài chính. Bước 2: Viết ví dụ câu hỏi tiếng Việt/Anh đủ thông tin, thiếu thông tin và mơ hồ. Bước 3: Quy định khi nào hệ thống được tìm dữ liệu, khi nào phải hỏi lại người dùng; thử bằng dữ liệu mẫu trước.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Có bảng intent, scope và ca kiểm thử cho câu hỏi đủ/thiếu thông tin.	Kế hoạch Sprint ...~~
+
+~~	S3-WBS08	Chốt cấu trúc evidence pack	B1 Vector RAG	Bước 1: Quy định một gói bằng chứng cần có nội dung đoạn, mã nguồn, vị trí trang/bảng, phiên bản dữ liệu và điểm phù hợp. Bước 2: Tạo vài gói mẫu và cho luồng trả lời B1 đọc thử, ngay cả khi tìm kiếm vector thật chưa xong. Bước 3: Kiểm tra gói thiếu vị trí nguồn hoặc phiên bản bị báo lỗi rõ ràng.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	B1 đọc được gói mẫu và báo thiếu metadata bắt buộc.	Kế hoạch Sprint 3 đã chố...~~
+
+~~	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	2																						~~
+
+~~	Sprint 3	S3-WBS03	S3-G04	1	Chốt intent và phạm vi câu hỏi B1	Thái Quốc Hưng	Chưa bắt đầu	4		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Liệt kê thông tin phải hiểu từ câu hỏi: công ty, thời kỳ và chỉ tiêu tài chính. Bước 2: Viết ví dụ câu hỏi tiếng Việt/Anh đủ thông tin, thiếu thông tin và mơ hồ. Bước 3: Quy định khi nào hệ thống được tìm dữ liệu, khi nào phải hỏi lại người dùng; thử bằng dữ liệu mẫu trước.	Có bảng intent, scope ...~~
+
+~~	Sprint 3	S3-WBS08	S3-G04	1	Chốt cấu trúc evidence pack	Thái Quốc Hưng	Chưa bắt đầu	3		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Quy định một gói bằng chứng cần có nội dung đoạn, mã nguồn, vị trí trang/bảng, phiên bản dữ liệu và điểm phù hợp. Bước 2: Tạo vài gói mẫu và cho luồng trả lời B1 đọc thử, ngay cả khi tìm kiếm vector thật chưa xong. Bước 3: Kiểm tra gói thiếu vị trí nguồn hoặc phiên bản bị báo lỗi rõ ràng.	B1 đọc được g...~~
+
+~~					Tổng giờ các task			150	2																			~~
+
+~~					Giờ thực tế theo ngày (tự tính)				2						2	0	0	0	0	0	0	0	0	0	0	0	0	0~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	26	0.3333333333333333	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	0	0	Chưa bắt đầu	30		Sprint 3 Backlog~~
+
+~~Task đã hoàn thành	72		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.3364485981308411		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-13 13:57 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
