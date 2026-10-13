@@ -1,5 +1,49 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-13 13:52 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-13 13:52
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS01	Chốt hợp đồng chunk ID và cấu trúc nguồn	Chunk và vị trí nguồn	Bước 1: Cùng Hưng thống nhất mỗi đoạn tài liệu sẽ mang những thông tin nào: mã đoạn, mã tài liệu, phiên bản dữ liệu và vị trí trang/mục/bảng. Bước 2: Viết 2 đoạn dữ liệu mẫu theo đúng cấu trúc đó để mọi người có thể code song song. Bước 3: Kiểm tra cùng một đoạn luôn nhận cùng mã khi chạy lại.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Có schema và fixture được nhóm chấp nhận; chunk ID ổn định k...**
+
+🟢 **	S3-WBS06	Nâng cấp chunker cho mục và bảng	Chunk và vị trí nguồn	Bước 1: Lấy tài liệu BCTC/BCTN đã chuẩn hóa ở Sprint 2, xem các mục và bảng dài thường bị cắt sai ở đâu. Bước 2: Nâng cấp bộ chia đoạn hiện có để mỗi đoạn có nội dung đủ hiểu và không xé ngang bảng số liệu. Bước 3: Viết ví dụ kiểm tra cho văn bản thường, bảng nhiều dòng và chạy lại để chắc không sinh đoạn rỗng hoặc trùng mã.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Các fixture cho ra chunk không rỗng,...**
+
+🟢 **	Sprint 3	S3-WBS01	S3-G01	1	Chốt hợp đồng chunk ID và cấu trúc nguồn	Đinh Huỳnh Vũ	Đã hoàn thành	2		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cùng Hưng thống nhất mỗi đoạn tài liệu sẽ mang những thông tin nào: mã đoạn, mã tài liệu, phiên bản dữ liệu và vị trí trang/mục/bảng. Bước 2: Viết 2 đoạn dữ liệu mẫu theo đúng cấu trúc đó để mọi người có thể code song song. Bước 3: Kiểm tra cùng một đoạn luôn nhận cùng mã khi chạy lại.	Có ...**
+
+🟢 **	Sprint 3	S3-WBS06	S3-G01	1	Nâng cấp chunker cho mục và bảng	Đinh Huỳnh Vũ	Đang làm	7		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy tài liệu BCTC/BCTN đã chuẩn hóa ở Sprint 2, xem các mục và bảng dài thường bị cắt sai ở đâu. Bước 2: Nâng cấp bộ chia đoạn hiện có để mỗi đoạn có nội dung đủ hiểu và không xé ngang bảng số liệu. Bước 3: Viết ví dụ kiểm tra cho văn bản thường, bảng nhiều dòng và chạy lại để chắc không sinh đoạn rỗng...**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	26	0.3333333333333333	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	1	0.16666666666666666	Đang làm	22		Sprint 3 Backlog**
+
+🟢 **Task đã hoàn thành	72		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.3364485981308411		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	1	0.16666666666666666	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S3-WBS01	Chốt hợp đồng chunk ID và cấu trúc nguồn	Chunk và vị trí nguồn	Bước 1: Cùng Hưng thống nhất mỗi đoạn tài liệu sẽ mang những thông tin nào: mã đoạn, mã tài liệu, phiên bản dữ liệu và vị trí trang/mục/bảng. Bước 2: Viết 2 đoạn dữ liệu mẫu theo đúng cấu trúc đó để mọi người có thể code song song. Bước 3: Kiểm tra cùng một đoạn luôn nhận cùng mã khi chạy lại.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Có schema và fixture được nhóm chấp nhận; chunk ID ổn định k...~~
+
+~~	S3-WBS06	Nâng cấp chunker cho mục và bảng	Chunk và vị trí nguồn	Bước 1: Lấy tài liệu BCTC/BCTN đã chuẩn hóa ở Sprint 2, xem các mục và bảng dài thường bị cắt sai ở đâu. Bước 2: Nâng cấp bộ chia đoạn hiện có để mỗi đoạn có nội dung đủ hiểu và không xé ngang bảng số liệu. Bước 3: Viết ví dụ kiểm tra cho văn bản thường, bảng nhiều dòng và chạy lại để chắc không sinh đoạn rỗng hoặc trùng mã.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Các fixture cho ra chunk không rỗng,...~~
+
+~~	Sprint 3	S3-WBS01	S3-G01	1	Chốt hợp đồng chunk ID và cấu trúc nguồn	Đinh Huỳnh Vũ	Chưa bắt đầu	2		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cùng Hưng thống nhất mỗi đoạn tài liệu sẽ mang những thông tin nào: mã đoạn, mã tài liệu, phiên bản dữ liệu và vị trí trang/mục/bảng. Bước 2: Viết 2 đoạn dữ liệu mẫu theo đúng cấu trúc đó để mọi người có thể code song song. Bước 3: Kiểm tra cùng một đoạn luôn nhận cùng mã khi chạy lại.	Có s...~~
+
+~~	Sprint 3	S3-WBS06	S3-G01	1	Nâng cấp chunker cho mục và bảng	Đinh Huỳnh Vũ	Chưa bắt đầu	7		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy tài liệu BCTC/BCTN đã chuẩn hóa ở Sprint 2, xem các mục và bảng dài thường bị cắt sai ở đâu. Bước 2: Nâng cấp bộ chia đoạn hiện có để mỗi đoạn có nội dung đủ hiểu và không xé ngang bảng số liệu. Bước 3: Viết ví dụ kiểm tra cho văn bản thường, bảng nhiều dòng và chạy lại để chắc không sinh đoạn ...~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	25	0.32051282051282054	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	0	0	Chưa bắt đầu	22		Sprint 3 Backlog~~
+
+~~Task đã hoàn thành	71		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.3317757009345794		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-13 10:57 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
