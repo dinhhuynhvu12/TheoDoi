@@ -1,5 +1,73 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-14 16:52 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-14 16:52
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **								3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	150	15	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **	S3-WBS08	Chốt cấu trúc evidence pack	B1 Vector RAG	Bước 1: Quy định một gói bằng chứng cần có nội dung đoạn, mã nguồn, vị trí trang/bảng, phiên bản dữ liệu và điểm phù hợp. Bước 2: Tạo vài gói mẫu và cho luồng trả lời B1 đọc thử, ngay cả khi tìm kiếm vector thật chưa xong. Bước 3: Kiểm tra gói thiếu vị trí nguồn hoặc phiên bản bị báo lỗi rõ ràng.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	B1 đọc được gói mẫu và báo thiếu metadata bắt buộc.	Kế hoạch Sprint 3 đã chố...**
+
+🟢 **	S3-WBS09	Soạn Golden40 lô 1–2	Golden40 và đánh giá	Bước 1: Soạn 20 câu hỏi đầu theo phân bổ đã duyệt, kèm đáp án ngắn, đơn vị và kỳ báo cáo. Bước 2: Với mỗi đáp án, ghi tài liệu gốc và trang/mục/bảng có thể mở lại để kiểm chứng. Bước 3: Đánh dấu câu còn nghi ngờ và gửi từng lô 10 câu cho người rà soát, không chờ xong cả bộ.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	20 ca có đáp án và locator mở lại được; đánh dấu câu còn bất đồng.	Kế hoạch Sprint 3 đã chốt the...**
+
+🟢 **	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	15																						**
+
+🟢 **	Sprint 3	S3-WBS08	S3-G04	1	Chốt cấu trúc evidence pack	Thái Quốc Hưng	Đã hoàn thành	3	3	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Quy định một gói bằng chứng cần có nội dung đoạn, mã nguồn, vị trí trang/bảng, phiên bản dữ liệu và điểm phù hợp. Bước 2: Tạo vài gói mẫu và cho luồng trả lời B1 đọc thử, ngay cả khi tìm kiếm vector thật chưa xong. Bước 3: Kiểm tra gói thiếu vị trí nguồn hoặc phiên bản bị báo lỗi rõ ràng.	B1 đọc được...**
+
+🟢 **	Sprint 3	S3-WBS09	S3-G06	1	Soạn Golden40 lô 1–2	Trần Diệu Huyền	Đã hoàn thành	6		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Soạn 20 câu hỏi đầu theo phân bổ đã duyệt, kèm đáp án ngắn, đơn vị và kỳ báo cáo. Bước 2: Với mỗi đáp án, ghi tài liệu gốc và trang/mục/bảng có thể mở lại để kiểm chứng. Bước 3: Đánh dấu câu còn nghi ngờ và gửi từng lô 10 câu cho người rà soát, không chờ xong cả bộ.	20 ca có đáp án và locator mở lại được; đ...**
+
+🟢 **					Tổng giờ các task			150	15																			**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				15						5	9	1	0	0	0	0	0	0	0	0	0	0	0**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	31	0.3974358974358974	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	2	0.25	Đang làm	30	7	Sprint 3 Backlog**
+
+🟢 **Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	2	0.2857142857142857	Đang làm	38		Sprint 3 Backlog**
+
+🟢 **Task đã hoàn thành	77		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.3598130841121495		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	2	0.25	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	2	0.2857142857142857	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~								3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	150	12	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~	S3-WBS08	Chốt cấu trúc evidence pack	B1 Vector RAG	Bước 1: Quy định một gói bằng chứng cần có nội dung đoạn, mã nguồn, vị trí trang/bảng, phiên bản dữ liệu và điểm phù hợp. Bước 2: Tạo vài gói mẫu và cho luồng trả lời B1 đọc thử, ngay cả khi tìm kiếm vector thật chưa xong. Bước 3: Kiểm tra gói thiếu vị trí nguồn hoặc phiên bản bị báo lỗi rõ ràng.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	B1 đọc được gói mẫu và báo thiếu metadata bắt buộc.	Kế hoạch Sprint 3 đã chố...~~
+
+~~	S3-WBS09	Soạn Golden40 lô 1–2	Golden40 và đánh giá	Bước 1: Soạn 20 câu hỏi đầu theo phân bổ đã duyệt, kèm đáp án ngắn, đơn vị và kỳ báo cáo. Bước 2: Với mỗi đáp án, ghi tài liệu gốc và trang/mục/bảng có thể mở lại để kiểm chứng. Bước 3: Đánh dấu câu còn nghi ngờ và gửi từng lô 10 câu cho người rà soát, không chờ xong cả bộ.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	20 ca có đáp án và locator mở lại được; đánh dấu câu còn bất đồng.	Kế hoạch Sprint 3 đã chốt the...~~
+
+~~	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	12																						~~
+
+~~	Sprint 3	S3-WBS08	S3-G04	1	Chốt cấu trúc evidence pack	Thái Quốc Hưng	Đang làm	3		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Quy định một gói bằng chứng cần có nội dung đoạn, mã nguồn, vị trí trang/bảng, phiên bản dữ liệu và điểm phù hợp. Bước 2: Tạo vài gói mẫu và cho luồng trả lời B1 đọc thử, ngay cả khi tìm kiếm vector thật chưa xong. Bước 3: Kiểm tra gói thiếu vị trí nguồn hoặc phiên bản bị báo lỗi rõ ràng.	B1 đọc được gói m...~~
+
+~~	Sprint 3	S3-WBS09	S3-G06	1	Soạn Golden40 lô 1–2	Trần Diệu Huyền	Chưa bắt đầu	6		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Soạn 20 câu hỏi đầu theo phân bổ đã duyệt, kèm đáp án ngắn, đơn vị và kỳ báo cáo. Bước 2: Với mỗi đáp án, ghi tài liệu gốc và trang/mục/bảng có thể mở lại để kiểm chứng. Bước 3: Đánh dấu câu còn nghi ngờ và gửi từng lô 10 câu cho người rà soát, không chờ xong cả bộ.	20 ca có đáp án và locator mở lại được; đá...~~
+
+~~					Tổng giờ các task			150	12																			~~
+
+~~					Giờ thực tế theo ngày (tự tính)				12						5	7	0	0	0	0	0	0	0	0	0	0	0	0~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	29	0.3717948717948718	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	1	0.125	Đang làm	30	4	Sprint 3 Backlog~~
+
+~~Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	1	0.14285714285714285	Đang làm	38		Sprint 3 Backlog~~
+
+~~Task đã hoàn thành	75		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.35046728971962615		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	1	0.125	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	1	0.14285714285714285	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-14 15:32 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
