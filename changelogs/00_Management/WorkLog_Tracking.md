@@ -1,5 +1,21 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-14 15:22 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-14 15:22
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS15	Nối login/register UI với API	Tài khoản và phân quyền	Bước 1: Nối màn hình đăng nhập/đăng ký hiện có với API thật thay vì dữ liệu giả. Bước 2: Hiển thị trạng thái đang xử lý, nhập sai, lỗi mạng và đăng nhập thành công sao cho người dùng hiểu. Bước 3: Kiểm tra giao diện không lưu mật khẩu hoặc mã khôi phục trong trình duyệt.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Luồng UI đăng nhập/đăng ký dùng backend thật và không lưu secret trong localSto...**
+
+🟢 **	Sprint 3	S3-WBS15	S3-G08	1	Nối login/register UI với API	Nguyễn Minh Quân	Đang làm	4		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nối màn hình đăng nhập/đăng ký hiện có với API thật thay vì dữ liệu giả. Bước 2: Hiển thị trạng thái đang xử lý, nhập sai, lỗi mạng và đăng nhập thành công sao cho người dùng hiểu. Bước 3: Kiểm tra giao diện không lưu mật khẩu hoặc mã khôi phục trong trình duyệt.	Luồng UI đăng nhập/đăng ký dùng backend...**
+
+~~	S3-WBS15	Nối login/register UI với API	Tài khoản và phân quyền	Bước 1: Nối màn hình đăng nhập/đăng ký hiện có với API thật thay vì dữ liệu giả. Bước 2: Hiển thị trạng thái đang xử lý, nhập sai, lỗi mạng và đăng nhập thành công sao cho người dùng hiểu. Bước 3: Kiểm tra giao diện không lưu mật khẩu hoặc mã khôi phục trong trình duyệt.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Luồng UI đăng nhập/đăng ký dùng backend thật và không lưu secret trong localSto...~~
+
+~~	Sprint 3	S3-WBS15	S3-G08	1	Nối login/register UI với API	Nguyễn Minh Quân	Chưa bắt đầu	4		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nối màn hình đăng nhập/đăng ký hiện có với API thật thay vì dữ liệu giả. Bước 2: Hiển thị trạng thái đang xử lý, nhập sai, lỗi mạng và đăng nhập thành công sao cho người dùng hiểu. Bước 3: Kiểm tra giao diện không lưu mật khẩu hoặc mã khôi phục trong trình duyệt.	Luồng UI đăng nhập/đăng ký dùng bac...~~
+
 ## 2026-10-14 14:52 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
