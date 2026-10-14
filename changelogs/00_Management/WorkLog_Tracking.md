@@ -1,5 +1,41 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-14 14:47 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-14 14:47
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **								3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	150	12	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **	S3-WBS10	Code đăng ký và đăng nhập backend	Tài khoản và phân quyền	Bước 1: Tạo chức năng đăng ký bằng thông tin hợp lệ và lưu mật khẩu dưới dạng đã bảo vệ, không lưu bản gốc. Bước 2: Tạo đăng nhập, xử lý sai mật khẩu và giới hạn thử liên tiếp; trả thông báo không tiết lộ dữ liệu nhạy cảm. Bước 3: Kiểm thử tài khoản đúng/sai và xác nhận người dùng không tự cấp quyền cao hơn.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Ca hợp lệ đăng ký/đăng nhập được; sai...**
+
+🟢 **	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	12																						**
+
+🟢 **	Sprint 3	S3-WBS10	S3-G08	1	Code đăng ký và đăng nhập backend	Nguyễn Minh Quân	Đang làm	8	6	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo chức năng đăng ký bằng thông tin hợp lệ và lưu mật khẩu dưới dạng đã bảo vệ, không lưu bản gốc. Bước 2: Tạo đăng nhập, xử lý sai mật khẩu và giới hạn thử liên tiếp; trả thông báo không tiết lộ dữ liệu nhạy cảm. Bước 3: Kiểm thử tài khoản đúng/sai và xác nhận người dùng không tự cấp quyền cao h...**
+
+🟢 **					Tổng giờ các task			150	12																			**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				12						5	7	0	0	0	0	0	0	0	0	0	0	0	0**
+
+🟢 **API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	1	0.14285714285714285	Đang làm	30	8	Sprint 3 Backlog**
+
+~~								3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	150	6	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~	S3-WBS10	Code đăng ký và đăng nhập backend	Tài khoản và phân quyền	Bước 1: Tạo chức năng đăng ký bằng thông tin hợp lệ và lưu mật khẩu dưới dạng đã bảo vệ, không lưu bản gốc. Bước 2: Tạo đăng nhập, xử lý sai mật khẩu và giới hạn thử liên tiếp; trả thông báo không tiết lộ dữ liệu nhạy cảm. Bước 3: Kiểm thử tài khoản đúng/sai và xác nhận người dùng không tự cấp quyền cao hơn.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Ca hợp lệ đăng ký/đăng nhập được; sai...~~
+
+~~	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	6																						~~
+
+~~	Sprint 3	S3-WBS10	S3-G08	1	Code đăng ký và đăng nhập backend	Nguyễn Minh Quân	Đang làm	8		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo chức năng đăng ký bằng thông tin hợp lệ và lưu mật khẩu dưới dạng đã bảo vệ, không lưu bản gốc. Bước 2: Tạo đăng nhập, xử lý sai mật khẩu và giới hạn thử liên tiếp; trả thông báo không tiết lộ dữ liệu nhạy cảm. Bước 3: Kiểm thử tài khoản đúng/sai và xác nhận người dùng không tự cấp quyền cao hơ...~~
+
+~~					Tổng giờ các task			150	6																			~~
+
+~~					Giờ thực tế theo ngày (tự tính)				6						5	1	0	0	0	0	0	0	0	0	0	0	0	0~~
+
+~~API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	1	0.14285714285714285	Đang làm	30	2	Sprint 3 Backlog~~
+
 ## 2026-10-14 13:42 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
