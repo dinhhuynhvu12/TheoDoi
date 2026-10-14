@@ -1,5 +1,41 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-14 15:27 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-14 15:27
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS04	Chốt phân bổ Golden40	Golden40 và đánh giá	Bước 1: Lập danh sách đúng 40 câu hỏi để hiệu chỉnh hệ thống, chia đều theo loại câu hỏi, ngành, ngôn ngữ và thời kỳ đã chốt. Bước 2: Đánh mã từng câu, giao thành các lô 10 câu cho người kiểm tra. Bước 3: Đối chiếu để không trùng với 80 câu của bộ kiểm tra cuối, vì bộ cuối không được dùng để chỉnh hệ thống.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	Bảng phân bổ 40 ID không trùng, không lộ nhãn test cuối.	Kế h...**
+
+🟢 **	Sprint 3	S3-WBS04	S3-G06	1	Chốt phân bổ Golden40	Trần Diệu Huyền	Đã hoàn thành	3		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lập danh sách đúng 40 câu hỏi để hiệu chỉnh hệ thống, chia đều theo loại câu hỏi, ngành, ngôn ngữ và thời kỳ đã chốt. Bước 2: Đánh mã từng câu, giao thành các lô 10 câu cho người kiểm tra. Bước 3: Đối chiếu để không trùng với 80 câu của bộ kiểm tra cuối, vì bộ cuối không được dùng để chỉnh hệ thống.	Bảng p...**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	29	0.3717948717948718	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	1	0.14285714285714285	Đang làm	38		Sprint 3 Backlog**
+
+🟢 **Task đã hoàn thành	75		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.35046728971962615		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	1	0.14285714285714285	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S3-WBS04	Chốt phân bổ Golden40	Golden40 và đánh giá	Bước 1: Lập danh sách đúng 40 câu hỏi để hiệu chỉnh hệ thống, chia đều theo loại câu hỏi, ngành, ngôn ngữ và thời kỳ đã chốt. Bước 2: Đánh mã từng câu, giao thành các lô 10 câu cho người kiểm tra. Bước 3: Đối chiếu để không trùng với 80 câu của bộ kiểm tra cuối, vì bộ cuối không được dùng để chỉnh hệ thống.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	Bảng phân bổ 40 ID không trùng, không lộ nhãn test cuối.	Kế h...~~
+
+~~	Sprint 3	S3-WBS04	S3-G06	1	Chốt phân bổ Golden40	Trần Diệu Huyền	Đang làm	3		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lập danh sách đúng 40 câu hỏi để hiệu chỉnh hệ thống, chia đều theo loại câu hỏi, ngành, ngôn ngữ và thời kỳ đã chốt. Bước 2: Đánh mã từng câu, giao thành các lô 10 câu cho người kiểm tra. Bước 3: Đối chiếu để không trùng với 80 câu của bộ kiểm tra cuối, vì bộ cuối không được dùng để chỉnh hệ thống.	Bảng phân b...~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	28	0.358974358974359	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	0	0	Đang làm	38		Sprint 3 Backlog~~
+
+~~Task đã hoàn thành	74		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.34579439252336447		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	0	0	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-14 15:22 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
