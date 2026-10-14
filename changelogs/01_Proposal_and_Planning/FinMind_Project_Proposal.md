@@ -1,5 +1,11 @@
 # Lịch sử thay đổi: FinMind_Project_Proposal.pdf
 
+## 2026-10-14 18:43 - TAO MOI
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `01_Proposal_and_Planning/FinMind_Project_Proposal`
+- **Ngày và giờ:** 2026-10-14 18:43
+
 ## 2026-09-30 18:47 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
