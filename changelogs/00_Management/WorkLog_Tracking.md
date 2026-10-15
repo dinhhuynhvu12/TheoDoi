@@ -1,5 +1,57 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-15 13:42 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-15 13:42
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **								3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	150	18	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **	S3-WBS15	Nối login/register UI với API	Tài khoản và phân quyền	Bước 1: Nối màn hình đăng nhập/đăng ký hiện có với API thật thay vì dữ liệu giả. Bước 2: Hiển thị trạng thái đang xử lý, nhập sai, lỗi mạng và đăng nhập thành công sao cho người dùng hiểu. Bước 3: Kiểm tra giao diện không lưu mật khẩu hoặc mã khôi phục trong trình duyệt.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Luồng UI đăng nhập/đăng ký dùng backend thật và không lưu secret trong localSto...**
+
+🟢 **	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	18																						**
+
+🟢 **	Sprint 3	S3-WBS15	S3-G08	1	Nối login/register UI với API	Nguyễn Minh Quân	Đã hoàn thành	4	3	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nối màn hình đăng nhập/đăng ký hiện có với API thật thay vì dữ liệu giả. Bước 2: Hiển thị trạng thái đang xử lý, nhập sai, lỗi mạng và đăng nhập thành công sao cho người dùng hiểu. Bước 3: Kiểm tra giao diện không lưu mật khẩu hoặc mã khôi phục trong trình duyệt.	Luồng UI đăng nhập/đăng ký dùng b...**
+
+🟢 **					Tổng giờ các task			150	18																			**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				18						5	9	4	0	0	0	0	0	0	0	0	0	0	0**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	32	0.41025641025641024	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	3	0.42857142857142855	Đang làm	30	11	Sprint 3 Backlog**
+
+🟢 **Task đã hoàn thành	78		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.3644859813084112		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	3	0.42857142857142855	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~								3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	150	15	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~	S3-WBS15	Nối login/register UI với API	Tài khoản và phân quyền	Bước 1: Nối màn hình đăng nhập/đăng ký hiện có với API thật thay vì dữ liệu giả. Bước 2: Hiển thị trạng thái đang xử lý, nhập sai, lỗi mạng và đăng nhập thành công sao cho người dùng hiểu. Bước 3: Kiểm tra giao diện không lưu mật khẩu hoặc mã khôi phục trong trình duyệt.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Luồng UI đăng nhập/đăng ký dùng backend thật và không lưu secret trong localSto...~~
+
+~~	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	15																						~~
+
+~~	Sprint 3	S3-WBS15	S3-G08	1	Nối login/register UI với API	Nguyễn Minh Quân	Đang làm	4		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nối màn hình đăng nhập/đăng ký hiện có với API thật thay vì dữ liệu giả. Bước 2: Hiển thị trạng thái đang xử lý, nhập sai, lỗi mạng và đăng nhập thành công sao cho người dùng hiểu. Bước 3: Kiểm tra giao diện không lưu mật khẩu hoặc mã khôi phục trong trình duyệt.	Luồng UI đăng nhập/đăng ký dùng backend...~~
+
+~~					Tổng giờ các task			150	15																			~~
+
+~~					Giờ thực tế theo ngày (tự tính)				15						5	9	1	0	0	0	0	0	0	0	0	0	0	0~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	31	0.3974358974358974	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	2	0.2857142857142857	Đang làm	30	8	Sprint 3 Backlog~~
+
+~~Task đã hoàn thành	77		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.3598130841121495		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	2	0.2857142857142857	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-15 09:12 - SUA NOI DUNG
 
 - **Người đăng:** dunhvu47@gmail.com
