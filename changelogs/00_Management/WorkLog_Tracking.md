@@ -1,5 +1,81 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-15 08:37 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-15 08:37
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS02	Chốt mô hình embedding và cấu hình	Embedding và pgvector	Bước 1: Dùng vài đoạn văn mẫu để thử mô hình biến chữ thành dãy số (embedding), nhờ đó máy có thể tìm đoạn gần nghĩa. Bước 2: Ghi rõ tên/phiên bản mô hình, số chiều của dãy số và số đoạn xử lý mỗi lần. Bước 3: Lưu cấu hình và một kết quả mẫu để nhóm dùng chung; chưa cần đợi Vũ chia xong tài liệu thật.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Tạo được vector mẫu và lưu cấu hình có phiên bản.	Kế hoạch Sprint 3 đã chố...**
+
+🟢 **	S3-WBS06	Nâng cấp chunker cho mục và bảng	Chunk và vị trí nguồn	Bước 1: Lấy tài liệu BCTC/BCTN đã chuẩn hóa ở Sprint 2, xem các mục và bảng dài thường bị cắt sai ở đâu. Bước 2: Nâng cấp bộ chia đoạn hiện có để mỗi đoạn có nội dung đủ hiểu và không xé ngang bảng số liệu. Bước 3: Viết ví dụ kiểm tra cho văn bản thường, bảng nhiều dòng và chạy lại để chắc không sinh đoạn rỗng hoặc trùng mã.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Các fixture cho ra chunk không rỗng,...**
+
+🟢 **	S3-WBS07	Tạo embedding theo lô có báo lỗi	Embedding và pgvector	Bước 1: Cho chương trình nhận nhiều đoạn văn mẫu một lần và tạo vector cho từng đoạn. Bước 2: Nếu một đoạn bị lỗi, ghi rõ mã đoạn và lý do, chỉ thử lại có giới hạn, không làm mất các đoạn thành công. Bước 3: Chạy thử một lô có cả đoạn tốt và đoạn lỗi để chứng minh có thể xử lý lại đúng phần lỗi.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Một mục lỗi trong lô được định danh để chạy lại, mục thành công không xử lý trùng....**
+
+🟢 **	S3-WBS11	Gắn locator vào từng chunk	Chunk và vị trí nguồn	Bước 1: Với mỗi đoạn Vũ đã chia, lưu rõ nó đến từ tài liệu nào, trang nào, mục hoặc bảng nào. Bước 2: Lấy vài đoạn mẫu, bấm/mở lại tài liệu gốc tại vị trí ghi trong đoạn. Bước 3: Sửa các trường hợp trích dẫn nhảy sai trang, sai bảng hoặc không mở được.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Chunk mẫu truy được vị trí nguồn chính xác trong tài liệu.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ ...**
+
+🟢 **	S3-WBS12	Lưu vector và metadata vào pgvector	Embedding và pgvector	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Vector mẫu truy ngược đúng chunk và không trộn corpus version.	Kế hoạch Sprint 3 đã chốt...**
+
+🟢 **	Sprint 3	S3-WBS06	S3-G01	1		Nâng cấp chunker cho mục và bảng	Đinh Huỳnh Vũ	Đã hoàn thành	7		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy tài liệu BCTC/BCTN đã chuẩn hóa ở Sprint 2, xem các mục và bảng dài thường bị cắt sai ở đâu. Bước 2: Nâng cấp bộ chia đoạn hiện có để mỗi đoạn có nội dung đủ hiểu và không xé ngang bảng số liệu. Bước 3: Viết ví dụ kiểm tra cho văn bản thường, bảng nhiều dòng và chạy lại để chắc không sinh đoạ...**
+
+🟢 **	Sprint 3	S3-WBS11	S3-G01	1		Gắn locator vào từng chunk	Đinh Huỳnh Vũ	Đang làm	4		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Với mỗi đoạn Vũ đã chia, lưu rõ nó đến từ tài liệu nào, trang nào, mục hoặc bảng nào. Bước 2: Lấy vài đoạn mẫu, bấm/mở lại tài liệu gốc tại vị trí ghi trong đoạn. Bước 3: Sửa các trường hợp trích dẫn nhảy sai trang, sai bảng hoặc không mở được.	Chunk mẫu truy được vị trí nguồn chính xác trong tài liệu.	Chun...**
+
+🟢 **	Sprint 3	S3-WBS02	S3-G02	1		Chốt mô hình embedding và cấu hình	Hồ Phạm Đăng Nhân	Đã hoàn thành	3		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng vài đoạn văn mẫu để thử mô hình biến chữ thành dãy số (embedding), nhờ đó máy có thể tìm đoạn gần nghĩa. Bước 2: Ghi rõ tên/phiên bản mô hình, số chiều của dãy số và số đoạn xử lý mỗi lần. Bước 3: Lưu cấu hình và một kết quả mẫu để nhóm dùng chung; chưa cần đợi Vũ chia xong tài liệu th...**
+
+🟢 **	Sprint 3	S3-WBS07	S3-G02	1		Tạo embedding theo lô có báo lỗi	Hồ Phạm Đăng Nhân	Đang test	4		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cho chương trình nhận nhiều đoạn văn mẫu một lần và tạo vector cho từng đoạn. Bước 2: Nếu một đoạn bị lỗi, ghi rõ mã đoạn và lý do, chỉ thử lại có giới hạn, không làm mất các đoạn thành công. Bước 3: Chạy thử một lô có cả đoạn tốt và đoạn lỗi để chứng minh có thể xử lý lại đúng phần lỗi.	Một mục ...**
+
+🟢 **	Sprint 3	S3-WBS12	S3-G02	1		Lưu vector và metadata vào pgvector	Hồ Phạm Đăng Nhân	Đang làm	5		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Vector mẫu truy...**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	33	0.4230769230769231	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	2	0.3333333333333333	Đang làm	22		Sprint 3 Backlog**
+
+🟢 **Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	1	0.125	Đang test	30		Sprint 3 Backlog**
+
+🟢 **Task đã hoàn thành	79		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.3691588785046729		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	2	0.3333333333333333	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	1	0.125	Đang test	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S3-WBS02	Chốt mô hình embedding và cấu hình	Embedding và pgvector	Bước 1: Dùng vài đoạn văn mẫu để thử mô hình biến chữ thành dãy số (embedding), nhờ đó máy có thể tìm đoạn gần nghĩa. Bước 2: Ghi rõ tên/phiên bản mô hình, số chiều của dãy số và số đoạn xử lý mỗi lần. Bước 3: Lưu cấu hình và một kết quả mẫu để nhóm dùng chung; chưa cần đợi Vũ chia xong tài liệu thật.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Tạo được vector mẫu và lưu cấu hình có phiên bản.	Kế hoạch Sprint 3 đã chố...~~
+
+~~	S3-WBS06	Nâng cấp chunker cho mục và bảng	Chunk và vị trí nguồn	Bước 1: Lấy tài liệu BCTC/BCTN đã chuẩn hóa ở Sprint 2, xem các mục và bảng dài thường bị cắt sai ở đâu. Bước 2: Nâng cấp bộ chia đoạn hiện có để mỗi đoạn có nội dung đủ hiểu và không xé ngang bảng số liệu. Bước 3: Viết ví dụ kiểm tra cho văn bản thường, bảng nhiều dòng và chạy lại để chắc không sinh đoạn rỗng hoặc trùng mã.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Các fixture cho ra chunk không rỗng,...~~
+
+~~	S3-WBS07	Tạo embedding theo lô có báo lỗi	Embedding và pgvector	Bước 1: Cho chương trình nhận nhiều đoạn văn mẫu một lần và tạo vector cho từng đoạn. Bước 2: Nếu một đoạn bị lỗi, ghi rõ mã đoạn và lý do, chỉ thử lại có giới hạn, không làm mất các đoạn thành công. Bước 3: Chạy thử một lô có cả đoạn tốt và đoạn lỗi để chứng minh có thể xử lý lại đúng phần lỗi.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Một mục lỗi trong lô được định danh để chạy lại, mục thành công không xử lý trùng....~~
+
+~~	S3-WBS11	Gắn locator vào từng chunk	Chunk và vị trí nguồn	Bước 1: Với mỗi đoạn Vũ đã chia, lưu rõ nó đến từ tài liệu nào, trang nào, mục hoặc bảng nào. Bước 2: Lấy vài đoạn mẫu, bấm/mở lại tài liệu gốc tại vị trí ghi trong đoạn. Bước 3: Sửa các trường hợp trích dẫn nhảy sai trang, sai bảng hoặc không mở được.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Chunk mẫu truy được vị trí nguồn chính xác trong tài liệu.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ ...~~
+
+~~	S3-WBS12	Lưu vector và metadata vào pgvector	Embedding và pgvector	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Vector mẫu truy ngược đúng chunk và không trộn corpus version.	Kế hoạch Sprint 3 đã chốt...~~
+
+~~	Sprint 3	S3-WBS06	S3-G01	1		Nâng cấp chunker cho mục và bảng	Đinh Huỳnh Vũ	Đang làm	7		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy tài liệu BCTC/BCTN đã chuẩn hóa ở Sprint 2, xem các mục và bảng dài thường bị cắt sai ở đâu. Bước 2: Nâng cấp bộ chia đoạn hiện có để mỗi đoạn có nội dung đủ hiểu và không xé ngang bảng số liệu. Bước 3: Viết ví dụ kiểm tra cho văn bản thường, bảng nhiều dòng và chạy lại để chắc không sinh đoạn rỗn...~~
+
+~~	Sprint 3	S3-WBS11	S3-G01	1		Gắn locator vào từng chunk	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Với mỗi đoạn Vũ đã chia, lưu rõ nó đến từ tài liệu nào, trang nào, mục hoặc bảng nào. Bước 2: Lấy vài đoạn mẫu, bấm/mở lại tài liệu gốc tại vị trí ghi trong đoạn. Bước 3: Sửa các trường hợp trích dẫn nhảy sai trang, sai bảng hoặc không mở được.	Chunk mẫu truy được vị trí nguồn chính xác trong tài liệu.	...~~
+
+~~	Sprint 3	S3-WBS02	S3-G02	1		Chốt mô hình embedding và cấu hình	Hồ Phạm Đăng Nhân	Chưa bắt đầu	3		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng vài đoạn văn mẫu để thử mô hình biến chữ thành dãy số (embedding), nhờ đó máy có thể tìm đoạn gần nghĩa. Bước 2: Ghi rõ tên/phiên bản mô hình, số chiều của dãy số và số đoạn xử lý mỗi lần. Bước 3: Lưu cấu hình và một kết quả mẫu để nhóm dùng chung; chưa cần đợi Vũ chia xong tài liệu thậ...~~
+
+~~	Sprint 3	S3-WBS07	S3-G02	1		Tạo embedding theo lô có báo lỗi	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cho chương trình nhận nhiều đoạn văn mẫu một lần và tạo vector cho từng đoạn. Bước 2: Nếu một đoạn bị lỗi, ghi rõ mã đoạn và lý do, chỉ thử lại có giới hạn, không làm mất các đoạn thành công. Bước 3: Chạy thử một lô có cả đoạn tốt và đoạn lỗi để chứng minh có thể xử lý lại đúng phần lỗi.	Một m...~~
+
+~~	Sprint 3	S3-WBS12	S3-G02	1		Lưu vector và metadata vào pgvector	Hồ Phạm Đăng Nhân	Chưa bắt đầu	5		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Vector mẫu ...~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	31	0.3974358974358974	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	1	0.16666666666666666	Đang làm	22		Sprint 3 Backlog~~
+
+~~Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	0	0	Chưa bắt đầu	30		Sprint 3 Backlog~~
+
+~~Task đã hoàn thành	77		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.3598130841121495		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	1	0.16666666666666666	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-14 18:43 - TAO MOI
 
 - **Người đăng:** khong ro
