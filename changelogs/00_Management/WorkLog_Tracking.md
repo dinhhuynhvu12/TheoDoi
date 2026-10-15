@@ -1,5 +1,21 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-15 08:43 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-15 08:43
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS12	Lưu vector và metadata vào pgvector	Embedding và pgvector	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.k	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Vector mẫu truy ngược đúng chunk và không trộn corpus version.	Kế hoạch Sprint 3 đã chố...**
+
+🟢 **	Sprint 3	S3-WBS12	S3-G02	1		Lưu vector và metadata vào pgvector	Hồ Phạm Đăng Nhân	Đang làm	5		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.k	Vector mẫu tru...**
+
+~~	S3-WBS12	Lưu vector và metadata vào pgvector	Embedding và pgvector	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Vector mẫu truy ngược đúng chunk và không trộn corpus version.	Kế hoạch Sprint 3 đã chốt...~~
+
+~~	Sprint 3	S3-WBS12	S3-G02	1		Lưu vector và metadata vào pgvector	Hồ Phạm Đăng Nhân	Đang làm	5		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Vector mẫu truy...~~
+
 ## 2026-10-15 08:37 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
