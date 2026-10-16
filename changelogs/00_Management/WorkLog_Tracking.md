@@ -1,5 +1,29 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-16 15:22 - SUA NOI DUNG
+
+- **Người đăng:** minhquan9125@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-16 15:22
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS23	Code quên và đặt lại mật khẩu	Tài khoản và phân quyền	Bước 1: Tạo luồng người dùng nhập email để xin đặt lại mật khẩu; phản hồi giống nhau dù email có tồn tại hay không. Bước 2: Phát mã/đường dẫn khôi phục chỉ dùng một lần và có hạn, lưu bản đã bảo vệ, rồi cho người dùng đặt mật khẩu mới. Bước 3: Làm màn hình quên/đặt lại mật khẩu và thử mã đúng, mã hết hạn, mã đã dùng.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Token dùng lại hoặc hết hạn bị t...**
+
+🟢 **	Sprint 3	S3-WBS23	S3-G08	2	Code quên và đặt lại mật khẩu	Nguyễn Minh Quân	Đang test	6		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo luồng người dùng nhập email để xin đặt lại mật khẩu; phản hồi giống nhau dù email có tồn tại hay không. Bước 2: Phát mã/đường dẫn khôi phục chỉ dùng một lần và có hạn, lưu bản đã bảo vệ, rồi cho người dùng đặt mật khẩu mới. Bước 3: Làm màn hình quên/đặt lại mật khẩu và thử mã đúng, mã hết hạn, mã ...**
+
+🟢 **API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	3	0.42857142857142855	Đang test	30	11	Sprint 3 Backlog**
+
+🟢 **API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	3	0.42857142857142855	Đang test	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S3-WBS23	Code quên và đặt lại mật khẩu	Tài khoản và phân quyền	Bước 1: Tạo luồng người dùng nhập email để xin đặt lại mật khẩu; phản hồi giống nhau dù email có tồn tại hay không. Bước 2: Phát mã/đường dẫn khôi phục chỉ dùng một lần và có hạn, lưu bản đã bảo vệ, rồi cho người dùng đặt mật khẩu mới. Bước 3: Làm màn hình quên/đặt lại mật khẩu và thử mã đúng, mã hết hạn, mã đã dùng.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Token dùng lại hoặc hết hạn bị t...~~
+
+~~	Sprint 3	S3-WBS23	S3-G08	2	Code quên và đặt lại mật khẩu	Nguyễn Minh Quân	Đang làm	6		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo luồng người dùng nhập email để xin đặt lại mật khẩu; phản hồi giống nhau dù email có tồn tại hay không. Bước 2: Phát mã/đường dẫn khôi phục chỉ dùng một lần và có hạn, lưu bản đã bảo vệ, rồi cho người dùng đặt mật khẩu mới. Bước 3: Làm màn hình quên/đặt lại mật khẩu và thử mã đúng, mã hết hạn, mã đ...~~
+
+~~API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	3	0.42857142857142855	Đang làm	30	11	Sprint 3 Backlog~~
+
+~~API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	3	0.42857142857142855	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-16 13:52 - SUA NOI DUNG
 
 - **Người đăng:** dunhvu47@gmail.com
