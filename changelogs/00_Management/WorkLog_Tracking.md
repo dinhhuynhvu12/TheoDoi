@@ -1,5 +1,89 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-16 08:57 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-16 08:57
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS02	Chốt mô hình embedding và cấu hình	Embedding và pgvector	Bước 1: Dùng vài đoạn văn mẫu để thử mô hình biến chữ thành dãy số (embedding), nhờ đó máy có thể tìm đoạn gần nghĩa. Bước 2: Ghi rõ tên/phiên bản mô hình, số chiều của dãy số và số đoạn xử lý mỗi lần. Bước 3: Lưu cấu hình và một kết quả mẫu để nhóm dùng chung; chưa cần đợi Vũ chia xong tài liệu thật.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Tạo được vector mẫu và lưu cấu hình có phiên bản.	Kế hoạch Sprint 3 đã chố...**
+
+🟢 **	S3-WBS07	Tạo embedding theo lô có báo lỗi	Embedding và pgvector	Bước 1: Cho chương trình nhận nhiều đoạn văn mẫu một lần và tạo vector cho từng đoạn. Bước 2: Nếu một đoạn bị lỗi, ghi rõ mã đoạn và lý do, chỉ thử lại có giới hạn, không làm mất các đoạn thành công. Bước 3: Chạy thử một lô có cả đoạn tốt và đoạn lỗi để chứng minh có thể xử lý lại đúng phần lỗi.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Một mục lỗi trong lô được định danh để chạy lại, mục thành công không xử lý trùng....**
+
+🟢 **	S3-WBS12	Lưu vector và metadata vào pgvector	Embedding và pgvector	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Vector mẫu truy ngược đúng chunk và không trộn corpus version.	Kế hoạch Sprint 3 đã chốt...**
+
+🟢 **	S3-WBS13	Dựng B1 retrieval orchestration bằng fixture	B1 Vector RAG	Bước 1: Nối phần hiểu câu hỏi với mẫu kết quả tìm kiếm và gói bằng chứng đã thống nhất. Bước 2: Cho B1 chạy thử với dữ liệu mẫu để kiểm tra đường đi từ câu hỏi đến danh sách nguồn. Bước 3: Xử lý riêng trường hợp không tìm thấy nguồn, kết quả rỗng hoặc hết thời gian; chưa phải đợi dữ liệu vector thật.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	B1 trên fixture trả schema đúng, không tạo câu trả lời ...**
+
+🟢 **	S3-WBS18	Xử lý B1 khi câu hỏi hoặc nguồn mơ hồ	B1 Vector RAG	Bước 1: Dùng câu hỏi thiếu công ty/kỳ/chỉ tiêu để thử B1. Bước 2: Viết câu trả lời yêu cầu người dùng làm rõ thay vì đoán. Bước 3: Với câu hỏi đủ thông tin nhưng không có nguồn phù hợp, cho hệ thống nói chưa đủ bằng chứng và không tự tạo số liệu.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Ca thiếu công ty/kỳ hoặc không có nguồn không bị bịa câu trả lời.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quâ...**
+
+🟢 **	S3-WBS23	Code quên và đặt lại mật khẩu	Tài khoản và phân quyền	Bước 1: Tạo luồng người dùng nhập email để xin đặt lại mật khẩu; phản hồi giống nhau dù email có tồn tại hay không. Bước 2: Phát mã/đường dẫn khôi phục chỉ dùng một lần và có hạn, lưu bản đã bảo vệ, rồi cho người dùng đặt mật khẩu mới. Bước 3: Làm màn hình quên/đặt lại mật khẩu và thử mã đúng, mã hết hạn, mã đã dùng.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Token dùng lại hoặc hết hạn bị t...**
+
+🟢 **	Sprint 3	S3-WBS02	S3-G02	1	Chốt mô hình embedding và cấu hình	Hồ Phạm Đăng Nhân	Đã hoàn thành	3		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng vài đoạn văn mẫu để thử mô hình biến chữ thành dãy số (embedding), nhờ đó máy có thể tìm đoạn gần nghĩa. Bước 2: Ghi rõ tên/phiên bản mô hình, số chiều của dãy số và số đoạn xử lý mỗi lần. Bước 3: Lưu cấu hình và một kết quả mẫu để nhóm dùng chung; chưa cần đợi Vũ chia xong tài liệu thậ...**
+
+🟢 **	Sprint 3	S3-WBS07	S3-G02	1	Tạo embedding theo lô có báo lỗi	Hồ Phạm Đăng Nhân	Đã hoàn thành	4		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cho chương trình nhận nhiều đoạn văn mẫu một lần và tạo vector cho từng đoạn. Bước 2: Nếu một đoạn bị lỗi, ghi rõ mã đoạn và lý do, chỉ thử lại có giới hạn, không làm mất các đoạn thành công. Bước 3: Chạy thử một lô có cả đoạn tốt và đoạn lỗi để chứng minh có thể xử lý lại đúng phần lỗi.	Một m...**
+
+🟢 **	Sprint 3	S3-WBS12	S3-G02	1	Lưu vector và metadata vào pgvector	Hồ Phạm Đăng Nhân	Đang test	5		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Vector mẫu truy...**
+
+🟢 **	Sprint 3	S3-WBS23	S3-G08	2	Code quên và đặt lại mật khẩu	Nguyễn Minh Quân	Đang làm	6		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo luồng người dùng nhập email để xin đặt lại mật khẩu; phản hồi giống nhau dù email có tồn tại hay không. Bước 2: Phát mã/đường dẫn khôi phục chỉ dùng một lần và có hạn, lưu bản đã bảo vệ, rồi cho người dùng đặt mật khẩu mới. Bước 3: Làm màn hình quên/đặt lại mật khẩu và thử mã đúng, mã hết hạn, mã đ...**
+
+🟢 **	Sprint 3	S3-WBS13	S3-G04	1	Dựng B1 retrieval orchestration bằng fixture	Thái Quốc Hưng	Đang test	5		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nối phần hiểu câu hỏi với mẫu kết quả tìm kiếm và gói bằng chứng đã thống nhất. Bước 2: Cho B1 chạy thử với dữ liệu mẫu để kiểm tra đường đi từ câu hỏi đến danh sách nguồn. Bước 3: Xử lý riêng trường hợp không tìm thấy nguồn, kết quả rỗng hoặc hết thời gian; chưa phải đợi dữ liệu vector t...**
+
+🟢 **	Sprint 3	S3-WBS18	S3-G04	1	Xử lý B1 khi câu hỏi hoặc nguồn mơ hồ	Thái Quốc Hưng	Đang làm	3		Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng câu hỏi thiếu công ty/kỳ/chỉ tiêu để thử B1. Bước 2: Viết câu trả lời yêu cầu người dùng làm rõ thay vì đoán. Bước 3: Với câu hỏi đủ thông tin nhưng không có nguồn phù hợp, cho hệ thống nói chưa đủ bằng chứng và không tự tạo số liệu.	Ca thiếu công ty/kỳ hoặc không có nguồn không bị bịa câu t...**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	35	0.44871794871794873	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	2	0.25	Đang test	30		Sprint 3 Backlog**
+
+🟢 **Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	2	0.25	Đang test	30	7	Sprint 3 Backlog**
+
+🟢 **Task đã hoàn thành	81		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.37850467289719625		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	2	0.25	Đang test	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	2	0.25	Đang test	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S3-WBS02	Chốt mô hình embedding và cấu hình	Embedding và pgvector	Bước 1: Dùng vài đoạn văn mẫu để thử mô hình biến chữ thành dãy số (embedding), nhờ đó máy có thể tìm đoạn gần nghĩa. Bước 2: Ghi rõ tên/phiên bản mô hình, số chiều của dãy số và số đoạn xử lý mỗi lần. Bước 3: Lưu cấu hình và một kết quả mẫu để nhóm dùng chung; chưa cần đợi Vũ chia xong tài liệu thật.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Tạo được vector mẫu và lưu cấu hình có phiên bản.	Kế hoạch Sprint 3 đã chố...~~
+
+~~	S3-WBS07	Tạo embedding theo lô có báo lỗi	Embedding và pgvector	Bước 1: Cho chương trình nhận nhiều đoạn văn mẫu một lần và tạo vector cho từng đoạn. Bước 2: Nếu một đoạn bị lỗi, ghi rõ mã đoạn và lý do, chỉ thử lại có giới hạn, không làm mất các đoạn thành công. Bước 3: Chạy thử một lô có cả đoạn tốt và đoạn lỗi để chứng minh có thể xử lý lại đúng phần lỗi.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Một mục lỗi trong lô được định danh để chạy lại, mục thành công không xử lý trùng....~~
+
+~~	S3-WBS12	Lưu vector và metadata vào pgvector	Embedding và pgvector	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Vector mẫu truy ngược đúng chunk và không trộn corpus version.	Kế hoạch Sprint 3 đã chốt...~~
+
+~~	S3-WBS13	Dựng B1 retrieval orchestration bằng fixture	B1 Vector RAG	Bước 1: Nối phần hiểu câu hỏi với mẫu kết quả tìm kiếm và gói bằng chứng đã thống nhất. Bước 2: Cho B1 chạy thử với dữ liệu mẫu để kiểm tra đường đi từ câu hỏi đến danh sách nguồn. Bước 3: Xử lý riêng trường hợp không tìm thấy nguồn, kết quả rỗng hoặc hết thời gian; chưa phải đợi dữ liệu vector thật.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	B1 trên fixture trả schema đúng, không tạo câu trả lời ...~~
+
+~~	S3-WBS18	Xử lý B1 khi câu hỏi hoặc nguồn mơ hồ	B1 Vector RAG	Bước 1: Dùng câu hỏi thiếu công ty/kỳ/chỉ tiêu để thử B1. Bước 2: Viết câu trả lời yêu cầu người dùng làm rõ thay vì đoán. Bước 3: Với câu hỏi đủ thông tin nhưng không có nguồn phù hợp, cho hệ thống nói chưa đủ bằng chứng và không tự tạo số liệu.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Ca thiếu công ty/kỳ hoặc không có nguồn không bị bịa câu trả lời.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quâ...~~
+
+~~	S3-WBS23	Code quên và đặt lại mật khẩu	Tài khoản và phân quyền	Bước 1: Tạo luồng người dùng nhập email để xin đặt lại mật khẩu; phản hồi giống nhau dù email có tồn tại hay không. Bước 2: Phát mã/đường dẫn khôi phục chỉ dùng một lần và có hạn, lưu bản đã bảo vệ, rồi cho người dùng đặt mật khẩu mới. Bước 3: Làm màn hình quên/đặt lại mật khẩu và thử mã đúng, mã hết hạn, mã đã dùng.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Token dùng lại hoặc hết hạn bị t...~~
+
+~~	Sprint 3	S3-WBS02	S3-G02	1	Chốt mô hình embedding và cấu hình	Hồ Phạm Đăng Nhân	Chưa bắt đầu	3		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng vài đoạn văn mẫu để thử mô hình biến chữ thành dãy số (embedding), nhờ đó máy có thể tìm đoạn gần nghĩa. Bước 2: Ghi rõ tên/phiên bản mô hình, số chiều của dãy số và số đoạn xử lý mỗi lần. Bước 3: Lưu cấu hình và một kết quả mẫu để nhóm dùng chung; chưa cần đợi Vũ chia xong tài liệu thật...~~
+
+~~	Sprint 3	S3-WBS07	S3-G02	1	Tạo embedding theo lô có báo lỗi	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cho chương trình nhận nhiều đoạn văn mẫu một lần và tạo vector cho từng đoạn. Bước 2: Nếu một đoạn bị lỗi, ghi rõ mã đoạn và lý do, chỉ thử lại có giới hạn, không làm mất các đoạn thành công. Bước 3: Chạy thử một lô có cả đoạn tốt và đoạn lỗi để chứng minh có thể xử lý lại đúng phần lỗi.	Một mụ...~~
+
+~~	Sprint 3	S3-WBS12	S3-G02	1	Lưu vector và metadata vào pgvector	Hồ Phạm Đăng Nhân	Chưa bắt đầu	5		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Vector mẫu t...~~
+
+~~	Sprint 3	S3-WBS23	S3-G08	2	Code quên và đặt lại mật khẩu	Nguyễn Minh Quân	Chưa bắt đầu	6		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo luồng người dùng nhập email để xin đặt lại mật khẩu; phản hồi giống nhau dù email có tồn tại hay không. Bước 2: Phát mã/đường dẫn khôi phục chỉ dùng một lần và có hạn, lưu bản đã bảo vệ, rồi cho người dùng đặt mật khẩu mới. Bước 3: Làm màn hình quên/đặt lại mật khẩu và thử mã đúng, mã hết hạn, ...~~
+
+~~	Sprint 3	S3-WBS13	S3-G04	1	Dựng B1 retrieval orchestration bằng fixture	Thái Quốc Hưng	Chưa bắt đầu	5		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nối phần hiểu câu hỏi với mẫu kết quả tìm kiếm và gói bằng chứng đã thống nhất. Bước 2: Cho B1 chạy thử với dữ liệu mẫu để kiểm tra đường đi từ câu hỏi đến danh sách nguồn. Bước 3: Xử lý riêng trường hợp không tìm thấy nguồn, kết quả rỗng hoặc hết thời gian; chưa phải đợi dữ liệu vecto...~~
+
+~~	Sprint 3	S3-WBS18	S3-G04	1	Xử lý B1 khi câu hỏi hoặc nguồn mơ hồ	Thái Quốc Hưng	Chưa bắt đầu	3		Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng câu hỏi thiếu công ty/kỳ/chỉ tiêu để thử B1. Bước 2: Viết câu trả lời yêu cầu người dùng làm rõ thay vì đoán. Bước 3: Với câu hỏi đủ thông tin nhưng không có nguồn phù hợp, cho hệ thống nói chưa đủ bằng chứng và không tự tạo số liệu.	Ca thiếu công ty/kỳ hoặc không có nguồn không bị bịa c...~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	33	0.4230769230769231	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	0	0	Chưa bắt đầu	30		Sprint 3 Backlog~~
+
+~~Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	2	0.25	Đang làm	30	7	Sprint 3 Backlog~~
+
+~~Task đã hoàn thành	79		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.3691588785046729		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	2	0.25	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-16 08:52 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
