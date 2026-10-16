@@ -1,5 +1,41 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-16 09:52 - SUA NOI DUNG
+
+- **Người đăng:** dunhvu47@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-16 09:52
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS11	Gắn locator vào từng chunk	Chunk và vị trí nguồn	Bước 1: Với mỗi đoạn Vũ đã chia, lưu rõ nó đến từ tài liệu nào, trang nào, mục hoặc bảng nào. Bước 2: Lấy vài đoạn mẫu, bấm/mở lại tài liệu gốc tại vị trí ghi trong đoạn. Bước 3: Sửa các trường hợp trích dẫn nhảy sai trang, sai bảng hoặc không mở được.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Chunk mẫu truy được vị trí nguồn chính xác trong tài liệu.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ ...**
+
+🟢 **	Sprint 3	S3-WBS11	S3-G01	1	Gắn locator vào từng chunk	Đinh Huỳnh Vũ	Đã hoàn thành	4		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Với mỗi đoạn Vũ đã chia, lưu rõ nó đến từ tài liệu nào, trang nào, mục hoặc bảng nào. Bước 2: Lấy vài đoạn mẫu, bấm/mở lại tài liệu gốc tại vị trí ghi trong đoạn. Bước 3: Sửa các trường hợp trích dẫn nhảy sai trang, sai bảng hoặc không mở được.	Chunk mẫu truy được vị trí nguồn chính xác trong tài liệu.	...**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	36	0.46153846153846156	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	3	0.5	Đang làm	22		Sprint 3 Backlog**
+
+🟢 **Task đã hoàn thành	82		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.38317757009345793		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	3	0.5	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S3-WBS11	Gắn locator vào từng chunk	Chunk và vị trí nguồn	Bước 1: Với mỗi đoạn Vũ đã chia, lưu rõ nó đến từ tài liệu nào, trang nào, mục hoặc bảng nào. Bước 2: Lấy vài đoạn mẫu, bấm/mở lại tài liệu gốc tại vị trí ghi trong đoạn. Bước 3: Sửa các trường hợp trích dẫn nhảy sai trang, sai bảng hoặc không mở được.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Chunk mẫu truy được vị trí nguồn chính xác trong tài liệu.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ ...~~
+
+~~	Sprint 3	S3-WBS11	S3-G01	1	Gắn locator vào từng chunk	Đinh Huỳnh Vũ	Đang test	4		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Với mỗi đoạn Vũ đã chia, lưu rõ nó đến từ tài liệu nào, trang nào, mục hoặc bảng nào. Bước 2: Lấy vài đoạn mẫu, bấm/mở lại tài liệu gốc tại vị trí ghi trong đoạn. Bước 3: Sửa các trường hợp trích dẫn nhảy sai trang, sai bảng hoặc không mở được.	Chunk mẫu truy được vị trí nguồn chính xác trong tài liệu.	Chun...~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	35	0.44871794871794873	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	2	0.3333333333333333	Đang test	22		Sprint 3 Backlog~~
+
+~~Task đã hoàn thành	81		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.37850467289719625		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	2	0.3333333333333333	Đang test	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-16 09:02 - SUA NOI DUNG
 
 - **Người đăng:** hophamdangnhandz123@gmail.com
