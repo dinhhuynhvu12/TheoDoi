@@ -1,5 +1,29 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-16 13:52 - SUA NOI DUNG
+
+- **Người đăng:** dunhvu47@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-16 13:52
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS16	Tạo manifest chunk phiên bản đầu	Chunk và vị trí nguồn	Bước 1: Ghi một bản kê cho lần chia tài liệu: tài liệu đầu vào, mã kiểm tra nội dung, cấu hình chia đoạn và danh sách mã đoạn. Bước 2: Chạy lại cùng tài liệu để xác nhận không tạo bản sao. Bước 3: Thay một tài liệu mẫu và kiểm tra bản kê cho biết chính xác phần nào đã đổi.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Có manifest phiên bản và danh sách thay đổi khi nguồn đổi.	Kế hoạch Sprint 3 đã chốt theo...**
+
+🟢 **	Sprint 3	S3-WBS16	S3-G01	1	Tạo manifest chunk phiên bản đầu	Đinh Huỳnh Vũ	Đang test	2		Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Ghi một bản kê cho lần chia tài liệu: tài liệu đầu vào, mã kiểm tra nội dung, cấu hình chia đoạn và danh sách mã đoạn. Bước 2: Chạy lại cùng tài liệu để xác nhận không tạo bản sao. Bước 3: Thay một tài liệu mẫu và kiểm tra bản kê cho biết chính xác phần nào đã đổi.	Có manifest phiên bản và danh sách t...**
+
+🟢 **Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	3	0.5	Đang test	22		Sprint 3 Backlog**
+
+🟢 **Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	3	0.5	Đang test	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S3-WBS16	Tạo manifest chunk phiên bản đầu	Chunk và vị trí nguồn	Bước 1: Ghi một bản kê cho lần chia tài liệu: tài liệu đầu vào, mã kiểm tra nội dung, cấu hình chia đoạn và danh sách mã đoạn. Bước 2: Chạy lại cùng tài liệu để xác nhận không tạo bản sao. Bước 3: Thay một tài liệu mẫu và kiểm tra bản kê cho biết chính xác phần nào đã đổi.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Có manifest phiên bản và danh sách thay đổi khi nguồn đổi.	Kế hoạch Sprint 3 đã chốt theo...~~
+
+~~	Sprint 3	S3-WBS16	S3-G01	1	Tạo manifest chunk phiên bản đầu	Đinh Huỳnh Vũ	Chưa bắt đầu	2		Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Ghi một bản kê cho lần chia tài liệu: tài liệu đầu vào, mã kiểm tra nội dung, cấu hình chia đoạn và danh sách mã đoạn. Bước 2: Chạy lại cùng tài liệu để xác nhận không tạo bản sao. Bước 3: Thay một tài liệu mẫu và kiểm tra bản kê cho biết chính xác phần nào đã đổi.	Có manifest phiên bản và danh sác...~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	3	0.5	Đang làm	22		Sprint 3 Backlog~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	3	0.5	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-16 13:47 - SUA NOI DUNG
 
 - **Người đăng:** hophamdangnhandz123@gmail.com
