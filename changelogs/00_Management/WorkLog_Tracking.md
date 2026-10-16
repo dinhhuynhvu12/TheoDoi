@@ -1,5 +1,41 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-16 13:47 - SUA NOI DUNG
+
+- **Người đăng:** hophamdangnhandz123@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-16 13:47
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS12	Lưu vector và metadata vào pgvector	Embedding và pgvector	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Vector mẫu truy ngược đúng chunk và không trộn corpus version.	Kế hoạch Sprint 3 đã chốt...**
+
+🟢 **	Sprint 3	S3-WBS12	S3-G02	1	Lưu vector và metadata vào pgvector	Hồ Phạm Đăng Nhân	Đã hoàn thành	5		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Vector mẫu ...**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	38	0.48717948717948717	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	3	0.375	Đang làm	30		Sprint 3 Backlog**
+
+🟢 **Task đã hoàn thành	84		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.3925233644859813		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	3	0.375	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S3-WBS12	Lưu vector và metadata vào pgvector	Embedding và pgvector	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Vector mẫu truy ngược đúng chunk và không trộn corpus version.	Kế hoạch Sprint 3 đã chốt...~~
+
+~~	Sprint 3	S3-WBS12	S3-G02	1	Lưu vector và metadata vào pgvector	Hồ Phạm Đăng Nhân	Đang test	5		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Vector mẫu truy...~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	37	0.47435897435897434	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	2	0.25	Đang test	30		Sprint 3 Backlog~~
+
+~~Task đã hoàn thành	83		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.3878504672897196		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	2	0.25	Đang test	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-16 11:22 - SUA NOI DUNG
 
 - **Người đăng:** dieuhuyentran1010@gmail.com
