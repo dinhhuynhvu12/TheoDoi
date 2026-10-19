@@ -1,5 +1,49 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-19 10:27 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-19 10:27
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS13	Dựng B1 retrieval orchestration bằng fixture	B1 Vector RAG	Bước 1: Nối phần hiểu câu hỏi với mẫu kết quả tìm kiếm và gói bằng chứng đã thống nhất. Bước 2: Cho B1 chạy thử với dữ liệu mẫu để kiểm tra đường đi từ câu hỏi đến danh sách nguồn. Bước 3: Xử lý riêng trường hợp không tìm thấy nguồn, kết quả rỗng hoặc hết thời gian; chưa phải đợi dữ liệu vector thật.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	B1 trên fixture trả schema đúng, không tạo câu trả lời ...**
+
+🟢 **	S3-WBS18	Xử lý B1 khi câu hỏi hoặc nguồn mơ hồ	B1 Vector RAG	Bước 1: Dùng câu hỏi thiếu công ty/kỳ/chỉ tiêu để thử B1. Bước 2: Viết câu trả lời yêu cầu người dùng làm rõ thay vì đoán. Bước 3: Với câu hỏi đủ thông tin nhưng không có nguồn phù hợp, cho hệ thống nói chưa đủ bằng chứng và không tự tạo số liệu.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Ca thiếu công ty/kỳ hoặc không có nguồn không bị bịa câu trả lời.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quâ...**
+
+🟢 **	Sprint 3	S3-WBS13	S3-G04	1	Dựng B1 retrieval orchestration bằng fixture	Thái Quốc Hưng	Đã hoàn thành	5		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nối phần hiểu câu hỏi với mẫu kết quả tìm kiếm và gói bằng chứng đã thống nhất. Bước 2: Cho B1 chạy thử với dữ liệu mẫu để kiểm tra đường đi từ câu hỏi đến danh sách nguồn. Bước 3: Xử lý riêng trường hợp không tìm thấy nguồn, kết quả rỗng hoặc hết thời gian; chưa phải đợi dữ liệu vect...**
+
+🟢 **	Sprint 3	S3-WBS18	S3-G04	1	Xử lý B1 khi câu hỏi hoặc nguồn mơ hồ	Thái Quốc Hưng	Đã hoàn thành	3		Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng câu hỏi thiếu công ty/kỳ/chỉ tiêu để thử B1. Bước 2: Viết câu trả lời yêu cầu người dùng làm rõ thay vì đoán. Bước 3: Với câu hỏi đủ thông tin nhưng không có nguồn phù hợp, cho hệ thống nói chưa đủ bằng chứng và không tự tạo số liệu.	Ca thiếu công ty/kỳ hoặc không có nguồn không bị bịa ...**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	41	0.5256410256410257	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	4	0.5	Đang làm	30	7	Sprint 3 Backlog**
+
+🟢 **Task đã hoàn thành	87		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.40654205607476634		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	4	0.5	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S3-WBS13	Dựng B1 retrieval orchestration bằng fixture	B1 Vector RAG	Bước 1: Nối phần hiểu câu hỏi với mẫu kết quả tìm kiếm và gói bằng chứng đã thống nhất. Bước 2: Cho B1 chạy thử với dữ liệu mẫu để kiểm tra đường đi từ câu hỏi đến danh sách nguồn. Bước 3: Xử lý riêng trường hợp không tìm thấy nguồn, kết quả rỗng hoặc hết thời gian; chưa phải đợi dữ liệu vector thật.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	B1 trên fixture trả schema đúng, không tạo câu trả lời ...~~
+
+~~	S3-WBS18	Xử lý B1 khi câu hỏi hoặc nguồn mơ hồ	B1 Vector RAG	Bước 1: Dùng câu hỏi thiếu công ty/kỳ/chỉ tiêu để thử B1. Bước 2: Viết câu trả lời yêu cầu người dùng làm rõ thay vì đoán. Bước 3: Với câu hỏi đủ thông tin nhưng không có nguồn phù hợp, cho hệ thống nói chưa đủ bằng chứng và không tự tạo số liệu.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Ca thiếu công ty/kỳ hoặc không có nguồn không bị bịa câu trả lời.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quâ...~~
+
+~~	Sprint 3	S3-WBS13	S3-G04	1	Dựng B1 retrieval orchestration bằng fixture	Thái Quốc Hưng	Đang test	5		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nối phần hiểu câu hỏi với mẫu kết quả tìm kiếm và gói bằng chứng đã thống nhất. Bước 2: Cho B1 chạy thử với dữ liệu mẫu để kiểm tra đường đi từ câu hỏi đến danh sách nguồn. Bước 3: Xử lý riêng trường hợp không tìm thấy nguồn, kết quả rỗng hoặc hết thời gian; chưa phải đợi dữ liệu vector t...~~
+
+~~	Sprint 3	S3-WBS18	S3-G04	1	Xử lý B1 khi câu hỏi hoặc nguồn mơ hồ	Thái Quốc Hưng	Đang làm	3		Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng câu hỏi thiếu công ty/kỳ/chỉ tiêu để thử B1. Bước 2: Viết câu trả lời yêu cầu người dùng làm rõ thay vì đoán. Bước 3: Với câu hỏi đủ thông tin nhưng không có nguồn phù hợp, cho hệ thống nói chưa đủ bằng chứng và không tự tạo số liệu.	Ca thiếu công ty/kỳ hoặc không có nguồn không bị bịa câu t...~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	39	0.5	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	2	0.25	Đang test	30	7	Sprint 3 Backlog~~
+
+~~Task đã hoàn thành	85		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.397196261682243		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	2	0.25	Đang test	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-16 16:17 - SUA NOI DUNG
 
 - **Người đăng:** minhquan9125@gmail.com
