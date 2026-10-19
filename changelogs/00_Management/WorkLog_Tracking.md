@@ -1,5 +1,21 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-19 13:07 - SUA NOI DUNG
+
+- **Người đăng:** minhquan9125@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-19 13:07
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS21	Nối B1 với retrieval và Gemini	B1 Vector RAG	Bước 1: Dùng dữ liệu mẫu để hoàn thiện phần gửi câu hỏi và bằng chứng cho Gemini. Bước 2: Khi Nhân bàn giao truy vấn vector có lọc, thay đầu vào mẫu bằng đoạn thật, giữ mã nguồn trong câu trả lời. Bước 3: Ghi phiên bản mô hình, prompt, giới hạn ngữ cảnh và kiểm tra B1 không bật cơ chế kiểm chứng riêng của B3.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	B1 trả nháp có nguồn ứng viên, manifest ghi rõ thành phần bậ...**
+
+🟢 **	Sprint 3	S3-WBS21	S3-G04	2	Nối B1 với retrieval và Gemini	Thái Quốc Hưng	Đang làm	5		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng dữ liệu mẫu để hoàn thiện phần gửi câu hỏi và bằng chứng cho Gemini. Bước 2: Khi Nhân bàn giao truy vấn vector có lọc, thay đầu vào mẫu bằng đoạn thật, giữ mã nguồn trong câu trả lời. Bước 3: Ghi phiên bản mô hình, prompt, giới hạn ngữ cảnh và kiểm tra B1 không bật cơ chế kiểm chứng riêng của B3.	B...**
+
+~~	S3-WBS21	Nối B1 với retrieval và Gemini	B1 Vector RAG	Bước 1: Dùng dữ liệu mẫu để hoàn thiện phần gửi câu hỏi và bằng chứng cho Gemini. Bước 2: Khi Nhân bàn giao truy vấn vector có lọc, thay đầu vào mẫu bằng đoạn thật, giữ mã nguồn trong câu trả lời. Bước 3: Ghi phiên bản mô hình, prompt, giới hạn ngữ cảnh và kiểm tra B1 không bật cơ chế kiểm chứng riêng của B3.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	B1 trả nháp có nguồn ứng viên, manifest ghi rõ thành phần bậ...~~
+
+~~	Sprint 3	S3-WBS21	S3-G04	2	Nối B1 với retrieval và Gemini	Thái Quốc Hưng	Chưa bắt đầu	5		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng dữ liệu mẫu để hoàn thiện phần gửi câu hỏi và bằng chứng cho Gemini. Bước 2: Khi Nhân bàn giao truy vấn vector có lọc, thay đầu vào mẫu bằng đoạn thật, giữ mã nguồn trong câu trả lời. Bước 3: Ghi phiên bản mô hình, prompt, giới hạn ngữ cảnh và kiểm tra B1 không bật cơ chế kiểm chứng riêng của B...~~
+
 ## 2026-10-19 10:28 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
