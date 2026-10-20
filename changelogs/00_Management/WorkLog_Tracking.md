@@ -1,5 +1,65 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-20 13:37 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-20 13:37
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS21	Nối B1 với retrieval và Gemini	B1 Vector RAG	Bước 1: Dùng dữ liệu mẫu để hoàn thiện phần gửi câu hỏi và bằng chứng cho Gemini. Bước 2: Khi Nhân bàn giao truy vấn vector có lọc, thay đầu vào mẫu bằng đoạn thật, giữ mã nguồn trong câu trả lời. Bước 3: Ghi phiên bản mô hình, prompt, giới hạn ngữ cảnh và kiểm tra B1 không bật cơ chế kiểm chứng riêng của B3.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	B1 trả nháp có nguồn ứng viên, manifest ghi rõ thành phần bậ...**
+
+🟢 **	S3-WBS26	Kiểm tra trích dẫn và câu trả lời B1	B1 Vector RAG	Bước 1: Lấy vài câu trả lời B1 có nguồn đầy đủ, nguồn thiếu và nguồn mâu thuẫn. Bước 2: Kiểm tra từng nhận định có mã bằng chứng tương ứng và trích dẫn mở được. Bước 3: Với nhận định không chứng minh được, sửa câu trả lời thành thận trọng hoặc báo chưa đủ bằng chứng.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Không có claim vô nguồn trong ca mẫu; citation mở được locator.	Kế hoạch Sprint 3 đã chốt theo 4 ...**
+
+🟢 **	S3-WBS31	Áp giới hạn token timeout và budget	B1 Vector RAG	Bước 1: Chốt trần số token, thời gian và chi phí cho một lần trả lời, đưa các mức này vào cấu hình có phiên bản. Bước 2: Trước và trong lúc gọi Gemini, kiểm tra còn trong giới hạn hay không. Bước 3: Nếu vượt giới hạn, dừng và ghi lý do rõ ràng; thử để chắc không phát sinh cuộc gọi ngoài ngân sách.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Ca vượt trần bị chặn và có trace; cấu hình được phiên bản hóa.	Kế h...**
+
+🟢 **	S3-WBS35	Chạy B1 trên Golden40 đã khóa	B1 Vector RAG	Bước 1: Chỉ sau khi Huyền thông báo Golden40 đã khóa, chạy B1 trên đúng 40 câu với cùng phiên bản tài liệu, mô hình, prompt và cấu hình. Bước 2: Lưu cho từng câu: câu trả lời, nguồn đã dùng, thời gian, token và lỗi. Bước 3: Nếu thiếu kết quả/dấu vết, đánh dấu lần chạy chưa đủ, không công bố điểm tổng hợp.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Có trace từng ca; partial run được dán nhãn, không công bố aggreg...**
+
+🟢 **	Sprint 3	S3-WBS21	S3-G04	2	Nối B1 với retrieval và Gemini	Thái Quốc Hưng	Đã hoàn thành	5		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng dữ liệu mẫu để hoàn thiện phần gửi câu hỏi và bằng chứng cho Gemini. Bước 2: Khi Nhân bàn giao truy vấn vector có lọc, thay đầu vào mẫu bằng đoạn thật, giữ mã nguồn trong câu trả lời. Bước 3: Ghi phiên bản mô hình, prompt, giới hạn ngữ cảnh và kiểm tra B1 không bật cơ chế kiểm chứng riêng của ...**
+
+🟢 **	Sprint 3	S3-WBS26	S3-G04	2	Kiểm tra trích dẫn và câu trả lời B1	Thái Quốc Hưng	Đã hoàn thành	3		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy vài câu trả lời B1 có nguồn đầy đủ, nguồn thiếu và nguồn mâu thuẫn. Bước 2: Kiểm tra từng nhận định có mã bằng chứng tương ứng và trích dẫn mở được. Bước 3: Với nhận định không chứng minh được, sửa câu trả lời thành thận trọng hoặc báo chưa đủ bằng chứng.	Không có claim vô nguồn trong ca ...**
+
+🟢 **	Sprint 3	S3-WBS31	S3-G04	2	Áp giới hạn token timeout và budget	Thái Quốc Hưng	Chưa bắt đầu	3		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chốt trần số token, thời gian và chi phí cho một lần trả lời, đưa các mức này vào cấu hình có phiên bản. Bước 2: Trước và trong lúc gọi Gemini, kiểm tra còn trong giới hạn hay không. Bước 3: Nếu vượt giới hạn, dừng và ghi lý do rõ ràng; thử để chắc không phát sinh cuộc gọi ngoài ngân sách.	Ca v...**
+
+🟢 **	Sprint 3	S3-WBS35	S3-G04	2	Chạy B1 trên Golden40 đã khóa	Thái Quốc Hưng	Chưa bắt đầu	4		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chỉ sau khi Huyền thông báo Golden40 đã khóa, chạy B1 trên đúng 40 câu với cùng phiên bản tài liệu, mô hình, prompt và cấu hình. Bước 2: Lưu cho từng câu: câu trả lời, nguồn đã dùng, thời gian, token và lỗi. Bước 3: Nếu thiếu kết quả/dấu vết, đánh dấu lần chạy chưa đủ, không công bố điểm tổng hợp.	Có...**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	44	0.5641025641025641	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	6	0.75	Đang làm	30	7	Sprint 3 Backlog**
+
+🟢 **Task đã hoàn thành	90		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.4205607476635514		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	6	0.75	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S3-WBS21	Nối B1 với retrieval và Gemini	B1 Vector RAG	Bước 1: Dùng dữ liệu mẫu để hoàn thiện phần gửi câu hỏi và bằng chứng cho Gemini. Bước 2: Khi Nhân bàn giao truy vấn vector có lọc, thay đầu vào mẫu bằng đoạn thật, giữ mã nguồn trong câu trả lời. Bước 3: Ghi phiên bản mô hình, prompt, giới hạn ngữ cảnh và kiểm tra B1 không bật cơ chế kiểm chứng riêng của B3.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	B1 trả nháp có nguồn ứng viên, manifest ghi rõ thành phần bậ...~~
+
+~~	S3-WBS26	Kiểm tra trích dẫn và câu trả lời B1	B1 Vector RAG	Bước 1: Lấy vài câu trả lời B1 có nguồn đầy đủ, nguồn thiếu và nguồn mâu thuẫn. Bước 2: Kiểm tra từng nhận định có mã bằng chứng tương ứng và trích dẫn mở được. Bước 3: Với nhận định không chứng minh được, sửa câu trả lời thành thận trọng hoặc báo chưa đủ bằng chứng.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Không có claim vô nguồn trong ca mẫu; citation mở được locator.	Kế hoạch Sprint 3 đã chốt theo 4 ...~~
+
+~~	S3-WBS31	Áp giới hạn token timeout và budget	B1 Vector RAG	Bước 1: Chốt trần số token, thời gian và chi phí cho một lần trả lời, đưa các mức này vào cấu hình có phiên bản. Bước 2: Trước và trong lúc gọi Gemini, kiểm tra còn trong giới hạn hay không. Bước 3: Nếu vượt giới hạn, dừng và ghi lý do rõ ràng; thử để chắc không phát sinh cuộc gọi ngoài ngân sách.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Ca vượt trần bị chặn và có trace; cấu hình được phiên bản hóa.	Kế h...~~
+
+~~	S3-WBS35	Chạy B1 trên Golden40 đã khóa	B1 Vector RAG	Bước 1: Chỉ sau khi Huyền thông báo Golden40 đã khóa, chạy B1 trên đúng 40 câu với cùng phiên bản tài liệu, mô hình, prompt và cấu hình. Bước 2: Lưu cho từng câu: câu trả lời, nguồn đã dùng, thời gian, token và lỗi. Bước 3: Nếu thiếu kết quả/dấu vết, đánh dấu lần chạy chưa đủ, không công bố điểm tổng hợp.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Có trace từng ca; partial run được dán nhãn, không công bố aggreg...~~
+
+~~	Sprint 3	S3-WBS21	S3-G04	2	Nối B1 với retrieval và Gemini	Thái Quốc Hưng	Đang làm	5		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng dữ liệu mẫu để hoàn thiện phần gửi câu hỏi và bằng chứng cho Gemini. Bước 2: Khi Nhân bàn giao truy vấn vector có lọc, thay đầu vào mẫu bằng đoạn thật, giữ mã nguồn trong câu trả lời. Bước 3: Ghi phiên bản mô hình, prompt, giới hạn ngữ cảnh và kiểm tra B1 không bật cơ chế kiểm chứng riêng của B3.	B...~~
+
+~~	Sprint 3	S3-WBS26	S3-G04	2	Kiểm tra trích dẫn và câu trả lời B1	Thái Quốc Hưng	Chưa bắt đầu	3		Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy vài câu trả lời B1 có nguồn đầy đủ, nguồn thiếu và nguồn mâu thuẫn. Bước 2: Kiểm tra từng nhận định có mã bằng chứng tương ứng và trích dẫn mở được. Bước 3: Với nhận định không chứng minh được, sửa câu trả lời thành thận trọng hoặc báo chưa đủ bằng chứng.	Không có claim vô nguồn trong ca m...~~
+
+~~	Sprint 3	S3-WBS31	S3-G04	2	Áp giới hạn token timeout và budget	Thái Quốc Hưng	Chưa bắt đầu	3		Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chốt trần số token, thời gian và chi phí cho một lần trả lời, đưa các mức này vào cấu hình có phiên bản. Bước 2: Trước và trong lúc gọi Gemini, kiểm tra còn trong giới hạn hay không. Bước 3: Nếu vượt giới hạn, dừng và ghi lý do rõ ràng; thử để chắc không phát sinh cuộc gọi ngoài ngân sách.	Ca v...~~
+
+~~	Sprint 3	S3-WBS35	S3-G04	2	Chạy B1 trên Golden40 đã khóa	Thái Quốc Hưng	Chưa bắt đầu	4		Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chỉ sau khi Huyền thông báo Golden40 đã khóa, chạy B1 trên đúng 40 câu với cùng phiên bản tài liệu, mô hình, prompt và cấu hình. Bước 2: Lưu cho từng câu: câu trả lời, nguồn đã dùng, thời gian, token và lỗi. Bước 3: Nếu thiếu kết quả/dấu vết, đánh dấu lần chạy chưa đủ, không công bố điểm tổng hợp.	Có...~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	42	0.5384615384615384	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	4	0.5	Đang làm	30	7	Sprint 3 Backlog~~
+
+~~Task đã hoàn thành	88		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.411214953271028		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	4	0.5	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-20 11:37 - SUA NOI DUNG
 
 - **Người đăng:** dunhvu47@gmail.com
