@@ -1,5 +1,21 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-20 15:47 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-20 15:47
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS31	Áp giới hạn token timeout và budget	B1 Vector RAG	Bước 1: Chốt trần số token, thời gian và chi phí cho một lần trả lời, đưa các mức này vào cấu hình có phiên bản. Bước 2: Trước và trong lúc gọi Gemini, kiểm tra còn trong giới hạn hay không. Bước 3: Nếu vượt giới hạn, dừng và ghi lý do rõ ràng; thử để chắc không phát sinh cuộc gọi ngoài ngân sách.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Ca vượt trần bị chặn và có trace; cấu hình được phiên bản hóa.	Kế h...**
+
+🟢 **	Sprint 3	S3-WBS31	S3-G04	2	Áp giới hạn token timeout và budget	Thái Quốc Hưng	Đang làm	3		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chốt trần số token, thời gian và chi phí cho một lần trả lời, đưa các mức này vào cấu hình có phiên bản. Bước 2: Trước và trong lúc gọi Gemini, kiểm tra còn trong giới hạn hay không. Bước 3: Nếu vượt giới hạn, dừng và ghi lý do rõ ràng; thử để chắc không phát sinh cuộc gọi ngoài ngân sách.	Ca vượt ...**
+
+~~	S3-WBS31	Áp giới hạn token timeout và budget	B1 Vector RAG	Bước 1: Chốt trần số token, thời gian và chi phí cho một lần trả lời, đưa các mức này vào cấu hình có phiên bản. Bước 2: Trước và trong lúc gọi Gemini, kiểm tra còn trong giới hạn hay không. Bước 3: Nếu vượt giới hạn, dừng và ghi lý do rõ ràng; thử để chắc không phát sinh cuộc gọi ngoài ngân sách.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Ca vượt trần bị chặn và có trace; cấu hình được phiên bản hóa.	Kế h...~~
+
+~~	Sprint 3	S3-WBS31	S3-G04	2	Áp giới hạn token timeout và budget	Thái Quốc Hưng	Chưa bắt đầu	3		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chốt trần số token, thời gian và chi phí cho một lần trả lời, đưa các mức này vào cấu hình có phiên bản. Bước 2: Trước và trong lúc gọi Gemini, kiểm tra còn trong giới hạn hay không. Bước 3: Nếu vượt giới hạn, dừng và ghi lý do rõ ràng; thử để chắc không phát sinh cuộc gọi ngoài ngân sách.	Ca v...~~
+
 ## 2026-10-20 14:52 - SUA NOI DUNG
 
 - **Người đăng:** dieuhuyentran1010@gmail.com
