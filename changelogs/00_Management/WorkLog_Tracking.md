@@ -1,5 +1,41 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-20 13:42 - SUA NOI DUNG
+
+- **Người đăng:** hophamdangnhandz123@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-20 13:42
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS17	Ingest thử corpus vào pgvector	Embedding và pgvector	Bước 1: Lấy một nhóm đoạn thật đã được Vũ gắn nguồn và tạo vector. Bước 2: Nạp vào pgvector, ghi số đoạn thành công, số lỗi và lý do lỗi. Bước 3: Truy vấn lại để đối chiếu số lượng, mã tài liệu, phiên bản; chạy lại không được nhân đôi dữ liệu.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Truy vấn pgvector thấy đúng số chunk hợp lệ và lỗi được lưu để chạy lại.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách t...**
+
+🟢 **	Sprint 3	S3-WBS17	S3-G02	1	Ingest thử corpus vào pgvector	Hồ Phạm Đăng Nhân	Đã hoàn thành	3		Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy một nhóm đoạn thật đã được Vũ gắn nguồn và tạo vector. Bước 2: Nạp vào pgvector, ghi số đoạn thành công, số lỗi và lý do lỗi. Bước 3: Truy vấn lại để đối chiếu số lượng, mã tài liệu, phiên bản; chạy lại không được nhân đôi dữ liệu.	Truy vấn pgvector thấy đúng số chunk hợp lệ và lỗi được lưu ...**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	45	0.5769230769230769	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	4	0.5	Đang làm	30		Sprint 3 Backlog**
+
+🟢 **Task đã hoàn thành	91		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.4252336448598131		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	4	0.5	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S3-WBS17	Ingest thử corpus vào pgvector	Embedding và pgvector	Bước 1: Lấy một nhóm đoạn thật đã được Vũ gắn nguồn và tạo vector. Bước 2: Nạp vào pgvector, ghi số đoạn thành công, số lỗi và lý do lỗi. Bước 3: Truy vấn lại để đối chiếu số lượng, mã tài liệu, phiên bản; chạy lại không được nhân đôi dữ liệu.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Truy vấn pgvector thấy đúng số chunk hợp lệ và lỗi được lưu để chạy lại.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách t...~~
+
+~~	Sprint 3	S3-WBS17	S3-G02	1	Ingest thử corpus vào pgvector	Hồ Phạm Đăng Nhân	Chưa bắt đầu	3		Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy một nhóm đoạn thật đã được Vũ gắn nguồn và tạo vector. Bước 2: Nạp vào pgvector, ghi số đoạn thành công, số lỗi và lý do lỗi. Bước 3: Truy vấn lại để đối chiếu số lượng, mã tài liệu, phiên bản; chạy lại không được nhân đôi dữ liệu.	Truy vấn pgvector thấy đúng số chunk hợp lệ và lỗi được lưu đ...~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	44	0.5641025641025641	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	3	0.375	Đang làm	30		Sprint 3 Backlog~~
+
+~~Task đã hoàn thành	90		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.4205607476635514		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	3	0.375	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-20 13:37 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
