@@ -1,5 +1,41 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-20 13:47 - SUA NOI DUNG
+
+- **Người đăng:** minhquan9125@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-20 13:47
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS28	Hoàn thiện session logout refresh	Tài khoản và phân quyền	Bước 1: Cho người dùng đăng xuất và làm phiên đăng nhập hết hiệu lực theo cách đã chọn. Bước 2: Xử lý trường hợp phiên hết hạn: thử làm mới an toàn nếu được phép, nếu không thì đưa về trang đăng nhập. Bước 3: Thử mã phiên sai, hết hạn và đã đăng xuất để chắc không truy cập tiếp được.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Logout thu hồi phiên; refresh sai/hết hạn bị từ chối, UI trở v...**
+
+🟢 **	Sprint 3	S3-WBS28	S3-G08	2	Hoàn thiện session logout refresh	Nguyễn Minh Quân	Đã hoàn thành	4		Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cho người dùng đăng xuất và làm phiên đăng nhập hết hiệu lực theo cách đã chọn. Bước 2: Xử lý trường hợp phiên hết hạn: thử làm mới an toàn nếu được phép, nếu không thì đưa về trang đăng nhập. Bước 3: Thử mã phiên sai, hết hạn và đã đăng xuất để chắc không truy cập tiếp được.	Logout thu hồi ph...**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	46	0.5897435897435898	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	5	0.7142857142857143	Đang làm	30	15	Sprint 3 Backlog**
+
+🟢 **Task đã hoàn thành	92		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.42990654205607476		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	5	0.7142857142857143	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S3-WBS28	Hoàn thiện session logout refresh	Tài khoản và phân quyền	Bước 1: Cho người dùng đăng xuất và làm phiên đăng nhập hết hiệu lực theo cách đã chọn. Bước 2: Xử lý trường hợp phiên hết hạn: thử làm mới an toàn nếu được phép, nếu không thì đưa về trang đăng nhập. Bước 3: Thử mã phiên sai, hết hạn và đã đăng xuất để chắc không truy cập tiếp được.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Logout thu hồi phiên; refresh sai/hết hạn bị từ chối, UI trở v...~~
+
+~~	Sprint 3	S3-WBS28	S3-G08	2	Hoàn thiện session logout refresh	Nguyễn Minh Quân	Đang làm	4		Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cho người dùng đăng xuất và làm phiên đăng nhập hết hiệu lực theo cách đã chọn. Bước 2: Xử lý trường hợp phiên hết hạn: thử làm mới an toàn nếu được phép, nếu không thì đưa về trang đăng nhập. Bước 3: Thử mã phiên sai, hết hạn và đã đăng xuất để chắc không truy cập tiếp được.	Logout thu hồi phiên; ...~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	45	0.5769230769230769	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	4	0.5714285714285714	Đang làm	30	15	Sprint 3 Backlog~~
+
+~~Task đã hoàn thành	91		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.4252336448598131		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~API vận hành hiển thị dữ liệu thật và không lộ bí mật.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	4	0.5714285714285714	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-20 13:42 - SUA NOI DUNG
 
 - **Người đăng:** hophamdangnhandz123@gmail.com
