@@ -1,5 +1,21 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-20 16:17 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-20 16:17
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS03	Chốt intent và phạm vi câu hỏi B1	B1 Vector RAG	Bước 1: Liệt kê thông tin phải hiểu từ câu hỏi: công ty, thời kỳ và chỉ tiêu tài chính. Bước 2: Viết ví dụ câu hỏi đủ thông tin, thiếu thông tin và mơ hồ. Bước 3: Quy định khi nào hệ thống được tìm dữ liệu, khi nào phải hỏi lại người dùng; thử bằng dữ liệu mẫu trước.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Có bảng intent, scope và ca kiểm thử cho câu hỏi đủ/thiếu thông tin.	Kế hoạch Sprint 3 đã chốt theo ...**
+
+🟢 **	Sprint 3	S3-WBS03	S3-G04	1	Chốt intent và phạm vi câu hỏi B1	Thái Quốc Hưng	Đã hoàn thành	4	4	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Liệt kê thông tin phải hiểu từ câu hỏi: công ty, thời kỳ và chỉ tiêu tài chính. Bước 2: Viết ví dụ câu hỏi đủ thông tin, thiếu thông tin và mơ hồ. Bước 3: Quy định khi nào hệ thống được tìm dữ liệu, khi nào phải hỏi lại người dùng; thử bằng dữ liệu mẫu trước.	Có bảng intent, scope và ca kiểm th...**
+
+~~	S3-WBS03	Chốt intent và phạm vi câu hỏi B1	B1 Vector RAG	Bước 1: Liệt kê thông tin phải hiểu từ câu hỏi: công ty, thời kỳ và chỉ tiêu tài chính. Bước 2: Viết ví dụ câu hỏi tiếng Việt/Anh đủ thông tin, thiếu thông tin và mơ hồ. Bước 3: Quy định khi nào hệ thống được tìm dữ liệu, khi nào phải hỏi lại người dùng; thử bằng dữ liệu mẫu trước.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Có bảng intent, scope và ca kiểm thử cho câu hỏi đủ/thiếu thông tin.	Kế hoạch Sprint ...~~
+
+~~	Sprint 3	S3-WBS03	S3-G04	1	Chốt intent và phạm vi câu hỏi B1	Thái Quốc Hưng	Đã hoàn thành	4	4	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Liệt kê thông tin phải hiểu từ câu hỏi: công ty, thời kỳ và chỉ tiêu tài chính. Bước 2: Viết ví dụ câu hỏi tiếng Việt/Anh đủ thông tin, thiếu thông tin và mơ hồ. Bước 3: Quy định khi nào hệ thống được tìm dữ liệu, khi nào phải hỏi lại người dùng; thử bằng dữ liệu mẫu trước.	Có bảng intent, scop...~~
+
 ## 2026-10-20 15:47 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
