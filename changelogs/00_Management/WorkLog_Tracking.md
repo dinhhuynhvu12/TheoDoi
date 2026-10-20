@@ -1,5 +1,49 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-20 14:47 - SUA NOI DUNG
+
+- **Người đăng:** dieuhuyentran1010@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-20 14:47
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS22	Hoàn thiện đáp án và locator Golden40	Golden40 và đánh giá	Bước 1: Mở lại tài liệu gốc cho từng câu trong Golden40 để kiểm tra đáp án, đơn vị, kỳ và vị trí trang/bảng. Bước 2: Sửa câu trùng, câu mơ hồ hoặc đáp án chưa có nguồn chắc chắn. Bước 3: Chuyển từng lô đã ổn cho Vũ rà soát độc lập, kèm danh sách chỗ còn bất đồng.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	40 ca đủ trường bắt buộc; mỗi ca có locator nguồn, câu trùng được loại.	Kế hoạch Sprint 3 ...**
+
+🟢 **	S3-WBS27	Khóa Golden40 sau rà soát chéo	Golden40 và đánh giá	Bước 1: Nhận bản rà soát của Vũ cho từng lô 10 câu. Bước 2: Cùng Vũ giải quyết tất cả câu còn bất đồng về đáp án hoặc vị trí nguồn. Bước 3: Lưu bản Golden40 cuối cùng với mã phiên bản và mã kiểm tra nội dung; từ đây không sửa âm thầm khi chạy đánh giá.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	40 ca có version khóa; không còn bất đồng chưa xử lý.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân p...**
+
+🟢 **	Sprint 3	S3-WBS22	S3-G06	2	Hoàn thiện đáp án và locator Golden40	Trần Diệu Huyền	Đã hoàn thành	8		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Mở lại tài liệu gốc cho từng câu trong Golden40 để kiểm tra đáp án, đơn vị, kỳ và vị trí trang/bảng. Bước 2: Sửa câu trùng, câu mơ hồ hoặc đáp án chưa có nguồn chắc chắn. Bước 3: Chuyển từng lô đã ổn cho Vũ rà soát độc lập, kèm danh sách chỗ còn bất đồng.	40 ca đủ trường bắt buộc; mỗi ca có...**
+
+🟢 **	Sprint 3	S3-WBS27	S3-G06	2	Khóa Golden40 sau rà soát chéo	Trần Diệu Huyền	Đã hoàn thành	2		Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nhận bản rà soát của Vũ cho từng lô 10 câu. Bước 2: Cùng Vũ giải quyết tất cả câu còn bất đồng về đáp án hoặc vị trí nguồn. Bước 3: Lưu bản Golden40 cuối cùng với mã phiên bản và mã kiểm tra nội dung; từ đây không sửa âm thầm khi chạy đánh giá.	40 ca có version khóa; không còn bất đồng chưa xử lý....**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	48	0.6153846153846154	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	5	0.7142857142857143	Đang làm	38		Sprint 3 Backlog**
+
+🟢 **Task đã hoàn thành	94		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.4392523364485981		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	5	0.7142857142857143	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S3-WBS22	Hoàn thiện đáp án và locator Golden40	Golden40 và đánh giá	Bước 1: Mở lại tài liệu gốc cho từng câu trong Golden40 để kiểm tra đáp án, đơn vị, kỳ và vị trí trang/bảng. Bước 2: Sửa câu trùng, câu mơ hồ hoặc đáp án chưa có nguồn chắc chắn. Bước 3: Chuyển từng lô đã ổn cho Vũ rà soát độc lập, kèm danh sách chỗ còn bất đồng.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	40 ca đủ trường bắt buộc; mỗi ca có locator nguồn, câu trùng được loại.	Kế hoạch Sprint 3 ...~~
+
+~~	S3-WBS27	Khóa Golden40 sau rà soát chéo	Golden40 và đánh giá	Bước 1: Nhận bản rà soát của Vũ cho từng lô 10 câu. Bước 2: Cùng Vũ giải quyết tất cả câu còn bất đồng về đáp án hoặc vị trí nguồn. Bước 3: Lưu bản Golden40 cuối cùng với mã phiên bản và mã kiểm tra nội dung; từ đây không sửa âm thầm khi chạy đánh giá.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	40 ca có version khóa; không còn bất đồng chưa xử lý.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân p...~~
+
+~~	Sprint 3	S3-WBS22	S3-G06	2	Hoàn thiện đáp án và locator Golden40	Trần Diệu Huyền	Chưa bắt đầu	8		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Mở lại tài liệu gốc cho từng câu trong Golden40 để kiểm tra đáp án, đơn vị, kỳ và vị trí trang/bảng. Bước 2: Sửa câu trùng, câu mơ hồ hoặc đáp án chưa có nguồn chắc chắn. Bước 3: Chuyển từng lô đã ổn cho Vũ rà soát độc lập, kèm danh sách chỗ còn bất đồng.	40 ca đủ trường bắt buộc; mỗi ca có ...~~
+
+~~	Sprint 3	S3-WBS27	S3-G06	2	Khóa Golden40 sau rà soát chéo	Trần Diệu Huyền	Chưa bắt đầu	2		Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nhận bản rà soát của Vũ cho từng lô 10 câu. Bước 2: Cùng Vũ giải quyết tất cả câu còn bất đồng về đáp án hoặc vị trí nguồn. Bước 3: Lưu bản Golden40 cuối cùng với mã phiên bản và mã kiểm tra nội dung; từ đây không sửa âm thầm khi chạy đánh giá.	40 ca có version khóa; không còn bất đồng chưa xử lý.	...~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	46	0.5897435897435898	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	3	0.42857142857142855	Đang làm	38		Sprint 3 Backlog~~
+
+~~Task đã hoàn thành	92		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.42990654205607476		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	3	0.42857142857142855	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-20 14:42 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
