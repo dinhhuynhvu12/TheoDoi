@@ -1,5 +1,21 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-20 14:42 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-20 14:42
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS20	Tạo chỉ mục pgvector và đo baseline	Embedding và pgvector	Bước 1: Tạo cách tra cứu vector trong pgvector trên dữ liệu đã nạp. Bước 2: Dùng một bộ câu hỏi tiếng Việt/Anh cố định, đo thời gian và kiểm tra đoạn tìm được. Bước 3: Lưu cách cấu hình và kết quả ban đầu để về sau so sánh; nếu dữ liệu thật chưa sẵn, ghi rõ số đo chỉ là tạm trên mẫu.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Có kết quả baseline, index và truy vấn trả chunk đúng corpus.	Kế hoạch Sprint 3 đã chốt the...**
+
+🟢 **	Sprint 3	S3-WBS20	S3-G02	2	Tạo chỉ mục pgvector và đo baseline	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo cách tra cứu vector trong pgvector trên dữ liệu đã nạp. Bước 2: Dùng một bộ câu hỏi tiếng Việt/Anh cố định, đo thời gian và kiểm tra đoạn tìm được. Bước 3: Lưu cách cấu hình và kết quả ban đầu để về sau so sánh; nếu dữ liệu thật chưa sẵn, ghi rõ số đo chỉ là tạm trên mẫu.	Có kết quả base...**
+
+~~	S3-WBS20	Tạo chỉ mục pgvector và đo baseline	Embedding và pgvector	Bước 1: Tạo cách tra cứu vector nhanh hơn trong pgvector trên dữ liệu đã nạp. Bước 2: Dùng một bộ câu hỏi tiếng Việt/Anh cố định, đo thời gian và kiểm tra đoạn tìm được. Bước 3: Lưu cách cấu hình và kết quả ban đầu để về sau so sánh; nếu dữ liệu thật chưa sẵn, ghi rõ số đo chỉ là tạm trên mẫu.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Có kết quả baseline, index và truy vấn trả chunk đúng corpus.	Kế hoạch Sprint 3 đ...~~
+
+~~	Sprint 3	S3-WBS20	S3-G02	2	Tạo chỉ mục pgvector và đo baseline	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo cách tra cứu vector nhanh hơn trong pgvector trên dữ liệu đã nạp. Bước 2: Dùng một bộ câu hỏi tiếng Việt/Anh cố định, đo thời gian và kiểm tra đoạn tìm được. Bước 3: Lưu cách cấu hình và kết quả ban đầu để về sau so sánh; nếu dữ liệu thật chưa sẵn, ghi rõ số đo chỉ là tạm trên mẫu.	Có kế...~~
+
 ## 2026-10-20 13:47 - SUA NOI DUNG
 
 - **Người đăng:** minhquan9125@gmail.com
