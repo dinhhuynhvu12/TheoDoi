@@ -1,5 +1,29 @@
 # Lịch sử thay đổi: Bảng tính không có tiêu đề
 
+## 2026-10-21 08:57 - SUA NOI DUNG
+
+- **Người đăng:** dunhvu47@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-21 08:57
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS19	Ổn định chunker trên tài liệu khó	Chunk và vị trí nguồn	Bước 1: Thử bộ chia đoạn trên báo cáo có bảng dài, nhiều cột, đổi trang hoặc tiêu đề không đều. Bước 2: Ghi lại từng lỗi và sửa các lỗi nằm trong phạm vi 3 giờ đã phân. Bước 3: Chạy lại toàn bộ ví dụ cũ để chắc sửa bảng khó không làm hỏng tài liệu đơn giản; ghi rõ phần chưa hỗ trợ.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Test hồi quy trên mẫu khó qua; giới hạn còn lại được ghi cụ thể.	Kế hoạch Sprin...**
+
+🟢 **	Sprint 3	S3-WBS19	S3-G01	2	Ổn định chunker trên tài liệu khó	Đinh Huỳnh Vũ	Đang test	3		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Thử bộ chia đoạn trên báo cáo có bảng dài, nhiều cột, đổi trang hoặc tiêu đề không đều. Bước 2: Ghi lại từng lỗi và sửa các lỗi nằm trong phạm vi 3 giờ đã phân. Bước 3: Chạy lại toàn bộ ví dụ cũ để chắc sửa bảng khó không làm hỏng tài liệu đơn giản; ghi rõ phần chưa hỗ trợ.	Test hồi quy trên mẫu khó ...**
+
+🟢 **Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	4	0.6666666666666666	Đang test	22		Sprint 3 Backlog**
+
+🟢 **Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	4	0.6666666666666666	Đang test	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S3-WBS19	Ổn định chunker trên tài liệu khó	Chunk và vị trí nguồn	Bước 1: Thử bộ chia đoạn trên báo cáo có bảng dài, nhiều cột, đổi trang hoặc tiêu đề không đều. Bước 2: Ghi lại từng lỗi và sửa các lỗi nằm trong phạm vi 3 giờ đã phân. Bước 3: Chạy lại toàn bộ ví dụ cũ để chắc sửa bảng khó không làm hỏng tài liệu đơn giản; ghi rõ phần chưa hỗ trợ.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Test hồi quy trên mẫu khó qua; giới hạn còn lại được ghi cụ thể.	Kế hoạch Sprin...~~
+
+~~	Sprint 3	S3-WBS19	S3-G01	2	Ổn định chunker trên tài liệu khó	Đinh Huỳnh Vũ	Chưa bắt đầu	3		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Thử bộ chia đoạn trên báo cáo có bảng dài, nhiều cột, đổi trang hoặc tiêu đề không đều. Bước 2: Ghi lại từng lỗi và sửa các lỗi nằm trong phạm vi 3 giờ đã phân. Bước 3: Chạy lại toàn bộ ví dụ cũ để chắc sửa bảng khó không làm hỏng tài liệu đơn giản; ghi rõ phần chưa hỗ trợ.	Test hồi quy trên mẫu k...~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	4	0.6666666666666666	Đang làm	22		Sprint 3 Backlog~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	4	0.6666666666666666	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-20 16:17 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
