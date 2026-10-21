@@ -1,5 +1,11 @@
 # Lịch sử thay đổi: [Sprint 1  Tuần 2] Biên bản họp nhóm(22-9-2026).txt
 
+## 2026-10-21 21:15 - TAO MOI
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/Meeting_Notes/Sprint_1_2109_2509/[Sprint 1  Tuần 2] Biên bản họp nhóm(22-9-2026).txt`
+- **Ngày và giờ:** 2026-10-21 21:15
+
 ## 2026-10-14 18:44 - TAO MOI
 
 - **Người đăng:** yu382005@gmail.com
