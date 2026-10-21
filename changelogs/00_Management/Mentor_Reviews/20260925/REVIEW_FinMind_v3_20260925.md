@@ -1,5 +1,11 @@
 # Lịch sử thay đổi: REVIEW_FinMind_v3_20260925.html
 
+## 2026-10-21 21:24 - TAO MOI
+
+- **Người đăng:** nguyenquocanh41@gmail.com
+- **Tên / vị trí:** `00_Management/Mentor_Reviews/20260925/REVIEW_FinMind_v3_20260925.html`
+- **Ngày và giờ:** 2026-10-21 21:24
+
 ## 2026-10-21 21:15 - TAO MOI
 
 - **Người đăng:** nguyenquocanh41@gmail.com
