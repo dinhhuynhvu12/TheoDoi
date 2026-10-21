@@ -1,5 +1,11 @@
 # Lịch sử thay đổi: Team_Roster.xlsx
 
+## 2026-10-21 21:14 - TAO MOI
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/Team_Roster.xlsx`
+- **Ngày và giờ:** 2026-10-21 21:14
+
 ## 2026-10-14 18:43 - TAO MOI
 
 - **Người đăng:** yu382005@gmail.com
