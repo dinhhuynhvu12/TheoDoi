@@ -3,6 +3,12 @@
 ## 2026-10-21 21:25 - TAO MOI
 
 - **Người đăng:** nguyenquocanh41@gmail.com
+- **Tên / vị trí:** `00_Management/Mentor_Reviews/20260929/schema-erd.mmd`
+- **Ngày và giờ:** 2026-10-21 21:25
+
+## 2026-10-21 21:25 - TAO MOI
+
+- **Người đăng:** nguyenquocanh41@gmail.com
 - **Tên / vị trí:** `00_Management/Mentor_Reviews/20260929/schema-erd.svg`
 - **Ngày và giờ:** 2026-10-21 21:25
 
