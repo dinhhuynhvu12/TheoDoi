@@ -1,5 +1,11 @@
 # Lịch sử thay đổi: SOFTWARE REQUIREMENTS SPECIFICATION
 
+## 2026-10-21 21:23 - TAO MOI
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `02_Requirements/SOFTWARE REQUIREMENTS SPECIFICATION`
+- **Ngày và giờ:** 2026-10-21 21:23
+
 ## 2026-10-21 21:13 - TAO MOI
 
 - **Người đăng:** khong ro
