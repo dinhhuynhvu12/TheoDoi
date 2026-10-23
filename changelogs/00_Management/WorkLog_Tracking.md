@@ -1,5 +1,57 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-10-23 10:57 - SUA NOI DUNG
+
+- **Người đăng:** hophamdangnhandz123@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-23 10:57
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS20	Tạo chỉ mục pgvector và đo baseline	Embedding và pgvector	Bước 1: Tạo cách tra cứu vector trong pgvector trên dữ liệu đã nạp. Bước 2: Dùng một bộ câu hỏi tiếng Việt/Anh cố định, đo thời gian và kiểm tra đoạn tìm được. Bước 3: Lưu cách cấu hình và kết quả ban đầu để về sau so sánh; nếu dữ liệu thật chưa sẵn, ghi rõ số đo chỉ là tạm trên mẫu.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Có kết quả baseline, index và truy vấn trả chunk đúng corpus.	Kế hoạch Sprint 3 đã chốt the...**
+
+🟢 **	S3-WBS25	Truy vấn vector có lọc phạm vi	Embedding và pgvector	Bước 1: Thêm bộ lọc để chỉ tìm đoạn của đúng công ty, kỳ, loại tài liệu và phiên bản dữ liệu đang chọn. Bước 2: Trả về một số đoạn phù hợp nhất cùng điểm tương đồng và vị trí nguồn. Bước 3: Thử câu hỏi cố tình chọn sai công ty/kỳ để chắc hệ thống không lấy nhầm nguồn ngoài phạm vi.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Ca lọc sai công ty/kỳ/corpus trả rỗng hoặc đúng phạm vi; contract cho Hưng dùng.	Kế hoạch Sprint 3...**
+
+🟢 **	S3-WBS30	Ghi timing và lỗi retrieval	Embedding và pgvector	Bước 1: Với mỗi lần tìm kiếm vector, ghi thời gian chạy, số đoạn tìm được, điểm của các đoạn và mã lỗi nếu có. Bước 2: Che thông tin nhạy cảm trong lỗi/log. Bước 3: Chạy câu hỏi thành công và câu hỏi lỗi để chắc người kiểm tra có đủ dấu vết tìm nguyên nhân chậm hoặc sai.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Một truy vấn có trace thật đủ phân tích chậm/lỗi; không lộ secret.	Kế hoạch Sprint 3 đã chốt theo 4 người vector...**
+
+🟢 **	Sprint 3	S3-WBS20	S3-G02	2	Tạo chỉ mục pgvector và đo baseline	Hồ Phạm Đăng Nhân	Đã hoàn thành	4		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo cách tra cứu vector trong pgvector trên dữ liệu đã nạp. Bước 2: Dùng một bộ câu hỏi tiếng Việt/Anh cố định, đo thời gian và kiểm tra đoạn tìm được. Bước 3: Lưu cách cấu hình và kết quả ban đầu để về sau so sánh; nếu dữ liệu thật chưa sẵn, ghi rõ số đo chỉ là tạm trên mẫu.	Có kết quả bas...**
+
+🟢 **	Sprint 3	S3-WBS25	S3-G02	2	Truy vấn vector có lọc phạm vi	Hồ Phạm Đăng Nhân	Đã hoàn thành	4		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Thêm bộ lọc để chỉ tìm đoạn của đúng công ty, kỳ, loại tài liệu và phiên bản dữ liệu đang chọn. Bước 2: Trả về một số đoạn phù hợp nhất cùng điểm tương đồng và vị trí nguồn. Bước 3: Thử câu hỏi cố tình chọn sai công ty/kỳ để chắc hệ thống không lấy nhầm nguồn ngoài phạm vi.	Ca lọc sai công ty/kỳ...**
+
+🟢 **	Sprint 3	S3-WBS30	S3-G02	2	Ghi timing và lỗi retrieval	Hồ Phạm Đăng Nhân	Đang test	3		Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Với mỗi lần tìm kiếm vector, ghi thời gian chạy, số đoạn tìm được, điểm của các đoạn và mã lỗi nếu có. Bước 2: Che thông tin nhạy cảm trong lỗi/log. Bước 3: Chạy câu hỏi thành công và câu hỏi lỗi để chắc người kiểm tra có đủ dấu vết tìm nguyên nhân chậm hoặc sai.	Một truy vấn có trace thật đủ phân tích...**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	51	0.6538461538461539	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	6	0.75	Đang test	30		Sprint 3 Backlog**
+
+🟢 **Task đã hoàn thành	97		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.4532710280373832		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	6	0.75	Đang test	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S3-WBS20	Tạo chỉ mục pgvector và đo baseline	Embedding và pgvector	Bước 1: Tạo cách tra cứu vector trong pgvector trên dữ liệu đã nạp. Bước 2: Dùng một bộ câu hỏi tiếng Việt/Anh cố định, đo thời gian và kiểm tra đoạn tìm được. Bước 3: Lưu cách cấu hình và kết quả ban đầu để về sau so sánh; nếu dữ liệu thật chưa sẵn, ghi rõ số đo chỉ là tạm trên mẫu.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Có kết quả baseline, index và truy vấn trả chunk đúng corpus.	Kế hoạch Sprint 3 đã chốt the...~~
+
+~~	S3-WBS25	Truy vấn vector có lọc phạm vi	Embedding và pgvector	Bước 1: Thêm bộ lọc để chỉ tìm đoạn của đúng công ty, kỳ, loại tài liệu và phiên bản dữ liệu đang chọn. Bước 2: Trả về một số đoạn phù hợp nhất cùng điểm tương đồng và vị trí nguồn. Bước 3: Thử câu hỏi cố tình chọn sai công ty/kỳ để chắc hệ thống không lấy nhầm nguồn ngoài phạm vi.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Ca lọc sai công ty/kỳ/corpus trả rỗng hoặc đúng phạm vi; contract cho Hưng dùng.	Kế hoạch Sprint 3...~~
+
+~~	S3-WBS30	Ghi timing và lỗi retrieval	Embedding và pgvector	Bước 1: Với mỗi lần tìm kiếm vector, ghi thời gian chạy, số đoạn tìm được, điểm của các đoạn và mã lỗi nếu có. Bước 2: Che thông tin nhạy cảm trong lỗi/log. Bước 3: Chạy câu hỏi thành công và câu hỏi lỗi để chắc người kiểm tra có đủ dấu vết tìm nguyên nhân chậm hoặc sai.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Một truy vấn có trace thật đủ phân tích chậm/lỗi; không lộ secret.	Kế hoạch Sprint 3 đã chốt theo 4 người vector...~~
+
+~~	Sprint 3	S3-WBS20	S3-G02	2	Tạo chỉ mục pgvector và đo baseline	Hồ Phạm Đăng Nhân	Đang test	4		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo cách tra cứu vector trong pgvector trên dữ liệu đã nạp. Bước 2: Dùng một bộ câu hỏi tiếng Việt/Anh cố định, đo thời gian và kiểm tra đoạn tìm được. Bước 3: Lưu cách cấu hình và kết quả ban đầu để về sau so sánh; nếu dữ liệu thật chưa sẵn, ghi rõ số đo chỉ là tạm trên mẫu.	Có kết quả baselin...~~
+
+~~	Sprint 3	S3-WBS25	S3-G02	2	Truy vấn vector có lọc phạm vi	Hồ Phạm Đăng Nhân	Đang test	4		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Thêm bộ lọc để chỉ tìm đoạn của đúng công ty, kỳ, loại tài liệu và phiên bản dữ liệu đang chọn. Bước 2: Trả về một số đoạn phù hợp nhất cùng điểm tương đồng và vị trí nguồn. Bước 3: Thử câu hỏi cố tình chọn sai công ty/kỳ để chắc hệ thống không lấy nhầm nguồn ngoài phạm vi.	Ca lọc sai công ty/kỳ/cor...~~
+
+~~	Sprint 3	S3-WBS30	S3-G02	2	Ghi timing và lỗi retrieval	Hồ Phạm Đăng Nhân	Chưa bắt đầu	3		Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Với mỗi lần tìm kiếm vector, ghi thời gian chạy, số đoạn tìm được, điểm của các đoạn và mã lỗi nếu có. Bước 2: Che thông tin nhạy cảm trong lỗi/log. Bước 3: Chạy câu hỏi thành công và câu hỏi lỗi để chắc người kiểm tra có đủ dấu vết tìm nguyên nhân chậm hoặc sai.	Một truy vấn có trace thật đủ phân t...~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	78	49	0.6282051282051282	352	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	4	0.5	Đang test	30		Sprint 3 Backlog~~
+
+~~Task đã hoàn thành	95		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.4439252336448598		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~Trả được các đoạn gần nghĩa và ghi thời gian tìm kiếm.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	4	0.5	Đang test	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-23 10:07 - SUA NOI DUNG
 
 - **Người đăng:** minhquan9125@gmail.com
