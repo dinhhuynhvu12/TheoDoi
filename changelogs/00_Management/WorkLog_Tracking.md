@@ -1,5 +1,29 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-10-26 14:42 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-26 14:42
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **4. Tạo fixture hợp lệ, thiếu metadata và mơ hồ cho ba nhóm quan hệ và ba tuyến VECTOR/GRAPH/BOTH; bàn giao contract ngay 26/10 để các nhánh làm song song.	Định danh thực thể thống nhất, có đầu vào và contract cho các nhánh làm song song.	Có manifest đầu vào, contract và fixture được team thống nhất. Không làm lại chunking. Giữ contract và bộ ca B1 hiện có để đối chứng.	Tuần 1. Phụ thuộc / làm trước: Đầu vào: chunk, metadata nguồn, corpus và giao diện/Vector RAG Sprint 3. Không chờ graph thật. Đầ...**
+
+🟢 **4. Kiểm tra cùng đầu vào không tạo ID trùng hoặc thay đổi tùy ý; bàn giao interface/fixture sớm rồi nối bộ chuẩn hóa thật trước 29/10.	Định danh thực thể thống nhất, có đầu vào và contract cho các nhánh làm song song.	Thực thể có ID và alias nhất quán, có provenance; ca trùng tên không bị gộp sai; có test và bộ mẫu bàn giao.	Tuần 1. Phụ thuộc / làm trước: Phụ thuộc WBS01. WBS03–05 được dùng thực thể fixture trước; chỉ nghiệm thu bản nối thật sau WBS02. Không phụ thuộc Neo4j/Supabase.	Rất cao	Đan...**
+
+🟢 **	Sprint 4	S4-WBS01	S4-G01	1	Chốt dữ liệu, schema và contract Graph RAG	Thái Quốc Hưng	Đang làm	5		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	1. Chốt danh sách tài liệu và toàn bộ News đã duyệt trong corpus; ghi ID, nguồn và số lượng, không tự mở rộng nguồn trong sprint.**
+
+🟢 **	Sprint 4	S4-WBS02	S4-G01	1	Nhận diện và chuẩn hóa thực thể	Thái Quốc Hưng	Đang làm	8		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	1. Đọc chunk hiện có cùng metadata; tìm tên công ty, người và sự kiện, giữ tên nguyên văn và đoạn xuất hiện.**
+
+~~4. Tạo fixture hợp lệ, thiếu metadata và mơ hồ cho ba nhóm quan hệ và ba tuyến VECTOR/GRAPH/BOTH; bàn giao contract ngay 26/10 để các nhánh làm song song.	Định danh thực thể thống nhất, có đầu vào và contract cho các nhánh làm song song.	Có manifest đầu vào, contract và fixture được team thống nhất. Không làm lại chunking. Giữ contract và bộ ca B1 hiện có để đối chứng.	Tuần 1. Phụ thuộc / làm trước: Đầu vào: chunk, metadata nguồn, corpus và giao diện/Vector RAG Sprint 3. Không chờ graph thật. Đầ...~~
+
+~~4. Kiểm tra cùng đầu vào không tạo ID trùng hoặc thay đổi tùy ý; bàn giao interface/fixture sớm rồi nối bộ chuẩn hóa thật trước 29/10.	Định danh thực thể thống nhất, có đầu vào và contract cho các nhánh làm song song.	Thực thể có ID và alias nhất quán, có provenance; ca trùng tên không bị gộp sai; có test và bộ mẫu bàn giao.	Tuần 1. Phụ thuộc / làm trước: Phụ thuộc WBS01. WBS03–05 được dùng thực thể fixture trước; chỉ nghiệm thu bản nối thật sau WBS02. Không phụ thuộc Neo4j/Supabase.	Rất cao	Đan...~~
+
+~~	Sprint 4	S4-WBS01	S4-G01	1	Chốt dữ liệu, schema và contract Graph RAG	Thái Quốc Hưng	Đang làm	5		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	1. Chốt danh sách tài liệu và toàn bộ News đã duyệt trong corpus; ghi ID, nguồn và số lượng, không tự mở rộng nguồn trong sprint.~~
+
+~~	Sprint 4	S4-WBS02	S4-G01	1	Nhận diện và chuẩn hóa thực thể	Thái Quốc Hưng	Đang làm	8		Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	1. Đọc chunk hiện có cùng metadata; tìm tên công ty, người và sự kiện, giữ tên nguyên văn và đoạn xuất hiện.~~
+
 ## 2026-10-26 14:37 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
