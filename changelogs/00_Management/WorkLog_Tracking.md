@@ -1,5 +1,21 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-10-26 13:07 - SUA NOI DUNG
+
+- **Người đăng:** minhquan9125@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-26 13:07
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S4-WBS03	Trích xuất sự kiện và quan hệ từ News	Trích xuất, kiểm duyệt và lưu quan hệ có nguồn	1. Từ chunk thật, lấy phát biểu về công ty con, liên kết, sở hữu và hợp tác; xác định hai thực thể và chiều quan hệ.**
+
+🟢 **	Sprint 4	S4-WBS03	S4-G02	1	Trích xuất sự kiện và quan hệ từ News	Hồ Phạm Đăng Nhân	Chưa bắt đầu	6		Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Từ chunk thật, lấy phát biểu về công ty con, liên kết, sở hữu và hợp tác; xác định hai thực thể và chiều quan hệ.**
+
+~~	S4-WBS03	Trích xuất quan hệ doanh nghiệp	Trích xuất, kiểm duyệt và lưu quan hệ có nguồn	1. Từ chunk thật, lấy phát biểu về công ty con, liên kết, sở hữu và hợp tác; xác định hai thực thể và chiều quan hệ.~~
+
+~~	Sprint 4	S4-WBS03	S4-G02	1	Trích xuất quan hệ doanh nghiệp	Hồ Phạm Đăng Nhân	Chưa bắt đầu	6		Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Từ chunk thật, lấy phát biểu về công ty con, liên kết, sở hữu và hợp tác; xác định hai thực thể và chiều quan hệ.~~
+
 ## 2026-10-26 08:37 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
