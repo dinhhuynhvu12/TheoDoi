@@ -1,5 +1,29 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-10-26 13:17 - SUA NOI DUNG
+
+- **Người đăng:** dieuhuyentran1010@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-26 13:17
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S4-WBS03	Trích xuất sự kiện và quan hệ giữa các doang nghiệp	Trích xuất, kiểm duyệt và lưu quan hệ có nguồn	1. Từ chunk thật, lấy phát biểu về công ty con, liên kết, sở hữu và hợp tác; xác định hai thực thể và chiều quan hệ.**
+
+🟢 **	S4-WBS14	Kiểm tra bằng chứng, kiểm duyệt và quarantine	Trả lời và giao diện có nguồn	1. Đưa bằng chứng của tuyến được chọn vào phần trả lời hiện có; trả đúng các phần yêu cầu, gắn citation với từng nhận định.**
+
+🟢 **	Sprint 4	S4-WBS03	S4-G02	1	Trích xuất sự kiện và quan hệ giữa các doang nghiệp	Hồ Phạm Đăng Nhân	Chưa bắt đầu	6		Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Từ chunk thật, lấy phát biểu về công ty con, liên kết, sở hữu và hợp tác; xác định hai thực thể và chiều quan hệ.**
+
+🟢 **	Sprint 4	S4-WBS14	S4-G06	2	Kiểm tra bằng chứng, kiểm duyệt và quarantine	Nguyễn Minh Quân	Chưa bắt đầu	6		Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	1. Đưa bằng chứng của tuyến được chọn vào phần trả lời hiện có; trả đúng các phần yêu cầu, gắn citation với từng nhận định.**
+
+~~	S4-WBS03	Trích xuất sự kiện và quan hệ từ News	Trích xuất, kiểm duyệt và lưu quan hệ có nguồn	1. Từ chunk thật, lấy phát biểu về công ty con, liên kết, sở hữu và hợp tác; xác định hai thực thể và chiều quan hệ.~~
+
+~~	S4-WBS14	Tạo câu trả lời và citation theo kết quả routing	Trả lời và giao diện có nguồn	1. Đưa bằng chứng của tuyến được chọn vào phần trả lời hiện có; trả đúng các phần yêu cầu, gắn citation với từng nhận định.~~
+
+~~	Sprint 4	S4-WBS03	S4-G02	1	Trích xuất sự kiện và quan hệ từ News	Hồ Phạm Đăng Nhân	Chưa bắt đầu	6		Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Từ chunk thật, lấy phát biểu về công ty con, liên kết, sở hữu và hợp tác; xác định hai thực thể và chiều quan hệ.~~
+
+~~	Sprint 4	S4-WBS14	S4-G06	2	Tạo câu trả lời và citation theo kết quả routing	Nguyễn Minh Quân	Chưa bắt đầu	6		Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	1. Đưa bằng chứng của tuyến được chọn vào phần trả lời hiện có; trả đúng các phần yêu cầu, gắn citation với từng nhận định.~~
+
 ## 2026-10-26 13:12 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
