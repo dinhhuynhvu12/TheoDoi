@@ -1,5 +1,29 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-10-26 13:52 - SUA NOI DUNG
+
+- **Người đăng:** minhquan9125@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-26 13:52
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S4-WBS05	Trích xuất sự kiện và quan hệ từ News	Trích xuất, kiểm duyệt và lưu quan hệ có nguồn	1. Nhận diện sự kiện phù hợp từ News trong manifest và các bên liên quan**
+
+🟢 **5.  Bàn giao extractor theo lô cho WBS16; chưa chạy full-load trong task này.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Extractor sự kiện chạy được trên News thật mẫu; giữ nguồn, ngày và trạng thái; không công bố nội dung mơ hồ thành sự thật. Có test và interface batch.	Tuần 1. Phụ thuộc / làm trước: WBS01; entity fixture để bắt đầu, WBS02 thật để nghiệm thu. Phần bất định chuyển WBS06. Chạy toàn bộ News thuộc WBS16 củ...**
+
+🟢 **	Sprint 4	S4-WBS05	S4-G02	1	Trích xuất sự kiện và quan hệ từ News	Nguyễn Minh Quân	Chưa bắt đầu	12		Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Nhận diện sự kiện phù hợp từ News trong manifest và các bên liên quan**
+
+🟢 **5.  Bàn giao extractor theo lô cho WBS16; chưa chạy full-load trong task này.	Extractor sự kiện chạy được trên News thật mẫu; giữ nguồn, ngày và trạng thái; không công bố nội dung mơ hồ thành sự thật. Có test và interface batch.	WBS01; entity fixture để bắt đầu, WBS02 thật để nghiệm thu. Phần bất định chuyển WBS06. Chạy toàn bộ News thuộc WBS16 của Vũ.														**
+
+~~	S4-WBS05	Trích xuất sự kiện và quan hệ từ News	Trích xuất, kiểm duyệt và lưu quan hệ có nguồn	1. Nhận diện sự kiện phù hợp từ News trong manifest và các bên liên quan; phân biệt tin sự kiện với bình luận/tổng hợp.~~
+
+~~5. Xuất event/quan hệ theo contract dùng chung; kiểm tra tin đồn, phủ định và câu có điều kiện. Bàn giao extractor theo lô cho WBS16; chưa chạy full-load trong task này.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Extractor sự kiện chạy được trên News thật mẫu; giữ nguồn, ngày và trạng thái; không công bố nội dung mơ hồ thành sự thật. Có test và interface batch.	Tuần 1. Phụ thuộc / làm trước: WBS01; entity fixture để bắt...~~
+
+~~	Sprint 4	S4-WBS05	S4-G02	1	Trích xuất sự kiện và quan hệ từ News	Nguyễn Minh Quân	Chưa bắt đầu	12		Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Nhận diện sự kiện phù hợp từ News trong manifest và các bên liên quan; phân biệt tin sự kiện với bình luận/tổng hợp.~~
+
+~~5. Xuất event/quan hệ theo contract dùng chung; kiểm tra tin đồn, phủ định và câu có điều kiện. Bàn giao extractor theo lô cho WBS16; chưa chạy full-load trong task này.	Extractor sự kiện chạy được trên News thật mẫu; giữ nguồn, ngày và trạng thái; không công bố nội dung mơ hồ thành sự thật. Có test và interface batch.	WBS01; entity fixture để bắt đầu, WBS02 thật để nghiệm thu. Phần bất định chuyển WBS06. Chạy toàn bộ News thuộc WBS16 của Vũ.														~~
+
 ## 2026-10-26 13:27 - SUA NOI DUNG
 
 - **Người đăng:** dunhvu47@gmail.com
