@@ -1,5 +1,29 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-10-27 16:07 - SUA NOI DUNG
+
+- **Người đăng:** dieuhuyentran1010@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-27 16:07
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **5. Kiểm tra nhiều cách diễn đạt, trùng tên, thiếu kỳ và yêu cầu kết hợp. Bàn giao interface cho WBS11–13; chưa đợi graph thật.	Chọn VECTOR/GRAPH/BOTH theo ý định; hợp nhất có provenance và không che lỗi nhánh.	Router chọn đúng ba tuyến trên bộ ca fixture, hỏi lại đúng khi chưa rõ; có lý do/trace và contract adapter. Nối nhánh thật trong tuần 2.	Tuần 1. Phụ thuộc / làm trước: WBS01 và intent/context B1 Sprint 3. Hoàn toàn có thể làm song song trích xuất dữ liệu. Không phụ thuộc WBS09 hoặc full-lo...**
+
+🟢 **	Sprint 4	S4-WBS10	S4-G04	1	Phân tích ý định và Hybrid Router bằng fixture	Trần Diệu Huyền	Đang làm	8		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Phân tích câu hỏi cùng ngữ cảnh: người dùng cần nội dung/số liệu, quan hệ, hay cả hai; lấy thực thể, thời gian và thông tin thiếu.**
+
+🟢 **Bằng chứng đứng đầu có điểm và lý do lựa chọn kiểm tra được.	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Đang làm	15		Sprint 4 Backlog**
+
+🟢 **Bằng chứng đứng đầu có điểm và lý do lựa chọn kiểm tra được.	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~5. Kiểm tra nhiều cách diễn đạt, trùng tên, thiếu kỳ và yêu cầu kết hợp. Bàn giao interface cho WBS11–13; chưa đợi graph thật.	Chọn VECTOR/GRAPH/BOTH theo ý định; hợp nhất có provenance và không che lỗi nhánh.	Router chọn đúng ba tuyến trên bộ ca fixture, hỏi lại đúng khi chưa rõ; có lý do/trace và contract adapter. Nối nhánh thật trong tuần 2.	Tuần 1. Phụ thuộc / làm trước: WBS01 và intent/context B1 Sprint 3. Hoàn toàn có thể làm song song trích xuất dữ liệu. Không phụ thuộc WBS09 hoặc full-lo...~~
+
+~~	Sprint 4	S4-WBS10	S4-G04	1	Phân tích ý định và Hybrid Router bằng fixture	Trần Diệu Huyền	Chưa bắt đầu	8		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Phân tích câu hỏi cùng ngữ cảnh: người dùng cần nội dung/số liệu, quan hệ, hay cả hai; lấy thực thể, thời gian và thông tin thiếu.~~
+
+~~Bằng chứng đứng đầu có điểm và lý do lựa chọn kiểm tra được.	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	15		Sprint 4 Backlog~~
+
+~~Bằng chứng đứng đầu có điểm và lý do lựa chọn kiểm tra được.	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-27 13:12 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
