@@ -1,5 +1,117 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-10-27 13:12 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-27 13:12
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **5. Làm điều phối bằng hai adapter fixture trước; nối WBS11/WBS12 thật để nghiệm thu.	Chọn VECTOR/GRAPH/BOTH theo ý định; hợp nhất có provenance và không che lỗi nhánh.	BOTH thực sự sử dụng hai nhánh, có bộ evidence chung và trạng thái riêng; không che phần chưa được đáp ứng.	Tuần 2. Phụ thuộc / làm trước: WBS10–12. Có thể bắt đầu bằng fixture ngày 02/11; nghiệm thu sau adapter thật. Bàn giao cho WBS14 và WBS17.	Rất cao	Chưa bắt đầu	S4-G04	FinMind	4	7		Nguyễn Minh Quân	Mon Nov 02 2026 07:00:00 GM...**
+
+🟢 **	S4-WBS17	Kiểm thử, đánh giá B1/B2 và bàn giao Sprint 4	Kiểm thử, đánh giá và bàn giao Sprint 4	1. Nhân và Huyền thống nhất bộ câu hỏi, nguồn và kết quả kỳ vọng cho quan hệ doanh nghiệp, chức vụ, sự kiện và ba tuyến VECTOR/GRAPH/BOTH.**
+
+🟢 **2. Nhân (7 giờ): chạy benchmark B1/B2 trên cùng corpus, model và cấu hình; đối chiếu route, thực thể, chiều quan hệ, thời gian, bằng chứng và thời gian phản hồi; lưu đầu ra từng câu và phân tích ca sai.**
+
+🟢 **2. Nhân (7 giờ): chạy benchmark B1/B2 trên cùng corpus, model và cấu hình; đối chiếu route, thực thể, chiều quan hệ, thời gian, bằng chứng và thời gian phản hồi; lưu đầu ra từng câu và phân tích ca sai.**
+
+🟢 **3. Huyền (6 giờ): kiểm tra xuyên suốt câu hỏi → chat → citation → Graph Viewer; đọc nguồn để đối chiếu; thử tên mơ hồ, nguồn mâu thuẫn, sai thời gian/phiên, rỗng và timeout một nhánh BOTH.**
+
+🟢 **3. Huyền (6 giờ): kiểm tra xuyên suốt câu hỏi → chat → citation → Graph Viewer; đọc nguồn để đối chiếu; thử tên mơ hồ, nguồn mâu thuẫn, sai thời gian/phiên, rỗng và timeout một nhánh BOTH.**
+
+🟢 **4. Chạy hồi quy B1 và giao diện hiện có; đối chiếu báo cáo toàn bộ News của WBS16; ghi lỗi, mức ảnh hưởng và người xử lý.**
+
+🟢 **4. Chạy hồi quy B1 và giao diện hiện có; đối chiếu báo cáo toàn bộ News của WBS16; ghi lỗi, mức ảnh hưởng và người xử lý.**
+
+🟢 **5. Cùng bàn giao bộ test, kết quả chạy thật, bảng so sánh B1/B2, báo cáo full-load và giới hạn còn lại. Chỉ hoàn thành task khi cả phần Nhân và Huyền đạt. Tổng 13 giờ công = Nhân 7 giờ + Huyền 6 giờ, không phải 13 giờ mỗi người.	Đánh giá B1/B2, kiểm thử xuyên suốt, nguồn và hồi quy; bàn giao kết quả mẫu/full-load.	Có bộ test và kết quả thật cho VECTOR/GRAPH/BOTH và ba nhóm quan hệ; bảng B1/B2 có chất lượng và thời gian phản hồi; citation đúng nguồn; có kiểm thử lỗi/E2E/hồi quy, báo cáo full-load...**
+
+🟢 **	Phân công theo nhóm đã chốt. WBS10 tuần 1; WBS09 tuần 2. WBS17 là một task chung: Nhân 7h và Huyền 6h, tổng 13 giờ công. Ngày và giờ là đề xuất; dùng fixture khi chờ đầu vào.																											**
+
+🟢 **	Số task	17	Giờ dự kiến	128	Tổng giờ thực tế đã ghi			Tuần 1 (h)	65	Tuần 2 (h)	63																	**
+
+🟢 **	Sprint 4	S4-WBS17	S4-G07	2	Kiểm thử, đánh giá B1/B2 và bàn giao Sprint 4	Hồ Phạm Đăng Nhân; Trần Diệu Huyền	Chưa bắt đầu	13		Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	1. Nhân và Huyền thống nhất bộ câu hỏi, nguồn và kết quả kỳ vọng cho quan hệ doanh nghiệp, chức vụ, sự kiện và ba tuyến VECTOR/GRAPH/BOTH.**
+
+🟢 **5. Cùng bàn giao bộ test, kết quả chạy thật, bảng so sánh B1/B2, báo cáo full-load và giới hạn còn lại. Chỉ hoàn thành task khi cả phần Nhân và Huyền đạt. Tổng 13 giờ công = Nhân 7 giờ + Huyền 6 giờ, không phải 13 giờ mỗi người.	Có bộ test và kết quả thật cho VECTOR/GRAPH/BOTH và ba nhóm quan hệ; bảng B1/B2 có chất lượng và thời gian phản hồi; citation đúng nguồn; có kiểm thử lỗi/E2E/hồi quy, báo cáo full-load và danh sách lỗi còn lại. Không mặc định B2 tốt hơn B1.	Chuẩn bị bộ ca bằng WBS01/fixt...**
+
+🟢 **5. Làm điều phối bằng hai adapter fixture trước; nối WBS11/WBS12 thật để nghiệm thu.	BOTH thực sự sử dụng hai nhánh, có bộ evidence chung và trạng thái riêng; không che phần chưa được đáp ứng.	WBS10–12. Có thể bắt đầu bằng fixture ngày 02/11; nghiệm thu sau adapter thật. Bàn giao cho WBS14 và WBS17.														**
+
+🟢 **Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	62	0	0	288	Hybrid B2, Copilot B3, kiểm chứng, bảo mật và chạy đánh giá cuối.								**
+
+🟢 **Có số đo thực tế; không dùng mục tiêu hiệu năng làm kết quả đo.	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	1	0	0	Chưa bắt đầu	13		Sprint 4 Backlog**
+
+🟢 **	S4-G09	4	Tích hợp và nghiệm thu Sprint 4	Graph chỉ chứa và trả quan hệ đã xác minh trong phạm vi.**
+
+🟢 **Nhóm duyệt đầu ra hoặc ghi rõ điều kiện chưa đạt.			0	0	Chưa có task	Chưa có task	0		Sprint 4 Backlog**
+
+🟢 **Tổng task	195		Bàn giao dự kiến	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)						**
+
+🟢 **Độ hoàn thành	0.49743589743589745		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **Nhóm duyệt đầu ra hoặc ghi rõ điều kiện chưa đạt.		0	0	Chưa có task	Chưa có task	Khoảng 22 giờ cho tích hợp, review và sửa lỗi.**
+
+~~5. Làm điều phối bằng hai adapter fixture trước; nối WBS11/WBS12 thật để nghiệm thu.	Chọn VECTOR/GRAPH/BOTH theo ý định; hợp nhất có provenance và không che lỗi nhánh.	BOTH thực sự sử dụng hai nhánh, có bộ evidence chung và trạng thái riêng; không che phần chưa được đáp ứng.	Tuần 2. Phụ thuộc / làm trước: WBS10–12. Có thể bắt đầu bằng fixture ngày 02/11; nghiệm thu sau adapter thật. Bàn giao cho WBS14 và WBS17.1.	Rất cao	Chưa bắt đầu	S4-G04	FinMind	4	7		Nguyễn Minh Quân	Mon Nov 02 2026 07:00:00 ...~~
+
+~~	S4-WBS17.1	WBS17.1 – Đánh giá retrieval và so sánh B1/B2 (Nhân)	Đánh giá retrieval và so sánh B1/B2	1. Cùng Huyền chốt bộ câu hỏi/nguồn kỳ vọng cho doanh nghiệp, chức vụ, sự kiện và VECTOR/GRAPH/BOTH.~~
+
+~~2. Chạy cùng bộ ca và điều kiện trên B1/B2; giữ corpus, model và phiên cấu hình được ghi rõ để so sánh.~~
+
+~~2. Chạy cùng bộ ca và điều kiện trên B1/B2; giữ corpus, model và phiên cấu hình được ghi rõ để so sánh.~~
+
+~~3. Đối chiếu route, thực thể, chiều quan hệ, thời gian, evidence, trạng thái từng nhánh và latency; ghi các ca graph giúp hoặc gây lỗi.~~
+
+~~3. Đối chiếu route, thực thể, chiều quan hệ, thời gian, evidence, trạng thái từng nhánh và latency; ghi các ca graph giúp hoặc gây lỗi.~~
+
+~~4. Tổng hợp chỉ số, đầu ra từng câu và kết quả full-load WBS16; không mặc định B2 tốt hơn B1.~~
+
+~~4. Tổng hợp chỉ số, đầu ra từng câu và kết quả full-load WBS16; không mặc định B2 tốt hơn B1.~~
+
+~~5. Phần Nhân: test/retrieval benchmark, số đo và phân tích. Huyền WBS17.2 chịu trách nhiệm E2E giao diện/citation, kiểm tra nguồn thủ công và hồi quy.	Có kết quả từng ca và số đo thực tế trên cùng điều kiện, nêu cả cải thiện và suy giảm.	Có output/trace từng câu, bảng B1/B2 và thời gian phản hồi, phân tích ca sai và giới hạn. Không trùng công với WBS17.2; cần cả hai phần để đóng WBS17.	Tuần 2. Phụ thuộc / làm trước: WBS09 và WBS11–14; nhận báo cáo WBS16 để chốt. Chuẩn bị script/case từ fixture s...~~
+
+~~	S4-WBS17.2	WBS17.2 – Kiểm thử E2E, citation và hồi quy (Huyền)	Kiểm thử E2E và nghiệm thu Sprint 4	1. Chuẩn bị test đầu tuần cho chọn route/hỏi lại, câu hỏi trùng tên, nguồn mâu thuẫn, sai thời gian/phiên và quan hệ chưa duyệt.~~
+
+~~2. Kiểm tra câu hỏi → chat → nguồn → Graph Viewer trên ba tuyến; đọc nguồn mẫu để đối chiếu nhận định, không chỉ nhìn schema đúng.~~
+
+~~2. Kiểm tra câu hỏi → chat → nguồn → Graph Viewer trên ba tuyến; đọc nguồn mẫu để đối chiếu nhận định, không chỉ nhìn schema đúng.~~
+
+~~3. Thử rỗng, timeout một nhánh BOTH, lỗi API và nạp dở; kiểm tra thông báo không che lỗi hoặc bịa nguồn.~~
+
+~~3. Thử rỗng, timeout một nhánh BOTH, lỗi API và nạp dở; kiểm tra thông báo không che lỗi hoặc bịa nguồn.~~
+
+~~4. Chạy hồi quy B1 và giao diện hiện có; ghi test ID, kết quả thật và lỗi cần sửa. Đối chiếu báo cáo News đã xử lý đầy đủ.~~
+
+~~4. Chạy hồi quy B1 và giao diện hiện có; ghi test ID, kết quả thật và lỗi cần sửa. Đối chiếu báo cáo News đã xử lý đầy đủ.~~
+
+~~5. Phần Huyền: E2E/UI, citation, kiểm tra nguồn và hồi quy. Nhân WBS17.1 sở hữu benchmark retrieval/metrics; tổng hợp bàn giao chung sau cả hai phần.	Có kiểm thử nguồn, lỗi nhánh, hồi quy và bằng chứng chạy thật trước bàn giao.	Có receipt E2E/negative/hồi quy và mẫu kiểm tra nguồn; lỗi còn lại có người xử lý/mức ảnh hưởng. Không dùng fixture để tuyên bố graph thật đạt; WBS17 chỉ đóng khi 17.1 và 17.2 đạt.	Tuần 2. Phụ thuộc / làm trước: Chuẩn bị bằng WBS01/fixture ngay đầu tuần; nghiệm thu thật c...~~
+
+~~	Phân công theo nhóm đã chốt. WBS10 tuần 1; WBS09 tuần 2. WBS17.1 Nhân đánh giá retrieval/B1-B2, WBS17.2 Huyền test E2E/citation. Ngày và giờ là đề xuất, làm trước bằng fixture khi còn chờ đầu vào.																											~~
+
+~~	Số task	18	Giờ dự kiến	128	Tổng giờ thực tế đã ghi			Tuần 1 (h)	65	Tuần 2 (h)	63																	~~
+
+~~	Sprint 4	S4-WBS17.1	S4-G07	2	WBS17.1 – Đánh giá retrieval và so sánh B1/B2 (Nhân)	Hồ Phạm Đăng Nhân	Chưa bắt đầu	7		Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	1. Cùng Huyền chốt bộ câu hỏi/nguồn kỳ vọng cho doanh nghiệp, chức vụ, sự kiện và VECTOR/GRAPH/BOTH.~~
+
+~~5. Phần Nhân: test/retrieval benchmark, số đo và phân tích. Huyền WBS17.2 chịu trách nhiệm E2E giao diện/citation, kiểm tra nguồn thủ công và hồi quy.	Có output/trace từng câu, bảng B1/B2 và thời gian phản hồi, phân tích ca sai và giới hạn. Không trùng công với WBS17.2; cần cả hai phần để đóng WBS17.	WBS09 và WBS11–14; nhận báo cáo WBS16 để chốt. Chuẩn bị script/case từ fixture sớm; phối hợp Huyền theo bộ test chung, không nhân đôi giờ.														~~
+
+~~5. Làm điều phối bằng hai adapter fixture trước; nối WBS11/WBS12 thật để nghiệm thu.	BOTH thực sự sử dụng hai nhánh, có bộ evidence chung và trạng thái riêng; không che phần chưa được đáp ứng.	WBS10–12. Có thể bắt đầu bằng fixture ngày 02/11; nghiệm thu sau adapter thật. Bàn giao cho WBS14 và WBS17.1.														~~
+
+~~	Sprint 4	S4-WBS17.2	S4-G09	2	WBS17.2 – Kiểm thử E2E, citation và hồi quy (Huyền)	Trần Diệu Huyền	Chưa bắt đầu	6		Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	1. Chuẩn bị test đầu tuần cho chọn route/hỏi lại, câu hỏi trùng tên, nguồn mâu thuẫn, sai thời gian/phiên và quan hệ chưa duyệt.~~
+
+~~5. Phần Huyền: E2E/UI, citation, kiểm tra nguồn và hồi quy. Nhân WBS17.1 sở hữu benchmark retrieval/metrics; tổng hợp bàn giao chung sau cả hai phần.	Có receipt E2E/negative/hồi quy và mẫu kiểm tra nguồn; lỗi còn lại có người xử lý/mức ảnh hưởng. Không dùng fixture để tuyên bố graph thật đạt; WBS17 chỉ đóng khi 17.1 và 17.2 đạt.	Chuẩn bị bằng WBS01/fixture ngay đầu tuần; nghiệm thu thật cần WBS09–16 và báo cáo WBS17.1. Không phải đợi Nhân chạy xong mới soạn test.														~~
+
+~~Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	63	0	0	288	Hybrid B2, Copilot B3, kiểm chứng, bảo mật và chạy đánh giá cuối.								~~
+
+~~Có số đo thực tế; không dùng mục tiêu hiệu năng làm kết quả đo.	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	1	0	0	Chưa bắt đầu	7		Sprint 4 Backlog~~
+
+~~Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	S4-G09	4	Tích hợp và nghiệm thu Sprint 4	Graph chỉ chứa và trả quan hệ đã xác minh trong phạm vi.~~
+
+~~Nhóm duyệt đầu ra hoặc ghi rõ điều kiện chưa đạt.	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	1	0	0	Chưa bắt đầu	6		Sprint 4 Backlog~~
+
+~~Tổng task	196		Bàn giao dự kiến	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)						~~
+
+~~Độ hoàn thành	0.49489795918367346		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~Nhóm duyệt đầu ra hoặc ghi rõ điều kiện chưa đạt.	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	1	0	0	Chưa bắt đầu	Khoảng 22 giờ cho tích hợp, review và sửa lỗi.~~
+
 ## 2026-10-26 19:42 - SUA NOI DUNG
 
 - **Người đăng:** minhquan9125@gmail.com
