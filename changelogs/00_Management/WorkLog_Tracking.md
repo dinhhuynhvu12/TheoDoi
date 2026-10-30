@@ -1,5 +1,37 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-10-30 12:27 - SUA NOI DUNG
+
+- **Người đăng:** dunhvu47@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-30 12:27
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **4. Bàn giao quan hệ ứng viên có đoạn nguồn; thử ca nhiều chức vụ, nhiều công ty, thiếu thời gian và nguồn mâu thuẫn.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Quan hệ chức vụ đủ người, tổ chức, chức danh và provenance; không nhầm trạng thái hoặc thời gian; ca chưa rõ được đánh dấu.	Tuần 1. Phụ thuộc / làm trước: WBS01; dùng WBS02 thật để nghiệm thu. Có thể làm bằng fixture song song WBS03/WBS05 và phần lưu metadata WBS...**
+
+🟢 **4. Kiểm tra quyền đọc/ghi thực tế của ứng dụng. Thử migration trên môi trường được phép và lưu bằng chứng; chưa gắn graph chưa hoàn tất vào corpus đang dùng.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Repository/migration được kiểm tra; metadata truy lại được nguồn; có giới hạn quyền và kiểm tra chống trùng/phiên bản. Không coi đã bật RLS là đủ nghiệm thu.	Tuần 1. Phụ thuộc / làm trước: WBS01 và trạng thái WBS06 (có thể...**
+
+🟢 **	Sprint 4	S4-WBS04	S4-G02	1	Trích xuất quan hệ chức vụ	Đinh Huỳnh Vũ	Cần xác nhận	6		Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Xác định người–chức vụ–doanh nghiệp; giữ tên chức vụ gốc và ánh xạ tên chuẩn theo contract.**
+
+🟢 **	Sprint 4	S4-WBS07	S4-G02	1	Quản lý metadata và phiên graph trên Supabase	Đinh Huỳnh Vũ	Đang làm	7		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	1. Đối chiếu schema thật, chuẩn bị migration bổ sung liên kết extraction với thực thể, chunk/locator và graph version; chỉ bổ sung phần thiếu.**
+
+🟢 **Chọn một edge truy ra được nguồn gốc và phiên bản của nó.	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	7	0	0	Cần xác nhận	52		Sprint 4 Backlog**
+
+🟢 **Chọn một edge truy ra được nguồn gốc và phiên bản của nó.	Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	7	0	0	Cần xác nhận	Ngày và phân công là kế hoạch đề xuất.**
+
+~~4. Bàn giao quan hệ ứng viên có đoạn nguồn; thử ca nhiều chức vụ, nhiều công ty, thiếu thời gian và nguồn mâu thuẫn.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Quan hệ chức vụ đủ người, tổ chức, chức danh và provenance; không nhầm trạng thái hoặc thời gian; ca chưa rõ được đánh dấu.	Tuần 1. Phụ thuộc / làm trước: WBS01; dùng WBS02 thật để nghiệm thu. Có thể làm bằng fixture song song WBS03/WBS05 và phần lưu metadata WBS...~~
+
+~~4. Kiểm tra quyền đọc/ghi thực tế của ứng dụng. Thử migration trên môi trường được phép và lưu bằng chứng; chưa gắn graph chưa hoàn tất vào corpus đang dùng.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Repository/migration được kiểm tra; metadata truy lại được nguồn; có giới hạn quyền và kiểm tra chống trùng/phiên bản. Không coi đã bật RLS là đủ nghiệm thu.	Tuần 1. Phụ thuộc / làm trước: WBS01 và trạng thái WBS06 (có thể...~~
+
+~~	Sprint 4	S4-WBS04	S4-G02	1	Trích xuất quan hệ chức vụ	Đinh Huỳnh Vũ	Chưa bắt đầu	6		Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Xác định người–chức vụ–doanh nghiệp; giữ tên chức vụ gốc và ánh xạ tên chuẩn theo contract.~~
+
+~~	Sprint 4	S4-WBS07	S4-G02	1	Quản lý metadata và phiên graph trên Supabase	Đinh Huỳnh Vũ	Chưa bắt đầu	7		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	1. Đối chiếu schema thật, chuẩn bị migration bổ sung liên kết extraction với thực thể, chunk/locator và graph version; chỉ bổ sung phần thiếu.~~
+
+~~Chọn một edge truy ra được nguồn gốc và phiên bản của nó.	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	7	0	0	Đang làm	52		Sprint 4 Backlog~~
+
+~~Chọn một edge truy ra được nguồn gốc và phiên bản của nó.	Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	7	0	0	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-30 09:17 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
