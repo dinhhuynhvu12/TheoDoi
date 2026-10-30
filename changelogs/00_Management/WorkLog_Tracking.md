@@ -1,5 +1,105 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-10-30 09:12 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-30 09:12
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **								3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	150	37	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **	S3-WBS13	Dựng B1 retrieval orchestration bằng fixture	B1 Vector RAG	Bước 1: Nối phần hiểu câu hỏi với mẫu kết quả tìm kiếm và gói bằng chứng đã thống nhất. Bước 2: Cho B1 chạy thử với dữ liệu mẫu để kiểm tra đường đi từ câu hỏi đến danh sách nguồn. Bước 3: Xử lý riêng trường hợp không tìm thấy nguồn, kết quả rỗng hoặc hết thời gian; chưa phải đợi dữ liệu vector thật.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	B1 trên fixture trả schema đúng, không tạo câu trả lời ...**
+
+🟢 **	S3-WBS18	Xử lý B1 khi câu hỏi hoặc nguồn mơ hồ	B1 Vector RAG	Bước 1: Dùng câu hỏi thiếu công ty/kỳ/chỉ tiêu để thử B1. Bước 2: Viết câu trả lời yêu cầu người dùng làm rõ thay vì đoán. Bước 3: Với câu hỏi đủ thông tin nhưng không có nguồn phù hợp, cho hệ thống nói chưa đủ bằng chứng và không tự tạo số liệu.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Ca thiếu công ty/kỳ hoặc không có nguồn không bị bịa câu trả lời.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quâ...**
+
+🟢 **	S3-WBS31	Áp giới hạn token timeout và budget	B1 Vector RAG	Bước 1: Chốt trần số token, thời gian và chi phí cho một lần trả lời, đưa các mức này vào cấu hình có phiên bản. Bước 2: Trước và trong lúc gọi Gemini, kiểm tra còn trong giới hạn hay không. Bước 3: Nếu vượt giới hạn, dừng và ghi lý do rõ ràng; thử để chắc không phát sinh cuộc gọi ngoài ngân sách.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Ca vượt trần bị chặn và có trace; cấu hình được phiên bản hóa.	Kế h...**
+
+🟢 **	S3-WBS35	Chạy B1 trên Golden40 đã khóa	B1 Vector RAG	Bước 1: Chỉ sau khi Huyền thông báo Golden40 đã khóa, chạy B1 trên đúng 40 câu với cùng phiên bản tài liệu, mô hình, prompt và cấu hình. Bước 2: Lưu cho từng câu: câu trả lời, nguồn đã dùng, thời gian, token và lỗi. Bước 3: Nếu thiếu kết quả/dấu vết, đánh dấu lần chạy chưa đủ, không công bố điểm tổng hợp.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Có trace từng ca; partial run được dán nhãn, không công bố aggreg...**
+
+🟢 **4. Tạo fixture hợp lệ, thiếu metadata và mơ hồ cho ba nhóm quan hệ và ba tuyến VECTOR/GRAPH/BOTH; bàn giao contract ngay 26/10 để các nhánh làm song song.	Định danh thực thể thống nhất, có đầu vào và contract cho các nhánh làm song song.	Có manifest đầu vào, contract và fixture được team thống nhất. Không làm lại chunking. Giữ contract và bộ ca B1 hiện có để đối chứng.	Tuần 1. Phụ thuộc / làm trước: Đầu vào: chunk, metadata nguồn, corpus và giao diện/Vector RAG Sprint 3. Không chờ graph thật. Đầ...**
+
+🟢 **4. Kiểm tra cùng đầu vào không tạo ID trùng hoặc thay đổi tùy ý; bàn giao interface/fixture sớm rồi nối bộ chuẩn hóa thật trước 29/10.	Định danh thực thể thống nhất, có đầu vào và contract cho các nhánh làm song song.	Thực thể có ID và alias nhất quán, có provenance; ca trùng tên không bị gộp sai; có test và bộ mẫu bàn giao.	Tuần 1. Phụ thuộc / làm trước: Phụ thuộc WBS01. WBS03–05 được dùng thực thể fixture trước; chỉ nghiệm thu bản nối thật sau WBS02. Không phụ thuộc Neo4j/Supabase.	Rất cao	Đã ...**
+
+🟢 **	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	37																						**
+
+🟢 **	Sprint 3	S3-WBS13	S3-G04	1	Dựng B1 retrieval orchestration bằng fixture	Thái Quốc Hưng	Đã hoàn thành	5	6	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nối phần hiểu câu hỏi với mẫu kết quả tìm kiếm và gói bằng chứng đã thống nhất. Bước 2: Cho B1 chạy thử với dữ liệu mẫu để kiểm tra đường đi từ câu hỏi đến danh sách nguồn. Bước 3: Xử lý riêng trường hợp không tìm thấy nguồn, kết quả rỗng hoặc hết thời gian; chưa phải đợi dữ liệu vec...**
+
+🟢 **	Sprint 3	S3-WBS18	S3-G04	1	Xử lý B1 khi câu hỏi hoặc nguồn mơ hồ	Thái Quốc Hưng	Đã hoàn thành	3	3	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng câu hỏi thiếu công ty/kỳ/chỉ tiêu để thử B1. Bước 2: Viết câu trả lời yêu cầu người dùng làm rõ thay vì đoán. Bước 3: Với câu hỏi đủ thông tin nhưng không có nguồn phù hợp, cho hệ thống nói chưa đủ bằng chứng và không tự tạo số liệu.	Ca thiếu công ty/kỳ hoặc không có nguồn không bị bịa...**
+
+🟢 **	Sprint 3	S3-WBS31	S3-G04	2	Áp giới hạn token timeout và budget	Thái Quốc Hưng	Đã hoàn thành	3		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chốt trần số token, thời gian và chi phí cho một lần trả lời, đưa các mức này vào cấu hình có phiên bản. Bước 2: Trước và trong lúc gọi Gemini, kiểm tra còn trong giới hạn hay không. Bước 3: Nếu vượt giới hạn, dừng và ghi lý do rõ ràng; thử để chắc không phát sinh cuộc gọi ngoài ngân sách.	Ca ...**
+
+🟢 **	Sprint 3	S3-WBS35	S3-G04	2	Chạy B1 trên Golden40 đã khóa	Thái Quốc Hưng	Đã hoàn thành	4		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chỉ sau khi Huyền thông báo Golden40 đã khóa, chạy B1 trên đúng 40 câu với cùng phiên bản tài liệu, mô hình, prompt và cấu hình. Bước 2: Lưu cho từng câu: câu trả lời, nguồn đã dùng, thời gian, token và lỗi. Bước 3: Nếu thiếu kết quả/dấu vết, đánh dấu lần chạy chưa đủ, không công bố điểm tổng hợp.	C...**
+
+🟢 **					Tổng giờ các task			150	37																			**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				31						5	9	6	3	3	1	0	4	0	0	0	0	0	0**
+
+🟢 **	Sprint 4	S4-WBS01	S4-G01	1	Chốt dữ liệu, schema và contract Graph RAG	Thái Quốc Hưng	Đã hoàn thành	5		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	1. Chốt danh sách tài liệu và toàn bộ News đã duyệt trong corpus; ghi ID, nguồn và số lượng, không tự mở rộng nguồn trong sprint.**
+
+🟢 **	Sprint 4	S4-WBS02	S4-G01	1	Nhận diện và chuẩn hóa thực thể	Thái Quốc Hưng	Đã hoàn thành	8		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	1. Đọc chunk hiện có cùng metadata; tìm tên công ty, người và sự kiện, giữ tên nguyên văn và đoạn xuất hiện.**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	69	55	0.7971014492753623	342	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	8	1	Đã hoàn thành	30	16	Sprint 3 Backlog**
+
+🟢 **Nạp lặp không tạo node trùng; ID sai bị chặn.	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	2	2	1	Đã hoàn thành	13		Sprint 4 Backlog**
+
+🟢 **Task đã hoàn thành	101		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.517948717948718		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	8	1	Đã hoàn thành	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **Nạp lặp không tạo node trùng; ID sai bị chặn.	Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	2	2	1	Đã hoàn thành	Ngày và phân công là kế hoạch đề xuất.**
+
+~~								3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	150	28	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~	S3-WBS13	Dựng B1 retrieval orchestration bằng fixture	B1 Vector RAG	Bước 1: Nối phần hiểu câu hỏi với mẫu kết quả tìm kiếm và gói bằng chứng đã thống nhất. Bước 2: Cho B1 chạy thử với dữ liệu mẫu để kiểm tra đường đi từ câu hỏi đến danh sách nguồn. Bước 3: Xử lý riêng trường hợp không tìm thấy nguồn, kết quả rỗng hoặc hết thời gian; chưa phải đợi dữ liệu vector thật.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	B1 trên fixture trả schema đúng, không tạo câu trả lời ...~~
+
+~~	S3-WBS18	Xử lý B1 khi câu hỏi hoặc nguồn mơ hồ	B1 Vector RAG	Bước 1: Dùng câu hỏi thiếu công ty/kỳ/chỉ tiêu để thử B1. Bước 2: Viết câu trả lời yêu cầu người dùng làm rõ thay vì đoán. Bước 3: Với câu hỏi đủ thông tin nhưng không có nguồn phù hợp, cho hệ thống nói chưa đủ bằng chứng và không tự tạo số liệu.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Ca thiếu công ty/kỳ hoặc không có nguồn không bị bịa câu trả lời.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quâ...~~
+
+~~	S3-WBS31	Áp giới hạn token timeout và budget	B1 Vector RAG	Bước 1: Chốt trần số token, thời gian và chi phí cho một lần trả lời, đưa các mức này vào cấu hình có phiên bản. Bước 2: Trước và trong lúc gọi Gemini, kiểm tra còn trong giới hạn hay không. Bước 3: Nếu vượt giới hạn, dừng và ghi lý do rõ ràng; thử để chắc không phát sinh cuộc gọi ngoài ngân sách.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Ca vượt trần bị chặn và có trace; cấu hình được phiên bản hóa.	Kế h...~~
+
+~~	S3-WBS35	Chạy B1 trên Golden40 đã khóa	B1 Vector RAG	Bước 1: Chỉ sau khi Huyền thông báo Golden40 đã khóa, chạy B1 trên đúng 40 câu với cùng phiên bản tài liệu, mô hình, prompt và cấu hình. Bước 2: Lưu cho từng câu: câu trả lời, nguồn đã dùng, thời gian, token và lỗi. Bước 3: Nếu thiếu kết quả/dấu vết, đánh dấu lần chạy chưa đủ, không công bố điểm tổng hợp.	B1 nhận câu hỏi, tìm bằng chứng vector và trả lời có nguồn theo manifest.	Có trace từng ca; partial run được dán nhãn, không công bố aggreg...~~
+
+~~4. Tạo fixture hợp lệ, thiếu metadata và mơ hồ cho ba nhóm quan hệ và ba tuyến VECTOR/GRAPH/BOTH; bàn giao contract ngay 26/10 để các nhánh làm song song.	Định danh thực thể thống nhất, có đầu vào và contract cho các nhánh làm song song.	Có manifest đầu vào, contract và fixture được team thống nhất. Không làm lại chunking. Giữ contract và bộ ca B1 hiện có để đối chứng.	Tuần 1. Phụ thuộc / làm trước: Đầu vào: chunk, metadata nguồn, corpus và giao diện/Vector RAG Sprint 3. Không chờ graph thật. Đầ...~~
+
+~~4. Kiểm tra cùng đầu vào không tạo ID trùng hoặc thay đổi tùy ý; bàn giao interface/fixture sớm rồi nối bộ chuẩn hóa thật trước 29/10.	Định danh thực thể thống nhất, có đầu vào và contract cho các nhánh làm song song.	Thực thể có ID và alias nhất quán, có provenance; ca trùng tên không bị gộp sai; có test và bộ mẫu bàn giao.	Tuần 1. Phụ thuộc / làm trước: Phụ thuộc WBS01. WBS03–05 được dùng thực thể fixture trước; chỉ nghiệm thu bản nối thật sau WBS02. Không phụ thuộc Neo4j/Supabase.	Rất cao	Đan...~~
+
+~~	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	28																						~~
+
+~~	Sprint 3	S3-WBS13	S3-G04	1	Dựng B1 retrieval orchestration bằng fixture	Thái Quốc Hưng	Đã hoàn thành	5		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nối phần hiểu câu hỏi với mẫu kết quả tìm kiếm và gói bằng chứng đã thống nhất. Bước 2: Cho B1 chạy thử với dữ liệu mẫu để kiểm tra đường đi từ câu hỏi đến danh sách nguồn. Bước 3: Xử lý riêng trường hợp không tìm thấy nguồn, kết quả rỗng hoặc hết thời gian; chưa phải đợi dữ liệu vect...~~
+
+~~	Sprint 3	S3-WBS18	S3-G04	1	Xử lý B1 khi câu hỏi hoặc nguồn mơ hồ	Thái Quốc Hưng	Đã hoàn thành	3		Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng câu hỏi thiếu công ty/kỳ/chỉ tiêu để thử B1. Bước 2: Viết câu trả lời yêu cầu người dùng làm rõ thay vì đoán. Bước 3: Với câu hỏi đủ thông tin nhưng không có nguồn phù hợp, cho hệ thống nói chưa đủ bằng chứng và không tự tạo số liệu.	Ca thiếu công ty/kỳ hoặc không có nguồn không bị bịa ...~~
+
+~~	Sprint 3	S3-WBS31	S3-G04	2	Áp giới hạn token timeout và budget	Thái Quốc Hưng	Đang làm	3		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chốt trần số token, thời gian và chi phí cho một lần trả lời, đưa các mức này vào cấu hình có phiên bản. Bước 2: Trước và trong lúc gọi Gemini, kiểm tra còn trong giới hạn hay không. Bước 3: Nếu vượt giới hạn, dừng và ghi lý do rõ ràng; thử để chắc không phát sinh cuộc gọi ngoài ngân sách.	Ca vượt ...~~
+
+~~	Sprint 3	S3-WBS35	S3-G04	2	Chạy B1 trên Golden40 đã khóa	Thái Quốc Hưng	Chưa bắt đầu	4		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chỉ sau khi Huyền thông báo Golden40 đã khóa, chạy B1 trên đúng 40 câu với cùng phiên bản tài liệu, mô hình, prompt và cấu hình. Bước 2: Lưu cho từng câu: câu trả lời, nguồn đã dùng, thời gian, token và lỗi. Bước 3: Nếu thiếu kết quả/dấu vết, đánh dấu lần chạy chưa đủ, không công bố điểm tổng hợp.	Có...~~
+
+~~					Tổng giờ các task			150	28																			~~
+
+~~					Giờ thực tế theo ngày (tự tính)				22						5	9	4	0	0	0	0	4	0	0	0	0	0	0~~
+
+~~	Sprint 4	S4-WBS01	S4-G01	1	Chốt dữ liệu, schema và contract Graph RAG	Thái Quốc Hưng	Đang làm	5		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	1. Chốt danh sách tài liệu và toàn bộ News đã duyệt trong corpus; ghi ID, nguồn và số lượng, không tự mở rộng nguồn trong sprint.~~
+
+~~	Sprint 4	S4-WBS02	S4-G01	1	Nhận diện và chuẩn hóa thực thể	Thái Quốc Hưng	Đang làm	8		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	1. Đọc chunk hiện có cùng metadata; tìm tên công ty, người và sự kiện, giữ tên nguyên văn và đoạn xuất hiện.~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	69	51	0.7391304347826086	342	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	6	0.75	Đang làm	30	7	Sprint 3 Backlog~~
+
+~~Nạp lặp không tạo node trùng; ID sai bị chặn.	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Đang làm	13		Sprint 4 Backlog~~
+
+~~Task đã hoàn thành	97		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.49743589743589745		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~Gói bằng chứng có ID ổn định và không mất metadata bắt buộc.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	8	6	0.75	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~Nạp lặp không tạo node trùng; ID sai bị chặn.	Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-10-28 10:37 - SUA NOI DUNG
 
 - **Người đăng:** minhquan9125@gmail.com
