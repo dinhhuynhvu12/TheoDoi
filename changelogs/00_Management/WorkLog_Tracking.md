@@ -1,5 +1,21 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-10-30 13:37 - SUA NOI DUNG
+
+- **Người đăng:** dunhvu47@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-10-30 13:37
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **4. Kiểm tra quyền đọc/ghi thực tế của ứng dụng. Thử migration trên môi trường được phép và lưu bằng chứng; chưa gắn graph chưa hoàn tất vào corpus đang dùng.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Repository/migration được kiểm tra; metadata truy lại được nguồn; có giới hạn quyền và kiểm tra chống trùng/phiên bản. Không coi đã bật RLS là đủ nghiệm thu.	Tuần 1. Phụ thuộc / làm trước: WBS01 và trạng thái WBS06 (có thể...**
+
+🟢 **	Sprint 4	S4-WBS07	S4-G02	1	Quản lý metadata và phiên graph trên Supabase	Đinh Huỳnh Vũ	Cần xác nhận	7		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	1. Đối chiếu schema thật, chuẩn bị migration bổ sung liên kết extraction với thực thể, chunk/locator và graph version; chỉ bổ sung phần thiếu.**
+
+~~4. Kiểm tra quyền đọc/ghi thực tế của ứng dụng. Thử migration trên môi trường được phép và lưu bằng chứng; chưa gắn graph chưa hoàn tất vào corpus đang dùng.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Repository/migration được kiểm tra; metadata truy lại được nguồn; có giới hạn quyền và kiểm tra chống trùng/phiên bản. Không coi đã bật RLS là đủ nghiệm thu.	Tuần 1. Phụ thuộc / làm trước: WBS01 và trạng thái WBS06 (có thể...~~
+
+~~	Sprint 4	S4-WBS07	S4-G02	1	Quản lý metadata và phiên graph trên Supabase	Đinh Huỳnh Vũ	Đang làm	7		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	1. Đối chiếu schema thật, chuẩn bị migration bổ sung liên kết extraction với thực thể, chunk/locator và graph version; chỉ bổ sung phần thiếu.~~
+
 ## 2026-10-30 12:32 - SUA NOI DUNG
 
 - **Người đăng:** dunhvu47@gmail.com
