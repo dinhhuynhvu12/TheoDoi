@@ -1,5 +1,29 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-02 08:57 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-02 08:57
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **5. 09.5 Chạy mẫu thật đủ ba loại quan hệ, thử nạp lại/lỗi; bàn giao graph retrieval và receipt mẫu đạt trước khi Vũ chạy toàn bộ News.	Các extractor nối chung với Supabase/Neo4j và trả quan hệ đúng phạm vi trong tối đa hai hop.	Có đường chạy thật chunk → extractor → kiểm duyệt → Supabase/Neo4j → retrieval có nguồn; không trùng/lẫn phiên, không dùng quan hệ chưa duyệt. Có receipt mẫu sẵn sàng full-load.	Tuần 2. Phụ thuộc / làm trước: Nghiệm thu cần WBS02–08. Có thể chuẩn bị điều phối/query từ fix...**
+
+🟢 **	Sprint 4	S4-WBS09	S4-G03	2	Tích hợp các nhánh trích xuất và hoàn thiện graph retrieval	Thái Quốc Hưng	Đang làm	14		Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	1. 09.1 Nối đầu ra extractor doanh nghiệp, chức vụ và sự kiện vào pipeline chung; kiểm tra cùng contract.**
+
+🟢 **Nhánh graph lỗi không làm mất nhật ký hoặc giả lập kết quả.	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Đang làm	19		Sprint 4 Backlog**
+
+🟢 **Nhánh graph lỗi không làm mất nhật ký hoặc giả lập kết quả.	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~5. 09.5 Chạy mẫu thật đủ ba loại quan hệ, thử nạp lại/lỗi; bàn giao graph retrieval và receipt mẫu đạt trước khi Vũ chạy toàn bộ News.	Các extractor nối chung với Supabase/Neo4j và trả quan hệ đúng phạm vi trong tối đa hai hop.	Có đường chạy thật chunk → extractor → kiểm duyệt → Supabase/Neo4j → retrieval có nguồn; không trùng/lẫn phiên, không dùng quan hệ chưa duyệt. Có receipt mẫu sẵn sàng full-load.	Tuần 2. Phụ thuộc / làm trước: Nghiệm thu cần WBS02–08. Có thể chuẩn bị điều phối/query từ fix...~~
+
+~~	Sprint 4	S4-WBS09	S4-G03	2	Tích hợp các nhánh trích xuất và hoàn thiện graph retrieval	Thái Quốc Hưng	Chưa bắt đầu	14		Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	1. 09.1 Nối đầu ra extractor doanh nghiệp, chức vụ và sự kiện vào pipeline chung; kiểm tra cùng contract.~~
+
+~~Nhánh graph lỗi không làm mất nhật ký hoặc giả lập kết quả.	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	19		Sprint 4 Backlog~~
+
+~~Nhánh graph lỗi không làm mất nhật ký hoặc giả lập kết quả.	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-11-01 17:47 - SUA NOI DUNG
 
 - **Người đăng:** dieuhuyentran1010@gmail.com
