@@ -1,5 +1,29 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-02 13:37 - SUA NOI DUNG
+
+- **Người đăng:** hophamdangnhandz123@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-02 13:37
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **4. Dùng ID WBS02 để xuất đúng contract; kiểm tra mẫu hợp lệ, sai chiều, thiếu chủ thể và hai tên chỉ xuất hiện cùng đoạn.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Có quan hệ doanh nghiệp ứng viên kèm nguồn, trạng thái và thời gian nếu có; test không tạo quan hệ chỉ từ đồng xuất hiện.	Tuần 1. Phụ thuộc / làm trước: Contract WBS01; chuẩn hóa thật WBS02 để đóng task. Có thể code bằng entity fixture từ 27/10, không phải đ...**
+
+🟢 **4. Xử lý lỗi nạp dở, chuẩn bị resume và đối chiếu số liệu/khóa giữa hai hệ thống. Nghiệm thu phần ghi bằng fixture ở tuần 1; WBS09 nối extraction thật tuần 2.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Bộ ghi graph có test chống trùng, không lẫn phiên, giữ extraction/nguồn và không công bố lần nạp dở. Có graph fixture dùng cho truy vấn.	Tuần 1. Phụ thuộc / làm trước: WBS01; thống nhất metadata/version với WBS07. Không p...**
+
+🟢 **	Sprint 4	S4-WBS03	S4-G02	1	Trích xuất sự kiện và quan hệ giữa các doang nghiệp	Hồ Phạm Đăng Nhân	Cần xác nhận	6		Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Từ chunk thật, lấy phát biểu về công ty con, liên kết, sở hữu và hợp tác; xác định hai thực thể và chiều quan hệ.**
+
+🟢 **	Sprint 4	S4-WBS08	S4-G02	1	Lưu graph trên Neo4j và chuẩn bị đối chiếu nguồn	Hồ Phạm Đăng Nhân	Cần xác nhận	7		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Tái sử dụng phần phù hợp của GraphStore; thêm constraint/index cho Company, Person, Event và quan hệ có phiên bản.**
+
+~~4. Dùng ID WBS02 để xuất đúng contract; kiểm tra mẫu hợp lệ, sai chiều, thiếu chủ thể và hai tên chỉ xuất hiện cùng đoạn.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Có quan hệ doanh nghiệp ứng viên kèm nguồn, trạng thái và thời gian nếu có; test không tạo quan hệ chỉ từ đồng xuất hiện.	Tuần 1. Phụ thuộc / làm trước: Contract WBS01; chuẩn hóa thật WBS02 để đóng task. Có thể code bằng entity fixture từ 27/10, không phải đ...~~
+
+~~4. Xử lý lỗi nạp dở, chuẩn bị resume và đối chiếu số liệu/khóa giữa hai hệ thống. Nghiệm thu phần ghi bằng fixture ở tuần 1; WBS09 nối extraction thật tuần 2.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Bộ ghi graph có test chống trùng, không lẫn phiên, giữ extraction/nguồn và không công bố lần nạp dở. Có graph fixture dùng cho truy vấn.	Tuần 1. Phụ thuộc / làm trước: WBS01; thống nhất metadata/version với WBS07. Không p...~~
+
+~~	Sprint 4	S4-WBS03	S4-G02	1	Trích xuất sự kiện và quan hệ giữa các doang nghiệp	Hồ Phạm Đăng Nhân	Chưa bắt đầu	6		Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Từ chunk thật, lấy phát biểu về công ty con, liên kết, sở hữu và hợp tác; xác định hai thực thể và chiều quan hệ.~~
+
+~~	Sprint 4	S4-WBS08	S4-G02	1	Lưu graph trên Neo4j và chuẩn bị đối chiếu nguồn	Hồ Phạm Đăng Nhân	Chưa bắt đầu	7		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Tái sử dụng phần phù hợp của GraphStore; thêm constraint/index cho Company, Person, Event và quan hệ có phiên bản.~~
+
 ## 2026-11-02 13:32 - SUA NOI DUNG
 
 - **Người đăng:** dunhvu47@gmail.com
