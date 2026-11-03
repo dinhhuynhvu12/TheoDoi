@@ -1,5 +1,41 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-03 16:37 - SUA NOI DUNG
+
+- **Người đăng:** dieuhuyentran1010@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-03 16:37
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **4. Thử fixture từ 26/10, rồi thử đầu ra thật của ba extractor khi sẵn sàng. Chỉ kết quả được chấp nhận đủ điều kiện đưa vào graph trả lời.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Ba nhóm quan hệ có kết quả kiểm tra và lý do; ca mơ hồ/mâu thuẫn đi chờ duyệt; ca thiếu nguồn bị chặn; có test.	Tuần 1. Phụ thuộc / làm trước: WBS01 để code ngay. Cần mẫu thật WBS03–05 để nghiệm thu từng loại. WBS07 lưu trạng thái; không chờ...**
+
+🟢 **	Sprint 4	S4-WBS06	S4-G02	1	Kiểm tra bằng chứng, kiểm duyệt và quarantine	Trần Diệu Huyền	Đã hoàn thành	6		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Xây quy tắc kiểm tra thực thể, chiều quan hệ, loại quan hệ, trường bắt buộc và đoạn nguồn có chứng minh kết luận hay không.**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	69	57	0.8260869565217391	342	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Chọn một edge truy ra được nguồn gốc và phiên bản của nó.	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	7	1	0.14285714285714285	Cần xác nhận	52		Sprint 4 Backlog**
+
+🟢 **Task đã hoàn thành	103		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.5282051282051282		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **Chọn một edge truy ra được nguồn gốc và phiên bản của nó.	Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	7	1	0.14285714285714285	Cần xác nhận	Ngày và phân công là kế hoạch đề xuất.**
+
+~~4. Thử fixture từ 26/10, rồi thử đầu ra thật của ba extractor khi sẵn sàng. Chỉ kết quả được chấp nhận đủ điều kiện đưa vào graph trả lời.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Ba nhóm quan hệ có kết quả kiểm tra và lý do; ca mơ hồ/mâu thuẫn đi chờ duyệt; ca thiếu nguồn bị chặn; có test.	Tuần 1. Phụ thuộc / làm trước: WBS01 để code ngay. Cần mẫu thật WBS03–05 để nghiệm thu từng loại. WBS07 lưu trạng thái; không chờ...~~
+
+~~	Sprint 4	S4-WBS06	S4-G02	1	Kiểm tra bằng chứng, kiểm duyệt và quarantine	Trần Diệu Huyền	Đang làm	6		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Xây quy tắc kiểm tra thực thể, chiều quan hệ, loại quan hệ, trường bắt buộc và đoạn nguồn có chứng minh kết luận hay không.~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	69	56	0.8115942028985508	342	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Chọn một edge truy ra được nguồn gốc và phiên bản của nó.	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	7	0	0	Cần xác nhận	52		Sprint 4 Backlog~~
+
+~~Task đã hoàn thành	102		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.5230769230769231		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~Chọn một edge truy ra được nguồn gốc và phiên bản của nó.	Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	7	0	0	Cần xác nhận	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-11-03 15:17 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
