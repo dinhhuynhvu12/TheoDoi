@@ -1,5 +1,29 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-04 09:07 - SUA NOI DUNG
+
+- **Người đăng:** dieuhuyentran1010@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-04 09:07
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **5. Dùng fixture đầu tuần để dựng/test UI, chuyển sang API thật khi WBS09/WBS12 sẵn sàng.	Chat/Graph Viewer trình bày đúng bằng chứng, thời gian và giới hạn của kết quả.	Graph Viewer dùng dữ liệu thật, mở đúng nguồn của quan hệ; có kiểm tra rỗng/lỗi/responsive và phiên dữ liệu.	Tuần 2. Phụ thuộc / làm trước: Contract/API WBS01 và WBS09; nếu dùng chung adapter chat thì WBS12. Không cần chờ BOTH hoặc phần tạo câu trả lời.	Cao	Đang làm	S4-G06	FinMind	4	6		Trần Diệu Huyền	Mon Nov 02 2026 07:00:00 GMT...**
+
+🟢 **	Sprint 4	S4-WBS15	S4-G06	2	Nối Graph Viewer và xem bằng chứng thật	Trần Diệu Huyền	Đang làm	6		Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	1. Tái sử dụng Graph Viewer; nối API theo contract để hiển thị Company, Person, Event và quan hệ.**
+
+🟢 **Có danh sách ca và bằng chứng, không chỉ báo một điểm trung bình.	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Đang làm	12		Sprint 4 Backlog**
+
+🟢 **Có danh sách ca và bằng chứng, không chỉ báo một điểm trung bình.	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~5. Dùng fixture đầu tuần để dựng/test UI, chuyển sang API thật khi WBS09/WBS12 sẵn sàng.	Chat/Graph Viewer trình bày đúng bằng chứng, thời gian và giới hạn của kết quả.	Graph Viewer dùng dữ liệu thật, mở đúng nguồn của quan hệ; có kiểm tra rỗng/lỗi/responsive và phiên dữ liệu.	Tuần 2. Phụ thuộc / làm trước: Contract/API WBS01 và WBS09; nếu dùng chung adapter chat thì WBS12. Không cần chờ BOTH hoặc phần tạo câu trả lời.	Cao	Chưa bắt đầu	S4-G06	FinMind	4	6		Trần Diệu Huyền	Mon Nov 02 2026 07:00:00...~~
+
+~~	Sprint 4	S4-WBS15	S4-G06	2	Nối Graph Viewer và xem bằng chứng thật	Trần Diệu Huyền	Chưa bắt đầu	6		Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	1. Tái sử dụng Graph Viewer; nối API theo contract để hiển thị Company, Person, Event và quan hệ.~~
+
+~~Có danh sách ca và bằng chứng, không chỉ báo một điểm trung bình.	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	12		Sprint 4 Backlog~~
+
+~~Có danh sách ca và bằng chứng, không chỉ báo một điểm trung bình.	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-11-03 22:22 - SUA NOI DUNG
 
 - **Người đăng:** dunhvu47@gmail.com
