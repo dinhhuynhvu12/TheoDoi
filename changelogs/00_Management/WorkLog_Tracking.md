@@ -1,5 +1,29 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-06 14:17 - SUA NOI DUNG
+
+- **Người đăng:** hophamdangnhandz123@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-06 14:17
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **4. Chuẩn bị adapter bằng fixture từ đầu tuần, nối retrieval thật sau khi WBS09 bàn giao; kiểm tra không lộ quan hệ chờ duyệt.	Các extractor nối chung với Supabase/Neo4j và trả quan hệ đúng phạm vi trong tối đa hai hop.	GRAPH chạy bằng graph thật đúng scope, có nguồn và lỗi rõ; đọc lại nguồn bằng ID không bị gắn nhãn BOTH.	Tuần 2. Phụ thuộc / làm trước: Contract WBS10; WBS09 thật để đóng task. Có thể code adapter bằng fixture trước, không đứng chờ pipeline ghép xong.	Cao	Đang test	S4-G03	FinMind	...**
+
+🟢 **	Sprint 4	S4-WBS12	S4-G03	2	Nối nhánh Graph RAG vào Hybrid Router	Hồ Phạm Đăng Nhân	Đang test	5		Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	1. Chuyển intent/slots của WBS10 sang tham số truy vấn WBS09; không sinh Cypher tùy ý từ câu hỏi.**
+
+🟢 **Nhánh graph lỗi không làm mất nhật ký hoặc giả lập kết quả.	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	2	1	0.5	Đang test	19		Sprint 4 Backlog**
+
+🟢 **Nhánh graph lỗi không làm mất nhật ký hoặc giả lập kết quả.	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	2	1	0.5	Đang test	Ngày và phân công là kế hoạch đề xuất.**
+
+~~4. Chuẩn bị adapter bằng fixture từ đầu tuần, nối retrieval thật sau khi WBS09 bàn giao; kiểm tra không lộ quan hệ chờ duyệt.	Các extractor nối chung với Supabase/Neo4j và trả quan hệ đúng phạm vi trong tối đa hai hop.	GRAPH chạy bằng graph thật đúng scope, có nguồn và lỗi rõ; đọc lại nguồn bằng ID không bị gắn nhãn BOTH.	Tuần 2. Phụ thuộc / làm trước: Contract WBS10; WBS09 thật để đóng task. Có thể code adapter bằng fixture trước, không đứng chờ pipeline ghép xong.	Cao	Chưa bắt đầu	S4-G03	FinMi...~~
+
+~~	Sprint 4	S4-WBS12	S4-G03	2	Nối nhánh Graph RAG vào Hybrid Router	Hồ Phạm Đăng Nhân	Chưa bắt đầu	5		Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	1. Chuyển intent/slots của WBS10 sang tham số truy vấn WBS09; không sinh Cypher tùy ý từ câu hỏi.~~
+
+~~Nhánh graph lỗi không làm mất nhật ký hoặc giả lập kết quả.	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	2	1	0.5	Đang làm	19		Sprint 4 Backlog~~
+
+~~Nhánh graph lỗi không làm mất nhật ký hoặc giả lập kết quả.	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	2	1	0.5	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-11-05 22:47 - SUA NOI DUNG
 
 - **Người đăng:** dieuhuyentran1010@gmail.com
