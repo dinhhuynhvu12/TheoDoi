@@ -1,5 +1,373 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-09 15:23 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-09 15:23
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **Burnup và Burndown dùng số task. Mốc hôm nay lấy trực tiếp trạng thái hiện tại từ backlog.							**
+
+🟢 **Burnup và Burndown dùng số task. Mốc hôm nay lấy trực tiếp trạng thái hiện tại từ backlog.							**
+
+🟢 **Burnup và Burndown dùng số task. Mốc hôm nay lấy trực tiếp trạng thái hiện tại từ backlog.							**
+
+🟢 **Burnup và Burndown dùng số task. Mốc hôm nay lấy trực tiếp trạng thái hiện tại từ backlog.							**
+
+🟢 **Burnup và Burndown dùng số task. Mốc hôm nay lấy trực tiếp trạng thái hiện tại từ backlog.							**
+
+🟢 **Burnup và Burndown dùng số task. Mốc hôm nay lấy trực tiếp trạng thái hiện tại từ backlog.							**
+
+🟢 **Điền Ngày hoàn thành thực tế trong backlog để dựng đường lịch sử. Nếu còn Done thiếu ngày, report hiện mốc hiện tại và để trống các điểm lịch sử chưa đủ dữ liệu.							**
+
+🟢 **Điền Ngày hoàn thành thực tế trong backlog để dựng đường lịch sử. Nếu còn Done thiếu ngày, report hiện mốc hiện tại và để trống các điểm lịch sử chưa đủ dữ liệu.							**
+
+🟢 **Điền Ngày hoàn thành thực tế trong backlog để dựng đường lịch sử. Nếu còn Done thiếu ngày, report hiện mốc hiện tại và để trống các điểm lịch sử chưa đủ dữ liệu.							**
+
+🟢 **Điền Ngày hoàn thành thực tế trong backlog để dựng đường lịch sử. Nếu còn Done thiếu ngày, report hiện mốc hiện tại và để trống các điểm lịch sử chưa đủ dữ liệu.							**
+
+🟢 **Điền Ngày hoàn thành thực tế trong backlog để dựng đường lịch sử. Nếu còn Done thiếu ngày, report hiện mốc hiện tại và để trống các điểm lịch sử chưa đủ dữ liệu.							**
+
+🟢 **Điền Ngày hoàn thành thực tế trong backlog để dựng đường lịch sử. Nếu còn Done thiếu ngày, report hiện mốc hiện tại và để trống các điểm lịch sử chưa đủ dữ liệu.							**
+
+🟢 **Mốc đầu là ngày trước sprint. Điểm sau ngày kết thúc là trạng thái quan sát hôm nay nếu còn task Done thiếu ngày hoặc có task hoàn thành muộn.							**
+
+🟢 **Mốc đầu là ngày trước sprint. Điểm sau ngày kết thúc là trạng thái quan sát hôm nay nếu còn task Done thiếu ngày hoặc có task hoàn thành muộn.							**
+
+🟢 **Mốc đầu là ngày trước sprint. Điểm sau ngày kết thúc là trạng thái quan sát hôm nay nếu còn task Done thiếu ngày hoặc có task hoàn thành muộn.							**
+
+🟢 **Mốc đầu là ngày trước sprint. Điểm sau ngày kết thúc là trạng thái quan sát hôm nay nếu còn task Done thiếu ngày hoặc có task hoàn thành muộn.							**
+
+🟢 **Mốc đầu là ngày trước sprint. Điểm sau ngày kết thúc là trạng thái quan sát hôm nay nếu còn task Done thiếu ngày hoặc có task hoàn thành muộn.							**
+
+🟢 **Mốc đầu là ngày trước sprint. Điểm sau ngày kết thúc là trạng thái quan sát hôm nay nếu còn task Done thiếu ngày hoặc có task hoàn thành muộn.							**
+
+🟢 **Ngày	Phạm vi (task)	Xong theo ngày có ghi	Xong lũy kế thực tế	Còn lại thực tế	Còn lại lý tưởng	Giờ thực tế/ngày	Giờ thực tế lũy kế**
+
+🟢 **Ngày	Phạm vi (task)	Xong theo ngày có ghi	Xong lũy kế thực tế	Còn lại thực tế	Còn lại lý tưởng	Giờ thực tế/ngày	Giờ thực tế lũy kế**
+
+🟢 **Ngày	Phạm vi (task)	Xong theo ngày có ghi	Xong lũy kế thực tế	Còn lại thực tế	Còn lại lý tưởng	Giờ thực tế/ngày	Giờ thực tế lũy kế**
+
+🟢 **Ngày	Phạm vi (task)	Xong theo ngày có ghi	Xong lũy kế thực tế	Còn lại thực tế	Còn lại lý tưởng	Giờ thực tế/ngày	Giờ thực tế lũy kế**
+
+🟢 **Ngày	Phạm vi (task)	Xong theo ngày có ghi	Xong lũy kế thực tế	Còn lại thực tế	Còn lại lý tưởng	Giờ thực tế/ngày	Giờ thực tế lũy kế**
+
+🟢 **Ngày	Phạm vi (task)	Xong theo ngày có ghi	Xong lũy kế thực tế	Còn lại thực tế	Còn lại lý tưởng	Giờ thực tế/ngày	Giờ thực tế lũy kế**
+
+🟢 **Wed Sep 09 2026 07:00:00 GMT+0700 (Indochina Time)	42				42		**
+
+🟢 **Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	42	0			39.67	6	6**
+
+🟢 **Fri Sep 11 2026 07:00:00 GMT+0700 (Indochina Time)	42	0			37.33	7	13**
+
+🟢 **Sat Sep 12 2026 07:00:00 GMT+0700 (Indochina Time)	42	0			35	1	14**
+
+🟢 **Sun Sep 13 2026 07:00:00 GMT+0700 (Indochina Time)	42	0			32.67		14**
+
+🟢 **Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	42	0			30.33	14	28**
+
+🟢 **Tue Sep 15 2026 07:00:00 GMT+0700 (Indochina Time)	42	0			28	12	40**
+
+🟢 **Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	42	0			25.67	15	55**
+
+🟢 **Thu Sep 17 2026 07:00:00 GMT+0700 (Indochina Time)	42	0			23.33	11	66**
+
+🟢 **Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	42	0			21	14	80**
+
+🟢 **Sat Sep 19 2026 07:00:00 GMT+0700 (Indochina Time)	42	0			18.67		80**
+
+🟢 **Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	42	0			16.33		80**
+
+🟢 **Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	42	0			14	15	95**
+
+🟢 **Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	42	0			11.67	15	110**
+
+🟢 **Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	42	0			9.33	13	123**
+
+🟢 **Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	42	0			7	15	138**
+
+🟢 **Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	42	0			4.67	16	154**
+
+🟢 **Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	42	0			2.33	3	157**
+
+🟢 **Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	42	0			0		157**
+
+🟢 **Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	42		42	0			**
+
+🟢 **Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	28				28		**
+
+🟢 **Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	28	0			26	7	7**
+
+🟢 **Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	28	0			24	12	19**
+
+🟢 **Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	28	0			22	13	32**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	28	0			20	13	45**
+
+🟢 **Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	28	0			18	11	56**
+
+🟢 **Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	28	0			16	6	62**
+
+🟢 **Sun Oct 04 2026 07:00:00 GMT+0700 (Indochina Time)	28	0			14		62**
+
+🟢 **Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	28	0			12	12	74**
+
+🟢 **Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	28	0			10	13	87**
+
+🟢 **Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	28	0			8	13	100**
+
+🟢 **Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	28	0			6	11	111**
+
+🟢 **Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	28	0			4	11	122**
+
+🟢 **Sat Oct 10 2026 07:00:00 GMT+0700 (Indochina Time)	28	0			2		122**
+
+🟢 **Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	28	0			0		122**
+
+🟢 **Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	28		28	0			**
+
+🟢 **Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	36				36		**
+
+🟢 **Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	36	0			33.43	5	5**
+
+🟢 **Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	36	0			30.86	9	14**
+
+🟢 **Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	36	0			28.29	6	20**
+
+🟢 **Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	36	0			25.71	3	23**
+
+🟢 **Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	36	0			23.14	3	26**
+
+🟢 **Sat Oct 17 2026 07:00:00 GMT+0700 (Indochina Time)	36	0			20.57	1	27**
+
+🟢 **Sun Oct 18 2026 07:00:00 GMT+0700 (Indochina Time)	36	0			18		27**
+
+🟢 **Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	36	0			15.43	7	34**
+
+🟢 **Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	36	0			12.86	3	37**
+
+🟢 **Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	36	0			10.29	3	40**
+
+🟢 **Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	36	0			7.71	3	43**
+
+🟢 **Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	36	0			5.14	3	46**
+
+🟢 **Sat Oct 24 2026 07:00:00 GMT+0700 (Indochina Time)	36	0			2.57		46**
+
+🟢 **Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	36	0			0		46**
+
+🟢 **Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	36		29	7			**
+
+🟢 **Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	17				17		**
+
+🟢 **Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	17	0			15.79		**
+
+🟢 **Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	17	0			14.57		**
+
+🟢 **Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	17	0			13.36		**
+
+🟢 **Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	17	0			12.14		**
+
+🟢 **Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	17	0			10.93		**
+
+🟢 **Sat Oct 31 2026 07:00:00 GMT+0700 (Indochina Time)	17	0			9.71		**
+
+🟢 **Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	17	0			8.5		**
+
+🟢 **Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	17	0			7.29		**
+
+🟢 **Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	17	0			6.07		**
+
+🟢 **Wed Nov 04 2026 07:00:00 GMT+0700 (Indochina Time)	17	0			4.86		**
+
+🟢 **Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	17	0			3.64		**
+
+🟢 **Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	17	0			2.43		**
+
+🟢 **Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	17	0			1.21		**
+
+🟢 **Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	17	0			0		**
+
+🟢 **Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	17		6	11			**
+
+~~Burnup tăng theo số task hoàn thành có ngày. Burndown giảm theo số task còn lại. Hai biểu đồ dùng số task.							~~
+
+~~Burnup tăng theo số task hoàn thành có ngày. Burndown giảm theo số task còn lại. Hai biểu đồ dùng số task.							~~
+
+~~Burnup tăng theo số task hoàn thành có ngày. Burndown giảm theo số task còn lại. Hai biểu đồ dùng số task.							~~
+
+~~Burnup tăng theo số task hoàn thành có ngày. Burndown giảm theo số task còn lại. Hai biểu đồ dùng số task.							~~
+
+~~Burnup tăng theo số task hoàn thành có ngày. Burndown giảm theo số task còn lại. Hai biểu đồ dùng số task.							~~
+
+~~Burnup tăng theo số task hoàn thành có ngày. Burndown giảm theo số task còn lại. Hai biểu đồ dùng số task.							~~
+
+~~Trong backlog, chọn Đã hoàn thành và nhập Ngày hoàn thành thực tế. Task thiếu ngày vẫn được đếm ở ô Done nhưng chưa vào đường Burnup.							~~
+
+~~Trong backlog, chọn Đã hoàn thành và nhập Ngày hoàn thành thực tế. Task thiếu ngày vẫn được đếm ở ô Done nhưng chưa vào đường Burnup.							~~
+
+~~Trong backlog, chọn Đã hoàn thành và nhập Ngày hoàn thành thực tế. Task thiếu ngày vẫn được đếm ở ô Done nhưng chưa vào đường Burnup.							~~
+
+~~Trong backlog, chọn Đã hoàn thành và nhập Ngày hoàn thành thực tế. Task thiếu ngày vẫn được đếm ở ô Done nhưng chưa vào đường Burnup.							~~
+
+~~Trong backlog, chọn Đã hoàn thành và nhập Ngày hoàn thành thực tế. Task thiếu ngày vẫn được đếm ở ô Done nhưng chưa vào đường Burnup.							~~
+
+~~Trong backlog, chọn Đã hoàn thành và nhập Ngày hoàn thành thực tế. Task thiếu ngày vẫn được đếm ở ô Done nhưng chưa vào đường Burnup.							~~
+
+~~Mốc đầu là ngày trước sprint. Phạm vi lấy từ backlog hiện tại. Khi còn task Done thiếu ngày, đường Burndown thực tế để trống.							~~
+
+~~Mốc đầu là ngày trước sprint. Phạm vi lấy từ backlog hiện tại. Khi còn task Done thiếu ngày, đường Burndown thực tế để trống.							~~
+
+~~Mốc đầu là ngày trước sprint. Phạm vi lấy từ backlog hiện tại. Khi còn task Done thiếu ngày, đường Burndown thực tế để trống.							~~
+
+~~Mốc đầu là ngày trước sprint. Phạm vi lấy từ backlog hiện tại. Khi còn task Done thiếu ngày, đường Burndown thực tế để trống.							~~
+
+~~Mốc đầu là ngày trước sprint. Phạm vi lấy từ backlog hiện tại. Khi còn task Done thiếu ngày, đường Burndown thực tế để trống.							~~
+
+~~Mốc đầu là ngày trước sprint. Phạm vi lấy từ backlog hiện tại. Khi còn task Done thiếu ngày, đường Burndown thực tế để trống.							~~
+
+~~Ngày	Phạm vi (task)	Xong trong ngày	Xong lũy kế có ngày	Còn lại thực tế	Còn lại lý tưởng	Giờ thực tế/ngày	Giờ thực tế lũy kế~~
+
+~~Ngày	Phạm vi (task)	Xong trong ngày	Xong lũy kế có ngày	Còn lại thực tế	Còn lại lý tưởng	Giờ thực tế/ngày	Giờ thực tế lũy kế~~
+
+~~Ngày	Phạm vi (task)	Xong trong ngày	Xong lũy kế có ngày	Còn lại thực tế	Còn lại lý tưởng	Giờ thực tế/ngày	Giờ thực tế lũy kế~~
+
+~~Ngày	Phạm vi (task)	Xong trong ngày	Xong lũy kế có ngày	Còn lại thực tế	Còn lại lý tưởng	Giờ thực tế/ngày	Giờ thực tế lũy kế~~
+
+~~Ngày	Phạm vi (task)	Xong trong ngày	Xong lũy kế có ngày	Còn lại thực tế	Còn lại lý tưởng	Giờ thực tế/ngày	Giờ thực tế lũy kế~~
+
+~~Ngày	Phạm vi (task)	Xong trong ngày	Xong lũy kế có ngày	Còn lại thực tế	Còn lại lý tưởng	Giờ thực tế/ngày	Giờ thực tế lũy kế~~
+
+~~Wed Sep 09 2026 07:00:00 GMT+0700 (Indochina Time)	42		0		42		~~
+
+~~Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		39.67	6	6~~
+
+~~Fri Sep 11 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		37.33	7	13~~
+
+~~Sat Sep 12 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		35	1	14~~
+
+~~Sun Sep 13 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		32.67		14~~
+
+~~Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		30.33	14	28~~
+
+~~Tue Sep 15 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		28	12	40~~
+
+~~Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		25.67	15	55~~
+
+~~Thu Sep 17 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		23.33	11	66~~
+
+~~Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		21	14	80~~
+
+~~Sat Sep 19 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		18.67		80~~
+
+~~Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		16.33		80~~
+
+~~Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		14	15	95~~
+
+~~Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		11.67	15	110~~
+
+~~Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		9.33	13	123~~
+
+~~Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		7	15	138~~
+
+~~Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		4.67	16	154~~
+
+~~Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		2.33	3	157~~
+
+~~Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		0		157~~
+
+~~Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	28		0		28		~~
+
+~~Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		26	7	7~~
+
+~~Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		24	12	19~~
+
+~~Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		22	13	32~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		20	13	45~~
+
+~~Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		18	11	56~~
+
+~~Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		16	6	62~~
+
+~~Sun Oct 04 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		14		62~~
+
+~~Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		12	12	74~~
+
+~~Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		10	13	87~~
+
+~~Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		8	13	100~~
+
+~~Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		6	11	111~~
+
+~~Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		4	11	122~~
+
+~~Sat Oct 10 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		2		122~~
+
+~~Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		0		122~~
+
+~~Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	36		0		36		~~
+
+~~Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		33.43	5	5~~
+
+~~Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		30.86	9	14~~
+
+~~Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		28.29	6	20~~
+
+~~Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		25.71	3	23~~
+
+~~Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		23.14	3	26~~
+
+~~Sat Oct 17 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		20.57	1	27~~
+
+~~Sun Oct 18 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		18		27~~
+
+~~Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		15.43	7	34~~
+
+~~Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		12.86	3	37~~
+
+~~Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		10.29	3	40~~
+
+~~Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		7.71	3	43~~
+
+~~Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		5.14	3	46~~
+
+~~Sat Oct 24 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		2.57		46~~
+
+~~Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		0		46~~
+
+~~Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	17		0		17		~~
+
+~~Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		15.79		~~
+
+~~Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		14.57		~~
+
+~~Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		13.36		~~
+
+~~Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		12.14		~~
+
+~~Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		10.93		~~
+
+~~Sat Oct 31 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		9.71		~~
+
+~~Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		8.5		~~
+
+~~Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		7.29		~~
+
+~~Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		6.07		~~
+
+~~Wed Nov 04 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		4.86		~~
+
+~~Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		3.64		~~
+
+~~Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		2.43		~~
+
+~~Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		1.21		~~
+
+~~Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		0		~~
+
 ## 2026-11-09 15:12 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
