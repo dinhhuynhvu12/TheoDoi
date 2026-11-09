@@ -1,5 +1,809 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-09 15:42 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-09 15:42
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **Sprint 1 Report												**
+
+🟢 **Hiện tại: 42/42 task Done · còn 0 task · 42 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 42 task ước tính (41 theo nhật ký giờ, 1 theo deadline).												**
+
+🟢 **Phạm vi (task)	42	Done hiện tại	42	Giờ dự kiến	146	Done thiếu ngày	42					**
+
+🟢 **Giờ thực tế	163	Bắt đầu	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 6h.												**
+
+🟢 **Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 6h.												**
+
+🟢 **										Mã task	Ngày dùng để vẽ	Nguồn mốc**
+
+🟢 **										Mã task	Ngày dùng để vẽ	Nguồn mốc**
+
+🟢 **										Mã task	Ngày dùng để vẽ	Nguồn mốc**
+
+🟢 **										Mã task	Ngày dùng để vẽ	Nguồn mốc**
+
+🟢 **										Mã task	Ngày dùng để vẽ	Nguồn mốc**
+
+🟢 **										Mã task	Ngày dùng để vẽ	Nguồn mốc**
+
+🟢 **										S1-T01	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S1-T02	Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S1-T03	Thu Sep 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S1-T04	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S1-T05	Tue Sep 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S1-T06	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S1-T07	Tue Sep 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S1-T08	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S1-T09	Tue Sep 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S1-T10	Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S1-T11	Thu Sep 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S1-T12	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S1-T13	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S1-T14	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S1-T15	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S1-T16	Tue Sep 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Ưu tiên ngày thực tế ở cột P, rồi ngày cuối có ghi giờ, rồi deadline. Xem nguồn từng task ở cột K–M. Hàng Hiện tại lấy trạng thái từ backlog.										S1-T17	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Ngày	Phạm vi (task)	Done theo ngày\*	Done lũy kế\*	Task còn lại\*	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch		S1-T18	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Sep 09 2026 07:00:00 GMT+0700 (Indochina Time)	42		0	42	42			0		S1-T19	Thu Sep 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	42	2	2	40	40.85	6	6	1.15		S1-T20	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Sep 11 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	2	40	39.7	7	13	2.3		S1-T21	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Sep 12 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	2	40	39.7	1	14	2.3		S1-T22	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Sep 13 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	2	40	39.7		14	2.3		S1-T23	Thu Sep 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	42	2	4	38	35.96	14	28	6.04		S1-T24	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Sep 15 2026 07:00:00 GMT+0700 (Indochina Time)	42	5	9	33	31.64	12	40	10.36		S1-T25	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	42	2	11	31	27.33	15	55	14.67		S1-T26	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Sep 17 2026 07:00:00 GMT+0700 (Indochina Time)	42	4	15	27	23.01	11	66	18.99		S1-T27	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	42	3	18	24	19.27	14	80	22.73		S1-T28	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Sep 19 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	18	24	19.27		80	22.73		S1-T29	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	18	24	19.27		80	22.73		S1-T30	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	42	2	20	22	15.53	15	95	26.47		S1-T31	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	42	4	24	18	11.22	15	110	30.78		S1-T32	Tue Sep 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	42	6	30	12	6.9	13	123	35.1		S1-T33	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	42	5	35	7	3.16	15	138	38.84		S1-T34	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	42	5	40	2	0	16	154	42		S1-T35	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	42	1	41	1	0	3	157	42		S1-T36	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	42	1	42	0	0		157	42		S1-T37	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Hiện tại	42		42	0						S1-T38	Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S1-T39	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S1-T40	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S1-T41	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S1-T42	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sprint 2 Report												**
+
+🟢 **Hiện tại: 28/28 task Done · còn 0 task · 28 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 28 task ước tính (21 theo nhật ký giờ, 7 theo deadline).												**
+
+🟢 **Phạm vi (task)	28	Done hiện tại	28	Giờ dự kiến	141	Done thiếu ngày	28					**
+
+🟢 **Giờ thực tế	122	Bắt đầu	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **										S2-WBS01	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S2-WBS02	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S2-WBS03	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S2-WBS04	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S2-WBS05	Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S2-WBS06	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S2-WBS07	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S2-WBS08	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S2-WBS09	Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S2-WBS10	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S2-WBS11	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S2-WBS12	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Ưu tiên ngày thực tế ở cột P, rồi ngày cuối có ghi giờ, rồi deadline. Xem nguồn từng task ở cột K–M. Hàng Hiện tại lấy trạng thái từ backlog.										S2-WBS13	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Ngày	Phạm vi (task)	Done theo ngày\*	Done lũy kế\*	Task còn lại\*	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch		S2-WBS14	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	28		0	28	28			0		S2-WBS15	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	28	1	1	27	26	7	7	2		S2-WBS16	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	28	2	3	25	24	12	19	4		S2-WBS17	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	28	2	5	23	22	13	32	6		S2-WBS18	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	28	3	8	20	20	13	45	8		S2-WBS19	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	28	4	12	16	18	11	56	10		S2-WBS20	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	28	2	14	14	16	6	62	12		S2-WBS21	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Oct 04 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	14	14	14		62	14		S2-WBS22	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	28	1	15	13	12	12	74	16		S2-WBS23	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	28	3	18	10	10	13	87	18		S2-WBS24	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	28	3	21	7	8	13	100	20		S2-WBS25	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	28	1	22	6	6	11	111	22		S2-WBS26	Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	28	6	28	0	4	11	122	24		S2-WBS27	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Oct 10 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	28	0	2		122	26		S2-WBS28	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	28	0	0		122	28				**
+
+🟢 **Hiện tại	28		28	0								**
+
+🟢 **Sprint 3 Report												**
+
+🟢 **Hiện tại: 29/36 task Done · còn 7 task · 29 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 29 task ước tính (12 theo nhật ký giờ, 17 theo deadline).												**
+
+🟢 **Phạm vi (task)	36	Done hiện tại	29	Giờ dự kiến	150	Done thiếu ngày	29					**
+
+🟢 **Giờ thực tế	52	Bắt đầu	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **										S3-WBS01	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S3-WBS06	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S3-WBS11	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S3-WBS16	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S3-WBS19		**
+
+🟢 **										S3-WBS24		**
+
+🟢 **										S3-WBS29		**
+
+🟢 **										S3-WBS02	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S3-WBS07	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S3-WBS12	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S3-WBS17	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S3-WBS20	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S3-WBS25	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S3-WBS30		**
+
+🟢 **										S3-WBS34		**
+
+🟢 **										S3-WBS05	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Ưu tiên ngày thực tế ở cột P, rồi ngày cuối có ghi giờ, rồi deadline. Xem nguồn từng task ở cột K–M. Hàng Hiện tại lấy trạng thái từ backlog.										S3-WBS10	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Ngày	Phạm vi (task)	Done theo ngày\*	Done lũy kế\*	Task còn lại\*	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch		S3-WBS15	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	36		0	36	36			0		S3-WBS23	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	36	4	4	32	32.4	5	5	3.6		S3-WBS28	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	36	2	6	30	28.8	9	14	7.2		S3-WBS33	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	36	5	11	25	25.2	6	20	10.8		S3-WBS36		**
+
+🟢 **Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	36	2	13	23	21.6	3	23	14.4		S3-WBS03	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	36	4	17	19	18	3	26	18		S3-WBS08	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Oct 17 2026 07:00:00 GMT+0700 (Indochina Time)	36	1	18	18	18	1	27	18		S3-WBS13	Sat Oct 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Oct 18 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	18	18	18		27	18		S3-WBS18	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	36	2	20	16	14.4	7	34	21.6		S3-WBS21	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	36	1	21	15	10.8	3	37	25.2		S3-WBS26	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	36	3	24	12	7.2	3	40	28.8		S3-WBS31	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	36	2	26	10	3.6	3	43	32.4		S3-WBS35	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	36	3	29	7	0	3	46	36		S3-WBS04	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sat Oct 24 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	29	7	0		46	36		S3-WBS09	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	29	7	0		46	36		S3-WBS14	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Hiện tại	36		29	7						S3-WBS22	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S3-WBS27	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S3-WBS32		**
+
+🟢 **Sprint 4 Report												**
+
+🟢 **Hiện tại: 6/17 task Done · còn 11 task · 6 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 6 task ước tính (0 theo nhật ký giờ, 6 theo deadline).												**
+
+🟢 **Phạm vi (task)	17	Done hiện tại	6	Giờ dự kiến	128	Done thiếu ngày	6					**
+
+🟢 **Giờ thực tế		Bắt đầu	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **										S4-WBS04		**
+
+🟢 **										S4-WBS07		**
+
+🟢 **										S4-WBS11		**
+
+🟢 **										S4-WBS16		**
+
+🟢 **										S4-WBS03		**
+
+🟢 **										S4-WBS08		**
+
+🟢 **										S4-WBS12		**
+
+🟢 **										S4-WBS17		**
+
+🟢 **										S4-WBS05		**
+
+🟢 **										S4-WBS13		**
+
+🟢 **										S4-WBS14		**
+
+🟢 **										S4-WBS01	Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S4-WBS02	Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S4-WBS09	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S4-WBS06	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S4-WBS10	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Ưu tiên ngày thực tế ở cột P, rồi ngày cuối có ghi giờ, rồi deadline. Xem nguồn từng task ở cột K–M. Hàng Hiện tại lấy trạng thái từ backlog.										S4-WBS15	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Ngày	Phạm vi (task)	Done theo ngày\*	Done lũy kế\*	Task còn lại\*	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch				**
+
+🟢 **Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	17		0	17	17			0				**
+
+🟢 **Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0	17	15.79			1.21				**
+
+🟢 **Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0	17	14.57			2.43				**
+
+🟢 **Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0	17	13.36			3.64				**
+
+🟢 **Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	17	2	2	15	12.14			4.86				**
+
+🟢 **Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	17	2	4	13	10.93			6.07				**
+
+🟢 **Sat Oct 31 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	4	13	9.71			7.29				**
+
+🟢 **Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	4	13	8.5			8.5				**
+
+🟢 **Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	4	13	7.29			9.71				**
+
+🟢 **Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	4	13	6.07			10.93				**
+
+🟢 **Wed Nov 04 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	4	13	4.86			12.14				**
+
+🟢 **Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	5	12	3.64			13.36				**
+
+🟢 **Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	6	11	2.43			14.57				**
+
+🟢 **Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	6	11	1.21			15.79				**
+
+🟢 **Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	6	11	0			17				**
+
+🟢 **Hiện tại	17		6	11								**
+
+🟢 **Sprint 5 Report												**
+
+🟢 **Hiện tại: 0/38 task Done · còn 38 task · 0 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 0 task ước tính (0 theo nhật ký giờ, 0 theo deadline).												**
+
+🟢 **Đường theo ngày gồm 0 task ước tính (0 theo nhật ký giờ, 0 theo deadline).												**
+
+🟢 **Phạm vi (task)	38	Done hiện tại	0	Giờ dự kiến	108	Done thiếu ngày	0					**
+
+🟢 **Giờ thực tế		Bắt đầu	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **										S5-WBS01.1		**
+
+🟢 **										S5-WBS01.2		**
+
+🟢 **										S5-WBS02.1		**
+
+🟢 **										S5-WBS02.2		**
+
+🟢 **										S5-WBS02.3		**
+
+🟢 **										S5-WBS03.1		**
+
+🟢 **										S5-WBS03.2		**
+
+🟢 **										S5-WBS03.3		**
+
+🟢 **										S5-WBS04.1		**
+
+🟢 **										S5-WBS04.2		**
+
+🟢 **										S5-WBS04.3		**
+
+🟢 **										S5-WBS05.1		**
+
+🟢 **										S5-WBS05.2		**
+
+🟢 **										S5-WBS05.3		**
+
+🟢 **										S5-WBS06.1		**
+
+🟢 **										S5-WBS06.2		**
+
+🟢 **Ưu tiên ngày thực tế ở cột P, rồi ngày cuối có ghi giờ, rồi deadline. Xem nguồn từng task ở cột K–M. Hàng Hiện tại lấy trạng thái từ backlog.										S5-WBS07.1		**
+
+🟢 **Ngày	Phạm vi (task)	Done theo ngày\*	Done lũy kế\*	Task còn lại\*	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch		S5-WBS07.2		**
+
+🟢 **Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	38		0	38	38			0		S5-WBS07.3		**
+
+🟢 **Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	38	0	0	38	35.29			2.71		S5-WBS08.1		**
+
+🟢 **Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	38				32.57			5.43		S5-WBS08.2		**
+
+🟢 **Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	38				29.86			8.14		S5-WBS08.3		**
+
+🟢 **Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	38				27.14			10.86		S5-WBS09.1		**
+
+🟢 **Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	38				24.43			13.57		S5-WBS09.2		**
+
+🟢 **Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	38				21.71			16.29		S5-WBS09.3		**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	38				19			19		S5-WBS10.1		**
+
+🟢 **Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	38				16.29			21.71		S5-WBS10.2		**
+
+🟢 **Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	38				13.57			24.43		S5-WBS10.3		**
+
+🟢 **Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	38				10.86			27.14		S5-WBS10.4		**
+
+🟢 **Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	38				8.14			29.86		S5-WBS11.1		**
+
+🟢 **Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	38				5.43			32.57		S5-WBS11.2		**
+
+🟢 **Sat Nov 21 2026 07:00:00 GMT+0700 (Indochina Time)	38				2.71			35.29		S5-WBS12.1		**
+
+🟢 **Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	38				0			38		S5-WBS12.2		**
+
+🟢 **Hiện tại	38		0	38						S5-WBS12.3		**
+
+🟢 **										S5-WBS13.1		**
+
+🟢 **										S5-WBS13.2		**
+
+🟢 **										S5-WBS13.3		**
+
+🟢 **										S5-WBS13.4		**
+
+🟢 **Sprint 6 Report												**
+
+🟢 **Hiện tại: 0/36 task Done · còn 36 task · 0 Done thiếu ngày												**
+
+🟢 **Phạm vi (task)	36	Done hiện tại	0	Giờ dự kiến	150	Done thiếu ngày	0					**
+
+🟢 **Giờ thực tế		Bắt đầu	Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **										S6-WBS01		**
+
+🟢 **										S6-WBS02		**
+
+🟢 **										S6-WBS03		**
+
+🟢 **										S6-WBS04		**
+
+🟢 **										S6-WBS05		**
+
+🟢 **										S6-WBS06		**
+
+🟢 **										S6-WBS07		**
+
+🟢 **										S6-WBS08		**
+
+🟢 **										S6-WBS09		**
+
+🟢 **										S6-WBS10		**
+
+🟢 **										S6-WBS11		**
+
+🟢 **										S6-WBS12		**
+
+🟢 **										S6-WBS13		**
+
+🟢 **										S6-WBS14		**
+
+🟢 **										S6-WBS15		**
+
+🟢 **										S6-WBS16		**
+
+🟢 **Ưu tiên ngày thực tế ở cột P, rồi ngày cuối có ghi giờ, rồi deadline. Xem nguồn từng task ở cột K–M. Hàng Hiện tại lấy trạng thái từ backlog.										S6-WBS17		**
+
+🟢 **Ngày	Phạm vi (task)	Done theo ngày\*	Done lũy kế\*	Task còn lại\*	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch		S6-WBS18		**
+
+🟢 **Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	36				36			0		S6-WBS19		**
+
+🟢 **Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	36				32.4			3.6		S6-WBS20		**
+
+🟢 **Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	36				28.8			7.2		S6-WBS21		**
+
+🟢 **Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	36				25.2			10.8		S6-WBS22		**
+
+🟢 **Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	36				21.6			14.4		S6-WBS23		**
+
+🟢 **Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	36				18			18		S6-WBS24		**
+
+🟢 **Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	36				18			18		S6-WBS25		**
+
+🟢 **Sun Nov 29 2026 07:00:00 GMT+0700 (Indochina Time)	36				18			18		S6-WBS26		**
+
+🟢 **Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	36				14.4			21.6		S6-WBS27		**
+
+🟢 **Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	36				10.8			25.2		S6-WBS28		**
+
+🟢 **Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	36				7.2			28.8		S6-WBS29		**
+
+🟢 **Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	36				3.6			32.4		S6-WBS30		**
+
+🟢 **Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	36				0			36		S6-WBS31		**
+
+🟢 **Sat Dec 05 2026 07:00:00 GMT+0700 (Indochina Time)	36				0			36		S6-WBS32		**
+
+🟢 **Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	36				0			36		S6-WBS33		**
+
+🟢 **Hiện tại	36		0	36						S6-WBS34		**
+
+🟢 **										S6-WBS35		**
+
+🟢 **										S6-WBS36		**
+
+~~Sprint 1 Report								~~
+
+~~Hiện tại: 42/42 task Done · còn 0 task · 42 Done thiếu ngày								~~
+
+~~Biểu đồ chỉ chạy trong khung sprint. Điền ngày hoàn thành thực tế ở cột P để bổ sung đường tiến độ theo ngày.								~~
+
+~~Biểu đồ chỉ chạy trong khung sprint. Điền ngày hoàn thành thực tế ở cột P để bổ sung đường tiến độ theo ngày.								~~
+
+~~Biểu đồ chỉ chạy trong khung sprint. Điền ngày hoàn thành thực tế ở cột P để bổ sung đường tiến độ theo ngày.								~~
+
+~~Biểu đồ chỉ chạy trong khung sprint. Điền ngày hoàn thành thực tế ở cột P để bổ sung đường tiến độ theo ngày.								~~
+
+~~Biểu đồ chỉ chạy trong khung sprint. Điền ngày hoàn thành thực tế ở cột P để bổ sung đường tiến độ theo ngày.								~~
+
+~~Biểu đồ chỉ chạy trong khung sprint. Điền ngày hoàn thành thực tế ở cột P để bổ sung đường tiến độ theo ngày.								~~
+
+~~Phạm vi (task)	42	Done hiện tại	42	Giờ dự kiến	146	Done thiếu ngày	42	~~
+
+~~Giờ thực tế	163	Bắt đầu	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0	~~
+
+~~Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 6h.								~~
+
+~~Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 6h.								~~
+
+~~Đường kế hoạch theo phân bổ giờ từng ngày nếu khớp tổng giờ task, nếu không thì dùng đường lý tưởng tuyến tính. Hàng Hiện tại nằm ngoài biểu đồ.								~~
+
+~~Đường kế hoạch theo phân bổ giờ từng ngày nếu khớp tổng giờ task, nếu không thì dùng đường lý tưởng tuyến tính. Hàng Hiện tại nằm ngoài biểu đồ.								~~
+
+~~Đường kế hoạch theo phân bổ giờ từng ngày nếu khớp tổng giờ task, nếu không thì dùng đường lý tưởng tuyến tính. Hàng Hiện tại nằm ngoài biểu đồ.								~~
+
+~~Đường kế hoạch theo phân bổ giờ từng ngày nếu khớp tổng giờ task, nếu không thì dùng đường lý tưởng tuyến tính. Hàng Hiện tại nằm ngoài biểu đồ.								~~
+
+~~Đường kế hoạch theo phân bổ giờ từng ngày nếu khớp tổng giờ task, nếu không thì dùng đường lý tưởng tuyến tính. Hàng Hiện tại nằm ngoài biểu đồ.								~~
+
+~~Đường kế hoạch theo phân bổ giờ từng ngày nếu khớp tổng giờ task, nếu không thì dùng đường lý tưởng tuyến tính. Hàng Hiện tại nằm ngoài biểu đồ.								~~
+
+~~Ngày	Phạm vi (task)	Done trong ngày có ghi	Done lũy kế có ngày	Còn lại thực tế	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch~~
+
+~~Ngày	Phạm vi (task)	Done trong ngày có ghi	Done lũy kế có ngày	Còn lại thực tế	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch~~
+
+~~Ngày	Phạm vi (task)	Done trong ngày có ghi	Done lũy kế có ngày	Còn lại thực tế	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch~~
+
+~~Ngày	Phạm vi (task)	Done trong ngày có ghi	Done lũy kế có ngày	Còn lại thực tế	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch~~
+
+~~Ngày	Phạm vi (task)	Done trong ngày có ghi	Done lũy kế có ngày	Còn lại thực tế	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch~~
+
+~~Ngày	Phạm vi (task)	Done trong ngày có ghi	Done lũy kế có ngày	Còn lại thực tế	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch~~
+
+~~Wed Sep 09 2026 07:00:00 GMT+0700 (Indochina Time)	42				42			0~~
+
+~~Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	42				40.85	6	6	1.15~~
+
+~~Fri Sep 11 2026 07:00:00 GMT+0700 (Indochina Time)	42				39.7	7	13	2.3~~
+
+~~Sat Sep 12 2026 07:00:00 GMT+0700 (Indochina Time)	42				39.7	1	14	2.3~~
+
+~~Sun Sep 13 2026 07:00:00 GMT+0700 (Indochina Time)	42				39.7		14	2.3~~
+
+~~Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	42				35.96	14	28	6.04~~
+
+~~Tue Sep 15 2026 07:00:00 GMT+0700 (Indochina Time)	42				31.64	12	40	10.36~~
+
+~~Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	42				27.33	15	55	14.67~~
+
+~~Thu Sep 17 2026 07:00:00 GMT+0700 (Indochina Time)	42				23.01	11	66	18.99~~
+
+~~Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	42				19.27	14	80	22.73~~
+
+~~Sat Sep 19 2026 07:00:00 GMT+0700 (Indochina Time)	42				19.27		80	22.73~~
+
+~~Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	42				19.27		80	22.73~~
+
+~~Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	42				15.53	15	95	26.47~~
+
+~~Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	42				11.22	15	110	30.78~~
+
+~~Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	42				6.9	13	123	35.1~~
+
+~~Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	42				3.16	15	138	38.84~~
+
+~~Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	42				0	16	154	42~~
+
+~~Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	42				0	3	157	42~~
+
+~~Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	42				0		157	42~~
+
+~~Hiện tại	42		42	0				~~
+
+~~Sprint 2 Report								~~
+
+~~Hiện tại: 28/28 task Done · còn 0 task · 28 Done thiếu ngày								~~
+
+~~Phạm vi (task)	28	Done hiện tại	28	Giờ dự kiến	141	Done thiếu ngày	28	~~
+
+~~Giờ thực tế	122	Bắt đầu	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0	~~
+
+~~Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	28				28			0~~
+
+~~Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	28				26	7	7	2~~
+
+~~Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	28				24	12	19	4~~
+
+~~Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	28				22	13	32	6~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	28				20	13	45	8~~
+
+~~Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	28				18	11	56	10~~
+
+~~Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	28				16	6	62	12~~
+
+~~Sun Oct 04 2026 07:00:00 GMT+0700 (Indochina Time)	28				14		62	14~~
+
+~~Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	28				12	12	74	16~~
+
+~~Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	28				10	13	87	18~~
+
+~~Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	28				8	13	100	20~~
+
+~~Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	28				6	11	111	22~~
+
+~~Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	28				4	11	122	24~~
+
+~~Sat Oct 10 2026 07:00:00 GMT+0700 (Indochina Time)	28				2		122	26~~
+
+~~Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	28				0		122	28~~
+
+~~Hiện tại	28		28	0				~~
+
+~~Sprint 3 Report								~~
+
+~~Hiện tại: 29/36 task Done · còn 7 task · 29 Done thiếu ngày								~~
+
+~~Phạm vi (task)	36	Done hiện tại	29	Giờ dự kiến	150	Done thiếu ngày	29	~~
+
+~~Giờ thực tế	52	Bắt đầu	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0	~~
+
+~~Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	36				36			0~~
+
+~~Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	36				32.4	5	5	3.6~~
+
+~~Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	36				28.8	9	14	7.2~~
+
+~~Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	36				25.2	6	20	10.8~~
+
+~~Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	36				21.6	3	23	14.4~~
+
+~~Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	36				18	3	26	18~~
+
+~~Sat Oct 17 2026 07:00:00 GMT+0700 (Indochina Time)	36				18	1	27	18~~
+
+~~Sun Oct 18 2026 07:00:00 GMT+0700 (Indochina Time)	36				18		27	18~~
+
+~~Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	36				14.4	7	34	21.6~~
+
+~~Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	36				10.8	3	37	25.2~~
+
+~~Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	36				7.2	3	40	28.8~~
+
+~~Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	36				3.6	3	43	32.4~~
+
+~~Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	36				0	3	46	36~~
+
+~~Sat Oct 24 2026 07:00:00 GMT+0700 (Indochina Time)	36				0		46	36~~
+
+~~Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	36				0		46	36~~
+
+~~Hiện tại	36		29	7				~~
+
+~~Sprint 4 Report								~~
+
+~~Hiện tại: 6/17 task Done · còn 11 task · 6 Done thiếu ngày								~~
+
+~~Phạm vi (task)	17	Done hiện tại	6	Giờ dự kiến	128	Done thiếu ngày	6	~~
+
+~~Giờ thực tế		Bắt đầu	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0	~~
+
+~~Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	17				17			0~~
+
+~~Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	17				15.79			1.21~~
+
+~~Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	17				14.57			2.43~~
+
+~~Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	17				13.36			3.64~~
+
+~~Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	17				12.14			4.86~~
+
+~~Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	17				10.93			6.07~~
+
+~~Sat Oct 31 2026 07:00:00 GMT+0700 (Indochina Time)	17				9.71			7.29~~
+
+~~Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	17				8.5			8.5~~
+
+~~Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	17				7.29			9.71~~
+
+~~Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	17				6.07			10.93~~
+
+~~Wed Nov 04 2026 07:00:00 GMT+0700 (Indochina Time)	17				4.86			12.14~~
+
+~~Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	17				3.64			13.36~~
+
+~~Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	17				2.43			14.57~~
+
+~~Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	17				1.21			15.79~~
+
+~~Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	17				0			17~~
+
+~~Hiện tại	17		6	11				~~
+
+~~Sprint 5 Report								~~
+
+~~Hiện tại: 0/38 task Done · còn 38 task · 0 Done thiếu ngày								~~
+
+~~Phạm vi (task)	38	Done hiện tại	0	Giờ dự kiến	108	Done thiếu ngày	0	~~
+
+~~Giờ thực tế		Bắt đầu	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0	~~
+
+~~Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	38		0	38	38			0~~
+
+~~Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	38	0	0	38	35.29			2.71~~
+
+~~Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	38				32.57			5.43~~
+
+~~Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	38				29.86			8.14~~
+
+~~Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	38				27.14			10.86~~
+
+~~Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	38				24.43			13.57~~
+
+~~Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	38				21.71			16.29~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	38				19			19~~
+
+~~Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	38				16.29			21.71~~
+
+~~Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	38				13.57			24.43~~
+
+~~Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	38				10.86			27.14~~
+
+~~Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	38				8.14			29.86~~
+
+~~Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	38				5.43			32.57~~
+
+~~Sat Nov 21 2026 07:00:00 GMT+0700 (Indochina Time)	38				2.71			35.29~~
+
+~~Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	38				0			38~~
+
+~~Hiện tại	38		0	38				~~
+
+~~Sprint 6 Report								~~
+
+~~Hiện tại: 0/36 task Done · còn 36 task · 0 Done thiếu ngày								~~
+
+~~Phạm vi (task)	36	Done hiện tại	0	Giờ dự kiến	150	Done thiếu ngày	0	~~
+
+~~Giờ thực tế		Bắt đầu	Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0	~~
+
+~~Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	36				36			0~~
+
+~~Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	36				32.4			3.6~~
+
+~~Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	36				28.8			7.2~~
+
+~~Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	36				25.2			10.8~~
+
+~~Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	36				21.6			14.4~~
+
+~~Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	36				18			18~~
+
+~~Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	36				18			18~~
+
+~~Sun Nov 29 2026 07:00:00 GMT+0700 (Indochina Time)	36				18			18~~
+
+~~Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	36				14.4			21.6~~
+
+~~Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	36				10.8			25.2~~
+
+~~Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	36				7.2			28.8~~
+
+~~Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	36				3.6			32.4~~
+
+~~Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	36				0			36~~
+
+~~Sat Dec 05 2026 07:00:00 GMT+0700 (Indochina Time)	36				0			36~~
+
+~~Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	36				0			36~~
+
+~~Hiện tại	36		0	36				~~
+
 ## 2026-11-09 15:37 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
