@@ -1,5 +1,29 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-09 21:17 - SUA NOI DUNG
+
+- **Người đăng:** hophamdangnhandz123@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-09 21:17
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS01.2	Tái hiện lỗi hội thoại và hết hạn token	Tái hiện lỗi và sửa truy xuất BCTN	Chạy hội thoại nhiều lượt và gửi tin sau khi access token hết hạn.	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Có hai ca tái hiện cùng kết quả thực tế và kỳ vọng.	Web Chat hiện có	Cao	Chưa bắt đầu	S5-G01	FinMind	5	2		Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS04.3	Chạy bộ câu kiểm thử router	Thư viện vector và Hybrid Router	Chạy bộ test riêng và ghi nhãn, điểm, lý do và nhánh.	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Có bảng kỳ vọng và thực tế, gồm câu chức vụ, kết hợp và thiếu dữ kiện.	S5-WBS04.2, S5-WBS03.2	Cao	Chưa bắt đầu	S5-G02	FinMind	5	2			Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	Sprint 5	S5-WBS01.2	S5-G01	1	Tái hiện lỗi hội thoại và hết hạn token	Nhân	Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy hội thoại nhiều lượt và gửi tin sau khi access token hết hạn.	Có hai ca tái hiện cùng kết quả thực tế và kỳ vọng.	Web Chat hiện có															**
+
+🟢 **	Sprint 5	S5-WBS04.3	S5-G02	1	Chạy bộ câu kiểm thử router		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy bộ test riêng và ghi nhãn, điểm, lý do và nhánh.	Có bảng kỳ vọng và thực tế, gồm câu chức vụ, kết hợp và thiếu dữ kiện.	S5-WBS04.2, S5-WBS03.2															**
+
+~~	S5-WBS01.2	Tái hiện lỗi hội thoại và hết hạn token	Tái hiện lỗi và sửa truy xuất BCTN	Chạy hội thoại nhiều lượt và gửi tin sau khi access token hết hạn.	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Có hai ca tái hiện cùng kết quả thực tế và kỳ vọng.	Web Chat hiện có	Cao	Chưa bắt đầu	S5-G01	FinMind	5	2			Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS04.3	Chạy bộ câu kiểm thử router	Thư viện vector và Hybrid Router	Chạy bộ test riêng và ghi nhãn, điểm, lý do và nhánh.	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Có bảng kỳ vọng và thực tế, gồm câu chức vụ, kết hợp và thiếu dữ kiện.	S5-WBS04.2, S5-WBS03.2	Cao	Chưa bắt đầu	S5-G02	FinMind	5	2		Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	Sprint 5	S5-WBS01.2	S5-G01	1	Tái hiện lỗi hội thoại và hết hạn token		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy hội thoại nhiều lượt và gửi tin sau khi access token hết hạn.	Có hai ca tái hiện cùng kết quả thực tế và kỳ vọng.	Web Chat hiện có															~~
+
+~~	Sprint 5	S5-WBS04.3	S5-G02	1	Chạy bộ câu kiểm thử router	Nhân	Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy bộ test riêng và ghi nhãn, điểm, lý do và nhánh.	Có bảng kỳ vọng và thực tế, gồm câu chức vụ, kết hợp và thiếu dữ kiện.	S5-WBS04.2, S5-WBS03.2															~~
+
 ## 2026-11-09 21:12 - SUA NOI DUNG
 
 - **Người đăng:** hophamdangnhandz123@gmail.com
