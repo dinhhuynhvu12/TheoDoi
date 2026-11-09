@@ -1,5 +1,1319 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-09 15:07 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-09 15:07
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **---**
+
+🟢 **---**
+
+🟢 **---**
+
+🟢 **---**
+
+🟢 **---**
+
+🟢 **	Sửa trạng thái, phụ trách và ngày tại sheet sprint. Product Backlog, tháng và 3 tháng tự cập nhật.																																**
+
+🟢 **	Chỉ nhập giờ thực tế ở cột ngày màu vàng. Giờ thực tế là tổng các ngày đã ghi, để trống khi chưa ghi giờ.																																**
+
+🟢 **	Giữ nguyên 42 task, trạng thái, người phụ trách và giờ đã nhập. Trước 14/09 được ghi là Khởi động.																																**
+
+🟢 **	FinMind Sprint 1 Backlog																																**
+
+🟢 **	Số task	42	Giờ dự kiến	146	Tổng giờ thực tế đã ghi	163																											**
+
+🟢 **	Sprint	Mã task	Mã việc tổng quát	Tuần trong sprint	Công việc	Phụ trách	Tình trạng	Giờ dự kiến	Giờ thực tế	Bắt đầu dự kiến	Deadline	Cần làm gì	Điều kiện hoàn thành	Đầu vào cần có	Ngày hoàn thành thực tế	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Sep 11 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Sep 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 13 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 15 2026 07:00:00 GMT+0700 (Indochi...**
+
+🟢 **	Sprint 1	S1-T01	M01	Khởi động	Xác định các nhóm người dùng chính	Thái Quốc Hưng	Đã hoàn thành	1	1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Xác định nhà đầu tư, chuyên viên phân tích và quản trị dữ liệu cùng nhu cầu chính của từng nhóm.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.		1																	**
+
+🟢 **	Sprint 1	S1-T02	M01	Khởi động	Chốt phạm vi và giới hạn của bản MVP	Thái Quốc Hưng	Đã hoàn thành	3	4	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Xác định chức năng thuộc MVP, phần mở rộng và các nội dung nằm ngoài phạm vi dự án.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.		2	1					1											**
+
+🟢 **	Sprint 1	S1-T03	M01	Khởi động	Lập danh sách chức năng theo thứ tự ưu tiên	Thái Quốc Hưng	Đã hoàn thành	4	7	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Phân loại chức năng bắt buộc, nên có và có thể thực hiện ở giai đoạn sau.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.			3	1				2	1										**
+
+🟢 **	Sprint 1	S1-T04	M01	Khởi động	Soạn bộ câu hỏi nghiên cứu và khảo sát	Trần Diệu Huyền	Đã hoàn thành	2	3	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Chuẩn bị câu hỏi để tìm hiểu khó khăn, nhu cầu và kỳ vọng của người dùng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.		3																	**
+
+🟢 **	Sprint 1	S1-T05	M01	1	Thực hiện nghiên cứu và tổng hợp kết quả	Thái Quốc Hưng	Đã hoàn thành	4	4	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Thực hiện khảo sát hoặc phỏng vấn và tổng hợp các phát hiện quan trọng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.						3	1												**
+
+🟢 **	Sprint 1	S1-T06	M01	1	Kiểm tra lại phạm vi và thống nhất	Trần Diệu Huyền	Đã hoàn thành	4	6	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu kết quả nghiên cứu với phạm vi MVP và ghi nhận quyết định cuối cùng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.			3			3													**
+
+🟢 **	Sprint 1	S1-T07	M02	1	Lập danh sách nguồn dữ liệu	Trần Diệu Huyền	Đã hoàn thành	2	3	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo danh sách nguồn, loại tài liệu, đơn vị phát hành, đường dẫn và phạm vi dữ liệu cần thu thập.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.							3												**
+
+🟢 **	Sprint 1	S1-T08	M02	1	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Nguyễn Minh Quân	Đã hoàn thành	3	2	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.						2													**
+
+🟢 **	Sprint 1	S1-T09	M02	1	Tìm nguồn chính thức cho 5 công ty Công nghệ	Nguyễn Minh Quân	Đã hoàn thành	3	2	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.							2												**
+
+🟢 **	Sprint 1	S1-T10	M02	1	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Trần Diệu Huyền	Đã hoàn thành	2	3	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra khả năng truy cập, lưu trữ, xử lý và trích dẫn dữ liệu trong hệ thống.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.								3											**
+
+🟢 **	Sprint 1	S1-T11	M02	1	Xây dựng quy tắc kiểm tra và chốt bộ dữ liệu	Trần Diệu Huyền	Đã hoàn thành	4	3	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Quy định cách kiểm tra công ty, kỳ báo cáo, đơn vị, phiên bản và tài liệu trùng lặp.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.									3										**
+
+🟢 **	Sprint 1	S1-T12	M02	1	Xác định nguồn dự phòng và đánh giá tính khả thi	Trần Diệu Huyền	Đã hoàn thành	3	3	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Chuẩn bị nguồn thay thế và đánh giá rủi ro khi nguồn chính thay đổi hoặc không truy cập được.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.										3									**
+
+🟢 **	Sprint 1	S1-T13	M03	1	Rà soát SRS và danh mục use case	Trần Diệu Huyền	Đã hoàn thành	4	6	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	Có bảng đối chiếu UC–FR/NFR đã rà.	Giữ kế hoạch Sprint 1 đã nhập.													3	3					**
+
+🟢 **	Sprint 1	S1-T14	M03	1	Vẽ context và business function diagram	Đinh Huỳnh Vũ	Đã hoàn thành	5	6	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Thể hiện tác nhân, hệ thống ngoài và phân rã chức năng; đối chiếu nội dung với SRS.	Có context và business function diagram khớp SRS.	Giữ kế hoạch Sprint 1 đã nhập.																			**
+
+🟢 **	Sprint 1	S1-T15	M03	1	Vẽ activity diagram theo use case	Thái Quốc Hưng	Đã hoàn thành	8	6	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Mô tả luồng chính, nhánh thay thế và ngoại lệ; kiểm tra node bắt đầu/kết thúc và lưu hình cùng draw.io.	Có activity diagrams và file chỉnh sửa được.	Giữ kế hoạch Sprint 1 đã nhập.										2			3	1					**
+
+🟢 **	Sprint 1	S1-T16	M03	1	Vẽ sequence diagram theo use case	Đinh Huỳnh Vũ	Đã hoàn thành	8	6	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Thể hiện actor, giao diện, dịch vụ và kho dữ liệu; thông điệp phải khớp kịch bản của từng use case.	Có sequence diagrams theo use case.	Giữ kế hoạch Sprint 1 đã nhập.						3	3												**
+
+🟢 **	Sprint 1	S1-T17	M03	1	Vẽ state diagram cho đối tượng có vòng đời	Thái Quốc Hưng	Đã hoàn thành	6	5	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Gom các use case liên quan; xác định trạng thái, sự kiện, điều kiện chuyển và điểm kết thúc.	Có state diagrams cho vòng đời cần mô tả.	Giữ kế hoạch Sprint 1 đã nhập.														2	3				**
+
+🟢 **	Sprint 1	S1-T18	M03	1	Rà soát tính nhất quán SRS	Trần Diệu Huyền	Đã hoàn thành	4	3	Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đặt đúng số mục, tên hình; kiểm tra mã UC, FR/NFR và sự nhất quán giữa đặc tả với các sơ đồ.	SRS có đúng hình, số mục và mã tham chiếu.	Giữ kế hoạch Sprint 1 đã nhập.															3				**
+
+🟢 **	Sprint 1	S1-T19	M04	1	Chia pipeline dữ liệu thành các phần nhỏ	Nguyễn Minh Quân	Đã hoàn thành	4	5	Tue Sep 15 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Tách thu thập, chuẩn hóa, chunk/embedding, graph, truy vấn vector/graph và ranh giới đầu vào/đầu ra.	Có bản đồ các bước xử lý dữ liệu và đầu vào/đầu ra.	Giữ kế hoạch Sprint 1 đã nhập.								3	2										**
+
+🟢 **	Sprint 1	S1-T20	M04	1	Đặc tả nguồn và cách cào dữ liệu mẫu	Nguyễn Minh Quân	Đã hoàn thành	2	2	Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chọn nguồn được phép dùng; ghi URL, loại tài liệu, lịch lấy, phiên bản và điều kiện truy cập.	Có danh sách nguồn được phép dùng và cách lấy.	Giữ kế hoạch Sprint 1 đã nhập.									1	1									**
+
+🟢 **	Sprint 1	S1-T21	M04	1	Đặc tả chuẩn hóa và định danh dữ liệu	Trần Diệu Huyền	Đã hoàn thành	3	3	Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Xác định company ID, kỳ báo cáo, đơn vị, source ID, document hash và quy tắc kiểm tra trước khi lập chỉ mục.	Có quy tắc chuẩn hóa ID, kỳ, đơn vị, nguồn.	Giữ kế hoạch Sprint 1 đã nhập.																3			**
+
+🟢 **	Sprint 1	S1-T22	M04	2	Vẽ ERD dữ liệu nghiệp vụ PostgreSQL	Nguyễn Minh Quân	Đã hoàn thành	4	4	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Thiết kế công ty, tài liệu, nguồn, dữ kiện tài chính, khóa chính/ngoại và quan hệ truy vết.	Có ERD PostgreSQL cho dữ liệu nghiệp vụ.	Giữ kế hoạch Sprint 1 đã nhập.										2			2						**
+
+🟢 **	Sprint 1	S1-T23	M04	2	Vẽ lược đồ bảng chunk/embedding pgvector	Đinh Huỳnh Vũ	Đã hoàn thành	3	4	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Xác định chunk, embedding, vector dimension, metadata, source locator và liên kết với PostgreSQL.	Có lược đồ chunk/embedding của pgvector.	Giữ kế hoạch Sprint 1 đã nhập.								3	1										**
+
+🟢 **	Sprint 1	S1-T24	M04	1	Vẽ mô hình node–edge Neo4j	Hồ Phạm Đăng Nhân	Đã hoàn thành	4	6	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Định nghĩa nhãn node, kiểu quan hệ, thuộc tính và provenance cho từng edge; giới hạn truy vấn hai hop.	Có mô hình node–edge Neo4j kèm provenance.	Giữ kế hoạch Sprint 1 đã nhập.						3	1			2									**
+
+🟢 **	Sprint 1	S1-T25	M04	2	Đối chiếu ID giữa các mô hình dữ liệu	Trần Diệu Huyền	Đã hoàn thành	3	3	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra ánh xạ company/source/document/chunk ID và provenance để truy vấn có thể quay về bằng chứng gốc.	Có quy tắc ánh xạ ID giữa các mô hình.	Giữ kế hoạch Sprint 1 đã nhập.																	3		**
+
+🟢 **	Sprint 1	S1-T26	M05	2	Cào bộ tài liệu mẫu theo nguồn đã chọn	Nguyễn Minh Quân	Đã hoàn thành	3	3	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy PoC trên vài tài liệu trong phạm vi corpus; lưu tệp gốc và nhật ký URL/thời điểm.	Có bộ tài liệu mẫu và nhật ký lấy dữ liệu.	Giữ kế hoạch Sprint 1 đã nhập.													1	2					**
+
+🟢 **	Sprint 1	S1-T27	M05	2	Ghi hash, phiên bản và metadata nguồn	Nguyễn Minh Quân	Đã hoàn thành	2	2	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Lưu checksum, ngày công bố, công ty, kỳ báo cáo và trạng thái trùng lặp của tài liệu mẫu.	Có checksum, phiên bản, metadata của mẫu.	Giữ kế hoạch Sprint 1 đã nhập.														1	1				**
+
+🟢 **	Sprint 1	S1-T28	M05	2	Parse và chuẩn hóa tài liệu mẫu	Đinh Huỳnh Vũ	Đã hoàn thành	3	6	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Trích văn bản/bảng, chuẩn hóa ticker, kỳ, đơn vị và đánh dấu bản ghi lỗi để không đưa vào index.	Có dữ liệu mẫu chuẩn hóa, lỗi được cách ly.	Giữ kế hoạch Sprint 1 đã nhập.										3			3						**
+
+🟢 **	Sprint 1	S1-T29	M05	1	Tạo thử truy vấn quan hệ bằng Neo4j	Hồ Phạm Đăng Nhân	Đã hoàn thành	6	8	Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Viết và chạy thử truy vấn quan hệ trên dữ liệu mẫu trong Neo4j.	Truy vấn chạy được và kết quả quan hệ được đối chiếu với dữ liệu mẫu.	Giữ kế hoạch Sprint 1 đã nhập.								3	3	1					1				**
+
+🟢 **	Sprint 1	S1-T30	M05	2	Tạo embedding và nạp mẫu vào pgvector	Đinh Huỳnh Vũ	Đã hoàn thành	3	4	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Vector hóa chunk hợp lệ; ghi model/version, dimension và khóa liên kết về tài liệu gốc.	Có embedding mẫu trong pgvector.	Giữ kế hoạch Sprint 1 đã nhập.														3	1				**
+
+🟢 **	Sprint 1	S1-T31	M05	2	Truy vấn pgvector để kiểm thử	Đinh Huỳnh Vũ	Đã hoàn thành	3	6	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng câu hỏi mẫu để kiểm tra top-k, khoảng cách vector và khả năng truy về đúng đoạn nguồn.	Có kết quả tìm vector theo câu hỏi mẫu.	Giữ kế hoạch Sprint 1 đã nhập.																3	3		**
+
+🟢 **	Sprint 1	S1-T32	M06	1	Trích xuất entity cho graph mẫu	Hồ Phạm Đăng Nhân	Đã hoàn thành	2	2	Tue Sep 15 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Nhận diện công ty, chỉ số, tài liệu, kỳ và sự kiện; ánh xạ entity ID ổn định.	Có danh sách thực thể graph có ID.	Giữ kế hoạch Sprint 1 đã nhập.							2												**
+
+🟢 **	Sprint 1	S1-T33	M06	2	Trích xuất quan hệ và provenance cho edge	Hồ Phạm Đăng Nhân	Đã hoàn thành	2	5	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Xác định quan hệ có bằng chứng, hướng edge và source locator; không tạo cạnh suy đoán.	Có edge chỉ tạo từ bằng chứng hợp lệ.	Giữ kế hoạch Sprint 1 đã nhập.													2		2	1			**
+
+🟢 **	Sprint 1	S1-T34	M06	2	Nạp node và edge mẫu vào Neo4j	Hồ Phạm Đăng Nhân	Đã hoàn thành	3	3	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo graph thử nghiệm, kiểm tra ràng buộc ID và liên kết mỗi edge với nguồn.	Có graph mẫu trong Neo4j.	Giữ kế hoạch Sprint 1 đã nhập.													1			2			**
+
+🟢 **	Sprint 1	S1-T35	M06	2	Truy vấn Neo4j để kiểm thử	Hồ Phạm Đăng Nhân	Đã hoàn thành	3	3	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Thử truy vấn một hoặc hai bước theo công ty và quan hệ; kiểm tra kết quả cùng provenance.	Có kết quả truy vấn graph kèm nguồn.	Giữ kế hoạch Sprint 1 đã nhập.														3					**
+
+🟢 **	Sprint 1	S1-T36	M06	2	Truy vấn dữ kiện PostgreSQL để đối chiếu	Nguyễn Minh Quân	Đã hoàn thành	3	2	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Lấy số liệu mẫu theo công ty, chỉ số, kỳ và đơn vị; so với bản ghi nguồn đã chuẩn hóa.	Có kết quả số liệu PostgreSQL để đối chiếu.	Giữ kế hoạch Sprint 1 đã nhập.															2				**
+
+🟢 **	Sprint 1	S1-T37	M06	2	Tổng hợp kết quả cào và cập nhật SRS	Nguyễn Minh Quân	Đã hoàn thành	2	1	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Ghi truy vấn, kết quả đúng/sai, lỗi và giới hạn; sửa lược đồ/đặc tả nếu bằng chứng thử nghiệm yêu cầu.	Có báo cáo PoC và các điểm cần sửa trong SRS.	Giữ kế hoạch Sprint 1 đã nhập.																1			**
+
+🟢 **	Sprint 1	S1-T38	M04	2	Tạo Git repository và cấu trúc dự án ban đầu	Nguyễn Minh Quân	Đã hoàn thành	1	1	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo kho mã nguồn Git và các thư mục ban đầu để cả nhóm lưu, chia sẻ và quản lý phiên bản mã.	Repository truy cập được; cấu trúc thư mục và hướng dẫn khởi động được lưu.	Giữ kế hoạch Sprint 1 đã nhập.																1			**
+
+🟢 **	Sprint 1	S1-T39	M03	1	Chuẩn bị Golden Test Set phiên bản đầu tiên	Thái Quốc Hưng	Đã hoàn thành	4	4	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Soạn bộ câu hỏi kiểm thử ban đầu, đáp án tham chiếu và thông tin nguồn để kiểm tra kết quả trả lời.	Có danh sách câu hỏi, đáp án và nguồn đối chiếu; chưa coi đây là bộ test cuối đã khóa.	Giữ kế hoạch Sprint 1 đã nhập.																3	1		**
+
+🟢 **	Sprint 1	S1-T40	M03	2	Vẽ usecase diagram cho từng đặc tả use case	Hồ Phạm Đăng Nhân	Đã hoàn thành	4	6	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Vẽ sơ đồ use case riêng cho từng đặc tả, thể hiện người sử dụng và chức năng liên quan.	Các sơ đồ khớp actor, tên chức năng và mã use case trong SRS.	File gốc có công thức cộng giờ các task khác trong dòng này. Cần kiểm tra để tránh tính trùng.																	3	3	**
+
+🟢 **	Sprint 1	S1-T41	M03	2	Vẽ usecase Diagram tổng	Trần Diệu Huyền	Đã hoàn thành	5	3	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Vẽ sơ đồ use case tổng để thể hiện toàn bộ chức năng và các nhóm người dùng của FinMind.	Sơ đồ tổng khớp danh mục use case và phạm vi SRS.	Giữ kế hoạch Sprint 1 đã nhập.																	3		**
+
+🟢 **	Sprint 1	S1-T42	M05	2	Xây dựng module chuẩn hóa dữ liệu & khử lỗi	Nguyễn Minh Quân	Đã hoàn thành	4	4	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Xây dựng phần xử lý dữ liệu mẫu để thống nhất định dạng và xử lý giá trị số không hợp lệ.	Có module, dữ liệu trước/sau xử lý và kết quả kiểm thử các trường hợp số không hợp lệ.	Giữ kế hoạch Sprint 1 đã nhập.																1	3		**
+
+🟢 **					Tổng giờ các task			146	163																								**
+
+🟢 **					Giờ dự kiến theo ngày (cả nhóm)				146							4	4			13	15	15	15	13			13	15	15	13	11		**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				157							6	7	1	0	14	12	15	11	14	0	0	15	15	13	15	16	3	0**
+
+🟢 **Sprint 1 Report**
+
+🟢 **Sprint 1 Report							**
+
+🟢 **Burnup tăng theo số task hoàn thành có ngày. Burndown giảm theo số task còn lại. Hai biểu đồ dùng số task.							**
+
+🟢 **Burnup tăng theo số task hoàn thành có ngày. Burndown giảm theo số task còn lại. Hai biểu đồ dùng số task.							**
+
+🟢 **Burnup tăng theo số task hoàn thành có ngày. Burndown giảm theo số task còn lại. Hai biểu đồ dùng số task.							**
+
+🟢 **Burnup tăng theo số task hoàn thành có ngày. Burndown giảm theo số task còn lại. Hai biểu đồ dùng số task.							**
+
+🟢 **Burnup tăng theo số task hoàn thành có ngày. Burndown giảm theo số task còn lại. Hai biểu đồ dùng số task.							**
+
+🟢 **Burnup tăng theo số task hoàn thành có ngày. Burndown giảm theo số task còn lại. Hai biểu đồ dùng số task.							**
+
+🟢 **Trong backlog, chọn Đã hoàn thành và nhập Ngày hoàn thành thực tế. Task thiếu ngày vẫn được đếm ở ô Done nhưng chưa vào đường Burnup.							**
+
+🟢 **Trong backlog, chọn Đã hoàn thành và nhập Ngày hoàn thành thực tế. Task thiếu ngày vẫn được đếm ở ô Done nhưng chưa vào đường Burnup.							**
+
+🟢 **Trong backlog, chọn Đã hoàn thành và nhập Ngày hoàn thành thực tế. Task thiếu ngày vẫn được đếm ở ô Done nhưng chưa vào đường Burnup.							**
+
+🟢 **Trong backlog, chọn Đã hoàn thành và nhập Ngày hoàn thành thực tế. Task thiếu ngày vẫn được đếm ở ô Done nhưng chưa vào đường Burnup.							**
+
+🟢 **Trong backlog, chọn Đã hoàn thành và nhập Ngày hoàn thành thực tế. Task thiếu ngày vẫn được đếm ở ô Done nhưng chưa vào đường Burnup.							**
+
+🟢 **Trong backlog, chọn Đã hoàn thành và nhập Ngày hoàn thành thực tế. Task thiếu ngày vẫn được đếm ở ô Done nhưng chưa vào đường Burnup.							**
+
+🟢 **Phạm vi (task)	42	Done hiện tại	42	Giờ dự kiến	146	Done thiếu ngày	42**
+
+🟢 **Giờ thực tế	163	Bắt đầu	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0**
+
+🟢 **Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 6h.							**
+
+🟢 **Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 6h.							**
+
+🟢 **Mốc đầu là ngày trước sprint. Phạm vi lấy từ backlog hiện tại. Khi còn task Done thiếu ngày, đường Burndown thực tế để trống.							**
+
+🟢 **Mốc đầu là ngày trước sprint. Phạm vi lấy từ backlog hiện tại. Khi còn task Done thiếu ngày, đường Burndown thực tế để trống.							**
+
+🟢 **Mốc đầu là ngày trước sprint. Phạm vi lấy từ backlog hiện tại. Khi còn task Done thiếu ngày, đường Burndown thực tế để trống.							**
+
+🟢 **Mốc đầu là ngày trước sprint. Phạm vi lấy từ backlog hiện tại. Khi còn task Done thiếu ngày, đường Burndown thực tế để trống.							**
+
+🟢 **Mốc đầu là ngày trước sprint. Phạm vi lấy từ backlog hiện tại. Khi còn task Done thiếu ngày, đường Burndown thực tế để trống.							**
+
+🟢 **Mốc đầu là ngày trước sprint. Phạm vi lấy từ backlog hiện tại. Khi còn task Done thiếu ngày, đường Burndown thực tế để trống.							**
+
+🟢 **Ngày	Phạm vi (task)	Xong trong ngày	Xong lũy kế có ngày	Còn lại thực tế	Còn lại lý tưởng	Giờ thực tế/ngày	Giờ thực tế lũy kế**
+
+🟢 **Ngày	Phạm vi (task)	Xong trong ngày	Xong lũy kế có ngày	Còn lại thực tế	Còn lại lý tưởng	Giờ thực tế/ngày	Giờ thực tế lũy kế**
+
+🟢 **Ngày	Phạm vi (task)	Xong trong ngày	Xong lũy kế có ngày	Còn lại thực tế	Còn lại lý tưởng	Giờ thực tế/ngày	Giờ thực tế lũy kế**
+
+🟢 **Ngày	Phạm vi (task)	Xong trong ngày	Xong lũy kế có ngày	Còn lại thực tế	Còn lại lý tưởng	Giờ thực tế/ngày	Giờ thực tế lũy kế**
+
+🟢 **Ngày	Phạm vi (task)	Xong trong ngày	Xong lũy kế có ngày	Còn lại thực tế	Còn lại lý tưởng	Giờ thực tế/ngày	Giờ thực tế lũy kế**
+
+🟢 **Ngày	Phạm vi (task)	Xong trong ngày	Xong lũy kế có ngày	Còn lại thực tế	Còn lại lý tưởng	Giờ thực tế/ngày	Giờ thực tế lũy kế**
+
+🟢 **Wed Sep 09 2026 07:00:00 GMT+0700 (Indochina Time)	42		0		42		**
+
+🟢 **Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		39.67	6	6**
+
+🟢 **Fri Sep 11 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		37.33	7	13**
+
+🟢 **Sat Sep 12 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		35	1	14**
+
+🟢 **Sun Sep 13 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		32.67		14**
+
+🟢 **Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		30.33	14	28**
+
+🟢 **Tue Sep 15 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		28	12	40**
+
+🟢 **Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		25.67	15	55**
+
+🟢 **Thu Sep 17 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		23.33	11	66**
+
+🟢 **Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		21	14	80**
+
+🟢 **Sat Sep 19 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		18.67		80**
+
+🟢 **Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		16.33		80**
+
+🟢 **Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		14	15	95**
+
+🟢 **Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		11.67	15	110**
+
+🟢 **Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		9.33	13	123**
+
+🟢 **Thu Sep 24 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		7	15	138**
+
+🟢 **Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		4.67	16	154**
+
+🟢 **Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		2.33	3	157**
+
+🟢 **Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	42	0	0		0		157**
+
+🟢 **	Sửa trạng thái, phụ trách và ngày tại sheet sprint. Product Backlog, tháng và 3 tháng tự cập nhật.																												**
+
+🟢 **	Sửa trạng thái, phụ trách và ngày tại sheet sprint. Product Backlog, tháng và 3 tháng tự cập nhật.																												**
+
+🟢 **	Sửa trạng thái, phụ trách và ngày tại sheet sprint. Product Backlog, tháng và 3 tháng tự cập nhật.																												**
+
+🟢 **	Sprint 2 có hai đầu ra UI riêng: file thiết kế chỉnh sửa được và frontend source chạy với mock. Huyền lead UI, thiết kế luồng/visual và review; Nhân thiết kế wireframe, bàn giao hai mốc có duyệt để Vũ làm prototype song song. Giờ review ở WBS24 và WBS32, không cộng hai lần. Chỉ đánh dấu task hoàn thành khi đủ toàn bộ đầu ra; mốc trung gian không phải hoàn thành task.																												**
+
+🟢 **Hưng/Quân: cào, chuẩn hóa, PostgreSQL. Vũ/Nhân/Huyền: thiết kế, prototype, code mock. Giờ thực tế chỉ nhập khi đã làm.																												**
+
+🟢 **	FinMind Sprint 2 Backlog																												**
+
+🟢 **	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi	122																							**
+
+🟢 **	Sprint	Mã task	Mã việc tổng quát	Tuần trong sprint	Công việc	Phụ trách	Tình trạng	Giờ dự kiến	Giờ thực tế	Bắt đầu dự kiến	Deadline	Cần làm gì	Điều kiện hoàn thành	Đầu vào cần có	Ngày hoàn thành thực tế	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochi...**
+
+🟢 **	Sprint 2	S2-WBS01	S2-G01	1	Chốt hợp đồng dữ liệu đầu vào/đầu ra	Nguyễn Minh Quân	Đã hoàn thành	3	4	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Rà soát giá, tỷ số, KQKD, CĐKT, LCTT; chốt schema raw/normalized; phân biệt quý/năm.	Có schema thống nhất raw/normalized; JSON UTF-8 hợp lệ; xử lý an toàn NaN/null.	ERD Sprint 1; mẫu payload API; danh sách 10 mã.		1	3												**
+
+🟢 **Kết quả cần có: Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệu. UI và người làm DB dùng cùng tên trường.	Thái Quốc Hưng	Đã hoàn thành	2	1	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng ERD Sprint 1 để chốt company\_id, loại nguồn, URL, ngày công bố/lấy, hash, phiên bản, kỳ, đơn vị và vị trí nguồn. Thống nhất mẫu facts và News với UI; không vẽ lại ERD từ đầu.	Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ li...**
+
+🟢 **	Sprint 2	S2-WBS03	S2-G02	1	Làm ổn định bộ thu thập dữ liệu (Collector)	Nguyễn Minh Quân	Đã hoàn thành	5	6	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy collector cào 10 mã (5 Bank + 5 Tech); bổ sung retry, timeout, cô lập lỗi từng mã để không dừng pipeline	Collector chạy ổn định 10 mã; log lỗi độc lập; có CLI chạy lại từng mã.	Schema raw; endpoint API; danh sách 10 mã (5 Bank + 5 Tech).				4	2										**
+
+🟢 **Kết quả cần có: Lấy đúng bài mẫu và nguồn gốc; có retry/log và lý do loại bài. Bộ cào chỉ hỗ trợ danh sách nguồn đã chốt.	Thái Quốc Hưng	Đã hoàn thành	5	7	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng khung crawler chung, cấu hình các nguồn News được duyệt. Lấy danh sách/nội dung trong khoảng ngày, xử lý phân trang, lọc công ty và lưu URL/ngày/hash/version. Không làm crawler tổng quát cho mọi website hoặc vượt paywall.	Lấy đúng bài...**
+
+🟢 **	Sprint 2	S2-WBS05	S2-G02	1	Chuẩn hóa dữ liệu số & Bảo toàn dữ liệu nguồn	Nguyễn Minh Quân	Đã hoàn thành	6	7	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	File raw JSON thu được từ Collector; quy tắc ép kiểu dữ liệu và chuẩn hóa kỳ báo cáo.	Chuẩn hóa key kỳ, ép kiểu số liệu; giữ nguyên bản raw; giữ nguyên key lạ chưa xác minh; tách biệt đơn vị VND, %, EPS.	Dữ liệu normalized truy ngược được về raw; không tự đoán hoặc làm mất key nguồn.					...**
+
+🟢 **	Sprint 2	S2-WBS06	S2-G03	1	Xây dựng bộ OCR Router bóc tách PDF 	Nguyễn Minh Quân	Đã hoàn thành	6	6	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Kho file PDF BCTC/BCTN mẫu đã tải từ Sprint 1; công cụ hệ thống (pdftotext, pdftoppm, tesseract tiếng Việt).	Tuyến text\_layer chạy tức thì; trang scan có text và toạ độ BBox.	Tuyến text\_layer chạy tức thì; trang scan có text và toạ độ BBox từ Tesseract.					2	4									**
+
+🟢 **	Sprint 2	S2-WBS07	S2-G03	2	Tích hợp LLM Vision xử lý bảng scan	Nguyễn Minh Quân	Đã hoàn thành	7	8	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Ảnh PNG render từ các trang scan/bảng phức tạp; API Key Gemini và OpenRouter; JSON Schema yêu cầu.	Gọi Gemini 3.8 Flash ép JSON trích xuất bảng Markdown; thêm OpenRouter fallback; cache SHA-256; chặn rate limit 429.	LLM đọc nguyên văn bảng biểu, con dấu \[stamp\] cho các trang scan khó.											4	4...**
+
+🟢 **Kết quả cần có: News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề. Bài thiếu ngày/công ty rõ ràng được cách ly.	Thái Quốc Hưng	Đã hoàn thành	5	6	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Spri...**
+
+🟢 **Kết quả cần có: Migration chạy trên DB mới, khóa ngoại đúng và lưu/đọc được ba loại nguồn với locator. Có hướng dẫn chạy, không lưu secrets trong source.	Thái Quốc Hưng	Đã hoàn thành	7	6	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Triển khai ERD đã có cho source/document/version/facts/News/Evidence; tái dùng script nạp mẫu. Tạo khóa và ràng buộc, thử một luồng lưu/đọc từ dữ liệu chuẩn về bản gốc. Chưa làm embedding, graph hay API nghiệp v...**
+
+🟢 **Kết quả cần có: Mẫu đúng được nhận, mẫu sai bị cách ly và không vào corpus hợp lệ. Bản sửa phải kiểm lại; thiếu bản gốc không được cho qua.	Thái Quốc Hưng	Đã hoàn thành	3	3	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Gắn kiểm tra vào pipeline nạp: ID, ngày/kỳ, đơn vị, scope, nguồn, hash và locator. Dùng bảng/file quarantine đơn giản có reason code, chưa làm màn hình hay công cụ sửa dữ liệu thật. Sửa lỗi và chạy lại kiểm tra trong chính ta...**
+
+🟢 **Kết quả cần có: Dữ liệu được nạp đều qua validation. Có bảng độ phủ, mẫu đối chiếu và lỗi đã xử lý; nguồn bắt buộc còn thiếu thì không nghiệm thu data hoàn thành.	Thái Quốc Hưng	Đã hoàn thành	5	6	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy script nạp, đối chiếu số item với danh sách bắt buộc và audit nội dung/số theo mẫu kiểm đã duyệt. Kiểm liên kết về nguồn, tổng hợp thiếu/lỗi theo công ty và kỳ; review data và kiểm lại lỗi nằm tron...**
+
+🟢 **	Sprint 2	S2-WBS12	S2-G09	2	Đối soát chéo số liệu (Cross-check) chống sai lệch	Nguyễn Minh Quân	Đã hoàn thành	4	4	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Bản text OCR từ Tesseract và bản text Markdown từ LLM của cùng một trang PDF.	Đối soát số giữa Tesseract và LLM (numberAgreement); gắn cờ NUMBERS\_UNVERIFIED cho trang BCTC lệch số; escalate model.	Loại bỏ rủi ro AI đọc sai số; gắn nhãn trạng thái OK/REVIEW trên từng trang.											...**
+
+🟢 **Kết quả cần có: Có file sơ đồ luồng/sitemap chỉnh sửa được, liệt kê đủ màn hình, quyền và đường quay lại; nhóm duyệt trước khi thiết kế wireframe.	Trần Diệu Huyền	Đã hoàn thành	2		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền làm lead UI, đối chiếu use case MVP để vẽ sơ đồ màn hình theo vai trò và luồng đăng nhập, chọn công ty, hỏi, xem nguồn, history/watchlist. Chỉ vẽ luồng cần code Sprint 2, không thêm xuất PDF/Markdown.	Có file sơ ...**
+
+🟢 **Kết quả cần có: Mốc 1 và mốc 2 đều có link/file wireframe chỉnh sửa được và ý kiến duyệt của Huyền. Chỉ đánh dấu hoàn thành WBS18 khi đủ toàn bộ màn hình MVP và các lỗi điều hướng chặn đã sửa; bàn giao một mốc không đồng nghĩa hoàn thành cả task.	Hồ Phạm Đăng Nhân	Đã hoàn thành	5	10	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Nhân dùng sitemap đã duyệt để vẽ wireframe chỉnh sửa được và bàn giao theo hai mốc: mốc 1 (29/09) gồm chọn công ty...**
+
+🟢 **Kết quả cần có: Có file thiết kế chỉnh sửa được gồm style, component mẫu và các trạng thái; nhóm xác nhận tính nhất quán với wireframe.	Trần Diệu Huyền	Đã hoàn thành	4		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền chốt màu, chữ, khoảng cách, bảng, form, nút, citation marker và các trạng thái loading/empty/error/missing-data từ sitemap đã duyệt và bộ component sẵn có. Có thể làm quy tắc chung song song với wireframe của Nhân; áp dụng ...**
+
+🟢 **Kết quả cần có: Có link/file prototype bấm thử cho đầy đủ màn hình và trạng thái lỗi mẫu, khớp cả hai mốc wireframe/visual; Huyền review và Vũ sửa lỗi chặn. Prototype mốc 1 chỉ là bàn giao trung gian, chưa được tính hoàn thành WBS20.	Đinh Huỳnh Vũ	Đã hoàn thành	7	10	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Vũ dựng prototype từng màn hình ngay sau khi wireframe mốc tương ứng được Huyền duyệt và có visual áp dụng; làm trước luồng chọn cô...**
+
+🟢 **Kết quả cần có: Source clone/cài/chạy/build được theo README; khung trang hoạt động, không có secrets; layout cuối khớp màn hình đã duyệt.	Đinh Huỳnh Vũ	Đã hoàn thành	6	3	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Vũ dựng project frontend, lệnh chạy/build, cấu hình môi trường và mock adapter từ repository Sprint 1 trước khi nhận đủ wireframe. Chỉ ghép menu/layout của từng màn hình sau khi wireframe và visual mốc đó được duyệt; giữ chỗ rõ...**
+
+🟢 **Kết quả cần có: Component tái sử dụng và mock tách riêng, có trạng thái đủ/rỗng/lỗi và hướng dẫn đổi API; tích hợp được với các màn hình đã duyệt.	Hồ Phạm Đăng Nhân	Đã hoàn thành	8	7	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Nhân cấu hình bảng/form/nút/filter/modal và fixture đủ/rỗng/lỗi từ schema chung, quy tắc visual đã có. Có thể làm component và mock độc lập trong khi hoàn thiện wireframe; tích hợp theo từng màn hình được duyệt với ...**
+
+🟢 **Kết quả cần có: Routes và trạng thái truy cập hoạt động với mock, các phần cần API thật được liệt kê. Có smoke test điều hướng tuần 1.	Trần Diệu Huyền	Đã hoàn thành	5		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền dùng router chung để nối màn hình, code form login/logout, phiên hết hạn và vai trò mẫu. Có thể chuẩn bị route map và phiên mẫu từ sitemap trong khi Nhân làm wireframe; chỉ ghép layout và smoke test điều hướng khi skeleton/c...**
+
+🟢 **Kết quả cần có: Có checklist duyệt từng mốc wireframe, review prototype, danh sách lỗi chặn và bộ file thiết kế/API mock bàn giao; chỉ chốt khi đủ hai mốc.	Trần Diệu Huyền	Đã hoàn thành	4		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền review từng mốc wireframe của Nhân ngay khi bàn giao, ghi rõ màn hình đã duyệt/chờ sửa và bàn giao cho Vũ bắt đầu prototype phần tương ứng. Sau đó review prototype đầy đủ so với sitemap, wireframe, visua...**
+
+🟢 **Kết quả cần có: Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; không chỉ bàn giao ảnh thiết kế.	Hồ Phạm Đăng Nhân	Đã hoàn thành	7	7	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Màn hình code chạ...**
+
+🟢 **Kết quả cần có: Các luồng đã chốt chạy với mock và nhãn rõ; filter/payload đúng, kết quả chờ/lỗi/thiếu không bị hiển thị như verified.	Trần Diệu Huyền	Đã hoàn thành	6		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng form, chat/result và bảng chung để nhập câu hỏi, chọn công ty/kỳ, xem response/so sánh mẫu. Thêm partial/insufficient-data/refusal và retry; không làm streaming tùy biến, backend RAG hoặc tư vấn đầu tư.	Các luồng đã chốt chạy...**
+
+🟢 **Kết quả cần có: Các luồng MVP chạy được với mock, không trùng watchlist và không mở URL client tùy ý. Không có xuất PDF/Markdown; thiếu API thật được ghi rõ.	Trần Diệu Huyền	Đã hoàn thành	6		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng modal/detail/list/form để mở citation ID, xem locator/fact/provenance, xem/xóa history, pin/unpin và feedback. Chỉ mô phỏng lưu theo user, chưa xây backend lưu trữ; xác nhận thao tác xóa và thử lỗi ...**
+
+🟢 **Kết quả cần có: Viewer thao tác được và mở đúng provenance mẫu; thử graph rỗng/lỗi, chặn hơn hai hop. Backend sẽ kiểm giới hạn khi nối thật.	Hồ Phạm Đăng Nhân	Đã hoàn thành	7	6	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng component/thư viện graph đã chọn, nạp fixture node/edge, chọn root, mở rộng tối đa hai hop và xem nguồn edge. Không tự viết thuật toán layout, animation hoặc Neo4j API trong task này.	Viewer thao tác được và mở đúng ...**
+
+🟢 **Kết quả cần có: Các màn hình operator trong checklist chạy với mock, có counts/reason/refresh-time và trạng thái lỗi; không lộ secrets.	Đinh Huỳnh Vũ	Đã hoàn thành	5	4	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng chung bảng/list/detail/form cho source, runs/counts/retries và quarantine. Đổi cấu hình/fixture theo trang thay vì viết một hệ thống quản trị riêng; thao tác quan trọng có xác nhận. Không gọi bộ cào thật từ mock UI.	Các màn h...**
+
+🟢 **Kết quả cần có: Trang có đủ luồng MVP và trạng thái không đủ điều kiện/lỗi với mock, hợp đồng API thật được liệt kê.	Đinh Huỳnh Vũ	Đã hoàn thành	4	6	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng lại trang quản trị của task trước, thay schema/form/fixture cho manifest/promote/restore, ngưỡng/budget và trace. Kiểm giá trị và readiness mẫu, không làm backend quản lý cấu hình/audit hoặc telemetry thật.	Trang có đủ luồng MVP và trạng thái k...**
+
+🟢 **Kết quả cần có: Màn hình evaluator trong checklist thao tác được, phân biệt partial/completed/thiếu trace và không hiển thị điểm giả như kết quả thật.	Đinh Huỳnh Vũ	Đã hoàn thành	5	5	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng bảng/form/detail chung để nhập/review/freeze ca mẫu, chọn B0–B3 và xem run/metrics fixture. Thêm calibration/final và quyền mẫu; chưa tạo 120 câu thật, chạy Ragas hoặc xây engine đánh giá.	Màn hình evaluator tr...**
+
+🟢 **Kết quả cần có: Có checklist đối chiếu thiết kế–code và biên bản review UI, bản build chạy được; màn hình lệch thiết kế hoặc lỗi chặn chưa sửa thì chưa ký bàn giao.	Trần Diệu Huyền	Đã hoàn thành	2		Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền đối chiếu code của Vũ/Nhân với bản thiết kế và prototype, chạy smoke test màn hình/route/trạng thái bằng mock trên bản build sạch. Ghi lỗi chặn về đúng task để chủ task sửa, xác nhận lại sau sửa...**
+
+🟢 **					Tổng giờ các task			141	122																				**
+
+🟢 **					Giờ dự kiến theo ngày (cả nhóm)				150							15	15	15	15	15	0	0	15	15	15	15	15	0	0**
+
+🟢 **					Giờ dự kiến theo ngày (cả nhóm)				150							15	15	15	15	15	0	0	15	15	15	15	15	0	0**
+
+🟢 **					Giờ dự kiến theo ngày (cả nhóm)				150							15	15	15	15	15	0	0	15	15	15	15	15	0	0**
+
+🟢 **					Giờ dự kiến theo ngày (cả nhóm)				150							15	15	15	15	15	0	0	15	15	15	15	15	0	0**
+
+🟢 **					Giờ dự kiến theo ngày (cả nhóm)				150							15	15	15	15	15	0	0	15	15	15	15	15	0	0**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				122							7	12	13	13	11	6	0	12	13	13	11	11	0	0**
+
+🟢 **Sprint 2 Report**
+
+🟢 **Sprint 2 Report							**
+
+🟢 **Phạm vi (task)	28	Done hiện tại	28	Giờ dự kiến	141	Done thiếu ngày	28**
+
+🟢 **Giờ thực tế	122	Bắt đầu	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0**
+
+🟢 **Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	28		0		28		**
+
+🟢 **Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		26	7	7**
+
+🟢 **Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		24	12	19**
+
+🟢 **Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		22	13	32**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		20	13	45**
+
+🟢 **Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		18	11	56**
+
+🟢 **Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		16	6	62**
+
+🟢 **Sun Oct 04 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		14		62**
+
+🟢 **Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		12	12	74**
+
+🟢 **Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		10	13	87**
+
+🟢 **Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		8	13	100**
+
+🟢 **Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		6	11	111**
+
+🟢 **Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		4	11	122**
+
+🟢 **Sat Oct 10 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		2		122**
+
+🟢 **Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	0		0		122**
+
+🟢 **	FinMind Sprint 3 Backlog																												**
+
+🟢 **	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	52																							**
+
+🟢 **	Sprint	Mã task	Mã việc tổng quát	Tuần trong sprint	Công việc	Phụ trách	Tình trạng	Giờ dự kiến	Giờ thực tế	Bắt đầu dự kiến	Deadline	Cần làm gì	Điều kiện hoàn thành	Đầu vào cần có	Ngày hoàn thành thực tế	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Oct 17 2026 07:00:00 GMT+0700 (Indochi...**
+
+🟢 **	Sprint 3	S3-WBS01	S3-G01	1	Chốt hợp đồng chunk ID và cấu trúc nguồn	Đinh Huỳnh Vũ	Đã hoàn thành	2		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cùng Hưng thống nhất mỗi đoạn tài liệu sẽ mang những thông tin nào: mã đoạn, mã tài liệu, phiên bản dữ liệu và vị trí trang/mục/bảng. Bước 2: Viết 2 đoạn dữ liệu mẫu theo đúng cấu trúc đó để mọi người có thể code song song. Bước 3: Kiểm tra cùng một đoạn luôn nhận cùng mã khi chạy lại.	Có ...**
+
+🟢 **	Sprint 3	S3-WBS06	S3-G01	1	Nâng cấp chunker cho mục và bảng	Đinh Huỳnh Vũ	Đã hoàn thành	7		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy tài liệu BCTC/BCTN đã chuẩn hóa ở Sprint 2, xem các mục và bảng dài thường bị cắt sai ở đâu. Bước 2: Nâng cấp bộ chia đoạn hiện có để mỗi đoạn có nội dung đủ hiểu và không xé ngang bảng số liệu. Bước 3: Viết ví dụ kiểm tra cho văn bản thường, bảng nhiều dòng và chạy lại để chắc không sinh đoạn...**
+
+🟢 **	Sprint 3	S3-WBS11	S3-G01	1	Gắn locator vào từng chunk	Đinh Huỳnh Vũ	Đã hoàn thành	4		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Với mỗi đoạn Vũ đã chia, lưu rõ nó đến từ tài liệu nào, trang nào, mục hoặc bảng nào. Bước 2: Lấy vài đoạn mẫu, bấm/mở lại tài liệu gốc tại vị trí ghi trong đoạn. Bước 3: Sửa các trường hợp trích dẫn nhảy sai trang, sai bảng hoặc không mở được.	Chunk mẫu truy được vị trí nguồn chính xác trong tài liệu.	...**
+
+🟢 **	Sprint 3	S3-WBS16	S3-G01	1	Tạo manifest chunk phiên bản đầu	Đinh Huỳnh Vũ	Đã hoàn thành	2		Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Ghi một bản kê cho lần chia tài liệu: tài liệu đầu vào, mã kiểm tra nội dung, cấu hình chia đoạn và danh sách mã đoạn. Bước 2: Chạy lại cùng tài liệu để xác nhận không tạo bản sao. Bước 3: Thay một tài liệu mẫu và kiểm tra bản kê cho biết chính xác phần nào đã đổi.	Có manifest phiên bản và danh sá...**
+
+🟢 **	Sprint 3	S3-WBS19	S3-G01	2	Ổn định chunker trên tài liệu khó	Đinh Huỳnh Vũ	Đang test	3		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Thử bộ chia đoạn trên báo cáo có bảng dài, nhiều cột, đổi trang hoặc tiêu đề không đều. Bước 2: Ghi lại từng lỗi và sửa các lỗi nằm trong phạm vi 3 giờ đã phân. Bước 3: Chạy lại toàn bộ ví dụ cũ để chắc sửa bảng khó không làm hỏng tài liệu đơn giản; ghi rõ phần chưa hỗ trợ.	Test hồi quy trên mẫu khó ...**
+
+🟢 **	Sprint 3	S3-WBS24	S3-G01	2	Kiểm tra citation locator đầu-cuối	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy một câu trả lời mẫu của B1 và mở từng trích dẫn về đúng đoạn nguồn. Bước 2: Kiểm tra đặc biệt bảng trải nhiều trang và hai phiên bản cùng một tài liệu. Bước 3: Sửa trường hợp trích dẫn sai trang, sai bảng hoặc trỏ sang phiên bản dữ liệu khác.	Citation mẫu dẫn đúng document/trang/bảng và không...**
+
+🟢 **	Sprint 3	S3-WBS29	S3-G06	2	Rà soát chéo Golden40 theo lô	Đinh Huỳnh Vũ	Chưa bắt đầu	8		Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nhận Golden40 theo từng lô 10 câu từ Huyền, không chờ đủ 40 mới bắt đầu. Bước 2: Với mỗi câu, mở tài liệu gốc, kiểm tra đáp án, đơn vị/kỳ và vị trí nguồn; ghi đúng/sai và lý do. Bước 3: Trả danh sách bất đồng cho Huyền sửa, rồi xác nhận lại trước khi bộ câu hỏi được khóa.	Mỗi ca có dấu review người th...**
+
+🟢 **	Sprint 3	S3-WBS02	S3-G02	1	Chốt mô hình embedding và cấu hình	Hồ Phạm Đăng Nhân	Đã hoàn thành	3		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng vài đoạn văn mẫu để thử mô hình biến chữ thành dãy số (embedding), nhờ đó máy có thể tìm đoạn gần nghĩa. Bước 2: Ghi rõ tên/phiên bản mô hình, số chiều của dãy số và số đoạn xử lý mỗi lần. Bước 3: Lưu cấu hình và một kết quả mẫu để nhóm dùng chung; chưa cần đợi Vũ chia xong tài liệu thậ...**
+
+🟢 **	Sprint 3	S3-WBS07	S3-G02	1	Tạo embedding theo lô có báo lỗi	Hồ Phạm Đăng Nhân	Đã hoàn thành	4		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cho chương trình nhận nhiều đoạn văn mẫu một lần và tạo vector cho từng đoạn. Bước 2: Nếu một đoạn bị lỗi, ghi rõ mã đoạn và lý do, chỉ thử lại có giới hạn, không làm mất các đoạn thành công. Bước 3: Chạy thử một lô có cả đoạn tốt và đoạn lỗi để chứng minh có thể xử lý lại đúng phần lỗi.	Một m...**
+
+🟢 **	Sprint 3	S3-WBS12	S3-G02	1	Lưu vector và metadata vào pgvector	Hồ Phạm Đăng Nhân	Đã hoàn thành	5		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Vector mẫu ...**
+
+🟢 **	Sprint 3	S3-WBS17	S3-G02	1	Ingest thử corpus vào pgvector	Hồ Phạm Đăng Nhân	Đã hoàn thành	3		Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy một nhóm đoạn thật đã được Vũ gắn nguồn và tạo vector. Bước 2: Nạp vào pgvector, ghi số đoạn thành công, số lỗi và lý do lỗi. Bước 3: Truy vấn lại để đối chiếu số lượng, mã tài liệu, phiên bản; chạy lại không được nhân đôi dữ liệu.	Truy vấn pgvector thấy đúng số chunk hợp lệ và lỗi được lưu ...**
+
+🟢 **	Sprint 3	S3-WBS20	S3-G02	2	Tạo chỉ mục pgvector và đo baseline	Hồ Phạm Đăng Nhân	Đã hoàn thành	4		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo cách tra cứu vector trong pgvector trên dữ liệu đã nạp. Bước 2: Dùng một bộ câu hỏi tiếng Việt/Anh cố định, đo thời gian và kiểm tra đoạn tìm được. Bước 3: Lưu cách cấu hình và kết quả ban đầu để về sau so sánh; nếu dữ liệu thật chưa sẵn, ghi rõ số đo chỉ là tạm trên mẫu.	Có kết quả bas...**
+
+🟢 **	Sprint 3	S3-WBS25	S3-G02	2	Truy vấn vector có lọc phạm vi	Hồ Phạm Đăng Nhân	Đã hoàn thành	4		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Thêm bộ lọc để chỉ tìm đoạn của đúng công ty, kỳ, loại tài liệu và phiên bản dữ liệu đang chọn. Bước 2: Trả về một số đoạn phù hợp nhất cùng điểm tương đồng và vị trí nguồn. Bước 3: Thử câu hỏi cố tình chọn sai công ty/kỳ để chắc hệ thống không lấy nhầm nguồn ngoài phạm vi.	Ca lọc sai công ty/kỳ...**
+
+🟢 **	Sprint 3	S3-WBS30	S3-G02	2	Ghi timing và lỗi retrieval	Hồ Phạm Đăng Nhân	Đang test	3		Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Với mỗi lần tìm kiếm vector, ghi thời gian chạy, số đoạn tìm được, điểm của các đoạn và mã lỗi nếu có. Bước 2: Che thông tin nhạy cảm trong lỗi/log. Bước 3: Chạy câu hỏi thành công và câu hỏi lỗi để chắc người kiểm tra có đủ dấu vết tìm nguyên nhân chậm hoặc sai.	Một truy vấn có trace thật đủ phân tích...**
+
+🟢 **	Sprint 3	S3-WBS34	S3-G02	2	Kiểm thử E2E vector retrieval	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chọn một tài liệu sạch và chạy toàn bộ đường đi: Vũ chia đoạn, Nhân tạo/lưu vector, rồi tìm lại đoạn bằng câu hỏi. Bước 2: So số đoạn, mã nguồn, phiên bản và trích dẫn ở từng bước. Bước 3: Chạy lại để kiểm tra không trùng; lỗi nào chưa sửa được phải ghi rõ người phụ trách.	Ca E2E qua hoặc có lỗi k...**
+
+🟢 **	Sprint 3	S3-WBS05	S3-G08	1	Chốt thiết kế tài khoản và API	Nguyễn Minh Quân	Đã hoàn thành	3	2	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Xem các trang đăng nhập/đăng ký hiện có, phần tài khoản và phiên đăng nhập trong cơ sở dữ liệu. Bước 2: Vẽ luồng người dùng cho đăng ký, đăng nhập, quên mật khẩu, đặt lại mật khẩu và đăng xuất. Bước 3: Chốt cách quản lý đăng nhập và danh sách API cần làm trước khi code, kèm quy tắc không ghi mật...**
+
+🟢 **	Sprint 3	S3-WBS10	S3-G08	1	Code đăng ký và đăng nhập backend	Nguyễn Minh Quân	Đã hoàn thành	8	6	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo chức năng đăng ký bằng thông tin hợp lệ và lưu mật khẩu dưới dạng đã bảo vệ, không lưu bản gốc. Bước 2: Tạo đăng nhập, xử lý sai mật khẩu và giới hạn thử liên tiếp; trả thông báo không tiết lộ dữ liệu nhạy cảm. Bước 3: Kiểm thử tài khoản đúng/sai và xác nhận người dùng không tự cấp quyền ...**
+
+🟢 **	Sprint 3	S3-WBS15	S3-G08	1	Nối login/register UI với API	Nguyễn Minh Quân	Đã hoàn thành	4	3	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nối màn hình đăng nhập/đăng ký hiện có với API thật thay vì dữ liệu giả. Bước 2: Hiển thị trạng thái đang xử lý, nhập sai, lỗi mạng và đăng nhập thành công sao cho người dùng hiểu. Bước 3: Kiểm tra giao diện không lưu mật khẩu hoặc mã khôi phục trong trình duyệt.	Luồng UI đăng nhập/đăng ký dùng b...**
+
+🟢 **	Sprint 3	S3-WBS23	S3-G08	2	Code quên và đặt lại mật khẩu	Nguyễn Minh Quân	Đã hoàn thành	6	4	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo luồng người dùng nhập email để xin đặt lại mật khẩu; phản hồi giống nhau dù email có tồn tại hay không. Bước 2: Phát mã/đường dẫn khôi phục chỉ dùng một lần và có hạn, lưu bản đã bảo vệ, rồi cho người dùng đặt mật khẩu mới. Bước 3: Làm màn hình quên/đặt lại mật khẩu và thử mã đúng, mã hết hạn...**
+
+🟢 **	Sprint 3	S3-WBS28	S3-G08	2	Hoàn thiện session logout refresh	Nguyễn Minh Quân	Đã hoàn thành	4	3	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cho người dùng đăng xuất và làm phiên đăng nhập hết hiệu lực theo cách đã chọn. Bước 2: Xử lý trường hợp phiên hết hạn: thử làm mới an toàn nếu được phép, nếu không thì đưa về trang đăng nhập. Bước 3: Thử mã phiên sai, hết hạn và đã đăng xuất để chắc không truy cập tiếp được.	Logout thu hồi p...**
+
+🟢 **	Sprint 3	S3-WBS33	S3-G08	2	Bảo vệ API theo vai trò	Nguyễn Minh Quân	Đã hoàn thành	3	3	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Liệt kê API tài khoản, nguồn dữ liệu, corpus, truy vấn và đánh giá nằm trong phạm vi Sprint 3, cùng vai trò được phép dùng từng API. Bước 2: Kiểm tra quyền ở máy chủ, không chỉ ẩn nút trên giao diện. Bước 3: Thử tài khoản thiếu quyền gọi trực tiếp từng API và xác nhận bị từ chối.	Sai vai trò bị từ chối...**
+
+🟢 **	Sprint 3	S3-WBS36	S3-G08	2	Kiểm thử bảo mật tài khoản	Trần Diệu Huyền 	Chưa bắt đầu	2		Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Thử đặt lại mật khẩu bằng mã hết hạn và mã đã dùng; cả hai phải bị từ chối. Bước 2: Thử đăng xuất rồi dùng lại phiên và thử tài khoản sai vai trò gọi API. Bước 3: Xem log không lộ mật khẩu, mã reset hoặc việc email có tồn tại; lỗi chưa qua phải để mở, không đánh dấu hoàn thành.	Các ca bảo mật thiết yế...**
+
+🟢 **	Sprint 3	S3-WBS03	S3-G04	1	Chốt intent và phạm vi câu hỏi B1	Thái Quốc Hưng	Đã hoàn thành	4	4	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Liệt kê thông tin phải hiểu từ câu hỏi: công ty, thời kỳ và chỉ tiêu tài chính. Bước 2: Viết ví dụ câu hỏi đủ thông tin, thiếu thông tin và mơ hồ. Bước 3: Quy định khi nào hệ thống được tìm dữ liệu, khi nào phải hỏi lại người dùng; thử bằng dữ liệu mẫu trước.	Có bảng intent, scope và ca kiểm th...**
+
+🟢 **	Sprint 3	S3-WBS08	S3-G04	1	Chốt cấu trúc evidence pack	Thái Quốc Hưng	Đã hoàn thành	3	3	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Quy định một gói bằng chứng cần có nội dung đoạn, mã nguồn, vị trí trang/bảng, phiên bản dữ liệu và điểm phù hợp. Bước 2: Tạo vài gói mẫu và cho luồng trả lời B1 đọc thử, ngay cả khi tìm kiếm vector thật chưa xong. Bước 3: Kiểm tra gói thiếu vị trí nguồn hoặc phiên bản bị báo lỗi rõ ràng.	B1 đọc được...**
+
+🟢 **	Sprint 3	S3-WBS13	S3-G04	1	Dựng B1 retrieval orchestration bằng fixture	Thái Quốc Hưng	Đã hoàn thành	5	6	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nối phần hiểu câu hỏi với mẫu kết quả tìm kiếm và gói bằng chứng đã thống nhất. Bước 2: Cho B1 chạy thử với dữ liệu mẫu để kiểm tra đường đi từ câu hỏi đến danh sách nguồn. Bước 3: Xử lý riêng trường hợp không tìm thấy nguồn, kết quả rỗng hoặc hết thời gian; chưa phải đợi dữ liệu vec...**
+
+🟢 **	Sprint 3	S3-WBS18	S3-G04	1	Xử lý B1 khi câu hỏi hoặc nguồn mơ hồ	Thái Quốc Hưng	Đã hoàn thành	3	3	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng câu hỏi thiếu công ty/kỳ/chỉ tiêu để thử B1. Bước 2: Viết câu trả lời yêu cầu người dùng làm rõ thay vì đoán. Bước 3: Với câu hỏi đủ thông tin nhưng không có nguồn phù hợp, cho hệ thống nói chưa đủ bằng chứng và không tự tạo số liệu.	Ca thiếu công ty/kỳ hoặc không có nguồn không bị bịa...**
+
+🟢 **	Sprint 3	S3-WBS21	S3-G04	2	Nối B1 với retrieval và Gemini	Thái Quốc Hưng	Đã hoàn thành	5	6	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng dữ liệu mẫu để hoàn thiện phần gửi câu hỏi và bằng chứng cho Gemini. Bước 2: Khi Nhân bàn giao truy vấn vector có lọc, thay đầu vào mẫu bằng đoạn thật, giữ mã nguồn trong câu trả lời. Bước 3: Ghi phiên bản mô hình, prompt, giới hạn ngữ cảnh và kiểm tra B1 không bật cơ chế kiểm chứng riêng của...**
+
+🟢 **	Sprint 3	S3-WBS26	S3-G04	2	Kiểm tra trích dẫn và câu trả lời B1	Thái Quốc Hưng	Đã hoàn thành	3	2	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy vài câu trả lời B1 có nguồn đầy đủ, nguồn thiếu và nguồn mâu thuẫn. Bước 2: Kiểm tra từng nhận định có mã bằng chứng tương ứng và trích dẫn mở được. Bước 3: Với nhận định không chứng minh được, sửa câu trả lời thành thận trọng hoặc báo chưa đủ bằng chứng.	Không có claim vô nguồn trong ca...**
+
+🟢 **	Sprint 3	S3-WBS31	S3-G04	2	Áp giới hạn token timeout và budget	Thái Quốc Hưng	Đã hoàn thành	3	4	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chốt trần số token, thời gian và chi phí cho một lần trả lời, đưa các mức này vào cấu hình có phiên bản. Bước 2: Trước và trong lúc gọi Gemini, kiểm tra còn trong giới hạn hay không. Bước 3: Nếu vượt giới hạn, dừng và ghi lý do rõ ràng; thử để chắc không phát sinh cuộc gọi ngoài ngân sách.	Ca...**
+
+🟢 **	Sprint 3	S3-WBS35	S3-G04	2	Chạy B1 trên Golden40 đã khóa	Thái Quốc Hưng	Đã hoàn thành	4	3	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chỉ sau khi Huyền thông báo Golden40 đã khóa, chạy B1 trên đúng 40 câu với cùng phiên bản tài liệu, mô hình, prompt và cấu hình. Bước 2: Lưu cho từng câu: câu trả lời, nguồn đã dùng, thời gian, token và lỗi. Bước 3: Nếu thiếu kết quả/dấu vết, đánh dấu lần chạy chưa đủ, không công bố điểm tổng hợp.	...**
+
+🟢 **	Sprint 3	S3-WBS04	S3-G06	1	Chốt phân bổ Golden40	Trần Diệu Huyền	Đã hoàn thành	3		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lập danh sách đúng 40 câu hỏi để hiệu chỉnh hệ thống, chia đều theo loại câu hỏi, ngành, ngôn ngữ và thời kỳ đã chốt. Bước 2: Đánh mã từng câu, giao thành các lô 10 câu cho người kiểm tra. Bước 3: Đối chiếu để không trùng với 80 câu của bộ kiểm tra cuối, vì bộ cuối không được dùng để chỉnh hệ thống.	Bảng p...**
+
+🟢 **	Sprint 3	S3-WBS09	S3-G06	1	Soạn Golden40 lô 1–2	Trần Diệu Huyền	Đã hoàn thành	6		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Soạn 20 câu hỏi đầu theo phân bổ đã duyệt, kèm đáp án ngắn, đơn vị và kỳ báo cáo. Bước 2: Với mỗi đáp án, ghi tài liệu gốc và trang/mục/bảng có thể mở lại để kiểm chứng. Bước 3: Đánh dấu câu còn nghi ngờ và gửi từng lô 10 câu cho người rà soát, không chờ xong cả bộ.	20 ca có đáp án và locator mở lại được; đ...**
+
+🟢 **	Sprint 3	S3-WBS14	S3-G06	1	Soạn Golden40 lô 3–4	Trần Diệu Huyền	Đã hoàn thành	6		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Soạn nốt 20 câu còn lại để đủ 40 câu, không chỉ viết câu hỏi mà phải có đáp án và nguồn chứng minh. Bước 2: Kiểm tra toàn bộ 40 câu có đúng tỷ lệ loại câu/ngành/ngôn ngữ đã định. Bước 3: Gửi từng lô 10 câu cho Vũ rà soát và ghi rõ câu cần sửa.	Đủ 40 ca có đáp án, nguồn gốc và trạng thái cần review.	Golden40...**
+
+🟢 **	Sprint 3	S3-WBS22	S3-G06	2	Hoàn thiện đáp án và locator Golden40	Trần Diệu Huyền	Đã hoàn thành	8		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Mở lại tài liệu gốc cho từng câu trong Golden40 để kiểm tra đáp án, đơn vị, kỳ và vị trí trang/bảng. Bước 2: Sửa câu trùng, câu mơ hồ hoặc đáp án chưa có nguồn chắc chắn. Bước 3: Chuyển từng lô đã ổn cho Vũ rà soát độc lập, kèm danh sách chỗ còn bất đồng.	40 ca đủ trường bắt buộc; mỗi ca có...**
+
+🟢 **	Sprint 3	S3-WBS27	S3-G06	2	Khóa Golden40 sau rà soát chéo	Trần Diệu Huyền	Đã hoàn thành	2		Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nhận bản rà soát của Vũ cho từng lô 10 câu. Bước 2: Cùng Vũ giải quyết tất cả câu còn bất đồng về đáp án hoặc vị trí nguồn. Bước 3: Lưu bản Golden40 cuối cùng với mã phiên bản và mã kiểm tra nội dung; từ đây không sửa âm thầm khi chạy đánh giá.	40 ca có version khóa; không còn bất đồng chưa xử lý....**
+
+🟢 **	Sprint 3	S3-WBS32	S3-G06	2	Chuẩn bị metric và bàn giao Golden40	Trần Diệu Huyền	Chưa bắt đầu	5		Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Viết tiêu chí chấm câu trả lời: đúng số liệu, có nguồn mở lại được, trả lời đủ ý và trường hợp cần người kiểm tra. Bước 2: Thử cách tính trên vài ca mẫu, ghi kết quả tạm. Bước 3: Sau khi Golden40 được khóa, chạy lại trên bản khóa và bàn giao bảng lỗi cùng phiên bản dùng cho Sprint 4.	Có metri...**
+
+🟢 **					Tổng giờ các task			150	52																				**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				46							5	9	6	3	3	1	0	7	3	3	3	3	0	0**
+
+🟢 **Sprint 3 Report**
+
+🟢 **Sprint 3 Report							**
+
+🟢 **Phạm vi (task)	36	Done hiện tại	29	Giờ dự kiến	150	Done thiếu ngày	29**
+
+🟢 **Giờ thực tế	52	Bắt đầu	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0**
+
+🟢 **Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	36		0		36		**
+
+🟢 **Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		33.43	5	5**
+
+🟢 **Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		30.86	9	14**
+
+🟢 **Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		28.29	6	20**
+
+🟢 **Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		25.71	3	23**
+
+🟢 **Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		23.14	3	26**
+
+🟢 **Sat Oct 17 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		20.57	1	27**
+
+🟢 **Sun Oct 18 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		18		27**
+
+🟢 **Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		15.43	7	34**
+
+🟢 **Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		12.86	3	37**
+
+🟢 **Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		10.29	3	40**
+
+🟢 **Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		7.71	3	43**
+
+🟢 **Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		5.14	3	46**
+
+🟢 **Sat Oct 24 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		2.57		46**
+
+🟢 **Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	0		0		46**
+
+🟢 **	Mục tiêu Sprint 4: Graph RAG cho quan hệ doanh nghiệp, chức vụ và sự kiện; Hybrid Router chọn VECTOR/GRAPH/BOTH. Dùng lại chunk và B1 Sprint 3.																												**
+
+🟢 **	Chỉ nhập giờ thực tế ở cột ngày màu vàng. Giờ thực tế là tổng các ngày đã ghi, để trống khi chưa ghi giờ.																												**
+
+🟢 **	Chỉ nhập giờ thực tế ở cột ngày màu vàng. Giờ thực tế là tổng các ngày đã ghi, để trống khi chưa ghi giờ.																												**
+
+🟢 **	Chỉ nhập giờ thực tế ở cột ngày màu vàng. Giờ thực tế là tổng các ngày đã ghi, để trống khi chưa ghi giờ.																												**
+
+🟢 **	Phân công theo nhóm đã chốt. WBS10 tuần 1; WBS09 tuần 2. WBS17 là một task chung: Nhân 7h và Huyền 6h, tổng 13 giờ công. Ngày và giờ là đề xuất; dùng fixture khi chờ đầu vào.																												**
+
+🟢 **	FinMind Sprint 4 Backlog																												**
+
+🟢 **	Số task	17	Giờ dự kiến	128	Tổng giờ thực tế đã ghi			Tuần 1 (h)	65	Tuần 2 (h)	63																		**
+
+🟢 **	Sprint	Mã task	Mã việc tổng quát	Tuần trong sprint	Công việc	Phụ trách	Tình trạng	Giờ dự kiến	Giờ thực tế	Bắt đầu dự kiến	Deadline	Cần làm gì	Điều kiện hoàn thành	Đầu vào cần có	Ngày hoàn thành thực tế	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Oct 31 2026 07:00:00 GMT+0700 (Indochi...**
+
+🟢 **4. Bàn giao quan hệ ứng viên có đoạn nguồn; thử ca nhiều chức vụ, nhiều công ty, thiếu thời gian và nguồn mâu thuẫn.	Quan hệ chức vụ đủ người, tổ chức, chức danh và provenance; không nhầm trạng thái hoặc thời gian; ca chưa rõ được đánh dấu.	WBS01; dùng WBS02 thật để nghiệm thu. Có thể làm bằng fixture song song WBS03/WBS05 và phần lưu metadata WBS07.															**
+
+🟢 **4. Kiểm tra quyền đọc/ghi thực tế của ứng dụng. Thử migration trên môi trường được phép và lưu bằng chứng; chưa gắn graph chưa hoàn tất vào corpus đang dùng.	Repository/migration được kiểm tra; metadata truy lại được nguồn; có giới hạn quyền và kiểm tra chống trùng/phiên bản. Không coi đã bật RLS là đủ nghiệm thu.	WBS01 và trạng thái WBS06 (có thể chốt interface song song). Dùng repository fixture trước DB thật. Phối hợp khóa extraction/version với Nhân WBS08.															**
+
+🟢 **4. Chạy hồi quy các câu B1 đã hoạt động và bàn giao adapter thật cho WBS13.	VECTOR chạy được nguồn thật, giữ phạm vi/metadata và không làm hỏng B1; có test các ca rỗng/lỗi.	WBS10 và Vector RAG Sprint 3. Không chờ WBS09. Làm sớm đầu tuần 2 để Vũ còn thời gian WBS16.															**
+
+🟢 **5. Bàn giao báo cáo full-load, lỗi còn lại và phiên dữ liệu. 8h là công chuẩn bị, theo dõi và đối chiếu, không phải cam kết thời gian máy/LLM hay duyệt thủ công mọi quan hệ.	Toàn bộ News đã chốt có trạng thái, không mất tin lỗi; có báo cáo mẫu/full-load riêng và danh sách lỗi chưa xử lý. Không coi mọi quan hệ trích xuất là đã được chấp nhận.	WBS01–08 và kiểm tra mẫu WBS09.5 đạt. Batch runner làm trước bằng fixture; không cần chờ router/chat/UI. Phụ thuộc hạn mức dịch vụ và quyền chạy dữ liệu thậ...**
+
+🟢 **4. Dùng ID WBS02 để xuất đúng contract; kiểm tra mẫu hợp lệ, sai chiều, thiếu chủ thể và hai tên chỉ xuất hiện cùng đoạn.	Có quan hệ doanh nghiệp ứng viên kèm nguồn, trạng thái và thời gian nếu có; test không tạo quan hệ chỉ từ đồng xuất hiện.	Contract WBS01; chuẩn hóa thật WBS02 để đóng task. Có thể code bằng entity fixture từ 27/10, không phải đợi WBS02 xong mới bắt đầu.															**
+
+🟢 **4. Xử lý lỗi nạp dở, chuẩn bị resume và đối chiếu số liệu/khóa giữa hai hệ thống. Nghiệm thu phần ghi bằng fixture ở tuần 1; WBS09 nối extraction thật tuần 2.	Bộ ghi graph có test chống trùng, không lẫn phiên, giữ extraction/nguồn và không công bố lần nạp dở. Có graph fixture dùng cho truy vấn.	WBS01; thống nhất metadata/version với WBS07. Không phải đợi full extractor; dùng graph fixture trước. WBS09 chịu trách nhiệm ghép dữ liệu thật.															**
+
+🟢 **4. Chuẩn bị adapter bằng fixture từ đầu tuần, nối retrieval thật sau khi WBS09 bàn giao; kiểm tra không lộ quan hệ chờ duyệt.	GRAPH chạy bằng graph thật đúng scope, có nguồn và lỗi rõ; đọc lại nguồn bằng ID không bị gắn nhãn BOTH.	Contract WBS10; WBS09 thật để đóng task. Có thể code adapter bằng fixture trước, không đứng chờ pipeline ghép xong.															**
+
+🟢 **5. Cùng bàn giao bộ test, kết quả chạy thật, bảng so sánh B1/B2, báo cáo full-load và giới hạn còn lại. Chỉ hoàn thành task khi cả phần Nhân và Huyền đạt. Tổng 13 giờ công = Nhân 7 giờ + Huyền 6 giờ, không phải 13 giờ mỗi người.	Có bộ test và kết quả thật cho VECTOR/GRAPH/BOTH và ba nhóm quan hệ; bảng B1/B2 có chất lượng và thời gian phản hồi; citation đúng nguồn; có kiểm thử lỗi/E2E/hồi quy, báo cáo full-load và danh sách lỗi còn lại. Không mặc định B2 tốt hơn B1.	Chuẩn bị bộ ca bằng WBS01/fixt...**
+
+🟢 **5.  Bàn giao extractor theo lô cho WBS16; chưa chạy full-load trong task này.	Extractor sự kiện chạy được trên News thật mẫu; giữ nguồn, ngày và trạng thái; không công bố nội dung mơ hồ thành sự thật. Có test và interface batch.	WBS01; entity fixture để bắt đầu, WBS02 thật để nghiệm thu. Phần bất định chuyển WBS06. Chạy toàn bộ News thuộc WBS16 của Vũ.															**
+
+🟢 **5. Làm điều phối bằng hai adapter fixture trước; nối WBS11/WBS12 thật để nghiệm thu.	BOTH thực sự sử dụng hai nhánh, có bộ evidence chung và trạng thái riêng; không che phần chưa được đáp ứng.	WBS10–12. Có thể bắt đầu bằng fixture ngày 02/11; nghiệm thu sau adapter thật. Bàn giao cho WBS14 và WBS17.															**
+
+🟢 **5. Giữ cấu hình B1 để so sánh; không tự bật Evidence Gate/verifier B3 thuộc sprint sau.	Câu trả lời/citation truy lại được nguồn, không bịa quan hệ/số liệu hoặc che lỗi nhánh; có test và gói bàn giao.	Evidence contract và WBS11–13. Có thể chuẩn bị formatter/citation bằng fixture trước, nghiệm thu sau tuyến thật.															**
+
+🟢 **4. Tạo fixture hợp lệ, thiếu metadata và mơ hồ cho ba nhóm quan hệ và ba tuyến VECTOR/GRAPH/BOTH; bàn giao contract ngay 26/10 để các nhánh làm song song.	Có manifest đầu vào, contract và fixture được team thống nhất. Không làm lại chunking. Giữ contract và bộ ca B1 hiện có để đối chứng.	Đầu vào: chunk, metadata nguồn, corpus và giao diện/Vector RAG Sprint 3. Không chờ graph thật. Đầu ra ngày 26/10 mở đường cho WBS02–08 và WBS10.															**
+
+🟢 **4. Kiểm tra cùng đầu vào không tạo ID trùng hoặc thay đổi tùy ý; bàn giao interface/fixture sớm rồi nối bộ chuẩn hóa thật trước 29/10.	Thực thể có ID và alias nhất quán, có provenance; ca trùng tên không bị gộp sai; có test và bộ mẫu bàn giao.	Phụ thuộc WBS01. WBS03–05 được dùng thực thể fixture trước; chỉ nghiệm thu bản nối thật sau WBS02. Không phụ thuộc Neo4j/Supabase.															**
+
+🟢 **5. 09.5 Chạy mẫu thật đủ ba loại quan hệ, thử nạp lại/lỗi; bàn giao graph retrieval và receipt mẫu đạt trước khi Vũ chạy toàn bộ News.	Có đường chạy thật chunk → extractor → kiểm duyệt → Supabase/Neo4j → retrieval có nguồn; không trùng/lẫn phiên, không dùng quan hệ chưa duyệt. Có receipt mẫu sẵn sàng full-load.	Nghiệm thu cần WBS02–08. Có thể chuẩn bị điều phối/query từ fixture trước; không viết lại repository/extractor. WBS12 dùng retrieval này; WBS16 chỉ full-load sau 09.5 đạt.															**
+
+🟢 **4. Thử fixture từ 26/10, rồi thử đầu ra thật của ba extractor khi sẵn sàng. Chỉ kết quả được chấp nhận đủ điều kiện đưa vào graph trả lời.	Ba nhóm quan hệ có kết quả kiểm tra và lý do; ca mơ hồ/mâu thuẫn đi chờ duyệt; ca thiếu nguồn bị chặn; có test.	WBS01 để code ngay. Cần mẫu thật WBS03–05 để nghiệm thu từng loại. WBS07 lưu trạng thái; không chờ cả ba extractor mới chuẩn bị quy tắc.															**
+
+🟢 **5. Kiểm tra nhiều cách diễn đạt, trùng tên, thiếu kỳ và yêu cầu kết hợp. Bàn giao interface cho WBS11–13; chưa đợi graph thật.	Router chọn đúng ba tuyến trên bộ ca fixture, hỏi lại đúng khi chưa rõ; có lý do/trace và contract adapter. Nối nhánh thật trong tuần 2.	WBS01 và intent/context B1 Sprint 3. Hoàn toàn có thể làm song song trích xuất dữ liệu. Không phụ thuộc WBS09 hoặc full-load.															**
+
+🟢 **5. Dùng fixture đầu tuần để dựng/test UI, chuyển sang API thật khi WBS09/WBS12 sẵn sàng.	Graph Viewer dùng dữ liệu thật, mở đúng nguồn của quan hệ; có kiểm tra rỗng/lỗi/responsive và phiên dữ liệu.	Contract/API WBS01 và WBS09; nếu dùng chung adapter chat thì WBS12. Không cần chờ BOTH hoặc phần tạo câu trả lời.															**
+
+🟢 **					Tổng giờ các task			128	0																				**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				0							0	0	0	0	0	0	0	0	0	0	0	0	0	0**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				0							0	0	0	0	0	0	0	0	0	0	0	0	0	0**
+
+🟢 **					Giờ thực tế theo ngày (tự tính)				0							0	0	0	0	0	0	0	0	0	0	0	0	0	0**
+
+🟢 **Sprint 4 Report**
+
+🟢 **Sprint 4 Report							**
+
+🟢 **Phạm vi (task)	17	Done hiện tại	6	Giờ dự kiến	128	Done thiếu ngày	6**
+
+🟢 **Giờ thực tế		Bắt đầu	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0**
+
+🟢 **Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	17		0		17		**
+
+🟢 **Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		15.79		**
+
+🟢 **Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		14.57		**
+
+🟢 **Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		13.36		**
+
+🟢 **Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		12.14		**
+
+🟢 **Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		10.93		**
+
+🟢 **Sat Oct 31 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		9.71		**
+
+🟢 **Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		8.5		**
+
+🟢 **Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		7.29		**
+
+🟢 **Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		6.07		**
+
+🟢 **Wed Nov 04 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		4.86		**
+
+🟢 **Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		3.64		**
+
+🟢 **Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		2.43		**
+
+🟢 **Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		1.21		**
+
+🟢 **Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0		0		**
+
+🟢 **	Sprint 5 gồm 38 task con. Tuần 1 sửa lỗi và nối truy xuất (58h); tuần 2 tối ưu Chat và nhận định xu hướng (50h). Ngày là khung theo tuần. Phân công tối đa 15h/người/tuần.																												**
+
+🟢 **	FinMind Sprint 5 Backlog																												**
+
+🟢 **	Số task	38	Giờ dự kiến	108	Tổng giờ thực tế đã ghi																								**
+
+🟢 **	Sprint	Mã task	Mã việc tổng quát	Tuần trong sprint	Công việc	Phụ trách	Tình trạng	Giờ dự kiến	Giờ thực tế	Bắt đầu dự kiến	Deadline	Cần làm gì	Điều kiện hoàn thành	Đầu vào cần có	Ngày hoàn thành thực tế	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 14 2026 07:00:00 GMT+0700 (Indochi...**
+
+🟢 **	Sprint 5	S5-WBS01.1	S5-G01	1	Tái hiện lỗi hỏi chức vụ và BCTN		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy hai câu hỏi trên Web Chat, đối chiếu graph và BCTN trong DB, ghi trace từ router tới truy xuất.	Có hai câu mẫu, dữ liệu đối chiếu và bước chọn sai nguồn hoặc chặn tìm kiếm.	Dữ liệu Sprint 4															**
+
+🟢 **	Sprint 5	S5-WBS01.2	S5-G01	1	Tái hiện lỗi hội thoại và hết hạn token		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy hội thoại nhiều lượt và gửi tin sau khi access token hết hạn.	Có hai ca tái hiện cùng kết quả thực tế và kỳ vọng.	Web Chat hiện có															**
+
+🟢 **	Sprint 5	S5-WBS02.1	S5-G01	1	Tìm điều kiện chặn câu hỏi BCTN		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Theo dõi luồng từ nhận câu hỏi đến bộ lọc tài liệu, chỉ ra điều kiện chặn.	Tái hiện bằng một BCTN có trong DB và xác định đúng bước chặn.	S5-WBS01.1															**
+
+🟢 **	Sprint 5	S5-WBS02.2	S5-G01	1	Chuẩn hóa loại tài liệu và bộ lọc BCTN		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ánh xạ BCTN, báo cáo thường niên và annual report về cùng loại. Truyền mã công ty và kỳ xuống tìm kiếm.	Ba cách gọi đi cùng bộ lọc và giữ đúng mã công ty, kỳ.	S5-WBS02.1															**
+
+🟢 **	Sprint 5	S5-WBS02.3	S5-G01	1	Kiểm thử truy xuất BCTN bằng dữ liệu thật		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử BCTN có nguồn, sai kỳ, thiếu tài liệu và không có quyền.	Ca có quyền lấy đúng đoạn. Các ca còn lại phản hồi đúng tình trạng.	S5-WBS02.2															**
+
+🟢 **	Sprint 5	S5-WBS03.1	S5-G02	1	Chốt nhãn ý định và ranh giới giữa các nhãn		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Định nghĩa nhãn số liệu, BCTC/BCTN, News, chức vụ, quan hệ, xu hướng và kết hợp.	Có bảng nhãn và ví dụ phân biệt các ý định dễ nhầm.	—															**
+
+🟢 **	Sprint 5	S5-WBS03.2	S5-G02	1	Soạn cụm từ mẫu và bộ câu kiểm thử riêng		Chưa bắt đầu	4		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Viết mẫu có dấu, không dấu, viết tắt và cặp dễ nhầm. Tách câu kiểm thử khỏi thư viện dùng để đối chiếu.	Có bộ mẫu gắn nhãn và bộ test riêng, gồm hỏi chức vụ so với hỏi tin bổ nhiệm.	S5-WBS03.1															**
+
+🟢 **	Sprint 5	S5-WBS03.3	S5-G02	1	Vector hóa và lưu phiên bản thư viện		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo vector cho các câu mẫu và lưu nhãn, phiên bản thư viện và embedding.	Có dữ liệu vector và thông tin phiên bản để tái tạo.	S5-WBS03.2															**
+
+🟢 **	Sprint 5	S5-WBS04.1	S5-G02	1	Đối chiếu vector câu hỏi với thư viện		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng cùng mô hình embedding để tính độ tương đồng và lấy nhóm ý định gần nhất.	Trả được các nhóm gần nhất và điểm tương đồng.	S5-WBS03.3															**
+
+🟢 **	Sprint 5	S5-WBS04.2	S5-G02	1	Đặt ngưỡng tin cậy và quy tắc chọn nhánh		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng điểm cao nhất, khoảng cách hai nhóm đầu và thông tin công ty/kỳ để chọn nhánh, hỏi lại hoặc báo cần fallback.	Có đầu ra VECTOR, GRAPH, BOTH, ASK\_CLARIFICATION hoặc tín hiệu fallback theo từng ca.	S5-WBS04.1															**
+
+🟢 **	Sprint 5	S5-WBS04.3	S5-G02	1	Chạy bộ câu kiểm thử router		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy bộ test riêng và ghi nhãn, điểm, lý do và nhánh.	Có bảng kỳ vọng và thực tế, gồm câu chức vụ, kết hợp và thiếu dữ kiện.	S5-WBS04.2, S5-WBS03.2															**
+
+🟢 **	Sprint 5	S5-WBS05.1	S5-G03	1	Nối router vào luồng xử lý tin nhắn Web Chat		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Gọi router trong backend khi Web Chat gửi tin và ghi trace. Có thể chuẩn bị tích hợp bằng mẫu.	Trace xác nhận Web Chat gọi router và chọn nhánh.	S5-WBS04.2															**
+
+🟢 **	Sprint 5	S5-WBS05.2	S5-G03	1	Nối nhánh GRAPH với Neo4j qua adapter hiện có		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng graph adapter để lấy quan hệ đã duyệt, chức vụ và nguồn tương ứng.	Câu hỏi chức vụ trả đúng người, chức vụ và bằng chứng.	S5-WBS05.1, graph có dữ liệu đã duyệt															**
+
+🟢 **	Sprint 5	S5-WBS05.3	S5-G03	1	Kiểm thử graph thật, graph rỗng và lỗi kết nối		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy ca có dữ liệu, không có quan hệ và lỗi Neo4j trên luồng Web Chat.	Trace xác nhận gọi graph thật. Chat phân biệt rỗng và lỗi truy xuất.	S5-WBS05.2															**
+
+🟢 **	Sprint 5	S5-WBS06.1	S5-G04	1	Dùng cơ chế refresh token chung cho request Chat		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Nối request Chat vào luồng auth chung và thử lại có kiểm soát khi nhận 401.	Phiên hợp lệ tiếp tục dùng được sau refresh.	Có thể làm độc lập															**
+
+🟢 **	Sprint 5	S5-WBS06.2	S5-G04	1	Kiểm tra refresh thất bại và chống gửi trùng		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử nhiều request 401, refresh hết hạn và gửi lại tin nhắn.	Không tạo hai tin. Khi refresh hết hạn, yêu cầu đăng nhập lại.	S5-WBS06.1															**
+
+🟢 **	Sprint 5	S5-WBS07.1	S5-G05	1	Chốt điều kiện fallback và JSON phân loại		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Quy định điểm thấp, hai nhóm sát nhau hoặc lỗi phân loại. Chốt nhãn cho phép và ngữ cảnh tối thiểu gửi đi.	Có contract phân loại và quy tắc kiểm tra kết quả.	S5-WBS03.1, S5-WBS04.2															**
+
+🟢 **	Sprint 5	S5-WBS07.2	S5-G05	1	Nối AI bên thứ ba vào bước phân loại		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Gọi AI khi cần, giới hạn thời gian, xác thực nhãn và chuyển kết quả về router FinMind. Chuẩn bị bằng phản hồi mẫu.	Nhãn hợp lệ tiếp tục truy xuất trong FinMind. Trace ghi lần gọi.	S5-WBS07.1															**
+
+🟢 **	Sprint 5	S5-WBS07.3	S5-G05	1	Kiểm thử fallback và trường hợp cả hai bước thất bại		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử AI trả đúng, sai nhãn, timeout và câu rõ ý định.	Ca thất bại hỏi lại. Câu rõ ý định xử lý nội bộ.	S5-WBS07.2															**
+
+🟢 **	Sprint 5	S5-WBS08.1	S5-G06	1	Chuẩn bị chuỗi giá theo mã doanh nghiệp		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chốt khoảng giá, lấy ngày đầu/cuối, số phiên và nguồn theo mã.	Có chuỗi giá mẫu và mức biến động truy được nguồn.	Dữ liệu giá hiện có															**
+
+🟢 **	Sprint 5	S5-WBS08.2	S5-G06	1	Lấy chỉ tiêu từ các kỳ BCTC gần nhất		Chưa bắt đầu	4		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Lấy doanh thu, lợi nhuận, dòng tiền nếu có. Ghi kỳ, đơn vị, ngày công bố nếu có và đoạn nguồn.	Có số liệu theo kỳ cùng bằng chứng gốc.	Dữ liệu BCTC hiện có															**
+
+🟢 **	Sprint 5	S5-WBS08.3	S5-G06	1	Chuẩn hóa đầu vào cho mô hình xu hướng		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ghép mã, chuẩn hóa đơn vị và chọn kỳ so sánh tương đương. Đánh dấu thiếu dữ liệu.	Có đầu vào theo doanh nghiệp, kỳ, đơn vị và trạng thái đủ dữ liệu.	S5-WBS08.1, S5-WBS08.2															**
+
+🟢 **	Sprint 5	S5-WBS09.1	S5-G07	2	Kế thừa công ty, kỳ và chủ đề giữa các lượt		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng phạm vi hội thoại hiện tại, ưu tiên công ty hoặc kỳ mới nếu người dùng thay đổi.	Câu nối tiếp giữ đúng phạm vi và chuyển phạm vi khi được yêu cầu.	S5-WBS05.1															**
+
+🟢 **	Sprint 5	S5-WBS09.2	S5-G07	2	Xử lý liệt kê và giới thiệu tổng quan		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Liệt kê nội dung đang nói. Tổng quan đúng doanh nghiệp và truy xuất thêm khi cần.	Hai câu mẫu chạy đúng trong phiên nhiều lượt.	S5-WBS09.1															**
+
+🟢 **	Sprint 5	S5-WBS09.3	S5-G07	2	Xử lý tổng hợp nãy giờ		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tóm tắt nội dung phiên hiện tại và giữ các nguồn đã dẫn.	Không lẫn nội dung giữa các phiên, nguồn còn đối chiếu được.	S5-WBS09.1															**
+
+🟢 **	Sprint 5	S5-WBS10.1	S5-G06	2	Tính nhóm tín hiệu giá		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tính biến động theo khoảng đã chốt và đánh dấu thiếu phiên hoặc thiếu giá.	Có tín hiệu giá và dữ liệu dùng để tính.	S5-WBS08.1, S5-WBS08.3															**
+
+🟢 **	Sprint 5	S5-WBS10.2	S5-G06	2	Tính nhóm tín hiệu tài chính		Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tính thay đổi doanh thu, lợi nhuận và dòng tiền khi có kỳ tương đương.	Có tín hiệu từng chỉ tiêu và nguồn tương ứng.	S5-WBS08.2, S5-WBS08.3															**
+
+🟢 **	Sprint 5	S5-WBS10.3	S5-G06	2	Gộp tín hiệu và trả nhãn xu hướng		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng quy tắc chấm điểm giải thích được để gộp tín hiệu giá và tài chính.	Trả đi lên, đi xuống, trái chiều hoặc chưa đủ dữ liệu. Ca trái chiều thể hiện hai tín hiệu riêng.	S5-WBS10.1, S5-WBS10.2															**
+
+🟢 **	Sprint 5	S5-WBS10.4	S5-G06	2	Kiểm thử quy tắc chấm điểm		Chưa bắt đầu	2		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thử cùng tăng, cùng giảm, trái chiều và thiếu kỳ.	Mỗi nhãn giải thích được bằng số liệu đầu vào.	S5-WBS10.3															**
+
+🟢 **	Sprint 5	S5-WBS11.1	S5-G06	2	Nối ý định xu hướng với mô hình nhận định		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Khi nhận diện câu hỏi xu hướng, gọi mô hình với đúng mã và phạm vi. Chuẩn bị bằng kết quả mẫu trước.	Trace xác nhận Chat gọi mô hình đúng đầu vào.	S5-WBS04.2, S5-WBS05.1, S5-WBS10.3 để nghiệm thu thật															**
+
+🟢 **	Sprint 5	S5-WBS11.2	S5-G06	2	Hiển thị nhận định xu hướng trong Chat		Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tách diễn biến giá và tình hình tài chính, ghi kỳ, chỉ tiêu, nguồn và phần còn thiếu.	Chat đưa nhận định đúng công ty, kỳ và có nguồn kiểm tra được.	S5-WBS11.1, S5-WBS10.3															**
+
+🟢 **	Sprint 5	S5-WBS12.1	S5-G08	2	Định dạng câu trả lời theo yêu cầu		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng danh sách cho liệt kê, bảng cho so sánh và tóm tắt cho tổng quan.	Câu trả lời có đúng cấu trúc người dùng yêu cầu.	S5-WBS09.2, S5-WBS09.3 cho ca nối tiếp															**
+
+🟢 **	Sprint 5	S5-WBS12.2	S5-G08	2	Ghép bằng chứng graph và tài liệu cho BOTH		Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ghép kết quả theo đúng mã công ty và kỳ, gắn citation sát nhận định.	Cả hai loại bằng chứng được dùng đúng phạm vi và nguồn.	S5-WBS05.2, nhánh Vector hiện có															**
+
+🟢 **	Sprint 5	S5-WBS12.3	S5-G08	2	Xử lý kết quả rỗng, thiếu nguồn và lỗi một nhánh		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ trình bày phần có căn cứ, ghi rõ phần còn thiếu và thử ca fallback thất bại.	Câu trả lời phân biệt rỗng, thiếu bằng chứng và lỗi nhánh.	S5-WBS07.3, S5-WBS12.1, S5-WBS12.2															**
+
+🟢 **	Sprint 5	S5-WBS13.1	S5-G09	2	Chạy hồi quy bốn lỗi Sprint 4 trên Web Chat		Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy lại ca chức vụ, BCTN, ngữ cảnh và token hết hạn.	Có kết quả pass/fail và trace cho đủ bốn lỗi.	S5-WBS02.3, S5-WBS05.3, S5-WBS06.2, S5-WBS09.2, S5-WBS09.3															**
+
+🟢 **	Sprint 5	S5-WBS13.2	S5-G09	2	Đánh giá router và fallback trên bộ câu riêng		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3															**
+
+🟢 **	Sprint 5	S5-WBS13.3	S5-G09	2	Đối chiếu nhận định xu hướng và citation		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu giá và BCTC gốc cho ca đủ dữ liệu, trái chiều và thiếu dữ liệu.	Số liệu, kỳ, nhãn và citation khớp nguồn ở các ca thử.	S5-WBS10.4, S5-WBS11.2, S5-WBS12.2															**
+
+🟢 **	Sprint 5	S5-WBS13.4	S5-G09	2	Chuẩn bị kịch bản demo và tổng hợp lỗi còn lại		Chưa bắt đầu	2		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tập hợp câu hỏi demo, kỳ vọng, kết quả thực tế, trace và lỗi còn mở.	Có kịch bản demo toàn luồng và danh sách lỗi còn mở.	S5-WBS13.1, S5-WBS13.2, S5-WBS13.3															**
+
+🟢 **					Tổng giờ các task			108	0																				**
+
+🟢 **Sprint 5 Report**
+
+🟢 **Sprint 5 Report							**
+
+🟢 **Phạm vi (task)	38	Done hiện tại	0	Giờ dự kiến	108	Done thiếu ngày	0**
+
+🟢 **Giờ thực tế		Bắt đầu	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0**
+
+🟢 **Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	38		0	38	38		**
+
+🟢 **Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	38	0	0	38	35.29		**
+
+🟢 **Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	38				32.57		**
+
+🟢 **Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	38				29.86		**
+
+🟢 **Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	38				27.14		**
+
+🟢 **Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	38				24.43		**
+
+🟢 **Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	38				21.71		**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	38				19		**
+
+🟢 **Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	38				16.29		**
+
+🟢 **Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	38				13.57		**
+
+🟢 **Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	38				10.86		**
+
+🟢 **Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	38				8.14		**
+
+🟢 **Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	38				5.43		**
+
+🟢 **Sat Nov 21 2026 07:00:00 GMT+0700 (Indochina Time)	38				2.71		**
+
+🟢 **Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	38				0		**
+
+🟢 **	Ngày, giờ và phân công là đề xuất. Tuần 1 và 2 tính từ thứ Hai bắt đầu sprint; chỉ làm khi đầu vào đã sẵn sàng.																												**
+
+🟢 **	FinMind Sprint 6 Backlog																												**
+
+🟢 **	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi																								**
+
+🟢 **	Sprint	Mã task	Mã việc tổng quát	Tuần trong sprint	Công việc	Phụ trách	Tình trạng	Giờ dự kiến	Giờ thực tế	Bắt đầu dự kiến	Deadline	Cần làm gì	Điều kiện hoàn thành	Đầu vào cần có	Ngày hoàn thành thực tế	Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochi...**
+
+🟢 **	Sprint 6	S6-WBS01	S6-G01	1	Kiểm tra bộ 80 ca đã khóa	Trần Diệu Huyền	Chưa bắt đầu	4		Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu phiên bản, phân bổ ca và locators được reviewer duyệt. Runtime không được đọc đáp án chuẩn.	Có 80 ca final hợp lệ tách khỏi dữ liệu tuning.	Phiên bản bàn giao của sprint trước đã được duyệt.															**
+
+🟢 **	Sprint 6	S6-WBS02	S6-G01	1	Kiểm tra manifest B0 B1 B2 B3	Trần Diệu Huyền	Chưa bắt đầu	5		Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu code tag, corpus, model, prompt, threshold và evaluator đã chốt ở Sprint 5.	Bốn cấu hình được ghi rõ và không thay đổi giữa các ca.	Phiên bản bàn giao của sprint trước đã được duyệt.															**
+
+🟢 **	Sprint 6	S6-WBS03	S6-G01	1	Tạo run ID và checkpoint hạ tầng	Nguyễn Minh Quân	Chưa bắt đầu	4		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Thiết lập lưu trạng thái từng câu và cách chạy tiếp chỉ khi hạ tầng lỗi với manifest không đổi.	Có thể resume lỗi hạ tầng mà không thay cấu hình hoặc chọn lại kết quả.	Phiên bản bàn giao của sprint trước đã được duyệt.															**
+
+🟢 **	Sprint 6	S6-WBS04	S6-G01	1	Kiểm tra cách ly nhãn và quyền evaluator	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ evaluator đọc gold labels; xác nhận API runtime không nhận đáp án chuẩn.	Không có nhãn final trong context hoặc log đầu vào generator.	Phiên bản bàn giao của sprint trước đã được duyệt.															**
+
+🟢 **	Sprint 6	S6-WBS05	S6-G02	1	Chạy và lưu đầu ra B0	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy các câu bằng cấu hình structured control; ghi trả lời hoặc không trả lời và lý do.	Có kết quả từng câu của B0 với manifest và trace.	Kiểm tra đầu ra liên quan của S6-G01 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS06	S6-G02	1	Chạy và lưu đầu ra B1	Nguyễn Minh Quân	Chưa bắt đầu	4		Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy vector RAG đúng tag, giữ output, citation, latency và token.	Không bật các thành phần chỉ thuộc B3 trong B1.	Kiểm tra đầu ra liên quan của S6-G01 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS07	S6-G02	1	Chạy và lưu đầu ra B2	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy hybrid graph vector cùng corpus và bộ final; ghi nhánh graph và fusion.	Có đủ dữ liệu từng câu để đối chiếu với B1.	Kiểm tra đầu ra liên quan của S6-G01 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS08	S6-G02	1	Chạy và lưu đầu ra B3	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy cả Gate và verifier, kể cả nhánh sửa có giới hạn; ghi cả fallback hoặc partial.	Mỗi tag chỉ có lượt final hợp lệ theo policy, không chọn lượt đẹp nhất.	Kiểm tra đầu ra liên quan của S6-G01 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS09	S6-G03	1	Tính đúng số độ trung thực và citation	Thái Quốc Hưng	Chưa bắt đầu	4		Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng cùng định nghĩa và phiên bản evaluator để tính quality metrics từ kết quả thực tế.	Mỗi điểm truy ra được output, gold và cách tính.	Kiểm tra đầu ra liên quan của S6-G02 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS10	S6-G03	1	Tính recall coverage và an toàn thiếu dữ liệu	Nguyễn Minh Quân	Chưa bắt đầu	4		Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu theo hash và locator nguồn; kiểm tra cả số liệu bịa, missing-data và false refusal.	Có số đúng sai và mẫu lỗi cho từng chỉ số bắt buộc.	Kiểm tra đầu ra liên quan của S6-G02 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS11	S6-G03	1	So sánh theo loại câu ngành và ngôn ngữ	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Tách kết quả B0 B3 theo nhóm và khoảng tin cậy theo protocol; không chỉ báo overall.	Bảng phân tích nêu số mẫu và nhóm không đủ kết luận.	Kiểm tra đầu ra liên quan của S6-G02 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS12	S6-G03	1	Đối chiếu Gate và giả thuyết nghiên cứu	Hồ Phạm Đăng Nhân	Chưa bắt đầu	5		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Tách ngưỡng nghiệm thu khỏi giả thuyết và số chỉ để báo cáo; ghi các mục chưa đạt.	Không biến mục tiêu hoặc giả thuyết thành kết quả đã đo.	Kiểm tra đầu ra liên quan của S6-G02 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS13	S6-G04	1	Kiểm tra các ca số liệu và citation quan trọng	Thái Quốc Hưng	Chưa bắt đầu	6		Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	Rà thủ công các lỗi số liệu, citation và các nhóm phải audit theo SRS.	Có biên bản reviewer và giải quyết bất đồng.	Kiểm tra đầu ra liên quan của S6-G03 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS14	S6-G04	1	Chạy tải 10 yêu cầu đồng thời	Nguyễn Minh Quân	Chưa bắt đầu	3		Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng môi trường và corpus đã ghi, đo latency từ nhận yêu cầu đến kết quả cuối.	Có cấu hình tải, máy chạy và raw latency của từng yêu cầu.	Kiểm tra đầu ra liên quan của S6-G03 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS15	S6-G04	1	Tính p95 và thời gian nhánh sửa	Đinh Huỳnh Vũ	Chưa bắt đầu	3		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Tính p95 cho answered requests gồm controlled repair; báo riêng refusal và partial.	Bảng tốc độ không loại lượt sửa để làm đẹp số đo.	Kiểm tra đầu ra liên quan của S6-G03 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS16	S6-G04	1	Tổng hợp token và chi phí thực tế	Hồ Phạm Đăng Nhân	Chưa bắt đầu	2		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Lấy token từng request theo mô hình và lần gọi; đối chiếu budget và lưu rate dùng để tính nếu có.	Báo cáo phân biệt token đo được và chi phí chưa xác định.	Kiểm tra đầu ra liên quan của S6-G03 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS17	S6-G05	2	Kiểm thử phân quyền và phiên hết hạn	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Thử truy cập sai vai trò, hết hạn phiên và dữ liệu của người khác với các API chính.	Không vượt quyền hoặc đọc lịch sử ngoài chính sách.	Kiểm tra đầu ra liên quan của S6-G04 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS18	S6-G05	2	Kiểm thử bí mật retention và log	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra khóa API, dữ liệu nhạy cảm, chính sách xóa trace và lỗi subsystem.	Không lộ bí mật; thao tác xóa và review có vết kiểm tra được.	Kiểm tra đầu ra liên quan của S6-G04 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS19	S6-G05	2	Chạy lại luồng nghiệp vụ từ đầu đến cuối	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Thử tìm công ty, đặt câu hỏi, so sánh, mở nguồn và fallback trên bản bàn giao.	Có kết quả kiểm thử cho các luồng Must và ca lỗi chính.	Kiểm tra đầu ra liên quan của S6-G04 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS20	S6-G05	2	Hoàn thiện ma trận yêu cầu và test	Nguyễn Minh Quân	Chưa bắt đầu	4		Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Liên kết từng FR NFR Must với test ID, kết quả và bằng chứng; ghi mục chưa đạt.	Không có yêu cầu Must chỉ đánh dấu đạt mà thiếu bằng chứng.	Kiểm tra đầu ra liên quan của S6-G04 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS21	S6-G06	2	Đóng gói Docker Compose	Nguyễn Minh Quân	Chưa bắt đầu	4		Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Đóng gói frontend, API, PostgreSQL pgvector và Neo4j với cấu hình tài nguyên rõ ràng.	Khởi động được bộ dịch vụ trên môi trường được ghi.	Kiểm tra đầu ra liên quan của S6-G05 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS22	S6-G06	2	Viết migration và cấu hình triển khai mẫu	Nguyễn Minh Quân	Chưa bắt đầu	4		Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Chuẩn bị migration, biến môi trường mẫu không có secret và cách nạp corpus hợp lệ.	Người khác biết cần cấu hình gì mà không nhận khóa thật của nhóm.	Kiểm tra đầu ra liên quan của S6-G05 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS23	S6-G06	2	Thử cài trên môi trường sạch	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Triển khai theo hướng dẫn, không dùng file hoặc cấu hình ẩn chỉ có trên máy dev.	Có log cài sạch và danh sách bước cần sửa.	Kiểm tra đầu ra liên quan của S6-G05 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS24	S6-G06	2	Đóng gói manifest và dữ liệu đánh giá	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Lưu output từng câu, metrics, cấu hình và code tag để kiểm tra lại benchmark.	Gói đánh giá tái hiện được nguồn của từng kết quả trong phạm vi quyền lưu.	Kiểm tra đầu ra liên quan của S6-G05 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS25	S6-G07	2	Cập nhật SRS theo bản triển khai thực tế	Thái Quốc Hưng	Chưa bắt đầu	4		Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu chức năng Must đã làm, sơ đồ và ràng buộc với code tag bàn giao.	SRS không mô tả chức năng optional chưa triển khai như đã có.	Kiểm tra đầu ra liên quan của S6-G06 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS26	S6-G07	2	Viết hướng dẫn sử dụng và quản trị	Thái Quốc Hưng	Chưa bắt đầu	5		Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Giải thích đăng nhập, tìm công ty, hỏi, mở nguồn; hướng dẫn nguồn, corpus, budgets và xử lý lỗi.	Người đọc làm theo được từng luồng cơ bản.	Kiểm tra đầu ra liên quan của S6-G06 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS27	S6-G07	2	Viết báo cáo kiểm thử và hạn chế	Trần Diệu Huyền	Chưa bắt đầu	4		Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Tổng hợp kết quả, lỗi tồn, dữ liệu thiếu và giới hạn phạm vi; đính kèm vị trí bằng chứng.	Báo cáo nêu cả mục chưa đạt, không chỉ các ca thành công.	Kiểm tra đầu ra liên quan của S6-G06 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS28	S6-G07	2	Hoàn thiện form và khai báo AI thực tế	Hồ Phạm Đăng Nhân	Chưa bắt đầu	5		Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Điền các form được cung cấp, khai báo công cụ AI và phần sử dụng dựa trên nhật ký thật.	Không tự tạo phần trăm sử dụng AI hoặc xác nhận khi chưa có dữ liệu.	Kiểm tra đầu ra liên quan của S6-G06 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS29	S6-G08	2	Soạn báo cáo nghiên cứu và slide kết quả	Trần Diệu Huyền	Chưa bắt đầu	6		Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Trình bày B0 B3, giả thuyết, metrics, mẫu lỗi và giới hạn bằng số đo thực tế.	Bảng trong báo cáo khớp gói đánh giá đã lưu.	Kiểm tra đầu ra liên quan của S6-G07 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS30	S6-G08	2	Chuẩn bị kịch bản demo các luồng chính	Nguyễn Minh Quân	Chưa bắt đầu	3		Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Chọn ca hỏi số liệu, giải thích, quan hệ, so sánh và thiếu dữ liệu trên evaluated tag.	Demo dùng đúng phiên bản đã đánh giá, không thay cấu hình ngầm.	Kiểm tra đầu ra liên quan của S6-G07 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS31	S6-G08	2	Diễn tập demo và kiểm tra checklist	Đinh Huỳnh Vũ	Chưa bắt đầu	3		Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Thử mở nguồn, fallback và khởi động dịch vụ; chuẩn bị cách giải thích khi hệ thống hoặc nguồn lỗi.	Nhóm biết thao tác và người phụ trách từng phần demo.	Kiểm tra đầu ra liên quan của S6-G07 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS32	S6-G08	2	Chốt hồ sơ nghiệm thu và bàn giao	Hồ Phạm Đăng Nhân	Chưa bắt đầu	2		Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Bàn giao code tag, tài liệu, manifests và danh sách lỗi tồn; ghi quyết định đạt hoặc chưa đạt.	Có danh mục bàn giao và người nhận xác nhận các phần thực tế đã có.	Kiểm tra đầu ra liên quan của S6-G07 trước khi làm.															**
+
+🟢 **	Sprint 6	S6-WBS33	S6-G09	1	Kiểm tra tính đầy đủ của raw benchmark	Thái Quốc Hưng	Chưa bắt đầu	5		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Rà số ca, trace và output của từng cấu hình; chỉ resume lỗi hạ tầng theo policy.	Không mất ca hoặc xuất bản aggregate khi thiếu trace.	Các task chức năng liên quan có đầu ra để kiểm tra.															**
+
+🟢 **	Sprint 6	S6-WBS34	S6-G09	1	Sửa lỗi công cụ đánh giá và đóng gói	Trần Diệu Huyền	Chưa bắt đầu	6		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sửa lỗi hạ tầng hoặc pipeline báo cáo; thay đổi sau final phải ghi exploratory nếu làm đổi tag.	Không thay kết quả final cũ bằng một lượt chạy tùy chọn.	Các task chức năng liên quan có đầu ra để kiểm tra.															**
+
+🟢 **	Sprint 6	S6-WBS35	S6-G09	2	Sửa lỗi bàn giao và kiểm thử hồi quy	Trần Diệu Huyền	Chưa bắt đầu	5		Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ưu tiên lỗi triển khai, quyền và mất nguồn; ghi tag sửa sau final và phạm vi kiểm tra lại.	Lỗi đã đóng có test lại và khác biệt so với evaluated tag được công bố.	Các task chức năng liên quan có đầu ra để kiểm tra.															**
+
+🟢 **	Sprint 6	S6-WBS36	S6-G09	2	Review cuối với nhóm và mentor	Thái Quốc Hưng	Chưa bắt đầu	6		Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra Gates, tài liệu, demo và lỗi tồn trước khi xác nhận dự án hoàn tất.	Có quyết định nghiệm thu dựa trên bằng chứng, không chỉ dựa vào phần trăm task.	Các task chức năng liên quan có đầu ra để kiểm tra.															**
+
+🟢 **					Tổng giờ các task			150	0																				**
+
+🟢 **Sprint 6 Report**
+
+🟢 **Sprint 6 Report							**
+
+🟢 **Phạm vi (task)	36	Done hiện tại	0	Giờ dự kiến	150	Done thiếu ngày	0**
+
+🟢 **Giờ thực tế		Bắt đầu	Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0**
+
+🟢 **Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	36				36		**
+
+🟢 **Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	36				33.43		**
+
+🟢 **Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	36				30.86		**
+
+🟢 **Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	36				28.29		**
+
+🟢 **Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	36				25.71		**
+
+🟢 **Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	36				23.14		**
+
+🟢 **Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	36				20.57		**
+
+🟢 **Sun Nov 29 2026 07:00:00 GMT+0700 (Indochina Time)	36				18		**
+
+🟢 **Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	36				15.43		**
+
+🟢 **Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	36				12.86		**
+
+🟢 **Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	36				10.29		**
+
+🟢 **Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	36				7.71		**
+
+🟢 **Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	36				5.14		**
+
+🟢 **Sat Dec 05 2026 07:00:00 GMT+0700 (Indochina Time)	36				2.57		**
+
+🟢 **Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	36				0		**
+
+~~	Sửa trạng thái, phụ trách và ngày tại sheet sprint. Product Backlog, tháng và 3 tháng tự cập nhật.																															~~
+
+~~	Chỉ nhập giờ thực tế ở cột ngày màu vàng. Giờ thực tế là tổng các ngày đã ghi, để trống khi chưa ghi giờ.																															~~
+
+~~	Giữ nguyên 42 task, trạng thái, người phụ trách và giờ đã nhập. Trước 14/09 được ghi là Khởi động.																															~~
+
+~~	FinMind Sprint 1 Backlog																															~~
+
+~~	Số task	42	Giờ dự kiến	146	Tổng giờ thực tế đã ghi	163																										~~
+
+~~	Sprint	Mã task	Mã việc tổng quát	Tuần trong sprint	Công việc	Phụ trách	Tình trạng	Giờ dự kiến	Giờ thực tế	Bắt đầu dự kiến	Deadline	Cần làm gì	Điều kiện hoàn thành	Đầu vào cần có	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Sep 11 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Sep 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 13 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 15 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 16 2026...~~
+
+~~	Sprint 1	S1-T01	M01	Khởi động	Xác định các nhóm người dùng chính	Thái Quốc Hưng	Đã hoàn thành	1	1	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Xác định nhà đầu tư, chuyên viên phân tích và quản trị dữ liệu cùng nhu cầu chính của từng nhóm.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.	1																	~~
+
+~~	Sprint 1	S1-T02	M01	Khởi động	Chốt phạm vi và giới hạn của bản MVP	Thái Quốc Hưng	Đã hoàn thành	3	4	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Xác định chức năng thuộc MVP, phần mở rộng và các nội dung nằm ngoài phạm vi dự án.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.	2	1					1											~~
+
+~~	Sprint 1	S1-T03	M01	Khởi động	Lập danh sách chức năng theo thứ tự ưu tiên	Thái Quốc Hưng	Đã hoàn thành	4	7	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Phân loại chức năng bắt buộc, nên có và có thể thực hiện ở giai đoạn sau.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.		3	1				2	1										~~
+
+~~	Sprint 1	S1-T04	M01	Khởi động	Soạn bộ câu hỏi nghiên cứu và khảo sát	Trần Diệu Huyền	Đã hoàn thành	2	3	Thu Sep 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Chuẩn bị câu hỏi để tìm hiểu khó khăn, nhu cầu và kỳ vọng của người dùng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.	3																	~~
+
+~~	Sprint 1	S1-T05	M01	1	Thực hiện nghiên cứu và tổng hợp kết quả	Thái Quốc Hưng	Đã hoàn thành	4	4	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Thực hiện khảo sát hoặc phỏng vấn và tổng hợp các phát hiện quan trọng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.					3	1												~~
+
+~~	Sprint 1	S1-T06	M01	1	Kiểm tra lại phạm vi và thống nhất	Trần Diệu Huyền	Đã hoàn thành	4	6	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu kết quả nghiên cứu với phạm vi MVP và ghi nhận quyết định cuối cùng.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.		3			3													~~
+
+~~	Sprint 1	S1-T07	M02	1	Lập danh sách nguồn dữ liệu	Trần Diệu Huyền	Đã hoàn thành	2	3	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo danh sách nguồn, loại tài liệu, đơn vị phát hành, đường dẫn và phạm vi dữ liệu cần thu thập.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.						3												~~
+
+~~	Sprint 1	S1-T08	M02	1	Tìm nguồn chính thức cho 5 công ty Ngân hàng	Nguyễn Minh Quân	Đã hoàn thành	3	2	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.					2													~~
+
+~~	Sprint 1	S1-T09	M02	1	Tìm nguồn chính thức cho 5 công ty Công nghệ	Nguyễn Minh Quân	Đã hoàn thành	3	2	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tìm trang quan hệ cổ đông, báo cáo tài chính và công bố thông tin chính thức.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.						2												~~
+
+~~	Sprint 1	S1-T10	M02	1	Kiểm tra điều kiện truy cập và sử dụng dữ liệu	Trần Diệu Huyền	Đã hoàn thành	2	3	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra khả năng truy cập, lưu trữ, xử lý và trích dẫn dữ liệu trong hệ thống.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.							3											~~
+
+~~	Sprint 1	S1-T11	M02	1	Xây dựng quy tắc kiểm tra và chốt bộ dữ liệu	Trần Diệu Huyền	Đã hoàn thành	4	3	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Quy định cách kiểm tra công ty, kỳ báo cáo, đơn vị, phiên bản và tài liệu trùng lặp.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.								3										~~
+
+~~	Sprint 1	S1-T12	M02	1	Xác định nguồn dự phòng và đánh giá tính khả thi	Trần Diệu Huyền	Đã hoàn thành	3	3	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Chuẩn bị nguồn thay thế và đánh giá rủi ro khi nguồn chính thay đổi hoặc không truy cập được.	Cần xác nhận nhóm đã làm, bỏ hay chuyển sang sprint khác.	Giữ kế hoạch Sprint 1 đã nhập.									3									~~
+
+~~	Sprint 1	S1-T13	M03	1	Rà soát SRS và danh mục use case	Trần Diệu Huyền	Đã hoàn thành	4	6	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu UC01–UC24 với FR/NFR, business rules và phạm vi MVP; thống nhất tên, mã và điều kiện.	Có bảng đối chiếu UC–FR/NFR đã rà.	Giữ kế hoạch Sprint 1 đã nhập.												3	3					~~
+
+~~	Sprint 1	S1-T14	M03	1	Vẽ context và business function diagram	Đinh Huỳnh Vũ	Đã hoàn thành	5	6	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Thể hiện tác nhân, hệ thống ngoài và phân rã chức năng; đối chiếu nội dung với SRS.	Có context và business function diagram khớp SRS.	Giữ kế hoạch Sprint 1 đã nhập.																		~~
+
+~~	Sprint 1	S1-T15	M03	1	Vẽ activity diagram theo use case	Thái Quốc Hưng	Đã hoàn thành	8	6	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Mô tả luồng chính, nhánh thay thế và ngoại lệ; kiểm tra node bắt đầu/kết thúc và lưu hình cùng draw.io.	Có activity diagrams và file chỉnh sửa được.	Giữ kế hoạch Sprint 1 đã nhập.									2			3	1					~~
+
+~~	Sprint 1	S1-T16	M03	1	Vẽ sequence diagram theo use case	Đinh Huỳnh Vũ	Đã hoàn thành	8	6	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Thể hiện actor, giao diện, dịch vụ và kho dữ liệu; thông điệp phải khớp kịch bản của từng use case.	Có sequence diagrams theo use case.	Giữ kế hoạch Sprint 1 đã nhập.					3	3												~~
+
+~~	Sprint 1	S1-T17	M03	1	Vẽ state diagram cho đối tượng có vòng đời	Thái Quốc Hưng	Đã hoàn thành	6	5	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Gom các use case liên quan; xác định trạng thái, sự kiện, điều kiện chuyển và điểm kết thúc.	Có state diagrams cho vòng đời cần mô tả.	Giữ kế hoạch Sprint 1 đã nhập.													2	3				~~
+
+~~	Sprint 1	S1-T18	M03	1	Rà soát tính nhất quán SRS	Trần Diệu Huyền	Đã hoàn thành	4	3	Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Đặt đúng số mục, tên hình; kiểm tra mã UC, FR/NFR và sự nhất quán giữa đặc tả với các sơ đồ.	SRS có đúng hình, số mục và mã tham chiếu.	Giữ kế hoạch Sprint 1 đã nhập.														3				~~
+
+~~	Sprint 1	S1-T19	M04	1	Chia pipeline dữ liệu thành các phần nhỏ	Nguyễn Minh Quân	Đã hoàn thành	4	5	Tue Sep 15 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Tách thu thập, chuẩn hóa, chunk/embedding, graph, truy vấn vector/graph và ranh giới đầu vào/đầu ra.	Có bản đồ các bước xử lý dữ liệu và đầu vào/đầu ra.	Giữ kế hoạch Sprint 1 đã nhập.							3	2										~~
+
+~~	Sprint 1	S1-T20	M04	1	Đặc tả nguồn và cách cào dữ liệu mẫu	Nguyễn Minh Quân	Đã hoàn thành	2	2	Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chọn nguồn được phép dùng; ghi URL, loại tài liệu, lịch lấy, phiên bản và điều kiện truy cập.	Có danh sách nguồn được phép dùng và cách lấy.	Giữ kế hoạch Sprint 1 đã nhập.								1	1									~~
+
+~~	Sprint 1	S1-T21	M04	1	Đặc tả chuẩn hóa và định danh dữ liệu	Trần Diệu Huyền	Đã hoàn thành	3	3	Sun Sep 20 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Xác định company ID, kỳ báo cáo, đơn vị, source ID, document hash và quy tắc kiểm tra trước khi lập chỉ mục.	Có quy tắc chuẩn hóa ID, kỳ, đơn vị, nguồn.	Giữ kế hoạch Sprint 1 đã nhập.															3			~~
+
+~~	Sprint 1	S1-T22	M04	2	Vẽ ERD dữ liệu nghiệp vụ PostgreSQL	Nguyễn Minh Quân	Đã hoàn thành	4	4	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Thiết kế công ty, tài liệu, nguồn, dữ kiện tài chính, khóa chính/ngoại và quan hệ truy vết.	Có ERD PostgreSQL cho dữ liệu nghiệp vụ.	Giữ kế hoạch Sprint 1 đã nhập.									2			2						~~
+
+~~	Sprint 1	S1-T23	M04	2	Vẽ lược đồ bảng chunk/embedding pgvector	Đinh Huỳnh Vũ	Đã hoàn thành	3	4	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Xác định chunk, embedding, vector dimension, metadata, source locator và liên kết với PostgreSQL.	Có lược đồ chunk/embedding của pgvector.	Giữ kế hoạch Sprint 1 đã nhập.							3	1										~~
+
+~~	Sprint 1	S1-T24	M04	1	Vẽ mô hình node–edge Neo4j	Hồ Phạm Đăng Nhân	Đã hoàn thành	4	6	Mon Sep 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Định nghĩa nhãn node, kiểu quan hệ, thuộc tính và provenance cho từng edge; giới hạn truy vấn hai hop.	Có mô hình node–edge Neo4j kèm provenance.	Giữ kế hoạch Sprint 1 đã nhập.					3	1			2									~~
+
+~~	Sprint 1	S1-T25	M04	2	Đối chiếu ID giữa các mô hình dữ liệu	Trần Diệu Huyền	Đã hoàn thành	3	3	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra ánh xạ company/source/document/chunk ID và provenance để truy vấn có thể quay về bằng chứng gốc.	Có quy tắc ánh xạ ID giữa các mô hình.	Giữ kế hoạch Sprint 1 đã nhập.																3		~~
+
+~~	Sprint 1	S1-T26	M05	2	Cào bộ tài liệu mẫu theo nguồn đã chọn	Nguyễn Minh Quân	Đã hoàn thành	3	3	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy PoC trên vài tài liệu trong phạm vi corpus; lưu tệp gốc và nhật ký URL/thời điểm.	Có bộ tài liệu mẫu và nhật ký lấy dữ liệu.	Giữ kế hoạch Sprint 1 đã nhập.												1	2					~~
+
+~~	Sprint 1	S1-T27	M05	2	Ghi hash, phiên bản và metadata nguồn	Nguyễn Minh Quân	Đã hoàn thành	2	2	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Lưu checksum, ngày công bố, công ty, kỳ báo cáo và trạng thái trùng lặp của tài liệu mẫu.	Có checksum, phiên bản, metadata của mẫu.	Giữ kế hoạch Sprint 1 đã nhập.													1	1				~~
+
+~~	Sprint 1	S1-T28	M05	2	Parse và chuẩn hóa tài liệu mẫu	Đinh Huỳnh Vũ	Đã hoàn thành	3	6	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Trích văn bản/bảng, chuẩn hóa ticker, kỳ, đơn vị và đánh dấu bản ghi lỗi để không đưa vào index.	Có dữ liệu mẫu chuẩn hóa, lỗi được cách ly.	Giữ kế hoạch Sprint 1 đã nhập.									3			3						~~
+
+~~	Sprint 1	S1-T29	M05	1	Tạo thử truy vấn quan hệ bằng Neo4j	Hồ Phạm Đăng Nhân	Đã hoàn thành	6	8	Wed Sep 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Viết và chạy thử truy vấn quan hệ trên dữ liệu mẫu trong Neo4j.	Truy vấn chạy được và kết quả quan hệ được đối chiếu với dữ liệu mẫu.	Giữ kế hoạch Sprint 1 đã nhập.							3	3	1					1				~~
+
+~~	Sprint 1	S1-T30	M05	2	Tạo embedding và nạp mẫu vào pgvector	Đinh Huỳnh Vũ	Đã hoàn thành	3	4	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Vector hóa chunk hợp lệ; ghi model/version, dimension và khóa liên kết về tài liệu gốc.	Có embedding mẫu trong pgvector.	Giữ kế hoạch Sprint 1 đã nhập.													3	1				~~
+
+~~	Sprint 1	S1-T31	M05	2	Truy vấn pgvector để kiểm thử	Đinh Huỳnh Vũ	Đã hoàn thành	3	6	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng câu hỏi mẫu để kiểm tra top-k, khoảng cách vector và khả năng truy về đúng đoạn nguồn.	Có kết quả tìm vector theo câu hỏi mẫu.	Giữ kế hoạch Sprint 1 đã nhập.															3	3		~~
+
+~~	Sprint 1	S1-T32	M06	1	Trích xuất entity cho graph mẫu	Hồ Phạm Đăng Nhân	Đã hoàn thành	2	2	Tue Sep 15 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Nhận diện công ty, chỉ số, tài liệu, kỳ và sự kiện; ánh xạ entity ID ổn định.	Có danh sách thực thể graph có ID.	Giữ kế hoạch Sprint 1 đã nhập.						2												~~
+
+~~	Sprint 1	S1-T33	M06	2	Trích xuất quan hệ và provenance cho edge	Hồ Phạm Đăng Nhân	Đã hoàn thành	2	5	Mon Sep 21 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Xác định quan hệ có bằng chứng, hướng edge và source locator; không tạo cạnh suy đoán.	Có edge chỉ tạo từ bằng chứng hợp lệ.	Giữ kế hoạch Sprint 1 đã nhập.												2		2	1			~~
+
+~~	Sprint 1	S1-T34	M06	2	Nạp node và edge mẫu vào Neo4j	Hồ Phạm Đăng Nhân	Đã hoàn thành	3	3	Tue Sep 22 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo graph thử nghiệm, kiểm tra ràng buộc ID và liên kết mỗi edge với nguồn.	Có graph mẫu trong Neo4j.	Giữ kế hoạch Sprint 1 đã nhập.												1			2			~~
+
+~~	Sprint 1	S1-T35	M06	2	Truy vấn Neo4j để kiểm thử	Hồ Phạm Đăng Nhân	Đã hoàn thành	3	3	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Thử truy vấn một hoặc hai bước theo công ty và quan hệ; kiểm tra kết quả cùng provenance.	Có kết quả truy vấn graph kèm nguồn.	Giữ kế hoạch Sprint 1 đã nhập.													3					~~
+
+~~	Sprint 1	S1-T36	M06	2	Truy vấn dữ kiện PostgreSQL để đối chiếu	Nguyễn Minh Quân	Đã hoàn thành	3	2	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Lấy số liệu mẫu theo công ty, chỉ số, kỳ và đơn vị; so với bản ghi nguồn đã chuẩn hóa.	Có kết quả số liệu PostgreSQL để đối chiếu.	Giữ kế hoạch Sprint 1 đã nhập.														2				~~
+
+~~	Sprint 1	S1-T37	M06	2	Tổng hợp kết quả cào và cập nhật SRS	Nguyễn Minh Quân	Đã hoàn thành	2	1	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Ghi truy vấn, kết quả đúng/sai, lỗi và giới hạn; sửa lược đồ/đặc tả nếu bằng chứng thử nghiệm yêu cầu.	Có báo cáo PoC và các điểm cần sửa trong SRS.	Giữ kế hoạch Sprint 1 đã nhập.															1			~~
+
+~~	Sprint 1	S1-T38	M04	2	Tạo Git repository và cấu trúc dự án ban đầu	Nguyễn Minh Quân	Đã hoàn thành	1	1	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo kho mã nguồn Git và các thư mục ban đầu để cả nhóm lưu, chia sẻ và quản lý phiên bản mã.	Repository truy cập được; cấu trúc thư mục và hướng dẫn khởi động được lưu.	Giữ kế hoạch Sprint 1 đã nhập.															1			~~
+
+~~	Sprint 1	S1-T39	M03	1	Chuẩn bị Golden Test Set phiên bản đầu tiên	Thái Quốc Hưng	Đã hoàn thành	4	4	Fri Sep 18 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Soạn bộ câu hỏi kiểm thử ban đầu, đáp án tham chiếu và thông tin nguồn để kiểm tra kết quả trả lời.	Có danh sách câu hỏi, đáp án và nguồn đối chiếu; chưa coi đây là bộ test cuối đã khóa.	Giữ kế hoạch Sprint 1 đã nhập.															3	1		~~
+
+~~	Sprint 1	S1-T40	M03	2	Vẽ usecase diagram cho từng đặc tả use case	Hồ Phạm Đăng Nhân	Đã hoàn thành	4	6	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Vẽ sơ đồ use case riêng cho từng đặc tả, thể hiện người sử dụng và chức năng liên quan.	Các sơ đồ khớp actor, tên chức năng và mã use case trong SRS.	File gốc có công thức cộng giờ các task khác trong dòng này. Cần kiểm tra để tránh tính trùng.																3	3	~~
+
+~~	Sprint 1	S1-T41	M03	2	Vẽ usecase Diagram tổng	Trần Diệu Huyền	Đã hoàn thành	5	3	Fri Sep 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Vẽ sơ đồ use case tổng để thể hiện toàn bộ chức năng và các nhóm người dùng của FinMind.	Sơ đồ tổng khớp danh mục use case và phạm vi SRS.	Giữ kế hoạch Sprint 1 đã nhập.																3		~~
+
+~~	Sprint 1	S1-T42	M05	2	Xây dựng module chuẩn hóa dữ liệu & khử lỗi	Nguyễn Minh Quân	Đã hoàn thành	4	4	Sat Sep 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	Xây dựng phần xử lý dữ liệu mẫu để thống nhất định dạng và xử lý giá trị số không hợp lệ.	Có module, dữ liệu trước/sau xử lý và kết quả kiểm thử các trường hợp số không hợp lệ.	Giữ kế hoạch Sprint 1 đã nhập.															1	3		~~
+
+~~					Tổng giờ các task			146	163																							~~
+
+~~					Giờ dự kiến theo ngày (cả nhóm)				146						4	4			13	15	15	15	13			13	15	15	13	11		~~
+
+~~					Giờ thực tế theo ngày (tự tính)				157						6	7	1	0	14	12	15	11	14	0	0	15	15	13	15	16	3	0~~
+
+~~Sprint 1 Reports~~
+
+~~	FinMind Sprint 1 Reports	~~
+
+~~	Dữ liệu báo cáo Sprint 1	~~
+
+~~	Số task trong Sprint 1	42~~
+
+~~	Task đã hoàn thành	42~~
+
+~~	Giờ dự kiến	146~~
+
+~~	Giờ thực tế đã ghi	163~~
+
+~~	Biểu đồ burn-down/burn-up cần giờ làm thực tế theo ngày; hiện chưa có dữ liệu được nhóm xác nhận.	~~
+
+~~	Sửa trạng thái, phụ trách và ngày tại sheet sprint. Product Backlog, tháng và 3 tháng tự cập nhật.																											~~
+
+~~	Sửa trạng thái, phụ trách và ngày tại sheet sprint. Product Backlog, tháng và 3 tháng tự cập nhật.																											~~
+
+~~	Sửa trạng thái, phụ trách và ngày tại sheet sprint. Product Backlog, tháng và 3 tháng tự cập nhật.																											~~
+
+~~	Sprint 2 có hai đầu ra UI riêng: file thiết kế chỉnh sửa được và frontend source chạy với mock. Huyền lead UI, thiết kế luồng/visual và review; Nhân thiết kế wireframe, bàn giao hai mốc có duyệt để Vũ làm prototype song song. Giờ review ở WBS24 và WBS32, không cộng hai lần. Chỉ đánh dấu task hoàn thành khi đủ toàn bộ đầu ra; mốc trung gian không phải hoàn thành task.																											~~
+
+~~Hưng/Quân: cào, chuẩn hóa, PostgreSQL. Vũ/Nhân/Huyền: thiết kế, prototype, code mock. Giờ thực tế chỉ nhập khi đã làm.																											~~
+
+~~	FinMind Sprint 2 Backlog																											~~
+
+~~	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi	122																						~~
+
+~~	Sprint	Mã task	Mã việc tổng quát	Tuần trong sprint	Công việc	Phụ trách	Tình trạng	Giờ dự kiến	Giờ thực tế	Bắt đầu dự kiến	Deadline	Cần làm gì	Điều kiện hoàn thành	Đầu vào cần có	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 04 2026...~~
+
+~~	Sprint 2	S2-WBS01	S2-G01	1	Chốt hợp đồng dữ liệu đầu vào/đầu ra	Nguyễn Minh Quân	Đã hoàn thành	3	4	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Rà soát giá, tỷ số, KQKD, CĐKT, LCTT; chốt schema raw/normalized; phân biệt quý/năm.	Có schema thống nhất raw/normalized; JSON UTF-8 hợp lệ; xử lý an toàn NaN/null.	ERD Sprint 1; mẫu payload API; danh sách 10 mã.	1	3												~~
+
+~~Kết quả cần có: Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ liệu. UI và người làm DB dùng cùng tên trường.	Thái Quốc Hưng	Đã hoàn thành	2	1	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng ERD Sprint 1 để chốt company\_id, loại nguồn, URL, ngày công bố/lấy, hash, phiên bản, kỳ, đơn vị và vị trí nguồn. Thống nhất mẫu facts và News với UI; không vẽ lại ERD từ đầu.	Có mẫu bản ghi và trường bắt buộc; phân biệt 0 với thiếu dữ li...~~
+
+~~	Sprint 2	S2-WBS03	S2-G02	1	Làm ổn định bộ thu thập dữ liệu (Collector)	Nguyễn Minh Quân	Đã hoàn thành	5	6	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy collector cào 10 mã (5 Bank + 5 Tech); bổ sung retry, timeout, cô lập lỗi từng mã để không dừng pipeline	Collector chạy ổn định 10 mã; log lỗi độc lập; có CLI chạy lại từng mã.	Schema raw; endpoint API; danh sách 10 mã (5 Bank + 5 Tech).			4	2										~~
+
+~~Kết quả cần có: Lấy đúng bài mẫu và nguồn gốc; có retry/log và lý do loại bài. Bộ cào chỉ hỗ trợ danh sách nguồn đã chốt.	Thái Quốc Hưng	Đã hoàn thành	5	7	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng khung crawler chung, cấu hình các nguồn News được duyệt. Lấy danh sách/nội dung trong khoảng ngày, xử lý phân trang, lọc công ty và lưu URL/ngày/hash/version. Không làm crawler tổng quát cho mọi website hoặc vượt paywall.	Lấy đúng bài...~~
+
+~~	Sprint 2	S2-WBS05	S2-G02	1	Chuẩn hóa dữ liệu số & Bảo toàn dữ liệu nguồn	Nguyễn Minh Quân	Đã hoàn thành	6	7	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	File raw JSON thu được từ Collector; quy tắc ép kiểu dữ liệu và chuẩn hóa kỳ báo cáo.	Chuẩn hóa key kỳ, ép kiểu số liệu; giữ nguyên bản raw; giữ nguyên key lạ chưa xác minh; tách biệt đơn vị VND, %, EPS.	Dữ liệu normalized truy ngược được về raw; không tự đoán hoặc làm mất key nguồn.					...~~
+
+~~	Sprint 2	S2-WBS06	S2-G03	1	Xây dựng bộ OCR Router bóc tách PDF 	Nguyễn Minh Quân	Đã hoàn thành	6	6	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Kho file PDF BCTC/BCTN mẫu đã tải từ Sprint 1; công cụ hệ thống (pdftotext, pdftoppm, tesseract tiếng Việt).	Tuyến text\_layer chạy tức thì; trang scan có text và toạ độ BBox.	Tuyến text\_layer chạy tức thì; trang scan có text và toạ độ BBox từ Tesseract.				2	4									~~
+
+~~	Sprint 2	S2-WBS07	S2-G03	2	Tích hợp LLM Vision xử lý bảng scan	Nguyễn Minh Quân	Đã hoàn thành	7	8	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Ảnh PNG render từ các trang scan/bảng phức tạp; API Key Gemini và OpenRouter; JSON Schema yêu cầu.	Gọi Gemini 3.8 Flash ép JSON trích xuất bảng Markdown; thêm OpenRouter fallback; cache SHA-256; chặn rate limit 429.	LLM đọc nguyên văn bảng biểu, con dấu \[stamp\] cho các trang scan khó.										4	4	...~~
+
+~~Kết quả cần có: News đúng khoảng ngày và công ty, giữ URL/nội dung gốc; không gộp hai bài khác chỉ vì cùng tiêu đề. Bài thiếu ngày/công ty rõ ràng được cách ly.	Thái Quốc Hưng	Đã hoàn thành	5	6	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng quy tắc lọc đã chốt để làm sạch nội dung, chuẩn ngày và gắn công ty có bằng chứng. So URL/hash để liên kết bản trùng hoặc đăng lại; giữ bài gốc. Không thêm phân tích cảm xúc hay tóm tắt AI trong Spri...~~
+
+~~Kết quả cần có: Migration chạy trên DB mới, khóa ngoại đúng và lưu/đọc được ba loại nguồn với locator. Có hướng dẫn chạy, không lưu secrets trong source.	Thái Quốc Hưng	Đã hoàn thành	7	6	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Triển khai ERD đã có cho source/document/version/facts/News/Evidence; tái dùng script nạp mẫu. Tạo khóa và ràng buộc, thử một luồng lưu/đọc từ dữ liệu chuẩn về bản gốc. Chưa làm embedding, graph hay API nghiệp v...~~
+
+~~Kết quả cần có: Mẫu đúng được nhận, mẫu sai bị cách ly và không vào corpus hợp lệ. Bản sửa phải kiểm lại; thiếu bản gốc không được cho qua.	Thái Quốc Hưng	Đã hoàn thành	3	3	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Gắn kiểm tra vào pipeline nạp: ID, ngày/kỳ, đơn vị, scope, nguồn, hash và locator. Dùng bảng/file quarantine đơn giản có reason code, chưa làm màn hình hay công cụ sửa dữ liệu thật. Sửa lỗi và chạy lại kiểm tra trong chính ta...~~
+
+~~Kết quả cần có: Dữ liệu được nạp đều qua validation. Có bảng độ phủ, mẫu đối chiếu và lỗi đã xử lý; nguồn bắt buộc còn thiếu thì không nghiệm thu data hoàn thành.	Thái Quốc Hưng	Đã hoàn thành	5	6	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy script nạp, đối chiếu số item với danh sách bắt buộc và audit nội dung/số theo mẫu kiểm đã duyệt. Kiểm liên kết về nguồn, tổng hợp thiếu/lỗi theo công ty và kỳ; review data và kiểm lại lỗi nằm tron...~~
+
+~~	Sprint 2	S2-WBS12	S2-G09	2	Đối soát chéo số liệu (Cross-check) chống sai lệch	Nguyễn Minh Quân	Đã hoàn thành	4	4	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Bản text OCR từ Tesseract và bản text Markdown từ LLM của cùng một trang PDF.	Đối soát số giữa Tesseract và LLM (numberAgreement); gắn cờ NUMBERS\_UNVERIFIED cho trang BCTC lệch số; escalate model.	Loại bỏ rủi ro AI đọc sai số; gắn nhãn trạng thái OK/REVIEW trên từng trang.											...~~
+
+~~Kết quả cần có: Có file sơ đồ luồng/sitemap chỉnh sửa được, liệt kê đủ màn hình, quyền và đường quay lại; nhóm duyệt trước khi thiết kế wireframe.	Trần Diệu Huyền	Đã hoàn thành	2		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền làm lead UI, đối chiếu use case MVP để vẽ sơ đồ màn hình theo vai trò và luồng đăng nhập, chọn công ty, hỏi, xem nguồn, history/watchlist. Chỉ vẽ luồng cần code Sprint 2, không thêm xuất PDF/Markdown.	Có file sơ ...~~
+
+~~Kết quả cần có: Mốc 1 và mốc 2 đều có link/file wireframe chỉnh sửa được và ý kiến duyệt của Huyền. Chỉ đánh dấu hoàn thành WBS18 khi đủ toàn bộ màn hình MVP và các lỗi điều hướng chặn đã sửa; bàn giao một mốc không đồng nghĩa hoàn thành cả task.	Hồ Phạm Đăng Nhân	Đã hoàn thành	5	10	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Nhân dùng sitemap đã duyệt để vẽ wireframe chỉnh sửa được và bàn giao theo hai mốc: mốc 1 (29/09) gồm chọn công ty...~~
+
+~~Kết quả cần có: Có file thiết kế chỉnh sửa được gồm style, component mẫu và các trạng thái; nhóm xác nhận tính nhất quán với wireframe.	Trần Diệu Huyền	Đã hoàn thành	4		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền chốt màu, chữ, khoảng cách, bảng, form, nút, citation marker và các trạng thái loading/empty/error/missing-data từ sitemap đã duyệt và bộ component sẵn có. Có thể làm quy tắc chung song song với wireframe của Nhân; áp dụng ...~~
+
+~~Kết quả cần có: Có link/file prototype bấm thử cho đầy đủ màn hình và trạng thái lỗi mẫu, khớp cả hai mốc wireframe/visual; Huyền review và Vũ sửa lỗi chặn. Prototype mốc 1 chỉ là bàn giao trung gian, chưa được tính hoàn thành WBS20.	Đinh Huỳnh Vũ	Đã hoàn thành	7	10	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Vũ dựng prototype từng màn hình ngay sau khi wireframe mốc tương ứng được Huyền duyệt và có visual áp dụng; làm trước luồng chọn cô...~~
+
+~~Kết quả cần có: Source clone/cài/chạy/build được theo README; khung trang hoạt động, không có secrets; layout cuối khớp màn hình đã duyệt.	Đinh Huỳnh Vũ	Đã hoàn thành	6	3	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Vũ dựng project frontend, lệnh chạy/build, cấu hình môi trường và mock adapter từ repository Sprint 1 trước khi nhận đủ wireframe. Chỉ ghép menu/layout của từng màn hình sau khi wireframe và visual mốc đó được duyệt; giữ chỗ rõ...~~
+
+~~Kết quả cần có: Component tái sử dụng và mock tách riêng, có trạng thái đủ/rỗng/lỗi và hướng dẫn đổi API; tích hợp được với các màn hình đã duyệt.	Hồ Phạm Đăng Nhân	Đã hoàn thành	8	7	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Nhân cấu hình bảng/form/nút/filter/modal và fixture đủ/rỗng/lỗi từ schema chung, quy tắc visual đã có. Có thể làm component và mock độc lập trong khi hoàn thiện wireframe; tích hợp theo từng màn hình được duyệt với ...~~
+
+~~Kết quả cần có: Routes và trạng thái truy cập hoạt động với mock, các phần cần API thật được liệt kê. Có smoke test điều hướng tuần 1.	Trần Diệu Huyền	Đã hoàn thành	5		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền dùng router chung để nối màn hình, code form login/logout, phiên hết hạn và vai trò mẫu. Có thể chuẩn bị route map và phiên mẫu từ sitemap trong khi Nhân làm wireframe; chỉ ghép layout và smoke test điều hướng khi skeleton/c...~~
+
+~~Kết quả cần có: Có checklist duyệt từng mốc wireframe, review prototype, danh sách lỗi chặn và bộ file thiết kế/API mock bàn giao; chỉ chốt khi đủ hai mốc.	Trần Diệu Huyền	Đã hoàn thành	4		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền review từng mốc wireframe của Nhân ngay khi bàn giao, ghi rõ màn hình đã duyệt/chờ sửa và bàn giao cho Vũ bắt đầu prototype phần tương ứng. Sau đó review prototype đầy đủ so với sitemap, wireframe, visua...~~
+
+~~Kết quả cần có: Màn hình code chạy được, đủ trạng thái chính và nhãn nguồn/đơn vị/ngày; không chỉ bàn giao ảnh thiết kế.	Hồ Phạm Đăng Nhân	Đã hoàn thành	7	7	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng bảng/filter/card chung để hiển thị 10 mã, kỳ, profile/facts/News và nguồn. Đổi company/period cập nhật fixture; nếu panel thị trường có trong scope ghi mock/EOD, không live. Không tích hợp nguồn hay API thị trường mới.	Màn hình code chạ...~~
+
+~~Kết quả cần có: Các luồng đã chốt chạy với mock và nhãn rõ; filter/payload đúng, kết quả chờ/lỗi/thiếu không bị hiển thị như verified.	Trần Diệu Huyền	Đã hoàn thành	6		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng form, chat/result và bảng chung để nhập câu hỏi, chọn công ty/kỳ, xem response/so sánh mẫu. Thêm partial/insufficient-data/refusal và retry; không làm streaming tùy biến, backend RAG hoặc tư vấn đầu tư.	Các luồng đã chốt chạy...~~
+
+~~Kết quả cần có: Các luồng MVP chạy được với mock, không trùng watchlist và không mở URL client tùy ý. Không có xuất PDF/Markdown; thiếu API thật được ghi rõ.	Trần Diệu Huyền	Đã hoàn thành	6		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng modal/detail/list/form để mở citation ID, xem locator/fact/provenance, xem/xóa history, pin/unpin và feedback. Chỉ mô phỏng lưu theo user, chưa xây backend lưu trữ; xác nhận thao tác xóa và thử lỗi ...~~
+
+~~Kết quả cần có: Viewer thao tác được và mở đúng provenance mẫu; thử graph rỗng/lỗi, chặn hơn hai hop. Backend sẽ kiểm giới hạn khi nối thật.	Hồ Phạm Đăng Nhân	Đã hoàn thành	7	6	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng component/thư viện graph đã chọn, nạp fixture node/edge, chọn root, mở rộng tối đa hai hop và xem nguồn edge. Không tự viết thuật toán layout, animation hoặc Neo4j API trong task này.	Viewer thao tác được và mở đúng ...~~
+
+~~Kết quả cần có: Các màn hình operator trong checklist chạy với mock, có counts/reason/refresh-time và trạng thái lỗi; không lộ secrets.	Đinh Huỳnh Vũ	Đã hoàn thành	5	4	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng chung bảng/list/detail/form cho source, runs/counts/retries và quarantine. Đổi cấu hình/fixture theo trang thay vì viết một hệ thống quản trị riêng; thao tác quan trọng có xác nhận. Không gọi bộ cào thật từ mock UI.	Các màn h...~~
+
+~~Kết quả cần có: Trang có đủ luồng MVP và trạng thái không đủ điều kiện/lỗi với mock, hợp đồng API thật được liệt kê.	Đinh Huỳnh Vũ	Đã hoàn thành	4	6	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng lại trang quản trị của task trước, thay schema/form/fixture cho manifest/promote/restore, ngưỡng/budget và trace. Kiểm giá trị và readiness mẫu, không làm backend quản lý cấu hình/audit hoặc telemetry thật.	Trang có đủ luồng MVP và trạng thái k...~~
+
+~~Kết quả cần có: Màn hình evaluator trong checklist thao tác được, phân biệt partial/completed/thiếu trace và không hiển thị điểm giả như kết quả thật.	Đinh Huỳnh Vũ	Đã hoàn thành	5	5	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng bảng/form/detail chung để nhập/review/freeze ca mẫu, chọn B0–B3 và xem run/metrics fixture. Thêm calibration/final và quyền mẫu; chưa tạo 120 câu thật, chạy Ragas hoặc xây engine đánh giá.	Màn hình evaluator tr...~~
+
+~~Kết quả cần có: Có checklist đối chiếu thiết kế–code và biên bản review UI, bản build chạy được; màn hình lệch thiết kế hoặc lỗi chặn chưa sửa thì chưa ký bàn giao.	Trần Diệu Huyền	Đã hoàn thành	2		Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền đối chiếu code của Vũ/Nhân với bản thiết kế và prototype, chạy smoke test màn hình/route/trạng thái bằng mock trên bản build sạch. Ghi lỗi chặn về đúng task để chủ task sửa, xác nhận lại sau sửa...~~
+
+~~					Tổng giờ các task			141	122																			~~
+
+~~					Giờ dự kiến theo ngày (cả nhóm)				150						15	15	15	15	15	0	0	15	15	15	15	15	0	0~~
+
+~~					Giờ dự kiến theo ngày (cả nhóm)				150						15	15	15	15	15	0	0	15	15	15	15	15	0	0~~
+
+~~					Giờ dự kiến theo ngày (cả nhóm)				150						15	15	15	15	15	0	0	15	15	15	15	15	0	0~~
+
+~~					Giờ dự kiến theo ngày (cả nhóm)				150						15	15	15	15	15	0	0	15	15	15	15	15	0	0~~
+
+~~					Giờ dự kiến theo ngày (cả nhóm)				150						15	15	15	15	15	0	0	15	15	15	15	15	0	0~~
+
+~~					Giờ thực tế theo ngày (tự tính)				122						7	12	13	13	11	6	0	12	13	13	11	11	0	0~~
+
+~~	FinMind Sprint 3 Backlog																											~~
+
+~~	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	52																						~~
+
+~~	Sprint	Mã task	Mã việc tổng quát	Tuần trong sprint	Công việc	Phụ trách	Tình trạng	Giờ dự kiến	Giờ thực tế	Bắt đầu dự kiến	Deadline	Cần làm gì	Điều kiện hoàn thành	Đầu vào cần có	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Oct 17 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 18 2026...~~
+
+~~	Sprint 3	S3-WBS01	S3-G01	1	Chốt hợp đồng chunk ID và cấu trúc nguồn	Đinh Huỳnh Vũ	Đã hoàn thành	2		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cùng Hưng thống nhất mỗi đoạn tài liệu sẽ mang những thông tin nào: mã đoạn, mã tài liệu, phiên bản dữ liệu và vị trí trang/mục/bảng. Bước 2: Viết 2 đoạn dữ liệu mẫu theo đúng cấu trúc đó để mọi người có thể code song song. Bước 3: Kiểm tra cùng một đoạn luôn nhận cùng mã khi chạy lại.	Có ...~~
+
+~~	Sprint 3	S3-WBS06	S3-G01	1	Nâng cấp chunker cho mục và bảng	Đinh Huỳnh Vũ	Đã hoàn thành	7		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy tài liệu BCTC/BCTN đã chuẩn hóa ở Sprint 2, xem các mục và bảng dài thường bị cắt sai ở đâu. Bước 2: Nâng cấp bộ chia đoạn hiện có để mỗi đoạn có nội dung đủ hiểu và không xé ngang bảng số liệu. Bước 3: Viết ví dụ kiểm tra cho văn bản thường, bảng nhiều dòng và chạy lại để chắc không sinh đoạn...~~
+
+~~	Sprint 3	S3-WBS11	S3-G01	1	Gắn locator vào từng chunk	Đinh Huỳnh Vũ	Đã hoàn thành	4		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Với mỗi đoạn Vũ đã chia, lưu rõ nó đến từ tài liệu nào, trang nào, mục hoặc bảng nào. Bước 2: Lấy vài đoạn mẫu, bấm/mở lại tài liệu gốc tại vị trí ghi trong đoạn. Bước 3: Sửa các trường hợp trích dẫn nhảy sai trang, sai bảng hoặc không mở được.	Chunk mẫu truy được vị trí nguồn chính xác trong tài liệu.	...~~
+
+~~	Sprint 3	S3-WBS16	S3-G01	1	Tạo manifest chunk phiên bản đầu	Đinh Huỳnh Vũ	Đã hoàn thành	2		Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Ghi một bản kê cho lần chia tài liệu: tài liệu đầu vào, mã kiểm tra nội dung, cấu hình chia đoạn và danh sách mã đoạn. Bước 2: Chạy lại cùng tài liệu để xác nhận không tạo bản sao. Bước 3: Thay một tài liệu mẫu và kiểm tra bản kê cho biết chính xác phần nào đã đổi.	Có manifest phiên bản và danh sá...~~
+
+~~	Sprint 3	S3-WBS19	S3-G01	2	Ổn định chunker trên tài liệu khó	Đinh Huỳnh Vũ	Đang test	3		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Thử bộ chia đoạn trên báo cáo có bảng dài, nhiều cột, đổi trang hoặc tiêu đề không đều. Bước 2: Ghi lại từng lỗi và sửa các lỗi nằm trong phạm vi 3 giờ đã phân. Bước 3: Chạy lại toàn bộ ví dụ cũ để chắc sửa bảng khó không làm hỏng tài liệu đơn giản; ghi rõ phần chưa hỗ trợ.	Test hồi quy trên mẫu khó ...~~
+
+~~	Sprint 3	S3-WBS24	S3-G01	2	Kiểm tra citation locator đầu-cuối	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy một câu trả lời mẫu của B1 và mở từng trích dẫn về đúng đoạn nguồn. Bước 2: Kiểm tra đặc biệt bảng trải nhiều trang và hai phiên bản cùng một tài liệu. Bước 3: Sửa trường hợp trích dẫn sai trang, sai bảng hoặc trỏ sang phiên bản dữ liệu khác.	Citation mẫu dẫn đúng document/trang/bảng và không...~~
+
+~~	Sprint 3	S3-WBS29	S3-G06	2	Rà soát chéo Golden40 theo lô	Đinh Huỳnh Vũ	Chưa bắt đầu	8		Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nhận Golden40 theo từng lô 10 câu từ Huyền, không chờ đủ 40 mới bắt đầu. Bước 2: Với mỗi câu, mở tài liệu gốc, kiểm tra đáp án, đơn vị/kỳ và vị trí nguồn; ghi đúng/sai và lý do. Bước 3: Trả danh sách bất đồng cho Huyền sửa, rồi xác nhận lại trước khi bộ câu hỏi được khóa.	Mỗi ca có dấu review người th...~~
+
+~~	Sprint 3	S3-WBS02	S3-G02	1	Chốt mô hình embedding và cấu hình	Hồ Phạm Đăng Nhân	Đã hoàn thành	3		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng vài đoạn văn mẫu để thử mô hình biến chữ thành dãy số (embedding), nhờ đó máy có thể tìm đoạn gần nghĩa. Bước 2: Ghi rõ tên/phiên bản mô hình, số chiều của dãy số và số đoạn xử lý mỗi lần. Bước 3: Lưu cấu hình và một kết quả mẫu để nhóm dùng chung; chưa cần đợi Vũ chia xong tài liệu thậ...~~
+
+~~	Sprint 3	S3-WBS07	S3-G02	1	Tạo embedding theo lô có báo lỗi	Hồ Phạm Đăng Nhân	Đã hoàn thành	4		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cho chương trình nhận nhiều đoạn văn mẫu một lần và tạo vector cho từng đoạn. Bước 2: Nếu một đoạn bị lỗi, ghi rõ mã đoạn và lý do, chỉ thử lại có giới hạn, không làm mất các đoạn thành công. Bước 3: Chạy thử một lô có cả đoạn tốt và đoạn lỗi để chứng minh có thể xử lý lại đúng phần lỗi.	Một m...~~
+
+~~	Sprint 3	S3-WBS12	S3-G02	1	Lưu vector và metadata vào pgvector	Hồ Phạm Đăng Nhân	Đã hoàn thành	5		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Vector mẫu ...~~
+
+~~	Sprint 3	S3-WBS17	S3-G02	1	Ingest thử corpus vào pgvector	Hồ Phạm Đăng Nhân	Đã hoàn thành	3		Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy một nhóm đoạn thật đã được Vũ gắn nguồn và tạo vector. Bước 2: Nạp vào pgvector, ghi số đoạn thành công, số lỗi và lý do lỗi. Bước 3: Truy vấn lại để đối chiếu số lượng, mã tài liệu, phiên bản; chạy lại không được nhân đôi dữ liệu.	Truy vấn pgvector thấy đúng số chunk hợp lệ và lỗi được lưu ...~~
+
+~~	Sprint 3	S3-WBS20	S3-G02	2	Tạo chỉ mục pgvector và đo baseline	Hồ Phạm Đăng Nhân	Đã hoàn thành	4		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo cách tra cứu vector trong pgvector trên dữ liệu đã nạp. Bước 2: Dùng một bộ câu hỏi tiếng Việt/Anh cố định, đo thời gian và kiểm tra đoạn tìm được. Bước 3: Lưu cách cấu hình và kết quả ban đầu để về sau so sánh; nếu dữ liệu thật chưa sẵn, ghi rõ số đo chỉ là tạm trên mẫu.	Có kết quả bas...~~
+
+~~	Sprint 3	S3-WBS25	S3-G02	2	Truy vấn vector có lọc phạm vi	Hồ Phạm Đăng Nhân	Đã hoàn thành	4		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Thêm bộ lọc để chỉ tìm đoạn của đúng công ty, kỳ, loại tài liệu và phiên bản dữ liệu đang chọn. Bước 2: Trả về một số đoạn phù hợp nhất cùng điểm tương đồng và vị trí nguồn. Bước 3: Thử câu hỏi cố tình chọn sai công ty/kỳ để chắc hệ thống không lấy nhầm nguồn ngoài phạm vi.	Ca lọc sai công ty/kỳ...~~
+
+~~	Sprint 3	S3-WBS30	S3-G02	2	Ghi timing và lỗi retrieval	Hồ Phạm Đăng Nhân	Đang test	3		Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Với mỗi lần tìm kiếm vector, ghi thời gian chạy, số đoạn tìm được, điểm của các đoạn và mã lỗi nếu có. Bước 2: Che thông tin nhạy cảm trong lỗi/log. Bước 3: Chạy câu hỏi thành công và câu hỏi lỗi để chắc người kiểm tra có đủ dấu vết tìm nguyên nhân chậm hoặc sai.	Một truy vấn có trace thật đủ phân tích...~~
+
+~~	Sprint 3	S3-WBS34	S3-G02	2	Kiểm thử E2E vector retrieval	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chọn một tài liệu sạch và chạy toàn bộ đường đi: Vũ chia đoạn, Nhân tạo/lưu vector, rồi tìm lại đoạn bằng câu hỏi. Bước 2: So số đoạn, mã nguồn, phiên bản và trích dẫn ở từng bước. Bước 3: Chạy lại để kiểm tra không trùng; lỗi nào chưa sửa được phải ghi rõ người phụ trách.	Ca E2E qua hoặc có lỗi k...~~
+
+~~	Sprint 3	S3-WBS05	S3-G08	1	Chốt thiết kế tài khoản và API	Nguyễn Minh Quân	Đã hoàn thành	3	2	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Xem các trang đăng nhập/đăng ký hiện có, phần tài khoản và phiên đăng nhập trong cơ sở dữ liệu. Bước 2: Vẽ luồng người dùng cho đăng ký, đăng nhập, quên mật khẩu, đặt lại mật khẩu và đăng xuất. Bước 3: Chốt cách quản lý đăng nhập và danh sách API cần làm trước khi code, kèm quy tắc không ghi mật...~~
+
+~~	Sprint 3	S3-WBS10	S3-G08	1	Code đăng ký và đăng nhập backend	Nguyễn Minh Quân	Đã hoàn thành	8	6	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo chức năng đăng ký bằng thông tin hợp lệ và lưu mật khẩu dưới dạng đã bảo vệ, không lưu bản gốc. Bước 2: Tạo đăng nhập, xử lý sai mật khẩu và giới hạn thử liên tiếp; trả thông báo không tiết lộ dữ liệu nhạy cảm. Bước 3: Kiểm thử tài khoản đúng/sai và xác nhận người dùng không tự cấp quyền ...~~
+
+~~	Sprint 3	S3-WBS15	S3-G08	1	Nối login/register UI với API	Nguyễn Minh Quân	Đã hoàn thành	4	3	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nối màn hình đăng nhập/đăng ký hiện có với API thật thay vì dữ liệu giả. Bước 2: Hiển thị trạng thái đang xử lý, nhập sai, lỗi mạng và đăng nhập thành công sao cho người dùng hiểu. Bước 3: Kiểm tra giao diện không lưu mật khẩu hoặc mã khôi phục trong trình duyệt.	Luồng UI đăng nhập/đăng ký dùng b...~~
+
+~~	Sprint 3	S3-WBS23	S3-G08	2	Code quên và đặt lại mật khẩu	Nguyễn Minh Quân	Đã hoàn thành	6	4	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo luồng người dùng nhập email để xin đặt lại mật khẩu; phản hồi giống nhau dù email có tồn tại hay không. Bước 2: Phát mã/đường dẫn khôi phục chỉ dùng một lần và có hạn, lưu bản đã bảo vệ, rồi cho người dùng đặt mật khẩu mới. Bước 3: Làm màn hình quên/đặt lại mật khẩu và thử mã đúng, mã hết hạn...~~
+
+~~	Sprint 3	S3-WBS28	S3-G08	2	Hoàn thiện session logout refresh	Nguyễn Minh Quân	Đã hoàn thành	4	3	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cho người dùng đăng xuất và làm phiên đăng nhập hết hiệu lực theo cách đã chọn. Bước 2: Xử lý trường hợp phiên hết hạn: thử làm mới an toàn nếu được phép, nếu không thì đưa về trang đăng nhập. Bước 3: Thử mã phiên sai, hết hạn và đã đăng xuất để chắc không truy cập tiếp được.	Logout thu hồi p...~~
+
+~~	Sprint 3	S3-WBS33	S3-G08	2	Bảo vệ API theo vai trò	Nguyễn Minh Quân	Đã hoàn thành	3	3	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Liệt kê API tài khoản, nguồn dữ liệu, corpus, truy vấn và đánh giá nằm trong phạm vi Sprint 3, cùng vai trò được phép dùng từng API. Bước 2: Kiểm tra quyền ở máy chủ, không chỉ ẩn nút trên giao diện. Bước 3: Thử tài khoản thiếu quyền gọi trực tiếp từng API và xác nhận bị từ chối.	Sai vai trò bị từ chối...~~
+
+~~	Sprint 3	S3-WBS36	S3-G08	2	Kiểm thử bảo mật tài khoản	Trần Diệu Huyền 	Chưa bắt đầu	2		Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Thử đặt lại mật khẩu bằng mã hết hạn và mã đã dùng; cả hai phải bị từ chối. Bước 2: Thử đăng xuất rồi dùng lại phiên và thử tài khoản sai vai trò gọi API. Bước 3: Xem log không lộ mật khẩu, mã reset hoặc việc email có tồn tại; lỗi chưa qua phải để mở, không đánh dấu hoàn thành.	Các ca bảo mật thiết yế...~~
+
+~~	Sprint 3	S3-WBS03	S3-G04	1	Chốt intent và phạm vi câu hỏi B1	Thái Quốc Hưng	Đã hoàn thành	4	4	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Liệt kê thông tin phải hiểu từ câu hỏi: công ty, thời kỳ và chỉ tiêu tài chính. Bước 2: Viết ví dụ câu hỏi đủ thông tin, thiếu thông tin và mơ hồ. Bước 3: Quy định khi nào hệ thống được tìm dữ liệu, khi nào phải hỏi lại người dùng; thử bằng dữ liệu mẫu trước.	Có bảng intent, scope và ca kiểm th...~~
+
+~~	Sprint 3	S3-WBS08	S3-G04	1	Chốt cấu trúc evidence pack	Thái Quốc Hưng	Đã hoàn thành	3	3	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Quy định một gói bằng chứng cần có nội dung đoạn, mã nguồn, vị trí trang/bảng, phiên bản dữ liệu và điểm phù hợp. Bước 2: Tạo vài gói mẫu và cho luồng trả lời B1 đọc thử, ngay cả khi tìm kiếm vector thật chưa xong. Bước 3: Kiểm tra gói thiếu vị trí nguồn hoặc phiên bản bị báo lỗi rõ ràng.	B1 đọc được...~~
+
+~~	Sprint 3	S3-WBS13	S3-G04	1	Dựng B1 retrieval orchestration bằng fixture	Thái Quốc Hưng	Đã hoàn thành	5	6	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nối phần hiểu câu hỏi với mẫu kết quả tìm kiếm và gói bằng chứng đã thống nhất. Bước 2: Cho B1 chạy thử với dữ liệu mẫu để kiểm tra đường đi từ câu hỏi đến danh sách nguồn. Bước 3: Xử lý riêng trường hợp không tìm thấy nguồn, kết quả rỗng hoặc hết thời gian; chưa phải đợi dữ liệu vec...~~
+
+~~	Sprint 3	S3-WBS18	S3-G04	1	Xử lý B1 khi câu hỏi hoặc nguồn mơ hồ	Thái Quốc Hưng	Đã hoàn thành	3	3	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng câu hỏi thiếu công ty/kỳ/chỉ tiêu để thử B1. Bước 2: Viết câu trả lời yêu cầu người dùng làm rõ thay vì đoán. Bước 3: Với câu hỏi đủ thông tin nhưng không có nguồn phù hợp, cho hệ thống nói chưa đủ bằng chứng và không tự tạo số liệu.	Ca thiếu công ty/kỳ hoặc không có nguồn không bị bịa...~~
+
+~~	Sprint 3	S3-WBS21	S3-G04	2	Nối B1 với retrieval và Gemini	Thái Quốc Hưng	Đã hoàn thành	5	6	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng dữ liệu mẫu để hoàn thiện phần gửi câu hỏi và bằng chứng cho Gemini. Bước 2: Khi Nhân bàn giao truy vấn vector có lọc, thay đầu vào mẫu bằng đoạn thật, giữ mã nguồn trong câu trả lời. Bước 3: Ghi phiên bản mô hình, prompt, giới hạn ngữ cảnh và kiểm tra B1 không bật cơ chế kiểm chứng riêng của...~~
+
+~~	Sprint 3	S3-WBS26	S3-G04	2	Kiểm tra trích dẫn và câu trả lời B1	Thái Quốc Hưng	Đã hoàn thành	3	2	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy vài câu trả lời B1 có nguồn đầy đủ, nguồn thiếu và nguồn mâu thuẫn. Bước 2: Kiểm tra từng nhận định có mã bằng chứng tương ứng và trích dẫn mở được. Bước 3: Với nhận định không chứng minh được, sửa câu trả lời thành thận trọng hoặc báo chưa đủ bằng chứng.	Không có claim vô nguồn trong ca...~~
+
+~~	Sprint 3	S3-WBS31	S3-G04	2	Áp giới hạn token timeout và budget	Thái Quốc Hưng	Đã hoàn thành	3	4	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chốt trần số token, thời gian và chi phí cho một lần trả lời, đưa các mức này vào cấu hình có phiên bản. Bước 2: Trước và trong lúc gọi Gemini, kiểm tra còn trong giới hạn hay không. Bước 3: Nếu vượt giới hạn, dừng và ghi lý do rõ ràng; thử để chắc không phát sinh cuộc gọi ngoài ngân sách.	Ca...~~
+
+~~	Sprint 3	S3-WBS35	S3-G04	2	Chạy B1 trên Golden40 đã khóa	Thái Quốc Hưng	Đã hoàn thành	4	3	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chỉ sau khi Huyền thông báo Golden40 đã khóa, chạy B1 trên đúng 40 câu với cùng phiên bản tài liệu, mô hình, prompt và cấu hình. Bước 2: Lưu cho từng câu: câu trả lời, nguồn đã dùng, thời gian, token và lỗi. Bước 3: Nếu thiếu kết quả/dấu vết, đánh dấu lần chạy chưa đủ, không công bố điểm tổng hợp.	...~~
+
+~~	Sprint 3	S3-WBS04	S3-G06	1	Chốt phân bổ Golden40	Trần Diệu Huyền	Đã hoàn thành	3		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lập danh sách đúng 40 câu hỏi để hiệu chỉnh hệ thống, chia đều theo loại câu hỏi, ngành, ngôn ngữ và thời kỳ đã chốt. Bước 2: Đánh mã từng câu, giao thành các lô 10 câu cho người kiểm tra. Bước 3: Đối chiếu để không trùng với 80 câu của bộ kiểm tra cuối, vì bộ cuối không được dùng để chỉnh hệ thống.	Bảng p...~~
+
+~~	Sprint 3	S3-WBS09	S3-G06	1	Soạn Golden40 lô 1–2	Trần Diệu Huyền	Đã hoàn thành	6		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Soạn 20 câu hỏi đầu theo phân bổ đã duyệt, kèm đáp án ngắn, đơn vị và kỳ báo cáo. Bước 2: Với mỗi đáp án, ghi tài liệu gốc và trang/mục/bảng có thể mở lại để kiểm chứng. Bước 3: Đánh dấu câu còn nghi ngờ và gửi từng lô 10 câu cho người rà soát, không chờ xong cả bộ.	20 ca có đáp án và locator mở lại được; đ...~~
+
+~~	Sprint 3	S3-WBS14	S3-G06	1	Soạn Golden40 lô 3–4	Trần Diệu Huyền	Đã hoàn thành	6		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Soạn nốt 20 câu còn lại để đủ 40 câu, không chỉ viết câu hỏi mà phải có đáp án và nguồn chứng minh. Bước 2: Kiểm tra toàn bộ 40 câu có đúng tỷ lệ loại câu/ngành/ngôn ngữ đã định. Bước 3: Gửi từng lô 10 câu cho Vũ rà soát và ghi rõ câu cần sửa.	Đủ 40 ca có đáp án, nguồn gốc và trạng thái cần review.	Golden40...~~
+
+~~	Sprint 3	S3-WBS22	S3-G06	2	Hoàn thiện đáp án và locator Golden40	Trần Diệu Huyền	Đã hoàn thành	8		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Mở lại tài liệu gốc cho từng câu trong Golden40 để kiểm tra đáp án, đơn vị, kỳ và vị trí trang/bảng. Bước 2: Sửa câu trùng, câu mơ hồ hoặc đáp án chưa có nguồn chắc chắn. Bước 3: Chuyển từng lô đã ổn cho Vũ rà soát độc lập, kèm danh sách chỗ còn bất đồng.	40 ca đủ trường bắt buộc; mỗi ca có...~~
+
+~~	Sprint 3	S3-WBS27	S3-G06	2	Khóa Golden40 sau rà soát chéo	Trần Diệu Huyền	Đã hoàn thành	2		Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nhận bản rà soát của Vũ cho từng lô 10 câu. Bước 2: Cùng Vũ giải quyết tất cả câu còn bất đồng về đáp án hoặc vị trí nguồn. Bước 3: Lưu bản Golden40 cuối cùng với mã phiên bản và mã kiểm tra nội dung; từ đây không sửa âm thầm khi chạy đánh giá.	40 ca có version khóa; không còn bất đồng chưa xử lý....~~
+
+~~	Sprint 3	S3-WBS32	S3-G06	2	Chuẩn bị metric và bàn giao Golden40	Trần Diệu Huyền	Chưa bắt đầu	5		Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Viết tiêu chí chấm câu trả lời: đúng số liệu, có nguồn mở lại được, trả lời đủ ý và trường hợp cần người kiểm tra. Bước 2: Thử cách tính trên vài ca mẫu, ghi kết quả tạm. Bước 3: Sau khi Golden40 được khóa, chạy lại trên bản khóa và bàn giao bảng lỗi cùng phiên bản dùng cho Sprint 4.	Có metri...~~
+
+~~					Tổng giờ các task			150	52																			~~
+
+~~					Giờ thực tế theo ngày (tự tính)				46						5	9	6	3	3	1	0	7	3	3	3	3	0	0~~
+
+~~	Mục tiêu Sprint 4: Graph RAG cho quan hệ doanh nghiệp, chức vụ và sự kiện; Hybrid Router chọn VECTOR/GRAPH/BOTH. Dùng lại chunk và B1 Sprint 3.																											~~
+
+~~	Chỉ nhập giờ thực tế ở cột ngày màu vàng. Giờ thực tế là tổng các ngày đã ghi, để trống khi chưa ghi giờ.																											~~
+
+~~	Chỉ nhập giờ thực tế ở cột ngày màu vàng. Giờ thực tế là tổng các ngày đã ghi, để trống khi chưa ghi giờ.																											~~
+
+~~	Chỉ nhập giờ thực tế ở cột ngày màu vàng. Giờ thực tế là tổng các ngày đã ghi, để trống khi chưa ghi giờ.																											~~
+
+~~	Phân công theo nhóm đã chốt. WBS10 tuần 1; WBS09 tuần 2. WBS17 là một task chung: Nhân 7h và Huyền 6h, tổng 13 giờ công. Ngày và giờ là đề xuất; dùng fixture khi chờ đầu vào.																											~~
+
+~~	FinMind Sprint 4 Backlog																											~~
+
+~~	Số task	17	Giờ dự kiến	128	Tổng giờ thực tế đã ghi			Tuần 1 (h)	65	Tuần 2 (h)	63																	~~
+
+~~	Sprint	Mã task	Mã việc tổng quát	Tuần trong sprint	Công việc	Phụ trách	Tình trạng	Giờ dự kiến	Giờ thực tế	Bắt đầu dự kiến	Deadline	Cần làm gì	Điều kiện hoàn thành	Đầu vào cần có	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Oct 31 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 01 2026...~~
+
+~~4. Bàn giao quan hệ ứng viên có đoạn nguồn; thử ca nhiều chức vụ, nhiều công ty, thiếu thời gian và nguồn mâu thuẫn.	Quan hệ chức vụ đủ người, tổ chức, chức danh và provenance; không nhầm trạng thái hoặc thời gian; ca chưa rõ được đánh dấu.	WBS01; dùng WBS02 thật để nghiệm thu. Có thể làm bằng fixture song song WBS03/WBS05 và phần lưu metadata WBS07.														~~
+
+~~4. Kiểm tra quyền đọc/ghi thực tế của ứng dụng. Thử migration trên môi trường được phép và lưu bằng chứng; chưa gắn graph chưa hoàn tất vào corpus đang dùng.	Repository/migration được kiểm tra; metadata truy lại được nguồn; có giới hạn quyền và kiểm tra chống trùng/phiên bản. Không coi đã bật RLS là đủ nghiệm thu.	WBS01 và trạng thái WBS06 (có thể chốt interface song song). Dùng repository fixture trước DB thật. Phối hợp khóa extraction/version với Nhân WBS08.														~~
+
+~~4. Chạy hồi quy các câu B1 đã hoạt động và bàn giao adapter thật cho WBS13.	VECTOR chạy được nguồn thật, giữ phạm vi/metadata và không làm hỏng B1; có test các ca rỗng/lỗi.	WBS10 và Vector RAG Sprint 3. Không chờ WBS09. Làm sớm đầu tuần 2 để Vũ còn thời gian WBS16.														~~
+
+~~5. Bàn giao báo cáo full-load, lỗi còn lại và phiên dữ liệu. 8h là công chuẩn bị, theo dõi và đối chiếu, không phải cam kết thời gian máy/LLM hay duyệt thủ công mọi quan hệ.	Toàn bộ News đã chốt có trạng thái, không mất tin lỗi; có báo cáo mẫu/full-load riêng và danh sách lỗi chưa xử lý. Không coi mọi quan hệ trích xuất là đã được chấp nhận.	WBS01–08 và kiểm tra mẫu WBS09.5 đạt. Batch runner làm trước bằng fixture; không cần chờ router/chat/UI. Phụ thuộc hạn mức dịch vụ và quyền chạy dữ liệu thậ...~~
+
+~~4. Dùng ID WBS02 để xuất đúng contract; kiểm tra mẫu hợp lệ, sai chiều, thiếu chủ thể và hai tên chỉ xuất hiện cùng đoạn.	Có quan hệ doanh nghiệp ứng viên kèm nguồn, trạng thái và thời gian nếu có; test không tạo quan hệ chỉ từ đồng xuất hiện.	Contract WBS01; chuẩn hóa thật WBS02 để đóng task. Có thể code bằng entity fixture từ 27/10, không phải đợi WBS02 xong mới bắt đầu.														~~
+
+~~4. Xử lý lỗi nạp dở, chuẩn bị resume và đối chiếu số liệu/khóa giữa hai hệ thống. Nghiệm thu phần ghi bằng fixture ở tuần 1; WBS09 nối extraction thật tuần 2.	Bộ ghi graph có test chống trùng, không lẫn phiên, giữ extraction/nguồn và không công bố lần nạp dở. Có graph fixture dùng cho truy vấn.	WBS01; thống nhất metadata/version với WBS07. Không phải đợi full extractor; dùng graph fixture trước. WBS09 chịu trách nhiệm ghép dữ liệu thật.														~~
+
+~~4. Chuẩn bị adapter bằng fixture từ đầu tuần, nối retrieval thật sau khi WBS09 bàn giao; kiểm tra không lộ quan hệ chờ duyệt.	GRAPH chạy bằng graph thật đúng scope, có nguồn và lỗi rõ; đọc lại nguồn bằng ID không bị gắn nhãn BOTH.	Contract WBS10; WBS09 thật để đóng task. Có thể code adapter bằng fixture trước, không đứng chờ pipeline ghép xong.														~~
+
+~~5. Cùng bàn giao bộ test, kết quả chạy thật, bảng so sánh B1/B2, báo cáo full-load và giới hạn còn lại. Chỉ hoàn thành task khi cả phần Nhân và Huyền đạt. Tổng 13 giờ công = Nhân 7 giờ + Huyền 6 giờ, không phải 13 giờ mỗi người.	Có bộ test và kết quả thật cho VECTOR/GRAPH/BOTH và ba nhóm quan hệ; bảng B1/B2 có chất lượng và thời gian phản hồi; citation đúng nguồn; có kiểm thử lỗi/E2E/hồi quy, báo cáo full-load và danh sách lỗi còn lại. Không mặc định B2 tốt hơn B1.	Chuẩn bị bộ ca bằng WBS01/fixt...~~
+
+~~5.  Bàn giao extractor theo lô cho WBS16; chưa chạy full-load trong task này.	Extractor sự kiện chạy được trên News thật mẫu; giữ nguồn, ngày và trạng thái; không công bố nội dung mơ hồ thành sự thật. Có test và interface batch.	WBS01; entity fixture để bắt đầu, WBS02 thật để nghiệm thu. Phần bất định chuyển WBS06. Chạy toàn bộ News thuộc WBS16 của Vũ.														~~
+
+~~5. Làm điều phối bằng hai adapter fixture trước; nối WBS11/WBS12 thật để nghiệm thu.	BOTH thực sự sử dụng hai nhánh, có bộ evidence chung và trạng thái riêng; không che phần chưa được đáp ứng.	WBS10–12. Có thể bắt đầu bằng fixture ngày 02/11; nghiệm thu sau adapter thật. Bàn giao cho WBS14 và WBS17.														~~
+
+~~5. Giữ cấu hình B1 để so sánh; không tự bật Evidence Gate/verifier B3 thuộc sprint sau.	Câu trả lời/citation truy lại được nguồn, không bịa quan hệ/số liệu hoặc che lỗi nhánh; có test và gói bàn giao.	Evidence contract và WBS11–13. Có thể chuẩn bị formatter/citation bằng fixture trước, nghiệm thu sau tuyến thật.														~~
+
+~~4. Tạo fixture hợp lệ, thiếu metadata và mơ hồ cho ba nhóm quan hệ và ba tuyến VECTOR/GRAPH/BOTH; bàn giao contract ngay 26/10 để các nhánh làm song song.	Có manifest đầu vào, contract và fixture được team thống nhất. Không làm lại chunking. Giữ contract và bộ ca B1 hiện có để đối chứng.	Đầu vào: chunk, metadata nguồn, corpus và giao diện/Vector RAG Sprint 3. Không chờ graph thật. Đầu ra ngày 26/10 mở đường cho WBS02–08 và WBS10.														~~
+
+~~4. Kiểm tra cùng đầu vào không tạo ID trùng hoặc thay đổi tùy ý; bàn giao interface/fixture sớm rồi nối bộ chuẩn hóa thật trước 29/10.	Thực thể có ID và alias nhất quán, có provenance; ca trùng tên không bị gộp sai; có test và bộ mẫu bàn giao.	Phụ thuộc WBS01. WBS03–05 được dùng thực thể fixture trước; chỉ nghiệm thu bản nối thật sau WBS02. Không phụ thuộc Neo4j/Supabase.														~~
+
+~~5. 09.5 Chạy mẫu thật đủ ba loại quan hệ, thử nạp lại/lỗi; bàn giao graph retrieval và receipt mẫu đạt trước khi Vũ chạy toàn bộ News.	Có đường chạy thật chunk → extractor → kiểm duyệt → Supabase/Neo4j → retrieval có nguồn; không trùng/lẫn phiên, không dùng quan hệ chưa duyệt. Có receipt mẫu sẵn sàng full-load.	Nghiệm thu cần WBS02–08. Có thể chuẩn bị điều phối/query từ fixture trước; không viết lại repository/extractor. WBS12 dùng retrieval này; WBS16 chỉ full-load sau 09.5 đạt.														~~
+
+~~4. Thử fixture từ 26/10, rồi thử đầu ra thật của ba extractor khi sẵn sàng. Chỉ kết quả được chấp nhận đủ điều kiện đưa vào graph trả lời.	Ba nhóm quan hệ có kết quả kiểm tra và lý do; ca mơ hồ/mâu thuẫn đi chờ duyệt; ca thiếu nguồn bị chặn; có test.	WBS01 để code ngay. Cần mẫu thật WBS03–05 để nghiệm thu từng loại. WBS07 lưu trạng thái; không chờ cả ba extractor mới chuẩn bị quy tắc.														~~
+
+~~5. Kiểm tra nhiều cách diễn đạt, trùng tên, thiếu kỳ và yêu cầu kết hợp. Bàn giao interface cho WBS11–13; chưa đợi graph thật.	Router chọn đúng ba tuyến trên bộ ca fixture, hỏi lại đúng khi chưa rõ; có lý do/trace và contract adapter. Nối nhánh thật trong tuần 2.	WBS01 và intent/context B1 Sprint 3. Hoàn toàn có thể làm song song trích xuất dữ liệu. Không phụ thuộc WBS09 hoặc full-load.														~~
+
+~~5. Dùng fixture đầu tuần để dựng/test UI, chuyển sang API thật khi WBS09/WBS12 sẵn sàng.	Graph Viewer dùng dữ liệu thật, mở đúng nguồn của quan hệ; có kiểm tra rỗng/lỗi/responsive và phiên dữ liệu.	Contract/API WBS01 và WBS09; nếu dùng chung adapter chat thì WBS12. Không cần chờ BOTH hoặc phần tạo câu trả lời.														~~
+
+~~					Tổng giờ các task			128	0																			~~
+
+~~					Giờ thực tế theo ngày (tự tính)				0						0	0	0	0	0	0	0	0	0	0	0	0	0	0~~
+
+~~					Giờ thực tế theo ngày (tự tính)				0						0	0	0	0	0	0	0	0	0	0	0	0	0	0~~
+
+~~					Giờ thực tế theo ngày (tự tính)				0						0	0	0	0	0	0	0	0	0	0	0	0	0	0~~
+
+~~	Sprint 5 gồm 38 task con. Tuần 1 sửa lỗi và nối truy xuất (58h); tuần 2 tối ưu Chat và nhận định xu hướng (50h). Ngày là khung theo tuần. Phân công tối đa 15h/người/tuần.																											~~
+
+~~	FinMind Sprint 5 Backlog																											~~
+
+~~	Số task	38	Giờ dự kiến	108	Tổng giờ thực tế đã ghi																							~~
+
+~~	Sprint	Mã task	Mã việc tổng quát	Tuần trong sprint	Công việc	Phụ trách	Tình trạng	Giờ dự kiến	Giờ thực tế	Bắt đầu dự kiến	Deadline	Cần làm gì	Điều kiện hoàn thành	Đầu vào cần có	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026...~~
+
+~~	Sprint 5	S5-WBS01.1	S5-G01	1	Tái hiện lỗi hỏi chức vụ và BCTN		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy hai câu hỏi trên Web Chat, đối chiếu graph và BCTN trong DB, ghi trace từ router tới truy xuất.	Có hai câu mẫu, dữ liệu đối chiếu và bước chọn sai nguồn hoặc chặn tìm kiếm.	Dữ liệu Sprint 4														~~
+
+~~	Sprint 5	S5-WBS01.2	S5-G01	1	Tái hiện lỗi hội thoại và hết hạn token		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy hội thoại nhiều lượt và gửi tin sau khi access token hết hạn.	Có hai ca tái hiện cùng kết quả thực tế và kỳ vọng.	Web Chat hiện có														~~
+
+~~	Sprint 5	S5-WBS02.1	S5-G01	1	Tìm điều kiện chặn câu hỏi BCTN		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Theo dõi luồng từ nhận câu hỏi đến bộ lọc tài liệu, chỉ ra điều kiện chặn.	Tái hiện bằng một BCTN có trong DB và xác định đúng bước chặn.	S5-WBS01.1														~~
+
+~~	Sprint 5	S5-WBS02.2	S5-G01	1	Chuẩn hóa loại tài liệu và bộ lọc BCTN		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ánh xạ BCTN, báo cáo thường niên và annual report về cùng loại. Truyền mã công ty và kỳ xuống tìm kiếm.	Ba cách gọi đi cùng bộ lọc và giữ đúng mã công ty, kỳ.	S5-WBS02.1														~~
+
+~~	Sprint 5	S5-WBS02.3	S5-G01	1	Kiểm thử truy xuất BCTN bằng dữ liệu thật		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử BCTN có nguồn, sai kỳ, thiếu tài liệu và không có quyền.	Ca có quyền lấy đúng đoạn. Các ca còn lại phản hồi đúng tình trạng.	S5-WBS02.2														~~
+
+~~	Sprint 5	S5-WBS03.1	S5-G02	1	Chốt nhãn ý định và ranh giới giữa các nhãn		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Định nghĩa nhãn số liệu, BCTC/BCTN, News, chức vụ, quan hệ, xu hướng và kết hợp.	Có bảng nhãn và ví dụ phân biệt các ý định dễ nhầm.	—														~~
+
+~~	Sprint 5	S5-WBS03.2	S5-G02	1	Soạn cụm từ mẫu và bộ câu kiểm thử riêng		Chưa bắt đầu	4		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Viết mẫu có dấu, không dấu, viết tắt và cặp dễ nhầm. Tách câu kiểm thử khỏi thư viện dùng để đối chiếu.	Có bộ mẫu gắn nhãn và bộ test riêng, gồm hỏi chức vụ so với hỏi tin bổ nhiệm.	S5-WBS03.1														~~
+
+~~	Sprint 5	S5-WBS03.3	S5-G02	1	Vector hóa và lưu phiên bản thư viện		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo vector cho các câu mẫu và lưu nhãn, phiên bản thư viện và embedding.	Có dữ liệu vector và thông tin phiên bản để tái tạo.	S5-WBS03.2														~~
+
+~~	Sprint 5	S5-WBS04.1	S5-G02	1	Đối chiếu vector câu hỏi với thư viện		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng cùng mô hình embedding để tính độ tương đồng và lấy nhóm ý định gần nhất.	Trả được các nhóm gần nhất và điểm tương đồng.	S5-WBS03.3														~~
+
+~~	Sprint 5	S5-WBS04.2	S5-G02	1	Đặt ngưỡng tin cậy và quy tắc chọn nhánh		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng điểm cao nhất, khoảng cách hai nhóm đầu và thông tin công ty/kỳ để chọn nhánh, hỏi lại hoặc báo cần fallback.	Có đầu ra VECTOR, GRAPH, BOTH, ASK\_CLARIFICATION hoặc tín hiệu fallback theo từng ca.	S5-WBS04.1														~~
+
+~~	Sprint 5	S5-WBS04.3	S5-G02	1	Chạy bộ câu kiểm thử router		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy bộ test riêng và ghi nhãn, điểm, lý do và nhánh.	Có bảng kỳ vọng và thực tế, gồm câu chức vụ, kết hợp và thiếu dữ kiện.	S5-WBS04.2, S5-WBS03.2														~~
+
+~~	Sprint 5	S5-WBS05.1	S5-G03	1	Nối router vào luồng xử lý tin nhắn Web Chat		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Gọi router trong backend khi Web Chat gửi tin và ghi trace. Có thể chuẩn bị tích hợp bằng mẫu.	Trace xác nhận Web Chat gọi router và chọn nhánh.	S5-WBS04.2														~~
+
+~~	Sprint 5	S5-WBS05.2	S5-G03	1	Nối nhánh GRAPH với Neo4j qua adapter hiện có		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng graph adapter để lấy quan hệ đã duyệt, chức vụ và nguồn tương ứng.	Câu hỏi chức vụ trả đúng người, chức vụ và bằng chứng.	S5-WBS05.1, graph có dữ liệu đã duyệt														~~
+
+~~	Sprint 5	S5-WBS05.3	S5-G03	1	Kiểm thử graph thật, graph rỗng và lỗi kết nối		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy ca có dữ liệu, không có quan hệ và lỗi Neo4j trên luồng Web Chat.	Trace xác nhận gọi graph thật. Chat phân biệt rỗng và lỗi truy xuất.	S5-WBS05.2														~~
+
+~~	Sprint 5	S5-WBS06.1	S5-G04	1	Dùng cơ chế refresh token chung cho request Chat		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Nối request Chat vào luồng auth chung và thử lại có kiểm soát khi nhận 401.	Phiên hợp lệ tiếp tục dùng được sau refresh.	Có thể làm độc lập														~~
+
+~~	Sprint 5	S5-WBS06.2	S5-G04	1	Kiểm tra refresh thất bại và chống gửi trùng		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử nhiều request 401, refresh hết hạn và gửi lại tin nhắn.	Không tạo hai tin. Khi refresh hết hạn, yêu cầu đăng nhập lại.	S5-WBS06.1														~~
+
+~~	Sprint 5	S5-WBS07.1	S5-G05	1	Chốt điều kiện fallback và JSON phân loại		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Quy định điểm thấp, hai nhóm sát nhau hoặc lỗi phân loại. Chốt nhãn cho phép và ngữ cảnh tối thiểu gửi đi.	Có contract phân loại và quy tắc kiểm tra kết quả.	S5-WBS03.1, S5-WBS04.2														~~
+
+~~	Sprint 5	S5-WBS07.2	S5-G05	1	Nối AI bên thứ ba vào bước phân loại		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Gọi AI khi cần, giới hạn thời gian, xác thực nhãn và chuyển kết quả về router FinMind. Chuẩn bị bằng phản hồi mẫu.	Nhãn hợp lệ tiếp tục truy xuất trong FinMind. Trace ghi lần gọi.	S5-WBS07.1														~~
+
+~~	Sprint 5	S5-WBS07.3	S5-G05	1	Kiểm thử fallback và trường hợp cả hai bước thất bại		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử AI trả đúng, sai nhãn, timeout và câu rõ ý định.	Ca thất bại hỏi lại. Câu rõ ý định xử lý nội bộ.	S5-WBS07.2														~~
+
+~~	Sprint 5	S5-WBS08.1	S5-G06	1	Chuẩn bị chuỗi giá theo mã doanh nghiệp		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chốt khoảng giá, lấy ngày đầu/cuối, số phiên và nguồn theo mã.	Có chuỗi giá mẫu và mức biến động truy được nguồn.	Dữ liệu giá hiện có														~~
+
+~~	Sprint 5	S5-WBS08.2	S5-G06	1	Lấy chỉ tiêu từ các kỳ BCTC gần nhất		Chưa bắt đầu	4		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Lấy doanh thu, lợi nhuận, dòng tiền nếu có. Ghi kỳ, đơn vị, ngày công bố nếu có và đoạn nguồn.	Có số liệu theo kỳ cùng bằng chứng gốc.	Dữ liệu BCTC hiện có														~~
+
+~~	Sprint 5	S5-WBS08.3	S5-G06	1	Chuẩn hóa đầu vào cho mô hình xu hướng		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ghép mã, chuẩn hóa đơn vị và chọn kỳ so sánh tương đương. Đánh dấu thiếu dữ liệu.	Có đầu vào theo doanh nghiệp, kỳ, đơn vị và trạng thái đủ dữ liệu.	S5-WBS08.1, S5-WBS08.2														~~
+
+~~	Sprint 5	S5-WBS09.1	S5-G07	2	Kế thừa công ty, kỳ và chủ đề giữa các lượt		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng phạm vi hội thoại hiện tại, ưu tiên công ty hoặc kỳ mới nếu người dùng thay đổi.	Câu nối tiếp giữ đúng phạm vi và chuyển phạm vi khi được yêu cầu.	S5-WBS05.1														~~
+
+~~	Sprint 5	S5-WBS09.2	S5-G07	2	Xử lý liệt kê và giới thiệu tổng quan		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Liệt kê nội dung đang nói. Tổng quan đúng doanh nghiệp và truy xuất thêm khi cần.	Hai câu mẫu chạy đúng trong phiên nhiều lượt.	S5-WBS09.1														~~
+
+~~	Sprint 5	S5-WBS09.3	S5-G07	2	Xử lý tổng hợp nãy giờ		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tóm tắt nội dung phiên hiện tại và giữ các nguồn đã dẫn.	Không lẫn nội dung giữa các phiên, nguồn còn đối chiếu được.	S5-WBS09.1														~~
+
+~~	Sprint 5	S5-WBS10.1	S5-G06	2	Tính nhóm tín hiệu giá		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tính biến động theo khoảng đã chốt và đánh dấu thiếu phiên hoặc thiếu giá.	Có tín hiệu giá và dữ liệu dùng để tính.	S5-WBS08.1, S5-WBS08.3														~~
+
+~~	Sprint 5	S5-WBS10.2	S5-G06	2	Tính nhóm tín hiệu tài chính		Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tính thay đổi doanh thu, lợi nhuận và dòng tiền khi có kỳ tương đương.	Có tín hiệu từng chỉ tiêu và nguồn tương ứng.	S5-WBS08.2, S5-WBS08.3														~~
+
+~~	Sprint 5	S5-WBS10.3	S5-G06	2	Gộp tín hiệu và trả nhãn xu hướng		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng quy tắc chấm điểm giải thích được để gộp tín hiệu giá và tài chính.	Trả đi lên, đi xuống, trái chiều hoặc chưa đủ dữ liệu. Ca trái chiều thể hiện hai tín hiệu riêng.	S5-WBS10.1, S5-WBS10.2														~~
+
+~~	Sprint 5	S5-WBS10.4	S5-G06	2	Kiểm thử quy tắc chấm điểm		Chưa bắt đầu	2		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thử cùng tăng, cùng giảm, trái chiều và thiếu kỳ.	Mỗi nhãn giải thích được bằng số liệu đầu vào.	S5-WBS10.3														~~
+
+~~	Sprint 5	S5-WBS11.1	S5-G06	2	Nối ý định xu hướng với mô hình nhận định		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Khi nhận diện câu hỏi xu hướng, gọi mô hình với đúng mã và phạm vi. Chuẩn bị bằng kết quả mẫu trước.	Trace xác nhận Chat gọi mô hình đúng đầu vào.	S5-WBS04.2, S5-WBS05.1, S5-WBS10.3 để nghiệm thu thật														~~
+
+~~	Sprint 5	S5-WBS11.2	S5-G06	2	Hiển thị nhận định xu hướng trong Chat		Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tách diễn biến giá và tình hình tài chính, ghi kỳ, chỉ tiêu, nguồn và phần còn thiếu.	Chat đưa nhận định đúng công ty, kỳ và có nguồn kiểm tra được.	S5-WBS11.1, S5-WBS10.3														~~
+
+~~	Sprint 5	S5-WBS12.1	S5-G08	2	Định dạng câu trả lời theo yêu cầu		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng danh sách cho liệt kê, bảng cho so sánh và tóm tắt cho tổng quan.	Câu trả lời có đúng cấu trúc người dùng yêu cầu.	S5-WBS09.2, S5-WBS09.3 cho ca nối tiếp														~~
+
+~~	Sprint 5	S5-WBS12.2	S5-G08	2	Ghép bằng chứng graph và tài liệu cho BOTH		Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ghép kết quả theo đúng mã công ty và kỳ, gắn citation sát nhận định.	Cả hai loại bằng chứng được dùng đúng phạm vi và nguồn.	S5-WBS05.2, nhánh Vector hiện có														~~
+
+~~	Sprint 5	S5-WBS12.3	S5-G08	2	Xử lý kết quả rỗng, thiếu nguồn và lỗi một nhánh		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ trình bày phần có căn cứ, ghi rõ phần còn thiếu và thử ca fallback thất bại.	Câu trả lời phân biệt rỗng, thiếu bằng chứng và lỗi nhánh.	S5-WBS07.3, S5-WBS12.1, S5-WBS12.2														~~
+
+~~	Sprint 5	S5-WBS13.1	S5-G09	2	Chạy hồi quy bốn lỗi Sprint 4 trên Web Chat		Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy lại ca chức vụ, BCTN, ngữ cảnh và token hết hạn.	Có kết quả pass/fail và trace cho đủ bốn lỗi.	S5-WBS02.3, S5-WBS05.3, S5-WBS06.2, S5-WBS09.2, S5-WBS09.3														~~
+
+~~	Sprint 5	S5-WBS13.2	S5-G09	2	Đánh giá router và fallback trên bộ câu riêng		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3														~~
+
+~~	Sprint 5	S5-WBS13.3	S5-G09	2	Đối chiếu nhận định xu hướng và citation		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu giá và BCTC gốc cho ca đủ dữ liệu, trái chiều và thiếu dữ liệu.	Số liệu, kỳ, nhãn và citation khớp nguồn ở các ca thử.	S5-WBS10.4, S5-WBS11.2, S5-WBS12.2														~~
+
+~~	Sprint 5	S5-WBS13.4	S5-G09	2	Chuẩn bị kịch bản demo và tổng hợp lỗi còn lại		Chưa bắt đầu	2		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tập hợp câu hỏi demo, kỳ vọng, kết quả thực tế, trace và lỗi còn mở.	Có kịch bản demo toàn luồng và danh sách lỗi còn mở.	S5-WBS13.1, S5-WBS13.2, S5-WBS13.3														~~
+
+~~					Tổng giờ các task			108	0																			~~
+
+~~	Ngày, giờ và phân công là đề xuất. Tuần 1 và 2 tính từ thứ Hai bắt đầu sprint; chỉ làm khi đầu vào đã sẵn sàng.																											~~
+
+~~	FinMind Sprint 6 Backlog																											~~
+
+~~	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi																							~~
+
+~~	Sprint	Mã task	Mã việc tổng quát	Tuần trong sprint	Công việc	Phụ trách	Tình trạng	Giờ dự kiến	Giờ thực tế	Bắt đầu dự kiến	Deadline	Cần làm gì	Điều kiện hoàn thành	Đầu vào cần có	Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 29 2026...~~
+
+~~	Sprint 6	S6-WBS01	S6-G01	1	Kiểm tra bộ 80 ca đã khóa	Trần Diệu Huyền	Chưa bắt đầu	4		Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu phiên bản, phân bổ ca và locators được reviewer duyệt. Runtime không được đọc đáp án chuẩn.	Có 80 ca final hợp lệ tách khỏi dữ liệu tuning.	Phiên bản bàn giao của sprint trước đã được duyệt.														~~
+
+~~	Sprint 6	S6-WBS02	S6-G01	1	Kiểm tra manifest B0 B1 B2 B3	Trần Diệu Huyền	Chưa bắt đầu	5		Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu code tag, corpus, model, prompt, threshold và evaluator đã chốt ở Sprint 5.	Bốn cấu hình được ghi rõ và không thay đổi giữa các ca.	Phiên bản bàn giao của sprint trước đã được duyệt.														~~
+
+~~	Sprint 6	S6-WBS03	S6-G01	1	Tạo run ID và checkpoint hạ tầng	Nguyễn Minh Quân	Chưa bắt đầu	4		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Thiết lập lưu trạng thái từng câu và cách chạy tiếp chỉ khi hạ tầng lỗi với manifest không đổi.	Có thể resume lỗi hạ tầng mà không thay cấu hình hoặc chọn lại kết quả.	Phiên bản bàn giao của sprint trước đã được duyệt.														~~
+
+~~	Sprint 6	S6-WBS04	S6-G01	1	Kiểm tra cách ly nhãn và quyền evaluator	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ evaluator đọc gold labels; xác nhận API runtime không nhận đáp án chuẩn.	Không có nhãn final trong context hoặc log đầu vào generator.	Phiên bản bàn giao của sprint trước đã được duyệt.														~~
+
+~~	Sprint 6	S6-WBS05	S6-G02	1	Chạy và lưu đầu ra B0	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy các câu bằng cấu hình structured control; ghi trả lời hoặc không trả lời và lý do.	Có kết quả từng câu của B0 với manifest và trace.	Kiểm tra đầu ra liên quan của S6-G01 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS06	S6-G02	1	Chạy và lưu đầu ra B1	Nguyễn Minh Quân	Chưa bắt đầu	4		Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy vector RAG đúng tag, giữ output, citation, latency và token.	Không bật các thành phần chỉ thuộc B3 trong B1.	Kiểm tra đầu ra liên quan của S6-G01 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS07	S6-G02	1	Chạy và lưu đầu ra B2	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy hybrid graph vector cùng corpus và bộ final; ghi nhánh graph và fusion.	Có đủ dữ liệu từng câu để đối chiếu với B1.	Kiểm tra đầu ra liên quan của S6-G01 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS08	S6-G02	1	Chạy và lưu đầu ra B3	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy cả Gate và verifier, kể cả nhánh sửa có giới hạn; ghi cả fallback hoặc partial.	Mỗi tag chỉ có lượt final hợp lệ theo policy, không chọn lượt đẹp nhất.	Kiểm tra đầu ra liên quan của S6-G01 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS09	S6-G03	1	Tính đúng số độ trung thực và citation	Thái Quốc Hưng	Chưa bắt đầu	4		Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng cùng định nghĩa và phiên bản evaluator để tính quality metrics từ kết quả thực tế.	Mỗi điểm truy ra được output, gold và cách tính.	Kiểm tra đầu ra liên quan của S6-G02 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS10	S6-G03	1	Tính recall coverage và an toàn thiếu dữ liệu	Nguyễn Minh Quân	Chưa bắt đầu	4		Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu theo hash và locator nguồn; kiểm tra cả số liệu bịa, missing-data và false refusal.	Có số đúng sai và mẫu lỗi cho từng chỉ số bắt buộc.	Kiểm tra đầu ra liên quan của S6-G02 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS11	S6-G03	1	So sánh theo loại câu ngành và ngôn ngữ	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Tách kết quả B0 B3 theo nhóm và khoảng tin cậy theo protocol; không chỉ báo overall.	Bảng phân tích nêu số mẫu và nhóm không đủ kết luận.	Kiểm tra đầu ra liên quan của S6-G02 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS12	S6-G03	1	Đối chiếu Gate và giả thuyết nghiên cứu	Hồ Phạm Đăng Nhân	Chưa bắt đầu	5		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Tách ngưỡng nghiệm thu khỏi giả thuyết và số chỉ để báo cáo; ghi các mục chưa đạt.	Không biến mục tiêu hoặc giả thuyết thành kết quả đã đo.	Kiểm tra đầu ra liên quan của S6-G02 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS13	S6-G04	1	Kiểm tra các ca số liệu và citation quan trọng	Thái Quốc Hưng	Chưa bắt đầu	6		Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	Rà thủ công các lỗi số liệu, citation và các nhóm phải audit theo SRS.	Có biên bản reviewer và giải quyết bất đồng.	Kiểm tra đầu ra liên quan của S6-G03 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS14	S6-G04	1	Chạy tải 10 yêu cầu đồng thời	Nguyễn Minh Quân	Chưa bắt đầu	3		Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng môi trường và corpus đã ghi, đo latency từ nhận yêu cầu đến kết quả cuối.	Có cấu hình tải, máy chạy và raw latency của từng yêu cầu.	Kiểm tra đầu ra liên quan của S6-G03 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS15	S6-G04	1	Tính p95 và thời gian nhánh sửa	Đinh Huỳnh Vũ	Chưa bắt đầu	3		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Tính p95 cho answered requests gồm controlled repair; báo riêng refusal và partial.	Bảng tốc độ không loại lượt sửa để làm đẹp số đo.	Kiểm tra đầu ra liên quan của S6-G03 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS16	S6-G04	1	Tổng hợp token và chi phí thực tế	Hồ Phạm Đăng Nhân	Chưa bắt đầu	2		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Lấy token từng request theo mô hình và lần gọi; đối chiếu budget và lưu rate dùng để tính nếu có.	Báo cáo phân biệt token đo được và chi phí chưa xác định.	Kiểm tra đầu ra liên quan của S6-G03 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS17	S6-G05	2	Kiểm thử phân quyền và phiên hết hạn	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Thử truy cập sai vai trò, hết hạn phiên và dữ liệu của người khác với các API chính.	Không vượt quyền hoặc đọc lịch sử ngoài chính sách.	Kiểm tra đầu ra liên quan của S6-G04 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS18	S6-G05	2	Kiểm thử bí mật retention và log	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra khóa API, dữ liệu nhạy cảm, chính sách xóa trace và lỗi subsystem.	Không lộ bí mật; thao tác xóa và review có vết kiểm tra được.	Kiểm tra đầu ra liên quan của S6-G04 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS19	S6-G05	2	Chạy lại luồng nghiệp vụ từ đầu đến cuối	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Thử tìm công ty, đặt câu hỏi, so sánh, mở nguồn và fallback trên bản bàn giao.	Có kết quả kiểm thử cho các luồng Must và ca lỗi chính.	Kiểm tra đầu ra liên quan của S6-G04 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS20	S6-G05	2	Hoàn thiện ma trận yêu cầu và test	Nguyễn Minh Quân	Chưa bắt đầu	4		Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Liên kết từng FR NFR Must với test ID, kết quả và bằng chứng; ghi mục chưa đạt.	Không có yêu cầu Must chỉ đánh dấu đạt mà thiếu bằng chứng.	Kiểm tra đầu ra liên quan của S6-G04 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS21	S6-G06	2	Đóng gói Docker Compose	Nguyễn Minh Quân	Chưa bắt đầu	4		Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Đóng gói frontend, API, PostgreSQL pgvector và Neo4j với cấu hình tài nguyên rõ ràng.	Khởi động được bộ dịch vụ trên môi trường được ghi.	Kiểm tra đầu ra liên quan của S6-G05 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS22	S6-G06	2	Viết migration và cấu hình triển khai mẫu	Nguyễn Minh Quân	Chưa bắt đầu	4		Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Chuẩn bị migration, biến môi trường mẫu không có secret và cách nạp corpus hợp lệ.	Người khác biết cần cấu hình gì mà không nhận khóa thật của nhóm.	Kiểm tra đầu ra liên quan của S6-G05 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS23	S6-G06	2	Thử cài trên môi trường sạch	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Triển khai theo hướng dẫn, không dùng file hoặc cấu hình ẩn chỉ có trên máy dev.	Có log cài sạch và danh sách bước cần sửa.	Kiểm tra đầu ra liên quan của S6-G05 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS24	S6-G06	2	Đóng gói manifest và dữ liệu đánh giá	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Lưu output từng câu, metrics, cấu hình và code tag để kiểm tra lại benchmark.	Gói đánh giá tái hiện được nguồn của từng kết quả trong phạm vi quyền lưu.	Kiểm tra đầu ra liên quan của S6-G05 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS25	S6-G07	2	Cập nhật SRS theo bản triển khai thực tế	Thái Quốc Hưng	Chưa bắt đầu	4		Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu chức năng Must đã làm, sơ đồ và ràng buộc với code tag bàn giao.	SRS không mô tả chức năng optional chưa triển khai như đã có.	Kiểm tra đầu ra liên quan của S6-G06 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS26	S6-G07	2	Viết hướng dẫn sử dụng và quản trị	Thái Quốc Hưng	Chưa bắt đầu	5		Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Giải thích đăng nhập, tìm công ty, hỏi, mở nguồn; hướng dẫn nguồn, corpus, budgets và xử lý lỗi.	Người đọc làm theo được từng luồng cơ bản.	Kiểm tra đầu ra liên quan của S6-G06 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS27	S6-G07	2	Viết báo cáo kiểm thử và hạn chế	Trần Diệu Huyền	Chưa bắt đầu	4		Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Tổng hợp kết quả, lỗi tồn, dữ liệu thiếu và giới hạn phạm vi; đính kèm vị trí bằng chứng.	Báo cáo nêu cả mục chưa đạt, không chỉ các ca thành công.	Kiểm tra đầu ra liên quan của S6-G06 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS28	S6-G07	2	Hoàn thiện form và khai báo AI thực tế	Hồ Phạm Đăng Nhân	Chưa bắt đầu	5		Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Điền các form được cung cấp, khai báo công cụ AI và phần sử dụng dựa trên nhật ký thật.	Không tự tạo phần trăm sử dụng AI hoặc xác nhận khi chưa có dữ liệu.	Kiểm tra đầu ra liên quan của S6-G06 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS29	S6-G08	2	Soạn báo cáo nghiên cứu và slide kết quả	Trần Diệu Huyền	Chưa bắt đầu	6		Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Trình bày B0 B3, giả thuyết, metrics, mẫu lỗi và giới hạn bằng số đo thực tế.	Bảng trong báo cáo khớp gói đánh giá đã lưu.	Kiểm tra đầu ra liên quan của S6-G07 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS30	S6-G08	2	Chuẩn bị kịch bản demo các luồng chính	Nguyễn Minh Quân	Chưa bắt đầu	3		Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Chọn ca hỏi số liệu, giải thích, quan hệ, so sánh và thiếu dữ liệu trên evaluated tag.	Demo dùng đúng phiên bản đã đánh giá, không thay cấu hình ngầm.	Kiểm tra đầu ra liên quan của S6-G07 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS31	S6-G08	2	Diễn tập demo và kiểm tra checklist	Đinh Huỳnh Vũ	Chưa bắt đầu	3		Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Thử mở nguồn, fallback và khởi động dịch vụ; chuẩn bị cách giải thích khi hệ thống hoặc nguồn lỗi.	Nhóm biết thao tác và người phụ trách từng phần demo.	Kiểm tra đầu ra liên quan của S6-G07 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS32	S6-G08	2	Chốt hồ sơ nghiệm thu và bàn giao	Hồ Phạm Đăng Nhân	Chưa bắt đầu	2		Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Bàn giao code tag, tài liệu, manifests và danh sách lỗi tồn; ghi quyết định đạt hoặc chưa đạt.	Có danh mục bàn giao và người nhận xác nhận các phần thực tế đã có.	Kiểm tra đầu ra liên quan của S6-G07 trước khi làm.														~~
+
+~~	Sprint 6	S6-WBS33	S6-G09	1	Kiểm tra tính đầy đủ của raw benchmark	Thái Quốc Hưng	Chưa bắt đầu	5		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Rà số ca, trace và output của từng cấu hình; chỉ resume lỗi hạ tầng theo policy.	Không mất ca hoặc xuất bản aggregate khi thiếu trace.	Các task chức năng liên quan có đầu ra để kiểm tra.														~~
+
+~~	Sprint 6	S6-WBS34	S6-G09	1	Sửa lỗi công cụ đánh giá và đóng gói	Trần Diệu Huyền	Chưa bắt đầu	6		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sửa lỗi hạ tầng hoặc pipeline báo cáo; thay đổi sau final phải ghi exploratory nếu làm đổi tag.	Không thay kết quả final cũ bằng một lượt chạy tùy chọn.	Các task chức năng liên quan có đầu ra để kiểm tra.														~~
+
+~~	Sprint 6	S6-WBS35	S6-G09	2	Sửa lỗi bàn giao và kiểm thử hồi quy	Trần Diệu Huyền	Chưa bắt đầu	5		Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ưu tiên lỗi triển khai, quyền và mất nguồn; ghi tag sửa sau final và phạm vi kiểm tra lại.	Lỗi đã đóng có test lại và khác biệt so với evaluated tag được công bố.	Các task chức năng liên quan có đầu ra để kiểm tra.														~~
+
+~~	Sprint 6	S6-WBS36	S6-G09	2	Review cuối với nhóm và mentor	Thái Quốc Hưng	Chưa bắt đầu	6		Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra Gates, tài liệu, demo và lỗi tồn trước khi xác nhận dự án hoàn tất.	Có quyết định nghiệm thu dựa trên bằng chứng, không chỉ dựa vào phần trăm task.	Các task chức năng liên quan có đầu ra để kiểm tra.														~~
+
+~~					Tổng giờ các task			150	0																			~~
+
 ## 2026-11-09 14:42 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
