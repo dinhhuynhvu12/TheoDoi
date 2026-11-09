@@ -1,5 +1,45 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-09 21:02 - SUA NOI DUNG
+
+- **Người đăng:** minhquan9125@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-09 21:02
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS02.2	Chuẩn hóa loại tài liệu và bộ lọc BCTN	Tái hiện lỗi và sửa truy xuất BCTN	Ánh xạ BCTN, báo cáo thường niên và annual report về cùng loại. Truyền mã công ty và kỳ xuống tìm kiếm.	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Ba cách gọi đi cùng bộ lọc và giữ đúng mã công ty, kỳ.	S5-WBS02.1	Cao	Chưa bắt đầu	S5-G01	FinMind	5	3		Nguyễn Minh Quân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS06.1	Dùng cơ chế refresh token chung cho request Chat	Refresh token cho Chat	Nối request Chat vào luồng auth chung và thử lại có kiểm soát khi nhận 401.	Chat tiếp tục sau refresh hợp lệ, xử lý phiên hết hạn và tránh gửi trùng.	Phiên hợp lệ tiếp tục dùng được sau refresh.	Có thể làm độc lập	Vừa	Chưa bắt đầu	S5-G04	FinMind	5	3		Nguyễn Minh Quân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS06.2	Kiểm tra refresh thất bại và chống gửi trùng	Refresh token cho Chat	Thử nhiều request 401, refresh hết hạn và gửi lại tin nhắn.	Chat tiếp tục sau refresh hợp lệ, xử lý phiên hết hạn và tránh gửi trùng.	Không tạo hai tin. Khi refresh hết hạn, yêu cầu đăng nhập lại.	S5-WBS06.1	Vừa	Chưa bắt đầu	S5-G04	FinMind	5	2		Nguyễn Minh Quân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS08.2	Lấy chỉ tiêu từ các kỳ BCTC gần nhất	Nhận định xu hướng doanh nghiệp	Lấy doanh thu, lợi nhuận, dòng tiền nếu có. Ghi kỳ, đơn vị, ngày công bố nếu có và đoạn nguồn.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Có số liệu theo kỳ cùng bằng chứng gốc.	Dữ liệu BCTC hiện có	Cao	Chưa bắt đầu	S5-G06	FinMind	5	4		Nguyễn Minh Quân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	Sprint 5	S5-WBS02.2	S5-G01	1	Chuẩn hóa loại tài liệu và bộ lọc BCTN	Nguyễn Minh Quân	Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ánh xạ BCTN, báo cáo thường niên và annual report về cùng loại. Truyền mã công ty và kỳ xuống tìm kiếm.	Ba cách gọi đi cùng bộ lọc và giữ đúng mã công ty, kỳ.	S5-WBS02.1															**
+
+🟢 **	Sprint 5	S5-WBS06.1	S5-G04	1	Dùng cơ chế refresh token chung cho request Chat	Nguyễn Minh Quân	Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Nối request Chat vào luồng auth chung và thử lại có kiểm soát khi nhận 401.	Phiên hợp lệ tiếp tục dùng được sau refresh.	Có thể làm độc lập															**
+
+🟢 **	Sprint 5	S5-WBS06.2	S5-G04	1	Kiểm tra refresh thất bại và chống gửi trùng	Nguyễn Minh Quân	Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử nhiều request 401, refresh hết hạn và gửi lại tin nhắn.	Không tạo hai tin. Khi refresh hết hạn, yêu cầu đăng nhập lại.	S5-WBS06.1															**
+
+🟢 **	Sprint 5	S5-WBS08.2	S5-G06	1	Lấy chỉ tiêu từ các kỳ BCTC gần nhất	Nguyễn Minh Quân	Chưa bắt đầu	4		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Lấy doanh thu, lợi nhuận, dòng tiền nếu có. Ghi kỳ, đơn vị, ngày công bố nếu có và đoạn nguồn.	Có số liệu theo kỳ cùng bằng chứng gốc.	Dữ liệu BCTC hiện có															**
+
+~~	S5-WBS02.2	Chuẩn hóa loại tài liệu và bộ lọc BCTN	Tái hiện lỗi và sửa truy xuất BCTN	Ánh xạ BCTN, báo cáo thường niên và annual report về cùng loại. Truyền mã công ty và kỳ xuống tìm kiếm.	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Ba cách gọi đi cùng bộ lọc và giữ đúng mã công ty, kỳ.	S5-WBS02.1	Cao	Chưa bắt đầu	S5-G01	FinMind	5	3			Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS06.1	Dùng cơ chế refresh token chung cho request Chat	Refresh token cho Chat	Nối request Chat vào luồng auth chung và thử lại có kiểm soát khi nhận 401.	Chat tiếp tục sau refresh hợp lệ, xử lý phiên hết hạn và tránh gửi trùng.	Phiên hợp lệ tiếp tục dùng được sau refresh.	Có thể làm độc lập	Vừa	Chưa bắt đầu	S5-G04	FinMind	5	3			Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS06.2	Kiểm tra refresh thất bại và chống gửi trùng	Refresh token cho Chat	Thử nhiều request 401, refresh hết hạn và gửi lại tin nhắn.	Chat tiếp tục sau refresh hợp lệ, xử lý phiên hết hạn và tránh gửi trùng.	Không tạo hai tin. Khi refresh hết hạn, yêu cầu đăng nhập lại.	S5-WBS06.1	Vừa	Chưa bắt đầu	S5-G04	FinMind	5	2			Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS08.2	Lấy chỉ tiêu từ các kỳ BCTC gần nhất	Nhận định xu hướng doanh nghiệp	Lấy doanh thu, lợi nhuận, dòng tiền nếu có. Ghi kỳ, đơn vị, ngày công bố nếu có và đoạn nguồn.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Có số liệu theo kỳ cùng bằng chứng gốc.	Dữ liệu BCTC hiện có	Cao	Chưa bắt đầu	S5-G06	FinMind	5	4			Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	Sprint 5	S5-WBS02.2	S5-G01	1	Chuẩn hóa loại tài liệu và bộ lọc BCTN		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ánh xạ BCTN, báo cáo thường niên và annual report về cùng loại. Truyền mã công ty và kỳ xuống tìm kiếm.	Ba cách gọi đi cùng bộ lọc và giữ đúng mã công ty, kỳ.	S5-WBS02.1															~~
+
+~~	Sprint 5	S5-WBS06.1	S5-G04	1	Dùng cơ chế refresh token chung cho request Chat		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Nối request Chat vào luồng auth chung và thử lại có kiểm soát khi nhận 401.	Phiên hợp lệ tiếp tục dùng được sau refresh.	Có thể làm độc lập															~~
+
+~~	Sprint 5	S5-WBS06.2	S5-G04	1	Kiểm tra refresh thất bại và chống gửi trùng		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử nhiều request 401, refresh hết hạn và gửi lại tin nhắn.	Không tạo hai tin. Khi refresh hết hạn, yêu cầu đăng nhập lại.	S5-WBS06.1															~~
+
+~~	Sprint 5	S5-WBS08.2	S5-G06	1	Lấy chỉ tiêu từ các kỳ BCTC gần nhất		Chưa bắt đầu	4		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Lấy doanh thu, lợi nhuận, dòng tiền nếu có. Ghi kỳ, đơn vị, ngày công bố nếu có và đoạn nguồn.	Có số liệu theo kỳ cùng bằng chứng gốc.	Dữ liệu BCTC hiện có															~~
+
 ## 2026-11-09 20:53 - SUA NOI DUNG
 
 - **Người đăng:** dunhvu47@gmail.com
