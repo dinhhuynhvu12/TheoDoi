@@ -1,5 +1,53 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-09 20:53 - SUA NOI DUNG
+
+- **Người đăng:** dunhvu47@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-09 20:53
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS01.1	Tái hiện lỗi hỏi chức vụ và BCTN	Tái hiện lỗi và sửa truy xuất BCTN	Chạy hai câu hỏi trên Web Chat, đối chiếu graph và BCTN trong DB, ghi trace từ router tới truy xuất.	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Có hai câu mẫu, dữ liệu đối chiếu và bước chọn sai nguồn hoặc chặn tìm kiếm.	Dữ liệu Sprint 4	Cao	Chưa bắt đầu	S5-G01	FinMind	5	3		Đinh Huỳnh Vũ	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Ind...**
+
+🟢 **	S5-WBS02.1	Tìm điều kiện chặn câu hỏi BCTN	Tái hiện lỗi và sửa truy xuất BCTN	Theo dõi luồng từ nhận câu hỏi đến bộ lọc tài liệu, chỉ ra điều kiện chặn.	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Tái hiện bằng một BCTN có trong DB và xác định đúng bước chặn.	S5-WBS01.1	Cao	Chưa bắt đầu	S5-G01	FinMind	5	2		Đinh Huỳnh Vũ	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS02.3	Kiểm thử truy xuất BCTN bằng dữ liệu thật	Tái hiện lỗi và sửa truy xuất BCTN	Thử BCTN có nguồn, sai kỳ, thiếu tài liệu và không có quyền.	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Ca có quyền lấy đúng đoạn. Các ca còn lại phản hồi đúng tình trạng.	S5-WBS02.2	Cao	Chưa bắt đầu	S5-G01	FinMind	5	2		Đinh Huỳnh Vũ	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS14	Hoàn thiện trang Admin quản lý quyền truy cập	Admin, Watchlist và nghiệm thu	Bổ sung màn hình danh sách người dùng và vai trò. Nối chức năng cập nhật quyền bằng API hiện có, hiển thị lỗi và yêu cầu xác nhận trước khi đổi quyền.	Có kết quả hồi quy và demo. Admin quản lý được quyền truy cập. Người dùng theo dõi được doanh nghiệp quan tâm và xem cập nhật có nguồn.	Admin xem và cập nhật được vai trò hợp lệ. Tài khoản thường bị chặn cả ở UI lẫn API. Có ca kiểm thử quyền và lỗi cập nhật.	Luồ...**
+
+🟢 **	S5-WBS15	Hoàn thiện danh sách theo dõi doanh nghiệp (Watchlist)	Admin, Watchlist và nghiệm thu	Cho người dùng thêm hoặc bỏ doanh nghiệp theo mã, xem giá và biến động gần nhất, kỳ BCTC mới nhất và nhận định xu hướng khi có dữ liệu. Gắn liên kết mở chi tiết doanh nghiệp.	Có kết quả hồi quy và demo. Admin quản lý được quyền truy cập. Người dùng theo dõi được doanh nghiệp quan tâm và xem cập nhật có nguồn.	Thêm và bỏ mã được, danh sách giữ đúng theo tài khoản sau khi tải lại. Giá, kỳ BCTC và xu hướ...**
+
+🟢 **	Sprint 5	S5-WBS01.1	S5-G01	1	Tái hiện lỗi hỏi chức vụ và BCTN	Đinh Huỳnh Vũ	Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy hai câu hỏi trên Web Chat, đối chiếu graph và BCTN trong DB, ghi trace từ router tới truy xuất.	Có hai câu mẫu, dữ liệu đối chiếu và bước chọn sai nguồn hoặc chặn tìm kiếm.	Dữ liệu Sprint 4															**
+
+🟢 **	Sprint 5	S5-WBS02.1	S5-G01	1	Tìm điều kiện chặn câu hỏi BCTN	Đinh Huỳnh Vũ	Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Theo dõi luồng từ nhận câu hỏi đến bộ lọc tài liệu, chỉ ra điều kiện chặn.	Tái hiện bằng một BCTN có trong DB và xác định đúng bước chặn.	S5-WBS01.1															**
+
+🟢 **	Sprint 5	S5-WBS02.3	S5-G01	1	Kiểm thử truy xuất BCTN bằng dữ liệu thật	Đinh Huỳnh Vũ	Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử BCTN có nguồn, sai kỳ, thiếu tài liệu và không có quyền.	Ca có quyền lấy đúng đoạn. Các ca còn lại phản hồi đúng tình trạng.	S5-WBS02.2															**
+
+🟢 **	Sprint 5	S5-WBS14	S5-G09	2	Hoàn thiện trang Admin quản lý quyền truy cập	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bổ sung màn hình danh sách người dùng và vai trò. Nối chức năng cập nhật quyền bằng API hiện có, hiển thị lỗi và yêu cầu xác nhận trước khi đổi quyền.	Admin xem và cập nhật được vai trò hợp lệ. Tài khoản thường bị chặn cả ở UI lẫn API. Có ca kiểm thử quyền và lỗi cập nhật.	Luồng đăng nhập và p...**
+
+🟢 **	Sprint 5	S5-WBS15	S5-G09	2	Hoàn thiện danh sách theo dõi doanh nghiệp (Watchlist)	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Cho người dùng thêm hoặc bỏ doanh nghiệp theo mã, xem giá và biến động gần nhất, kỳ BCTC mới nhất và nhận định xu hướng khi có dữ liệu. Gắn liên kết mở chi tiết doanh nghiệp.	Thêm và bỏ mã được, danh sách giữ đúng theo tài khoản sau khi tải lại. Giá, kỳ BCTC và xu hướng khớp mã. Có tr...**
+
+~~	S5-WBS01.1	Tái hiện lỗi hỏi chức vụ và BCTN	Tái hiện lỗi và sửa truy xuất BCTN	Chạy hai câu hỏi trên Web Chat, đối chiếu graph và BCTN trong DB, ghi trace từ router tới truy xuất.	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Có hai câu mẫu, dữ liệu đối chiếu và bước chọn sai nguồn hoặc chặn tìm kiếm.	Dữ liệu Sprint 4	Cao	Chưa bắt đầu	S5-G01	FinMind	5	3			Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	...~~
+
+~~	S5-WBS02.1	Tìm điều kiện chặn câu hỏi BCTN	Tái hiện lỗi và sửa truy xuất BCTN	Theo dõi luồng từ nhận câu hỏi đến bộ lọc tài liệu, chỉ ra điều kiện chặn.	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Tái hiện bằng một BCTN có trong DB và xác định đúng bước chặn.	S5-WBS01.1	Cao	Chưa bắt đầu	S5-G01	FinMind	5	2			Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS02.3	Kiểm thử truy xuất BCTN bằng dữ liệu thật	Tái hiện lỗi và sửa truy xuất BCTN	Thử BCTN có nguồn, sai kỳ, thiếu tài liệu và không có quyền.	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Ca có quyền lấy đúng đoạn. Các ca còn lại phản hồi đúng tình trạng.	S5-WBS02.2	Cao	Chưa bắt đầu	S5-G01	FinMind	5	2			Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS14	Hoàn thiện trang Admin quản lý quyền truy cập	Admin, Watchlist và nghiệm thu	Bổ sung màn hình danh sách người dùng và vai trò. Nối chức năng cập nhật quyền bằng API hiện có, hiển thị lỗi và yêu cầu xác nhận trước khi đổi quyền.	Có kết quả hồi quy và demo. Admin quản lý được quyền truy cập. Người dùng theo dõi được doanh nghiệp quan tâm và xem cập nhật có nguồn.	Admin xem và cập nhật được vai trò hợp lệ. Tài khoản thường bị chặn cả ở UI lẫn API. Có ca kiểm thử quyền và lỗi cập nhật.	Luồ...~~
+
+~~	S5-WBS15	Hoàn thiện danh sách theo dõi doanh nghiệp (Watchlist)	Admin, Watchlist và nghiệm thu	Cho người dùng thêm hoặc bỏ doanh nghiệp theo mã, xem giá và biến động gần nhất, kỳ BCTC mới nhất và nhận định xu hướng khi có dữ liệu. Gắn liên kết mở chi tiết doanh nghiệp.	Có kết quả hồi quy và demo. Admin quản lý được quyền truy cập. Người dùng theo dõi được doanh nghiệp quan tâm và xem cập nhật có nguồn.	Thêm và bỏ mã được, danh sách giữ đúng theo tài khoản sau khi tải lại. Giá, kỳ BCTC và xu hướ...~~
+
+~~	Sprint 5	S5-WBS01.1	S5-G01	1	Tái hiện lỗi hỏi chức vụ và BCTN		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy hai câu hỏi trên Web Chat, đối chiếu graph và BCTN trong DB, ghi trace từ router tới truy xuất.	Có hai câu mẫu, dữ liệu đối chiếu và bước chọn sai nguồn hoặc chặn tìm kiếm.	Dữ liệu Sprint 4															~~
+
+~~	Sprint 5	S5-WBS02.1	S5-G01	1	Tìm điều kiện chặn câu hỏi BCTN		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Theo dõi luồng từ nhận câu hỏi đến bộ lọc tài liệu, chỉ ra điều kiện chặn.	Tái hiện bằng một BCTN có trong DB và xác định đúng bước chặn.	S5-WBS01.1															~~
+
+~~	Sprint 5	S5-WBS02.3	S5-G01	1	Kiểm thử truy xuất BCTN bằng dữ liệu thật		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử BCTN có nguồn, sai kỳ, thiếu tài liệu và không có quyền.	Ca có quyền lấy đúng đoạn. Các ca còn lại phản hồi đúng tình trạng.	S5-WBS02.2															~~
+
+~~	Sprint 5	S5-WBS14	S5-G09	2	Hoàn thiện trang Admin quản lý quyền truy cập		Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bổ sung màn hình danh sách người dùng và vai trò. Nối chức năng cập nhật quyền bằng API hiện có, hiển thị lỗi và yêu cầu xác nhận trước khi đổi quyền.	Admin xem và cập nhật được vai trò hợp lệ. Tài khoản thường bị chặn cả ở UI lẫn API. Có ca kiểm thử quyền và lỗi cập nhật.	Luồng đăng nhập và phân quyền hiệ...~~
+
+~~	Sprint 5	S5-WBS15	S5-G09	2	Hoàn thiện danh sách theo dõi doanh nghiệp (Watchlist)		Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Cho người dùng thêm hoặc bỏ doanh nghiệp theo mã, xem giá và biến động gần nhất, kỳ BCTC mới nhất và nhận định xu hướng khi có dữ liệu. Gắn liên kết mở chi tiết doanh nghiệp.	Thêm và bỏ mã được, danh sách giữ đúng theo tài khoản sau khi tải lại. Giá, kỳ BCTC và xu hướng khớp mã. Có trạng thái danh...~~
+
 ## 2026-11-09 20:27 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
