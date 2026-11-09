@@ -1,5 +1,53 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-09 20:27 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-09 20:27
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS13.1	Chạy hồi quy bốn lỗi Sprint 4 trên Web Chat	Admin, Watchlist và nghiệm thu	Chạy lại ca chức vụ, BCTN, ngữ cảnh và token hết hạn.	Có kết quả hồi quy và demo. Admin quản lý được quyền truy cập. Người dùng theo dõi được doanh nghiệp quan tâm và xem cập nhật có nguồn.	Có kết quả pass/fail và trace cho đủ bốn lỗi.	S5-WBS02.3, S5-WBS05.3, S5-WBS06.2, S5-WBS09.2, S5-WBS09.3	Cao	Chưa bắt đầu	S5-G09	FinMind	5	4			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+...**
+
+🟢 **	S5-WBS13.2	Đánh giá router và fallback trên bộ câu riêng	Admin, Watchlist và nghiệm thu	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	Có kết quả hồi quy và demo. Admin quản lý được quyền truy cập. Người dùng theo dõi được doanh nghiệp quan tâm và xem cập nhật có nguồn.	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3	Cao	Chưa bắt đầu	S5-G09	FinMind	5	3			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochi...**
+
+🟢 **	S5-WBS13.3	Đối chiếu nhận định xu hướng và citation	Admin, Watchlist và nghiệm thu	Đối chiếu giá và BCTC gốc cho ca đủ dữ liệu, trái chiều và thiếu dữ liệu.	Có kết quả hồi quy và demo. Admin quản lý được quyền truy cập. Người dùng theo dõi được doanh nghiệp quan tâm và xem cập nhật có nguồn.	Số liệu, kỳ, nhãn và citation khớp nguồn ở các ca thử.	S5-WBS10.4, S5-WBS11.2, S5-WBS12.2	Cao	Chưa bắt đầu	S5-G09	FinMind	5	3			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GM...**
+
+🟢 **	S5-WBS13.4	Chuẩn bị kịch bản demo và tổng hợp lỗi còn lại	Admin, Watchlist và nghiệm thu	Tập hợp câu hỏi demo, kỳ vọng, kết quả thực tế, trace và lỗi còn mở.	Có kết quả hồi quy và demo. Admin quản lý được quyền truy cập. Người dùng theo dõi được doanh nghiệp quan tâm và xem cập nhật có nguồn.	Có kịch bản demo toàn luồng và danh sách lỗi còn mở.	S5-WBS13.1, S5-WBS13.2, S5-WBS13.3	Cao	Chưa bắt đầu	S5-G09	FinMind	5	2			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT...**
+
+🟢 **	S5-WBS14	Hoàn thiện trang Admin quản lý quyền truy cập	Admin, Watchlist và nghiệm thu	Bổ sung màn hình danh sách người dùng và vai trò. Nối chức năng cập nhật quyền bằng API hiện có, hiển thị lỗi và yêu cầu xác nhận trước khi đổi quyền.	Có kết quả hồi quy và demo. Admin quản lý được quyền truy cập. Người dùng theo dõi được doanh nghiệp quan tâm và xem cập nhật có nguồn.	Admin xem và cập nhật được vai trò hợp lệ. Tài khoản thường bị chặn cả ở UI lẫn API. Có ca kiểm thử quyền và lỗi cập nhật.	Luồ...**
+
+🟢 **	S5-WBS15	Hoàn thiện danh sách theo dõi doanh nghiệp (Watchlist)	Admin, Watchlist và nghiệm thu	Cho người dùng thêm hoặc bỏ doanh nghiệp theo mã, xem giá và biến động gần nhất, kỳ BCTC mới nhất và nhận định xu hướng khi có dữ liệu. Gắn liên kết mở chi tiết doanh nghiệp.	Có kết quả hồi quy và demo. Admin quản lý được quyền truy cập. Người dùng theo dõi được doanh nghiệp quan tâm và xem cập nhật có nguồn.	Thêm và bỏ mã được, danh sách giữ đúng theo tài khoản sau khi tải lại. Giá, kỳ BCTC và xu hướ...**
+
+🟢 **	Sprint 5	S5-WBS15	S5-G09	2	Hoàn thiện danh sách theo dõi doanh nghiệp (Watchlist)		Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Cho người dùng thêm hoặc bỏ doanh nghiệp theo mã, xem giá và biến động gần nhất, kỳ BCTC mới nhất và nhận định xu hướng khi có dữ liệu. Gắn liên kết mở chi tiết doanh nghiệp.	Thêm và bỏ mã được, danh sách giữ đúng theo tài khoản sau khi tải lại. Giá, kỳ BCTC và xu hướng khớp mã. Có trạng thái danh...**
+
+🟢 **Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G09	5	Admin, Watchlist và nghiệm thu	Có kết quả hồi quy và demo. Admin quản lý được quyền truy cập. Người dùng theo dõi được doanh nghiệp quan tâm và xem cập nhật có nguồn.	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	6	0	0	Chưa bắt đầu	20		Sprint 5 Backlog**
+
+🟢 **S5-G09	5	Admin, Watchlist và nghiệm thu	S5-WBS13.1: Chạy hồi quy bốn lỗi Sprint 4 trên Web Chat**
+
+🟢 **S5-WBS15: Hoàn thiện danh sách theo dõi doanh nghiệp (Watchlist)	Có kết quả hồi quy và demo. Admin quản lý được quyền truy cập. Người dùng theo dõi được doanh nghiệp quan tâm và xem cập nhật có nguồn.	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	6	0	0	Chưa bắt đầu	Khoảng 22 giờ cho tích hợp, review và sửa lỗi.**
+
+~~	S5-WBS13.1	Chạy hồi quy bốn lỗi Sprint 4 trên Web Chat	Vận hành, theo dõi và nghiệm thu	Chạy lại ca chức vụ, BCTN, ngữ cảnh và token hết hạn.	Có kết quả hồi quy và demo, trang Admin kiểm soát được quyền và trang theo dõi đối chiếu được số liệu với trace.	Có kết quả pass/fail và trace cho đủ bốn lỗi.	S5-WBS02.3, S5-WBS05.3, S5-WBS06.2, S5-WBS09.2, S5-WBS09.3	Cao	Chưa bắt đầu	S5-G09	FinMind	5	4			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)...~~
+
+~~	S5-WBS13.2	Đánh giá router và fallback trên bộ câu riêng	Vận hành, theo dõi và nghiệm thu	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	Có kết quả hồi quy và demo, trang Admin kiểm soát được quyền và trang theo dõi đối chiếu được số liệu với trace.	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3	Cao	Chưa bắt đầu	S5-G09	FinMind	5	3			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS13.3	Đối chiếu nhận định xu hướng và citation	Vận hành, theo dõi và nghiệm thu	Đối chiếu giá và BCTC gốc cho ca đủ dữ liệu, trái chiều và thiếu dữ liệu.	Có kết quả hồi quy và demo, trang Admin kiểm soát được quyền và trang theo dõi đối chiếu được số liệu với trace.	Số liệu, kỳ, nhãn và citation khớp nguồn ở các ca thử.	S5-WBS10.4, S5-WBS11.2, S5-WBS12.2	Cao	Chưa bắt đầu	S5-G09	FinMind	5	3			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Tim...~~
+
+~~	S5-WBS13.4	Chuẩn bị kịch bản demo và tổng hợp lỗi còn lại	Vận hành, theo dõi và nghiệm thu	Tập hợp câu hỏi demo, kỳ vọng, kết quả thực tế, trace và lỗi còn mở.	Có kết quả hồi quy và demo, trang Admin kiểm soát được quyền và trang theo dõi đối chiếu được số liệu với trace.	Có kịch bản demo toàn luồng và danh sách lỗi còn mở.	S5-WBS13.1, S5-WBS13.2, S5-WBS13.3	Cao	Chưa bắt đầu	S5-G09	FinMind	5	2			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time...~~
+
+~~	S5-WBS14	Hoàn thiện trang Admin quản lý quyền truy cập	Vận hành, theo dõi và nghiệm thu	Bổ sung màn hình danh sách người dùng và vai trò. Nối chức năng cập nhật quyền bằng API hiện có, hiển thị lỗi và yêu cầu xác nhận trước khi đổi quyền.	Có kết quả hồi quy và demo, trang Admin kiểm soát được quyền và trang theo dõi đối chiếu được số liệu với trace.	Admin xem và cập nhật được vai trò hợp lệ. Tài khoản thường bị chặn cả ở UI lẫn API. Có ca kiểm thử quyền và lỗi cập nhật.	Luồng đăng nhập và phân ...~~
+
+~~	S5-WBS15	Hoàn thiện trang theo dõi vận hành Chat	Vận hành, theo dõi và nghiệm thu	Hiển thị số request, lỗi, thời gian phản hồi và số lần fallback theo khoảng thời gian từ trace có sẵn. Cho xem chi tiết bằng trace ID, hạn chế dữ liệu nhạy cảm.	Có kết quả hồi quy và demo, trang Admin kiểm soát được quyền và trang theo dõi đối chiếu được số liệu với trace.	Admin lọc theo thời gian và đối chiếu được số liệu với trace. Có trạng thái rỗng và lỗi tải. Người không có quyền bị chặn.	S5-WBS05.3, S5-WBS07...~~
+
+~~	Sprint 5	S5-WBS15	S5-G09	2	Hoàn thiện trang theo dõi vận hành Chat		Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Hiển thị số request, lỗi, thời gian phản hồi và số lần fallback theo khoảng thời gian từ trace có sẵn. Cho xem chi tiết bằng trace ID, hạn chế dữ liệu nhạy cảm.	Admin lọc theo thời gian và đối chiếu được số liệu với trace. Có trạng thái rỗng và lỗi tải. Người không có quyền bị chặn.	S5-WBS05.3, S5-WBS07.3, quyền...~~
+
+~~Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G09	5	Vận hành, theo dõi và nghiệm thu	Có kết quả hồi quy và demo, trang Admin kiểm soát được quyền và trang theo dõi đối chiếu được số liệu với trace.	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	6	0	0	Chưa bắt đầu	20		Sprint 5 Backlog~~
+
+~~S5-G09	5	Vận hành, theo dõi và nghiệm thu	S5-WBS13.1: Chạy hồi quy bốn lỗi Sprint 4 trên Web Chat~~
+
+~~S5-WBS15: Hoàn thiện trang theo dõi vận hành Chat	Có kết quả hồi quy và demo, trang Admin kiểm soát được quyền và trang theo dõi đối chiếu được số liệu với trace.	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	6	0	0	Chưa bắt đầu	Khoảng 22 giờ cho tích hợp, review và sửa lỗi.~~
+
 ## 2026-11-09 20:12 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
