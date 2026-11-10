@@ -1,5 +1,17 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-10 10:57 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-10 10:57
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	Sprint 5 gồm 40 task. Tuần 1 sửa lỗi và nối truy xuất (60h). Tuần 2 tối ưu Chat, nhận định xu hướng, Admin và theo dõi (60h). Ngày là khung theo tuần. Phân công tối đa 15h/người/tuần.																												**
+
+~~	Sprint 5 gồm 40 task. Tuần 1 sửa lỗi và nối truy xuất (58h). Tuần 2 tối ưu Chat, nhận định xu hướng, Admin và theo dõi (58h). Ngày là khung theo tuần. Phân công tối đa 15h/người/tuần.																												~~
+
 ## 2026-11-10 10:27 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
