@@ -1,5 +1,45 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-10 19:47 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-10 19:47
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS10.1	Tính nhóm tín hiệu giá	Nhận định xu hướng doanh nghiệp	Tính biến động theo khoảng đã chốt và đánh dấu thiếu phiên hoặc thiếu giá.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Có tín hiệu giá và dữ liệu dùng để tính.	S5-WBS08.1, S5-WBS08.3	Cao	Chưa bắt đầu	S5-G06	FinMind	5	3		Thái Quốc Hưng	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS11.1	Nối ý định xu hướng với mô hình nhận định	Nhận định xu hướng doanh nghiệp	Khi nhận diện câu hỏi xu hướng, gọi mô hình với đúng mã và phạm vi. Chuẩn bị bằng kết quả mẫu trước.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Trace xác nhận Chat gọi mô hình đúng đầu vào.	S5-WBS04.2, S5-WBS05.1, S5-WBS10.3 để nghiệm thu thật	Cao	Chưa bắt đầu	S5-G06	FinMind	5	3		Thái Quốc Hưng	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22...**
+
+🟢 **	S5-WBS11.2	Hiển thị nhận định xu hướng trong Chat	Nhận định xu hướng doanh nghiệp	Tách diễn biến giá và tình hình tài chính, ghi kỳ, chỉ tiêu, nguồn và phần còn thiếu.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Chat đưa nhận định đúng công ty, kỳ và có nguồn kiểm tra được.	S5-WBS11.1, S5-WBS10.3	Cao	Chưa bắt đầu	S5-G06	FinMind	5	4		Thái Quốc Hưng	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochi...**
+
+🟢 **	S5-WBS12.1	Định dạng câu trả lời theo yêu cầu	Tối ưu câu trả lời và bằng chứng	Dùng danh sách cho liệt kê, bảng cho so sánh và tóm tắt cho tổng quan.	Định dạng đúng ý định, gắn nguồn đúng nhận định và xử lý khi một nhánh thiếu kết quả.	Câu trả lời có đúng cấu trúc người dùng yêu cầu.	S5-WBS09.2, S5-WBS09.3 cho ca nối tiếp	Cao	Chưa bắt đầu	S5-G08	FinMind	5	3		Thái Quốc Hưng	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	Sprint 5	S5-WBS10.1	S5-G06	2	Tính nhóm tín hiệu giá	Thái Quốc Hưng	Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tính biến động theo khoảng đã chốt và đánh dấu thiếu phiên hoặc thiếu giá.	Có tín hiệu giá và dữ liệu dùng để tính.	S5-WBS08.1, S5-WBS08.3															**
+
+🟢 **	Sprint 5	S5-WBS11.1	S5-G06	2	Nối ý định xu hướng với mô hình nhận định	Thái Quốc Hưng	Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Khi nhận diện câu hỏi xu hướng, gọi mô hình với đúng mã và phạm vi. Chuẩn bị bằng kết quả mẫu trước.	Trace xác nhận Chat gọi mô hình đúng đầu vào.	S5-WBS04.2, S5-WBS05.1, S5-WBS10.3 để nghiệm thu thật															**
+
+🟢 **	Sprint 5	S5-WBS11.2	S5-G06	2	Hiển thị nhận định xu hướng trong Chat	Thái Quốc Hưng	Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tách diễn biến giá và tình hình tài chính, ghi kỳ, chỉ tiêu, nguồn và phần còn thiếu.	Chat đưa nhận định đúng công ty, kỳ và có nguồn kiểm tra được.	S5-WBS11.1, S5-WBS10.3															**
+
+🟢 **	Sprint 5	S5-WBS12.1	S5-G08	2	Định dạng câu trả lời theo yêu cầu	Thái Quốc Hưng	Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng danh sách cho liệt kê, bảng cho so sánh và tóm tắt cho tổng quan.	Câu trả lời có đúng cấu trúc người dùng yêu cầu.	S5-WBS09.2, S5-WBS09.3 cho ca nối tiếp															**
+
+~~	S5-WBS10.1	Tính nhóm tín hiệu giá	Nhận định xu hướng doanh nghiệp	Tính biến động theo khoảng đã chốt và đánh dấu thiếu phiên hoặc thiếu giá.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Có tín hiệu giá và dữ liệu dùng để tính.	S5-WBS08.1, S5-WBS08.3	Cao	Chưa bắt đầu	S5-G06	FinMind	5	3			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS11.1	Nối ý định xu hướng với mô hình nhận định	Nhận định xu hướng doanh nghiệp	Khi nhận diện câu hỏi xu hướng, gọi mô hình với đúng mã và phạm vi. Chuẩn bị bằng kết quả mẫu trước.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Trace xác nhận Chat gọi mô hình đúng đầu vào.	S5-WBS04.2, S5-WBS05.1, S5-WBS10.3 để nghiệm thu thật	Cao	Chưa bắt đầu	S5-G06	FinMind	5	3			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00...~~
+
+~~	S5-WBS11.2	Hiển thị nhận định xu hướng trong Chat	Nhận định xu hướng doanh nghiệp	Tách diễn biến giá và tình hình tài chính, ghi kỳ, chỉ tiêu, nguồn và phần còn thiếu.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Chat đưa nhận định đúng công ty, kỳ và có nguồn kiểm tra được.	S5-WBS11.1, S5-WBS10.3	Cao	Chưa bắt đầu	S5-G06	FinMind	5	4			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS12.1	Định dạng câu trả lời theo yêu cầu	Tối ưu câu trả lời và bằng chứng	Dùng danh sách cho liệt kê, bảng cho so sánh và tóm tắt cho tổng quan.	Định dạng đúng ý định, gắn nguồn đúng nhận định và xử lý khi một nhánh thiếu kết quả.	Câu trả lời có đúng cấu trúc người dùng yêu cầu.	S5-WBS09.2, S5-WBS09.3 cho ca nối tiếp	Cao	Chưa bắt đầu	S5-G08	FinMind	5	3			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	Sprint 5	S5-WBS10.1	S5-G06	2	Tính nhóm tín hiệu giá		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tính biến động theo khoảng đã chốt và đánh dấu thiếu phiên hoặc thiếu giá.	Có tín hiệu giá và dữ liệu dùng để tính.	S5-WBS08.1, S5-WBS08.3															~~
+
+~~	Sprint 5	S5-WBS11.1	S5-G06	2	Nối ý định xu hướng với mô hình nhận định		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Khi nhận diện câu hỏi xu hướng, gọi mô hình với đúng mã và phạm vi. Chuẩn bị bằng kết quả mẫu trước.	Trace xác nhận Chat gọi mô hình đúng đầu vào.	S5-WBS04.2, S5-WBS05.1, S5-WBS10.3 để nghiệm thu thật															~~
+
+~~	Sprint 5	S5-WBS11.2	S5-G06	2	Hiển thị nhận định xu hướng trong Chat		Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tách diễn biến giá và tình hình tài chính, ghi kỳ, chỉ tiêu, nguồn và phần còn thiếu.	Chat đưa nhận định đúng công ty, kỳ và có nguồn kiểm tra được.	S5-WBS11.1, S5-WBS10.3															~~
+
+~~	Sprint 5	S5-WBS12.1	S5-G08	2	Định dạng câu trả lời theo yêu cầu		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng danh sách cho liệt kê, bảng cho so sánh và tóm tắt cho tổng quan.	Câu trả lời có đúng cấu trúc người dùng yêu cầu.	S5-WBS09.2, S5-WBS09.3 cho ca nối tiếp															~~
+
 ## 2026-11-10 18:47 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
