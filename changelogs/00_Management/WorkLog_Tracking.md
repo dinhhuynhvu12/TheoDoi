@@ -1,5 +1,21 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-10 09:27 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-10 09:27
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS08.2	Lấy chỉ tiêu từ các kỳ BCTC và dữ liệu giá gần nhất	Nhận định xu hướng doanh nghiệp	Lấy doanh thu, lợi nhuận, dòng tiền nếu có. Ghi kỳ, đơn vị, ngày công bố nếu có và đoạn nguồn. Lấy khối lượng giao dịch, nước ngoài mua bán, thanh khoảng	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Có số liệu theo kỳ cùng bằng chứng gốc.	Dữ liệu BCTC, giá hiện có	Cao	Chưa bắt đầu	S5-G06	FinMind	5	4		Nguyễn Minh Quân	Mon Nov 09 2026 07:00:00 GMT+0...**
+
+🟢 **	Sprint 5	S5-WBS08.2	S5-G06	1	Lấy chỉ tiêu từ các kỳ BCTC và dữ liệu giá gần nhất	Nguyễn Minh Quân	Chưa bắt đầu	4		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Lấy doanh thu, lợi nhuận, dòng tiền nếu có. Ghi kỳ, đơn vị, ngày công bố nếu có và đoạn nguồn. Lấy khối lượng giao dịch, nước ngoài mua bán, thanh khoảng	Có số liệu theo kỳ cùng bằng chứng gốc.	Dữ liệu BCTC, giá hiện có															**
+
+~~	S5-WBS08.2	Lấy chỉ tiêu từ các kỳ BCTC gần nhất	Nhận định xu hướng doanh nghiệp	Lấy doanh thu, lợi nhuận, dòng tiền nếu có. Ghi kỳ, đơn vị, ngày công bố nếu có và đoạn nguồn.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Có số liệu theo kỳ cùng bằng chứng gốc.	Dữ liệu BCTC hiện có	Cao	Chưa bắt đầu	S5-G06	FinMind	5	4		Nguyễn Minh Quân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	Sprint 5	S5-WBS08.2	S5-G06	1	Lấy chỉ tiêu từ các kỳ BCTC gần nhất	Nguyễn Minh Quân	Chưa bắt đầu	4		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Lấy doanh thu, lợi nhuận, dòng tiền nếu có. Ghi kỳ, đơn vị, ngày công bố nếu có và đoạn nguồn.	Có số liệu theo kỳ cùng bằng chứng gốc.	Dữ liệu BCTC hiện có															~~
+
 ## 2026-11-10 09:22 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
