@@ -1,5 +1,53 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-10 13:22 - SUA NOI DUNG
+
+- **Người đăng:** dieuhuyentran1010@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-10 13:22
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS04.2	Đặt ngưỡng tin cậy và quy tắc chọn nhánh	Thư viện vector và Hybrid Router	Dùng điểm cao nhất, khoảng cách hai nhóm đầu và thông tin công ty/kỳ để chọn nhánh, hỏi lại hoặc báo cần fallback.	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Có đầu ra VECTOR, GRAPH, BOTH, ASK\_CLARIFICATION hoặc tín hiệu fallback theo từng ca.	S5-WBS04.1	Cao	Chưa bắt đầu	S5-G02	FinMind	5	3		Huyền 	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15...**
+
+🟢 **	S5-WBS04.3	Tạo và Chạy bộ câu kiểm thử router	Thư viện vector và Hybrid Router	Chạy bộ test riêng và ghi nhãn, điểm, lý do và nhánh.	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Có bảng kỳ vọng và thực tế, gồm câu chức vụ, kết hợp và thiếu dữ kiện. Có bộ kiểm thử bao phủ 90% coverage, và phải đạt từ 90% tỷ lệ thành công thì mới được pass  .	S5-WBS04.2, S5-WBS03.2	Cao	Chưa bắt đầu	S5-G02	FinMind	5	3		Huyền	Mon Nov 09 2026 07:00:00 GMT+0700 (Ind...**
+
+🟢 **	S5-WBS05.3	Kiểm thử graph thật, graph rỗng và lỗi kết nối	Web Chat tích hợp Neo4j	Chạy ca có dữ liệu, không có quan hệ và lỗi Neo4j trên luồng Web Chat.	Web Chat gọi router, lấy quan hệ đã duyệt và nguồn. Phân biệt graph rỗng với lỗi kết nối.	Trace xác nhận gọi graph thật. Chat phân biệt rỗng và lỗi truy xuất.	S5-WBS05.2	Cao	Chưa bắt đầu	S5-G03	FinMind	5	2		Huyền	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS07.1	Chốt điều kiện fallback và JSON phân loại	Fallback phân loại bằng AI	Quy định điểm thấp, hai nhóm sát nhau hoặc lỗi phân loại. Chốt nhãn cho phép và ngữ cảnh tối thiểu gửi đi.	Chỉ gọi fallback khi cần. Kiểm tra nhãn, ghi trace và hỏi lại khi không phân loại được.	Có contract phân loại và quy tắc kiểm tra kết quả.	S5-WBS03.1, S5-WBS04.2	Cao	Chưa bắt đầu	S5-G05	FinMind	5	2		Huyền	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS07.3	Kiểm thử fallback và trường hợp cả hai bước thất bại	Fallback phân loại bằng AI	Thử AI trả đúng, sai nhãn, timeout và câu rõ ý định.	Chỉ gọi fallback khi cần. Kiểm tra nhãn, ghi trace và hỏi lại khi không phân loại được.	Ca thất bại hỏi lại. Câu rõ ý định xử lý nội bộ.	S5-WBS07.2	Cao	Chưa bắt đầu	S5-G05	FinMind	5	2		Huyền	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	Sprint 5	S5-WBS04.2	S5-G02	1	Đặt ngưỡng tin cậy và quy tắc chọn nhánh	Huyền 	Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng điểm cao nhất, khoảng cách hai nhóm đầu và thông tin công ty/kỳ để chọn nhánh, hỏi lại hoặc báo cần fallback.	Có đầu ra VECTOR, GRAPH, BOTH, ASK\_CLARIFICATION hoặc tín hiệu fallback theo từng ca.	S5-WBS04.1															**
+
+🟢 **	Sprint 5	S5-WBS04.3	S5-G02	1	Tạo và Chạy bộ câu kiểm thử router	Huyền	Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy bộ test riêng và ghi nhãn, điểm, lý do và nhánh.	Có bảng kỳ vọng và thực tế, gồm câu chức vụ, kết hợp và thiếu dữ kiện. Có bộ kiểm thử bao phủ 90% coverage, và phải đạt từ 90% tỷ lệ thành công thì mới được pass  .	S5-WBS04.2, S5-WBS03.2															**
+
+🟢 **	Sprint 5	S5-WBS05.3	S5-G03	1	Kiểm thử graph thật, graph rỗng và lỗi kết nối	Huyền	Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy ca có dữ liệu, không có quan hệ và lỗi Neo4j trên luồng Web Chat.	Trace xác nhận gọi graph thật. Chat phân biệt rỗng và lỗi truy xuất.	S5-WBS05.2															**
+
+🟢 **	Sprint 5	S5-WBS07.1	S5-G05	1	Chốt điều kiện fallback và JSON phân loại	Huyền	Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Quy định điểm thấp, hai nhóm sát nhau hoặc lỗi phân loại. Chốt nhãn cho phép và ngữ cảnh tối thiểu gửi đi.	Có contract phân loại và quy tắc kiểm tra kết quả.	S5-WBS03.1, S5-WBS04.2															**
+
+🟢 **	Sprint 5	S5-WBS07.3	S5-G05	1	Kiểm thử fallback và trường hợp cả hai bước thất bại	Huyền	Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử AI trả đúng, sai nhãn, timeout và câu rõ ý định.	Ca thất bại hỏi lại. Câu rõ ý định xử lý nội bộ.	S5-WBS07.2															**
+
+~~	S5-WBS04.2	Đặt ngưỡng tin cậy và quy tắc chọn nhánh	Thư viện vector và Hybrid Router	Dùng điểm cao nhất, khoảng cách hai nhóm đầu và thông tin công ty/kỳ để chọn nhánh, hỏi lại hoặc báo cần fallback.	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Có đầu ra VECTOR, GRAPH, BOTH, ASK\_CLARIFICATION hoặc tín hiệu fallback theo từng ca.	S5-WBS04.1	Cao	Chưa bắt đầu	S5-G02	FinMind	5	3			Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 ...~~
+
+~~	S5-WBS04.3	Tạo và Chạy bộ câu kiểm thử router	Thư viện vector và Hybrid Router	Chạy bộ test riêng và ghi nhãn, điểm, lý do và nhánh.	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Có bảng kỳ vọng và thực tế, gồm câu chức vụ, kết hợp và thiếu dữ kiện. Có bộ kiểm thử bao phủ 90% coverage, và phải đạt từ 90% tỷ lệ thành công thì mới được pass  .	S5-WBS04.2, S5-WBS03.2	Cao	Chưa bắt đầu	S5-G02	FinMind	5	3			Mon Nov 09 2026 07:00:00 GMT+0700 (Indochin...~~
+
+~~	S5-WBS05.3	Kiểm thử graph thật, graph rỗng và lỗi kết nối	Web Chat tích hợp Neo4j	Chạy ca có dữ liệu, không có quan hệ và lỗi Neo4j trên luồng Web Chat.	Web Chat gọi router, lấy quan hệ đã duyệt và nguồn. Phân biệt graph rỗng với lỗi kết nối.	Trace xác nhận gọi graph thật. Chat phân biệt rỗng và lỗi truy xuất.	S5-WBS05.2	Cao	Chưa bắt đầu	S5-G03	FinMind	5	2			Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS07.1	Chốt điều kiện fallback và JSON phân loại	Fallback phân loại bằng AI	Quy định điểm thấp, hai nhóm sát nhau hoặc lỗi phân loại. Chốt nhãn cho phép và ngữ cảnh tối thiểu gửi đi.	Chỉ gọi fallback khi cần. Kiểm tra nhãn, ghi trace và hỏi lại khi không phân loại được.	Có contract phân loại và quy tắc kiểm tra kết quả.	S5-WBS03.1, S5-WBS04.2	Cao	Chưa bắt đầu	S5-G05	FinMind	5	2			Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS07.3	Kiểm thử fallback và trường hợp cả hai bước thất bại	Fallback phân loại bằng AI	Thử AI trả đúng, sai nhãn, timeout và câu rõ ý định.	Chỉ gọi fallback khi cần. Kiểm tra nhãn, ghi trace và hỏi lại khi không phân loại được.	Ca thất bại hỏi lại. Câu rõ ý định xử lý nội bộ.	S5-WBS07.2	Cao	Chưa bắt đầu	S5-G05	FinMind	5	2			Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	Sprint 5	S5-WBS04.2	S5-G02	1	Đặt ngưỡng tin cậy và quy tắc chọn nhánh		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng điểm cao nhất, khoảng cách hai nhóm đầu và thông tin công ty/kỳ để chọn nhánh, hỏi lại hoặc báo cần fallback.	Có đầu ra VECTOR, GRAPH, BOTH, ASK\_CLARIFICATION hoặc tín hiệu fallback theo từng ca.	S5-WBS04.1															~~
+
+~~	Sprint 5	S5-WBS04.3	S5-G02	1	Tạo và Chạy bộ câu kiểm thử router		Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy bộ test riêng và ghi nhãn, điểm, lý do và nhánh.	Có bảng kỳ vọng và thực tế, gồm câu chức vụ, kết hợp và thiếu dữ kiện. Có bộ kiểm thử bao phủ 90% coverage, và phải đạt từ 90% tỷ lệ thành công thì mới được pass  .	S5-WBS04.2, S5-WBS03.2															~~
+
+~~	Sprint 5	S5-WBS05.3	S5-G03	1	Kiểm thử graph thật, graph rỗng và lỗi kết nối		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy ca có dữ liệu, không có quan hệ và lỗi Neo4j trên luồng Web Chat.	Trace xác nhận gọi graph thật. Chat phân biệt rỗng và lỗi truy xuất.	S5-WBS05.2															~~
+
+~~	Sprint 5	S5-WBS07.1	S5-G05	1	Chốt điều kiện fallback và JSON phân loại		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Quy định điểm thấp, hai nhóm sát nhau hoặc lỗi phân loại. Chốt nhãn cho phép và ngữ cảnh tối thiểu gửi đi.	Có contract phân loại và quy tắc kiểm tra kết quả.	S5-WBS03.1, S5-WBS04.2															~~
+
+~~	Sprint 5	S5-WBS07.3	S5-G05	1	Kiểm thử fallback và trường hợp cả hai bước thất bại		Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử AI trả đúng, sai nhãn, timeout và câu rõ ý định.	Ca thất bại hỏi lại. Câu rõ ý định xử lý nội bộ.	S5-WBS07.2															~~
+
 ## 2026-11-10 13:17 - SUA NOI DUNG
 
 - **Người đăng:** dieuhuyentran1010@gmail.com
