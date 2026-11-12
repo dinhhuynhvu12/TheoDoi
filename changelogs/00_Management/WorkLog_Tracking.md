@@ -1,5 +1,113 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-12 07:37 - SUA NOI DUNG
+
+- **Người đăng:** hophamdangnhandz123@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-12 07:37
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S4-WBS14	Tạo câu trả lời và citation theo kết quả routing	Trả lời và giao diện có nguồn	1. Đưa bằng chứng của tuyến được chọn vào phần trả lời hiện có; trả đúng các phần yêu cầu, gắn citation với từng nhận định.**
+
+🟢 **	Sprint 4	S4-WBS14	S4-G06	2	Tạo câu trả lời và citation theo kết quả routing	Nguyễn Minh Quân	Chưa bắt đầu	6		Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	1. Đưa bằng chứng của tuyến được chọn vào phần trả lời hiện có; trả đúng các phần yêu cầu, gắn citation với từng nhận định.**
+
+🟢 **										S5-WBS07.1		**
+
+🟢 **										S5-WBS07.3		**
+
+🟢 **										S5-WBS08.2		**
+
+🟢 **Ưu tiên ngày thực tế ở cột P, rồi ngày cuối có ghi giờ, rồi deadline. Xem nguồn từng task ở cột K–M. Hàng Hiện tại lấy trạng thái từ backlog.										S5-WBS03.2		**
+
+🟢 **Ngày	Phạm vi (task)	Done theo ngày\*	Done lũy kế\*	Task còn lại\*	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch		S5-WBS03.3		**
+
+🟢 **Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	40		0	40	40			0		S5-WBS04.1		**
+
+🟢 **Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	37.14			2.86		S5-WBS05.1		**
+
+🟢 **Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	34.29			5.71		S5-WBS07.2		**
+
+🟢 **Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	31.43			8.57		S5-WBS08.1		Ước tính: deadline**
+
+🟢 **Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	28.57			11.43		S5-WBS08.3		**
+
+🟢 **Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	40				25.71			14.29		S5-WBS10.1		**
+
+🟢 **Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	40				22.86			17.14		S5-WBS11.1		**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40				20			20		S5-WBS11.2		**
+
+🟢 **Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40				17.14			22.86		S5-WBS12.1		**
+
+🟢 **Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40				14.29			25.71		S5-WBS05.2		**
+
+🟢 **Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40				11.43			28.57		S5-WBS09.1		**
+
+🟢 **Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40				8.57			31.43		S5-WBS09.2		**
+
+🟢 **Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	40				5.71			34.29		S5-WBS09.3		**
+
+🟢 **Sat Nov 21 2026 07:00:00 GMT+0700 (Indochina Time)	40				2.86			37.14		S5-WBS10.2		**
+
+🟢 **Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	40				0			40		S5-WBS10.3		**
+
+🟢 **Hiện tại	40		1	39						S5-WBS10.4		**
+
+🟢 **										S5-WBS12.2		**
+
+🟢 **										S5-WBS12.3		**
+
+~~	S4-WBS14	Kiểm tra bằng chứng, kiểm duyệt và quarantine	Trả lời và giao diện có nguồn	1. Đưa bằng chứng của tuyến được chọn vào phần trả lời hiện có; trả đúng các phần yêu cầu, gắn citation với từng nhận định.~~
+
+~~	Sprint 4	S4-WBS14	S4-G06	2	Kiểm tra bằng chứng, kiểm duyệt và quarantine	Nguyễn Minh Quân	Chưa bắt đầu	6		Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	1. Đưa bằng chứng của tuyến được chọn vào phần trả lời hiện có; trả đúng các phần yêu cầu, gắn citation với từng nhận định.~~
+
+~~										S5-WBS03.2		~~
+
+~~										S5-WBS03.3		~~
+
+~~										S5-WBS04.1		~~
+
+~~										S5-WBS05.1		~~
+
+~~										S5-WBS05.2		~~
+
+~~Ưu tiên ngày thực tế ở cột P, rồi ngày cuối có ghi giờ, rồi deadline. Xem nguồn từng task ở cột K–M. Hàng Hiện tại lấy trạng thái từ backlog.										S5-WBS07.1		~~
+
+~~Ngày	Phạm vi (task)	Done theo ngày\*	Done lũy kế\*	Task còn lại\*	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch		S5-WBS07.2		~~
+
+~~Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	40		0	40	40			0		S5-WBS07.3		~~
+
+~~Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	37.14			2.86		S5-WBS08.1		Ước tính: deadline~~
+
+~~Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	34.29			5.71		S5-WBS08.2		~~
+
+~~Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	31.43			8.57		S5-WBS08.3		~~
+
+~~Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	40				28.57			11.43		S5-WBS09.1		~~
+
+~~Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	40				25.71			14.29		S5-WBS09.2		~~
+
+~~Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	40				22.86			17.14		S5-WBS09.3		~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40				20			20		S5-WBS10.1		~~
+
+~~Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40				17.14			22.86		S5-WBS10.2		~~
+
+~~Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40				14.29			25.71		S5-WBS10.3		~~
+
+~~Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40				11.43			28.57		S5-WBS10.4		~~
+
+~~Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40				8.57			31.43		S5-WBS11.1		~~
+
+~~Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	40				5.71			34.29		S5-WBS11.2		~~
+
+~~Sat Nov 21 2026 07:00:00 GMT+0700 (Indochina Time)	40				2.86			37.14		S5-WBS12.1		~~
+
+~~Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	40				0			40		S5-WBS12.2		~~
+
+~~Hiện tại	40		1	39						S5-WBS12.3		~~
+
 ## 2026-11-11 22:37 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
