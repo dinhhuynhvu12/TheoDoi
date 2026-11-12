@@ -1,5 +1,77 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-12 16:57 - SUA NOI DUNG
+
+- **Người đăng:** minhquan9125@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-12 16:57
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **5. Làm điều phối bằng hai adapter fixture trước; nối WBS11/WBS12 thật để nghiệm thu.	Chọn VECTOR/GRAPH/BOTH theo ý định; hợp nhất có provenance và không che lỗi nhánh.	BOTH thực sự sử dụng hai nhánh, có bộ evidence chung và trạng thái riêng; không che phần chưa được đáp ứng.	Tuần 2. Phụ thuộc / làm trước: WBS10–12. Có thể bắt đầu bằng fixture ngày 02/11; nghiệm thu sau adapter thật. Bàn giao cho WBS14 và WBS17.	Rất cao	Đã hoàn thành	S4-G04	FinMind	4	7		Nguyễn Minh Quân	Mon Nov 02 2026 07:00:00 G...**
+
+🟢 **	Sprint 4	S4-WBS13	S4-G04	2	Thực hiện tuyến BOTH và hợp nhất bằng chứng	Nguyễn Minh Quân	Đã hoàn thành	7		Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	1. Nhận routing plan và phần yêu cầu của từng nhánh. Gọi VECTOR/GRAPH; nếu vector cần thực thể từ graph thì thực hiện theo thứ tự phù hợp.**
+
+🟢 **Hiện tại: 7/17 task Done · còn 10 task · 7 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 7 task ước tính (0 theo nhật ký giờ, 7 theo deadline).												**
+
+🟢 **Phạm vi (task)	17	Done hiện tại	7	Giờ dự kiến	128	Done thiếu ngày	7					**
+
+🟢 **										S4-WBS13	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	17	2	6	11	3.64			13.36				**
+
+🟢 **Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	7	10	2.43			14.57				**
+
+🟢 **Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	7	10	1.21			15.79				**
+
+🟢 **Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	7	10	0			17				**
+
+🟢 **Hiện tại	17		7	10								**
+
+🟢 **Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	66	6	0.09090909090909091	258	Hybrid B2, Copilot B3, kiểm chứng, bảo mật và chạy đánh giá cuối.								**
+
+🟢 **Bằng chứng đứng đầu có điểm và lý do lựa chọn kiểm tra được.	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	2	2	1	Đã hoàn thành	15		Sprint 4 Backlog**
+
+🟢 **Task đã hoàn thành	109		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.5477386934673367		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **Bằng chứng đứng đầu có điểm và lý do lựa chọn kiểm tra được.	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	2	2	1	Đã hoàn thành	Ngày và phân công là kế hoạch đề xuất.**
+
+~~5. Làm điều phối bằng hai adapter fixture trước; nối WBS11/WBS12 thật để nghiệm thu.	Chọn VECTOR/GRAPH/BOTH theo ý định; hợp nhất có provenance và không che lỗi nhánh.	BOTH thực sự sử dụng hai nhánh, có bộ evidence chung và trạng thái riêng; không che phần chưa được đáp ứng.	Tuần 2. Phụ thuộc / làm trước: WBS10–12. Có thể bắt đầu bằng fixture ngày 02/11; nghiệm thu sau adapter thật. Bàn giao cho WBS14 và WBS17.	Rất cao	Chưa bắt đầu	S4-G04	FinMind	4	7		Nguyễn Minh Quân	Mon Nov 02 2026 07:00:00 GM...~~
+
+~~	Sprint 4	S4-WBS13	S4-G04	2	Thực hiện tuyến BOTH và hợp nhất bằng chứng	Nguyễn Minh Quân	Chưa bắt đầu	7		Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	1. Nhận routing plan và phần yêu cầu của từng nhánh. Gọi VECTOR/GRAPH; nếu vector cần thực thể từ graph thì thực hiện theo thứ tự phù hợp.~~
+
+~~Hiện tại: 6/17 task Done · còn 11 task · 6 Done thiếu ngày												~~
+
+~~Đường theo ngày gồm 6 task ước tính (0 theo nhật ký giờ, 6 theo deadline).												~~
+
+~~Phạm vi (task)	17	Done hiện tại	6	Giờ dự kiến	128	Done thiếu ngày	6					~~
+
+~~										S4-WBS13		~~
+
+~~Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	5	12	3.64			13.36				~~
+
+~~Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	6	11	2.43			14.57				~~
+
+~~Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	6	11	1.21			15.79				~~
+
+~~Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	6	11	0			17				~~
+
+~~Hiện tại	17		6	11								~~
+
+~~Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	66	5	0.07575757575757576	258	Hybrid B2, Copilot B3, kiểm chứng, bảo mật và chạy đánh giá cuối.								~~
+
+~~Bằng chứng đứng đầu có điểm và lý do lựa chọn kiểm tra được.	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	2	1	0.5	Đang làm	15		Sprint 4 Backlog~~
+
+~~Task đã hoàn thành	108		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.542713567839196		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~Bằng chứng đứng đầu có điểm và lý do lựa chọn kiểm tra được.	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	2	1	0.5	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-11-12 08:52 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
