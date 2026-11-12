@@ -1,5 +1,61 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-12 08:52 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-12 08:52
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS10.1	Tính nhóm tín hiệu giá	Nhận định xu hướng doanh nghiệp	Tính biến động theo khoảng đã chốt và đánh dấu thiếu phiên hoặc thiếu giá.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Có tín hiệu giá và dữ liệu dùng để tính.	S5-WBS08.1, S5-WBS08.3	Cao	Đã hoàn thành	S5-G06	FinMind	5	3		Thái Quốc Hưng	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	Sprint 5	S5-WBS10.1	S5-G06	2	Tính nhóm tín hiệu giá	Thái Quốc Hưng	Đã hoàn thành	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tính biến động theo khoảng đã chốt và đánh dấu thiếu phiên hoặc thiếu giá.	Có tín hiệu giá và dữ liệu dùng để tính.	S5-WBS08.1, S5-WBS08.3															**
+
+🟢 **Hiện tại: 3/40 task Done · còn 37 task · 3 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 3 task ước tính (0 theo nhật ký giờ, 3 theo deadline).												**
+
+🟢 **Phạm vi (task)	40	Done hiện tại	3	Giờ dự kiến	120	Done thiếu ngày	3					**
+
+🟢 **Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	40				25.71			14.29		S5-WBS10.1		Ước tính: deadline**
+
+🟢 **Hiện tại	40		3	37						S5-WBS10.4		**
+
+🟢 **Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	66	5	0.07575757575757576	258	Hybrid B2, Copilot B3, kiểm chứng, bảo mật và chạy đánh giá cuối.								**
+
+🟢 **Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G06	5	Nhận định xu hướng doanh nghiệp	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	9	3	0.3333333333333333	Đang làm	29		Sprint 5 Backlog**
+
+🟢 **Task đã hoàn thành	108		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.542713567839196		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **S5-WBS11.2: Hiển thị nhận định xu hướng trong Chat	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	9	3	0.3333333333333333	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S5-WBS10.1	Tính nhóm tín hiệu giá	Nhận định xu hướng doanh nghiệp	Tính biến động theo khoảng đã chốt và đánh dấu thiếu phiên hoặc thiếu giá.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Có tín hiệu giá và dữ liệu dùng để tính.	S5-WBS08.1, S5-WBS08.3	Cao	Chưa bắt đầu	S5-G06	FinMind	5	3		Thái Quốc Hưng	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	Sprint 5	S5-WBS10.1	S5-G06	2	Tính nhóm tín hiệu giá	Thái Quốc Hưng	Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tính biến động theo khoảng đã chốt và đánh dấu thiếu phiên hoặc thiếu giá.	Có tín hiệu giá và dữ liệu dùng để tính.	S5-WBS08.1, S5-WBS08.3															~~
+
+~~Hiện tại: 2/40 task Done · còn 38 task · 2 Done thiếu ngày												~~
+
+~~Đường theo ngày gồm 2 task ước tính (0 theo nhật ký giờ, 2 theo deadline).												~~
+
+~~Phạm vi (task)	40	Done hiện tại	2	Giờ dự kiến	120	Done thiếu ngày	2					~~
+
+~~Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	40				25.71			14.29		S5-WBS10.1		~~
+
+~~Hiện tại	40		2	38						S5-WBS10.4		~~
+
+~~Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	66	4	0.06060606060606061	258	Hybrid B2, Copilot B3, kiểm chứng, bảo mật và chạy đánh giá cuối.								~~
+
+~~Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G06	5	Nhận định xu hướng doanh nghiệp	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	9	2	0.2222222222222222	Đang làm	29		Sprint 5 Backlog~~
+
+~~Task đã hoàn thành	107		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.5376884422110553		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~S5-WBS11.2: Hiển thị nhận định xu hướng trong Chat	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	9	2	0.2222222222222222	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-11-12 08:12 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
