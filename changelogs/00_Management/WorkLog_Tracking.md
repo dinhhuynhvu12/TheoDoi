@@ -1,5 +1,61 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-13 16:13 - SUA NOI DUNG
+
+- **Người đăng:** dieuhuyentran1010@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-13 16:13
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS04.3	Tạo và Chạy bộ câu kiểm thử router	Thư viện vector và Hybrid Router	Chạy bộ test riêng và ghi nhãn, điểm, lý do và nhánh.	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Có bảng kỳ vọng và thực tế, gồm câu chức vụ, kết hợp và thiếu dữ kiện. Có bộ kiểm thử bao phủ 90% coverage, và phải đạt từ 90% tỷ lệ thành công thì mới được pass  .	S5-WBS04.2, S5-WBS03.2	Cao	Đã hoàn thành	S5-G02	FinMind	5	3		Huyền	Mon Nov 09 2026 07:00:00 GMT+0700 (In...**
+
+🟢 **	Sprint 5	S5-WBS04.3	S5-G02	1	Tạo và Chạy bộ câu kiểm thử router	Huyền	Đã hoàn thành	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy bộ test riêng và ghi nhãn, điểm, lý do và nhánh.	Có bảng kỳ vọng và thực tế, gồm câu chức vụ, kết hợp và thiếu dữ kiện. Có bộ kiểm thử bao phủ 90% coverage, và phải đạt từ 90% tỷ lệ thành công thì mới được pass  .	S5-WBS04.2, S5-WBS03.2															**
+
+🟢 **Hiện tại: 6/40 task Done · còn 34 task · 6 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 6 task ước tính (0 theo nhật ký giờ, 6 theo deadline).												**
+
+🟢 **Phạm vi (task)	40	Done hiện tại	6	Giờ dự kiến	120	Done thiếu ngày	6					**
+
+🟢 **										S5-WBS04.3		Ước tính: deadline**
+
+🟢 **Hiện tại	40		6	34						S5-WBS10.4		**
+
+🟢 **Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	66	9	0.13636363636363635	258	Hybrid B2, Copilot B3, kiểm chứng, bảo mật và chạy đánh giá cuối.								**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G02	5	Thư viện vector và Hybrid Router	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	6	2	0.3333333333333333	Đang test	17		Sprint 5 Backlog**
+
+🟢 **Task đã hoàn thành	112		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.5628140703517588		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **S5-WBS04.3: Chạy bộ câu kiểm thử router	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	6	2	0.3333333333333333	Đang test	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S5-WBS04.3	Tạo và Chạy bộ câu kiểm thử router	Thư viện vector và Hybrid Router	Chạy bộ test riêng và ghi nhãn, điểm, lý do và nhánh.	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Có bảng kỳ vọng và thực tế, gồm câu chức vụ, kết hợp và thiếu dữ kiện. Có bộ kiểm thử bao phủ 90% coverage, và phải đạt từ 90% tỷ lệ thành công thì mới được pass  .	S5-WBS04.2, S5-WBS03.2	Cao	Chưa bắt đầu	S5-G02	FinMind	5	3		Huyền	Mon Nov 09 2026 07:00:00 GMT+0700 (Ind...~~
+
+~~	Sprint 5	S5-WBS04.3	S5-G02	1	Tạo và Chạy bộ câu kiểm thử router	Huyền	Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy bộ test riêng và ghi nhãn, điểm, lý do và nhánh.	Có bảng kỳ vọng và thực tế, gồm câu chức vụ, kết hợp và thiếu dữ kiện. Có bộ kiểm thử bao phủ 90% coverage, và phải đạt từ 90% tỷ lệ thành công thì mới được pass  .	S5-WBS04.2, S5-WBS03.2															~~
+
+~~Hiện tại: 5/40 task Done · còn 35 task · 5 Done thiếu ngày												~~
+
+~~Đường theo ngày gồm 5 task ước tính (0 theo nhật ký giờ, 5 theo deadline).												~~
+
+~~Phạm vi (task)	40	Done hiện tại	5	Giờ dự kiến	120	Done thiếu ngày	5					~~
+
+~~										S5-WBS04.3		~~
+
+~~Hiện tại	40		5	35						S5-WBS10.4		~~
+
+~~Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	66	8	0.12121212121212122	258	Hybrid B2, Copilot B3, kiểm chứng, bảo mật và chạy đánh giá cuối.								~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G02	5	Thư viện vector và Hybrid Router	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	6	1	0.16666666666666666	Đang test	17		Sprint 5 Backlog~~
+
+~~Task đã hoàn thành	111		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.5577889447236181		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~S5-WBS04.3: Chạy bộ câu kiểm thử router	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	6	1	0.16666666666666666	Đang test	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-11-13 15:22 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
