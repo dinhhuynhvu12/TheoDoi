@@ -1,5 +1,101 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-16 21:02 - SUA NOI DUNG
+
+- **Người đăng:** minhquan9125@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-16 21:02
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS02.2	Chuẩn hóa loại tài liệu và bộ lọc BCTN	Tái hiện lỗi và sửa truy xuất BCTN	Ánh xạ BCTN, báo cáo thường niên và annual report về cùng loại. Truyền mã công ty và kỳ xuống tìm kiếm.	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Ba cách gọi đi cùng bộ lọc và giữ đúng mã công ty, kỳ.	S5-WBS02.1	Cao	Đã hoàn thành	S5-G01	FinMind	5	5		Nguyễn Minh Quân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS04.2	Đặt ngưỡng tin cậy và quy tắc chọn nhánh	Thư viện vector và Hybrid Router	Dùng điểm cao nhất, khoảng cách hai nhóm đầu và thông tin công ty/kỳ để chọn nhánh, hỏi lại hoặc báo cần fallback.	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Có đầu ra VECTOR, GRAPH, BOTH, ASK\_CLARIFICATION hoặc tín hiệu fallback theo từng ca.	S5-WBS04.1	Cao	Chưa bắt đầu	S5-G02	FinMind	5	3		Huyền 	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15...**
+
+🟢 **	S5-WBS06.1	Dùng cơ chế refresh token chung cho request Chat	Refresh token cho Chat	Nối request Chat vào luồng auth chung và thử lại có kiểm soát khi nhận 401.	Chat tiếp tục sau refresh hợp lệ, xử lý phiên hết hạn và tránh gửi trùng.	Phiên hợp lệ tiếp tục dùng được sau refresh.	Có thể làm độc lập	Vừa	Cần xác nhận	S5-G04	FinMind	5	3		Nguyễn Minh Quân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **								5	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	120	0	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **	Số task	40	Giờ dự kiến	120	Tổng giờ thực tế đã ghi																								**
+
+🟢 **	Sprint 5	S5-WBS04.2	S5-G02	1	Đặt ngưỡng tin cậy và quy tắc chọn nhánh	Huyền 	Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng điểm cao nhất, khoảng cách hai nhóm đầu và thông tin công ty/kỳ để chọn nhánh, hỏi lại hoặc báo cần fallback.	Có đầu ra VECTOR, GRAPH, BOTH, ASK\_CLARIFICATION hoặc tín hiệu fallback theo từng ca.	S5-WBS04.1															**
+
+🟢 **	Sprint 5	S5-WBS02.2	S5-G01	1	Chuẩn hóa loại tài liệu và bộ lọc BCTN	Nguyễn Minh Quân	Đã hoàn thành	5		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ánh xạ BCTN, báo cáo thường niên và annual report về cùng loại. Truyền mã công ty và kỳ xuống tìm kiếm.	Ba cách gọi đi cùng bộ lọc và giữ đúng mã công ty, kỳ.	S5-WBS02.1															**
+
+🟢 **	Sprint 5	S5-WBS06.1	S5-G04	1	Dùng cơ chế refresh token chung cho request Chat	Nguyễn Minh Quân	Cần xác nhận	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Nối request Chat vào luồng auth chung và thử lại có kiểm soát khi nhận 401.	Phiên hợp lệ tiếp tục dùng được sau refresh.	Có thể làm độc lập															**
+
+🟢 **					Tổng giờ theo task			120	0																				**
+
+🟢 **					Chênh kế hoạch task − kế hoạch ngày: -30 h. 																								**
+
+🟢 **Đường theo ngày gồm 10 task ước tính (0 theo nhật ký giờ, 10 theo deadline).												**
+
+🟢 **Phạm vi (task)	40	Done hiện tại	11	Giờ dự kiến	120	Done thiếu ngày	11					**
+
+🟢 **										S5-WBS04.2	#REF!	#REF!**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	9	9	31	20			20		S5-WBS08.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	9	31	17.14			22.86		S5-WBS08.3	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	66	15	0.22727272727272727	258	Hybrid B2, Copilot B3, kiểm chứng, bảo mật và chạy đánh giá cuối.								**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G01	5	Tái hiện lỗi và sửa truy xuất BCTN	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	5	1	0.2	Đang làm	14		Sprint 5 Backlog**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G02	5	Thư viện vector và Hybrid Router	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	6	5	0.8333333333333334	Đang làm	17		Sprint 5 Backlog**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G04	5	Refresh token cho Chat	Chat tiếp tục sau refresh hợp lệ, xử lý phiên hết hạn và tránh gửi trùng.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Cần xác nhận	6		Sprint 5 Backlog**
+
+🟢 **S5-WBS02.3: Kiểm thử truy xuất BCTN bằng dữ liệu thật	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	5	1	0.2	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **S5-WBS04.3: Chạy bộ câu kiểm thử router	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	6	5	0.8333333333333334	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **S5-WBS06.2: Kiểm tra refresh thất bại và chống gửi trùng	Chat tiếp tục sau refresh hợp lệ, xử lý phiên hết hạn và tránh gửi trùng.	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Cần xác nhận	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S5-WBS02.2		Tái hiện lỗi và sửa truy xuất BCTN		Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.			Cao		S5-G01	FinMind	5						1~~
+
+~~	S5-WBS04.2	Đặt ngưỡng tin cậy và quy tắc chọn nhánh	Thư viện vector và Hybrid Router	Dùng điểm cao nhất, khoảng cách hai nhóm đầu và thông tin công ty/kỳ để chọn nhánh, hỏi lại hoặc báo cần fallback.	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Có đầu ra VECTOR, GRAPH, BOTH, ASK\_CLARIFICATION hoặc tín hiệu fallback theo từng ca.	S5-WBS04.1	Cao	Đã hoàn thành	S5-G02	FinMind	5	3		Huyền 	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 1...~~
+
+~~	S5-WBS06.1	Dùng cơ chế refresh token chung cho request Chat	Refresh token cho Chat	Nối request Chat vào luồng auth chung và thử lại có kiểm soát khi nhận 401.	Chat tiếp tục sau refresh hợp lệ, xử lý phiên hết hạn và tránh gửi trùng.	Phiên hợp lệ tiếp tục dùng được sau refresh.	Có thể làm độc lập	Vừa	Chưa bắt đầu	S5-G04	FinMind	5	3		Nguyễn Minh Quân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~								5	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	115	0	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~	Số task	40	Giờ dự kiến	115	Tổng giờ thực tế đã ghi																								~~
+
+~~	Sprint 5	S5-WBS04.2	S5-G02	1	Đặt ngưỡng tin cậy và quy tắc chọn nhánh	Huyền 	Đã hoàn thành	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng điểm cao nhất, khoảng cách hai nhóm đầu và thông tin công ty/kỳ để chọn nhánh, hỏi lại hoặc báo cần fallback.	Có đầu ra VECTOR, GRAPH, BOTH, ASK\_CLARIFICATION hoặc tín hiệu fallback theo từng ca.	S5-WBS04.1															~~
+
+~~	Sprint 5	S5-WBS02.2	S5-G01	1																									~~
+
+~~	Sprint 5	S5-WBS06.1	S5-G04	1	Dùng cơ chế refresh token chung cho request Chat	Nguyễn Minh Quân	Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Nối request Chat vào luồng auth chung và thử lại có kiểm soát khi nhận 401.	Phiên hợp lệ tiếp tục dùng được sau refresh.	Có thể làm độc lập															~~
+
+~~					Tổng giờ theo task			115	0																				~~
+
+~~					Chênh kế hoạch task − kế hoạch ngày: -35 h. 																								~~
+
+~~Đường theo ngày gồm 11 task ước tính (0 theo nhật ký giờ, 11 theo deadline).												~~
+
+~~Phạm vi (task)	40	Done hiện tại	11	Giờ dự kiến	115	Done thiếu ngày	11					~~
+
+~~										S5-WBS04.2	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	10	10	30	20			20		S5-WBS08.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	10	30	17.14			22.86		S5-WBS08.3	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	65	15	0.23076923076923078	253	Hybrid B2, Copilot B3, kiểm chứng, bảo mật và chạy đánh giá cuối.								~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G01	5	Tái hiện lỗi và sửa truy xuất BCTN	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	5	0	0	Chưa bắt đầu	9		Sprint 5 Backlog~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G02	5	Thư viện vector và Hybrid Router	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	6	6	1	Đã hoàn thành	17		Sprint 5 Backlog~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G04	5	Refresh token cho Chat	Chat tiếp tục sau refresh hợp lệ, xử lý phiên hết hạn và tránh gửi trùng.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	6		Sprint 5 Backlog~~
+
+~~S5-WBS02.3: Kiểm thử truy xuất BCTN bằng dữ liệu thật	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	5	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~S5-WBS04.3: Chạy bộ câu kiểm thử router	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	6	6	1	Đã hoàn thành	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~S5-WBS06.2: Kiểm tra refresh thất bại và chống gửi trùng	Chat tiếp tục sau refresh hợp lệ, xử lý phiên hết hạn và tránh gửi trùng.	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	2	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-11-16 15:07 - SUA NOI DUNG
 
 - **Người đăng:** minhquan9125@gmail.com
