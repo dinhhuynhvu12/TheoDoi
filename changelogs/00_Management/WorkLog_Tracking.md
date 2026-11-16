@@ -1,5 +1,89 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-16 10:47 - SUA NOI DUNG
+
+- **Người đăng:** dieuhuyentran1010@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-16 10:47
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS07.3	Kiểm thử fallback và trường hợp cả hai bước thất bại	Fallback phân loại bằng AI	Thử AI trả đúng, sai nhãn, timeout và câu rõ ý định.	Chỉ gọi fallback khi cần. Kiểm tra nhãn, ghi trace và hỏi lại khi không phân loại được.	Ca thất bại hỏi lại. Câu rõ ý định xử lý nội bộ.	S5-WBS07.2	Cao	Đã hoàn thành	S5-G05	FinMind	5	2		Huyền	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **Đường theo ngày gồm 7 task ước tính (0 theo nhật ký giờ, 7 theo deadline).												**
+
+🟢 **	Sprint 5	S5-WBS07.3	S5-G05	1	Kiểm thử fallback và trường hợp cả hai bước thất bại	Huyền	Đã hoàn thành	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử AI trả đúng, sai nhãn, timeout và câu rõ ý định.	Ca thất bại hỏi lại. Câu rõ ý định xử lý nội bộ.	S5-WBS07.2															**
+
+🟢 **Hiện tại: 7/40 task Done · còn 33 task · 7 Done thiếu ngày												**
+
+🟢 **Phạm vi (task)	40	Done hiện tại	7	Giờ dự kiến	120	Done thiếu ngày	7					**
+
+🟢 **										S5-WBS04.3	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S5-WBS07.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S5-WBS07.3	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S5-WBS04.2	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	31.43			8.57		S5-WBS08.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	28.57			11.43		S5-WBS08.3	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	6	6	34	20			20		S5-WBS11.2		**
+
+🟢 **Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	6	34	17.14			22.86		S5-WBS12.1		**
+
+🟢 **Hiện tại	40		7	33						S5-WBS10.4		**
+
+🟢 **Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	66	10	0.15151515151515152	258	Hybrid B2, Copilot B3, kiểm chứng, bảo mật và chạy đánh giá cuối.								**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G05	5	Fallback phân loại bằng AI	Chỉ gọi fallback khi cần. Kiểm tra nhãn, ghi trace và hỏi lại khi không phân loại được.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	3	2	0.6666666666666666	Đang làm	7		Sprint 5 Backlog**
+
+🟢 **Task đã hoàn thành	113		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.5678391959798995		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **S5-WBS07.3: Kiểm thử fallback và trường hợp cả hai bước thất bại	Chỉ gọi fallback khi cần. Kiểm tra nhãn, ghi trace và hỏi lại khi không phân loại được.	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	3	2	0.6666666666666666	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S5-WBS07.3	Kiểm thử fallback và trường hợp cả hai bước thất bại	Fallback phân loại bằng AI	Thử AI trả đúng, sai nhãn, timeout và câu rõ ý định.	Chỉ gọi fallback khi cần. Kiểm tra nhãn, ghi trace và hỏi lại khi không phân loại được.	Ca thất bại hỏi lại. Câu rõ ý định xử lý nội bộ.	S5-WBS07.2	Cao	Chưa bắt đầu	S5-G05	FinMind	5	2		Huyền	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	Sprint 5	S5-WBS07.3	S5-G05	1	Kiểm thử fallback và trường hợp cả hai bước thất bại	Huyền	Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử AI trả đúng, sai nhãn, timeout và câu rõ ý định.	Ca thất bại hỏi lại. Câu rõ ý định xử lý nội bộ.	S5-WBS07.2															~~
+
+~~Hiện tại: 6/40 task Done · còn 34 task · 6 Done thiếu ngày												~~
+
+~~Đường theo ngày gồm 6 task ước tính (0 theo nhật ký giờ, 6 theo deadline).												~~
+
+~~Phạm vi (task)	40	Done hiện tại	6	Giờ dự kiến	120	Done thiếu ngày	6					~~
+
+~~										S5-WBS04.3		Ước tính: deadline~~
+
+~~										S5-WBS07.1		Ước tính: deadline~~
+
+~~										S5-WBS07.3		~~
+
+~~										S5-WBS04.2		Ước tính: deadline~~
+
+~~Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	31.43			8.57		S5-WBS08.1		Ước tính: deadline~~
+
+~~Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	28.57			11.43		S5-WBS08.3		Ước tính: deadline~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40				20			20		S5-WBS11.2		~~
+
+~~Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40				17.14			22.86		S5-WBS12.1		~~
+
+~~Hiện tại	40		6	34						S5-WBS10.4		~~
+
+~~Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	66	9	0.13636363636363635	258	Hybrid B2, Copilot B3, kiểm chứng, bảo mật và chạy đánh giá cuối.								~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G05	5	Fallback phân loại bằng AI	Chỉ gọi fallback khi cần. Kiểm tra nhãn, ghi trace và hỏi lại khi không phân loại được.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	3	1	0.3333333333333333	Đang làm	7		Sprint 5 Backlog~~
+
+~~Task đã hoàn thành	112		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.5628140703517588		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~S5-WBS07.3: Kiểm thử fallback và trường hợp cả hai bước thất bại	Chỉ gọi fallback khi cần. Kiểm tra nhãn, ghi trace và hỏi lại khi không phân loại được.	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	3	1	0.3333333333333333	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-11-14 13:37 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
