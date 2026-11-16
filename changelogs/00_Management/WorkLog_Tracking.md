@@ -1,5 +1,173 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-16 11:32 - SUA NOI DUNG
+
+- **Người đăng:** hophamdangnhandz123@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-16 11:32
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS03.1	Chốt nhãn ý định và ranh giới giữa các nhãn	Thư viện vector và Hybrid Router	Định nghĩa nhãn số liệu, BCTC/BCTN, News, chức vụ, quan hệ, xu hướng và kết hợp.	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Có bảng nhãn và ví dụ phân biệt các ý định dễ nhầm.	—	Cao	Đã hoàn thành	S5-G02	FinMind	5	2		Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS03.2	Soạn cụm từ mẫu và bộ câu kiểm thử riêng	Thư viện vector và Hybrid Router	Viết mẫu có dấu, không dấu, viết tắt và cặp dễ nhầm. Tách câu kiểm thử khỏi thư viện dùng để đối chiếu.	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Có bộ mẫu gắn nhãn và bộ test riêng, gồm hỏi chức vụ so với hỏi tin bổ nhiệm.	S5-WBS03.1	Cao	Đã hoàn thành	S5-G02	FinMind	5	4		Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0...**
+
+🟢 **	S5-WBS03.3	Vector hóa và lưu phiên bản thư viện	Thư viện vector và Hybrid Router	Tạo vector cho các câu mẫu và lưu nhãn, phiên bản thư viện và embedding.	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Có dữ liệu vector và thông tin phiên bản để tái tạo.	S5-WBS03.2	Cao	Đã hoàn thành	S5-G02	FinMind	5	2		Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS04.1	Đối chiếu vector câu hỏi với thư viện	Thư viện vector và Hybrid Router	Dùng cùng mô hình embedding để tính độ tương đồng và lấy nhóm ý định gần nhất.	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Trả được các nhóm gần nhất và điểm tương đồng.	S5-WBS03.3	Cao	Đã hoàn thành	S5-G02	FinMind	5	3		Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS09.1	Kế thừa công ty, kỳ và chủ đề giữa các lượt	Ngữ cảnh và thao tác hội thoại	Dùng phạm vi hội thoại hiện tại, ưu tiên công ty hoặc kỳ mới nếu người dùng thay đổi.	Giữ phạm vi đúng, xử lý liệt kê, tổng quan và tổng hợp trong phiên hiện tại.	Câu nối tiếp giữ đúng phạm vi và chuyển phạm vi khi được yêu cầu.	S5-WBS05.1	Vừa	Chưa bắt đầu	S5-G07	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS09.2	Xử lý liệt kê và giới thiệu tổng quan	Ngữ cảnh và thao tác hội thoại	Liệt kê nội dung đang nói. Tổng quan đúng doanh nghiệp và truy xuất thêm khi cần.	Giữ phạm vi đúng, xử lý liệt kê, tổng quan và tổng hợp trong phiên hiện tại.	Hai câu mẫu chạy đúng trong phiên nhiều lượt.	S5-WBS09.1	Vừa	Chưa bắt đầu	S5-G07	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS09.3	Xử lý tổng hợp nãy giờ	Ngữ cảnh và thao tác hội thoại	Tóm tắt nội dung phiên hiện tại và giữ các nguồn đã dẫn.	Giữ phạm vi đúng, xử lý liệt kê, tổng quan và tổng hợp trong phiên hiện tại.	Không lẫn nội dung giữa các phiên, nguồn còn đối chiếu được.	S5-WBS09.1	Vừa	Chưa bắt đầu	S5-G07	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	Sprint 5	S5-WBS03.1	S5-G02	1	Chốt nhãn ý định và ranh giới giữa các nhãn	Nhân	Đã hoàn thành	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Định nghĩa nhãn số liệu, BCTC/BCTN, News, chức vụ, quan hệ, xu hướng và kết hợp.	Có bảng nhãn và ví dụ phân biệt các ý định dễ nhầm.	—															**
+
+🟢 **	Sprint 5	S5-WBS03.2	S5-G02	1	Soạn cụm từ mẫu và bộ câu kiểm thử riêng	Nhân	Đã hoàn thành	4		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Viết mẫu có dấu, không dấu, viết tắt và cặp dễ nhầm. Tách câu kiểm thử khỏi thư viện dùng để đối chiếu.	Có bộ mẫu gắn nhãn và bộ test riêng, gồm hỏi chức vụ so với hỏi tin bổ nhiệm.	S5-WBS03.1															**
+
+🟢 **	Sprint 5	S5-WBS03.3	S5-G02	1	Vector hóa và lưu phiên bản thư viện	Nhân	Đã hoàn thành	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo vector cho các câu mẫu và lưu nhãn, phiên bản thư viện và embedding.	Có dữ liệu vector và thông tin phiên bản để tái tạo.	S5-WBS03.2															**
+
+🟢 **	Sprint 5	S5-WBS04.1	S5-G02	1	Đối chiếu vector câu hỏi với thư viện	Nhân	Đã hoàn thành	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng cùng mô hình embedding để tính độ tương đồng và lấy nhóm ý định gần nhất.	Trả được các nhóm gần nhất và điểm tương đồng.	S5-WBS03.3															**
+
+🟢 **	Sprint 5	S5-WBS09.2	S5-G07	2	Xử lý liệt kê và giới thiệu tổng quan	Nhân	Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Liệt kê nội dung đang nói. Tổng quan đúng doanh nghiệp và truy xuất thêm khi cần.	Hai câu mẫu chạy đúng trong phiên nhiều lượt.	S5-WBS09.1															**
+
+🟢 **	Sprint 5	S5-WBS09.3	S5-G07	2	Xử lý tổng hợp nãy giờ	Nhân	Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tóm tắt nội dung phiên hiện tại và giữ các nguồn đã dẫn.	Không lẫn nội dung giữa các phiên, nguồn còn đối chiếu được.	S5-WBS09.1															**
+
+🟢 **Hiện tại: 11/40 task Done · còn 29 task · 11 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 11 task ước tính (0 theo nhật ký giờ, 11 theo deadline).												**
+
+🟢 **Phạm vi (task)	40	Done hiện tại	11	Giờ dự kiến	120	Done thiếu ngày	11					**
+
+🟢 **										S5-WBS03.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Ưu tiên ngày thực tế ở cột P, rồi ngày cuối có ghi giờ, rồi deadline. Xem nguồn từng task ở cột K–M. Hàng Hiện tại lấy trạng thái từ backlog.										S5-WBS03.2	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Ngày	Phạm vi (task)	Done theo ngày\*	Done lũy kế\*	Task còn lại\*	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch		S5-WBS03.3	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	40		0	40	40			0		S5-WBS04.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	37.14			2.86		S5-WBS09.1		**
+
+🟢 **Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	34.29			5.71		S5-WBS09.2		**
+
+🟢 **Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	31.43			8.57		S5-WBS09.3		**
+
+🟢 **Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	28.57			11.43		S5-WBS13.2		**
+
+🟢 **Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	25.71			14.29		S5-WBS05.1		**
+
+🟢 **Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	22.86			17.14		S5-WBS07.2		**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	10	10	30	20			20		S5-WBS08.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	10	30	17.14			22.86		S5-WBS08.3	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40				11.43			28.57		S5-WBS10.1		Ước tính: deadline**
+
+🟢 **Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40				8.57			31.43		S5-WBS11.1		**
+
+🟢 **Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	40				5.71			34.29		S5-WBS11.2		**
+
+🟢 **Sat Nov 21 2026 07:00:00 GMT+0700 (Indochina Time)	40				2.86			37.14		S5-WBS12.1		**
+
+🟢 **Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	40				0			40		S5-WBS10.2		**
+
+🟢 **Hiện tại	40		11	29						S5-WBS10.3		**
+
+🟢 **										S5-WBS10.4		**
+
+🟢 **Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	66	15	0.22727272727272727	258	Hybrid B2, Copilot B3, kiểm chứng, bảo mật và chạy đánh giá cuối.								**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G02	5	Thư viện vector và Hybrid Router	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	6	6	1	Đã hoàn thành	17		Sprint 5 Backlog**
+
+🟢 **Task đã hoàn thành	119		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.5979899497487438		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **S5-WBS04.3: Chạy bộ câu kiểm thử router	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	6	6	1	Đã hoàn thành	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S5-WBS03.1	Chốt nhãn ý định và ranh giới giữa các nhãn	Thư viện vector và Hybrid Router	Định nghĩa nhãn số liệu, BCTC/BCTN, News, chức vụ, quan hệ, xu hướng và kết hợp.	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Có bảng nhãn và ví dụ phân biệt các ý định dễ nhầm.	—	Cao	Đang test	S5-G02	FinMind	5	2		Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS03.2	Soạn cụm từ mẫu và bộ câu kiểm thử riêng	Thư viện vector và Hybrid Router	Viết mẫu có dấu, không dấu, viết tắt và cặp dễ nhầm. Tách câu kiểm thử khỏi thư viện dùng để đối chiếu.	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Có bộ mẫu gắn nhãn và bộ test riêng, gồm hỏi chức vụ so với hỏi tin bổ nhiệm.	S5-WBS03.1	Cao	Đang test	S5-G02	FinMind	5	4		Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 ...~~
+
+~~	S5-WBS03.3	Vector hóa và lưu phiên bản thư viện	Thư viện vector và Hybrid Router	Tạo vector cho các câu mẫu và lưu nhãn, phiên bản thư viện và embedding.	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Có dữ liệu vector và thông tin phiên bản để tái tạo.	S5-WBS03.2	Cao	Đang test	S5-G02	FinMind	5	2		Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS04.1	Đối chiếu vector câu hỏi với thư viện	Thư viện vector và Hybrid Router	Dùng cùng mô hình embedding để tính độ tương đồng và lấy nhóm ý định gần nhất.	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Trả được các nhóm gần nhất và điểm tương đồng.	S5-WBS03.3	Cao	Đang test	S5-G02	FinMind	5	3		Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS09.1	Kế thừa công ty, kỳ và chủ đề giữa các lượt	Ngữ cảnh và thao tác hội thoại	Dùng phạm vi hội thoại hiện tại, ưu tiên công ty hoặc kỳ mới nếu người dùng thay đổi.	Giữ phạm vi đúng, xử lý liệt kê, tổng quan và tổng hợp trong phiên hiện tại.	Câu nối tiếp giữ đúng phạm vi và chuyển phạm vi khi được yêu cầu.	S5-WBS05.1	Vừa	Chưa bắt đầu	S5-G07	FinMind	5	3			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS09.2	Xử lý liệt kê và giới thiệu tổng quan	Ngữ cảnh và thao tác hội thoại	Liệt kê nội dung đang nói. Tổng quan đúng doanh nghiệp và truy xuất thêm khi cần.	Giữ phạm vi đúng, xử lý liệt kê, tổng quan và tổng hợp trong phiên hiện tại.	Hai câu mẫu chạy đúng trong phiên nhiều lượt.	S5-WBS09.1	Vừa	Chưa bắt đầu	S5-G07	FinMind	5	3			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS09.3	Xử lý tổng hợp nãy giờ	Ngữ cảnh và thao tác hội thoại	Tóm tắt nội dung phiên hiện tại và giữ các nguồn đã dẫn.	Giữ phạm vi đúng, xử lý liệt kê, tổng quan và tổng hợp trong phiên hiện tại.	Không lẫn nội dung giữa các phiên, nguồn còn đối chiếu được.	S5-WBS09.1	Vừa	Chưa bắt đầu	S5-G07	FinMind	5	3			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	Sprint 5	S5-WBS03.1	S5-G02	1	Chốt nhãn ý định và ranh giới giữa các nhãn	Nhân	Đang test	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Định nghĩa nhãn số liệu, BCTC/BCTN, News, chức vụ, quan hệ, xu hướng và kết hợp.	Có bảng nhãn và ví dụ phân biệt các ý định dễ nhầm.	—															~~
+
+~~	Sprint 5	S5-WBS03.2	S5-G02	1	Soạn cụm từ mẫu và bộ câu kiểm thử riêng	Nhân	Đang test	4		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Viết mẫu có dấu, không dấu, viết tắt và cặp dễ nhầm. Tách câu kiểm thử khỏi thư viện dùng để đối chiếu.	Có bộ mẫu gắn nhãn và bộ test riêng, gồm hỏi chức vụ so với hỏi tin bổ nhiệm.	S5-WBS03.1															~~
+
+~~	Sprint 5	S5-WBS03.3	S5-G02	1	Vector hóa và lưu phiên bản thư viện	Nhân	Đang test	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo vector cho các câu mẫu và lưu nhãn, phiên bản thư viện và embedding.	Có dữ liệu vector và thông tin phiên bản để tái tạo.	S5-WBS03.2															~~
+
+~~	Sprint 5	S5-WBS04.1	S5-G02	1	Đối chiếu vector câu hỏi với thư viện	Nhân	Đang test	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng cùng mô hình embedding để tính độ tương đồng và lấy nhóm ý định gần nhất.	Trả được các nhóm gần nhất và điểm tương đồng.	S5-WBS03.3															~~
+
+~~	Sprint 5	S5-WBS09.2	S5-G07	2	Xử lý liệt kê và giới thiệu tổng quan		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Liệt kê nội dung đang nói. Tổng quan đúng doanh nghiệp và truy xuất thêm khi cần.	Hai câu mẫu chạy đúng trong phiên nhiều lượt.	S5-WBS09.1															~~
+
+~~	Sprint 5	S5-WBS09.3	S5-G07	2	Xử lý tổng hợp nãy giờ		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tóm tắt nội dung phiên hiện tại và giữ các nguồn đã dẫn.	Không lẫn nội dung giữa các phiên, nguồn còn đối chiếu được.	S5-WBS09.1															~~
+
+~~Hiện tại: 7/40 task Done · còn 33 task · 7 Done thiếu ngày												~~
+
+~~Đường theo ngày gồm 7 task ước tính (0 theo nhật ký giờ, 7 theo deadline).												~~
+
+~~Phạm vi (task)	40	Done hiện tại	7	Giờ dự kiến	120	Done thiếu ngày	7					~~
+
+~~										S5-WBS03.1		~~
+
+~~Ưu tiên ngày thực tế ở cột P, rồi ngày cuối có ghi giờ, rồi deadline. Xem nguồn từng task ở cột K–M. Hàng Hiện tại lấy trạng thái từ backlog.										S5-WBS03.2		~~
+
+~~Ngày	Phạm vi (task)	Done theo ngày\*	Done lũy kế\*	Task còn lại\*	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch		S5-WBS03.3		~~
+
+~~Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	40		0	40	40			0		S5-WBS04.1		~~
+
+~~Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	37.14			2.86		S5-WBS05.1		~~
+
+~~Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	34.29			5.71		S5-WBS07.2		~~
+
+~~Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	31.43			8.57		S5-WBS08.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	28.57			11.43		S5-WBS08.3	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	25.71			14.29		S5-WBS10.1		Ước tính: deadline~~
+
+~~Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	22.86			17.14		S5-WBS11.1		~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	6	6	34	20			20		S5-WBS11.2		~~
+
+~~Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	6	34	17.14			22.86		S5-WBS12.1		~~
+
+~~Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40				11.43			28.57		S5-WBS09.1		~~
+
+~~Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40				8.57			31.43		S5-WBS09.2		~~
+
+~~Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	40				5.71			34.29		S5-WBS09.3		~~
+
+~~Sat Nov 21 2026 07:00:00 GMT+0700 (Indochina Time)	40				2.86			37.14		S5-WBS10.2		~~
+
+~~Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	40				0			40		S5-WBS10.3		~~
+
+~~Hiện tại	40		7	33						S5-WBS10.4		~~
+
+~~										S5-WBS13.2		~~
+
+~~Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	66	11	0.16666666666666666	258	Hybrid B2, Copilot B3, kiểm chứng, bảo mật và chạy đánh giá cuối.								~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G02	5	Thư viện vector và Hybrid Router	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	6	2	0.3333333333333333	Đang test	17		Sprint 5 Backlog~~
+
+~~Task đã hoàn thành	115		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.5778894472361809		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~S5-WBS04.3: Chạy bộ câu kiểm thử router	Phân loại ý định bằng thư viện vector có phiên bản, chọn tuyến đúng và có bộ câu kiểm thử riêng.	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	6	2	0.3333333333333333	Đang test	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-11-16 11:27 - SUA NOI DUNG
 
 - **Người đăng:** hophamdangnhandz123@gmail.com
