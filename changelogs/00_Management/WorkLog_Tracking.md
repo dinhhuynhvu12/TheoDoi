@@ -1,5 +1,97 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-16 14:07 - SUA NOI DUNG
+
+- **Người đăng:** minhquan9125@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-16 14:07
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **5. Làm điều phối bằng hai adapter fixture trước; nối WBS11/WBS12 thật để nghiệm thu.	Chọn VECTOR/GRAPH/BOTH theo ý định; hợp nhất có provenance và không che lỗi nhánh.	BOTH thực sự sử dụng hai nhánh, có bộ evidence chung và trạng thái riêng; không che phần chưa được đáp ứng.	Tuần 2. Phụ thuộc / làm trước: WBS10–12. Có thể bắt đầu bằng fixture ngày 02/11; nghiệm thu sau adapter thật. Bàn giao cho WBS14 và WBS17.	Rất cao	Đã hoàn thành	S4-G04	FinMind	4	7	17	Nguyễn Minh Quân	Mon Nov 02 2026 07:00:00...**
+
+🟢 **	S5-WBS02.2	Chuẩn hóa loại tài liệu và bộ lọc BCTN	Tái hiện lỗi và sửa truy xuất BCTN	Ánh xạ BCTN, báo cáo thường niên và annual report về cùng loại. Truyền mã công ty và kỳ xuống tìm kiếm.	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Ba cách gọi đi cùng bộ lọc và giữ đúng mã công ty, kỳ.	S5-WBS02.1	Cao	Đang làm	S5-G01	FinMind	5	5		Nguyễn Minh Quân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **								4	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	128	31	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **	Số task	17	Giờ dự kiến	128	Tổng giờ thực tế đã ghi	31		Tuần 1 (h)	65	Tuần 2 (h)	63																		**
+
+🟢 **	Sprint 4	S4-WBS13	S4-G04	2	Thực hiện tuyến BOTH và hợp nhất bằng chứng	Nguyễn Minh Quân	Đã hoàn thành	7	17	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	1. Nhận routing plan và phần yêu cầu của từng nhánh. Gọi VECTOR/GRAPH; nếu vector cần thực thể từ graph thì thực hiện theo thứ tự phù hợp.**
+
+🟢 **5. Làm điều phối bằng hai adapter fixture trước; nối WBS11/WBS12 thật để nghiệm thu.	BOTH thực sự sử dụng hai nhánh, có bộ evidence chung và trạng thái riêng; không che phần chưa được đáp ứng.	WBS10–12. Có thể bắt đầu bằng fixture ngày 02/11; nghiệm thu sau adapter thật. Bàn giao cho WBS14 và WBS17.									8				9		**
+
+🟢 **					Tổng giờ theo task			128	31																				**
+
+🟢 **					Giờ đã ghi theo ngày				31							0	0	0	0	14	0	0	8	0	0	0	9	0	0**
+
+🟢 **Giờ thực tế	31	Bắt đầu	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **										S4-WBS13	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	5	12	7.29	8	22	9.71				**
+
+🟢 **Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	5	12	6.07		22	10.93				**
+
+🟢 **Wed Nov 04 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	5	12	4.86		22	12.14				**
+
+🟢 **Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	6	11	3.64		22	13.36				**
+
+🟢 **Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	17	3	9	8	2.43	9	31	14.57				**
+
+🟢 **Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	9	8	1.21		31	15.79				**
+
+🟢 **Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	9	8	0		31	17				**
+
+🟢 **	Sprint 5	S5-WBS02.2	S5-G01	1	Chuẩn hóa loại tài liệu và bộ lọc BCTN	Nguyễn Minh Quân	Đang làm	5		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ánh xạ BCTN, báo cáo thường niên và annual report về cùng loại. Truyền mã công ty và kỳ xuống tìm kiếm.	Ba cách gọi đi cùng bộ lọc và giữ đúng mã công ty, kỳ.	S5-WBS02.1															**
+
+🟢 **Bằng chứng đứng đầu có điểm và lý do lựa chọn kiểm tra được.	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	2	2	1	Đã hoàn thành	15	17	Sprint 4 Backlog**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G01	5	Tái hiện lỗi và sửa truy xuất BCTN	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	5	0	0	Đang làm	14		Sprint 5 Backlog**
+
+🟢 **S5-WBS02.3: Kiểm thử truy xuất BCTN bằng dữ liệu thật	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	5	0	0	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~5. Làm điều phối bằng hai adapter fixture trước; nối WBS11/WBS12 thật để nghiệm thu.	Chọn VECTOR/GRAPH/BOTH theo ý định; hợp nhất có provenance và không che lỗi nhánh.	BOTH thực sự sử dụng hai nhánh, có bộ evidence chung và trạng thái riêng; không che phần chưa được đáp ứng.	Tuần 2. Phụ thuộc / làm trước: WBS10–12. Có thể bắt đầu bằng fixture ngày 02/11; nghiệm thu sau adapter thật. Bàn giao cho WBS14 và WBS17.	Rất cao	Đã hoàn thành	S4-G04	FinMind	4	7	8	Nguyễn Minh Quân	Mon Nov 02 2026 07:00:00 ...~~
+
+~~	S5-WBS02.2	Chuẩn hóa loại tài liệu và bộ lọc BCTN	Tái hiện lỗi và sửa truy xuất BCTN	Ánh xạ BCTN, báo cáo thường niên và annual report về cùng loại. Truyền mã công ty và kỳ xuống tìm kiếm.	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Ba cách gọi đi cùng bộ lọc và giữ đúng mã công ty, kỳ.	S5-WBS02.1	Cao	Chưa bắt đầu	S5-G01	FinMind	5	5		Nguyễn Minh Quân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~								4	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	128	22	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~	Số task	17	Giờ dự kiến	128	Tổng giờ thực tế đã ghi	22		Tuần 1 (h)	65	Tuần 2 (h)	63																		~~
+
+~~	Sprint 4	S4-WBS13	S4-G04	2	Thực hiện tuyến BOTH và hợp nhất bằng chứng	Nguyễn Minh Quân	Đã hoàn thành	7	8	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	1. Nhận routing plan và phần yêu cầu của từng nhánh. Gọi VECTOR/GRAPH; nếu vector cần thực thể từ graph thì thực hiện theo thứ tự phù hợp.~~
+
+~~5. Làm điều phối bằng hai adapter fixture trước; nối WBS11/WBS12 thật để nghiệm thu.	BOTH thực sự sử dụng hai nhánh, có bộ evidence chung và trạng thái riêng; không che phần chưa được đáp ứng.	WBS10–12. Có thể bắt đầu bằng fixture ngày 02/11; nghiệm thu sau adapter thật. Bàn giao cho WBS14 và WBS17.									8						~~
+
+~~					Tổng giờ theo task			128	22																				~~
+
+~~					Giờ đã ghi theo ngày				22							0	0	0	0	14	0	0	8	0	0	0	0	0	0~~
+
+~~Giờ thực tế	22	Bắt đầu	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					~~
+
+~~										S4-WBS13	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	6	11	7.29	8	22	9.71				~~
+
+~~Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	6	11	6.07		22	10.93				~~
+
+~~Wed Nov 04 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	6	11	4.86		22	12.14				~~
+
+~~Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	7	10	3.64		22	13.36				~~
+
+~~Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	17	2	9	8	2.43		22	14.57				~~
+
+~~Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	9	8	1.21		22	15.79				~~
+
+~~Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	9	8	0		22	17				~~
+
+~~	Sprint 5	S5-WBS02.2	S5-G01	1	Chuẩn hóa loại tài liệu và bộ lọc BCTN	Nguyễn Minh Quân	Chưa bắt đầu	5		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ánh xạ BCTN, báo cáo thường niên và annual report về cùng loại. Truyền mã công ty và kỳ xuống tìm kiếm.	Ba cách gọi đi cùng bộ lọc và giữ đúng mã công ty, kỳ.	S5-WBS02.1															~~
+
+~~Bằng chứng đứng đầu có điểm và lý do lựa chọn kiểm tra được.	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	2	2	1	Đã hoàn thành	15	8	Sprint 4 Backlog~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G01	5	Tái hiện lỗi và sửa truy xuất BCTN	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	5	0	0	Chưa bắt đầu	14		Sprint 5 Backlog~~
+
+~~S5-WBS02.3: Kiểm thử truy xuất BCTN bằng dữ liệu thật	Có trace tái hiện bốn lỗi Sprint 4 và truy xuất được BCTN đúng công ty, kỳ và quyền.	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	5	0	0	Chưa bắt đầu	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-11-16 14:02 - SUA NOI DUNG
 
 - **Người đăng:** minhquan9125@gmail.com
