@@ -1,5 +1,125 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-16 11:02 - SUA NOI DUNG
+
+- **Người đăng:** minhquan9125@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-16 11:02
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **5.  Bàn giao extractor theo lô cho WBS16; chưa chạy full-load trong task này.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Extractor sự kiện chạy được trên News thật mẫu; giữ nguồn, ngày và trạng thái; không công bố nội dung mơ hồ thành sự thật. Có test và interface batch.	Tuần 1. Phụ thuộc / làm trước: WBS01; entity fixture để bắt đầu, WBS02 thật để nghiệm thu. Phần bất định chuyển WBS06. Chạy toàn bộ News thuộc WBS16 củ...**
+
+🟢 **5. Giữ cấu hình B1 để so sánh; không tự bật Evidence Gate/verifier B3 thuộc sprint sau.	Chat/Graph Viewer trình bày đúng bằng chứng, thời gian và giới hạn của kết quả.	Câu trả lời/citation truy lại được nguồn, không bịa quan hệ/số liệu hoặc che lỗi nhánh; có test và gói bàn giao.	Tuần 2. Phụ thuộc / làm trước: Evidence contract và WBS11–13. Có thể chuẩn bị formatter/citation bằng fixture trước, nghiệm thu sau tuyến thật.	Cao	Đã hoàn thành	S4-G06	FinMind	4	6		Nguyễn Minh Quân	Tue Nov 03 2026 07:0...**
+
+🟢 **	Sprint 4	S4-WBS05	S4-G02	1	Trích xuất sự kiện và quan hệ từ News	Nguyễn Minh Quân	Đã hoàn thành	12		Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Nhận diện sự kiện phù hợp từ News trong manifest và các bên liên quan**
+
+🟢 **	Sprint 4	S4-WBS14	S4-G06	2	Tạo câu trả lời và citation theo kết quả routing	Nguyễn Minh Quân	Đã hoàn thành	6		Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	1. Đưa bằng chứng của tuyến được chọn vào phần trả lời hiện có; trả đúng các phần yêu cầu, gắn citation với từng nhận định.**
+
+🟢 **Hiện tại: 9/17 task Done · còn 8 task · 9 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 9 task ước tính (0 theo nhật ký giờ, 9 theo deadline).												**
+
+🟢 **Phạm vi (task)	17	Done hiện tại	9	Giờ dự kiến	128	Done thiếu ngày	9					**
+
+🟢 **										S4-WBS05	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S4-WBS14	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	17	3	5	12	10.93			6.07				**
+
+🟢 **Sat Oct 31 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	5	12	9.71			7.29				**
+
+🟢 **Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	5	12	8.5			8.5				**
+
+🟢 **Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	5	12	7.29			9.71				**
+
+🟢 **Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	5	12	6.07			10.93				**
+
+🟢 **Wed Nov 04 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	5	12	4.86			12.14				**
+
+🟢 **Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	17	2	7	10	3.64			13.36				**
+
+🟢 **Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	17	2	9	8	2.43			14.57				**
+
+🟢 **Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	9	8	1.21			15.79				**
+
+🟢 **Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	9	8	0			17				**
+
+🟢 **Hiện tại	17		9	8								**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	69	58	0.8405797101449275	342	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	66	11	0.16666666666666666	258	Hybrid B2, Copilot B3, kiểm chứng, bảo mật và chạy đánh giá cuối.								**
+
+🟢 **Chọn một edge truy ra được nguồn gốc và phiên bản của nó.	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	7	2	0.2857142857142857	Cần xác nhận	52		Sprint 4 Backlog**
+
+🟢 **Có danh sách ca và bằng chứng, không chỉ báo một điểm trung bình.	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	2	2	1	Đã hoàn thành	12		Sprint 4 Backlog**
+
+🟢 **Task đã hoàn thành	115		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.5778894472361809		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **Chọn một edge truy ra được nguồn gốc và phiên bản của nó.	Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	7	2	0.2857142857142857	Cần xác nhận	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **Có danh sách ca và bằng chứng, không chỉ báo một điểm trung bình.	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	2	2	1	Đã hoàn thành	Ngày và phân công là kế hoạch đề xuất.**
+
+~~5.  Bàn giao extractor theo lô cho WBS16; chưa chạy full-load trong task này.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Extractor sự kiện chạy được trên News thật mẫu; giữ nguồn, ngày và trạng thái; không công bố nội dung mơ hồ thành sự thật. Có test và interface batch.	Tuần 1. Phụ thuộc / làm trước: WBS01; entity fixture để bắt đầu, WBS02 thật để nghiệm thu. Phần bất định chuyển WBS06. Chạy toàn bộ News thuộc WBS16 củ...~~
+
+~~5. Giữ cấu hình B1 để so sánh; không tự bật Evidence Gate/verifier B3 thuộc sprint sau.	Chat/Graph Viewer trình bày đúng bằng chứng, thời gian và giới hạn của kết quả.	Câu trả lời/citation truy lại được nguồn, không bịa quan hệ/số liệu hoặc che lỗi nhánh; có test và gói bàn giao.	Tuần 2. Phụ thuộc / làm trước: Evidence contract và WBS11–13. Có thể chuẩn bị formatter/citation bằng fixture trước, nghiệm thu sau tuyến thật.	Cao	Chưa bắt đầu	S4-G06	FinMind	4	6		Nguyễn Minh Quân	Tue Nov 03 2026 07:00...~~
+
+~~	Sprint 4	S4-WBS05	S4-G02	1	Trích xuất sự kiện và quan hệ từ News	Nguyễn Minh Quân	Đang test	12		Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Nhận diện sự kiện phù hợp từ News trong manifest và các bên liên quan~~
+
+~~	Sprint 4	S4-WBS14	S4-G06	2	Tạo câu trả lời và citation theo kết quả routing	Nguyễn Minh Quân	Chưa bắt đầu	6		Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	1. Đưa bằng chứng của tuyến được chọn vào phần trả lời hiện có; trả đúng các phần yêu cầu, gắn citation với từng nhận định.~~
+
+~~Hiện tại: 7/17 task Done · còn 10 task · 7 Done thiếu ngày												~~
+
+~~Đường theo ngày gồm 7 task ước tính (0 theo nhật ký giờ, 7 theo deadline).												~~
+
+~~Phạm vi (task)	17	Done hiện tại	7	Giờ dự kiến	128	Done thiếu ngày	7					~~
+
+~~										S4-WBS05		~~
+
+~~										S4-WBS14		~~
+
+~~Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	17	2	4	13	10.93			6.07				~~
+
+~~Sat Oct 31 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	4	13	9.71			7.29				~~
+
+~~Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	4	13	8.5			8.5				~~
+
+~~Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	4	13	7.29			9.71				~~
+
+~~Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	4	13	6.07			10.93				~~
+
+~~Wed Nov 04 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	4	13	4.86			12.14				~~
+
+~~Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	17	2	6	11	3.64			13.36				~~
+
+~~Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	7	10	2.43			14.57				~~
+
+~~Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	7	10	1.21			15.79				~~
+
+~~Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	7	10	0			17				~~
+
+~~Hiện tại	17		7	10								~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	69	57	0.8260869565217391	342	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	66	10	0.15151515151515152	258	Hybrid B2, Copilot B3, kiểm chứng, bảo mật và chạy đánh giá cuối.								~~
+
+~~Chọn một edge truy ra được nguồn gốc và phiên bản của nó.	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	7	1	0.14285714285714285	Cần xác nhận	52		Sprint 4 Backlog~~
+
+~~Có danh sách ca và bằng chứng, không chỉ báo một điểm trung bình.	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	2	1	0.5	Đang làm	12		Sprint 4 Backlog~~
+
+~~Task đã hoàn thành	113		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.5678391959798995		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~Chọn một edge truy ra được nguồn gốc và phiên bản của nó.	Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	7	1	0.14285714285714285	Cần xác nhận	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~Có danh sách ca và bằng chứng, không chỉ báo một điểm trung bình.	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	2	1	0.5	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-11-16 10:47 - SUA NOI DUNG
 
 - **Người đăng:** dieuhuyentran1010@gmail.com
