@@ -1,5 +1,25 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-16 11:27 - SUA NOI DUNG
+
+- **Người đăng:** hophamdangnhandz123@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-16 11:27
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS13.2	Đánh giá router và fallback trên bộ câu riêng	Admin, Watchlist và nghiệm thu	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	Có kết quả hồi quy và demo. Admin quản lý được quyền truy cập. Người dùng theo dõi được doanh nghiệp quan tâm và xem cập nhật có nguồn.	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3	Cao	Chưa bắt đầu	S5-G09	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Ind...**
+
+🟢 **	Sprint 5	S5-WBS09.1	S5-G07	2	Kế thừa công ty, kỳ và chủ đề giữa các lượt	Nhân	Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng phạm vi hội thoại hiện tại, ưu tiên công ty hoặc kỳ mới nếu người dùng thay đổi.	Câu nối tiếp giữ đúng phạm vi và chuyển phạm vi khi được yêu cầu.	S5-WBS05.1															**
+
+🟢 **	Sprint 5	S5-WBS13.2	S5-G09	2	Đánh giá router và fallback trên bộ câu riêng	Nhân	Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3															**
+
+~~	S5-WBS13.2	Đánh giá router và fallback trên bộ câu riêng	Admin, Watchlist và nghiệm thu	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	Có kết quả hồi quy và demo. Admin quản lý được quyền truy cập. Người dùng theo dõi được doanh nghiệp quan tâm và xem cập nhật có nguồn.	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3	Cao	Chưa bắt đầu	S5-G09	FinMind	5	3			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochi...~~
+
+~~	Sprint 5	S5-WBS09.1	S5-G07	2	Kế thừa công ty, kỳ và chủ đề giữa các lượt		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng phạm vi hội thoại hiện tại, ưu tiên công ty hoặc kỳ mới nếu người dùng thay đổi.	Câu nối tiếp giữ đúng phạm vi và chuyển phạm vi khi được yêu cầu.	S5-WBS05.1															~~
+
+~~	Sprint 5	S5-WBS13.2	S5-G09	2	Đánh giá router và fallback trên bộ câu riêng		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3															~~
+
 ## 2026-11-16 11:07 - SUA NOI DUNG
 
 - **Người đăng:** minhquan9125@gmail.com
