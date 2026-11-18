@@ -1,5 +1,21 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-18 09:17 - SUA NOI DUNG
+
+- **Người đăng:** dieuhuyentran1010@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-18 09:17
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS10.4	Kiểm thử quy tắc chấm điểm	Nhận định xu hướng doanh nghiệp	Thử cùng tăng, cùng giảm, trái chiều và thiếu kỳ.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Mỗi nhãn giải thích được bằng số liệu đầu vào.	S5-WBS10.3	Cao	Chưa bắt đầu	S5-G06	FinMind	5	2		huyền 	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	Sprint 5	S5-WBS10.4	S5-G06	2	Kiểm thử quy tắc chấm điểm	huyền 	Chưa bắt đầu	2		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thử cùng tăng, cùng giảm, trái chiều và thiếu kỳ.	Mỗi nhãn giải thích được bằng số liệu đầu vào.	S5-WBS10.3															**
+
+~~	S5-WBS10.4	Kiểm thử quy tắc chấm điểm	Nhận định xu hướng doanh nghiệp	Thử cùng tăng, cùng giảm, trái chiều và thiếu kỳ.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Mỗi nhãn giải thích được bằng số liệu đầu vào.	S5-WBS10.3	Cao	Chưa bắt đầu	S5-G06	FinMind	5	2		Thái Quốc Hưng	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	Sprint 5	S5-WBS10.4	S5-G06	2	Kiểm thử quy tắc chấm điểm	Thái Quốc Hưng	Chưa bắt đầu	2		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thử cùng tăng, cùng giảm, trái chiều và thiếu kỳ.	Mỗi nhãn giải thích được bằng số liệu đầu vào.	S5-WBS10.3															~~
+
 ## 2026-11-18 08:52 - SUA NOI DUNG
 
 - **Người đăng:** dieuhuyentran1010@gmail.com
