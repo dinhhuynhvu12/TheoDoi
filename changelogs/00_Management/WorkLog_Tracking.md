@@ -1,5 +1,21 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-18 14:52 - SUA NOI DUNG
+
+- **Người đăng:** minhquan9125@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-18 14:52
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS06.2	Kiểm tra refresh thất bại và chống gửi trùng	Refresh token cho Chat	Thử nhiều request 401, refresh hết hạn và gửi lại tin nhắn.	Chat tiếp tục sau refresh hợp lệ, xử lý phiên hết hạn và tránh gửi trùng.	Không tạo hai tin. Khi refresh hết hạn, yêu cầu đăng nhập lại.	S5-WBS06.1	Vừa	Cần xác nhận	S5-G04	FinMind	5	3		Nguyễn Minh Quân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	Sprint 5	S5-WBS06.2	S5-G04	1	Kiểm tra refresh thất bại và chống gửi trùng	Nguyễn Minh Quân	Cần xác nhận	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử nhiều request 401, refresh hết hạn và gửi lại tin nhắn.	Không tạo hai tin. Khi refresh hết hạn, yêu cầu đăng nhập lại.	S5-WBS06.1															**
+
+~~	S5-WBS06.2	Kiểm tra refresh thất bại và chống gửi trùng	Refresh token cho Chat	Thử nhiều request 401, refresh hết hạn và gửi lại tin nhắn.	Chat tiếp tục sau refresh hợp lệ, xử lý phiên hết hạn và tránh gửi trùng.	Không tạo hai tin. Khi refresh hết hạn, yêu cầu đăng nhập lại.	S5-WBS06.1	Vừa	Chưa bắt đầu	S5-G04	FinMind	5	3		Nguyễn Minh Quân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	Sprint 5	S5-WBS06.2	S5-G04	1	Kiểm tra refresh thất bại và chống gửi trùng	Nguyễn Minh Quân	Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử nhiều request 401, refresh hết hạn và gửi lại tin nhắn.	Không tạo hai tin. Khi refresh hết hạn, yêu cầu đăng nhập lại.	S5-WBS06.1															~~
+
 ## 2026-11-18 09:17 - SUA NOI DUNG
 
 - **Người đăng:** dieuhuyentran1010@gmail.com
