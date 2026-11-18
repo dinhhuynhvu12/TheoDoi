@@ -1,5 +1,203 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-18 20:42 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-18 20:42
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS05.1	Nối router vào luồng xử lý tin nhắn Web Chat	Web Chat tích hợp Neo4j	Gọi router trong backend khi Web Chat gửi tin và ghi trace. Có thể chuẩn bị tích hợp bằng mẫu.	Web Chat gọi router, lấy quan hệ đã duyệt và nguồn. Phân biệt graph rỗng với lỗi kết nối.	Trace xác nhận Web Chat gọi router và chọn nhánh.	S5-WBS04.2	Cao	Đã hoàn thành	S5-G03	FinMind	5	3		Thái Quốc Hưng	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS07.2	Nối AI bên thứ ba vào bước phân loại	Fallback phân loại bằng AI	Gọi AI khi cần, giới hạn thời gian, xác thực nhãn và chuyển kết quả về router FinMind. Chuẩn bị bằng phản hồi mẫu.	Chỉ gọi fallback khi cần. Kiểm tra nhãn, ghi trace và hỏi lại khi không phân loại được.	Nhãn hợp lệ tiếp tục truy xuất trong FinMind. Trace ghi lần gọi.	S5-WBS07.1	Cao	Đã hoàn thành	S5-G05	FinMind	5	3	3	Thái Quốc Hưng	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indoc...**
+
+🟢 **	S5-WBS08.1	Chuẩn bị chuỗi giá theo mã doanh nghiệp	Nhận định xu hướng doanh nghiệp	Chốt khoảng giá, lấy ngày đầu/cuối, số phiên và nguồn theo mã.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Có chuỗi giá mẫu và mức biến động truy được nguồn.	Dữ liệu giá hiện có	Cao	Đã hoàn thành	S5-G06	FinMind	5	3	5	Thái Quốc Hưng	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS08.3	Chuẩn hóa đầu vào cho mô hình xu hướng	Nhận định xu hướng doanh nghiệp	Ghép mã, chuẩn hóa đơn vị và chọn kỳ so sánh tương đương. Đánh dấu thiếu dữ liệu.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Có đầu vào theo doanh nghiệp, kỳ, đơn vị và trạng thái đủ dữ liệu.	S5-WBS08.1, S5-WBS08.2	Cao	Đã hoàn thành	S5-G06	FinMind	5	3	6	Thái Quốc Hưng	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indoc...**
+
+🟢 **	S5-WBS10.1	Tính nhóm tín hiệu giá	Nhận định xu hướng doanh nghiệp	Tính biến động theo khoảng đã chốt và đánh dấu thiếu phiên hoặc thiếu giá.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Có tín hiệu giá và dữ liệu dùng để tính.	S5-WBS08.1, S5-WBS08.3	Cao	Đã hoàn thành	S5-G06	FinMind	5	3	6	Thái Quốc Hưng	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS11.1	Nối ý định xu hướng với mô hình nhận định	Nhận định xu hướng doanh nghiệp	Khi nhận diện câu hỏi xu hướng, gọi mô hình với đúng mã và phạm vi. Chuẩn bị bằng kết quả mẫu trước.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Trace xác nhận Chat gọi mô hình đúng đầu vào.	S5-WBS04.2, S5-WBS05.1, S5-WBS10.3 để nghiệm thu thật	Cao	Đã hoàn thành	S5-G06	FinMind	5	3	3	Thái Quốc Hưng	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov ...**
+
+🟢 **	S5-WBS11.2	Hiển thị nhận định xu hướng trong Chat	Nhận định xu hướng doanh nghiệp	Tách diễn biến giá và tình hình tài chính, ghi kỳ, chỉ tiêu, nguồn và phần còn thiếu.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Chat đưa nhận định đúng công ty, kỳ và có nguồn kiểm tra được.	S5-WBS11.1, S5-WBS10.3	Cao	Đã hoàn thành	S5-G06	FinMind	5	4	4	Thái Quốc Hưng	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indoc...**
+
+🟢 **	S5-WBS12.1	Định dạng câu trả lời theo yêu cầu	Tối ưu câu trả lời và bằng chứng	Dùng danh sách cho liệt kê, bảng cho so sánh và tóm tắt cho tổng quan.	Định dạng đúng ý định, gắn nguồn đúng nhận định và xử lý khi một nhánh thiếu kết quả.	Câu trả lời có đúng cấu trúc người dùng yêu cầu.	S5-WBS09.2, S5-WBS09.3 cho ca nối tiếp	Cao	Đã hoàn thành	S5-G08	FinMind	5	3	2	Thái Quốc Hưng	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **								5	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	120	29	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 6h.												**
+
+🟢 **	Số task	40	Giờ dự kiến	120	Tổng giờ thực tế đã ghi	29																							**
+
+🟢 **	Sprint 5	S5-WBS05.1	S5-G03	1	Nối router vào luồng xử lý tin nhắn Web Chat	Thái Quốc Hưng	Đã hoàn thành	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Gọi router trong backend khi Web Chat gửi tin và ghi trace. Có thể chuẩn bị tích hợp bằng mẫu.	Trace xác nhận Web Chat gọi router và chọn nhánh.	S5-WBS04.2															**
+
+🟢 **	Sprint 5	S5-WBS07.2	S5-G05	1	Nối AI bên thứ ba vào bước phân loại	Thái Quốc Hưng	Đã hoàn thành	3	3	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Gọi AI khi cần, giới hạn thời gian, xác thực nhãn và chuyển kết quả về router FinMind. Chuẩn bị bằng phản hồi mẫu.	Nhãn hợp lệ tiếp tục truy xuất trong FinMind. Trace ghi lần gọi.	S5-WBS07.1		3													**
+
+🟢 **	Sprint 5	S5-WBS08.1	S5-G06	1	Chuẩn bị chuỗi giá theo mã doanh nghiệp	Thái Quốc Hưng	Đã hoàn thành	3	5	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chốt khoảng giá, lấy ngày đầu/cuối, số phiên và nguồn theo mã.	Có chuỗi giá mẫu và mức biến động truy được nguồn.	Dữ liệu giá hiện có			3		2										**
+
+🟢 **	Sprint 5	S5-WBS08.3	S5-G06	1	Chuẩn hóa đầu vào cho mô hình xu hướng	Thái Quốc Hưng	Đã hoàn thành	3	6	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ghép mã, chuẩn hóa đơn vị và chọn kỳ so sánh tương đương. Đánh dấu thiếu dữ liệu.	Có đầu vào theo doanh nghiệp, kỳ, đơn vị và trạng thái đủ dữ liệu.	S5-WBS08.1, S5-WBS08.2				3	1	2									**
+
+🟢 **	Sprint 5	S5-WBS10.1	S5-G06	2	Tính nhóm tín hiệu giá	Thái Quốc Hưng	Đã hoàn thành	3	6	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tính biến động theo khoảng đã chốt và đánh dấu thiếu phiên hoặc thiếu giá.	Có tín hiệu giá và dữ liệu dùng để tính.	S5-WBS08.1, S5-WBS08.3									3				3		**
+
+🟢 **	Sprint 5	S5-WBS11.1	S5-G06	2	Nối ý định xu hướng với mô hình nhận định	Thái Quốc Hưng	Đã hoàn thành	3	3	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Khi nhận diện câu hỏi xu hướng, gọi mô hình với đúng mã và phạm vi. Chuẩn bị bằng kết quả mẫu trước.	Trace xác nhận Chat gọi mô hình đúng đầu vào.	S5-WBS04.2, S5-WBS05.1, S5-WBS10.3 để nghiệm thu thật										3					**
+
+🟢 **	Sprint 5	S5-WBS11.2	S5-G06	2	Hiển thị nhận định xu hướng trong Chat	Thái Quốc Hưng	Đã hoàn thành	4	4	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tách diễn biến giá và tình hình tài chính, ghi kỳ, chỉ tiêu, nguồn và phần còn thiếu.	Chat đưa nhận định đúng công ty, kỳ và có nguồn kiểm tra được.	S5-WBS11.1, S5-WBS10.3											3	1			**
+
+🟢 **	Sprint 5	S5-WBS12.1	S5-G08	2	Định dạng câu trả lời theo yêu cầu	Thái Quốc Hưng	Đã hoàn thành	3	2	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng danh sách cho liệt kê, bảng cho so sánh và tóm tắt cho tổng quan.	Câu trả lời có đúng cấu trúc người dùng yêu cầu.	S5-WBS09.2, S5-WBS09.3 cho ca nối tiếp												2			**
+
+🟢 **					Tổng giờ theo task			120	29																				**
+
+🟢 **					Giờ đã ghi theo ngày				29							3	3	3	3	2	0	0	3	3	3	3	3	0	0**
+
+🟢 **Hiện tại: 18/40 task Done · còn 22 task · 18 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 17 task ước tính (7 theo nhật ký giờ, 10 theo deadline).												**
+
+🟢 **Phạm vi (task)	40	Done hiện tại	18	Giờ dự kiến	120	Done thiếu ngày	18					**
+
+🟢 **Giờ thực tế	29	Bắt đầu	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	1	39	37.14	3	3	2.86		S5-WBS09.1		**
+
+🟢 **Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	1	39	34.29	3	6	5.71		S5-WBS09.2		**
+
+🟢 **Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	1	39	31.43	3	9	8.57		S5-WBS09.3		**
+
+🟢 **Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	2	38	28.57	3	12	11.43		S5-WBS13.2		**
+
+🟢 **Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	3	37	25.71	2	14	14.29		S5-WBS05.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	3	37	22.86		14	17.14		S5-WBS07.2	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	10	13	27	20		14	20		S5-WBS08.1	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	13	27	17.14	3	17	22.86		S5-WBS08.3	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	14	26	14.29	3	20	25.71		S5-WBS05.2		**
+
+🟢 **Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	14	26	11.43	3	23	28.57		S5-WBS10.1	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40				8.57			31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	40				5.71			34.29		S5-WBS11.2	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Nov 21 2026 07:00:00 GMT+0700 (Indochina Time)	40				2.86			37.14		S5-WBS12.1	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Hiện tại	40		18	22						S5-WBS10.3		**
+
+🟢 **Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	66	22	0.3333333333333333	258	Hybrid B2, Copilot B3, kiểm chứng, bảo mật và chạy đánh giá cuối.								**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G03	5	Web Chat tích hợp Neo4j	Web Chat gọi router, lấy quan hệ đã duyệt và nguồn. Phân biệt graph rỗng với lỗi kết nối.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	3	1	0.3333333333333333	Đang test	8		Sprint 5 Backlog**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G05	5	Fallback phân loại bằng AI	Chỉ gọi fallback khi cần. Kiểm tra nhãn, ghi trace và hỏi lại khi không phân loại được.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	3	3	1	Đã hoàn thành	7	3	Sprint 5 Backlog**
+
+🟢 **Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G06	5	Nhận định xu hướng doanh nghiệp	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	9	5	0.5555555555555556	Đang làm	29	24	Sprint 5 Backlog**
+
+🟢 **Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G08	5	Tối ưu câu trả lời và bằng chứng	Định dạng đúng ý định, gắn nguồn đúng nhận định và xử lý khi một nhánh thiếu kết quả.	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	3	1	0.3333333333333333	Đang làm	10	2	Sprint 5 Backlog**
+
+🟢 **Task đã hoàn thành	126		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.6331658291457286		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **S5-WBS05.3: Kiểm thử graph thật, graph rỗng và lỗi kết nối	Web Chat gọi router, lấy quan hệ đã duyệt và nguồn. Phân biệt graph rỗng với lỗi kết nối.	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	3	1	0.3333333333333333	Đang test	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **S5-WBS07.3: Kiểm thử fallback và trường hợp cả hai bước thất bại	Chỉ gọi fallback khi cần. Kiểm tra nhãn, ghi trace và hỏi lại khi không phân loại được.	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	3	3	1	Đã hoàn thành	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S5-WBS05.1	Nối router vào luồng xử lý tin nhắn Web Chat	Web Chat tích hợp Neo4j	Gọi router trong backend khi Web Chat gửi tin và ghi trace. Có thể chuẩn bị tích hợp bằng mẫu.	Web Chat gọi router, lấy quan hệ đã duyệt và nguồn. Phân biệt graph rỗng với lỗi kết nối.	Trace xác nhận Web Chat gọi router và chọn nhánh.	S5-WBS04.2	Cao	Chưa bắt đầu	S5-G03	FinMind	5	3		Thái Quốc Hưng	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS07.2	Nối AI bên thứ ba vào bước phân loại	Fallback phân loại bằng AI	Gọi AI khi cần, giới hạn thời gian, xác thực nhãn và chuyển kết quả về router FinMind. Chuẩn bị bằng phản hồi mẫu.	Chỉ gọi fallback khi cần. Kiểm tra nhãn, ghi trace và hỏi lại khi không phân loại được.	Nhãn hợp lệ tiếp tục truy xuất trong FinMind. Trace ghi lần gọi.	S5-WBS07.1	Cao	Chưa bắt đầu	S5-G05	FinMind	5	3		Thái Quốc Hưng	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochi...~~
+
+~~	S5-WBS08.1	Chuẩn bị chuỗi giá theo mã doanh nghiệp	Nhận định xu hướng doanh nghiệp	Chốt khoảng giá, lấy ngày đầu/cuối, số phiên và nguồn theo mã.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Có chuỗi giá mẫu và mức biến động truy được nguồn.	Dữ liệu giá hiện có	Cao	Đã hoàn thành	S5-G06	FinMind	5	3		Thái Quốc Hưng	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS08.3	Chuẩn hóa đầu vào cho mô hình xu hướng	Nhận định xu hướng doanh nghiệp	Ghép mã, chuẩn hóa đơn vị và chọn kỳ so sánh tương đương. Đánh dấu thiếu dữ liệu.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Có đầu vào theo doanh nghiệp, kỳ, đơn vị và trạng thái đủ dữ liệu.	S5-WBS08.1, S5-WBS08.2	Cao	Đã hoàn thành	S5-G06	FinMind	5	3		Thái Quốc Hưng	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indoch...~~
+
+~~	S5-WBS10.1	Tính nhóm tín hiệu giá	Nhận định xu hướng doanh nghiệp	Tính biến động theo khoảng đã chốt và đánh dấu thiếu phiên hoặc thiếu giá.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Có tín hiệu giá và dữ liệu dùng để tính.	S5-WBS08.1, S5-WBS08.3	Cao	Đã hoàn thành	S5-G06	FinMind	5	3		Thái Quốc Hưng	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS11.1	Nối ý định xu hướng với mô hình nhận định	Nhận định xu hướng doanh nghiệp	Khi nhận diện câu hỏi xu hướng, gọi mô hình với đúng mã và phạm vi. Chuẩn bị bằng kết quả mẫu trước.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Trace xác nhận Chat gọi mô hình đúng đầu vào.	S5-WBS04.2, S5-WBS05.1, S5-WBS10.3 để nghiệm thu thật	Cao	Đã hoàn thành	S5-G06	FinMind	5	3		Thái Quốc Hưng	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 2...~~
+
+~~	S5-WBS11.2	Hiển thị nhận định xu hướng trong Chat	Nhận định xu hướng doanh nghiệp	Tách diễn biến giá và tình hình tài chính, ghi kỳ, chỉ tiêu, nguồn và phần còn thiếu.	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Chat đưa nhận định đúng công ty, kỳ và có nguồn kiểm tra được.	S5-WBS11.1, S5-WBS10.3	Cao	Đã hoàn thành	S5-G06	FinMind	5	4		Thái Quốc Hưng	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indoch...~~
+
+~~	S5-WBS12.1	Định dạng câu trả lời theo yêu cầu	Tối ưu câu trả lời và bằng chứng	Dùng danh sách cho liệt kê, bảng cho so sánh và tóm tắt cho tổng quan.	Định dạng đúng ý định, gắn nguồn đúng nhận định và xử lý khi một nhánh thiếu kết quả.	Câu trả lời có đúng cấu trúc người dùng yêu cầu.	S5-WBS09.2, S5-WBS09.3 cho ca nối tiếp	Cao	Đã hoàn thành	S5-G08	FinMind	5	3		Thái Quốc Hưng	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~								5	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	120	0	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~	Số task	40	Giờ dự kiến	120	Tổng giờ thực tế đã ghi																								~~
+
+~~	Sprint 5	S5-WBS05.1	S5-G03	1	Nối router vào luồng xử lý tin nhắn Web Chat	Thái Quốc Hưng	Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Gọi router trong backend khi Web Chat gửi tin và ghi trace. Có thể chuẩn bị tích hợp bằng mẫu.	Trace xác nhận Web Chat gọi router và chọn nhánh.	S5-WBS04.2															~~
+
+~~	Sprint 5	S5-WBS07.2	S5-G05	1	Nối AI bên thứ ba vào bước phân loại	Thái Quốc Hưng	Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Gọi AI khi cần, giới hạn thời gian, xác thực nhãn và chuyển kết quả về router FinMind. Chuẩn bị bằng phản hồi mẫu.	Nhãn hợp lệ tiếp tục truy xuất trong FinMind. Trace ghi lần gọi.	S5-WBS07.1															~~
+
+~~	Sprint 5	S5-WBS08.1	S5-G06	1	Chuẩn bị chuỗi giá theo mã doanh nghiệp	Thái Quốc Hưng	Đã hoàn thành	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chốt khoảng giá, lấy ngày đầu/cuối, số phiên và nguồn theo mã.	Có chuỗi giá mẫu và mức biến động truy được nguồn.	Dữ liệu giá hiện có															~~
+
+~~	Sprint 5	S5-WBS08.3	S5-G06	1	Chuẩn hóa đầu vào cho mô hình xu hướng	Thái Quốc Hưng	Đã hoàn thành	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ghép mã, chuẩn hóa đơn vị và chọn kỳ so sánh tương đương. Đánh dấu thiếu dữ liệu.	Có đầu vào theo doanh nghiệp, kỳ, đơn vị và trạng thái đủ dữ liệu.	S5-WBS08.1, S5-WBS08.2															~~
+
+~~	Sprint 5	S5-WBS10.1	S5-G06	2	Tính nhóm tín hiệu giá	Thái Quốc Hưng	Đã hoàn thành	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tính biến động theo khoảng đã chốt và đánh dấu thiếu phiên hoặc thiếu giá.	Có tín hiệu giá và dữ liệu dùng để tính.	S5-WBS08.1, S5-WBS08.3															~~
+
+~~	Sprint 5	S5-WBS11.1	S5-G06	2	Nối ý định xu hướng với mô hình nhận định	Thái Quốc Hưng	Đã hoàn thành	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Khi nhận diện câu hỏi xu hướng, gọi mô hình với đúng mã và phạm vi. Chuẩn bị bằng kết quả mẫu trước.	Trace xác nhận Chat gọi mô hình đúng đầu vào.	S5-WBS04.2, S5-WBS05.1, S5-WBS10.3 để nghiệm thu thật															~~
+
+~~	Sprint 5	S5-WBS11.2	S5-G06	2	Hiển thị nhận định xu hướng trong Chat	Thái Quốc Hưng	Đã hoàn thành	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tách diễn biến giá và tình hình tài chính, ghi kỳ, chỉ tiêu, nguồn và phần còn thiếu.	Chat đưa nhận định đúng công ty, kỳ và có nguồn kiểm tra được.	S5-WBS11.1, S5-WBS10.3															~~
+
+~~	Sprint 5	S5-WBS12.1	S5-G08	2	Định dạng câu trả lời theo yêu cầu	Thái Quốc Hưng	Đã hoàn thành	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng danh sách cho liệt kê, bảng cho so sánh và tóm tắt cho tổng quan.	Câu trả lời có đúng cấu trúc người dùng yêu cầu.	S5-WBS09.2, S5-WBS09.3 cho ca nối tiếp															~~
+
+~~					Tổng giờ theo task			120	0																				~~
+
+~~					Giờ đã ghi theo ngày				0							0	0	0	0	0	0	0	0	0	0	0	0	0	0~~
+
+~~Hiện tại: 16/40 task Done · còn 24 task · 16 Done thiếu ngày												~~
+
+~~Đường theo ngày gồm 15 task ước tính (0 theo nhật ký giờ, 15 theo deadline).												~~
+
+~~Phạm vi (task)	40	Done hiện tại	16	Giờ dự kiến	120	Done thiếu ngày	16					~~
+
+~~Giờ thực tế		Bắt đầu	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					~~
+
+~~Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	37.14			2.86		S5-WBS09.1		~~
+
+~~Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	34.29			5.71		S5-WBS09.2		~~
+
+~~Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	31.43			8.57		S5-WBS09.3		~~
+
+~~Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	28.57			11.43		S5-WBS13.2		~~
+
+~~Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	25.71			14.29		S5-WBS05.1		~~
+
+~~Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	0	40	22.86			17.14		S5-WBS07.2		~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	11	11	29	20			20		S5-WBS08.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	11	29	17.14			22.86		S5-WBS08.3	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	11	29	14.29			25.71		S5-WBS05.2		~~
+
+~~Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	11	29	11.43			28.57		S5-WBS10.1		Ước tính: deadline~~
+
+~~Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40				8.57			31.43		S5-WBS11.1		Ước tính: deadline~~
+
+~~Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	40				5.71			34.29		S5-WBS11.2		Ước tính: deadline~~
+
+~~Sat Nov 21 2026 07:00:00 GMT+0700 (Indochina Time)	40				2.86			37.14		S5-WBS12.1		Ước tính: deadline~~
+
+~~Hiện tại	40		16	24						S5-WBS10.3		~~
+
+~~Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	66	20	0.30303030303030304	258	Hybrid B2, Copilot B3, kiểm chứng, bảo mật và chạy đánh giá cuối.								~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G03	5	Web Chat tích hợp Neo4j	Web Chat gọi router, lấy quan hệ đã duyệt và nguồn. Phân biệt graph rỗng với lỗi kết nối.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	3	0	0	Đang test	8		Sprint 5 Backlog~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G05	5	Fallback phân loại bằng AI	Chỉ gọi fallback khi cần. Kiểm tra nhãn, ghi trace và hỏi lại khi không phân loại được.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	3	2	0.6666666666666666	Đang làm	7		Sprint 5 Backlog~~
+
+~~Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G06	5	Nhận định xu hướng doanh nghiệp	Nhận định giải thích được từ giá và BCTC, có kỳ, nguồn và trạng thái dữ liệu thiếu hoặc trái chiều.	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	9	5	0.5555555555555556	Đang làm	29		Sprint 5 Backlog~~
+
+~~Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	S5-G08	5	Tối ưu câu trả lời và bằng chứng	Định dạng đúng ý định, gắn nguồn đúng nhận định và xử lý khi một nhánh thiếu kết quả.	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	3	1	0.3333333333333333	Đang làm	10		Sprint 5 Backlog~~
+
+~~Task đã hoàn thành	124		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.6231155778894473		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~S5-WBS05.3: Kiểm thử graph thật, graph rỗng và lỗi kết nối	Web Chat gọi router, lấy quan hệ đã duyệt và nguồn. Phân biệt graph rỗng với lỗi kết nối.	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	3	0	0	Đang test	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~S5-WBS07.3: Kiểm thử fallback và trường hợp cả hai bước thất bại	Chỉ gọi fallback khi cần. Kiểm tra nhãn, ghi trace và hỏi lại khi không phân loại được.	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	3	2	0.6666666666666666	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-11-18 20:37 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
