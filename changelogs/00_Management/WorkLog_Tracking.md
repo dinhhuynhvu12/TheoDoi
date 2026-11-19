@@ -1,5 +1,157 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-19 10:12 - SUA NOI DUNG
+
+- **Người đăng:** hophamdangnhandz123@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-19 10:12
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS01.2	Tái hiện lỗi hội thoại và hết hạn token	#REF!	Chạy hội thoại nhiều lượt và gửi tin sau khi access token hết hạn.	#REF!	Có hai ca tái hiện cùng kết quả thực tế và kỳ vọng.	Web Chat hiện có	Cao	Đã hoàn thành	S5-G01	FinMind	5	2	2	Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS03.1	Chốt nhãn ý định và ranh giới giữa các nhãn	#REF!	Định nghĩa nhãn số liệu, BCTC/BCTN, News, chức vụ, quan hệ, xu hướng và kết hợp.	#REF!	Có bảng nhãn và ví dụ phân biệt các ý định dễ nhầm.	—	Cao	Đã hoàn thành	S5-G02	FinMind	5	2	3	Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS03.2	Soạn cụm từ mẫu và bộ câu kiểm thử riêng	#REF!	Viết mẫu có dấu, không dấu, viết tắt và cặp dễ nhầm. Tách câu kiểm thử khỏi thư viện dùng để đối chiếu.	#REF!	Có bộ mẫu gắn nhãn và bộ test riêng, gồm hỏi chức vụ so với hỏi tin bổ nhiệm.	S5-WBS03.1	Cao	Đã hoàn thành	S5-G02	FinMind	5	4	4	Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS03.3	Vector hóa và lưu phiên bản thư viện	#REF!	Tạo vector cho các câu mẫu và lưu nhãn, phiên bản thư viện và embedding.	#REF!	Có dữ liệu vector và thông tin phiên bản để tái tạo.	S5-WBS03.2	Cao	Đã hoàn thành	S5-G02	FinMind	5	2	3	Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS04.1	Đối chiếu vector câu hỏi với thư viện	#REF!	Dùng cùng mô hình embedding để tính độ tương đồng và lấy nhóm ý định gần nhất.	#REF!	Trả được các nhóm gần nhất và điểm tương đồng.	S5-WBS03.3	Cao	Đã hoàn thành	S5-G02	FinMind	5	3	3	Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **								5	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	120	78.5	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **	Số task	40	Giờ dự kiến	120	Tổng giờ thực tế đã ghi	78.5																							**
+
+🟢 **	Sprint 5	S5-WBS02.2	S5-G01	1	Chuẩn hóa loại tài liệu và bộ lọc BCTN	Nguyễn Minh Quân	Đã hoàn thành	5		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ánh xạ BCTN, báo cáo thường niên và annual report về cùng loại. Truyền mã công ty và kỳ xuống tìm kiếm.	Ba cách gọi đi cùng bộ lọc và giữ đúng mã công ty, kỳ.	S5-WBS02.1						4									**
+
+🟢 **	Sprint 5	S5-WBS01.2	S5-G01	1	Tái hiện lỗi hội thoại và hết hạn token	Nhân	Đã hoàn thành	2	2	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy hội thoại nhiều lượt và gửi tin sau khi access token hết hạn.	Có hai ca tái hiện cùng kết quả thực tế và kỳ vọng.	Web Chat hiện có		2													**
+
+🟢 **	Sprint 5	S5-WBS03.1	S5-G02	1	Chốt nhãn ý định và ranh giới giữa các nhãn	Nhân	Đã hoàn thành	2	3	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Định nghĩa nhãn số liệu, BCTC/BCTN, News, chức vụ, quan hệ, xu hướng và kết hợp.	Có bảng nhãn và ví dụ phân biệt các ý định dễ nhầm.	—		1	2												**
+
+🟢 **	Sprint 5	S5-WBS03.2	S5-G02	1	Soạn cụm từ mẫu và bộ câu kiểm thử riêng	Nhân	Đã hoàn thành	4	4	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Viết mẫu có dấu, không dấu, viết tắt và cặp dễ nhầm. Tách câu kiểm thử khỏi thư viện dùng để đối chiếu.	Có bộ mẫu gắn nhãn và bộ test riêng, gồm hỏi chức vụ so với hỏi tin bổ nhiệm.	S5-WBS03.1			1	3											**
+
+🟢 **	Sprint 5	S5-WBS03.3	S5-G02	1	Vector hóa và lưu phiên bản thư viện	Nhân	Đã hoàn thành	2	3	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo vector cho các câu mẫu và lưu nhãn, phiên bản thư viện và embedding.	Có dữ liệu vector và thông tin phiên bản để tái tạo.	S5-WBS03.2					3										**
+
+🟢 **	Sprint 5	S5-WBS04.1	S5-G02	1	Đối chiếu vector câu hỏi với thư viện	Nhân	Đã hoàn thành	3	3	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng cùng mô hình embedding để tính độ tương đồng và lấy nhóm ý định gần nhất.	Trả được các nhóm gần nhất và điểm tương đồng.	S5-WBS03.3						3									**
+
+🟢 **					Tổng giờ theo task			120	78.5																				**
+
+🟢 **					Giờ đã ghi theo ngày				69							9	9	9	9	12	0	0	6	6	3	3	3	0	0**
+
+🟢 **					Chênh kế hoạch task − kế hoạch ngày: -30 h. Chênh giờ thực tế theo task − giờ ghi theo ngày: 9,5 h.																								**
+
+🟢 **Đường theo ngày gồm 20 task ước tính (15 theo nhật ký giờ, 5 theo deadline).												**
+
+🟢 **Giờ thực tế	78.5	Bắt đầu	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 12,5h.												**
+
+🟢 **										S5-WBS02.2	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S5-WBS01.2	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S5-WBS03.1	Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Ưu tiên ngày thực tế ở cột P, rồi ngày cuối có ghi giờ, rồi deadline. Xem nguồn từng task ở cột K–M. Hàng Hiện tại lấy trạng thái từ backlog.										S5-WBS03.2	Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Ngày	Phạm vi (task)	Done theo ngày\*	Done lũy kế\*	Task còn lại\*	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch		S5-WBS03.3	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	40		0	40	40			0		S5-WBS04.1	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	2	38	37.14	9	9	2.86		S5-WBS09.1		**
+
+🟢 **Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	4	36	34.29	9	18	5.71		S5-WBS09.2		**
+
+🟢 **Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	6	34	31.43	9	27	8.57		S5-WBS09.3		**
+
+🟢 **Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	8	32	28.57	9	36	11.43		S5-WBS13.2		**
+
+🟢 **Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	11	29	25.71	12	48	14.29		S5-WBS05.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	11	29	22.86		48	17.14		S5-WBS07.2	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	5	16	24	20		48	20		S5-WBS08.1	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	16	24	17.14	6	54	22.86		S5-WBS08.3	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	17	23	14.29	6	60	25.71		S5-WBS05.2		**
+
+🟢 **Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	17	23	11.43	3	63	28.57		S5-WBS10.1	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	19	21	8.57	3	66	31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+~~	S5-WBS01.2	Tái hiện lỗi hội thoại và hết hạn token	#REF!	Chạy hội thoại nhiều lượt và gửi tin sau khi access token hết hạn.	#REF!	Có hai ca tái hiện cùng kết quả thực tế và kỳ vọng.	Web Chat hiện có	Cao	Đã hoàn thành	S5-G01	FinMind	5	2		Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS03.1	Chốt nhãn ý định và ranh giới giữa các nhãn	#REF!	Định nghĩa nhãn số liệu, BCTC/BCTN, News, chức vụ, quan hệ, xu hướng và kết hợp.	#REF!	Có bảng nhãn và ví dụ phân biệt các ý định dễ nhầm.	—	Cao	Đã hoàn thành	S5-G02	FinMind	5	2		Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS03.2	Soạn cụm từ mẫu và bộ câu kiểm thử riêng	#REF!	Viết mẫu có dấu, không dấu, viết tắt và cặp dễ nhầm. Tách câu kiểm thử khỏi thư viện dùng để đối chiếu.	#REF!	Có bộ mẫu gắn nhãn và bộ test riêng, gồm hỏi chức vụ so với hỏi tin bổ nhiệm.	S5-WBS03.1	Cao	Đã hoàn thành	S5-G02	FinMind	5	4		Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS03.3	Vector hóa và lưu phiên bản thư viện	#REF!	Tạo vector cho các câu mẫu và lưu nhãn, phiên bản thư viện và embedding.	#REF!	Có dữ liệu vector và thông tin phiên bản để tái tạo.	S5-WBS03.2	Cao	Đã hoàn thành	S5-G02	FinMind	5	2		Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS04.1	Đối chiếu vector câu hỏi với thư viện	#REF!	Dùng cùng mô hình embedding để tính độ tương đồng và lấy nhóm ý định gần nhất.	#REF!	Trả được các nhóm gần nhất và điểm tương đồng.	S5-WBS03.3	Cao	Đã hoàn thành	S5-G02	FinMind	5	3		Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~								5	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	120	63.5	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~	Số task	40	Giờ dự kiến	120	Tổng giờ thực tế đã ghi	63.5																							~~
+
+~~	Sprint 5	S5-WBS02.2	S5-G01	1	Chuẩn hóa loại tài liệu và bộ lọc BCTN	Nguyễn Minh Quân	Đã hoàn thành	5		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ánh xạ BCTN, báo cáo thường niên và annual report về cùng loại. Truyền mã công ty và kỳ xuống tìm kiếm.	Ba cách gọi đi cùng bộ lọc và giữ đúng mã công ty, kỳ.	S5-WBS02.1															~~
+
+~~	Sprint 5	S5-WBS01.2	S5-G01	1	Tái hiện lỗi hội thoại và hết hạn token	Nhân	Đã hoàn thành	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy hội thoại nhiều lượt và gửi tin sau khi access token hết hạn.	Có hai ca tái hiện cùng kết quả thực tế và kỳ vọng.	Web Chat hiện có															~~
+
+~~	Sprint 5	S5-WBS03.1	S5-G02	1	Chốt nhãn ý định và ranh giới giữa các nhãn	Nhân	Đã hoàn thành	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Định nghĩa nhãn số liệu, BCTC/BCTN, News, chức vụ, quan hệ, xu hướng và kết hợp.	Có bảng nhãn và ví dụ phân biệt các ý định dễ nhầm.	—															~~
+
+~~	Sprint 5	S5-WBS03.2	S5-G02	1	Soạn cụm từ mẫu và bộ câu kiểm thử riêng	Nhân	Đã hoàn thành	4		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Viết mẫu có dấu, không dấu, viết tắt và cặp dễ nhầm. Tách câu kiểm thử khỏi thư viện dùng để đối chiếu.	Có bộ mẫu gắn nhãn và bộ test riêng, gồm hỏi chức vụ so với hỏi tin bổ nhiệm.	S5-WBS03.1															~~
+
+~~	Sprint 5	S5-WBS03.3	S5-G02	1	Vector hóa và lưu phiên bản thư viện	Nhân	Đã hoàn thành	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Tạo vector cho các câu mẫu và lưu nhãn, phiên bản thư viện và embedding.	Có dữ liệu vector và thông tin phiên bản để tái tạo.	S5-WBS03.2															~~
+
+~~	Sprint 5	S5-WBS04.1	S5-G02	1	Đối chiếu vector câu hỏi với thư viện	Nhân	Đã hoàn thành	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng cùng mô hình embedding để tính độ tương đồng và lấy nhóm ý định gần nhất.	Trả được các nhóm gần nhất và điểm tương đồng.	S5-WBS03.3															~~
+
+~~					Tổng giờ theo task			120	63.5																				~~
+
+~~					Giờ đã ghi theo ngày				50							6	6	6	6	5	0	0	6	6	3	3	3	0	0~~
+
+~~					Chênh kế hoạch task − kế hoạch ngày: -30 h. Chênh giờ thực tế theo task − giờ ghi theo ngày: 13,5 h.																								~~
+
+~~Đường theo ngày gồm 20 task ước tính (9 theo nhật ký giờ, 11 theo deadline).												~~
+
+~~Giờ thực tế	63.5	Bắt đầu	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					~~
+
+~~Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 16,5h.												~~
+
+~~										S5-WBS02.2	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~										S5-WBS01.2	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~										S5-WBS03.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Ưu tiên ngày thực tế ở cột P, rồi ngày cuối có ghi giờ, rồi deadline. Xem nguồn từng task ở cột K–M. Hàng Hiện tại lấy trạng thái từ backlog.										S5-WBS03.2	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Ngày	Phạm vi (task)	Done theo ngày\*	Done lũy kế\*	Task còn lại\*	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch		S5-WBS03.3	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	40		0	40	40			0		S5-WBS04.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	1	39	37.14	6	6	2.86		S5-WBS09.1		~~
+
+~~Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	2	38	34.29	6	12	5.71		S5-WBS09.2		~~
+
+~~Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	3	37	31.43	6	18	8.57		S5-WBS09.3		~~
+
+~~Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	4	36	28.57	6	24	11.43		S5-WBS13.2		~~
+
+~~Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	5	35	25.71	5	29	14.29		S5-WBS05.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	5	35	22.86		29	17.14		S5-WBS07.2	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	11	16	24	20		29	20		S5-WBS08.1	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	16	24	17.14	6	35	22.86		S5-WBS08.3	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	17	23	14.29	6	41	25.71		S5-WBS05.2		~~
+
+~~Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	17	23	11.43	3	44	28.57		S5-WBS10.1	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	19	21	8.57	3	47	31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
 ## 2026-11-19 10:07 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
