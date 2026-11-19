@@ -1,5 +1,273 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-19 09:47 - SUA NOI DUNG
+
+- **Người đăng:** hophamdangnhandz123@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-19 09:47
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS02	Chốt mô hình embedding và cấu hình	Embedding và pgvector	Bước 1: Dùng vài đoạn văn mẫu để thử mô hình biến chữ thành dãy số (embedding), nhờ đó máy có thể tìm đoạn gần nghĩa. Bước 2: Ghi rõ tên/phiên bản mô hình, số chiều của dãy số và số đoạn xử lý mỗi lần. Bước 3: Lưu cấu hình và một kết quả mẫu để nhóm dùng chung; chưa cần đợi Vũ chia xong tài liệu thật.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Tạo được vector mẫu và lưu cấu hình có phiên bản.	Kế hoạch Sprint 3 đã chố...**
+
+🟢 **	S3-WBS07	Tạo embedding theo lô có báo lỗi	Embedding và pgvector	Bước 1: Cho chương trình nhận nhiều đoạn văn mẫu một lần và tạo vector cho từng đoạn. Bước 2: Nếu một đoạn bị lỗi, ghi rõ mã đoạn và lý do, chỉ thử lại có giới hạn, không làm mất các đoạn thành công. Bước 3: Chạy thử một lô có cả đoạn tốt và đoạn lỗi để chứng minh có thể xử lý lại đúng phần lỗi.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Một mục lỗi trong lô được định danh để chạy lại, mục thành công không xử lý trùng....**
+
+🟢 **	S3-WBS12	Lưu vector và metadata vào pgvector	Embedding và pgvector	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Vector mẫu truy ngược đúng chunk và không trộn corpus version.	Kế hoạch Sprint 3 đã chốt...**
+
+🟢 **	S3-WBS17	Ingest thử corpus vào pgvector	Embedding và pgvector	Bước 1: Lấy một nhóm đoạn thật đã được Vũ gắn nguồn và tạo vector. Bước 2: Nạp vào pgvector, ghi số đoạn thành công, số lỗi và lý do lỗi. Bước 3: Truy vấn lại để đối chiếu số lượng, mã tài liệu, phiên bản; chạy lại không được nhân đôi dữ liệu.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Truy vấn pgvector thấy đúng số chunk hợp lệ và lỗi được lưu để chạy lại.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách t...**
+
+🟢 **	S3-WBS20	Tạo chỉ mục pgvector và đo baseline	Embedding và pgvector	Bước 1: Tạo cách tra cứu vector trong pgvector trên dữ liệu đã nạp. Bước 2: Dùng một bộ câu hỏi tiếng Việt/Anh cố định, đo thời gian và kiểm tra đoạn tìm được. Bước 3: Lưu cách cấu hình và kết quả ban đầu để về sau so sánh; nếu dữ liệu thật chưa sẵn, ghi rõ số đo chỉ là tạm trên mẫu.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Có kết quả baseline, index và truy vấn trả chunk đúng corpus.	Kế hoạch Sprint 3 đã chốt the...**
+
+🟢 **	S3-WBS25	Truy vấn vector có lọc phạm vi	Embedding và pgvector	Bước 1: Thêm bộ lọc để chỉ tìm đoạn của đúng công ty, kỳ, loại tài liệu và phiên bản dữ liệu đang chọn. Bước 2: Trả về một số đoạn phù hợp nhất cùng điểm tương đồng và vị trí nguồn. Bước 3: Thử câu hỏi cố tình chọn sai công ty/kỳ để chắc hệ thống không lấy nhầm nguồn ngoài phạm vi.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Ca lọc sai công ty/kỳ/corpus trả rỗng hoặc đúng phạm vi; contract cho Hưng dùng.	Kế hoạch Sprint 3...**
+
+🟢 **	S3-WBS30	Ghi timing và lỗi retrieval	Embedding và pgvector	Bước 1: Với mỗi lần tìm kiếm vector, ghi thời gian chạy, số đoạn tìm được, điểm của các đoạn và mã lỗi nếu có. Bước 2: Che thông tin nhạy cảm trong lỗi/log. Bước 3: Chạy câu hỏi thành công và câu hỏi lỗi để chắc người kiểm tra có đủ dấu vết tìm nguyên nhân chậm hoặc sai.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Một truy vấn có trace thật đủ phân tích chậm/lỗi; không lộ secret.	Kế hoạch Sprint 3 đã chốt theo 4 người vector...**
+
+🟢 **	S3-WBS34	Kiểm thử E2E vector retrieval	Embedding và pgvector	Bước 1: Chọn một tài liệu sạch và chạy toàn bộ đường đi: Vũ chia đoạn, Nhân tạo/lưu vector, rồi tìm lại đoạn bằng câu hỏi. Bước 2: So số đoạn, mã nguồn, phiên bản và trích dẫn ở từng bước. Bước 3: Chạy lại để kiểm tra không trùng; lỗi nào chưa sửa được phải ghi rõ người phụ trách.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Ca E2E qua hoặc có lỗi kèm owner rõ; không trộn version.	Kế hoạch Sprint 3 đã chốt theo 4 người vect...**
+
+🟢 **5. Cùng bàn giao bộ test, kết quả chạy thật, bảng so sánh B1/B2, báo cáo full-load và giới hạn còn lại. Chỉ hoàn thành task khi cả phần Nhân và Huyền đạt. Tổng 13 giờ công = Nhân 7 giờ + Huyền 6 giờ, không phải 13 giờ mỗi người.	Đánh giá B1/B2, kiểm thử xuyên suốt, nguồn và hồi quy; bàn giao kết quả mẫu/full-load.	Có bộ test và kết quả thật cho VECTOR/GRAPH/BOTH và ba nhóm quan hệ; bảng B1/B2 có chất lượng và thời gian phản hồi; citation đúng nguồn; có kiểm thử lỗi/E2E/hồi quy, báo cáo full-load...**
+
+🟢 **								3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	150	100	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **								4	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	128	96	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	100																							**
+
+🟢 **	Sprint 3	S3-WBS02	S3-G02	1	Chốt mô hình embedding và cấu hình	Hồ Phạm Đăng Nhân	Đã hoàn thành	3	3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng vài đoạn văn mẫu để thử mô hình biến chữ thành dãy số (embedding), nhờ đó máy có thể tìm đoạn gần nghĩa. Bước 2: Ghi rõ tên/phiên bản mô hình, số chiều của dãy số và số đoạn xử lý mỗi lần. Bước 3: Lưu cấu hình và một kết quả mẫu để nhóm dùng chung; chưa cần đợi Vũ chia xong tài liệu th...**
+
+🟢 **	Sprint 3	S3-WBS07	S3-G02	1	Tạo embedding theo lô có báo lỗi	Hồ Phạm Đăng Nhân	Đã hoàn thành	4	4	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cho chương trình nhận nhiều đoạn văn mẫu một lần và tạo vector cho từng đoạn. Bước 2: Nếu một đoạn bị lỗi, ghi rõ mã đoạn và lý do, chỉ thử lại có giới hạn, không làm mất các đoạn thành công. Bước 3: Chạy thử một lô có cả đoạn tốt và đoạn lỗi để chứng minh có thể xử lý lại đúng phần lỗi.	Một ...**
+
+🟢 **	Sprint 3	S3-WBS12	S3-G02	1	Lưu vector và metadata vào pgvector	Hồ Phạm Đăng Nhân	Đã hoàn thành	5	5	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Vector mẫu...**
+
+🟢 **	Sprint 3	S3-WBS17	S3-G02	1	Ingest thử corpus vào pgvector	Hồ Phạm Đăng Nhân	Đã hoàn thành	3	3	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy một nhóm đoạn thật đã được Vũ gắn nguồn và tạo vector. Bước 2: Nạp vào pgvector, ghi số đoạn thành công, số lỗi và lý do lỗi. Bước 3: Truy vấn lại để đối chiếu số lượng, mã tài liệu, phiên bản; chạy lại không được nhân đôi dữ liệu.	Truy vấn pgvector thấy đúng số chunk hợp lệ và lỗi được lưu...**
+
+🟢 **	Sprint 3	S3-WBS20	S3-G02	2	Tạo chỉ mục pgvector và đo baseline	Hồ Phạm Đăng Nhân	Đã hoàn thành	4	4	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo cách tra cứu vector trong pgvector trên dữ liệu đã nạp. Bước 2: Dùng một bộ câu hỏi tiếng Việt/Anh cố định, đo thời gian và kiểm tra đoạn tìm được. Bước 3: Lưu cách cấu hình và kết quả ban đầu để về sau so sánh; nếu dữ liệu thật chưa sẵn, ghi rõ số đo chỉ là tạm trên mẫu.	Có kết quả ba...**
+
+🟢 **	Sprint 3	S3-WBS25	S3-G02	2	Truy vấn vector có lọc phạm vi	Hồ Phạm Đăng Nhân	Đã hoàn thành	4	5	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Thêm bộ lọc để chỉ tìm đoạn của đúng công ty, kỳ, loại tài liệu và phiên bản dữ liệu đang chọn. Bước 2: Trả về một số đoạn phù hợp nhất cùng điểm tương đồng và vị trí nguồn. Bước 3: Thử câu hỏi cố tình chọn sai công ty/kỳ để chắc hệ thống không lấy nhầm nguồn ngoài phạm vi.	Ca lọc sai công ty/k...**
+
+🟢 **	Sprint 3	S3-WBS30	S3-G02	2	Ghi timing và lỗi retrieval	Hồ Phạm Đăng Nhân	Đã hoàn thành	3	3	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Với mỗi lần tìm kiếm vector, ghi thời gian chạy, số đoạn tìm được, điểm của các đoạn và mã lỗi nếu có. Bước 2: Che thông tin nhạy cảm trong lỗi/log. Bước 3: Chạy câu hỏi thành công và câu hỏi lỗi để chắc người kiểm tra có đủ dấu vết tìm nguyên nhân chậm hoặc sai.	Một truy vấn có trace thật đủ phân...**
+
+🟢 **	Sprint 3	S3-WBS34	S3-G02	2	Kiểm thử E2E vector retrieval	Hồ Phạm Đăng Nhân	Đã hoàn thành	4		Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chọn một tài liệu sạch và chạy toàn bộ đường đi: Vũ chia đoạn, Nhân tạo/lưu vector, rồi tìm lại đoạn bằng câu hỏi. Bước 2: So số đoạn, mã nguồn, phiên bản và trích dẫn ở từng bước. Bước 3: Chạy lại để kiểm tra không trùng; lỗi nào chưa sửa được phải ghi rõ người phụ trách.	Ca E2E qua hoặc có lỗi ...**
+
+🟢 **					Tổng giờ theo task			150	100																				**
+
+🟢 **					Giờ đã ghi theo ngày				99							9	15	12	9	9	4	3	13	9	8	3	5	0	0**
+
+🟢 **Hiện tại: 34/36 task Done · còn 2 task · 34 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 34 task ước tính (27 theo nhật ký giờ, 7 theo deadline).												**
+
+🟢 **Phạm vi (task)	36	Done hiện tại	34	Giờ dự kiến	150	Done thiếu ngày	34					**
+
+🟢 **Giờ thực tế	100	Bắt đầu	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **										S3-WBS02	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S3-WBS07	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S3-WBS12	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S3-WBS17	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S3-WBS20	Sun Oct 18 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S3-WBS25	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S3-WBS30	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S3-WBS34	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	36	4	4	32	32.4	9	9	3.6		S3-WBS28	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	36	2	6	30	28.8	15	24	7.2		S3-WBS33	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	36	5	11	25	25.2	12	36	10.8		S3-WBS04	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	36	1	12	24	21.6	9	45	14.4		S3-WBS03	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	36	5	17	19	18	9	54	18		S3-WBS08	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Oct 17 2026 07:00:00 GMT+0700 (Indochina Time)	36	1	18	18	18	4	58	18		S3-WBS13	Sat Oct 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Oct 18 2026 07:00:00 GMT+0700 (Indochina Time)	36	1	19	17	18	3	61	18		S3-WBS18	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	36	3	22	14	14.4	13	74	21.6		S3-WBS21	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	36	2	24	12	10.8	9	83	25.2		S3-WBS26	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	36	4	28	8	7.2	8	91	28.8		S3-WBS31	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	36	2	30	6	3.6	3	94	32.4		S3-WBS35	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	36	4	34	2	0	5	99	36		S3-WBS09	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sat Oct 24 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	34	2	0		99	36		S3-WBS14	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	34	2	0		99	36		S3-WBS22	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Hiện tại	36		34	2						S3-WBS27	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S3-WBS36		**
+
+🟢 **	Số task	17	Giờ dự kiến	128	Tổng giờ thực tế đã ghi	96		Tuần 1 (h)	65	Tuần 2 (h)	63																		**
+
+🟢 **	Sprint 4	S4-WBS17	S4-G07	2	Kiểm thử, đánh giá B1/B2 và bàn giao Sprint 4	Hồ Phạm Đăng Nhân; Trần Diệu Huyền	Đã hoàn thành	13	14	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	1. Nhân và Huyền thống nhất bộ câu hỏi, nguồn và kết quả kỳ vọng cho quan hệ doanh nghiệp, chức vụ, sự kiện và ba tuyến VECTOR/GRAPH/BOTH.**
+
+🟢 **5. Cùng bàn giao bộ test, kết quả chạy thật, bảng so sánh B1/B2, báo cáo full-load và giới hạn còn lại. Chỉ hoàn thành task khi cả phần Nhân và Huyền đạt. Tổng 13 giờ công = Nhân 7 giờ + Huyền 6 giờ, không phải 13 giờ mỗi người.	Có bộ test và kết quả thật cho VECTOR/GRAPH/BOTH và ba nhóm quan hệ; bảng B1/B2 có chất lượng và thời gian phản hồi; citation đúng nguồn; có kiểm thử lỗi/E2E/hồi quy, báo cáo full-load và danh sách lỗi còn lại. Không mặc định B2 tốt hơn B1.	Chuẩn bị bộ ca bằng WBS01/fixt...**
+
+🟢 **					Tổng giờ theo task			128	96																				**
+
+🟢 **					Giờ đã ghi theo ngày				96							9	6	6	3	20	3	3	14	6	6	6	14	0	0**
+
+🟢 **Đường theo ngày gồm 17 task ước tính (11 theo nhật ký giờ, 6 theo deadline).												**
+
+🟢 **Giờ thực tế	96	Bắt đầu	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **										S4-WBS17	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	10	7	7.29	14	64	9.71				**
+
+🟢 **Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	11	6	6.07	6	70	10.93				**
+
+🟢 **Wed Nov 04 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	12	5	4.86	6	76	12.14				**
+
+🟢 **Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	13	4	3.64	6	82	13.36				**
+
+🟢 **Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	17	4	17	0	2.43	14	96	14.57				**
+
+🟢 **Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	17	0	1.21		96	15.79				**
+
+🟢 **Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	17	0	0		96	17				**
+
+~~	S3-WBS02	Chốt mô hình embedding và cấu hình	Embedding và pgvector	Bước 1: Dùng vài đoạn văn mẫu để thử mô hình biến chữ thành dãy số (embedding), nhờ đó máy có thể tìm đoạn gần nghĩa. Bước 2: Ghi rõ tên/phiên bản mô hình, số chiều của dãy số và số đoạn xử lý mỗi lần. Bước 3: Lưu cấu hình và một kết quả mẫu để nhóm dùng chung; chưa cần đợi Vũ chia xong tài liệu thật.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Tạo được vector mẫu và lưu cấu hình có phiên bản.	Kế hoạch Sprint 3 đã chố...~~
+
+~~	S3-WBS07	Tạo embedding theo lô có báo lỗi	Embedding và pgvector	Bước 1: Cho chương trình nhận nhiều đoạn văn mẫu một lần và tạo vector cho từng đoạn. Bước 2: Nếu một đoạn bị lỗi, ghi rõ mã đoạn và lý do, chỉ thử lại có giới hạn, không làm mất các đoạn thành công. Bước 3: Chạy thử một lô có cả đoạn tốt và đoạn lỗi để chứng minh có thể xử lý lại đúng phần lỗi.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Một mục lỗi trong lô được định danh để chạy lại, mục thành công không xử lý trùng....~~
+
+~~	S3-WBS12	Lưu vector và metadata vào pgvector	Embedding và pgvector	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Vector mẫu truy ngược đúng chunk và không trộn corpus version.	Kế hoạch Sprint 3 đã chốt...~~
+
+~~	S3-WBS17	Ingest thử corpus vào pgvector	Embedding và pgvector	Bước 1: Lấy một nhóm đoạn thật đã được Vũ gắn nguồn và tạo vector. Bước 2: Nạp vào pgvector, ghi số đoạn thành công, số lỗi và lý do lỗi. Bước 3: Truy vấn lại để đối chiếu số lượng, mã tài liệu, phiên bản; chạy lại không được nhân đôi dữ liệu.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Truy vấn pgvector thấy đúng số chunk hợp lệ và lỗi được lưu để chạy lại.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ trách t...~~
+
+~~	S3-WBS20	Tạo chỉ mục pgvector và đo baseline	Embedding và pgvector	Bước 1: Tạo cách tra cứu vector trong pgvector trên dữ liệu đã nạp. Bước 2: Dùng một bộ câu hỏi tiếng Việt/Anh cố định, đo thời gian và kiểm tra đoạn tìm được. Bước 3: Lưu cách cấu hình và kết quả ban đầu để về sau so sánh; nếu dữ liệu thật chưa sẵn, ghi rõ số đo chỉ là tạm trên mẫu.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Có kết quả baseline, index và truy vấn trả chunk đúng corpus.	Kế hoạch Sprint 3 đã chốt the...~~
+
+~~	S3-WBS25	Truy vấn vector có lọc phạm vi	Embedding và pgvector	Bước 1: Thêm bộ lọc để chỉ tìm đoạn của đúng công ty, kỳ, loại tài liệu và phiên bản dữ liệu đang chọn. Bước 2: Trả về một số đoạn phù hợp nhất cùng điểm tương đồng và vị trí nguồn. Bước 3: Thử câu hỏi cố tình chọn sai công ty/kỳ để chắc hệ thống không lấy nhầm nguồn ngoài phạm vi.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Ca lọc sai công ty/kỳ/corpus trả rỗng hoặc đúng phạm vi; contract cho Hưng dùng.	Kế hoạch Sprint 3...~~
+
+~~	S3-WBS30	Ghi timing và lỗi retrieval	Embedding và pgvector	Bước 1: Với mỗi lần tìm kiếm vector, ghi thời gian chạy, số đoạn tìm được, điểm của các đoạn và mã lỗi nếu có. Bước 2: Che thông tin nhạy cảm trong lỗi/log. Bước 3: Chạy câu hỏi thành công và câu hỏi lỗi để chắc người kiểm tra có đủ dấu vết tìm nguyên nhân chậm hoặc sai.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Một truy vấn có trace thật đủ phân tích chậm/lỗi; không lộ secret.	Kế hoạch Sprint 3 đã chốt theo 4 người vector...~~
+
+~~	S3-WBS34	Kiểm thử E2E vector retrieval	Embedding và pgvector	Bước 1: Chọn một tài liệu sạch và chạy toàn bộ đường đi: Vũ chia đoạn, Nhân tạo/lưu vector, rồi tìm lại đoạn bằng câu hỏi. Bước 2: So số đoạn, mã nguồn, phiên bản và trích dẫn ở từng bước. Bước 3: Chạy lại để kiểm tra không trùng; lỗi nào chưa sửa được phải ghi rõ người phụ trách.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Ca E2E qua hoặc có lỗi kèm owner rõ; không trộn version.	Kế hoạch Sprint 3 đã chốt theo 4 người vect...~~
+
+~~5. Cùng bàn giao bộ test, kết quả chạy thật, bảng so sánh B1/B2, báo cáo full-load và giới hạn còn lại. Chỉ hoàn thành task khi cả phần Nhân và Huyền đạt. Tổng 13 giờ công = Nhân 7 giờ + Huyền 6 giờ, không phải 13 giờ mỗi người.	Đánh giá B1/B2, kiểm thử xuyên suốt, nguồn và hồi quy; bàn giao kết quả mẫu/full-load.	Có bộ test và kết quả thật cho VECTOR/GRAPH/BOTH và ba nhóm quan hệ; bảng B1/B2 có chất lượng và thời gian phản hồi; citation đúng nguồn; có kiểm thử lỗi/E2E/hồi quy, báo cáo full-load...~~
+
+~~								3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	150	73	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~								4	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	128	82	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	73																							~~
+
+~~	Sprint 3	S3-WBS02	S3-G02	1	Chốt mô hình embedding và cấu hình	Hồ Phạm Đăng Nhân	Đã hoàn thành	3		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Dùng vài đoạn văn mẫu để thử mô hình biến chữ thành dãy số (embedding), nhờ đó máy có thể tìm đoạn gần nghĩa. Bước 2: Ghi rõ tên/phiên bản mô hình, số chiều của dãy số và số đoạn xử lý mỗi lần. Bước 3: Lưu cấu hình và một kết quả mẫu để nhóm dùng chung; chưa cần đợi Vũ chia xong tài liệu thậ...~~
+
+~~	Sprint 3	S3-WBS07	S3-G02	1	Tạo embedding theo lô có báo lỗi	Hồ Phạm Đăng Nhân	Đã hoàn thành	4		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cho chương trình nhận nhiều đoạn văn mẫu một lần và tạo vector cho từng đoạn. Bước 2: Nếu một đoạn bị lỗi, ghi rõ mã đoạn và lý do, chỉ thử lại có giới hạn, không làm mất các đoạn thành công. Bước 3: Chạy thử một lô có cả đoạn tốt và đoạn lỗi để chứng minh có thể xử lý lại đúng phần lỗi.	Một m...~~
+
+~~	Sprint 3	S3-WBS12	S3-G02	1	Lưu vector và metadata vào pgvector	Hồ Phạm Đăng Nhân	Đã hoàn thành	5		Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chuẩn bị nơi lưu vector trong PostgreSQL/pgvector và liên kết mỗi vector với đúng mã đoạn, tài liệu, công ty và phiên bản dữ liệu. Bước 2: Kiểm tra kích thước vector và ngăn lưu trùng khi chạy lại. Bước 3: Lưu thử từ dữ liệu mẫu, sau đó chuyển sang các đoạn thật khi Vũ bàn giao.	Vector mẫu ...~~
+
+~~	Sprint 3	S3-WBS17	S3-G02	1	Ingest thử corpus vào pgvector	Hồ Phạm Đăng Nhân	Đã hoàn thành	3		Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy một nhóm đoạn thật đã được Vũ gắn nguồn và tạo vector. Bước 2: Nạp vào pgvector, ghi số đoạn thành công, số lỗi và lý do lỗi. Bước 3: Truy vấn lại để đối chiếu số lượng, mã tài liệu, phiên bản; chạy lại không được nhân đôi dữ liệu.	Truy vấn pgvector thấy đúng số chunk hợp lệ và lỗi được lưu ...~~
+
+~~	Sprint 3	S3-WBS20	S3-G02	2	Tạo chỉ mục pgvector và đo baseline	Hồ Phạm Đăng Nhân	Đã hoàn thành	4		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Tạo cách tra cứu vector trong pgvector trên dữ liệu đã nạp. Bước 2: Dùng một bộ câu hỏi tiếng Việt/Anh cố định, đo thời gian và kiểm tra đoạn tìm được. Bước 3: Lưu cách cấu hình và kết quả ban đầu để về sau so sánh; nếu dữ liệu thật chưa sẵn, ghi rõ số đo chỉ là tạm trên mẫu.	Có kết quả bas...~~
+
+~~	Sprint 3	S3-WBS25	S3-G02	2	Truy vấn vector có lọc phạm vi	Hồ Phạm Đăng Nhân	Đã hoàn thành	4		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Thêm bộ lọc để chỉ tìm đoạn của đúng công ty, kỳ, loại tài liệu và phiên bản dữ liệu đang chọn. Bước 2: Trả về một số đoạn phù hợp nhất cùng điểm tương đồng và vị trí nguồn. Bước 3: Thử câu hỏi cố tình chọn sai công ty/kỳ để chắc hệ thống không lấy nhầm nguồn ngoài phạm vi.	Ca lọc sai công ty/kỳ...~~
+
+~~	Sprint 3	S3-WBS30	S3-G02	2	Ghi timing và lỗi retrieval	Hồ Phạm Đăng Nhân	Đang test	3		Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Với mỗi lần tìm kiếm vector, ghi thời gian chạy, số đoạn tìm được, điểm của các đoạn và mã lỗi nếu có. Bước 2: Che thông tin nhạy cảm trong lỗi/log. Bước 3: Chạy câu hỏi thành công và câu hỏi lỗi để chắc người kiểm tra có đủ dấu vết tìm nguyên nhân chậm hoặc sai.	Một truy vấn có trace thật đủ phân tích...~~
+
+~~	Sprint 3	S3-WBS34	S3-G02	2	Kiểm thử E2E vector retrieval	Hồ Phạm Đăng Nhân	Chưa bắt đầu	4		Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chọn một tài liệu sạch và chạy toàn bộ đường đi: Vũ chia đoạn, Nhân tạo/lưu vector, rồi tìm lại đoạn bằng câu hỏi. Bước 2: So số đoạn, mã nguồn, phiên bản và trích dẫn ở từng bước. Bước 3: Chạy lại để kiểm tra không trùng; lỗi nào chưa sửa được phải ghi rõ người phụ trách.	Ca E2E qua hoặc có lỗi k...~~
+
+~~					Tổng giờ theo task			150	73																				~~
+
+~~					Giờ đã ghi theo ngày				72							6	12	9	6	6	1	0	10	6	8	3	5	0	0~~
+
+~~Hiện tại: 32/36 task Done · còn 4 task · 32 Done thiếu ngày												~~
+
+~~Đường theo ngày gồm 32 task ước tính (20 theo nhật ký giờ, 12 theo deadline).												~~
+
+~~Phạm vi (task)	36	Done hiện tại	32	Giờ dự kiến	150	Done thiếu ngày	32					~~
+
+~~Giờ thực tế	73	Bắt đầu	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					~~
+
+~~										S3-WBS02	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~										S3-WBS07	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~										S3-WBS12	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~										S3-WBS17	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~										S3-WBS20	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~										S3-WBS25	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~										S3-WBS30		~~
+
+~~										S3-WBS34		~~
+
+~~Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	36	4	4	32	32.4	6	6	3.6		S3-WBS28	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	36	2	6	30	28.8	12	18	7.2		S3-WBS33	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	36	5	11	25	25.2	9	27	10.8		S3-WBS36		~~
+
+~~Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	36	1	12	24	21.6	6	33	14.4		S3-WBS03	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	36	5	17	19	18	6	39	18		S3-WBS08	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sat Oct 17 2026 07:00:00 GMT+0700 (Indochina Time)	36	1	18	18	18	1	40	18		S3-WBS13	Sat Oct 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sun Oct 18 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	18	18	18		40	18		S3-WBS18	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	36	3	21	15	14.4	10	50	21.6		S3-WBS21	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	36	1	22	14	10.8	6	56	25.2		S3-WBS26	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	36	5	27	9	7.2	8	64	28.8		S3-WBS31	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	36	2	29	7	3.6	3	67	32.4		S3-WBS35	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	36	3	32	4	0	5	72	36		S3-WBS04	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Sat Oct 24 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	32	4	0		72	36		S3-WBS09	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	32	4	0		72	36		S3-WBS14	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Hiện tại	36		32	4						S3-WBS22	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~										S3-WBS27	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~	Số task	17	Giờ dự kiến	128	Tổng giờ thực tế đã ghi	82		Tuần 1 (h)	65	Tuần 2 (h)	63																		~~
+
+~~	Sprint 4	S4-WBS17	S4-G07	2	Kiểm thử, đánh giá B1/B2 và bàn giao Sprint 4	Hồ Phạm Đăng Nhân; Trần Diệu Huyền	Đã hoàn thành	13		Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	1. Nhân và Huyền thống nhất bộ câu hỏi, nguồn và kết quả kỳ vọng cho quan hệ doanh nghiệp, chức vụ, sự kiện và ba tuyến VECTOR/GRAPH/BOTH.~~
+
+~~5. Cùng bàn giao bộ test, kết quả chạy thật, bảng so sánh B1/B2, báo cáo full-load và giới hạn còn lại. Chỉ hoàn thành task khi cả phần Nhân và Huyền đạt. Tổng 13 giờ công = Nhân 7 giờ + Huyền 6 giờ, không phải 13 giờ mỗi người.	Có bộ test và kết quả thật cho VECTOR/GRAPH/BOTH và ba nhóm quan hệ; bảng B1/B2 có chất lượng và thời gian phản hồi; citation đúng nguồn; có kiểm thử lỗi/E2E/hồi quy, báo cáo full-load và danh sách lỗi còn lại. Không mặc định B2 tốt hơn B1.	Chuẩn bị bộ ca bằng WBS01/fixt...~~
+
+~~					Tổng giờ theo task			128	82																				~~
+
+~~					Giờ đã ghi theo ngày				82							9	6	6	3	20	3	3	11	3	3	3	12	0	0~~
+
+~~Đường theo ngày gồm 17 task ước tính (10 theo nhật ký giờ, 7 theo deadline).												~~
+
+~~Giờ thực tế	82	Bắt đầu	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					~~
+
+~~										S4-WBS17	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	10	7	7.29	11	61	9.71				~~
+
+~~Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	11	6	6.07	3	64	10.93				~~
+
+~~Wed Nov 04 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	12	5	4.86	3	67	12.14				~~
+
+~~Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	13	4	3.64	3	70	13.36				~~
+
+~~Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	17	3	16	1	2.43	12	82	14.57				~~
+
+~~Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	16	1	1.21		82	15.79				~~
+
+~~Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	17	0	0		82	17				~~
+
 ## 2026-11-19 09:42 - SUA NOI DUNG
 
 - **Người đăng:** hophamdangnhandz123@gmail.com
