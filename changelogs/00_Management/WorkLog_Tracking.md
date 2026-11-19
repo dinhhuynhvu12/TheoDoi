@@ -1,5 +1,231 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-19 10:02 - SUA NOI DUNG
+
+- **Người đăng:** dieuhuyentran1010@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-19 10:02
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS04	Chốt phân bổ Golden40	Golden40 và đánh giá	Bước 1: Lập danh sách đúng 40 câu hỏi để hiệu chỉnh hệ thống, chia đều theo loại câu hỏi, ngành, ngôn ngữ và thời kỳ đã chốt. Bước 2: Đánh mã từng câu, giao thành các lô 10 câu cho người kiểm tra. Bước 3: Đối chiếu để không trùng với 80 câu của bộ kiểm tra cuối, vì bộ cuối không được dùng để chỉnh hệ thống.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	Bảng phân bổ 40 ID không trùng, không lộ nhãn test cuối.	Kế h...**
+
+🟢 **	S3-WBS22	Hoàn thiện đáp án và locator Golden40	Golden40 và đánh giá	Bước 1: Mở lại tài liệu gốc cho từng câu trong Golden40 để kiểm tra đáp án, đơn vị, kỳ và vị trí trang/bảng. Bước 2: Sửa câu trùng, câu mơ hồ hoặc đáp án chưa có nguồn chắc chắn. Bước 3: Chuyển từng lô đã ổn cho Vũ rà soát độc lập, kèm danh sách chỗ còn bất đồng.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	40 ca đủ trường bắt buộc; mỗi ca có locator nguồn, câu trùng được loại.	Kế hoạch Sprint 3 ...**
+
+🟢 **	S3-WBS27	Khóa Golden40 sau rà soát chéo	Golden40 và đánh giá	Bước 1: Nhận bản rà soát của Vũ cho từng lô 10 câu. Bước 2: Cùng Vũ giải quyết tất cả câu còn bất đồng về đáp án hoặc vị trí nguồn. Bước 3: Lưu bản Golden40 cuối cùng với mã phiên bản và mã kiểm tra nội dung; từ đây không sửa âm thầm khi chạy đánh giá.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	40 ca có version khóa; không còn bất đồng chưa xử lý.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân p...**
+
+🟢 **	S3-WBS32	Chuẩn bị metric và bàn giao Golden40	Golden40 và đánh giá	Bước 1: Viết tiêu chí chấm câu trả lời: đúng số liệu, có nguồn mở lại được, trả lời đủ ý và trường hợp cần người kiểm tra. Bước 2: Thử cách tính trên vài ca mẫu, ghi kết quả tạm. Bước 3: Sau khi Golden40 được khóa, chạy lại trên bản khóa và bàn giao bảng lỗi cùng phiên bản dùng cho Sprint 4.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	Có metric theo ca, danh sách lỗi và bàn giao manifest; kết quả...**
+
+🟢 **	S3-WBS36	Kiểm thử bảo mật tài khoản	Tài khoản và phân quyền	Bước 1: Thử đặt lại mật khẩu bằng mã hết hạn và mã đã dùng; cả hai phải bị từ chối. Bước 2: Thử đăng xuất rồi dùng lại phiên và thử tài khoản sai vai trò gọi API. Bước 3: Xem log không lộ mật khẩu, mã reset hoặc việc email có tồn tại; lỗi chưa qua phải để mở, không đánh dấu hoàn thành.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Các ca bảo mật thiết yếu qua; lỗi còn lại ghi rõ và không đánh dấu ...**
+
+🟢 **4. Thử fixture từ 26/10, rồi thử đầu ra thật của ba extractor khi sẵn sàng. Chỉ kết quả được chấp nhận đủ điều kiện đưa vào graph trả lời.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Ba nhóm quan hệ có kết quả kiểm tra và lý do; ca mơ hồ/mâu thuẫn đi chờ duyệt; ca thiếu nguồn bị chặn; có test.	Tuần 1. Phụ thuộc / làm trước: WBS01 để code ngay. Cần mẫu thật WBS03–05 để nghiệm thu từng loại. WBS07 lưu trạng thái; không chờ...**
+
+🟢 **5. Kiểm tra nhiều cách diễn đạt, trùng tên, thiếu kỳ và yêu cầu kết hợp. Bàn giao interface cho WBS11–13; chưa đợi graph thật.	Chọn VECTOR/GRAPH/BOTH theo ý định; hợp nhất có provenance và không che lỗi nhánh.	Router chọn đúng ba tuyến trên bộ ca fixture, hỏi lại đúng khi chưa rõ; có lý do/trace và contract adapter. Nối nhánh thật trong tuần 2.	Tuần 1. Phụ thuộc / làm trước: WBS01 và intent/context B1 Sprint 3. Hoàn toàn có thể làm song song trích xuất dữ liệu. Không phụ thuộc WBS09 hoặc full-lo...**
+
+🟢 **5. Dùng fixture đầu tuần để dựng/test UI, chuyển sang API thật khi WBS09/WBS12 sẵn sàng.	Chat/Graph Viewer trình bày đúng bằng chứng, thời gian và giới hạn của kết quả.	Graph Viewer dùng dữ liệu thật, mở đúng nguồn của quan hệ; có kiểm tra rỗng/lỗi/responsive và phiên dữ liệu.	Tuần 2. Phụ thuộc / làm trước: Contract/API WBS01 và WBS09; nếu dùng chung adapter chat thì WBS12. Không cần chờ BOTH hoặc phần tạo câu trả lời.	Cao	Đã hoàn thành	S4-G06	FinMind	4	6	5	Trần Diệu Huyền	Mon Nov 02 2026 07:00:...**
+
+🟢 **	S5-WBS04.2	Đặt ngưỡng tin cậy và quy tắc chọn nhánh	#REF!	Dùng điểm cao nhất, khoảng cách hai nhóm đầu và thông tin công ty/kỳ để chọn nhánh, hỏi lại hoặc báo cần fallback.	#REF!	Có đầu ra VECTOR, GRAPH, BOTH, ASK\_CLARIFICATION hoặc tín hiệu fallback theo từng ca.	S5-WBS04.1	Cao	Đã hoàn thành	S5-G02	FinMind	5	3	3.5	Huyền 	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS04.3	Tạo và Chạy bộ câu kiểm thử router	#REF!	Chạy bộ test riêng và ghi nhãn, điểm, lý do và nhánh.	#REF!	Có bảng kỳ vọng và thực tế, gồm câu chức vụ, kết hợp và thiếu dữ kiện. Có bộ kiểm thử bao phủ 90% coverage, và phải đạt từ 90% tỷ lệ thành công thì mới được pass  .	S5-WBS04.2, S5-WBS03.2	Cao	Đã hoàn thành	S5-G02	FinMind	5	3	3	Huyền	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS05.3	Kiểm thử graph thật, graph rỗng và lỗi kết nối	#REF!	Chạy ca có dữ liệu, không có quan hệ và lỗi Neo4j trên luồng Web Chat.	#REF!	Trace xác nhận gọi graph thật. Chat phân biệt rỗng và lỗi truy xuất.	S5-WBS05.2	Cao	Đã hoàn thành	S5-G03	FinMind	5	2	2.5	Huyền	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS07.1	Chốt điều kiện fallback và JSON phân loại	#REF!	Quy định điểm thấp, hai nhóm sát nhau hoặc lỗi phân loại. Chốt nhãn cho phép và ngữ cảnh tối thiểu gửi đi.	#REF!	Có contract phân loại và quy tắc kiểm tra kết quả.	S5-WBS03.1, S5-WBS04.2	Cao	Đã hoàn thành	S5-G05	FinMind	5	2	2.5	Huyền	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS07.3	Kiểm thử fallback và trường hợp cả hai bước thất bại	#REF!	Thử AI trả đúng, sai nhãn, timeout và câu rõ ý định.	#REF!	Ca thất bại hỏi lại. Câu rõ ý định xử lý nội bộ.	S5-WBS07.2	Cao	Đã hoàn thành	S5-G05	FinMind	5	2	2	Huyền	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **								3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	150	120	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **								4	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	128	116	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **								5	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	120	63.5	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	120																							**
+
+🟢 **	Sprint 3	S3-WBS04	S3-G06	1	Chốt phân bổ Golden40	Trần Diệu Huyền	Đã hoàn thành	3	3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lập danh sách đúng 40 câu hỏi để hiệu chỉnh hệ thống, chia đều theo loại câu hỏi, ngành, ngôn ngữ và thời kỳ đã chốt. Bước 2: Đánh mã từng câu, giao thành các lô 10 câu cho người kiểm tra. Bước 3: Đối chiếu để không trùng với 80 câu của bộ kiểm tra cuối, vì bộ cuối không được dùng để chỉnh hệ thống.	Bảng ...**
+
+🟢 **	Sprint 3	S3-WBS22	S3-G06	2	Hoàn thiện đáp án và locator Golden40	Trần Diệu Huyền	Đã hoàn thành	8	9	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Mở lại tài liệu gốc cho từng câu trong Golden40 để kiểm tra đáp án, đơn vị, kỳ và vị trí trang/bảng. Bước 2: Sửa câu trùng, câu mơ hồ hoặc đáp án chưa có nguồn chắc chắn. Bước 3: Chuyển từng lô đã ổn cho Vũ rà soát độc lập, kèm danh sách chỗ còn bất đồng.	40 ca đủ trường bắt buộc; mỗi ca c...**
+
+🟢 **	Sprint 3	S3-WBS27	S3-G06	2	Khóa Golden40 sau rà soát chéo	Trần Diệu Huyền	Đã hoàn thành	2	1	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nhận bản rà soát của Vũ cho từng lô 10 câu. Bước 2: Cùng Vũ giải quyết tất cả câu còn bất đồng về đáp án hoặc vị trí nguồn. Bước 3: Lưu bản Golden40 cuối cùng với mã phiên bản và mã kiểm tra nội dung; từ đây không sửa âm thầm khi chạy đánh giá.	40 ca có version khóa; không còn bất đồng chưa xử lý...**
+
+🟢 **	Sprint 3	S3-WBS32	S3-G06	2	Chuẩn bị metric và bàn giao Golden40	Trần Diệu Huyền	Chưa bắt đầu	5	5	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Viết tiêu chí chấm câu trả lời: đúng số liệu, có nguồn mở lại được, trả lời đủ ý và trường hợp cần người kiểm tra. Bước 2: Thử cách tính trên vài ca mẫu, ghi kết quả tạm. Bước 3: Sau khi Golden40 được khóa, chạy lại trên bản khóa và bàn giao bảng lỗi cùng phiên bản dùng cho Sprint 4.	Có metr...**
+
+🟢 **	Sprint 3	S3-WBS36	S3-G08	2	Kiểm thử bảo mật tài khoản	Trần Diệu Huyền 	Chưa bắt đầu	2	2	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Thử đặt lại mật khẩu bằng mã hết hạn và mã đã dùng; cả hai phải bị từ chối. Bước 2: Thử đăng xuất rồi dùng lại phiên và thử tài khoản sai vai trò gọi API. Bước 3: Xem log không lộ mật khẩu, mã reset hoặc việc email có tồn tại; lỗi chưa qua phải để mở, không đánh dấu hoàn thành.	Các ca bảo mật thiết y...**
+
+🟢 **					Tổng giờ theo task			150	120																				**
+
+🟢 **					Chênh giờ thực tế theo task − giờ ghi theo ngày: 21 h.																								**
+
+🟢 **Giờ thực tế	120	Bắt đầu	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 21h.												**
+
+🟢 **	Số task	17	Giờ dự kiến	128	Tổng giờ thực tế đã ghi	116		Tuần 1 (h)	65	Tuần 2 (h)	63																		**
+
+🟢 **	Sprint 4	S4-WBS06	S4-G02	1	Kiểm tra bằng chứng, kiểm duyệt và quarantine	Trần Diệu Huyền	Đã hoàn thành	6	7	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Xây quy tắc kiểm tra thực thể, chiều quan hệ, loại quan hệ, trường bắt buộc và đoạn nguồn có chứng minh kết luận hay không.**
+
+🟢 **	Sprint 4	S4-WBS10	S4-G04	1	Phân tích ý định và Hybrid Router bằng fixture	Trần Diệu Huyền	Đã hoàn thành	8	8	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Phân tích câu hỏi cùng ngữ cảnh: người dùng cần nội dung/số liệu, quan hệ, hay cả hai; lấy thực thể, thời gian và thông tin thiếu.**
+
+🟢 **	Sprint 4	S4-WBS15	S4-G06	2	Nối Graph Viewer và xem bằng chứng thật	Trần Diệu Huyền	Đã hoàn thành	6	5	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	1. Tái sử dụng Graph Viewer; nối API theo contract để hiển thị Company, Person, Event và quan hệ.**
+
+🟢 **					Tổng giờ theo task			128	116																				**
+
+🟢 **					Chênh kế hoạch task − kế hoạch ngày: -22 h. Chênh giờ thực tế theo task − giờ ghi theo ngày: 20 h.																								**
+
+🟢 **Giờ thực tế	116	Bắt đầu	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 20h.												**
+
+🟢 **	Số task	40	Giờ dự kiến	120	Tổng giờ thực tế đã ghi	63.5																							**
+
+🟢 **	Sprint 5	S5-WBS04.3	S5-G02	1	Tạo và Chạy bộ câu kiểm thử router	Huyền	Đã hoàn thành	3	3	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy bộ test riêng và ghi nhãn, điểm, lý do và nhánh.	Có bảng kỳ vọng và thực tế, gồm câu chức vụ, kết hợp và thiếu dữ kiện. Có bộ kiểm thử bao phủ 90% coverage, và phải đạt từ 90% tỷ lệ thành công thì mới được pass  .	S5-WBS04.2, S5-WBS03.2															**
+
+🟢 **	Sprint 5	S5-WBS05.3	S5-G03	1	Kiểm thử graph thật, graph rỗng và lỗi kết nối	Huyền	Đã hoàn thành	2	2.5	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy ca có dữ liệu, không có quan hệ và lỗi Neo4j trên luồng Web Chat.	Trace xác nhận gọi graph thật. Chat phân biệt rỗng và lỗi truy xuất.	S5-WBS05.2															**
+
+🟢 **	Sprint 5	S5-WBS07.1	S5-G05	1	Chốt điều kiện fallback và JSON phân loại	Huyền	Đã hoàn thành	2	2.5	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Quy định điểm thấp, hai nhóm sát nhau hoặc lỗi phân loại. Chốt nhãn cho phép và ngữ cảnh tối thiểu gửi đi.	Có contract phân loại và quy tắc kiểm tra kết quả.	S5-WBS03.1, S5-WBS04.2															**
+
+🟢 **	Sprint 5	S5-WBS07.3	S5-G05	1	Kiểm thử fallback và trường hợp cả hai bước thất bại	Huyền	Đã hoàn thành	2	2	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử AI trả đúng, sai nhãn, timeout và câu rõ ý định.	Ca thất bại hỏi lại. Câu rõ ý định xử lý nội bộ.	S5-WBS07.2															**
+
+🟢 **	Sprint 5	S5-WBS04.2	S5-G02	1	Đặt ngưỡng tin cậy và quy tắc chọn nhánh	Huyền 	Đã hoàn thành	3	3.5	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng điểm cao nhất, khoảng cách hai nhóm đầu và thông tin công ty/kỳ để chọn nhánh, hỏi lại hoặc báo cần fallback.	Có đầu ra VECTOR, GRAPH, BOTH, ASK\_CLARIFICATION hoặc tín hiệu fallback theo từng ca.	S5-WBS04.1															**
+
+🟢 **					Tổng giờ theo task			120	63.5																				**
+
+🟢 **					Chênh kế hoạch task − kế hoạch ngày: -30 h. Chênh giờ thực tế theo task − giờ ghi theo ngày: 13,5 h.																								**
+
+🟢 **Hiện tại: 21/40 task Done · còn 19 task · 21 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 20 task ước tính (9 theo nhật ký giờ, 11 theo deadline).												**
+
+🟢 **Phạm vi (task)	40	Done hiện tại	21	Giờ dự kiến	120	Done thiếu ngày	21					**
+
+🟢 **Giờ thực tế	63.5	Bắt đầu	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 16,5h.												**
+
+🟢 **										S5-WBS05.3	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S5-WBS02.2	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	11	16	24	20		29	20		S5-WBS08.1	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	16	24	17.14	6	35	22.86		S5-WBS08.3	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	17	23	14.29	6	41	25.71		S5-WBS05.2		**
+
+🟢 **Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	17	23	11.43	3	44	28.57		S5-WBS10.1	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	19	21	8.57	3	47	31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Hiện tại	40		21	19						S5-WBS10.3		**
+
+~~	S3-WBS04	Chốt phân bổ Golden40	Golden40 và đánh giá	Bước 1: Lập danh sách đúng 40 câu hỏi để hiệu chỉnh hệ thống, chia đều theo loại câu hỏi, ngành, ngôn ngữ và thời kỳ đã chốt. Bước 2: Đánh mã từng câu, giao thành các lô 10 câu cho người kiểm tra. Bước 3: Đối chiếu để không trùng với 80 câu của bộ kiểm tra cuối, vì bộ cuối không được dùng để chỉnh hệ thống.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	Bảng phân bổ 40 ID không trùng, không lộ nhãn test cuối.	Kế h...~~
+
+~~	S3-WBS22	Hoàn thiện đáp án và locator Golden40	Golden40 và đánh giá	Bước 1: Mở lại tài liệu gốc cho từng câu trong Golden40 để kiểm tra đáp án, đơn vị, kỳ và vị trí trang/bảng. Bước 2: Sửa câu trùng, câu mơ hồ hoặc đáp án chưa có nguồn chắc chắn. Bước 3: Chuyển từng lô đã ổn cho Vũ rà soát độc lập, kèm danh sách chỗ còn bất đồng.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	40 ca đủ trường bắt buộc; mỗi ca có locator nguồn, câu trùng được loại.	Kế hoạch Sprint 3 ...~~
+
+~~	S3-WBS27	Khóa Golden40 sau rà soát chéo	Golden40 và đánh giá	Bước 1: Nhận bản rà soát của Vũ cho từng lô 10 câu. Bước 2: Cùng Vũ giải quyết tất cả câu còn bất đồng về đáp án hoặc vị trí nguồn. Bước 3: Lưu bản Golden40 cuối cùng với mã phiên bản và mã kiểm tra nội dung; từ đây không sửa âm thầm khi chạy đánh giá.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	40 ca có version khóa; không còn bất đồng chưa xử lý.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân p...~~
+
+~~	S3-WBS32	Chuẩn bị metric và bàn giao Golden40	Golden40 và đánh giá	Bước 1: Viết tiêu chí chấm câu trả lời: đúng số liệu, có nguồn mở lại được, trả lời đủ ý và trường hợp cần người kiểm tra. Bước 2: Thử cách tính trên vài ca mẫu, ghi kết quả tạm. Bước 3: Sau khi Golden40 được khóa, chạy lại trên bản khóa và bàn giao bảng lỗi cùng phiên bản dùng cho Sprint 4.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	Có metric theo ca, danh sách lỗi và bàn giao manifest; kết quả...~~
+
+~~	S3-WBS36	Kiểm thử bảo mật tài khoản	Tài khoản và phân quyền	Bước 1: Thử đặt lại mật khẩu bằng mã hết hạn và mã đã dùng; cả hai phải bị từ chối. Bước 2: Thử đăng xuất rồi dùng lại phiên và thử tài khoản sai vai trò gọi API. Bước 3: Xem log không lộ mật khẩu, mã reset hoặc việc email có tồn tại; lỗi chưa qua phải để mở, không đánh dấu hoàn thành.	Các chức năng tài khoản thiết yếu hoạt động với kiểm soát quyền và kiểm thử an toàn.	Các ca bảo mật thiết yếu qua; lỗi còn lại ghi rõ và không đánh dấu ...~~
+
+~~4. Thử fixture từ 26/10, rồi thử đầu ra thật của ba extractor khi sẵn sàng. Chỉ kết quả được chấp nhận đủ điều kiện đưa vào graph trả lời.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Ba nhóm quan hệ có kết quả kiểm tra và lý do; ca mơ hồ/mâu thuẫn đi chờ duyệt; ca thiếu nguồn bị chặn; có test.	Tuần 1. Phụ thuộc / làm trước: WBS01 để code ngay. Cần mẫu thật WBS03–05 để nghiệm thu từng loại. WBS07 lưu trạng thái; không chờ...~~
+
+~~5. Kiểm tra nhiều cách diễn đạt, trùng tên, thiếu kỳ và yêu cầu kết hợp. Bàn giao interface cho WBS11–13; chưa đợi graph thật.	Chọn VECTOR/GRAPH/BOTH theo ý định; hợp nhất có provenance và không che lỗi nhánh.	Router chọn đúng ba tuyến trên bộ ca fixture, hỏi lại đúng khi chưa rõ; có lý do/trace và contract adapter. Nối nhánh thật trong tuần 2.	Tuần 1. Phụ thuộc / làm trước: WBS01 và intent/context B1 Sprint 3. Hoàn toàn có thể làm song song trích xuất dữ liệu. Không phụ thuộc WBS09 hoặc full-lo...~~
+
+~~5. Dùng fixture đầu tuần để dựng/test UI, chuyển sang API thật khi WBS09/WBS12 sẵn sàng.	Chat/Graph Viewer trình bày đúng bằng chứng, thời gian và giới hạn của kết quả.	Graph Viewer dùng dữ liệu thật, mở đúng nguồn của quan hệ; có kiểm tra rỗng/lỗi/responsive và phiên dữ liệu.	Tuần 2. Phụ thuộc / làm trước: Contract/API WBS01 và WBS09; nếu dùng chung adapter chat thì WBS12. Không cần chờ BOTH hoặc phần tạo câu trả lời.	Cao	Đã hoàn thành	S4-G06	FinMind	4	6		Trần Diệu Huyền	Mon Nov 02 2026 07:00:0...~~
+
+~~	S5-WBS04.2	Đặt ngưỡng tin cậy và quy tắc chọn nhánh	#REF!	Dùng điểm cao nhất, khoảng cách hai nhóm đầu và thông tin công ty/kỳ để chọn nhánh, hỏi lại hoặc báo cần fallback.	#REF!	Có đầu ra VECTOR, GRAPH, BOTH, ASK\_CLARIFICATION hoặc tín hiệu fallback theo từng ca.	S5-WBS04.1	Cao	Chưa bắt đầu	S5-G02	FinMind	5	3		Huyền 	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS04.3	Tạo và Chạy bộ câu kiểm thử router	#REF!	Chạy bộ test riêng và ghi nhãn, điểm, lý do và nhánh.	#REF!	Có bảng kỳ vọng và thực tế, gồm câu chức vụ, kết hợp và thiếu dữ kiện. Có bộ kiểm thử bao phủ 90% coverage, và phải đạt từ 90% tỷ lệ thành công thì mới được pass  .	S5-WBS04.2, S5-WBS03.2	Cao	Đã hoàn thành	S5-G02	FinMind	5	3		Huyền	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS05.3	Kiểm thử graph thật, graph rỗng và lỗi kết nối	#REF!	Chạy ca có dữ liệu, không có quan hệ và lỗi Neo4j trên luồng Web Chat.	#REF!	Trace xác nhận gọi graph thật. Chat phân biệt rỗng và lỗi truy xuất.	S5-WBS05.2	Cao	Chưa bắt đầu	S5-G03	FinMind	5	2		Huyền	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS07.1	Chốt điều kiện fallback và JSON phân loại	#REF!	Quy định điểm thấp, hai nhóm sát nhau hoặc lỗi phân loại. Chốt nhãn cho phép và ngữ cảnh tối thiểu gửi đi.	#REF!	Có contract phân loại và quy tắc kiểm tra kết quả.	S5-WBS03.1, S5-WBS04.2	Cao	Đã hoàn thành	S5-G05	FinMind	5	2		Huyền	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS07.3	Kiểm thử fallback và trường hợp cả hai bước thất bại	#REF!	Thử AI trả đúng, sai nhãn, timeout và câu rõ ý định.	#REF!	Ca thất bại hỏi lại. Câu rõ ý định xử lý nội bộ.	S5-WBS07.2	Cao	Đã hoàn thành	S5-G05	FinMind	5	2		Huyền	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~								3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	150	100	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~								4	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	128	96	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~								5	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	120	50	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	100																							~~
+
+~~	Sprint 3	S3-WBS04	S3-G06	1	Chốt phân bổ Golden40	Trần Diệu Huyền	Đã hoàn thành	3		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lập danh sách đúng 40 câu hỏi để hiệu chỉnh hệ thống, chia đều theo loại câu hỏi, ngành, ngôn ngữ và thời kỳ đã chốt. Bước 2: Đánh mã từng câu, giao thành các lô 10 câu cho người kiểm tra. Bước 3: Đối chiếu để không trùng với 80 câu của bộ kiểm tra cuối, vì bộ cuối không được dùng để chỉnh hệ thống.	Bảng p...~~
+
+~~	Sprint 3	S3-WBS22	S3-G06	2	Hoàn thiện đáp án và locator Golden40	Trần Diệu Huyền	Đã hoàn thành	8		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Mở lại tài liệu gốc cho từng câu trong Golden40 để kiểm tra đáp án, đơn vị, kỳ và vị trí trang/bảng. Bước 2: Sửa câu trùng, câu mơ hồ hoặc đáp án chưa có nguồn chắc chắn. Bước 3: Chuyển từng lô đã ổn cho Vũ rà soát độc lập, kèm danh sách chỗ còn bất đồng.	40 ca đủ trường bắt buộc; mỗi ca có...~~
+
+~~	Sprint 3	S3-WBS27	S3-G06	2	Khóa Golden40 sau rà soát chéo	Trần Diệu Huyền	Đã hoàn thành	2		Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nhận bản rà soát của Vũ cho từng lô 10 câu. Bước 2: Cùng Vũ giải quyết tất cả câu còn bất đồng về đáp án hoặc vị trí nguồn. Bước 3: Lưu bản Golden40 cuối cùng với mã phiên bản và mã kiểm tra nội dung; từ đây không sửa âm thầm khi chạy đánh giá.	40 ca có version khóa; không còn bất đồng chưa xử lý....~~
+
+~~	Sprint 3	S3-WBS32	S3-G06	2	Chuẩn bị metric và bàn giao Golden40	Trần Diệu Huyền	Chưa bắt đầu	5		Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Viết tiêu chí chấm câu trả lời: đúng số liệu, có nguồn mở lại được, trả lời đủ ý và trường hợp cần người kiểm tra. Bước 2: Thử cách tính trên vài ca mẫu, ghi kết quả tạm. Bước 3: Sau khi Golden40 được khóa, chạy lại trên bản khóa và bàn giao bảng lỗi cùng phiên bản dùng cho Sprint 4.	Có metri...~~
+
+~~	Sprint 3	S3-WBS36	S3-G08	2	Kiểm thử bảo mật tài khoản	Trần Diệu Huyền 	Chưa bắt đầu	2		Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Thử đặt lại mật khẩu bằng mã hết hạn và mã đã dùng; cả hai phải bị từ chối. Bước 2: Thử đăng xuất rồi dùng lại phiên và thử tài khoản sai vai trò gọi API. Bước 3: Xem log không lộ mật khẩu, mã reset hoặc việc email có tồn tại; lỗi chưa qua phải để mở, không đánh dấu hoàn thành.	Các ca bảo mật thiết yế...~~
+
+~~					Tổng giờ theo task			150	100																				~~
+
+~~					Chênh giờ thực tế theo task − giờ ghi theo ngày: 1 h.																								~~
+
+~~Giờ thực tế	100	Bắt đầu	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					~~
+
+~~Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 1h.												~~
+
+~~	Số task	17	Giờ dự kiến	128	Tổng giờ thực tế đã ghi	96		Tuần 1 (h)	65	Tuần 2 (h)	63																		~~
+
+~~	Sprint 4	S4-WBS06	S4-G02	1	Kiểm tra bằng chứng, kiểm duyệt và quarantine	Trần Diệu Huyền	Đã hoàn thành	6		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Xây quy tắc kiểm tra thực thể, chiều quan hệ, loại quan hệ, trường bắt buộc và đoạn nguồn có chứng minh kết luận hay không.~~
+
+~~	Sprint 4	S4-WBS10	S4-G04	1	Phân tích ý định và Hybrid Router bằng fixture	Trần Diệu Huyền	Đã hoàn thành	8		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Phân tích câu hỏi cùng ngữ cảnh: người dùng cần nội dung/số liệu, quan hệ, hay cả hai; lấy thực thể, thời gian và thông tin thiếu.~~
+
+~~	Sprint 4	S4-WBS15	S4-G06	2	Nối Graph Viewer và xem bằng chứng thật	Trần Diệu Huyền	Đã hoàn thành	6		Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	1. Tái sử dụng Graph Viewer; nối API theo contract để hiển thị Company, Person, Event và quan hệ.~~
+
+~~					Tổng giờ theo task			128	96																				~~
+
+~~					Chênh kế hoạch task − kế hoạch ngày: -22 h. 																								~~
+
+~~Giờ thực tế	96	Bắt đầu	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					~~
+
+~~	Số task	40	Giờ dự kiến	120	Tổng giờ thực tế đã ghi	50																							~~
+
+~~	Sprint 5	S5-WBS04.3	S5-G02	1	Tạo và Chạy bộ câu kiểm thử router	Huyền	Đã hoàn thành	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy bộ test riêng và ghi nhãn, điểm, lý do và nhánh.	Có bảng kỳ vọng và thực tế, gồm câu chức vụ, kết hợp và thiếu dữ kiện. Có bộ kiểm thử bao phủ 90% coverage, và phải đạt từ 90% tỷ lệ thành công thì mới được pass  .	S5-WBS04.2, S5-WBS03.2															~~
+
+~~	Sprint 5	S5-WBS05.3	S5-G03	1	Kiểm thử graph thật, graph rỗng và lỗi kết nối	Huyền	Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy ca có dữ liệu, không có quan hệ và lỗi Neo4j trên luồng Web Chat.	Trace xác nhận gọi graph thật. Chat phân biệt rỗng và lỗi truy xuất.	S5-WBS05.2															~~
+
+~~	Sprint 5	S5-WBS07.1	S5-G05	1	Chốt điều kiện fallback và JSON phân loại	Huyền	Đã hoàn thành	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Quy định điểm thấp, hai nhóm sát nhau hoặc lỗi phân loại. Chốt nhãn cho phép và ngữ cảnh tối thiểu gửi đi.	Có contract phân loại và quy tắc kiểm tra kết quả.	S5-WBS03.1, S5-WBS04.2															~~
+
+~~	Sprint 5	S5-WBS07.3	S5-G05	1	Kiểm thử fallback và trường hợp cả hai bước thất bại	Huyền	Đã hoàn thành	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử AI trả đúng, sai nhãn, timeout và câu rõ ý định.	Ca thất bại hỏi lại. Câu rõ ý định xử lý nội bộ.	S5-WBS07.2															~~
+
+~~	Sprint 5	S5-WBS04.2	S5-G02	1	Đặt ngưỡng tin cậy và quy tắc chọn nhánh	Huyền 	Chưa bắt đầu	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng điểm cao nhất, khoảng cách hai nhóm đầu và thông tin công ty/kỳ để chọn nhánh, hỏi lại hoặc báo cần fallback.	Có đầu ra VECTOR, GRAPH, BOTH, ASK\_CLARIFICATION hoặc tín hiệu fallback theo từng ca.	S5-WBS04.1															~~
+
+~~					Tổng giờ theo task			120	50																				~~
+
+~~					Chênh kế hoạch task − kế hoạch ngày: -30 h. 																								~~
+
+~~Hiện tại: 19/40 task Done · còn 21 task · 19 Done thiếu ngày												~~
+
+~~Đường theo ngày gồm 18 task ước tính (9 theo nhật ký giờ, 9 theo deadline).												~~
+
+~~Phạm vi (task)	40	Done hiện tại	19	Giờ dự kiến	120	Done thiếu ngày	19					~~
+
+~~Giờ thực tế	50	Bắt đầu	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					~~
+
+~~Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 3h.												~~
+
+~~										S5-WBS05.3		~~
+
+~~										S5-WBS02.2		~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	9	14	26	20		29	20		S5-WBS08.1	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	14	26	17.14	6	35	22.86		S5-WBS08.3	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	15	25	14.29	6	41	25.71		S5-WBS05.2		~~
+
+~~Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	15	25	11.43	3	44	28.57		S5-WBS10.1	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	17	23	8.57	3	47	31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Hiện tại	40		19	21						S5-WBS10.3		~~
+
 ## 2026-11-19 09:47 - SUA NOI DUNG
 
 - **Người đăng:** hophamdangnhandz123@gmail.com
