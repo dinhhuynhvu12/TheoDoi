@@ -1,5 +1,237 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-19 10:42 - SUA NOI DUNG
+
+- **Người đăng:** dunhvu47@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-19 10:42
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S2-WBS13	Thiết kế sơ đồ luồng người dùng và sitemap UI	Hoàn tất thiết kế UI và prototype	Huyền làm lead UI, đối chiếu use case MVP để vẽ sơ đồ màn hình theo vai trò và luồng đăng nhập, chọn công ty, hỏi, xem nguồn, history/watchlist. Chỉ vẽ luồng cần code Sprint 2, không thêm xuất PDF/Markdown.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Có file sơ đồ luồng/sitemap chỉnh sửa được, liệt kê đủ màn hình, quyền và đường quay lại; nhóm duyệt trước khi th...**
+
+🟢 **	S2-WBS15	Thiết kế visual UI và trạng thái component chung	Hoàn tất thiết kế UI và prototype	Huyền chốt màu, chữ, khoảng cách, bảng, form, nút, citation marker và các trạng thái loading/empty/error/missing-data từ sitemap đã duyệt và bộ component sẵn có. Có thể làm quy tắc chung song song với wireframe của Nhân; áp dụng lên từng màn hình sau khi nhận wireframe. Bàn giao cho Vũ/Nhân dùng khi code; không xây design system riêng.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototy...**
+
+🟢 **	S2-WBS19	Code routes và giao diện truy cập bằng phiên mẫu	Code skeleton và lớp dữ liệu mẫu	Huyền dùng router chung để nối màn hình, code form login/resgister, phiên hết hạn và vai trò mẫu. Có thể chuẩn bị route map và phiên mẫu từ sitemap trong khi Nhân làm wireframe; chỉ ghép layout và smoke test điều hướng khi skeleton/component sẵn sàng. Không triển khai API auth/RBAC thật hoặc coi ẩn nút là bảo mật.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API ...**
+
+🟢 **	S2-WBS20	Lead UI review theo mốc và bàn giao thiết kế/API	Code skeleton và lớp dữ liệu mẫu	Huyền review từng mốc wireframe của Nhân ngay khi bàn giao, ghi rõ màn hình đã duyệt/chờ sửa và bàn giao cho Vũ bắt đầu prototype phần tương ứng. Sau đó review prototype đầy đủ so với sitemap, wireframe, visual; chốt tên trường payload/trace\_id/citation\_id cho mock adapter. Không ký nghiệm thu cả task khi còn mốc hoặc lỗi chặn chưa xong.	Frontend source chạy/build được, component/route/trạng thái truy cập...**
+
+🟢 **	S2-WBS22	Code Copilot và so sánh bằng component chung	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng form, chat/result và bảng chung để nhập câu hỏi, chọn công ty/kỳ, xem response/so sánh mẫu. Thêm partial/insufficient-data/refusal và retry; không làm streaming tùy biến, backend RAG hoặc tư vấn đầu tư.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Các luồng đã chốt chạy với mock và nhãn rõ; filter/payload đúng, kết quả chờ/lỗi/thiếu ...**
+
+🟢 **	S2-WBS23	Code nguồn, history, watchlist và feedback bằng mock	Code màn hình nghiên cứu bằng dữ liệu mẫu	Tái dùng modal/detail/list/form để mở citation ID, xem locator/fact/provenance, xem/xóa history, pin/unpin và feedback. Chỉ mô phỏng lưu theo user, chưa xây backend lưu trữ; xác nhận thao tác xóa và thử lỗi bằng fixture.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Các luồng MVP chạy được với mock, không trùng watchlist và không m...**
+
+🟢 **	S2-WBS28	Lead UI review bản code và nghiệm thu bàn giao	Nghiệm thu dữ liệu và frontend, bàn giao	Huyền đối chiếu code của Vũ/Nhân với bản thiết kế và prototype, chạy smoke test màn hình/route/trạng thái bằng mock trên bản build sạch. Ghi lỗi chặn về đúng task để chủ task sửa, xác nhận lại sau sửa; không làm lại toàn bộ QA.	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	Có checklist đối chiếu thiết kế–code và biên bản...**
+
+🟢 **	S3-WBS34	Kiểm thử E2E vector retrieval	Embedding và pgvector	Bước 1: Chọn một tài liệu sạch và chạy toàn bộ đường đi: Vũ chia đoạn, Nhân tạo/lưu vector, rồi tìm lại đoạn bằng câu hỏi. Bước 2: So số đoạn, mã nguồn, phiên bản và trích dẫn ở từng bước. Bước 3: Chạy lại để kiểm tra không trùng; lỗi nào chưa sửa được phải ghi rõ người phụ trách.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Ca E2E qua hoặc có lỗi kèm owner rõ; không trộn version.	Kế hoạch Sprint 3 đã chốt theo 4 người vect...**
+
+🟢 **								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	141	152	28 task; 142h.**
+
+🟢 **								3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	150	142	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi	152																							**
+
+🟢 **Kết quả cần có: Có file sơ đồ luồng/sitemap chỉnh sửa được, liệt kê đủ màn hình, quyền và đường quay lại; nhóm duyệt trước khi thiết kế wireframe.	Trần Diệu Huyền	Đã hoàn thành	2	2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền làm lead UI, đối chiếu use case MVP để vẽ sơ đồ màn hình theo vai trò và luồng đăng nhập, chọn công ty, hỏi, xem nguồn, history/watchlist. Chỉ vẽ luồng cần code Sprint 2, không thêm xuất PDF/Markdown.	Có file sơ...**
+
+🟢 **Kết quả cần có: Có file thiết kế chỉnh sửa được gồm style, component mẫu và các trạng thái; nhóm xác nhận tính nhất quán với wireframe.	Trần Diệu Huyền	Đã hoàn thành	4	4	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền chốt màu, chữ, khoảng cách, bảng, form, nút, citation marker và các trạng thái loading/empty/error/missing-data từ sitemap đã duyệt và bộ component sẵn có. Có thể làm quy tắc chung song song với wireframe của Nhân; áp dụng...**
+
+🟢 **Kết quả cần có: Routes và trạng thái truy cập hoạt động với mock, các phần cần API thật được liệt kê. Có smoke test điều hướng tuần 1.	Trần Diệu Huyền	Đã hoàn thành	5	5	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền dùng router chung để nối màn hình, code form login/logout, phiên hết hạn và vai trò mẫu. Có thể chuẩn bị route map và phiên mẫu từ sitemap trong khi Nhân làm wireframe; chỉ ghép layout và smoke test điều hướng khi skeleton/...**
+
+🟢 **Kết quả cần có: Có checklist duyệt từng mốc wireframe, review prototype, danh sách lỗi chặn và bộ file thiết kế/API mock bàn giao; chỉ chốt khi đủ hai mốc.	Trần Diệu Huyền	Đã hoàn thành	4	4	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền review từng mốc wireframe của Nhân ngay khi bàn giao, ghi rõ màn hình đã duyệt/chờ sửa và bàn giao cho Vũ bắt đầu prototype phần tương ứng. Sau đó review prototype đầy đủ so với sitemap, wireframe, visu...**
+
+🟢 **Kết quả cần có: Các luồng đã chốt chạy với mock và nhãn rõ; filter/payload đúng, kết quả chờ/lỗi/thiếu không bị hiển thị như verified.	Trần Diệu Huyền	Đã hoàn thành	6	6	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng form, chat/result và bảng chung để nhập câu hỏi, chọn công ty/kỳ, xem response/so sánh mẫu. Thêm partial/insufficient-data/refusal và retry; không làm streaming tùy biến, backend RAG hoặc tư vấn đầu tư.	Các luồng đã chốt chạ...**
+
+🟢 **Kết quả cần có: Các luồng MVP chạy được với mock, không trùng watchlist và không mở URL client tùy ý. Không có xuất PDF/Markdown; thiếu API thật được ghi rõ.	Trần Diệu Huyền	Đã hoàn thành	6	6	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng modal/detail/list/form để mở citation ID, xem locator/fact/provenance, xem/xóa history, pin/unpin và feedback. Chỉ mô phỏng lưu theo user, chưa xây backend lưu trữ; xác nhận thao tác xóa và thử lỗi...**
+
+🟢 **Kết quả cần có: Có checklist đối chiếu thiết kế–code và biên bản review UI, bản build chạy được; màn hình lệch thiết kế hoặc lỗi chặn chưa sửa thì chưa ký bàn giao.	Trần Diệu Huyền	Đã hoàn thành	2	3	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền đối chiếu code của Vũ/Nhân với bản thiết kế và prototype, chạy smoke test màn hình/route/trạng thái bằng mock trên bản build sạch. Ghi lỗi chặn về đúng task để chủ task sửa, xác nhận lại sau sử...**
+
+🟢 **					Tổng giờ theo task			141	152																				**
+
+🟢 **					Giờ đã ghi theo ngày				152							10	15	16	16	14	6	0	15	16	16	14	14	0	0**
+
+🟢 **Đường theo ngày gồm 28 task ước tính (28 theo nhật ký giờ, 0 theo deadline).												**
+
+🟢 **Giờ thực tế	152	Bắt đầu	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **Ưu tiên ngày thực tế ở cột P, rồi ngày cuối có ghi giờ, rồi deadline. Xem nguồn từng task ở cột K–M. Hàng Hiện tại lấy trạng thái từ backlog.										S2-WBS13	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	28		0	28	28			0		S2-WBS15	Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	28	1	1	27	26	10	10	2		S2-WBS16	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	28	3	4	24	24	15	25	4		S2-WBS17	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	28	1	5	23	22	16	41	6		S2-WBS18	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	28	4	9	19	20	16	57	8		S2-WBS19	Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	28	3	12	16	18	14	71	10		S2-WBS20	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	28	2	14	14	16	6	77	12		S2-WBS21	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Oct 04 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	14	14	14		77	14		S2-WBS22	Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	28	1	15	13	12	15	92	16		S2-WBS23	Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	28	4	19	9	10	16	108	18		S2-WBS24	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	28	2	21	7	8	16	124	20		S2-WBS25	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	28	2	23	5	6	14	138	22		S2-WBS26	Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	28	5	28	0	4	14	152	24		S2-WBS27	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Oct 10 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	28	0	2		152	26		S2-WBS28	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	28	0	0		152	28				**
+
+🟢 **	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	142																							**
+
+🟢 **	Sprint 3	S3-WBS34	S3-G02	2	Kiểm thử E2E vector retrieval	Hồ Phạm Đăng Nhân	Đã hoàn thành	4	5	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chọn một tài liệu sạch và chạy toàn bộ đường đi: Vũ chia đoạn, Nhân tạo/lưu vector, rồi tìm lại đoạn bằng câu hỏi. Bước 2: So số đoạn, mã nguồn, phiên bản và trích dẫn ở từng bước. Bước 3: Chạy lại để kiểm tra không trùng; lỗi nào chưa sửa được phải ghi rõ người phụ trách.	Ca E2E qua hoặc có lỗi...**
+
+🟢 **					Tổng giờ theo task			150	142																				**
+
+🟢 **					Giờ đã ghi theo ngày				141							12	18	15	12	12	4	3	16	12	11	11	15	0	0**
+
+🟢 **Đường theo ngày gồm 36 task ước tính (36 theo nhật ký giờ, 0 theo deadline).												**
+
+🟢 **Giờ thực tế	142	Bắt đầu	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **										S3-WBS34	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	36	2	30	6	3.6	11	126	32.4		S3-WBS35	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	36	6	36	0	0	15	141	36		S3-WBS09	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Oct 24 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	36	0	0		141	36		S3-WBS14	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	36	0	0		141	36		S3-WBS22	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Đường theo ngày gồm 21 task ước tính (15 theo nhật ký giờ, 6 theo deadline).												**
+
+🟢 **										S5-WBS04.2	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	6	17	23	20		48	20		S5-WBS08.1	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	17	23	17.14	6	54	22.86		S5-WBS08.3	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	18	22	14.29	6	60	25.71		S5-WBS05.2		**
+
+🟢 **Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	18	22	11.43	3	63	28.57		S5-WBS10.1	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	20	20	8.57	3	66	31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+~~	S2-WBS13	Thiết kế sơ đồ luồng người dùng và sitemap UI	Hoàn tất thiết kế UI và prototype	Huyền làm lead UI, đối chiếu use case MVP để vẽ sơ đồ màn hình theo vai trò và luồng đăng nhập, chọn công ty, hỏi, xem nguồn, history/watchlist. Chỉ vẽ luồng cần code Sprint 2, không thêm xuất PDF/Markdown.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototype bấm thử đã duyệt.	Có file sơ đồ luồng/sitemap chỉnh sửa được, liệt kê đủ màn hình, quyền và đường quay lại; nhóm duyệt trước khi th...~~
+
+~~	S2-WBS15	Thiết kế visual UI và trạng thái component chung	Hoàn tất thiết kế UI và prototype	Huyền chốt màu, chữ, khoảng cách, bảng, form, nút, citation marker và các trạng thái loading/empty/error/missing-data từ sitemap đã duyệt và bộ component sẵn có. Có thể làm quy tắc chung song song với wireframe của Nhân; áp dụng lên từng màn hình sau khi nhận wireframe. Bàn giao cho Vũ/Nhân dùng khi code; không xây design system riêng.	Đủ màn hình, luồng điều hướng, thiết kế chi tiết/component và prototy...~~
+
+~~	S2-WBS19	Code routes và giao diện truy cập bằng phiên mẫu	Code skeleton và lớp dữ liệu mẫu	Huyền dùng router chung để nối màn hình, code form login/resgister, phiên hết hạn và vai trò mẫu. Có thể chuẩn bị route map và phiên mẫu từ sitemap trong khi Nhân làm wireframe; chỉ ghép layout và smoke test điều hướng khi skeleton/component sẵn sàng. Không triển khai API auth/RBAC thật hoặc coi ẩn nút là bảo mật.	Frontend source chạy/build được, component/route/trạng thái truy cập mẫu và lớp kết nối API ...~~
+
+~~	S2-WBS20	Lead UI review theo mốc và bàn giao thiết kế/API	Code skeleton và lớp dữ liệu mẫu	Huyền review từng mốc wireframe của Nhân ngay khi bàn giao, ghi rõ màn hình đã duyệt/chờ sửa và bàn giao cho Vũ bắt đầu prototype phần tương ứng. Sau đó review prototype đầy đủ so với sitemap, wireframe, visual; chốt tên trường payload/trace\_id/citation\_id cho mock adapter. Không ký nghiệm thu cả task khi còn mốc hoặc lỗi chặn chưa xong.	Frontend source chạy/build được, component/route/trạng thái truy cập...~~
+
+~~	S2-WBS22	Code Copilot và so sánh bằng component chung	Code màn hình nghiên cứu bằng dữ liệu mẫu	Dùng form, chat/result và bảng chung để nhập câu hỏi, chọn công ty/kỳ, xem response/so sánh mẫu. Thêm partial/insufficient-data/refusal và retry; không làm streaming tùy biến, backend RAG hoặc tư vấn đầu tư.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Các luồng đã chốt chạy với mock và nhãn rõ; filter/payload đúng, kết quả chờ/lỗi/thiếu ...~~
+
+~~	S2-WBS23	Code nguồn, history, watchlist và feedback bằng mock	Code màn hình nghiên cứu bằng dữ liệu mẫu	Tái dùng modal/detail/list/form để mở citation ID, xem locator/fact/provenance, xem/xóa history, pin/unpin và feedback. Chỉ mô phỏng lưu theo user, chưa xây backend lưu trữ; xác nhận thao tác xóa và thử lỗi bằng fixture.	Dashboard, Copilot, so sánh, nguồn, history, watchlist, feedback và graph theo phạm vi chạy được bằng mock.	Các luồng MVP chạy được với mock, không trùng watchlist và không m...~~
+
+~~	S2-WBS28	Lead UI review bản code và nghiệm thu bàn giao	Nghiệm thu dữ liệu và frontend, bàn giao	Huyền đối chiếu code của Vũ/Nhân với bản thiết kế và prototype, chạy smoke test màn hình/route/trạng thái bằng mock trên bản build sạch. Ghi lỗi chặn về đúng task để chủ task sửa, xác nhận lại sau sửa; không làm lại toàn bộ QA.	Có bằng chứng độ phủ/chất lượng dữ liệu, prototype và frontend source chạy được; API thật/auth được bàn giao sang Sprint 3–4.	Có checklist đối chiếu thiết kế–code và biên bản...~~
+
+~~	S3-WBS34	Kiểm thử E2E vector retrieval	Embedding và pgvector	Bước 1: Chọn một tài liệu sạch và chạy toàn bộ đường đi: Vũ chia đoạn, Nhân tạo/lưu vector, rồi tìm lại đoạn bằng câu hỏi. Bước 2: So số đoạn, mã nguồn, phiên bản và trích dẫn ở từng bước. Bước 3: Chạy lại để kiểm tra không trùng; lỗi nào chưa sửa được phải ghi rõ người phụ trách.	Tạo, lưu và truy vấn vector đúng corpus, công ty và kỳ.	Ca E2E qua hoặc có lỗi kèm owner rõ; không trộn version.	Kế hoạch Sprint 3 đã chốt theo 4 người vect...~~
+
+~~								2	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	141	122	28 task; 142h.~~
+
+~~								3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	150	137	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~	Số task	28	Giờ dự kiến	141	Tổng giờ thực tế đã ghi	122																							~~
+
+~~Kết quả cần có: Có file sơ đồ luồng/sitemap chỉnh sửa được, liệt kê đủ màn hình, quyền và đường quay lại; nhóm duyệt trước khi thiết kế wireframe.	Trần Diệu Huyền	Đã hoàn thành	2		Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền làm lead UI, đối chiếu use case MVP để vẽ sơ đồ màn hình theo vai trò và luồng đăng nhập, chọn công ty, hỏi, xem nguồn, history/watchlist. Chỉ vẽ luồng cần code Sprint 2, không thêm xuất PDF/Markdown.	Có file sơ ...~~
+
+~~Kết quả cần có: Có file thiết kế chỉnh sửa được gồm style, component mẫu và các trạng thái; nhóm xác nhận tính nhất quán với wireframe.	Trần Diệu Huyền	Đã hoàn thành	4		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền chốt màu, chữ, khoảng cách, bảng, form, nút, citation marker và các trạng thái loading/empty/error/missing-data từ sitemap đã duyệt và bộ component sẵn có. Có thể làm quy tắc chung song song với wireframe của Nhân; áp dụng ...~~
+
+~~Kết quả cần có: Routes và trạng thái truy cập hoạt động với mock, các phần cần API thật được liệt kê. Có smoke test điều hướng tuần 1.	Trần Diệu Huyền	Đã hoàn thành	5		Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền dùng router chung để nối màn hình, code form login/logout, phiên hết hạn và vai trò mẫu. Có thể chuẩn bị route map và phiên mẫu từ sitemap trong khi Nhân làm wireframe; chỉ ghép layout và smoke test điều hướng khi skeleton/c...~~
+
+~~Kết quả cần có: Có checklist duyệt từng mốc wireframe, review prototype, danh sách lỗi chặn và bộ file thiết kế/API mock bàn giao; chỉ chốt khi đủ hai mốc.	Trần Diệu Huyền	Đã hoàn thành	4		Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền review từng mốc wireframe của Nhân ngay khi bàn giao, ghi rõ màn hình đã duyệt/chờ sửa và bàn giao cho Vũ bắt đầu prototype phần tương ứng. Sau đó review prototype đầy đủ so với sitemap, wireframe, visua...~~
+
+~~Kết quả cần có: Các luồng đã chốt chạy với mock và nhãn rõ; filter/payload đúng, kết quả chờ/lỗi/thiếu không bị hiển thị như verified.	Trần Diệu Huyền	Đã hoàn thành	6		Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng form, chat/result và bảng chung để nhập câu hỏi, chọn công ty/kỳ, xem response/so sánh mẫu. Thêm partial/insufficient-data/refusal và retry; không làm streaming tùy biến, backend RAG hoặc tư vấn đầu tư.	Các luồng đã chốt chạy...~~
+
+~~Kết quả cần có: Các luồng MVP chạy được với mock, không trùng watchlist và không mở URL client tùy ý. Không có xuất PDF/Markdown; thiếu API thật được ghi rõ.	Trần Diệu Huyền	Đã hoàn thành	6		Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Tái dùng modal/detail/list/form để mở citation ID, xem locator/fact/provenance, xem/xóa history, pin/unpin và feedback. Chỉ mô phỏng lưu theo user, chưa xây backend lưu trữ; xác nhận thao tác xóa và thử lỗi ...~~
+
+~~Kết quả cần có: Có checklist đối chiếu thiết kế–code và biên bản review UI, bản build chạy được; màn hình lệch thiết kế hoặc lỗi chặn chưa sửa thì chưa ký bàn giao.	Trần Diệu Huyền	Đã hoàn thành	2		Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Huyền đối chiếu code của Vũ/Nhân với bản thiết kế và prototype, chạy smoke test màn hình/route/trạng thái bằng mock trên bản build sạch. Ghi lỗi chặn về đúng task để chủ task sửa, xác nhận lại sau sửa...~~
+
+~~					Tổng giờ theo task			141	122																				~~
+
+~~					Giờ đã ghi theo ngày				122							7	12	13	13	11	6	0	12	13	13	11	11	0	0~~
+
+~~Đường theo ngày gồm 28 task ước tính (21 theo nhật ký giờ, 7 theo deadline).												~~
+
+~~Giờ thực tế	122	Bắt đầu	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					~~
+
+~~Ưu tiên ngày thực tế ở cột P, rồi ngày cuối có ghi giờ, rồi deadline. Xem nguồn từng task ở cột K–M. Hàng Hiện tại lấy trạng thái từ backlog.										S2-WBS13	Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Sun Sep 27 2026 07:00:00 GMT+0700 (Indochina Time)	28		0	28	28			0		S2-WBS15	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Mon Sep 28 2026 07:00:00 GMT+0700 (Indochina Time)	28	1	1	27	26	7	7	2		S2-WBS16	Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Tue Sep 29 2026 07:00:00 GMT+0700 (Indochina Time)	28	2	3	25	24	12	19	4		S2-WBS17	Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Wed Sep 30 2026 07:00:00 GMT+0700 (Indochina Time)	28	2	5	23	22	13	32	6		S2-WBS18	Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	28	3	8	20	20	13	45	8		S2-WBS19	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	28	4	12	16	18	11	56	10		S2-WBS20	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Sat Oct 03 2026 07:00:00 GMT+0700 (Indochina Time)	28	2	14	14	16	6	62	12		S2-WBS21	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sun Oct 04 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	14	14	14		62	14		S2-WBS22	Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Mon Oct 05 2026 07:00:00 GMT+0700 (Indochina Time)	28	1	15	13	12	12	74	16		S2-WBS23	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	28	3	18	10	10	13	87	18		S2-WBS24	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Wed Oct 07 2026 07:00:00 GMT+0700 (Indochina Time)	28	3	21	7	8	13	100	20		S2-WBS25	Fri Oct 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Thu Oct 08 2026 07:00:00 GMT+0700 (Indochina Time)	28	1	22	6	6	11	111	22		S2-WBS26	Tue Oct 06 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	28	6	28	0	4	11	122	24		S2-WBS27	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sat Oct 10 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	28	0	2		122	26		S2-WBS28	Fri Oct 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Sun Oct 11 2026 07:00:00 GMT+0700 (Indochina Time)	28	0	28	0	0		122	28				~~
+
+~~	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	137																							~~
+
+~~	Sprint 3	S3-WBS34	S3-G02	2	Kiểm thử E2E vector retrieval	Hồ Phạm Đăng Nhân	Đã hoàn thành	4		Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Chọn một tài liệu sạch và chạy toàn bộ đường đi: Vũ chia đoạn, Nhân tạo/lưu vector, rồi tìm lại đoạn bằng câu hỏi. Bước 2: So số đoạn, mã nguồn, phiên bản và trích dẫn ở từng bước. Bước 3: Chạy lại để kiểm tra không trùng; lỗi nào chưa sửa được phải ghi rõ người phụ trách.	Ca E2E qua hoặc có lỗi ...~~
+
+~~					Tổng giờ theo task			150	137																				~~
+
+~~					Giờ đã ghi theo ngày				136							12	18	15	12	12	4	3	16	12	11	8	13	0	0~~
+
+~~Đường theo ngày gồm 36 task ước tính (35 theo nhật ký giờ, 1 theo deadline).												~~
+
+~~Giờ thực tế	137	Bắt đầu	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					~~
+
+~~										S3-WBS34	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	36	2	30	6	3.6	8	123	32.4		S3-WBS35	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	36	6	36	0	0	13	136	36		S3-WBS09	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sat Oct 24 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	36	0	0		136	36		S3-WBS14	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	36	0	0		136	36		S3-WBS22	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Đường theo ngày gồm 20 task ước tính (15 theo nhật ký giờ, 5 theo deadline).												~~
+
+~~										S5-WBS04.2	#REF!	#REF!~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	5	16	24	20		48	20		S5-WBS08.1	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	16	24	17.14	6	54	22.86		S5-WBS08.3	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	17	23	14.29	6	60	25.71		S5-WBS05.2		~~
+
+~~Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	17	23	11.43	3	63	28.57		S5-WBS10.1	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	19	21	8.57	3	66	31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
 ## 2026-11-19 10:37 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
