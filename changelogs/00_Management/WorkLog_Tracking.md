@@ -1,5 +1,229 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-19 07:27 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-19 07:27
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S3-WBS01	Chốt hợp đồng chunk ID và cấu trúc nguồn	Chunk và vị trí nguồn	Bước 1: Cùng Hưng thống nhất mỗi đoạn tài liệu sẽ mang những thông tin nào: mã đoạn, mã tài liệu, phiên bản dữ liệu và vị trí trang/mục/bảng. Bước 2: Viết 2 đoạn dữ liệu mẫu theo đúng cấu trúc đó để mọi người có thể code song song. Bước 3: Kiểm tra cùng một đoạn luôn nhận cùng mã khi chạy lại.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Có schema và fixture được nhóm chấp nhận; chunk ID ổn định k...**
+
+🟢 **	S3-WBS06	Nâng cấp chunker cho mục và bảng	Chunk và vị trí nguồn	Bước 1: Lấy tài liệu BCTC/BCTN đã chuẩn hóa ở Sprint 2, xem các mục và bảng dài thường bị cắt sai ở đâu. Bước 2: Nâng cấp bộ chia đoạn hiện có để mỗi đoạn có nội dung đủ hiểu và không xé ngang bảng số liệu. Bước 3: Viết ví dụ kiểm tra cho văn bản thường, bảng nhiều dòng và chạy lại để chắc không sinh đoạn rỗng hoặc trùng mã.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Các fixture cho ra chunk không rỗng,...**
+
+🟢 **	S3-WBS11	Gắn locator vào từng chunk	Chunk và vị trí nguồn	Bước 1: Với mỗi đoạn Vũ đã chia, lưu rõ nó đến từ tài liệu nào, trang nào, mục hoặc bảng nào. Bước 2: Lấy vài đoạn mẫu, bấm/mở lại tài liệu gốc tại vị trí ghi trong đoạn. Bước 3: Sửa các trường hợp trích dẫn nhảy sai trang, sai bảng hoặc không mở được.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Chunk mẫu truy được vị trí nguồn chính xác trong tài liệu.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ ...**
+
+🟢 **	S3-WBS16	Tạo manifest chunk phiên bản đầu	Chunk và vị trí nguồn	Bước 1: Ghi một bản kê cho lần chia tài liệu: tài liệu đầu vào, mã kiểm tra nội dung, cấu hình chia đoạn và danh sách mã đoạn. Bước 2: Chạy lại cùng tài liệu để xác nhận không tạo bản sao. Bước 3: Thay một tài liệu mẫu và kiểm tra bản kê cho biết chính xác phần nào đã đổi.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Có manifest phiên bản và danh sách thay đổi khi nguồn đổi.	Kế hoạch Sprint 3 đã chốt theo...**
+
+🟢 **	S3-WBS19	Ổn định chunker trên tài liệu khó	Chunk và vị trí nguồn	Bước 1: Thử bộ chia đoạn trên báo cáo có bảng dài, nhiều cột, đổi trang hoặc tiêu đề không đều. Bước 2: Ghi lại từng lỗi và sửa các lỗi nằm trong phạm vi 3 giờ đã phân. Bước 3: Chạy lại toàn bộ ví dụ cũ để chắc sửa bảng khó không làm hỏng tài liệu đơn giản; ghi rõ phần chưa hỗ trợ.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Test hồi quy trên mẫu khó qua; giới hạn còn lại được ghi cụ thể.	Kế hoạch Sprin...**
+
+🟢 **	S3-WBS24	Kiểm tra citation locator đầu-cuối	Chunk và vị trí nguồn	Bước 1: Lấy một câu trả lời mẫu của B1 và mở từng trích dẫn về đúng đoạn nguồn. Bước 2: Kiểm tra đặc biệt bảng trải nhiều trang và hai phiên bản cùng một tài liệu. Bước 3: Sửa trường hợp trích dẫn sai trang, sai bảng hoặc trỏ sang phiên bản dữ liệu khác.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Citation mẫu dẫn đúng document/trang/bảng và không dùng chunk khác version.	Kế hoạch Sprint 3 đã chốt theo...**
+
+🟢 **	S3-WBS29	Rà soát chéo Golden40 theo lô	Golden40 và đánh giá	Bước 1: Nhận Golden40 theo từng lô 10 câu từ Huyền, không chờ đủ 40 mới bắt đầu. Bước 2: Với mỗi câu, mở tài liệu gốc, kiểm tra đáp án, đơn vị/kỳ và vị trí nguồn; ghi đúng/sai và lý do. Bước 3: Trả danh sách bất đồng cho Huyền sửa, rồi xác nhận lại trước khi bộ câu hỏi được khóa.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	Mỗi ca có dấu review người thứ hai; không còn lỗi nguồn âm thầm.	Kế hoạch Sprint ...**
+
+🟢 **								3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	150	73	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	73																							**
+
+🟢 **	Sprint 3	S3-WBS01	S3-G01	1	Chốt hợp đồng chunk ID và cấu trúc nguồn	Đinh Huỳnh Vũ	Đã hoàn thành	2	1	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cùng Hưng thống nhất mỗi đoạn tài liệu sẽ mang những thông tin nào: mã đoạn, mã tài liệu, phiên bản dữ liệu và vị trí trang/mục/bảng. Bước 2: Viết 2 đoạn dữ liệu mẫu theo đúng cấu trúc đó để mọi người có thể code song song. Bước 3: Kiểm tra cùng một đoạn luôn nhận cùng mã khi chạy lại.	Có...**
+
+🟢 **	Sprint 3	S3-WBS06	S3-G01	1	Nâng cấp chunker cho mục và bảng	Đinh Huỳnh Vũ	Đã hoàn thành	7	6	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy tài liệu BCTC/BCTN đã chuẩn hóa ở Sprint 2, xem các mục và bảng dài thường bị cắt sai ở đâu. Bước 2: Nâng cấp bộ chia đoạn hiện có để mỗi đoạn có nội dung đủ hiểu và không xé ngang bảng số liệu. Bước 3: Viết ví dụ kiểm tra cho văn bản thường, bảng nhiều dòng và chạy lại để chắc không sinh đoạ...**
+
+🟢 **	Sprint 3	S3-WBS11	S3-G01	1	Gắn locator vào từng chunk	Đinh Huỳnh Vũ	Đã hoàn thành	4	5	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Với mỗi đoạn Vũ đã chia, lưu rõ nó đến từ tài liệu nào, trang nào, mục hoặc bảng nào. Bước 2: Lấy vài đoạn mẫu, bấm/mở lại tài liệu gốc tại vị trí ghi trong đoạn. Bước 3: Sửa các trường hợp trích dẫn nhảy sai trang, sai bảng hoặc không mở được.	Chunk mẫu truy được vị trí nguồn chính xác trong tài liệu....**
+
+🟢 **	Sprint 3	S3-WBS16	S3-G01	1	Tạo manifest chunk phiên bản đầu	Đinh Huỳnh Vũ	Đã hoàn thành	2	1	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Ghi một bản kê cho lần chia tài liệu: tài liệu đầu vào, mã kiểm tra nội dung, cấu hình chia đoạn và danh sách mã đoạn. Bước 2: Chạy lại cùng tài liệu để xác nhận không tạo bản sao. Bước 3: Thay một tài liệu mẫu và kiểm tra bản kê cho biết chính xác phần nào đã đổi.	Có manifest phiên bản và danh s...**
+
+🟢 **	Sprint 3	S3-WBS19	S3-G01	2	Ổn định chunker trên tài liệu khó	Đinh Huỳnh Vũ	Đã hoàn thành	3	3	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Thử bộ chia đoạn trên báo cáo có bảng dài, nhiều cột, đổi trang hoặc tiêu đề không đều. Bước 2: Ghi lại từng lỗi và sửa các lỗi nằm trong phạm vi 3 giờ đã phân. Bước 3: Chạy lại toàn bộ ví dụ cũ để chắc sửa bảng khó không làm hỏng tài liệu đơn giản; ghi rõ phần chưa hỗ trợ.	Test hồi quy trên mẫu...**
+
+🟢 **	Sprint 3	S3-WBS24	S3-G01	2	Kiểm tra citation locator đầu-cuối	Đinh Huỳnh Vũ	Đã hoàn thành	4	5	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy một câu trả lời mẫu của B1 và mở từng trích dẫn về đúng đoạn nguồn. Bước 2: Kiểm tra đặc biệt bảng trải nhiều trang và hai phiên bản cùng một tài liệu. Bước 3: Sửa trường hợp trích dẫn sai trang, sai bảng hoặc trỏ sang phiên bản dữ liệu khác.	Citation mẫu dẫn đúng document/trang/bảng và khô...**
+
+🟢 **	Sprint 3	S3-WBS29	S3-G06	2	Rà soát chéo Golden40 theo lô	Đinh Huỳnh Vũ	Đã hoàn thành	8		Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nhận Golden40 theo từng lô 10 câu từ Huyền, không chờ đủ 40 mới bắt đầu. Bước 2: Với mỗi câu, mở tài liệu gốc, kiểm tra đáp án, đơn vị/kỳ và vị trí nguồn; ghi đúng/sai và lý do. Bước 3: Trả danh sách bất đồng cho Huyền sửa, rồi xác nhận lại trước khi bộ câu hỏi được khóa.	Mỗi ca có dấu review người t...**
+
+🟢 **					Tổng giờ theo task			150	73																				**
+
+🟢 **					Giờ đã ghi theo ngày				67							6	12	9	6	6	1	0	10	6	5	3	3	0	0**
+
+🟢 **Hiện tại: 32/36 task Done · còn 4 task · 32 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 32 task ước tính (18 theo nhật ký giờ, 14 theo deadline).												**
+
+🟢 **Phạm vi (task)	36	Done hiện tại	32	Giờ dự kiến	150	Done thiếu ngày	32					**
+
+🟢 **Giờ thực tế	73	Bắt đầu	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **										S3-WBS01	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S3-WBS06	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S3-WBS11	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S3-WBS16	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S3-WBS19	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S3-WBS24	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S3-WBS29	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	36	4	4	32	32.4	6	6	3.6		S3-WBS28	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	36	2	6	30	28.8	12	18	7.2		S3-WBS33	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	36	5	11	25	25.2	9	27	10.8		S3-WBS36		**
+
+🟢 **Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	36	1	12	24	21.6	6	33	14.4		S3-WBS03	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	36	5	17	19	18	6	39	18		S3-WBS08	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Oct 17 2026 07:00:00 GMT+0700 (Indochina Time)	36	1	18	18	18	1	40	18		S3-WBS13	Sat Oct 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Oct 18 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	18	18	18		40	18		S3-WBS18	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	36	3	21	15	14.4	10	50	21.6		S3-WBS21	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	36	1	22	14	10.8	6	56	25.2		S3-WBS26	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	36	4	26	10	7.2	5	61	28.8		S3-WBS31	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	36	3	29	7	3.6	3	64	32.4		S3-WBS35	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	36	3	32	4	0	3	67	36		S3-WBS04	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sat Oct 24 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	32	4	0		67	36		S3-WBS09	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	32	4	0		67	36		S3-WBS14	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Hiện tại	36		32	4						S3-WBS22	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 3h.												**
+
+🟢 **Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	16	24	8.57	3	26	31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	69	61	0.8840579710144928	342	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								**
+
+🟢 **Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	S3-G01	3	Chia tài liệu thành đoạn có nguồn	Có cấu hình chia đoạn và ví dụ trước sau để nhóm duyệt.**
+
+🟢 **Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	6	6	1	Đã hoàn thành	22	21	Sprint 3 Backlog**
+
+🟢 **Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	6	0.8571428571428571	Đang làm	38		Sprint 3 Backlog**
+
+🟢 **Task đã hoàn thành	129		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						**
+
+🟢 **Độ hoàn thành	0.6482412060301508		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						**
+
+🟢 **Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	6	6	1	Đã hoàn thành	Ngày và phân công là kế hoạch đề xuất.**
+
+🟢 **Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	6	0.8571428571428571	Đang làm	Ngày và phân công là kế hoạch đề xuất.**
+
+~~	S3-WBS01	Chốt hợp đồng chunk ID và cấu trúc nguồn	Chunk và vị trí nguồn	Bước 1: Cùng Hưng thống nhất mỗi đoạn tài liệu sẽ mang những thông tin nào: mã đoạn, mã tài liệu, phiên bản dữ liệu và vị trí trang/mục/bảng. Bước 2: Viết 2 đoạn dữ liệu mẫu theo đúng cấu trúc đó để mọi người có thể code song song. Bước 3: Kiểm tra cùng một đoạn luôn nhận cùng mã khi chạy lại.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Có schema và fixture được nhóm chấp nhận; chunk ID ổn định k...~~
+
+~~	S3-WBS06	Nâng cấp chunker cho mục và bảng	Chunk và vị trí nguồn	Bước 1: Lấy tài liệu BCTC/BCTN đã chuẩn hóa ở Sprint 2, xem các mục và bảng dài thường bị cắt sai ở đâu. Bước 2: Nâng cấp bộ chia đoạn hiện có để mỗi đoạn có nội dung đủ hiểu và không xé ngang bảng số liệu. Bước 3: Viết ví dụ kiểm tra cho văn bản thường, bảng nhiều dòng và chạy lại để chắc không sinh đoạn rỗng hoặc trùng mã.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Các fixture cho ra chunk không rỗng,...~~
+
+~~	S3-WBS11	Gắn locator vào từng chunk	Chunk và vị trí nguồn	Bước 1: Với mỗi đoạn Vũ đã chia, lưu rõ nó đến từ tài liệu nào, trang nào, mục hoặc bảng nào. Bước 2: Lấy vài đoạn mẫu, bấm/mở lại tài liệu gốc tại vị trí ghi trong đoạn. Bước 3: Sửa các trường hợp trích dẫn nhảy sai trang, sai bảng hoặc không mở được.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Chunk mẫu truy được vị trí nguồn chính xác trong tài liệu.	Kế hoạch Sprint 3 đã chốt theo 4 người vector + Quân phụ ...~~
+
+~~	S3-WBS16	Tạo manifest chunk phiên bản đầu	Chunk và vị trí nguồn	Bước 1: Ghi một bản kê cho lần chia tài liệu: tài liệu đầu vào, mã kiểm tra nội dung, cấu hình chia đoạn và danh sách mã đoạn. Bước 2: Chạy lại cùng tài liệu để xác nhận không tạo bản sao. Bước 3: Thay một tài liệu mẫu và kiểm tra bản kê cho biết chính xác phần nào đã đổi.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Có manifest phiên bản và danh sách thay đổi khi nguồn đổi.	Kế hoạch Sprint 3 đã chốt theo...~~
+
+~~	S3-WBS19	Ổn định chunker trên tài liệu khó	Chunk và vị trí nguồn	Bước 1: Thử bộ chia đoạn trên báo cáo có bảng dài, nhiều cột, đổi trang hoặc tiêu đề không đều. Bước 2: Ghi lại từng lỗi và sửa các lỗi nằm trong phạm vi 3 giờ đã phân. Bước 3: Chạy lại toàn bộ ví dụ cũ để chắc sửa bảng khó không làm hỏng tài liệu đơn giản; ghi rõ phần chưa hỗ trợ.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Test hồi quy trên mẫu khó qua; giới hạn còn lại được ghi cụ thể.	Kế hoạch Sprin...~~
+
+~~	S3-WBS24	Kiểm tra citation locator đầu-cuối	Chunk và vị trí nguồn	Bước 1: Lấy một câu trả lời mẫu của B1 và mở từng trích dẫn về đúng đoạn nguồn. Bước 2: Kiểm tra đặc biệt bảng trải nhiều trang và hai phiên bản cùng một tài liệu. Bước 3: Sửa trường hợp trích dẫn sai trang, sai bảng hoặc trỏ sang phiên bản dữ liệu khác.	Tài liệu được chia thành đoạn có ID, vị trí nguồn và phiên bản ổn định.	Citation mẫu dẫn đúng document/trang/bảng và không dùng chunk khác version.	Kế hoạch Sprint 3 đã chốt theo...~~
+
+~~	S3-WBS29	Rà soát chéo Golden40 theo lô	Golden40 và đánh giá	Bước 1: Nhận Golden40 theo từng lô 10 câu từ Huyền, không chờ đủ 40 mới bắt đầu. Bước 2: Với mỗi câu, mở tài liệu gốc, kiểm tra đáp án, đơn vị/kỳ và vị trí nguồn; ghi đúng/sai và lý do. Bước 3: Trả danh sách bất đồng cho Huyền sửa, rồi xác nhận lại trước khi bộ câu hỏi được khóa.	Bộ 40 ca hiệu chỉnh có đáp án, vị trí nguồn, rà soát chéo và phiên bản khóa.	Mỗi ca có dấu review người thứ hai; không còn lỗi nguồn âm thầm.	Kế hoạch Sprint ...~~
+
+~~								3	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	150	52	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 6h.												~~
+
+~~	Số task	36	Giờ dự kiến	150	Tổng giờ thực tế đã ghi	52																							~~
+
+~~	Sprint 3	S3-WBS01	S3-G01	1	Chốt hợp đồng chunk ID và cấu trúc nguồn	Đinh Huỳnh Vũ	Đã hoàn thành	2		Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cùng Hưng thống nhất mỗi đoạn tài liệu sẽ mang những thông tin nào: mã đoạn, mã tài liệu, phiên bản dữ liệu và vị trí trang/mục/bảng. Bước 2: Viết 2 đoạn dữ liệu mẫu theo đúng cấu trúc đó để mọi người có thể code song song. Bước 3: Kiểm tra cùng một đoạn luôn nhận cùng mã khi chạy lại.	Có ...~~
+
+~~	Sprint 3	S3-WBS06	S3-G01	1	Nâng cấp chunker cho mục và bảng	Đinh Huỳnh Vũ	Đã hoàn thành	7		Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy tài liệu BCTC/BCTN đã chuẩn hóa ở Sprint 2, xem các mục và bảng dài thường bị cắt sai ở đâu. Bước 2: Nâng cấp bộ chia đoạn hiện có để mỗi đoạn có nội dung đủ hiểu và không xé ngang bảng số liệu. Bước 3: Viết ví dụ kiểm tra cho văn bản thường, bảng nhiều dòng và chạy lại để chắc không sinh đoạn...~~
+
+~~	Sprint 3	S3-WBS11	S3-G01	1	Gắn locator vào từng chunk	Đinh Huỳnh Vũ	Đã hoàn thành	4		Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Với mỗi đoạn Vũ đã chia, lưu rõ nó đến từ tài liệu nào, trang nào, mục hoặc bảng nào. Bước 2: Lấy vài đoạn mẫu, bấm/mở lại tài liệu gốc tại vị trí ghi trong đoạn. Bước 3: Sửa các trường hợp trích dẫn nhảy sai trang, sai bảng hoặc không mở được.	Chunk mẫu truy được vị trí nguồn chính xác trong tài liệu.	...~~
+
+~~	Sprint 3	S3-WBS16	S3-G01	1	Tạo manifest chunk phiên bản đầu	Đinh Huỳnh Vũ	Đã hoàn thành	2		Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Ghi một bản kê cho lần chia tài liệu: tài liệu đầu vào, mã kiểm tra nội dung, cấu hình chia đoạn và danh sách mã đoạn. Bước 2: Chạy lại cùng tài liệu để xác nhận không tạo bản sao. Bước 3: Thay một tài liệu mẫu và kiểm tra bản kê cho biết chính xác phần nào đã đổi.	Có manifest phiên bản và danh sá...~~
+
+~~	Sprint 3	S3-WBS19	S3-G01	2	Ổn định chunker trên tài liệu khó	Đinh Huỳnh Vũ	Đang test	3		Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Thử bộ chia đoạn trên báo cáo có bảng dài, nhiều cột, đổi trang hoặc tiêu đề không đều. Bước 2: Ghi lại từng lỗi và sửa các lỗi nằm trong phạm vi 3 giờ đã phân. Bước 3: Chạy lại toàn bộ ví dụ cũ để chắc sửa bảng khó không làm hỏng tài liệu đơn giản; ghi rõ phần chưa hỗ trợ.	Test hồi quy trên mẫu khó ...~~
+
+~~	Sprint 3	S3-WBS24	S3-G01	2	Kiểm tra citation locator đầu-cuối	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Lấy một câu trả lời mẫu của B1 và mở từng trích dẫn về đúng đoạn nguồn. Bước 2: Kiểm tra đặc biệt bảng trải nhiều trang và hai phiên bản cùng một tài liệu. Bước 3: Sửa trường hợp trích dẫn sai trang, sai bảng hoặc trỏ sang phiên bản dữ liệu khác.	Citation mẫu dẫn đúng document/trang/bảng và không...~~
+
+~~	Sprint 3	S3-WBS29	S3-G06	2	Rà soát chéo Golden40 theo lô	Đinh Huỳnh Vũ	Chưa bắt đầu	8		Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Nhận Golden40 theo từng lô 10 câu từ Huyền, không chờ đủ 40 mới bắt đầu. Bước 2: Với mỗi câu, mở tài liệu gốc, kiểm tra đáp án, đơn vị/kỳ và vị trí nguồn; ghi đúng/sai và lý do. Bước 3: Trả danh sách bất đồng cho Huyền sửa, rồi xác nhận lại trước khi bộ câu hỏi được khóa.	Mỗi ca có dấu review người th...~~
+
+~~					Tổng giờ theo task			150	52																				~~
+
+~~					Giờ đã ghi theo ngày				46							5	9	6	3	3	1	0	7	3	3	3	3	0	0~~
+
+~~Hiện tại: 29/36 task Done · còn 7 task · 29 Done thiếu ngày												~~
+
+~~Đường theo ngày gồm 29 task ước tính (12 theo nhật ký giờ, 17 theo deadline).												~~
+
+~~Phạm vi (task)	36	Done hiện tại	29	Giờ dự kiến	150	Done thiếu ngày	29					~~
+
+~~Giờ thực tế	52	Bắt đầu	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					~~
+
+~~										S3-WBS01	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~										S3-WBS06	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~										S3-WBS11	Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~										S3-WBS16	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~										S3-WBS19		~~
+
+~~										S3-WBS24		~~
+
+~~										S3-WBS29		~~
+
+~~Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	36	4	4	32	32.4	5	5	3.6		S3-WBS28	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	36	2	6	30	28.8	9	14	7.2		S3-WBS33	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	36	5	11	25	25.2	6	20	10.8		S3-WBS36		~~
+
+~~Thu Oct 15 2026 07:00:00 GMT+0700 (Indochina Time)	36	2	13	23	21.6	3	23	14.4		S3-WBS03	Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	36	4	17	19	18	3	26	18		S3-WBS08	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sat Oct 17 2026 07:00:00 GMT+0700 (Indochina Time)	36	1	18	18	18	1	27	18		S3-WBS13	Sat Oct 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sun Oct 18 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	18	18	18		27	18		S3-WBS18	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Mon Oct 19 2026 07:00:00 GMT+0700 (Indochina Time)	36	2	20	16	14.4	7	34	21.6		S3-WBS21	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	36	1	21	15	10.8	3	37	25.2		S3-WBS26	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	36	3	24	12	7.2	3	40	28.8		S3-WBS31	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	36	2	26	10	3.6	3	43	32.4		S3-WBS35	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	36	3	29	7	0	3	46	36		S3-WBS04	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Sat Oct 24 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	29	7	0		46	36		S3-WBS09	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	29	7	0		46	36		S3-WBS14	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Hiện tại	36		29	7						S3-WBS22	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40				8.57			31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Thu Oct 01 2026 07:00:00 GMT+0700 (Indochina Time)	69	58	0.8405797101449275	342	Corpus hợp lệ, tài khoản, vector RAG B1 và 40 câu hiệu chỉnh. Bắt đầu graph.								~~
+
+~~Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	S3-G01	3	Chia tài liệu thành đoạn có nguồn	Có cấu hình chia đoạn và ví dụ trước sau để nhóm duyệt.~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	4	0.6666666666666666	Đang test	22		Sprint 3 Backlog~~
+
+~~Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	5	0.7142857142857143	Đang làm	38		Sprint 3 Backlog~~
+
+~~Task đã hoàn thành	126		Lưu ý	100% task chỉ có nghĩa task đã đánh dấu xong.						~~
+
+~~Độ hoàn thành	0.6331658291457286		Điều kiện nghiệm thu	Có bằng chứng cho mọi yêu cầu Must và kết luận review cuối.						~~
+
+~~Chạy lại không sinh chunk trùng; chunk cũ không bị dùng nhầm phiên bản.	Tue Oct 20 2026 07:00:00 GMT+0700 (Indochina Time)	6	4	0.6666666666666666	Đang test	Ngày và phân công là kế hoạch đề xuất.~~
+
+~~Bộ 40 ca có manifest và không lộ nhãn bộ cuối vào runtime.	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	7	5	0.7142857142857143	Đang làm	Ngày và phân công là kế hoạch đề xuất.~~
+
 ## 2026-11-18 20:42 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
