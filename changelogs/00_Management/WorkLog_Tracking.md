@@ -1,5 +1,309 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-19 09:32 - SUA NOI DUNG
+
+- **Người đăng:** dunhvu47@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-19 09:32
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **4. Bàn giao quan hệ ứng viên có đoạn nguồn; thử ca nhiều chức vụ, nhiều công ty, thiếu thời gian và nguồn mâu thuẫn.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Quan hệ chức vụ đủ người, tổ chức, chức danh và provenance; không nhầm trạng thái hoặc thời gian; ca chưa rõ được đánh dấu.	Tuần 1. Phụ thuộc / làm trước: WBS01; dùng WBS02 thật để nghiệm thu. Có thể làm bằng fixture song song WBS03/WBS05 và phần lưu metadata WBS...**
+
+🟢 **4. Kiểm tra quyền đọc/ghi thực tế của ứng dụng. Thử migration trên môi trường được phép và lưu bằng chứng; chưa gắn graph chưa hoàn tất vào corpus đang dùng.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Repository/migration được kiểm tra; metadata truy lại được nguồn; có giới hạn quyền và kiểm tra chống trùng/phiên bản. Không coi đã bật RLS là đủ nghiệm thu.	Tuần 1. Phụ thuộc / làm trước: WBS01 và trạng thái WBS06 (có thể...**
+
+🟢 **4. Chạy hồi quy các câu B1 đã hoạt động và bàn giao adapter thật cho WBS13.	Dùng lại nhánh B1 với đúng scope, giữ evidence và trạng thái rỗng/lỗi rõ ràng.	VECTOR chạy được nguồn thật, giữ phạm vi/metadata và không làm hỏng B1; có test các ca rỗng/lỗi.	Tuần 2. Phụ thuộc / làm trước: WBS10 và Vector RAG Sprint 3. Không chờ WBS09. Làm sớm đầu tuần 2 để Vũ còn thời gian WBS16.	Cao	Đã hoàn thành	S4-G05	FinMind	4	4	6	Đinh Huỳnh Vũ	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 03 2026 07:0...**
+
+🟢 **5. Làm điều phối bằng hai adapter fixture trước; nối WBS11/WBS12 thật để nghiệm thu.	Chọn VECTOR/GRAPH/BOTH theo ý định; hợp nhất có provenance và không che lỗi nhánh.	BOTH thực sự sử dụng hai nhánh, có bộ evidence chung và trạng thái riêng; không che phần chưa được đáp ứng.	Tuần 2. Phụ thuộc / làm trước: WBS10–12. Có thể bắt đầu bằng fixture ngày 02/11; nghiệm thu sau adapter thật. Bàn giao cho WBS14 và WBS17.	Rất cao	Đã hoàn thành	S4-G04	FinMind	4	7	8	Nguyễn Minh Quân	Mon Nov 02 2026 07:00:00 ...**
+
+🟢 **5. Giữ cấu hình B1 để so sánh; không tự bật Evidence Gate/verifier B3 thuộc sprint sau.	Chat/Graph Viewer trình bày đúng bằng chứng, thời gian và giới hạn của kết quả.	Câu trả lời/citation truy lại được nguồn, không bịa quan hệ/số liệu hoặc che lỗi nhánh; có test và gói bàn giao.	Tuần 2. Phụ thuộc / làm trước: Evidence contract và WBS11–13. Có thể chuẩn bị formatter/citation bằng fixture trước, nghiệm thu sau tuyến thật.	Cao	Đã hoàn thành	S4-G06	FinMind	4	6	9	Nguyễn Minh Quân	Tue Nov 03 2026 07:...**
+
+🟢 **5. Bàn giao báo cáo full-load, lỗi còn lại và phiên dữ liệu. 8h là công chuẩn bị, theo dõi và đối chiếu, không phải cam kết thời gian máy/LLM hay duyệt thủ công mọi quan hệ.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Toàn bộ News đã chốt có trạng thái, không mất tin lỗi; có báo cáo mẫu/full-load riêng và danh sách lỗi chưa xử lý. Không coi mọi quan hệ trích xuất là đã được chấp nhận.	Tuần 2. Phụ thuộc / làm trước: WBS01...**
+
+🟢 **	S5-WBS01.1	Tái hiện lỗi hỏi chức vụ và BCTN	#REF!	Chạy hai câu hỏi trên Web Chat, đối chiếu graph và BCTN trong DB, ghi trace từ router tới truy xuất.	#REF!	Có hai câu mẫu, dữ liệu đối chiếu và bước chọn sai nguồn hoặc chặn tìm kiếm.	Dữ liệu Sprint 4	Cao	Đã hoàn thành	S5-G01	FinMind	5	3	6	Đinh Huỳnh Vũ	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS02.1	Tìm điều kiện chặn câu hỏi BCTN	#REF!	Theo dõi luồng từ nhận câu hỏi đến bộ lọc tài liệu, chỉ ra điều kiện chặn.	#REF!	Tái hiện bằng một BCTN có trong DB và xác định đúng bước chặn.	S5-WBS01.1	Cao	Đã hoàn thành	S5-G01	FinMind	5	2	3	Đinh Huỳnh Vũ	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS02.3	Kiểm thử truy xuất BCTN bằng dữ liệu thật	#REF!	Thử BCTN có nguồn, sai kỳ, thiếu tài liệu và không có quyền.	#REF!	Ca có quyền lấy đúng đoạn. Các ca còn lại phản hồi đúng tình trạng.	S5-WBS02.2	Cao	Đang test	S5-G01	FinMind	5	2	9	Đinh Huỳnh Vũ	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS05.2	Nối nhánh GRAPH với Neo4j qua adapter hiện có	#REF!	Dùng graph adapter để lấy quan hệ đã duyệt, chức vụ và nguồn tương ứng.	#REF!	Câu hỏi chức vụ trả đúng người, chức vụ và bằng chứng.	S5-WBS05.1, graph có dữ liệu đã duyệt	Cao	Đang test	S5-G03	FinMind	5	3	3	Đinh Huỳnh Vũ	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **								4	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	128	61	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **								5	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	120	50	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **	Số task	17	Giờ dự kiến	128	Tổng giờ thực tế đã ghi	61		Tuần 1 (h)	65	Tuần 2 (h)	63																		**
+
+🟢 **	Sprint 4	S4-WBS04	S4-G02	1	Trích xuất quan hệ chức vụ	Đinh Huỳnh Vũ	Đã hoàn thành	6	6	Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Xác định người–chức vụ–doanh nghiệp; giữ tên chức vụ gốc và ánh xạ tên chuẩn theo contract.**
+
+🟢 **4. Bàn giao quan hệ ứng viên có đoạn nguồn; thử ca nhiều chức vụ, nhiều công ty, thiếu thời gian và nguồn mâu thuẫn.	Quan hệ chức vụ đủ người, tổ chức, chức danh và provenance; không nhầm trạng thái hoặc thời gian; ca chưa rõ được đánh dấu.	WBS01; dùng WBS02 thật để nghiệm thu. Có thể làm bằng fixture song song WBS03/WBS05 và phần lưu metadata WBS07.		6													**
+
+🟢 **	Sprint 4	S4-WBS07	S4-G02	1	Quản lý metadata và phiên graph trên Supabase	Đinh Huỳnh Vũ	Đã hoàn thành	7	6	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	1. Đối chiếu schema thật, chuẩn bị migration bổ sung liên kết extraction với thực thể, chunk/locator và graph version; chỉ bổ sung phần thiếu.**
+
+🟢 **4. Kiểm tra quyền đọc/ghi thực tế của ứng dụng. Thử migration trên môi trường được phép và lưu bằng chứng; chưa gắn graph chưa hoàn tất vào corpus đang dùng.	Repository/migration được kiểm tra; metadata truy lại được nguồn; có giới hạn quyền và kiểm tra chống trùng/phiên bản. Không coi đã bật RLS là đủ nghiệm thu.	WBS01 và trạng thái WBS06 (có thể chốt interface song song). Dùng repository fixture trước DB thật. Phối hợp khóa extraction/version với Nhân WBS08.			3							3					**
+
+🟢 **	Sprint 4	S4-WBS11	S4-G05	2	Nối nhánh Vector RAG vào Hybrid Router	Đinh Huỳnh Vũ	Đã hoàn thành	4	6	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	1. Bọc vector/BM25 hiện có thành adapter theo WBS10, không làm lại chunking/embedding.**
+
+🟢 **4. Chạy hồi quy các câu B1 đã hoạt động và bàn giao adapter thật cho WBS13.	VECTOR chạy được nguồn thật, giữ phạm vi/metadata và không làm hỏng B1; có test các ca rỗng/lỗi.	WBS10 và Vector RAG Sprint 3. Không chờ WBS09. Làm sớm đầu tuần 2 để Vũ còn thời gian WBS16.				3							3				**
+
+🟢 **	Sprint 4	S4-WBS16	S4-G02	2	Chạy toàn bộ News đã chốt và đối chiếu kết quả	Đinh Huỳnh Vũ	Đã hoàn thành	8	12	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	1. Chuẩn bị batch runner từ danh sách đóng băng WBS01 và interface extractor; có thể dùng fixture từ 02/11.**
+
+🟢 **5. Bàn giao báo cáo full-load, lỗi còn lại và phiên dữ liệu. 8h là công chuẩn bị, theo dõi và đối chiếu, không phải cam kết thời gian máy/LLM hay duyệt thủ công mọi quan hệ.	Toàn bộ News đã chốt có trạng thái, không mất tin lỗi; có báo cáo mẫu/full-load riêng và danh sách lỗi chưa xử lý. Không coi mọi quan hệ trích xuất là đã được chấp nhận.	WBS01–08 và kiểm tra mẫu WBS09.5 đạt. Batch runner làm trước bằng fixture; không cần chờ router/chat/UI. Phụ thuộc hạn mức dịch vụ và quyền chạy dữ liệu thậ...**
+
+🟢 **	Sprint 4	S4-WBS13	S4-G04	2	Thực hiện tuyến BOTH và hợp nhất bằng chứng	Nguyễn Minh Quân	Đã hoàn thành	7	8	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	1. Nhận routing plan và phần yêu cầu của từng nhánh. Gọi VECTOR/GRAPH; nếu vector cần thực thể từ graph thì thực hiện theo thứ tự phù hợp.**
+
+🟢 **5. Làm điều phối bằng hai adapter fixture trước; nối WBS11/WBS12 thật để nghiệm thu.	BOTH thực sự sử dụng hai nhánh, có bộ evidence chung và trạng thái riêng; không che phần chưa được đáp ứng.	WBS10–12. Có thể bắt đầu bằng fixture ngày 02/11; nghiệm thu sau adapter thật. Bàn giao cho WBS14 và WBS17.									8						**
+
+🟢 **	Sprint 4	S4-WBS14	S4-G06	2	Tạo câu trả lời và citation theo kết quả routing	Nguyễn Minh Quân	Đã hoàn thành	6	9	Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	1. Đưa bằng chứng của tuyến được chọn vào phần trả lời hiện có; trả đúng các phần yêu cầu, gắn citation với từng nhận định.**
+
+🟢 **5. Giữ cấu hình B1 để so sánh; không tự bật Evidence Gate/verifier B3 thuộc sprint sau.	Câu trả lời/citation truy lại được nguồn, không bịa quan hệ/số liệu hoặc che lỗi nhánh; có test và gói bàn giao.	Evidence contract và WBS11–13. Có thể chuẩn bị formatter/citation bằng fixture trước, nghiệm thu sau tuyến thật.													9		**
+
+🟢 **					Tổng giờ theo task			128	61																				**
+
+🟢 **					Giờ đã ghi theo ngày				61							6	3	3	0	17	0	0	11	3	3	3	12	0	0**
+
+🟢 **Hiện tại: 13/17 task Done · còn 4 task · 13 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 13 task ước tính (7 theo nhật ký giờ, 6 theo deadline).												**
+
+🟢 **Phạm vi (task)	17	Done hiện tại	13	Giờ dự kiến	128	Done thiếu ngày	13					**
+
+🟢 **Giờ thực tế	61	Bắt đầu	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **										S4-WBS04	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S4-WBS07	Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S4-WBS11	Wed Nov 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S4-WBS16	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S4-WBS13	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S4-WBS14	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	1	16	15.79	6	6	1.21				**
+
+🟢 **Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	1	16	14.57	3	9	2.43				**
+
+🟢 **Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	1	16	13.36	3	12	3.64				**
+
+🟢 **Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	17	2	3	14	12.14		12	4.86				**
+
+🟢 **Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	17	3	6	11	10.93	17	29	6.07				**
+
+🟢 **Sat Oct 31 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	6	11	9.71		29	7.29				**
+
+🟢 **Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	6	11	8.5		29	8.5				**
+
+🟢 **Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	7	10	7.29	11	40	9.71				**
+
+🟢 **Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	8	9	6.07	3	43	10.93				**
+
+🟢 **Wed Nov 04 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	9	8	4.86	3	46	12.14				**
+
+🟢 **Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	10	7	3.64	3	49	13.36				**
+
+🟢 **Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	17	3	13	4	2.43	12	61	14.57				**
+
+🟢 **Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	13	4	1.21		61	15.79				**
+
+🟢 **Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	13	4	0		61	17				**
+
+🟢 **Hiện tại	17		13	4								**
+
+🟢 **	Số task	40	Giờ dự kiến	120	Tổng giờ thực tế đã ghi	50																							**
+
+🟢 **	Sprint 5	S5-WBS01.1	S5-G01	1	Tái hiện lỗi hỏi chức vụ và BCTN	Đinh Huỳnh Vũ	Đã hoàn thành	3	6	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy hai câu hỏi trên Web Chat, đối chiếu graph và BCTN trong DB, ghi trace từ router tới truy xuất.	Có hai câu mẫu, dữ liệu đối chiếu và bước chọn sai nguồn hoặc chặn tìm kiếm.	Dữ liệu Sprint 4		3	3												**
+
+🟢 **	Sprint 5	S5-WBS02.1	S5-G01	1	Tìm điều kiện chặn câu hỏi BCTN	Đinh Huỳnh Vũ	Đã hoàn thành	2	3	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Theo dõi luồng từ nhận câu hỏi đến bộ lọc tài liệu, chỉ ra điều kiện chặn.	Tái hiện bằng một BCTN có trong DB và xác định đúng bước chặn.	S5-WBS01.1				3											**
+
+🟢 **	Sprint 5	S5-WBS05.2	S5-G03	1	Nối nhánh GRAPH với Neo4j qua adapter hiện có	Đinh Huỳnh Vũ	Đang test	3	3	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng graph adapter để lấy quan hệ đã duyệt, chức vụ và nguồn tương ứng.	Câu hỏi chức vụ trả đúng người, chức vụ và bằng chứng.	S5-WBS05.1, graph có dữ liệu đã duyệt					3										**
+
+🟢 **	Sprint 5	S5-WBS02.3	S5-G01	1	Kiểm thử truy xuất BCTN bằng dữ liệu thật	Đinh Huỳnh Vũ	Đang test	2	9	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử BCTN có nguồn, sai kỳ, thiếu tài liệu và không có quyền.	Ca có quyền lấy đúng đoạn. Các ca còn lại phản hồi đúng tình trạng.	S5-WBS02.2						3			3	3					**
+
+🟢 **					Tổng giờ theo task			120	50																				**
+
+🟢 **					Giờ đã ghi theo ngày				50							6	6	6	6	5	0	0	6	6	3	3	3	0	0**
+
+🟢 **Đường theo ngày gồm 18 task ước tính (9 theo nhật ký giờ, 9 theo deadline).												**
+
+🟢 **Giờ thực tế	50	Bắt đầu	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **										S5-WBS01.1	Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S5-WBS02.1	Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	1	39	37.14	6	6	2.86		S5-WBS09.1		**
+
+🟢 **Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	2	38	34.29	6	12	5.71		S5-WBS09.2		**
+
+🟢 **Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	3	37	31.43	6	18	8.57		S5-WBS09.3		**
+
+🟢 **Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	4	36	28.57	6	24	11.43		S5-WBS13.2		**
+
+🟢 **Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	5	35	25.71	5	29	14.29		S5-WBS05.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	5	35	22.86		29	17.14		S5-WBS07.2	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	9	14	26	20		29	20		S5-WBS08.1	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	14	26	17.14	6	35	22.86		S5-WBS08.3	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	15	25	14.29	6	41	25.71		S5-WBS05.2		**
+
+🟢 **Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	15	25	11.43	3	44	28.57		S5-WBS10.1	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	17	23	8.57	3	47	31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+~~4. Bàn giao quan hệ ứng viên có đoạn nguồn; thử ca nhiều chức vụ, nhiều công ty, thiếu thời gian và nguồn mâu thuẫn.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Quan hệ chức vụ đủ người, tổ chức, chức danh và provenance; không nhầm trạng thái hoặc thời gian; ca chưa rõ được đánh dấu.	Tuần 1. Phụ thuộc / làm trước: WBS01; dùng WBS02 thật để nghiệm thu. Có thể làm bằng fixture song song WBS03/WBS05 và phần lưu metadata WBS...~~
+
+~~4. Kiểm tra quyền đọc/ghi thực tế của ứng dụng. Thử migration trên môi trường được phép và lưu bằng chứng; chưa gắn graph chưa hoàn tất vào corpus đang dùng.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Repository/migration được kiểm tra; metadata truy lại được nguồn; có giới hạn quyền và kiểm tra chống trùng/phiên bản. Không coi đã bật RLS là đủ nghiệm thu.	Tuần 1. Phụ thuộc / làm trước: WBS01 và trạng thái WBS06 (có thể...~~
+
+~~4. Chạy hồi quy các câu B1 đã hoạt động và bàn giao adapter thật cho WBS13.	Dùng lại nhánh B1 với đúng scope, giữ evidence và trạng thái rỗng/lỗi rõ ràng.	VECTOR chạy được nguồn thật, giữ phạm vi/metadata và không làm hỏng B1; có test các ca rỗng/lỗi.	Tuần 2. Phụ thuộc / làm trước: WBS10 và Vector RAG Sprint 3. Không chờ WBS09. Làm sớm đầu tuần 2 để Vũ còn thời gian WBS16.	Cao	Chưa bắt đầu	S4-G05	FinMind	4	4		Đinh Huỳnh Vũ	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 03 2026 07:00:...~~
+
+~~5. Làm điều phối bằng hai adapter fixture trước; nối WBS11/WBS12 thật để nghiệm thu.	Chọn VECTOR/GRAPH/BOTH theo ý định; hợp nhất có provenance và không che lỗi nhánh.	BOTH thực sự sử dụng hai nhánh, có bộ evidence chung và trạng thái riêng; không che phần chưa được đáp ứng.	Tuần 2. Phụ thuộc / làm trước: WBS10–12. Có thể bắt đầu bằng fixture ngày 02/11; nghiệm thu sau adapter thật. Bàn giao cho WBS14 và WBS17.	Rất cao	Đã hoàn thành	S4-G04	FinMind	4	7	17	Nguyễn Minh Quân	Mon Nov 02 2026 07:00:00...~~
+
+~~5. Giữ cấu hình B1 để so sánh; không tự bật Evidence Gate/verifier B3 thuộc sprint sau.	Chat/Graph Viewer trình bày đúng bằng chứng, thời gian và giới hạn của kết quả.	Câu trả lời/citation truy lại được nguồn, không bịa quan hệ/số liệu hoặc che lỗi nhánh; có test và gói bàn giao.	Tuần 2. Phụ thuộc / làm trước: Evidence contract và WBS11–13. Có thể chuẩn bị formatter/citation bằng fixture trước, nghiệm thu sau tuyến thật.	Cao	Đã hoàn thành	S4-G06	FinMind	4	6		Nguyễn Minh Quân	Tue Nov 03 2026 07:0...~~
+
+~~5. Bàn giao báo cáo full-load, lỗi còn lại và phiên dữ liệu. 8h là công chuẩn bị, theo dõi và đối chiếu, không phải cam kết thời gian máy/LLM hay duyệt thủ công mọi quan hệ.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Toàn bộ News đã chốt có trạng thái, không mất tin lỗi; có báo cáo mẫu/full-load riêng và danh sách lỗi chưa xử lý. Không coi mọi quan hệ trích xuất là đã được chấp nhận.	Tuần 2. Phụ thuộc / làm trước: WBS01...~~
+
+~~	S5-WBS01.1	Tái hiện lỗi hỏi chức vụ và BCTN	#REF!	Chạy hai câu hỏi trên Web Chat, đối chiếu graph và BCTN trong DB, ghi trace từ router tới truy xuất.	#REF!	Có hai câu mẫu, dữ liệu đối chiếu và bước chọn sai nguồn hoặc chặn tìm kiếm.	Dữ liệu Sprint 4	Cao	Đã hoàn thành	S5-G01	FinMind	5	3		Đinh Huỳnh Vũ	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS02.1	Tìm điều kiện chặn câu hỏi BCTN	#REF!	Theo dõi luồng từ nhận câu hỏi đến bộ lọc tài liệu, chỉ ra điều kiện chặn.	#REF!	Tái hiện bằng một BCTN có trong DB và xác định đúng bước chặn.	S5-WBS01.1	Cao	Đã hoàn thành	S5-G01	FinMind	5	2		Đinh Huỳnh Vũ	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS02.3	Kiểm thử truy xuất BCTN bằng dữ liệu thật	#REF!	Thử BCTN có nguồn, sai kỳ, thiếu tài liệu và không có quyền.	#REF!	Ca có quyền lấy đúng đoạn. Các ca còn lại phản hồi đúng tình trạng.	S5-WBS02.2	Cao	Đang test	S5-G01	FinMind	5	2		Đinh Huỳnh Vũ	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS05.2	Nối nhánh GRAPH với Neo4j qua adapter hiện có	#REF!	Dùng graph adapter để lấy quan hệ đã duyệt, chức vụ và nguồn tương ứng.	#REF!	Câu hỏi chức vụ trả đúng người, chức vụ và bằng chứng.	S5-WBS05.1, graph có dữ liệu đã duyệt	Cao	Đang test	S5-G03	FinMind	5	3		Đinh Huỳnh Vũ	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~								4	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	128	31	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~								5	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	120	29	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~	Số task	17	Giờ dự kiến	128	Tổng giờ thực tế đã ghi	31		Tuần 1 (h)	65	Tuần 2 (h)	63																		~~
+
+~~	Sprint 4	S4-WBS04	S4-G02	1	Trích xuất quan hệ chức vụ	Đinh Huỳnh Vũ	Cần xác nhận	6		Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Xác định người–chức vụ–doanh nghiệp; giữ tên chức vụ gốc và ánh xạ tên chuẩn theo contract.~~
+
+~~4. Bàn giao quan hệ ứng viên có đoạn nguồn; thử ca nhiều chức vụ, nhiều công ty, thiếu thời gian và nguồn mâu thuẫn.	Quan hệ chức vụ đủ người, tổ chức, chức danh và provenance; không nhầm trạng thái hoặc thời gian; ca chưa rõ được đánh dấu.	WBS01; dùng WBS02 thật để nghiệm thu. Có thể làm bằng fixture song song WBS03/WBS05 và phần lưu metadata WBS07.															~~
+
+~~	Sprint 4	S4-WBS07	S4-G02	1	Quản lý metadata và phiên graph trên Supabase	Đinh Huỳnh Vũ	Cần xác nhận	7		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	1. Đối chiếu schema thật, chuẩn bị migration bổ sung liên kết extraction với thực thể, chunk/locator và graph version; chỉ bổ sung phần thiếu.~~
+
+~~4. Kiểm tra quyền đọc/ghi thực tế của ứng dụng. Thử migration trên môi trường được phép và lưu bằng chứng; chưa gắn graph chưa hoàn tất vào corpus đang dùng.	Repository/migration được kiểm tra; metadata truy lại được nguồn; có giới hạn quyền và kiểm tra chống trùng/phiên bản. Không coi đã bật RLS là đủ nghiệm thu.	WBS01 và trạng thái WBS06 (có thể chốt interface song song). Dùng repository fixture trước DB thật. Phối hợp khóa extraction/version với Nhân WBS08.															~~
+
+~~	Sprint 4	S4-WBS11	S4-G05	2	Nối nhánh Vector RAG vào Hybrid Router	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	1. Bọc vector/BM25 hiện có thành adapter theo WBS10, không làm lại chunking/embedding.~~
+
+~~4. Chạy hồi quy các câu B1 đã hoạt động và bàn giao adapter thật cho WBS13.	VECTOR chạy được nguồn thật, giữ phạm vi/metadata và không làm hỏng B1; có test các ca rỗng/lỗi.	WBS10 và Vector RAG Sprint 3. Không chờ WBS09. Làm sớm đầu tuần 2 để Vũ còn thời gian WBS16.															~~
+
+~~	Sprint 4	S4-WBS16	S4-G02	2	Chạy toàn bộ News đã chốt và đối chiếu kết quả	Đinh Huỳnh Vũ	Chưa bắt đầu	8		Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	1. Chuẩn bị batch runner từ danh sách đóng băng WBS01 và interface extractor; có thể dùng fixture từ 02/11.~~
+
+~~5. Bàn giao báo cáo full-load, lỗi còn lại và phiên dữ liệu. 8h là công chuẩn bị, theo dõi và đối chiếu, không phải cam kết thời gian máy/LLM hay duyệt thủ công mọi quan hệ.	Toàn bộ News đã chốt có trạng thái, không mất tin lỗi; có báo cáo mẫu/full-load riêng và danh sách lỗi chưa xử lý. Không coi mọi quan hệ trích xuất là đã được chấp nhận.	WBS01–08 và kiểm tra mẫu WBS09.5 đạt. Batch runner làm trước bằng fixture; không cần chờ router/chat/UI. Phụ thuộc hạn mức dịch vụ và quyền chạy dữ liệu thậ...~~
+
+~~	Sprint 4	S4-WBS13	S4-G04	2	Thực hiện tuyến BOTH và hợp nhất bằng chứng	Nguyễn Minh Quân	Đã hoàn thành	7	17	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	1. Nhận routing plan và phần yêu cầu của từng nhánh. Gọi VECTOR/GRAPH; nếu vector cần thực thể từ graph thì thực hiện theo thứ tự phù hợp.~~
+
+~~5. Làm điều phối bằng hai adapter fixture trước; nối WBS11/WBS12 thật để nghiệm thu.	BOTH thực sự sử dụng hai nhánh, có bộ evidence chung và trạng thái riêng; không che phần chưa được đáp ứng.	WBS10–12. Có thể bắt đầu bằng fixture ngày 02/11; nghiệm thu sau adapter thật. Bàn giao cho WBS14 và WBS17.									8				9		~~
+
+~~	Sprint 4	S4-WBS14	S4-G06	2	Tạo câu trả lời và citation theo kết quả routing	Nguyễn Minh Quân	Đã hoàn thành	6		Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	1. Đưa bằng chứng của tuyến được chọn vào phần trả lời hiện có; trả đúng các phần yêu cầu, gắn citation với từng nhận định.~~
+
+~~5. Giữ cấu hình B1 để so sánh; không tự bật Evidence Gate/verifier B3 thuộc sprint sau.	Câu trả lời/citation truy lại được nguồn, không bịa quan hệ/số liệu hoặc che lỗi nhánh; có test và gói bàn giao.	Evidence contract và WBS11–13. Có thể chuẩn bị formatter/citation bằng fixture trước, nghiệm thu sau tuyến thật.															~~
+
+~~					Tổng giờ theo task			128	31																				~~
+
+~~					Giờ đã ghi theo ngày				31							0	0	0	0	14	0	0	8	0	0	0	9	0	0~~
+
+~~Hiện tại: 9/17 task Done · còn 8 task · 9 Done thiếu ngày												~~
+
+~~Đường theo ngày gồm 9 task ước tính (2 theo nhật ký giờ, 7 theo deadline).												~~
+
+~~Phạm vi (task)	17	Done hiện tại	9	Giờ dự kiến	128	Done thiếu ngày	9					~~
+
+~~Giờ thực tế	31	Bắt đầu	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					~~
+
+~~										S4-WBS04		~~
+
+~~										S4-WBS07		~~
+
+~~										S4-WBS11		~~
+
+~~										S4-WBS16		~~
+
+~~										S4-WBS13	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~										S4-WBS14	Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0	17	15.79			1.21				~~
+
+~~Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0	17	14.57			2.43				~~
+
+~~Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	0	17	13.36			3.64				~~
+
+~~Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	17	2	2	15	12.14			4.86				~~
+
+~~Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	17	3	5	12	10.93	14	14	6.07				~~
+
+~~Sat Oct 31 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	5	12	9.71		14	7.29				~~
+
+~~Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	5	12	8.5		14	8.5				~~
+
+~~Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	5	12	7.29	8	22	9.71				~~
+
+~~Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	5	12	6.07		22	10.93				~~
+
+~~Wed Nov 04 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	5	12	4.86		22	12.14				~~
+
+~~Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	6	11	3.64		22	13.36				~~
+
+~~Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	17	3	9	8	2.43	9	31	14.57				~~
+
+~~Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	9	8	1.21		31	15.79				~~
+
+~~Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	9	8	0		31	17				~~
+
+~~Hiện tại	17		9	8								~~
+
+~~	Số task	40	Giờ dự kiến	120	Tổng giờ thực tế đã ghi	29																							~~
+
+~~	Sprint 5	S5-WBS01.1	S5-G01	1	Tái hiện lỗi hỏi chức vụ và BCTN	Đinh Huỳnh Vũ	Đã hoàn thành	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy hai câu hỏi trên Web Chat, đối chiếu graph và BCTN trong DB, ghi trace từ router tới truy xuất.	Có hai câu mẫu, dữ liệu đối chiếu và bước chọn sai nguồn hoặc chặn tìm kiếm.	Dữ liệu Sprint 4															~~
+
+~~	Sprint 5	S5-WBS02.1	S5-G01	1	Tìm điều kiện chặn câu hỏi BCTN	Đinh Huỳnh Vũ	Đã hoàn thành	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Theo dõi luồng từ nhận câu hỏi đến bộ lọc tài liệu, chỉ ra điều kiện chặn.	Tái hiện bằng một BCTN có trong DB và xác định đúng bước chặn.	S5-WBS01.1															~~
+
+~~	Sprint 5	S5-WBS05.2	S5-G03	1	Nối nhánh GRAPH với Neo4j qua adapter hiện có	Đinh Huỳnh Vũ	Đang test	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng graph adapter để lấy quan hệ đã duyệt, chức vụ và nguồn tương ứng.	Câu hỏi chức vụ trả đúng người, chức vụ và bằng chứng.	S5-WBS05.1, graph có dữ liệu đã duyệt															~~
+
+~~	Sprint 5	S5-WBS02.3	S5-G01	1	Kiểm thử truy xuất BCTN bằng dữ liệu thật	Đinh Huỳnh Vũ	Đang test	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử BCTN có nguồn, sai kỳ, thiếu tài liệu và không có quyền.	Ca có quyền lấy đúng đoạn. Các ca còn lại phản hồi đúng tình trạng.	S5-WBS02.2															~~
+
+~~					Tổng giờ theo task			120	29																				~~
+
+~~					Giờ đã ghi theo ngày				29							3	3	3	3	2	0	0	3	3	3	3	3	0	0~~
+
+~~Đường theo ngày gồm 18 task ước tính (7 theo nhật ký giờ, 11 theo deadline).												~~
+
+~~Giờ thực tế	29	Bắt đầu	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					~~
+
+~~										S5-WBS01.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~										S5-WBS02.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	1	39	37.14	3	3	2.86		S5-WBS09.1		~~
+
+~~Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	1	39	34.29	3	6	5.71		S5-WBS09.2		~~
+
+~~Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	1	39	31.43	3	9	8.57		S5-WBS09.3		~~
+
+~~Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	2	38	28.57	3	12	11.43		S5-WBS13.2		~~
+
+~~Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	3	37	25.71	2	14	14.29		S5-WBS05.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	3	37	22.86		14	17.14		S5-WBS07.2	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	11	14	26	20		14	20		S5-WBS08.1	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	14	26	17.14	3	17	22.86		S5-WBS08.3	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	15	25	14.29	3	20	25.71		S5-WBS05.2		~~
+
+~~Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	15	25	11.43	3	23	28.57		S5-WBS10.1	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	17	23	8.57	3	26	31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
 ## 2026-11-19 08:22 - SUA NOI DUNG
 
 - **Người đăng:** hophamdangnhandz123@gmail.com
