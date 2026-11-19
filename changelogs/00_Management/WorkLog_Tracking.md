@@ -1,5 +1,53 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-19 10:37 - SUA NOI DUNG
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-19 10:37
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	1	2		Thái Quốc Hưng	Chốt phạm vi MVP và tiêu chí nghiệm thu trước khi chia task sang sprint sau.	Duy trì cách xác định nhóm người dùng và ưu tiên chức năng theo nhu cầu chính.	Mở thêm chức năng khi phạm vi và phụ thuộc chưa được thống nhất.	Sprint 1: backlog ghi hoàn thành. Bài học đề xuất cho lập kế hoạch.**
+
+🟢 **	1	2		Trần Diệu Huyền	Gắn câu hỏi khảo sát với use case và yêu cầu có thể kiểm tra.	Tiếp tục rà phạm vi và danh sách nguồn với các thành viên trước khi thiết kế.	Đưa yêu cầu mơ hồ vào thiết kế mà chưa làm rõ điều kiện sử dụng.	Sprint 1: backlog ghi hoàn thành. Đề xuất chuẩn hóa yêu cầu đầu vào.**
+
+🟢 **	1	2		Nguyễn Minh Quân	Bàn giao danh mục nguồn của 10 công ty kèm định dạng, thời gian và giới hạn truy cập.	Duy trì chia pipeline thành các phần nhỏ, tách dữ liệu gốc khỏi dữ liệu đã chuẩn hóa.	Bắt đầu xử lý khi chưa biết nguồn có đủ nội dung và kỳ báo cáo hay không.	Sprint 1: backlog ghi hoàn thành. Đề xuất kiểm tra mẫu nguồn sớm.**
+
+🟢 **	1	2		Đinh Huỳnh Vũ	Đối chiếu sequence diagram, sơ đồ chức năng và schema chunk trước khi code.	Tiếp tục dùng sơ đồ để trao đổi ranh giới giữa giao diện, xử lý và database.	Vẽ tài liệu tách rời cách chương trình dự kiến lưu và truy xuất dữ liệu.	Sprint 1: backlog ghi hoàn thành. Đề xuất review chéo sơ đồ.**
+
+🟢 **	1	2		Hồ Phạm Đăng Nhân	Chuẩn bị ví dụ node, cạnh và truy vấn cùng bằng chứng cho mô hình Neo4j.	Duy trì thử graph nhỏ để kiểm tra chiều quan hệ trước khi mở rộng dữ liệu.	Dùng graph minh họa như bằng chứng hệ thống đã chạy được trên nguồn thật.	Sprint 1: backlog ghi hoàn thành. Phân biệt PoC và dữ liệu thực.**
+
+🟢 **	2	3		Thái Quốc Hưng	Thống nhất mẫu News có URL, ngày, hash và công ty trước khi bàn giao.	Tiếp tục giữ nội dung gốc và quy tắc loại trùng để truy ngược khi cần.	Gộp bài chỉ vì cùng tiêu đề hoặc tự điền ngày và công ty khi nguồn chưa rõ.	Sprint 2: backlog ghi hoàn thành. Đề xuất giữ mẫu lỗi làm fixture.**
+
+🟢 **	2	3		Trần Diệu Huyền	Chốt trạng thái loading, empty, error và quyền truy cập trong thiết kế chung.	Duy trì review sitemap, luồng người dùng và component trước khi ghép màn hình.	Coi ẩn nút hoặc phiên mẫu trên UI là đã có bảo mật phía backend.	Sprint 2: backlog ghi hoàn thành. Cần chuyển tiếp kiểm thử API thật.**
+
+🟢 **	2	3		Nguyễn Minh Quân	Kiểm tra collector theo contract với mẫu thiếu trường, lỗi nguồn và dữ liệu trùng.	Tiếp tục chuẩn hóa số liệu nhưng bảo toàn dữ liệu gốc và thông tin nguồn.	Đồng nhất giá trị 0 với dữ liệu thiếu hoặc bỏ dấu vết khi chuyển đổi.	Sprint 2: backlog ghi hoàn thành. Đề xuất đối chiếu trước và sau chuẩn hóa.**
+
+🟢 **	2	3		Đinh Huỳnh Vũ	Ghép prototype theo từng mốc wireframe đã duyệt và ghi rõ phần còn dùng mock.	Duy trì layout, lệnh chạy/build và cấu hình môi trường dùng chung.	Đánh dấu tích hợp hoàn tất khi trang chỉ chạy bằng fixture hoặc dữ liệu mẫu.	Sprint 2: backlog ghi hoàn thành. Đề xuất checklist đổi mock sang API.**
+
+🟢 **	2	3		Hồ Phạm Đăng Nhân	Bàn giao wireframe từng phần và thử màn hình hẹp trước khi mở rộng component.	Tiếp tục tái sử dụng bảng, form, card và tách mock khỏi phần hiển thị.	Chờ đủ toàn bộ màn hình mới review hoặc tạo component riêng cho từng trang.	Sprint 2: backlog ghi hoàn thành. Đề xuất review sớm theo luồng chính.**
+
+🟢 **	3	4		Thái Quốc Hưng	Chốt intent, scope và evidence pack bằng contract có ví dụ đúng và sai.	Tiếp tục kiểm tra luồng B1 bằng fixture trước khi nối dữ liệu thật.	Coi kết quả fixture là nghiệm thu trên corpus thực tế.	Sprint 3: còn 4 task theo report. Cần rà các mục tồn đọng.**
+
+🟢 **	3	4		Trần Diệu Huyền	Rà đáp án và nguồn của Golden40, đồng thời lên lịch cho kiểm thử bảo mật còn thiếu.	Tiếp tục phân bổ câu hỏi theo nhóm chức năng và trường hợp thiếu dữ liệu.	Ghi cả sprint đạt khi các task kiểm thử chưa có kết quả.	Sprint 3: báo cáo 32/36 task hoàn thành. Kiểm thử bảo mật còn chưa bắt đầu.**
+
+🟢 **	3	4		Nguyễn Minh Quân	Kiểm tra đăng nhập, hết phiên và quyền bằng API thật sau khi ghép UI.	Duy trì thiết kế tài khoản và contract API thống nhất giữa frontend và backend.	Chỉ thử đăng nhập thành công rồi bỏ qua ca lỗi hoặc hết hạn phiên.	Sprint 3: phần tài khoản cần đối chiếu với task kiểm thử bảo mật.**
+
+🟢 **	3	4		Đinh Huỳnh Vũ	Kiểm tra chunk theo mục và bảng, bảo đảm ID ổn định và locator còn truy được nguồn.	Tiếp tục chốt contract chunk ID và cấu trúc nguồn trước khi tạo embedding.	Chia chunk làm mất tiêu đề, đơn vị hoặc quan hệ giữa dòng và cột.	Sprint 3: đề xuất dùng cùng fixture giữa chunker và retriever.**
+
+🟢 **	3	4		Hồ Phạm Đăng Nhân	Theo dõi lỗi từng lô embedding và ghi cấu hình model, revision và phiên index.	Tiếp tục lưu vector kèm metadata để kiểm tra liên kết với chunk nguồn.	Nạp lại toàn bộ mà chưa kiểm tra bản trùng hoặc các lô đã xử lý thành công.	Sprint 3: đề xuất kiểm tra retry và khả năng chạy lại.**
+
+🟢 **	4	5		Thái Quốc Hưng	Bàn giao registry, ID thực thể và contract Graph RAG kèm JSON mẫu dùng chung.	Tiếp tục đối chiếu tên người, công ty và nguồn khi chuẩn hóa thực thể.	Thay schema hoặc ID mà chưa thông báo cho các nhánh phụ thuộc.	Sprint 4: còn 4 task theo report. Cần chốt phần tích hợp chưa nghiệm thu.**
+
+🟢 **	4	5		Trần Diệu Huyền	Phân biệt thiếu bằng chứng, mâu thuẫn và lỗi adapter khi review và quarantine.	Tiếp tục kiểm tra nguồn và theo dõi lý do router chọn VECTOR, GRAPH hoặc BOTH.	Coi tất cả ca chưa xuất bản được là từ chối nghiệp vụ.	Sprint 4: báo cáo 13/17 task hoàn thành. Kiểm thử chung còn tồn.**
+
+🟢 **	4	5		Nguyễn Minh Quân	Kiểm tra hợp nhất bằng chứng giữa GRAPH và VECTOR, loại trùng nhưng giữ locator.	Tiếp tục gắn citation vào đúng đoạn News hoặc tài liệu đã truy xuất.	Tạo nhận định chỉ từ tiêu đề hoặc gộp các mốc thời gian khác nhau.	Sprint 4: đề xuất hồi quy NEWS, PDF và tuyến BOTH.**
+
+🟢 **	4	5		Đinh Huỳnh Vũ	Tách lỗi chuyển đổi bằng chứng và lỗi nghiệp vụ, kiểm tra metadata và phiên graph.	Tiếp tục giữ hash, locator và trạng thái duyệt khi nối database với router.	Đổi trạng thái duyệt để đủ bản ghi hoặc suy chức vụ hiện tại từ báo cáo cũ.	Sprint 4: các task của Vũ ghi hoàn thành, nghiệm thu chung vẫn cần đối chiếu.**
+
+🟢 **	4	5		Hồ Phạm Đăng Nhân	Đọc lại graph sau khi nạp và thử ca có dữ liệu, graph rỗng và lỗi kết nối.	Tiếp tục lưu nguồn cho node và quan hệ để đối chiếu trong Graph Viewer.	Đồng nhất lỗi Neo4j với không có quan hệ hoặc bỏ qua task đang chờ xác nhận.	Sprint 4: các task graph còn Cần xác nhận/Đang test trong backlog.**
+
 ## 2026-11-19 10:32 - SUA NOI DUNG
 
 - **Người đăng:** dunhvu47@gmail.com
