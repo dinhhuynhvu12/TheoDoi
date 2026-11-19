@@ -1,5 +1,93 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-19 08:22 - SUA NOI DUNG
+
+- **Người đăng:** hophamdangnhandz123@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-19 08:22
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS01.2	Tái hiện lỗi hội thoại và hết hạn token	#REF!	Chạy hội thoại nhiều lượt và gửi tin sau khi access token hết hạn.	#REF!	Có hai ca tái hiện cùng kết quả thực tế và kỳ vọng.	Web Chat hiện có	Cao	Đã hoàn thành	S5-G01	FinMind	5	2		Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS09.1	Kế thừa công ty, kỳ và chủ đề giữa các lượt	#REF!	Dùng phạm vi hội thoại hiện tại, ưu tiên công ty hoặc kỳ mới nếu người dùng thay đổi.	#REF!	Câu nối tiếp giữ đúng phạm vi và chuyển phạm vi khi được yêu cầu.	S5-WBS05.1	Vừa	Đang làm	S5-G07	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS09.2	Xử lý liệt kê và giới thiệu tổng quan	#REF!	Liệt kê nội dung đang nói. Tổng quan đúng doanh nghiệp và truy xuất thêm khi cần.	#REF!	Hai câu mẫu chạy đúng trong phiên nhiều lượt.	S5-WBS09.1	Vừa	Đang làm	S5-G07	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS09.3	Xử lý tổng hợp nãy giờ	#REF!	Tóm tắt nội dung phiên hiện tại và giữ các nguồn đã dẫn.	#REF!	Không lẫn nội dung giữa các phiên, nguồn còn đối chiếu được.	S5-WBS09.1	Vừa	Đang làm	S5-G07	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS13.2	Đánh giá router và fallback trên bộ câu riêng	#REF!	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	#REF!	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3	Cao	Đang làm	S5-G09	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	Sprint 5	S5-WBS01.2	S5-G01	1	Tái hiện lỗi hội thoại và hết hạn token	Nhân	Đã hoàn thành	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy hội thoại nhiều lượt và gửi tin sau khi access token hết hạn.	Có hai ca tái hiện cùng kết quả thực tế và kỳ vọng.	Web Chat hiện có															**
+
+🟢 **	Sprint 5	S5-WBS09.1	S5-G07	2	Kế thừa công ty, kỳ và chủ đề giữa các lượt	Nhân	Đang làm	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng phạm vi hội thoại hiện tại, ưu tiên công ty hoặc kỳ mới nếu người dùng thay đổi.	Câu nối tiếp giữ đúng phạm vi và chuyển phạm vi khi được yêu cầu.	S5-WBS05.1															**
+
+🟢 **	Sprint 5	S5-WBS09.2	S5-G07	2	Xử lý liệt kê và giới thiệu tổng quan	Nhân	Đang làm	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Liệt kê nội dung đang nói. Tổng quan đúng doanh nghiệp và truy xuất thêm khi cần.	Hai câu mẫu chạy đúng trong phiên nhiều lượt.	S5-WBS09.1															**
+
+🟢 **	Sprint 5	S5-WBS09.3	S5-G07	2	Xử lý tổng hợp nãy giờ	Nhân	Đang làm	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tóm tắt nội dung phiên hiện tại và giữ các nguồn đã dẫn.	Không lẫn nội dung giữa các phiên, nguồn còn đối chiếu được.	S5-WBS09.1															**
+
+🟢 **	Sprint 5	S5-WBS13.2	S5-G09	2	Đánh giá router và fallback trên bộ câu riêng	Nhân	Đang làm	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3															**
+
+🟢 **Hiện tại: 19/40 task Done · còn 21 task · 19 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 18 task ước tính (7 theo nhật ký giờ, 11 theo deadline).												**
+
+🟢 **Phạm vi (task)	40	Done hiện tại	19	Giờ dự kiến	120	Done thiếu ngày	19					**
+
+🟢 **										S5-WBS01.2	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	11	14	26	20		14	20		S5-WBS08.1	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	14	26	17.14	3	17	22.86		S5-WBS08.3	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	15	25	14.29	3	20	25.71		S5-WBS05.2		**
+
+🟢 **Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	15	25	11.43	3	23	28.57		S5-WBS10.1	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	17	23	8.57	3	26	31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Hiện tại	40		19	21						S5-WBS10.3		**
+
+~~	S5-WBS01.2	Tái hiện lỗi hội thoại và hết hạn token	#REF!	Chạy hội thoại nhiều lượt và gửi tin sau khi access token hết hạn.	#REF!	Có hai ca tái hiện cùng kết quả thực tế và kỳ vọng.	Web Chat hiện có	Cao	Chưa bắt đầu	S5-G01	FinMind	5	2		Nhân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS09.1	Kế thừa công ty, kỳ và chủ đề giữa các lượt	#REF!	Dùng phạm vi hội thoại hiện tại, ưu tiên công ty hoặc kỳ mới nếu người dùng thay đổi.	#REF!	Câu nối tiếp giữ đúng phạm vi và chuyển phạm vi khi được yêu cầu.	S5-WBS05.1	Vừa	Chưa bắt đầu	S5-G07	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS09.2	Xử lý liệt kê và giới thiệu tổng quan	#REF!	Liệt kê nội dung đang nói. Tổng quan đúng doanh nghiệp và truy xuất thêm khi cần.	#REF!	Hai câu mẫu chạy đúng trong phiên nhiều lượt.	S5-WBS09.1	Vừa	Chưa bắt đầu	S5-G07	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS09.3	Xử lý tổng hợp nãy giờ	#REF!	Tóm tắt nội dung phiên hiện tại và giữ các nguồn đã dẫn.	#REF!	Không lẫn nội dung giữa các phiên, nguồn còn đối chiếu được.	S5-WBS09.1	Vừa	Chưa bắt đầu	S5-G07	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS13.2	Đánh giá router và fallback trên bộ câu riêng	#REF!	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	#REF!	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3	Cao	Chưa bắt đầu	S5-G09	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	Sprint 5	S5-WBS01.2	S5-G01	1	Tái hiện lỗi hội thoại và hết hạn token	Nhân	Chưa bắt đầu	2		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy hội thoại nhiều lượt và gửi tin sau khi access token hết hạn.	Có hai ca tái hiện cùng kết quả thực tế và kỳ vọng.	Web Chat hiện có															~~
+
+~~	Sprint 5	S5-WBS09.1	S5-G07	2	Kế thừa công ty, kỳ và chủ đề giữa các lượt	Nhân	Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng phạm vi hội thoại hiện tại, ưu tiên công ty hoặc kỳ mới nếu người dùng thay đổi.	Câu nối tiếp giữ đúng phạm vi và chuyển phạm vi khi được yêu cầu.	S5-WBS05.1															~~
+
+~~	Sprint 5	S5-WBS09.2	S5-G07	2	Xử lý liệt kê và giới thiệu tổng quan	Nhân	Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Liệt kê nội dung đang nói. Tổng quan đúng doanh nghiệp và truy xuất thêm khi cần.	Hai câu mẫu chạy đúng trong phiên nhiều lượt.	S5-WBS09.1															~~
+
+~~	Sprint 5	S5-WBS09.3	S5-G07	2	Xử lý tổng hợp nãy giờ	Nhân	Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tóm tắt nội dung phiên hiện tại và giữ các nguồn đã dẫn.	Không lẫn nội dung giữa các phiên, nguồn còn đối chiếu được.	S5-WBS09.1															~~
+
+~~	Sprint 5	S5-WBS13.2	S5-G09	2	Đánh giá router và fallback trên bộ câu riêng	Nhân	Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3															~~
+
+~~Hiện tại: 18/40 task Done · còn 22 task · 18 Done thiếu ngày												~~
+
+~~Đường theo ngày gồm 17 task ước tính (7 theo nhật ký giờ, 10 theo deadline).												~~
+
+~~Phạm vi (task)	40	Done hiện tại	18	Giờ dự kiến	120	Done thiếu ngày	18					~~
+
+~~										S5-WBS01.2		~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	10	13	27	20		14	20		S5-WBS08.1	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	13	27	17.14	3	17	22.86		S5-WBS08.3	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	14	26	14.29	3	20	25.71		S5-WBS05.2		~~
+
+~~Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	14	26	11.43	3	23	28.57		S5-WBS10.1	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	16	24	8.57	3	26	31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Hiện tại	40		18	22						S5-WBS10.3		~~
+
 ## 2026-11-19 07:57 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
