@@ -1,5 +1,161 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-19 09:42 - SUA NOI DUNG
+
+- **Người đăng:** hophamdangnhandz123@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-19 09:42
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **4. Dùng ID WBS02 để xuất đúng contract; kiểm tra mẫu hợp lệ, sai chiều, thiếu chủ thể và hai tên chỉ xuất hiện cùng đoạn.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Có quan hệ doanh nghiệp ứng viên kèm nguồn, trạng thái và thời gian nếu có; test không tạo quan hệ chỉ từ đồng xuất hiện.	Tuần 1. Phụ thuộc / làm trước: Contract WBS01; chuẩn hóa thật WBS02 để đóng task. Có thể code bằng entity fixture từ 27/10, không phải đ...**
+
+🟢 **4. Xử lý lỗi nạp dở, chuẩn bị resume và đối chiếu số liệu/khóa giữa hai hệ thống. Nghiệm thu phần ghi bằng fixture ở tuần 1; WBS09 nối extraction thật tuần 2.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Bộ ghi graph có test chống trùng, không lẫn phiên, giữ extraction/nguồn và không công bố lần nạp dở. Có graph fixture dùng cho truy vấn.	Tuần 1. Phụ thuộc / làm trước: WBS01; thống nhất metadata/version với WBS07. Không p...**
+
+🟢 **4. Chuẩn bị adapter bằng fixture từ đầu tuần, nối retrieval thật sau khi WBS09 bàn giao; kiểm tra không lộ quan hệ chờ duyệt.	Các extractor nối chung với Supabase/Neo4j và trả quan hệ đúng phạm vi trong tối đa hai hop.	GRAPH chạy bằng graph thật đúng scope, có nguồn và lỗi rõ; đọc lại nguồn bằng ID không bị gắn nhãn BOTH.	Tuần 2. Phụ thuộc / làm trước: Contract WBS10; WBS09 thật để đóng task. Có thể code adapter bằng fixture trước, không đứng chờ pipeline ghép xong.	Cao	Đã hoàn thành	S4-G03	FinM...**
+
+🟢 **								4	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	128	82	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **	Số task	17	Giờ dự kiến	128	Tổng giờ thực tế đã ghi	82		Tuần 1 (h)	65	Tuần 2 (h)	63																		**
+
+🟢 **	Sprint 4	S4-WBS03	S4-G02	1	Trích xuất sự kiện và quan hệ giữa các doang nghiệp	Hồ Phạm Đăng Nhân	Đã hoàn thành	6	8	Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Từ chunk thật, lấy phát biểu về công ty con, liên kết, sở hữu và hợp tác; xác định hai thực thể và chiều quan hệ.**
+
+🟢 **4. Dùng ID WBS02 để xuất đúng contract; kiểm tra mẫu hợp lệ, sai chiều, thiếu chủ thể và hai tên chỉ xuất hiện cùng đoạn.	Có quan hệ doanh nghiệp ứng viên kèm nguồn, trạng thái và thời gian nếu có; test không tạo quan hệ chỉ từ đồng xuất hiện.	Contract WBS01; chuẩn hóa thật WBS02 để đóng task. Có thể code bằng entity fixture từ 27/10, không phải đợi WBS02 xong mới bắt đầu.		3	3	2											**
+
+🟢 **	Sprint 4	S4-WBS08	S4-G02	1	Lưu graph trên Neo4j và chuẩn bị đối chiếu nguồn	Hồ Phạm Đăng Nhân	Đã hoàn thành	7	9	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Tái sử dụng phần phù hợp của GraphStore; thêm constraint/index cho Company, Person, Event và quan hệ có phiên bản.**
+
+🟢 **4. Xử lý lỗi nạp dở, chuẩn bị resume và đối chiếu số liệu/khóa giữa hai hệ thống. Nghiệm thu phần ghi bằng fixture ở tuần 1; WBS09 nối extraction thật tuần 2.	Bộ ghi graph có test chống trùng, không lẫn phiên, giữ extraction/nguồn và không công bố lần nạp dở. Có graph fixture dùng cho truy vấn.	WBS01; thống nhất metadata/version với WBS07. Không phải đợi full extractor; dùng graph fixture trước. WBS09 chịu trách nhiệm ghép dữ liệu thật.				1	3	3	2								**
+
+🟢 **	Sprint 4	S4-WBS12	S4-G03	2	Nối nhánh Graph RAG vào Hybrid Router	Hồ Phạm Đăng Nhân	Đã hoàn thành	5	4	Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	1. Chuyển intent/slots của WBS10 sang tham số truy vấn WBS09; không sinh Cypher tùy ý từ câu hỏi.**
+
+🟢 **4. Chuẩn bị adapter bằng fixture từ đầu tuần, nối retrieval thật sau khi WBS09 bàn giao; kiểm tra không lộ quan hệ chờ duyệt.	GRAPH chạy bằng graph thật đúng scope, có nguồn và lỗi rõ; đọc lại nguồn bằng ID không bị gắn nhãn BOTH.	Contract WBS10; WBS09 thật để đóng task. Có thể code adapter bằng fixture trước, không đứng chờ pipeline ghép xong.							1	3							**
+
+🟢 **	Sprint 4	S4-WBS17	S4-G07	2	Kiểm thử, đánh giá B1/B2 và bàn giao Sprint 4	Hồ Phạm Đăng Nhân; Trần Diệu Huyền	Đã hoàn thành	13		Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	1. Nhân và Huyền thống nhất bộ câu hỏi, nguồn và kết quả kỳ vọng cho quan hệ doanh nghiệp, chức vụ, sự kiện và ba tuyến VECTOR/GRAPH/BOTH.**
+
+🟢 **					Tổng giờ theo task			128	82																				**
+
+🟢 **					Giờ đã ghi theo ngày				82							9	6	6	3	20	3	3	11	3	3	3	12	0	0**
+
+🟢 **Hiện tại: 17/17 task Done · còn 0 task · 17 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 17 task ước tính (10 theo nhật ký giờ, 7 theo deadline).												**
+
+🟢 **Phạm vi (task)	17	Done hiện tại	17	Giờ dự kiến	128	Done thiếu ngày	17					**
+
+🟢 **Giờ thực tế	82	Bắt đầu	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **										S4-WBS03	Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S4-WBS08	Sat Oct 31 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S4-WBS12	Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S4-WBS17	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	1	16	15.79	9	9	1.21				**
+
+🟢 **Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	1	16	14.57	6	15	2.43				**
+
+🟢 **Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	2	15	13.36	6	21	3.64				**
+
+🟢 **Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	17	2	4	13	12.14	3	24	4.86				**
+
+🟢 **Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	17	3	7	10	10.93	20	44	6.07				**
+
+🟢 **Sat Oct 31 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	8	9	9.71	3	47	7.29				**
+
+🟢 **Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	9	8	8.5	3	50	8.5				**
+
+🟢 **Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	10	7	7.29	11	61	9.71				**
+
+🟢 **Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	11	6	6.07	3	64	10.93				**
+
+🟢 **Wed Nov 04 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	12	5	4.86	3	67	12.14				**
+
+🟢 **Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	13	4	3.64	3	70	13.36				**
+
+🟢 **Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	17	3	16	1	2.43	12	82	14.57				**
+
+🟢 **Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	16	1	1.21		82	15.79				**
+
+🟢 **Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	17	0	0		82	17				**
+
+🟢 **Hiện tại	17		17	0								**
+
+~~4. Dùng ID WBS02 để xuất đúng contract; kiểm tra mẫu hợp lệ, sai chiều, thiếu chủ thể và hai tên chỉ xuất hiện cùng đoạn.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Có quan hệ doanh nghiệp ứng viên kèm nguồn, trạng thái và thời gian nếu có; test không tạo quan hệ chỉ từ đồng xuất hiện.	Tuần 1. Phụ thuộc / làm trước: Contract WBS01; chuẩn hóa thật WBS02 để đóng task. Có thể code bằng entity fixture từ 27/10, không phải đ...~~
+
+~~4. Xử lý lỗi nạp dở, chuẩn bị resume và đối chiếu số liệu/khóa giữa hai hệ thống. Nghiệm thu phần ghi bằng fixture ở tuần 1; WBS09 nối extraction thật tuần 2.	Quan hệ doanh nghiệp, chức vụ, sự kiện có nguồn và trạng thái; dữ liệu lưu lại được và toàn bộ News đã chốt có báo cáo.	Bộ ghi graph có test chống trùng, không lẫn phiên, giữ extraction/nguồn và không công bố lần nạp dở. Có graph fixture dùng cho truy vấn.	Tuần 1. Phụ thuộc / làm trước: WBS01; thống nhất metadata/version với WBS07. Không p...~~
+
+~~4. Chuẩn bị adapter bằng fixture từ đầu tuần, nối retrieval thật sau khi WBS09 bàn giao; kiểm tra không lộ quan hệ chờ duyệt.	Các extractor nối chung với Supabase/Neo4j và trả quan hệ đúng phạm vi trong tối đa hai hop.	GRAPH chạy bằng graph thật đúng scope, có nguồn và lỗi rõ; đọc lại nguồn bằng ID không bị gắn nhãn BOTH.	Tuần 2. Phụ thuộc / làm trước: Contract WBS10; WBS09 thật để đóng task. Có thể code adapter bằng fixture trước, không đứng chờ pipeline ghép xong.	Cao	Đang test	S4-G03	FinMind	...~~
+
+~~								4	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	128	61	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~	Số task	17	Giờ dự kiến	128	Tổng giờ thực tế đã ghi	61		Tuần 1 (h)	65	Tuần 2 (h)	63																		~~
+
+~~	Sprint 4	S4-WBS03	S4-G02	1	Trích xuất sự kiện và quan hệ giữa các doang nghiệp	Hồ Phạm Đăng Nhân	Cần xác nhận	6		Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Từ chunk thật, lấy phát biểu về công ty con, liên kết, sở hữu và hợp tác; xác định hai thực thể và chiều quan hệ.~~
+
+~~4. Dùng ID WBS02 để xuất đúng contract; kiểm tra mẫu hợp lệ, sai chiều, thiếu chủ thể và hai tên chỉ xuất hiện cùng đoạn.	Có quan hệ doanh nghiệp ứng viên kèm nguồn, trạng thái và thời gian nếu có; test không tạo quan hệ chỉ từ đồng xuất hiện.	Contract WBS01; chuẩn hóa thật WBS02 để đóng task. Có thể code bằng entity fixture từ 27/10, không phải đợi WBS02 xong mới bắt đầu.															~~
+
+~~	Sprint 4	S4-WBS08	S4-G02	1	Lưu graph trên Neo4j và chuẩn bị đối chiếu nguồn	Hồ Phạm Đăng Nhân	Cần xác nhận	7		Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	1. Tái sử dụng phần phù hợp của GraphStore; thêm constraint/index cho Company, Person, Event và quan hệ có phiên bản.~~
+
+~~4. Xử lý lỗi nạp dở, chuẩn bị resume và đối chiếu số liệu/khóa giữa hai hệ thống. Nghiệm thu phần ghi bằng fixture ở tuần 1; WBS09 nối extraction thật tuần 2.	Bộ ghi graph có test chống trùng, không lẫn phiên, giữ extraction/nguồn và không công bố lần nạp dở. Có graph fixture dùng cho truy vấn.	WBS01; thống nhất metadata/version với WBS07. Không phải đợi full extractor; dùng graph fixture trước. WBS09 chịu trách nhiệm ghép dữ liệu thật.															~~
+
+~~	Sprint 4	S4-WBS12	S4-G03	2	Nối nhánh Graph RAG vào Hybrid Router	Hồ Phạm Đăng Nhân	Đang test	5		Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	1. Chuyển intent/slots của WBS10 sang tham số truy vấn WBS09; không sinh Cypher tùy ý từ câu hỏi.~~
+
+~~4. Chuẩn bị adapter bằng fixture từ đầu tuần, nối retrieval thật sau khi WBS09 bàn giao; kiểm tra không lộ quan hệ chờ duyệt.	GRAPH chạy bằng graph thật đúng scope, có nguồn và lỗi rõ; đọc lại nguồn bằng ID không bị gắn nhãn BOTH.	Contract WBS10; WBS09 thật để đóng task. Có thể code adapter bằng fixture trước, không đứng chờ pipeline ghép xong.															~~
+
+~~	Sprint 4	S4-WBS17	S4-G07	2	Kiểm thử, đánh giá B1/B2 và bàn giao Sprint 4	Hồ Phạm Đăng Nhân; Trần Diệu Huyền	Chưa bắt đầu	13		Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	1. Nhân và Huyền thống nhất bộ câu hỏi, nguồn và kết quả kỳ vọng cho quan hệ doanh nghiệp, chức vụ, sự kiện và ba tuyến VECTOR/GRAPH/BOTH.~~
+
+~~					Tổng giờ theo task			128	61																				~~
+
+~~					Giờ đã ghi theo ngày				61							6	3	3	0	17	0	0	11	3	3	3	12	0	0~~
+
+~~Hiện tại: 13/17 task Done · còn 4 task · 13 Done thiếu ngày												~~
+
+~~Đường theo ngày gồm 13 task ước tính (7 theo nhật ký giờ, 6 theo deadline).												~~
+
+~~Phạm vi (task)	17	Done hiện tại	13	Giờ dự kiến	128	Done thiếu ngày	13					~~
+
+~~Giờ thực tế	61	Bắt đầu	Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					~~
+
+~~										S4-WBS03		~~
+
+~~										S4-WBS08		~~
+
+~~										S4-WBS12		~~
+
+~~										S4-WBS17		~~
+
+~~Mon Oct 26 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	1	16	15.79	6	6	1.21				~~
+
+~~Tue Oct 27 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	1	16	14.57	3	9	2.43				~~
+
+~~Wed Oct 28 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	1	16	13.36	3	12	3.64				~~
+
+~~Thu Oct 29 2026 07:00:00 GMT+0700 (Indochina Time)	17	2	3	14	12.14		12	4.86				~~
+
+~~Fri Oct 30 2026 07:00:00 GMT+0700 (Indochina Time)	17	3	6	11	10.93	17	29	6.07				~~
+
+~~Sat Oct 31 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	6	11	9.71		29	7.29				~~
+
+~~Sun Nov 01 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	6	11	8.5		29	8.5				~~
+
+~~Mon Nov 02 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	7	10	7.29	11	40	9.71				~~
+
+~~Tue Nov 03 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	8	9	6.07	3	43	10.93				~~
+
+~~Wed Nov 04 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	9	8	4.86	3	46	12.14				~~
+
+~~Thu Nov 05 2026 07:00:00 GMT+0700 (Indochina Time)	17	1	10	7	3.64	3	49	13.36				~~
+
+~~Fri Nov 06 2026 07:00:00 GMT+0700 (Indochina Time)	17	3	13	4	2.43	12	61	14.57				~~
+
+~~Sat Nov 07 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	13	4	1.21		61	15.79				~~
+
+~~Sun Nov 08 2026 07:00:00 GMT+0700 (Indochina Time)	17	0	13	4	0		61	17				~~
+
+~~Hiện tại	17		13	4								~~
+
 ## 2026-11-19 09:37 - SUA NOI DUNG
 
 - **Người đăng:** minhquan9125@gmail.com
