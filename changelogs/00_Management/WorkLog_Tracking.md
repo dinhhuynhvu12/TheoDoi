@@ -1,5 +1,65 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-19 09:37 - SUA NOI DUNG
+
+- **Người đăng:** minhquan9125@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-19 09:37
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	Sprint 3	S3-WBS28	S3-G08	2	Hoàn thiện session logout refresh	Nguyễn Minh Quân	Đã hoàn thành	4	3	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cho người dùng đăng xuất và làm phiên đăng nhập hết hiệu lực theo cách đã chọn. Bước 2: Xử lý trường hợp phiên hết hạn: thử làm mới an toàn nếu được phép, nếu không thì đưa về trang đăng nhập. Bước 3: Thử mã phiên sai, hết hạn và đã đăng xuất để chắc không truy cập tiếp được.	Logout thu hồi p...**
+
+🟢 **	Sprint 3	S3-WBS33	S3-G08	2	Bảo vệ API theo vai trò	Nguyễn Minh Quân	Đã hoàn thành	3	3	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Liệt kê API tài khoản, nguồn dữ liệu, corpus, truy vấn và đánh giá nằm trong phạm vi Sprint 3, cùng vai trò được phép dùng từng API. Bước 2: Kiểm tra quyền ở máy chủ, không chỉ ẩn nút trên giao diện. Bước 3: Thử tài khoản thiếu quyền gọi trực tiếp từng API và xác nhận bị từ chối.	Sai vai trò bị từ chối...**
+
+🟢 **					Giờ đã ghi theo ngày				72							6	12	9	6	6	1	0	10	6	8	3	5	0	0**
+
+🟢 **					Chênh giờ thực tế theo task − giờ ghi theo ngày: 1 h.																								**
+
+🟢 **Đường theo ngày gồm 32 task ước tính (20 theo nhật ký giờ, 12 theo deadline).												**
+
+🟢 **Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 1h.												**
+
+🟢 **Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	36	4	4	32	32.4	6	6	3.6		S3-WBS28	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	36	2	6	30	28.8	12	18	7.2		S3-WBS33	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	36	5	27	9	7.2	8	64	28.8		S3-WBS31	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	36	2	29	7	3.6	3	67	32.4		S3-WBS35	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	36	3	32	4	0	5	72	36		S3-WBS04	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sat Oct 24 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	32	4	0		72	36		S3-WBS09	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	32	4	0		72	36		S3-WBS14	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+~~Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 6h.												~~
+
+~~	Sprint 3	S3-WBS28	S3-G08	2	Hoàn thiện session logout refresh	Nguyễn Minh Quân	Đã hoàn thành	4	3	Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Cho người dùng đăng xuất và làm phiên đăng nhập hết hiệu lực theo cách đã chọn. Bước 2: Xử lý trường hợp phiên hết hạn: thử làm mới an toàn nếu được phép, nếu không thì đưa về trang đăng nhập. Bước 3: Thử mã phiên sai, hết hạn và đã đăng xuất để chắc không truy cập tiếp được.	Logout thu hồi p...~~
+
+~~	Sprint 3	S3-WBS33	S3-G08	2	Bảo vệ API theo vai trò	Nguyễn Minh Quân	Đã hoàn thành	3	3	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Bước 1: Liệt kê API tài khoản, nguồn dữ liệu, corpus, truy vấn và đánh giá nằm trong phạm vi Sprint 3, cùng vai trò được phép dùng từng API. Bước 2: Kiểm tra quyền ở máy chủ, không chỉ ẩn nút trên giao diện. Bước 3: Thử tài khoản thiếu quyền gọi trực tiếp từng API và xác nhận bị từ chối.	Sai vai trò bị từ chối...~~
+
+~~					Giờ đã ghi theo ngày				67							6	12	9	6	6	1	0	10	6	5	3	3	0	0~~
+
+~~					Chênh giờ thực tế theo task − giờ ghi theo ngày: 6 h.																								~~
+
+~~Đường theo ngày gồm 32 task ước tính (18 theo nhật ký giờ, 14 theo deadline).												~~
+
+~~Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	36	4	4	32	32.4	6	6	3.6		S3-WBS28	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Tue Oct 13 2026 07:00:00 GMT+0700 (Indochina Time)	36	2	6	30	28.8	12	18	7.2		S3-WBS33	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Wed Oct 21 2026 07:00:00 GMT+0700 (Indochina Time)	36	4	26	10	7.2	5	61	28.8		S3-WBS31	Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Thu Oct 22 2026 07:00:00 GMT+0700 (Indochina Time)	36	3	29	7	3.6	3	64	32.4		S3-WBS35	Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Fri Oct 23 2026 07:00:00 GMT+0700 (Indochina Time)	36	3	32	4	0	3	67	36		S3-WBS04	Mon Oct 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Sat Oct 24 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	32	4	0		67	36		S3-WBS09	Wed Oct 14 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Sun Oct 25 2026 07:00:00 GMT+0700 (Indochina Time)	36	0	32	4	0		67	36		S3-WBS14	Fri Oct 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
 ## 2026-11-19 09:32 - SUA NOI DUNG
 
 - **Người đăng:** dunhvu47@gmail.com
