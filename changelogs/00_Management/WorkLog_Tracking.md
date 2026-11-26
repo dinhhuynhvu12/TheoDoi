@@ -1,5 +1,209 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-26 10:17 - SUA NOI DUNG
+
+- **Người đăng:** minhquan9125@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-26 10:17
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS06.2	Kiểm tra refresh thất bại và chống gửi trùng	Làm mới phiên Chat	Thử nhiều request 401, refresh hết hạn và gửi lại tin nhắn.	Chat dùng cơ chế refresh token chung và xử lý hết phiên hoặc thất bại mà không gửi trùng.	Không tạo hai tin. Khi refresh hết hạn, yêu cầu đăng nhập lại.	S5-WBS06.1	Vừa	Đã hoàn thành	S5-G04	FinMind	5	3	2	Nguyễn Minh Quân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS08.2	Lấy chỉ tiêu từ các kỳ BCTC 	Nhận định xu hướng doanh nghiệp	Lấy doanh thu, lợi nhuận, dòng tiền nếu có. Ghi kỳ, đơn vị, ngày công bố nếu có và đoạn nguồn. 	Kết hợp tín hiệu giá và BCTC; nêu dữ liệu và lý do, xử lý thiếu và trái chiều.	Có số liệu theo kỳ cùng bằng chứng gốc.	Dữ liệu BCTC	Cao	Đã hoàn thành	S5-G06	FinMind	5	4	3	Nguyễn Minh Quân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS09.1	Kế thừa công ty, kỳ và chủ đề giữa các lượt	Ngữ cảnh nhiều lượt Chat	Dùng phạm vi hội thoại hiện tại, ưu tiên công ty hoặc kỳ mới nếu người dùng thay đổi.	Giữ hoặc đổi đúng doanh nghiệp, kỳ và chủ đề; xử lý yêu cầu tiếp nối, liệt kê và tổng hợp.	Câu nối tiếp giữ đúng phạm vi và chuyển phạm vi khi được yêu cầu.	S5-WBS05.1	Vừa	Đã hoàn thành	S5-G07	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS09.2	Xử lý liệt kê và giới thiệu tổng quan	Ngữ cảnh nhiều lượt Chat	Liệt kê nội dung đang nói. Tổng quan đúng doanh nghiệp và truy xuất thêm khi cần.	Giữ hoặc đổi đúng doanh nghiệp, kỳ và chủ đề; xử lý yêu cầu tiếp nối, liệt kê và tổng hợp.	Hai câu mẫu chạy đúng trong phiên nhiều lượt.	S5-WBS09.1	Vừa	Đã hoàn thành	S5-G07	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS09.3	Xử lý tổng hợp nãy giờ	Ngữ cảnh nhiều lượt Chat	Tóm tắt nội dung phiên hiện tại và giữ các nguồn đã dẫn.	Giữ hoặc đổi đúng doanh nghiệp, kỳ và chủ đề; xử lý yêu cầu tiếp nối, liệt kê và tổng hợp.	Không lẫn nội dung giữa các phiên, nguồn còn đối chiếu được.	S5-WBS09.1	Vừa	Đã hoàn thành	S5-G07	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS10.2	Tính nhóm tín hiệu tài chính	Nhận định xu hướng doanh nghiệp	Tính thay đổi doanh thu, lợi nhuận và dòng tiền khi có kỳ tương đương.	Kết hợp tín hiệu giá và BCTC; nêu dữ liệu và lý do, xử lý thiếu và trái chiều.	Có tín hiệu từng chỉ tiêu và nguồn tương ứng.	S5-WBS08.2, S5-WBS08.3	Cao	Đã hoàn thành	S5-G06	FinMind	5	4		Đinh Huỳnh Vũ	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS10.3	Gộp tín hiệu và trả nhãn xu hướng	Nhận định xu hướng doanh nghiệp	Dùng quy tắc chấm điểm giải thích được để gộp tín hiệu giá và tài chính.	Kết hợp tín hiệu giá và BCTC; nêu dữ liệu và lý do, xử lý thiếu và trái chiều.	Trả đi lên, đi xuống, trái chiều hoặc chưa đủ dữ liệu. Ca trái chiều thể hiện hai tín hiệu riêng.	S5-WBS10.1, S5-WBS10.2	Cao	Đã hoàn thành	S5-G06	FinMind	5	3		Thái Quốc Hưng	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina ...**
+
+🟢 **	S5-WBS10.4	Kiểm thử quy tắc chấm điểm	Nhận định xu hướng doanh nghiệp	Thử cùng tăng, cùng giảm, trái chiều và thiếu kỳ.	Kết hợp tín hiệu giá và BCTC; nêu dữ liệu và lý do, xử lý thiếu và trái chiều.	Mỗi nhãn giải thích được bằng số liệu đầu vào.	S5-WBS10.3	Cao	Chưa bắt đầu	S5-G06	FinMind	5	2		Đinh Huỳnh Vũ	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS12.2	Ghép bằng chứng graph và tài liệu cho BOTH	Tối ưu câu trả lời và bằng chứng	Ghép kết quả theo đúng mã công ty và kỳ, gắn citation sát nhận định.	Trình bày theo yêu cầu, giữ nguồn khi ghép hai nhánh và báo rõ phần còn thiếu.	Cả hai loại bằng chứng được dùng đúng phạm vi và nguồn.	S5-WBS05.2, nhánh Vector hiện có	Cao	Chưa bắt đầu	S5-G08	FinMind	5	4		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS12.3	Xử lý kết quả rỗng, thiếu nguồn và lỗi một nhánh	Tối ưu câu trả lời và bằng chứng	Chỉ trình bày phần có căn cứ, ghi rõ phần còn thiếu và thử ca fallback thất bại.	Trình bày theo yêu cầu, giữ nguồn khi ghép hai nhánh và báo rõ phần còn thiếu.	Câu trả lời phân biệt rỗng, thiếu bằng chứng và lỗi nhánh.	S5-WBS07.3, S5-WBS12.1, S5-WBS12.2	Cao	Chưa bắt đầu	S5-G08	FinMind	5	3		Huyền 	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS13.1	Chạy hồi quy bốn lỗi Sprint 4 trên Web Chat	Hồi quy, demo và tính năng hỗ trợ	Chạy lại ca chức vụ, BCTN, ngữ cảnh và token hết hạn.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Có kết quả pass/fail và trace cho đủ bốn lỗi.	S5-WBS02.3, S5-WBS05.3, S5-WBS06.2, S5-WBS09.2, S5-WBS09.3	Cao	Chưa bắt đầu	S5-G09	FinMind	5	4		Huyền 	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS13.2	Đánh giá router và fallback trên bộ câu riêng	Hồi quy, demo và tính năng hỗ trợ	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3	Cao	Đã hoàn thành	S5-G09	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS13.3	Đối chiếu nhận định xu hướng và citation	Hồi quy, demo và tính năng hỗ trợ	Đối chiếu giá và BCTC gốc cho ca đủ dữ liệu, trái chiều và thiếu dữ liệu.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Số liệu, kỳ, nhãn và citation khớp nguồn ở các ca thử.	S5-WBS10.4, S5-WBS11.2, S5-WBS12.2	Cao	Chưa bắt đầu	S5-G09	FinMind	5	3		Nguyễn Minh Quân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS13.4	Chuẩn bị kịch bản demo và tổng hợp lỗi còn lại	Hồi quy, demo và tính năng hỗ trợ	Tập hợp câu hỏi demo, kỳ vọng, kết quả thực tế, trace và lỗi còn mở.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Có kịch bản demo toàn luồng và danh sách lỗi còn mở.	S5-WBS13.1, S5-WBS13.2, S5-WBS13.3	Cao	Chưa bắt đầu	S5-G09	FinMind	5	2		Nguyễn Minh Quân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	Sprint 5	S5-WBS06.2	S5-G04	1	Kiểm tra refresh thất bại và chống gửi trùng	Nguyễn Minh Quân	Đã hoàn thành	3	2	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử nhiều request 401, refresh hết hạn và gửi lại tin nhắn.	Không tạo hai tin. Khi refresh hết hạn, yêu cầu đăng nhập lại.	S5-WBS06.1				2											**
+
+🟢 **	Sprint 5	S5-WBS08.2	S5-G06	1	Lấy chỉ tiêu từ các kỳ BCTC 	Nguyễn Minh Quân	Đã hoàn thành	4	3	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Lấy doanh thu, lợi nhuận, dòng tiền nếu có. Ghi kỳ, đơn vị, ngày công bố nếu có và đoạn nguồn. 	Có số liệu theo kỳ cùng bằng chứng gốc.	Dữ liệu BCTC					3										**
+
+🟢 **	Sprint 5	S5-WBS09.1	S5-G07	2	Kế thừa công ty, kỳ và chủ đề giữa các lượt	Nhân	Đã hoàn thành	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng phạm vi hội thoại hiện tại, ưu tiên công ty hoặc kỳ mới nếu người dùng thay đổi.	Câu nối tiếp giữ đúng phạm vi và chuyển phạm vi khi được yêu cầu.	S5-WBS05.1															**
+
+🟢 **	Sprint 5	S5-WBS09.2	S5-G07	2	Xử lý liệt kê và giới thiệu tổng quan	Nhân	Đã hoàn thành	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Liệt kê nội dung đang nói. Tổng quan đúng doanh nghiệp và truy xuất thêm khi cần.	Hai câu mẫu chạy đúng trong phiên nhiều lượt.	S5-WBS09.1															**
+
+🟢 **	Sprint 5	S5-WBS09.3	S5-G07	2	Xử lý tổng hợp nãy giờ	Nhân	Đã hoàn thành	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tóm tắt nội dung phiên hiện tại và giữ các nguồn đã dẫn.	Không lẫn nội dung giữa các phiên, nguồn còn đối chiếu được.	S5-WBS09.1															**
+
+🟢 **	Sprint 5	S5-WBS13.2	S5-G09	2	Đánh giá router và fallback trên bộ câu riêng	Nhân	Đã hoàn thành	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3															**
+
+🟢 **	Sprint 5	S5-WBS10.2	S5-G06	2	Tính nhóm tín hiệu tài chính	Đinh Huỳnh Vũ	Đã hoàn thành	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tính thay đổi doanh thu, lợi nhuận và dòng tiền khi có kỳ tương đương.	Có tín hiệu từng chỉ tiêu và nguồn tương ứng.	S5-WBS08.2, S5-WBS08.3															**
+
+🟢 **	Sprint 5	S5-WBS10.3	S5-G06	2	Gộp tín hiệu và trả nhãn xu hướng	Thái Quốc Hưng	Đã hoàn thành	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng quy tắc chấm điểm giải thích được để gộp tín hiệu giá và tài chính.	Trả đi lên, đi xuống, trái chiều hoặc chưa đủ dữ liệu. Ca trái chiều thể hiện hai tín hiệu riêng.	S5-WBS10.1, S5-WBS10.2															**
+
+🟢 **	Sprint 5	S5-WBS10.4	S5-G06	2	Kiểm thử quy tắc chấm điểm	Đinh Huỳnh Vũ	Đã hoàn thành	2		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thử cùng tăng, cùng giảm, trái chiều và thiếu kỳ.	Mỗi nhãn giải thích được bằng số liệu đầu vào.	S5-WBS10.3															**
+
+🟢 **	Sprint 5	S5-WBS12.2	S5-G08	2	Ghép bằng chứng graph và tài liệu cho BOTH	Nhân	Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ghép kết quả theo đúng mã công ty và kỳ, gắn citation sát nhận định.	Cả hai loại bằng chứng được dùng đúng phạm vi và nguồn.	S5-WBS05.2, nhánh Vector hiện có															**
+
+🟢 **	Sprint 5	S5-WBS12.3	S5-G08	2	Xử lý kết quả rỗng, thiếu nguồn và lỗi một nhánh	Huyền 	Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ trình bày phần có căn cứ, ghi rõ phần còn thiếu và thử ca fallback thất bại.	Câu trả lời phân biệt rỗng, thiếu bằng chứng và lỗi nhánh.	S5-WBS07.3, S5-WBS12.1, S5-WBS12.2															**
+
+🟢 **	Sprint 5	S5-WBS13.1	S5-G09	2	Chạy hồi quy bốn lỗi Sprint 4 trên Web Chat	Huyền 	Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy lại ca chức vụ, BCTN, ngữ cảnh và token hết hạn.	Có kết quả pass/fail và trace cho đủ bốn lỗi.	S5-WBS02.3, S5-WBS05.3, S5-WBS06.2, S5-WBS09.2, S5-WBS09.3															**
+
+🟢 **	Sprint 5	S5-WBS13.3	S5-G09	2	Đối chiếu nhận định xu hướng và citation	Nguyễn Minh Quân	Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu giá và BCTC gốc cho ca đủ dữ liệu, trái chiều và thiếu dữ liệu.	Số liệu, kỳ, nhãn và citation khớp nguồn ở các ca thử.	S5-WBS10.4, S5-WBS11.2, S5-WBS12.2															**
+
+🟢 **	Sprint 5	S5-WBS13.4	S5-G09	2	Chuẩn bị kịch bản demo và tổng hợp lỗi còn lại	Nguyễn Minh Quân	Chưa bắt đầu	2		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tập hợp câu hỏi demo, kỳ vọng, kết quả thực tế, trace và lỗi còn mở.	Có kịch bản demo toàn luồng và danh sách lỗi còn mở.	S5-WBS13.1, S5-WBS13.2, S5-WBS13.3															**
+
+🟢 **Hiện tại: 31/40 task Done · còn 9 task · 31 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 31 task ước tính (18 theo nhật ký giờ, 13 theo deadline).												**
+
+🟢 **Phạm vi (task)	40	Done hiện tại	31	Giờ dự kiến	120	Done thiếu ngày	31					**
+
+🟢 **										S5-WBS06.2	Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S5-WBS08.2	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	3	37	37.14	13	13	2.86		S5-WBS09.1	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	6	34	34.29	12	25	5.71		S5-WBS09.2	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	9	31	31.43	11	36	8.57		S5-WBS09.3	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	12	28	28.57	12	48	11.43		S5-WBS13.2	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	14	26	25.71	8	56	14.29		S5-WBS05.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	14	26	22.86		56	17.14		S5-WBS07.2	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	6	20	20	20		56	20		S5-WBS08.1	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	20	20	17.14	6	62	22.86		S5-WBS08.3	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	21	19	14.29	6	68	25.71		S5-WBS05.2		**
+
+🟢 **Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	21	19	11.43	3	71	28.57		S5-WBS10.1	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	23	17	8.57	3	74	31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	24	16	5.71	3	77	34.29		S5-WBS11.2	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Nov 21 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	24	16	2.86		77	37.14		S5-WBS12.1	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	40	7	31	9	0		77	40		S5-WBS10.2	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Hiện tại	40		31	9						S5-WBS10.3	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S5-WBS10.4	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+~~	S5-WBS06.2	Kiểm tra refresh thất bại và chống gửi trùng	Làm mới phiên Chat	Thử nhiều request 401, refresh hết hạn và gửi lại tin nhắn.	Chat dùng cơ chế refresh token chung và xử lý hết phiên hoặc thất bại mà không gửi trùng.	Không tạo hai tin. Khi refresh hết hạn, yêu cầu đăng nhập lại.	S5-WBS06.1	Vừa	Chưa bắt đầu	S5-G04	FinMind	5	3	2	Nguyễn Minh Quân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS08.2	Lấy chỉ tiêu từ các kỳ BCTC 	Nhận định xu hướng doanh nghiệp	Lấy doanh thu, lợi nhuận, dòng tiền nếu có. Ghi kỳ, đơn vị, ngày công bố nếu có và đoạn nguồn. 	Kết hợp tín hiệu giá và BCTC; nêu dữ liệu và lý do, xử lý thiếu và trái chiều.	Có số liệu theo kỳ cùng bằng chứng gốc.	Dữ liệu BCTC	Cao	Chưa bắt đầu	S5-G06	FinMind	5	4	3	Nguyễn Minh Quân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS09.1	Kế thừa công ty, kỳ và chủ đề giữa các lượt	Ngữ cảnh nhiều lượt Chat	Dùng phạm vi hội thoại hiện tại, ưu tiên công ty hoặc kỳ mới nếu người dùng thay đổi.	Giữ hoặc đổi đúng doanh nghiệp, kỳ và chủ đề; xử lý yêu cầu tiếp nối, liệt kê và tổng hợp.	Câu nối tiếp giữ đúng phạm vi và chuyển phạm vi khi được yêu cầu.	S5-WBS05.1	Vừa	Đang làm	S5-G07	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS09.2	Xử lý liệt kê và giới thiệu tổng quan	Ngữ cảnh nhiều lượt Chat	Liệt kê nội dung đang nói. Tổng quan đúng doanh nghiệp và truy xuất thêm khi cần.	Giữ hoặc đổi đúng doanh nghiệp, kỳ và chủ đề; xử lý yêu cầu tiếp nối, liệt kê và tổng hợp.	Hai câu mẫu chạy đúng trong phiên nhiều lượt.	S5-WBS09.1	Vừa	Đang làm	S5-G07	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS09.3	Xử lý tổng hợp nãy giờ	Ngữ cảnh nhiều lượt Chat	Tóm tắt nội dung phiên hiện tại và giữ các nguồn đã dẫn.	Giữ hoặc đổi đúng doanh nghiệp, kỳ và chủ đề; xử lý yêu cầu tiếp nối, liệt kê và tổng hợp.	Không lẫn nội dung giữa các phiên, nguồn còn đối chiếu được.	S5-WBS09.1	Vừa	Đang làm	S5-G07	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS10.2	Tính nhóm tín hiệu tài chính	Nhận định xu hướng doanh nghiệp	Tính thay đổi doanh thu, lợi nhuận và dòng tiền khi có kỳ tương đương.	Kết hợp tín hiệu giá và BCTC; nêu dữ liệu và lý do, xử lý thiếu và trái chiều.	Có tín hiệu từng chỉ tiêu và nguồn tương ứng.	S5-WBS08.2, S5-WBS08.3	Cao	Chưa bắt đầu	S5-G06	FinMind	5	4			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS10.3	Gộp tín hiệu và trả nhãn xu hướng	Nhận định xu hướng doanh nghiệp	Dùng quy tắc chấm điểm giải thích được để gộp tín hiệu giá và tài chính.	Kết hợp tín hiệu giá và BCTC; nêu dữ liệu và lý do, xử lý thiếu và trái chiều.	Trả đi lên, đi xuống, trái chiều hoặc chưa đủ dữ liệu. Ca trái chiều thể hiện hai tín hiệu riêng.	S5-WBS10.1, S5-WBS10.2	Cao	Chưa bắt đầu	S5-G06	FinMind	5	3			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS10.4	Kiểm thử quy tắc chấm điểm	Nhận định xu hướng doanh nghiệp	Thử cùng tăng, cùng giảm, trái chiều và thiếu kỳ.	Kết hợp tín hiệu giá và BCTC; nêu dữ liệu và lý do, xử lý thiếu và trái chiều.	Mỗi nhãn giải thích được bằng số liệu đầu vào.	S5-WBS10.3	Cao	Chưa bắt đầu	S5-G06	FinMind	5	2			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS12.2	Ghép bằng chứng graph và tài liệu cho BOTH	Tối ưu câu trả lời và bằng chứng	Ghép kết quả theo đúng mã công ty và kỳ, gắn citation sát nhận định.	Trình bày theo yêu cầu, giữ nguồn khi ghép hai nhánh và báo rõ phần còn thiếu.	Cả hai loại bằng chứng được dùng đúng phạm vi và nguồn.	S5-WBS05.2, nhánh Vector hiện có	Cao	Chưa bắt đầu	S5-G08	FinMind	5	4			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS12.3	Xử lý kết quả rỗng, thiếu nguồn và lỗi một nhánh	Tối ưu câu trả lời và bằng chứng	Chỉ trình bày phần có căn cứ, ghi rõ phần còn thiếu và thử ca fallback thất bại.	Trình bày theo yêu cầu, giữ nguồn khi ghép hai nhánh và báo rõ phần còn thiếu.	Câu trả lời phân biệt rỗng, thiếu bằng chứng và lỗi nhánh.	S5-WBS07.3, S5-WBS12.1, S5-WBS12.2	Cao	Chưa bắt đầu	S5-G08	FinMind	5	3			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS13.1	Chạy hồi quy bốn lỗi Sprint 4 trên Web Chat	Hồi quy, demo và tính năng hỗ trợ	Chạy lại ca chức vụ, BCTN, ngữ cảnh và token hết hạn.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Có kết quả pass/fail và trace cho đủ bốn lỗi.	S5-WBS02.3, S5-WBS05.3, S5-WBS06.2, S5-WBS09.2, S5-WBS09.3	Cao	Chưa bắt đầu	S5-G09	FinMind	5	4			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS13.2	Đánh giá router và fallback trên bộ câu riêng	Hồi quy, demo và tính năng hỗ trợ	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3	Cao	Đang làm	S5-G09	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS13.3	Đối chiếu nhận định xu hướng và citation	Hồi quy, demo và tính năng hỗ trợ	Đối chiếu giá và BCTC gốc cho ca đủ dữ liệu, trái chiều và thiếu dữ liệu.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Số liệu, kỳ, nhãn và citation khớp nguồn ở các ca thử.	S5-WBS10.4, S5-WBS11.2, S5-WBS12.2	Cao	Chưa bắt đầu	S5-G09	FinMind	5	3			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS13.4	Chuẩn bị kịch bản demo và tổng hợp lỗi còn lại	Hồi quy, demo và tính năng hỗ trợ	Tập hợp câu hỏi demo, kỳ vọng, kết quả thực tế, trace và lỗi còn mở.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Có kịch bản demo toàn luồng và danh sách lỗi còn mở.	S5-WBS13.1, S5-WBS13.2, S5-WBS13.3	Cao	Chưa bắt đầu	S5-G09	FinMind	5	2			Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	Sprint 5	S5-WBS06.2	S5-G04	1	Kiểm tra refresh thất bại và chống gửi trùng	Nguyễn Minh Quân	Chưa bắt đầu	3	2	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử nhiều request 401, refresh hết hạn và gửi lại tin nhắn.	Không tạo hai tin. Khi refresh hết hạn, yêu cầu đăng nhập lại.	S5-WBS06.1				2											~~
+
+~~	Sprint 5	S5-WBS08.2	S5-G06	1	Lấy chỉ tiêu từ các kỳ BCTC 	Nguyễn Minh Quân	Chưa bắt đầu	4	3	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Lấy doanh thu, lợi nhuận, dòng tiền nếu có. Ghi kỳ, đơn vị, ngày công bố nếu có và đoạn nguồn. 	Có số liệu theo kỳ cùng bằng chứng gốc.	Dữ liệu BCTC					3										~~
+
+~~	Sprint 5	S5-WBS09.1	S5-G07	2	Kế thừa công ty, kỳ và chủ đề giữa các lượt	Nhân	Đang làm	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng phạm vi hội thoại hiện tại, ưu tiên công ty hoặc kỳ mới nếu người dùng thay đổi.	Câu nối tiếp giữ đúng phạm vi và chuyển phạm vi khi được yêu cầu.	S5-WBS05.1															~~
+
+~~	Sprint 5	S5-WBS09.2	S5-G07	2	Xử lý liệt kê và giới thiệu tổng quan	Nhân	Đang làm	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Liệt kê nội dung đang nói. Tổng quan đúng doanh nghiệp và truy xuất thêm khi cần.	Hai câu mẫu chạy đúng trong phiên nhiều lượt.	S5-WBS09.1															~~
+
+~~	Sprint 5	S5-WBS09.3	S5-G07	2	Xử lý tổng hợp nãy giờ	Nhân	Đang làm	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tóm tắt nội dung phiên hiện tại và giữ các nguồn đã dẫn.	Không lẫn nội dung giữa các phiên, nguồn còn đối chiếu được.	S5-WBS09.1															~~
+
+~~	Sprint 5	S5-WBS13.2	S5-G09	2	Đánh giá router và fallback trên bộ câu riêng	Nhân	Đang làm	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3															~~
+
+~~	Sprint 5	S5-WBS10.2	S5-G06	2	Tính nhóm tín hiệu tài chính		Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tính thay đổi doanh thu, lợi nhuận và dòng tiền khi có kỳ tương đương.	Có tín hiệu từng chỉ tiêu và nguồn tương ứng.	S5-WBS08.2, S5-WBS08.3															~~
+
+~~	Sprint 5	S5-WBS10.3	S5-G06	2	Gộp tín hiệu và trả nhãn xu hướng		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng quy tắc chấm điểm giải thích được để gộp tín hiệu giá và tài chính.	Trả đi lên, đi xuống, trái chiều hoặc chưa đủ dữ liệu. Ca trái chiều thể hiện hai tín hiệu riêng.	S5-WBS10.1, S5-WBS10.2															~~
+
+~~	Sprint 5	S5-WBS10.4	S5-G06	2	Kiểm thử quy tắc chấm điểm		Chưa bắt đầu	2		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thử cùng tăng, cùng giảm, trái chiều và thiếu kỳ.	Mỗi nhãn giải thích được bằng số liệu đầu vào.	S5-WBS10.3															~~
+
+~~	Sprint 5	S5-WBS12.2	S5-G08	2	Ghép bằng chứng graph và tài liệu cho BOTH		Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ghép kết quả theo đúng mã công ty và kỳ, gắn citation sát nhận định.	Cả hai loại bằng chứng được dùng đúng phạm vi và nguồn.	S5-WBS05.2, nhánh Vector hiện có															~~
+
+~~	Sprint 5	S5-WBS12.3	S5-G08	2	Xử lý kết quả rỗng, thiếu nguồn và lỗi một nhánh		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ trình bày phần có căn cứ, ghi rõ phần còn thiếu và thử ca fallback thất bại.	Câu trả lời phân biệt rỗng, thiếu bằng chứng và lỗi nhánh.	S5-WBS07.3, S5-WBS12.1, S5-WBS12.2															~~
+
+~~	Sprint 5	S5-WBS13.1	S5-G09	2	Chạy hồi quy bốn lỗi Sprint 4 trên Web Chat		Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy lại ca chức vụ, BCTN, ngữ cảnh và token hết hạn.	Có kết quả pass/fail và trace cho đủ bốn lỗi.	S5-WBS02.3, S5-WBS05.3, S5-WBS06.2, S5-WBS09.2, S5-WBS09.3															~~
+
+~~	Sprint 5	S5-WBS13.3	S5-G09	2	Đối chiếu nhận định xu hướng và citation		Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu giá và BCTC gốc cho ca đủ dữ liệu, trái chiều và thiếu dữ liệu.	Số liệu, kỳ, nhãn và citation khớp nguồn ở các ca thử.	S5-WBS10.4, S5-WBS11.2, S5-WBS12.2															~~
+
+~~	Sprint 5	S5-WBS13.4	S5-G09	2	Chuẩn bị kịch bản demo và tổng hợp lỗi còn lại		Chưa bắt đầu	2		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tập hợp câu hỏi demo, kỳ vọng, kết quả thực tế, trace và lỗi còn mở.	Có kịch bản demo toàn luồng và danh sách lỗi còn mở.	S5-WBS13.1, S5-WBS13.2, S5-WBS13.3															~~
+
+~~Hiện tại: 22/40 task Done · còn 18 task · 22 Done thiếu ngày												~~
+
+~~Đường theo ngày gồm 22 task ước tính (16 theo nhật ký giờ, 6 theo deadline).												~~
+
+~~Phạm vi (task)	40	Done hiện tại	22	Giờ dự kiến	120	Done thiếu ngày	22					~~
+
+~~										S5-WBS06.2		~~
+
+~~										S5-WBS08.2		~~
+
+~~Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	3	37	37.14	13	13	2.86		S5-WBS09.1		~~
+
+~~Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	6	34	34.29	12	25	5.71		S5-WBS09.2		~~
+
+~~Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	8	32	31.43	11	36	8.57		S5-WBS09.3		~~
+
+~~Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	10	30	28.57	12	48	11.43		S5-WBS13.2		~~
+
+~~Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	12	28	25.71	8	56	14.29		S5-WBS05.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	12	28	22.86		56	17.14		S5-WBS07.2	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	6	18	22	20		56	20		S5-WBS08.1	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	18	22	17.14	6	62	22.86		S5-WBS08.3	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	19	21	14.29	6	68	25.71		S5-WBS05.2		~~
+
+~~Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	19	21	11.43	3	71	28.57		S5-WBS10.1	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	21	19	8.57	3	74	31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	22	18	5.71	3	77	34.29		S5-WBS11.2	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sat Nov 21 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	22	18	2.86		77	37.14		S5-WBS12.1	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	22	18	0		77	40		S5-WBS10.2		~~
+
+~~Hiện tại	40		22	18						S5-WBS10.3		~~
+
+~~										S5-WBS10.4		~~
+
 ## 2026-11-26 09:47 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
