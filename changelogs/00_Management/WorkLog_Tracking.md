@@ -1,5 +1,239 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-26 10:57 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-26 10:57
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S6-WBS73	Chốt #15 Tài liệu và slides sau chỉnh sửa	Hoàn thiện hồ sơ	Tổng hợp góp ý, cập nhật slides và kịch bản demo; đối chiếu số liệu với báo cáo cuối. Đầu ra: Hồ sơ #15, bản nháp 27/11, bản cuối review 28/11. Người rà: Hồ Phạm Đăng Nhân. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Nội dung/ảnh cùng bản nộp; link mở được và quyền truy cập đúng.	Phân công v2 · HS-15	Cao	Đã hoàn thành	S6-G12	FinMind	6	1.5		Nguyễn Minh Quân	Wed Nov 25 2026 07:00:...**
+
+🟢 **	S6-WBS74	Sửa lỗi chặn nộp trong module — Vũ	Sửa lỗi và hồi quy	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	Phân công v2 · FIX-1	Cao	Đã hoàn thành	S6-G13	FinMind	6	2		Đinh Huỳnh Vũ	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fr...**
+
+🟢 **	S6-WBS75	Retest và hồi quy sau sửa — Vũ	Sửa lỗi và hồi quy	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Phân công v2 · RET-1	Cao	Đã hoàn thành	S6-G13	FinMind	6	1.25		Đinh Huỳnh Vũ	Fri Nov 27 2026 07:0...**
+
+🟢 **	S6-WBS76	Sửa lỗi chặn nộp trong module — Huyền	Sửa lỗi và hồi quy	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	Phân công v2 · FIX-2	Cao	Đã hoàn thành	S6-G13	FinMind	6	2		Trần Diệu Huyền	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Tim...**
+
+🟢 **	S6-WBS77	Retest và hồi quy sau sửa — Huyền	Sửa lỗi và hồi quy	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Phân công v2 · RET-2	Cao	Đã hoàn thành	S6-G13	FinMind	6	1.25		Trần Diệu Huyền	Fri Nov 27 2026...**
+
+🟢 **	S6-WBS78	Sửa lỗi chặn nộp trong module — Hưng	Sửa lỗi và hồi quy	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	Phân công v2 · FIX-3	Cao	Đã hoàn thành	S6-G13	FinMind	6	1.5		Thái Quốc Hưng	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Tim...**
+
+🟢 **	S6-WBS79	Retest và hồi quy sau sửa — Hưng	Sửa lỗi và hồi quy	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Phân công v2 · RET-3	Cao	Đã hoàn thành	S6-G13	FinMind	6	1		Thái Quốc Hưng	Fri Nov 27 2026 07:0...**
+
+🟢 **	S6-WBS80	Sửa lỗi chặn nộp trong module — Nhân	Sửa lỗi và hồi quy	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	Phân công v2 · FIX-4	Cao	Đã hoàn thành	S6-G13	FinMind	6	2		Hồ Phạm Đăng Nhân	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Ti...**
+
+🟢 **	S6-WBS81	Retest và hồi quy sau sửa — Nhân	Sửa lỗi và hồi quy	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Phân công v2 · RET-4	Cao	Đã hoàn thành	S6-G13	FinMind	6	1.25		Hồ Phạm Đăng Nhân	Fri Nov 27 202...**
+
+🟢 **	S6-WBS82	Sửa lỗi chặn nộp trong module — Quân	Sửa lỗi và hồi quy	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	Phân công v2 · FIX-5	Cao	Đã hoàn thành	S6-G13	FinMind	6	2		Nguyễn Minh Quân	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Tim...**
+
+🟢 **	S6-WBS83	Retest và hồi quy sau sửa — Quân	Sửa lỗi và hồi quy	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Phân công v2 · RET-5	Cao	Đã hoàn thành	S6-G13	FinMind	6	1.5		Nguyễn Minh Quân	Fri Nov 27 2026 ...**
+
+🟢 **	S6-WBS84	Nghiệm thu tích hợp NEWS và BCTN	Kiểm thử chức năng và tích hợp	Nhân, Vũ, Hưng, Huyền; Quân ghi nhận UI Chạy một nguồn NEWS và một PDF/BCTN từ đầu vào đến duyệt, lưu, graph/vector và Chat. Đối chiếu ID, locator, review, corpus và citation ở từng bước. Phân bổ giờ: Vũ 0,75h, Huyền 0,75h, Hưng 0,75h, Nhân 0,75h, Quân 0,5h. Đầu ra: Hai biên bản luồng thật và receipt/trace.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Nguồn chưa duyệt không thành kết luận chính thức. NE...**
+
+🟢 **	S6-WBS85	Phân loại lỗi vượt ranh giới module	Sửa lỗi và hồi quy	Chỉ người phát hiện và chủ module liên quan. Mỗi bug chặn nộp phải có chủ sửa, hạn có bản sửa, người retest, hạn retest và commit. Dùng Bug\_report; bản sửa ưu tiên có trong 26–27/11. Phân bổ giờ: Vũ 0,25h, Huyền 0,25h, Hưng 0,25h, Nhân 0,25h, Quân 0,25h. Vũ điều phối phân loại. Mỗi lỗi do chủ module tương ứng sửa. Đầu ra: Danh sách lỗi có một người nhận chính.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Không giao...**
+
+🟢 **	S6-WBS86	Kiểm tra lại sau sửa và giữ riêng ca nghiệm thu	Sửa lỗi và hồi quy	Người sửa và người kiểm thử độc lập. Chạy retest ngay khi có bản sửa; giữ thời gian 27–28/11 cho hồi quy. Quỹ giờ đã tính trong các task RET, không tính lại tại đây. Phân bổ giờ: Vũ 0h, Huyền 0h, Hưng 0h, Nhân 0h, Quân 0h. Đầu ra: Kết quả trước/sau và lỗi còn mở.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Không chấm đạt chỉ vì có câu trả lời. Ca đã xem để sửa không được tính là đề giữ riêng.	Phân công...**
+
+🟢 **	S6-WBS87	Rà gói nộp và xác nhận gửi	Rà gói nộp và xác nhận gửi	Cả 5 người kiểm đủ 15 mục, mở thử file/link và quyền truy cập. Việc soạn/ghép hồ sơ đã giao từ 25/11 và chốt bản review 28/11. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Đầu ra: Checklist nộp, link truy cập và xác nhận gửi.	Đủ 15 mục bắt buộc, mở được file và có minh chứng đã gửi.	Không còn file thiếu/link hỏng/quyền sai. Ghi rõ ngoại lệ được nhóm chấp nhận và minh chứng nộp.	Phân công v2 · CH-06	Cao	Đã hoàn ...**
+
+🟢 **								6	Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	62	264	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **	Sprint 6	S6-WBS73	S6-G12	1	Chốt #15 Tài liệu và slides sau chỉnh sửa	Nguyễn Minh Quân	Đã hoàn thành	1.5		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tổng hợp góp ý, cập nhật slides và kịch bản demo; đối chiếu số liệu với báo cáo cuối. Đầu ra: Hồ sơ #15, bản nháp 27/11, bản cuối review 28/11. Người rà: Hồ Phạm Đăng Nhân. Mốc rà 28/11, kiểm nộp 29/11.	Nội dung/ảnh cùng bản nộp; link mở được và quyền truy cập đúng.	Chủ module bàn giao nội d...**
+
+🟢 **	Sprint 6	S6-WBS74	S6-G13	1	Sửa lỗi chặn nộp trong module — Vũ	Đinh Huỳnh Vũ	Đã hoàn thành	2		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	S6-WBS85 và bug đã tái hiện được.															**
+
+🟢 **	Sprint 6	S6-WBS75	S6-G13	1	Retest và hồi quy sau sửa — Vũ	Đinh Huỳnh Vũ	Đã hoàn thành	1.25		Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Bản sửa có commit và có...**
+
+🟢 **	Sprint 6	S6-WBS76	S6-G13	1	Sửa lỗi chặn nộp trong module — Huyền	Trần Diệu Huyền	Đã hoàn thành	2		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	S6-WBS85 và bug đã tái hiện được.															**
+
+🟢 **	Sprint 6	S6-WBS77	S6-G13	1	Retest và hồi quy sau sửa — Huyền	Trần Diệu Huyền	Đã hoàn thành	1.25		Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Bản sửa có commit ...**
+
+🟢 **	Sprint 6	S6-WBS78	S6-G13	1	Sửa lỗi chặn nộp trong module — Hưng	Thái Quốc Hưng	Đã hoàn thành	1.5		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	S6-WBS85 và bug đã tái hiện được.															**
+
+🟢 **	Sprint 6	S6-WBS79	S6-G13	1	Retest và hồi quy sau sửa — Hưng	Thái Quốc Hưng	Đã hoàn thành	1		Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Bản sửa có commit và có...**
+
+🟢 **	Sprint 6	S6-WBS80	S6-G13	1	Sửa lỗi chặn nộp trong module — Nhân	Hồ Phạm Đăng Nhân	Đã hoàn thành	2		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	S6-WBS85 và bug đã tái hiện được.															**
+
+🟢 **	Sprint 6	S6-WBS81	S6-G13	1	Retest và hồi quy sau sửa — Nhân	Hồ Phạm Đăng Nhân	Đã hoàn thành	1.25		Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Bản sửa có commit...**
+
+🟢 **	Sprint 6	S6-WBS82	S6-G13	1	Sửa lỗi chặn nộp trong module — Quân	Nguyễn Minh Quân	Đã hoàn thành	2		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	S6-WBS85 và bug đã tái hiện được.															**
+
+🟢 **	Sprint 6	S6-WBS83	S6-G13	1	Retest và hồi quy sau sửa — Quân	Nguyễn Minh Quân	Đã hoàn thành	1.5		Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Bản sửa có commit v...**
+
+🟢 **	Sprint 6	S6-WBS84	S6-G11	1	Nghiệm thu tích hợp NEWS và BCTN	Hồ Phạm Đăng Nhân	Đã hoàn thành	3.5		Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Nhân, Vũ, Hưng, Huyền; Quân ghi nhận UI Chạy một nguồn NEWS và một PDF/BCTN từ đầu vào đến duyệt, lưu, graph/vector và Chat. Đối chiếu ID, locator, review, corpus và citation ở từng bước. Phân bổ giờ: Vũ 0,75h, Huyền 0,75h, Hưng 0,75h, Nhân 0,75h, Quân 0,5h. Đầu ra: Hai biên bản luồng thật và receip...**
+
+🟢 **	Sprint 6	S6-WBS85	S6-G13	1	Phân loại lỗi vượt ranh giới module	Đinh Huỳnh Vũ	Đã hoàn thành	1.25		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ người phát hiện và chủ module liên quan. Mỗi bug chặn nộp phải có chủ sửa, hạn có bản sửa, người retest, hạn retest và commit. Dùng Bug\_report; bản sửa ưu tiên có trong 26–27/11. Phân bổ giờ: Vũ 0,25h, Huyền 0,25h, Hưng 0,25h, Nhân 0,25h, Quân 0,25h. Vũ điều phối phân loại. Mỗi lỗi do chủ module...**
+
+🟢 **	Sprint 6	S6-WBS86	S6-G13	1	Kiểm tra lại sau sửa và giữ riêng ca nghiệm thu	Đinh Huỳnh Vũ	Đã hoàn thành	0		Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Người sửa và người kiểm thử độc lập. Chạy retest ngay khi có bản sửa; giữ thời gian 27–28/11 cho hồi quy. Quỹ giờ đã tính trong các task RET, không tính lại tại đây. Phân bổ giờ: Vũ 0h, Huyền 0h, Hưng 0h, Nhân 0h, Quân 0h. Đầu ra: Kết quả trước/sau và lỗi còn mở.	Không chấm đạt chỉ vì có câ...**
+
+🟢 **	Sprint 6	S6-WBS87	S6-G14	1	Rà gói nộp và xác nhận gửi	Đinh Huỳnh Vũ	Đã hoàn thành	2.5		Sun Nov 29 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 29 2026 07:00:00 GMT+0700 (Indochina Time)	Cả 5 người kiểm đủ 15 mục, mở thử file/link và quyền truy cập. Việc soạn/ghép hồ sơ đã giao từ 25/11 và chốt bản review 28/11. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Đầu ra: Checklist nộp, link truy cập và xác nhận gửi.	Không còn file thiếu/link hỏng/quyền sai. Ghi rõ ngoại lệ được...**
+
+🟢 **Hiện tại: 51/51 task Done · còn 0 task · 51 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 51 task ước tính (36 theo nhật ký giờ, 15 theo deadline).												**
+
+🟢 **Phạm vi (task)	51	Done hiện tại	51	Giờ dự kiến	62	Done thiếu ngày	51					**
+
+🟢 **Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	51	1	1	50	47.36	6	6	3.64		S6-WBS56	Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	1	50	43.71	7	13	7.29		S6-WBS57	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	51	2	3	48	40.07	43	56	10.93		S6-WBS58	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	51	1	4	47	36.43	33	89	14.57		S6-WBS59	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	51	8	12	39	32.79	31	120	18.21		S6-WBS60	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	51	8	20	31	29.14		120	21.86		S6-WBS61	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Nov 29 2026 07:00:00 GMT+0700 (Indochina Time)	51	1	21	30	25.5	2	122	25.5		S6-WBS62	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	51	4	25	26	21.86	43	165	29.14		S6-WBS63	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	51	7	32	19	18.21	29	194	32.79		S6-WBS64	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	51	8	40	11	14.57	37	231	36.43		S6-WBS65	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	51	2	42	9	10.93	12	243	40.07		S6-WBS66	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	51	9	51	0	7.29	21	264	43.71		S6-WBS67	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Dec 05 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	51	0	3.64		264	47.36		S6-WBS68	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	51	0	0		264	51		S6-WBS69	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Hiện tại	51		51	0						S6-WBS70	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S6-WBS73	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S6-WBS74	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S6-WBS75	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S6-WBS76	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S6-WBS77	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S6-WBS78	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S6-WBS79	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S6-WBS80	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S6-WBS81	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S6-WBS82	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S6-WBS83	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S6-WBS84	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S6-WBS85	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S6-WBS86	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S6-WBS87	Sun Nov 29 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+~~	S6-WBS73	Chốt #15 Tài liệu và slides sau chỉnh sửa	Hoàn thiện hồ sơ	Tổng hợp góp ý, cập nhật slides và kịch bản demo; đối chiếu số liệu với báo cáo cuối. Đầu ra: Hồ sơ #15, bản nháp 27/11, bản cuối review 28/11. Người rà: Hồ Phạm Đăng Nhân. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Nội dung/ảnh cùng bản nộp; link mở được và quyền truy cập đúng.	Phân công v2 · HS-15	Cao	Chưa bắt đầu	S6-G12	FinMind	6	1.5		Nguyễn Minh Quân	Wed Nov 25 2026 07:00:0...~~
+
+~~	S6-WBS74	Sửa lỗi chặn nộp trong module — Vũ	Sửa lỗi và hồi quy	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	Phân công v2 · FIX-1	Cao	Chưa bắt đầu	S6-G13	FinMind	6	2		Đinh Huỳnh Vũ	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri...~~
+
+~~	S6-WBS75	Retest và hồi quy sau sửa — Vũ	Sửa lỗi và hồi quy	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Phân công v2 · RET-1	Cao	Chưa bắt đầu	S6-G13	FinMind	6	1.25		Đinh Huỳnh Vũ	Fri Nov 27 2026 07:00...~~
+
+~~	S6-WBS76	Sửa lỗi chặn nộp trong module — Huyền	Sửa lỗi và hồi quy	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	Phân công v2 · FIX-2	Cao	Chưa bắt đầu	S6-G13	FinMind	6	2		Trần Diệu Huyền	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time...~~
+
+~~	S6-WBS77	Retest và hồi quy sau sửa — Huyền	Sửa lỗi và hồi quy	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Phân công v2 · RET-2	Cao	Chưa bắt đầu	S6-G13	FinMind	6	1.25		Trần Diệu Huyền	Fri Nov 27 2026 ...~~
+
+~~	S6-WBS78	Sửa lỗi chặn nộp trong module — Hưng	Sửa lỗi và hồi quy	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	Phân công v2 · FIX-3	Cao	Chưa bắt đầu	S6-G13	FinMind	6	1.5		Thái Quốc Hưng	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time...~~
+
+~~	S6-WBS79	Retest và hồi quy sau sửa — Hưng	Sửa lỗi và hồi quy	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Phân công v2 · RET-3	Cao	Chưa bắt đầu	S6-G13	FinMind	6	1		Thái Quốc Hưng	Fri Nov 27 2026 07:00...~~
+
+~~	S6-WBS80	Sửa lỗi chặn nộp trong module — Nhân	Sửa lỗi và hồi quy	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	Phân công v2 · FIX-4	Cao	Chưa bắt đầu	S6-G13	FinMind	6	2		Hồ Phạm Đăng Nhân	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Tim...~~
+
+~~	S6-WBS81	Retest và hồi quy sau sửa — Nhân	Sửa lỗi và hồi quy	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Phân công v2 · RET-4	Cao	Chưa bắt đầu	S6-G13	FinMind	6	1.25		Hồ Phạm Đăng Nhân	Fri Nov 27 2026...~~
+
+~~	S6-WBS82	Sửa lỗi chặn nộp trong module — Quân	Sửa lỗi và hồi quy	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	Phân công v2 · FIX-5	Cao	Chưa bắt đầu	S6-G13	FinMind	6	2		Nguyễn Minh Quân	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time...~~
+
+~~	S6-WBS83	Retest và hồi quy sau sửa — Quân	Sửa lỗi và hồi quy	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Phân công v2 · RET-5	Cao	Chưa bắt đầu	S6-G13	FinMind	6	1.5		Nguyễn Minh Quân	Fri Nov 27 2026 0...~~
+
+~~	S6-WBS84	Nghiệm thu tích hợp NEWS và BCTN	Kiểm thử chức năng và tích hợp	Nhân, Vũ, Hưng, Huyền; Quân ghi nhận UI Chạy một nguồn NEWS và một PDF/BCTN từ đầu vào đến duyệt, lưu, graph/vector và Chat. Đối chiếu ID, locator, review, corpus và citation ở từng bước. Phân bổ giờ: Vũ 0,75h, Huyền 0,75h, Hưng 0,75h, Nhân 0,75h, Quân 0,5h. Đầu ra: Hai biên bản luồng thật và receipt/trace.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Nguồn chưa duyệt không thành kết luận chính thức. NE...~~
+
+~~	S6-WBS85	Phân loại lỗi vượt ranh giới module	Sửa lỗi và hồi quy	Chỉ người phát hiện và chủ module liên quan. Mỗi bug chặn nộp phải có chủ sửa, hạn có bản sửa, người retest, hạn retest và commit. Dùng Bug\_report; bản sửa ưu tiên có trong 26–27/11. Phân bổ giờ: Vũ 0,25h, Huyền 0,25h, Hưng 0,25h, Nhân 0,25h, Quân 0,25h. Vũ điều phối phân loại. Mỗi lỗi do chủ module tương ứng sửa. Đầu ra: Danh sách lỗi có một người nhận chính.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Không giao...~~
+
+~~	S6-WBS86	Kiểm tra lại sau sửa và giữ riêng ca nghiệm thu	Sửa lỗi và hồi quy	Người sửa và người kiểm thử độc lập. Chạy retest ngay khi có bản sửa; giữ thời gian 27–28/11 cho hồi quy. Quỹ giờ đã tính trong các task RET, không tính lại tại đây. Phân bổ giờ: Vũ 0h, Huyền 0h, Hưng 0h, Nhân 0h, Quân 0h. Đầu ra: Kết quả trước/sau và lỗi còn mở.	Lỗi chặn nộp có chủ sửa, hạn, commit và người retest độc lập.	Không chấm đạt chỉ vì có câu trả lời. Ca đã xem để sửa không được tính là đề giữ riêng.	Phân công...~~
+
+~~	S6-WBS87	Rà gói nộp và xác nhận gửi	Rà gói nộp và xác nhận gửi	Cả 5 người kiểm đủ 15 mục, mở thử file/link và quyền truy cập. Việc soạn/ghép hồ sơ đã giao từ 25/11 và chốt bản review 28/11. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Đầu ra: Checklist nộp, link truy cập và xác nhận gửi.	Đủ 15 mục bắt buộc, mở được file và có minh chứng đã gửi.	Không còn file thiếu/link hỏng/quyền sai. Ghi rõ ngoại lệ được nhóm chấp nhận và minh chứng nộp.	Phân công v2 · CH-06	Cao	Chưa bắt...~~
+
+~~								6	Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	62	264	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~Đường theo ngày gồm 36 task ước tính (36 theo nhật ký giờ, 0 theo deadline).												~~
+
+~~	Sprint 6	S6-WBS73	S6-G12	1	Chốt #15 Tài liệu và slides sau chỉnh sửa	Nguyễn Minh Quân	Chưa bắt đầu	1.5		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tổng hợp góp ý, cập nhật slides và kịch bản demo; đối chiếu số liệu với báo cáo cuối. Đầu ra: Hồ sơ #15, bản nháp 27/11, bản cuối review 28/11. Người rà: Hồ Phạm Đăng Nhân. Mốc rà 28/11, kiểm nộp 29/11.	Nội dung/ảnh cùng bản nộp; link mở được và quyền truy cập đúng.	Chủ module bàn giao nội du...~~
+
+~~	Sprint 6	S6-WBS74	S6-G13	1	Sửa lỗi chặn nộp trong module — Vũ	Đinh Huỳnh Vũ	Chưa bắt đầu	2		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	S6-WBS85 và bug đã tái hiện được.															~~
+
+~~	Sprint 6	S6-WBS75	S6-G13	1	Retest và hồi quy sau sửa — Vũ	Đinh Huỳnh Vũ	Chưa bắt đầu	1.25		Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Bản sửa có commit và có ...~~
+
+~~	Sprint 6	S6-WBS76	S6-G13	1	Sửa lỗi chặn nộp trong module — Huyền	Trần Diệu Huyền	Chưa bắt đầu	2		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	S6-WBS85 và bug đã tái hiện được.															~~
+
+~~	Sprint 6	S6-WBS77	S6-G13	1	Retest và hồi quy sau sửa — Huyền	Trần Diệu Huyền	Chưa bắt đầu	1.25		Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Bản sửa có commit v...~~
+
+~~	Sprint 6	S6-WBS78	S6-G13	1	Sửa lỗi chặn nộp trong module — Hưng	Thái Quốc Hưng	Chưa bắt đầu	1.5		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	S6-WBS85 và bug đã tái hiện được.															~~
+
+~~	Sprint 6	S6-WBS79	S6-G13	1	Retest và hồi quy sau sửa — Hưng	Thái Quốc Hưng	Chưa bắt đầu	1		Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Bản sửa có commit và có ...~~
+
+~~	Sprint 6	S6-WBS80	S6-G13	1	Sửa lỗi chặn nộp trong module — Nhân	Hồ Phạm Đăng Nhân	Chưa bắt đầu	2		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	S6-WBS85 và bug đã tái hiện được.															~~
+
+~~	Sprint 6	S6-WBS81	S6-G13	1	Retest và hồi quy sau sửa — Nhân	Hồ Phạm Đăng Nhân	Chưa bắt đầu	1.25		Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Bản sửa có commit ...~~
+
+~~	Sprint 6	S6-WBS82	S6-G13	1	Sửa lỗi chặn nộp trong module — Quân	Nguyễn Minh Quân	Chưa bắt đầu	2		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ nhận lỗi có bước tái hiện. Ghi mã bug, hạn bản sửa, commit và người retest vào Bug\_report. Báo lại nếu vượt quỹ giờ. Đầu ra: Bản sửa có commit và mã bug.	Không tự ghi đóng lỗi. Người kiểm thử độc lập kiểm tra lại; chưa sửa xong ghi lỗi còn mở.	S6-WBS85 và bug đã tái hiện được.															~~
+
+~~	Sprint 6	S6-WBS83	S6-G13	1	Retest và hồi quy sau sửa — Quân	Nguyễn Minh Quân	Chưa bắt đầu	1.5		Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy ngay khi có bản sửa; dành 27–28/11 cho ca lỗi và luồng liên quan. Ghi kết quả trên commit mới, đối chiếu nội dung và bằng chứng. Đầu ra: Kết quả retest, hồi quy và ca chưa chạy.	Có người retest khác người sửa. Lỗi chặn nộp còn mở được trình nhóm quyết định, không tự đánh đạt.	Bản sửa có commit và...~~
+
+~~	Sprint 6	S6-WBS84	S6-G11	1	Nghiệm thu tích hợp NEWS và BCTN	Hồ Phạm Đăng Nhân	Chưa bắt đầu	3.5		Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Nhân, Vũ, Hưng, Huyền; Quân ghi nhận UI Chạy một nguồn NEWS và một PDF/BCTN từ đầu vào đến duyệt, lưu, graph/vector và Chat. Đối chiếu ID, locator, review, corpus và citation ở từng bước. Phân bổ giờ: Vũ 0,75h, Huyền 0,75h, Hưng 0,75h, Nhân 0,75h, Quân 0,5h. Đầu ra: Hai biên bản luồng thật và receipt...~~
+
+~~	Sprint 6	S6-WBS85	S6-G13	1	Phân loại lỗi vượt ranh giới module	Đinh Huỳnh Vũ	Chưa bắt đầu	1.25		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ người phát hiện và chủ module liên quan. Mỗi bug chặn nộp phải có chủ sửa, hạn có bản sửa, người retest, hạn retest và commit. Dùng Bug\_report; bản sửa ưu tiên có trong 26–27/11. Phân bổ giờ: Vũ 0,25h, Huyền 0,25h, Hưng 0,25h, Nhân 0,25h, Quân 0,25h. Vũ điều phối phân loại. Mỗi lỗi do chủ module ...~~
+
+~~	Sprint 6	S6-WBS86	S6-G13	1	Kiểm tra lại sau sửa và giữ riêng ca nghiệm thu	Đinh Huỳnh Vũ	Chưa bắt đầu	0		Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Người sửa và người kiểm thử độc lập. Chạy retest ngay khi có bản sửa; giữ thời gian 27–28/11 cho hồi quy. Quỹ giờ đã tính trong các task RET, không tính lại tại đây. Phân bổ giờ: Vũ 0h, Huyền 0h, Hưng 0h, Nhân 0h, Quân 0h. Đầu ra: Kết quả trước/sau và lỗi còn mở.	Không chấm đạt chỉ vì có câu...~~
+
+~~	Sprint 6	S6-WBS87	S6-G14	1	Rà gói nộp và xác nhận gửi	Đinh Huỳnh Vũ	Chưa bắt đầu	2.5		Sun Nov 29 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 29 2026 07:00:00 GMT+0700 (Indochina Time)	Cả 5 người kiểm đủ 15 mục, mở thử file/link và quyền truy cập. Việc soạn/ghép hồ sơ đã giao từ 25/11 và chốt bản review 28/11. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Đầu ra: Checklist nộp, link truy cập và xác nhận gửi.	Không còn file thiếu/link hỏng/quyền sai. Ghi rõ ngoại lệ được ...~~
+
+~~Hiện tại: 36/51 task Done · còn 15 task · 36 Done thiếu ngày												~~
+
+~~Phạm vi (task)	51	Done hiện tại	36	Giờ dự kiến	62	Done thiếu ngày	36					~~
+
+~~Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	51	1	1	50	51	6	6	0		S6-WBS56	Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	1	50	51	7	13	0		S6-WBS57	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	51	2	3	48	46.89	43	56	4.11		S6-WBS58	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	51	1	4	47	44.01	33	89	6.99		S6-WBS59	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	51	2	6	45	25.91	31	120	25.09		S6-WBS60	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	6	45	2.06		120	48.94		S6-WBS61	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sun Nov 29 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	6	45	0	2	122	51		S6-WBS62	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	51	4	10	41	0	43	165	51		S6-WBS63	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	51	7	17	34	0	29	194	51		S6-WBS64	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	51	8	25	26	0	37	231	51		S6-WBS65	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	51	2	27	24	0	12	243	51		S6-WBS66	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	51	9	36	15	0	21	264	51		S6-WBS67	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sat Dec 05 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	36	15	0		264	51		S6-WBS68	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	36	15	0		264	51		S6-WBS69	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Hiện tại	51		36	15						S6-WBS70	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
 ## 2026-11-26 10:52 - SUA NOI DUNG
 
 - **Người đăng:** khong ro
