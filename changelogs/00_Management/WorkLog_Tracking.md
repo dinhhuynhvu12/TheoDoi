@@ -1,5 +1,243 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-26 10:27 - SUA NOI DUNG
+
+- **Người đăng:** dunhvu47@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-26 10:27
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS02.3	Kiểm thử truy xuất BCTN bằng dữ liệu thật	Sửa chặn BCTN và tái hiện lỗi Chat	Thử BCTN có nguồn, sai kỳ, thiếu tài liệu và không có quyền.	Tái hiện lỗi; câu hỏi BCTN hợp lệ truy được tài liệu thật đã có.	Ca có quyền lấy đúng đoạn. Các ca còn lại phản hồi đúng tình trạng.	S5-WBS02.2	Cao	Đã hoàn thành	S5-G01	FinMind	5	2	9	Đinh Huỳnh Vũ	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS05.2	Nối nhánh GRAPH với Neo4j qua adapter hiện có	Tích hợp Web Chat, Hybrid Router và Neo4j	Dùng graph adapter để lấy quan hệ đã duyệt, chức vụ và nguồn tương ứng.	Chat gọi đúng tuyến, kiểm chứng được graph có dữ liệu, graph rỗng và lỗi kết nối.	Câu hỏi chức vụ trả đúng người, chức vụ và bằng chứng.	S5-WBS05.1, graph có dữ liệu đã duyệt	Cao	Đã hoàn thành	S5-G03	FinMind	5	3	3	Đinh Huỳnh Vũ	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time...**
+
+🟢 **	S5-WBS14	Hoàn thiện trang Admin quản lý quyền truy cập	Hồi quy, demo và tính năng hỗ trợ	Bổ sung màn hình danh sách người dùng và vai trò. Nối chức năng cập nhật quyền bằng API hiện có, hiển thị lỗi và yêu cầu xác nhận trước khi đổi quyền.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Admin xem và cập nhật được vai trò hợp lệ. Tài khoản thường bị chặn cả ở UI lẫn API. Có ca kiểm thử quyền và lỗi cập nhật.	Luồng đăng nhập và phân quyền hiện có, S5-WBS06.2	Vừa	Đã hoàn th...**
+
+🟢 **	S5-WBS15	Hoàn thiện danh sách theo dõi doanh nghiệp (Watchlist)	Hồi quy, demo và tính năng hỗ trợ	Cho người dùng thêm hoặc bỏ doanh nghiệp theo mã, xem giá và biến động gần nhất, kỳ BCTC mới nhất và nhận định xu hướng khi có dữ liệu. Gắn liên kết mở chi tiết doanh nghiệp.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Thêm và bỏ mã được, danh sách giữ đúng theo tài khoản sau khi tải lại. Giá, kỳ BCTC và xu hướng khớp mã. Có trạng thái danh sách rỗng, thiếu dữ liệu và lỗ...**
+
+🟢 **	S6-WBS37	Chốt môi trường kiểm thử	Chuẩn bị kiểm thử	Cả 5 người Ghi nhánh/commit, corpus/index/graph version, cấu hình model/budget và các dịch vụ cần chạy. Chốt một bản để cả nhóm kiểm tra. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Đầu ra: Biên bản môi trường và danh sách người xác nhận.	Chốt phiên code/dữ liệu, cách chấm và danh sách ca trước khi chạy.	Cùng phiên code và dữ liệu; thay đổi giữa đợt phải ghi lại và tách kết quả.	Phân công v2 · CH-01	Cao	Đã hoàn thành	S6-...**
+
+🟢 **	S6-WBS38	Thống nhất đề và cách chấm	Chuẩn bị kiểm thử	Cả 5 người Cùng chấm thử 10 ca đại diện. Mỗi người phụ trách chuẩn bị ít nhất 10 câu mới trong phạm vi mình, ghi đáp án và bằng chứng trước khi hỏi Chat; ưu tiên chạy lại lỗi còn mở. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Huyền xác nhận bộ 80 ca final, danh sách ca cũ/mới, người chạy/chấm và tập giữ riêng. Ca gợi ý chưa chạy. Khi benchmark B0–B3 vẫn là đầu ra bắt buộc, xác nhận manifest, người chạy và quỹ giờ trướ...**
+
+🟢 **	S6-WBS39	Kiểm thử quan hệ chức vụ và quyền Admin	Kiểm thử chức năng và tích hợp	Đối chiếu người, công ty, chức danh và nguồn. Phân biệt bổ nhiệm/xin từ nhiệm/miễn nhiệm, năm báo cáo/ngày hiệu lực. Bổ sung kiểm Admin đúng và sai quyền. Đầu ra: Excel ca chức vụ kèm đoạn trích và locator.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Tên, quan hệ và thời điểm đúng nguồn. Không suy chức vụ hiện tại từ tài liệu lịch sử. Ca ADM có ảnh/log với vai trò được cấp quyền và tài khoản bị ...**
+
+🟢 **	S6-WBS40	Kiểm thử metadata và quyền database	Kiểm thử chức năng và tích hợp	Kiểm tra extraction, document, chunk/locator, graph version, review và quarantine. Dùng tài khoản runtime kiểm tra quyền đọc/ghi; kiểm tra nạp lại không tạo trùng. Đầu ra: Biên bản truy vấn, kiểm tra quyền và chống trùng.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Truy ngược đủ nguồn; PENDING/REJECTED không thành quan hệ chính thức; quyền đúng phạm vi được thống nhất.	Phân công v2 · VU-02	Cao	Đã ho...**
+
+🟢 **	S6-WBS41	Kiểm thử nhánh Vector của Router	Kiểm thử chức năng và tích hợp	Test VECTOR độc lập, phạm vi công ty/kỳ/nguồn/corpus, bằng chứng và citation. Kiểm tra rỗng, timeout, lỗi adapter và fallback giữ đúng câu hỏi. Đầu ra: Kết quả test adapter và lỗi tích hợp.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Giữ đúng phạm vi và nguồn. Không gọi graph ngoài nhu cầu. Rỗng, lỗi và timeout được phân biệt.	Phân công v2 · VU-03	Cao	Đã hoàn thành	S6-G11	FinMind	6	0.75	6	Đinh Huỳnh Vũ...**
+
+🟢 **								5	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đã hoàn thành	120	133.5	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **Đường theo ngày gồm 36 task ước tính (36 theo nhật ký giờ, 0 theo deadline).												**
+
+🟢 **	Sprint 5	S5-WBS05.2	S5-G03	1	Nối nhánh GRAPH với Neo4j qua adapter hiện có	Đinh Huỳnh Vũ	Đã hoàn thành	3	3	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng graph adapter để lấy quan hệ đã duyệt, chức vụ và nguồn tương ứng.	Câu hỏi chức vụ trả đúng người, chức vụ và bằng chứng.	S5-WBS05.1, graph có dữ liệu đã duyệt					3										**
+
+🟢 **	Sprint 5	S5-WBS02.3	S5-G01	1	Kiểm thử truy xuất BCTN bằng dữ liệu thật	Đinh Huỳnh Vũ	Đã hoàn thành	2	9	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử BCTN có nguồn, sai kỳ, thiếu tài liệu và không có quyền.	Ca có quyền lấy đúng đoạn. Các ca còn lại phản hồi đúng tình trạng.	S5-WBS02.2						3			3	3					**
+
+🟢 **	Sprint 5	S5-WBS14	S5-G09	2	Hoàn thiện trang Admin quản lý quyền truy cập	Đinh Huỳnh Vũ	Đã hoàn thành	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bổ sung màn hình danh sách người dùng và vai trò. Nối chức năng cập nhật quyền bằng API hiện có, hiển thị lỗi và yêu cầu xác nhận trước khi đổi quyền.	Admin xem và cập nhật được vai trò hợp lệ. Tài khoản thường bị chặn cả ở UI lẫn API. Có ca kiểm thử quyền và lỗi cập nhật.	Luồng đăng nhập và ...**
+
+🟢 **	Sprint 5	S5-WBS15	S5-G09	2	Hoàn thiện danh sách theo dõi doanh nghiệp (Watchlist)	Đinh Huỳnh Vũ	Đã hoàn thành	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Cho người dùng thêm hoặc bỏ doanh nghiệp theo mã, xem giá và biến động gần nhất, kỳ BCTC mới nhất và nhận định xu hướng khi có dữ liệu. Gắn liên kết mở chi tiết doanh nghiệp.	Thêm và bỏ mã được, danh sách giữ đúng theo tài khoản sau khi tải lại. Giá, kỳ BCTC và xu hướng khớp mã. Có t...**
+
+🟢 **Hiện tại: 40/40 task Done · còn 0 task · 40 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 40 task ước tính (33 theo nhật ký giờ, 7 theo deadline).												**
+
+🟢 **Phạm vi (task)	40	Done hiện tại	40	Giờ dự kiến	120	Done thiếu ngày	40					**
+
+🟢 **										S5-WBS02.3	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S5-WBS14	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **										S5-WBS15	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	40	4	17	23	28.57	15	65	11.43		S5-WBS13.2	Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	20	20	25.71	11	76	14.29		S5-WBS05.1	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	20	20	22.86		76	17.14		S5-WBS07.2	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	5	25	15	20		76	20		S5-WBS08.1	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	26	14	17.14	9	85	22.86		S5-WBS08.3	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	29	11	14.29	9	94	25.71		S5-WBS05.2	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	32	8	11.43	12	106	28.57		S5-WBS10.1	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40	4	36	4	8.57	12	118	31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	38	2	5.71	6	124	34.29		S5-WBS11.2	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Nov 21 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	38	2	2.86		124	37.14		S5-WBS12.1	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	40	0	0		124	40		S5-WBS10.2	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Hiện tại	40		40	0						S5-WBS10.3	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **	Sprint 6	S6-WBS37	S6-G10	1	Chốt môi trường kiểm thử	Đinh Huỳnh Vũ	Đã hoàn thành	2.5	3	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Cả 5 người Ghi nhánh/commit, corpus/index/graph version, cấu hình model/budget và các dịch vụ cần chạy. Chốt một bản để cả nhóm kiểm tra. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Đầu ra: Biên bản môi trường và danh sách người xác nhận.	Cùng phiên code và dữ liệu; thay đổi giữa đợt phả...**
+
+🟢 **	Sprint 6	S6-WBS38	S6-G10	1	Thống nhất đề và cách chấm	Đinh Huỳnh Vũ	Đã hoàn thành	2.5	3	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Cả 5 người Cùng chấm thử 10 ca đại diện. Mỗi người phụ trách chuẩn bị ít nhất 10 câu mới trong phạm vi mình, ghi đáp án và bằng chứng trước khi hỏi Chat; ưu tiên chạy lại lỗi còn mở. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Huyền xác nhận bộ 80 ca final, danh sách ca cũ/mới, người c...**
+
+🟢 **	Sprint 6	S6-WBS39	S6-G11	1	Kiểm thử quan hệ chức vụ và quyền Admin	Đinh Huỳnh Vũ	Đã hoàn thành	1	5	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu người, công ty, chức danh và nguồn. Phân biệt bổ nhiệm/xin từ nhiệm/miễn nhiệm, năm báo cáo/ngày hiệu lực. Bổ sung kiểm Admin đúng và sai quyền. Đầu ra: Excel ca chức vụ kèm đoạn trích và locator.	Tên, quan hệ và thời điểm đúng nguồn. Không suy chức vụ hiện tại từ tài liệu lịch sử. Ca AD...**
+
+🟢 **	Sprint 6	S6-WBS40	S6-G11	1	Kiểm thử metadata và quyền database	Đinh Huỳnh Vũ	Đã hoàn thành	1	9	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra extraction, document, chunk/locator, graph version, review và quarantine. Dùng tài khoản runtime kiểm tra quyền đọc/ghi; kiểm tra nạp lại không tạo trùng. Đầu ra: Biên bản truy vấn, kiểm tra quyền và chống trùng.	Truy ngược đủ nguồn; PENDING/REJECTED không thành quan hệ chính thức; quyền đúng...**
+
+🟢 **	Sprint 6	S6-WBS41	S6-G11	1	Kiểm thử nhánh Vector của Router	Đinh Huỳnh Vũ	Đã hoàn thành	0.75	6	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Test VECTOR độc lập, phạm vi công ty/kỳ/nguồn/corpus, bằng chứng và citation. Kiểm tra rỗng, timeout, lỗi adapter và fallback giữ đúng câu hỏi. Đầu ra: Kết quả test adapter và lỗi tích hợp.	Giữ đúng phạm vi và nguồn. Không gọi graph ngoài nhu cầu. Rỗng, lỗi và timeout được phân biệt.	S6-WBS37 (CH-01),...**
+
+🟢 **Hiện tại: 36/51 task Done · còn 15 task · 36 Done thiếu ngày												**
+
+🟢 **Phạm vi (task)	51	Done hiện tại	36	Giờ dự kiến	62	Done thiếu ngày	36					**
+
+🟢 **										S6-WBS37	Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S6-WBS38	Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S6-WBS39	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S6-WBS40	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S6-WBS41	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	51	1	1	50	51	3	3	0		S6-WBS56	Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	51	1	2	49	51	7	10	0		S6-WBS57	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	51	5	7	44	46.89	35	45	4.11		S6-WBS58	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	51	2	9	42	44.01	12	57	6.99		S6-WBS59	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Hiện tại	51		36	15						S6-WBS70	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+~~	S5-WBS02.3	Kiểm thử truy xuất BCTN bằng dữ liệu thật	Sửa chặn BCTN và tái hiện lỗi Chat	Thử BCTN có nguồn, sai kỳ, thiếu tài liệu và không có quyền.	Tái hiện lỗi; câu hỏi BCTN hợp lệ truy được tài liệu thật đã có.	Ca có quyền lấy đúng đoạn. Các ca còn lại phản hồi đúng tình trạng.	S5-WBS02.2	Cao	Đang test	S5-G01	FinMind	5	2	9	Đinh Huỳnh Vũ	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS05.2	Nối nhánh GRAPH với Neo4j qua adapter hiện có	Tích hợp Web Chat, Hybrid Router và Neo4j	Dùng graph adapter để lấy quan hệ đã duyệt, chức vụ và nguồn tương ứng.	Chat gọi đúng tuyến, kiểm chứng được graph có dữ liệu, graph rỗng và lỗi kết nối.	Câu hỏi chức vụ trả đúng người, chức vụ và bằng chứng.	S5-WBS05.1, graph có dữ liệu đã duyệt	Cao	Đang test	S5-G03	FinMind	5	3	3	Đinh Huỳnh Vũ	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS14	Hoàn thiện trang Admin quản lý quyền truy cập	Hồi quy, demo và tính năng hỗ trợ	Bổ sung màn hình danh sách người dùng và vai trò. Nối chức năng cập nhật quyền bằng API hiện có, hiển thị lỗi và yêu cầu xác nhận trước khi đổi quyền.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Admin xem và cập nhật được vai trò hợp lệ. Tài khoản thường bị chặn cả ở UI lẫn API. Có ca kiểm thử quyền và lỗi cập nhật.	Luồng đăng nhập và phân quyền hiện có, S5-WBS06.2	Vừa	Chưa bắt đ...~~
+
+~~	S5-WBS15	Hoàn thiện danh sách theo dõi doanh nghiệp (Watchlist)	Hồi quy, demo và tính năng hỗ trợ	Cho người dùng thêm hoặc bỏ doanh nghiệp theo mã, xem giá và biến động gần nhất, kỳ BCTC mới nhất và nhận định xu hướng khi có dữ liệu. Gắn liên kết mở chi tiết doanh nghiệp.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Thêm và bỏ mã được, danh sách giữ đúng theo tài khoản sau khi tải lại. Giá, kỳ BCTC và xu hướng khớp mã. Có trạng thái danh sách rỗng, thiếu dữ liệu và lỗ...~~
+
+~~	S6-WBS37	Chốt môi trường kiểm thử	Chuẩn bị kiểm thử	Cả 5 người Ghi nhánh/commit, corpus/index/graph version, cấu hình model/budget và các dịch vụ cần chạy. Chốt một bản để cả nhóm kiểm tra. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Đầu ra: Biên bản môi trường và danh sách người xác nhận.	Chốt phiên code/dữ liệu, cách chấm và danh sách ca trước khi chạy.	Cùng phiên code và dữ liệu; thay đổi giữa đợt phải ghi lại và tách kết quả.	Phân công v2 · CH-01	Cao	Chưa bắt đầu	S6-G...~~
+
+~~	S6-WBS38	Thống nhất đề và cách chấm	Chuẩn bị kiểm thử	Cả 5 người Cùng chấm thử 10 ca đại diện. Mỗi người phụ trách chuẩn bị ít nhất 10 câu mới trong phạm vi mình, ghi đáp án và bằng chứng trước khi hỏi Chat; ưu tiên chạy lại lỗi còn mở. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Huyền xác nhận bộ 80 ca final, danh sách ca cũ/mới, người chạy/chấm và tập giữ riêng. Ca gợi ý chưa chạy. Khi benchmark B0–B3 vẫn là đầu ra bắt buộc, xác nhận manifest, người chạy và quỹ giờ trướ...~~
+
+~~	S6-WBS39	Kiểm thử quan hệ chức vụ và quyền Admin	Kiểm thử chức năng và tích hợp	Đối chiếu người, công ty, chức danh và nguồn. Phân biệt bổ nhiệm/xin từ nhiệm/miễn nhiệm, năm báo cáo/ngày hiệu lực. Bổ sung kiểm Admin đúng và sai quyền. Đầu ra: Excel ca chức vụ kèm đoạn trích và locator.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Tên, quan hệ và thời điểm đúng nguồn. Không suy chức vụ hiện tại từ tài liệu lịch sử. Ca ADM có ảnh/log với vai trò được cấp quyền và tài khoản bị ...~~
+
+~~	S6-WBS40	Kiểm thử metadata và quyền database	Kiểm thử chức năng và tích hợp	Kiểm tra extraction, document, chunk/locator, graph version, review và quarantine. Dùng tài khoản runtime kiểm tra quyền đọc/ghi; kiểm tra nạp lại không tạo trùng. Đầu ra: Biên bản truy vấn, kiểm tra quyền và chống trùng.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Truy ngược đủ nguồn; PENDING/REJECTED không thành quan hệ chính thức; quyền đúng phạm vi được thống nhất.	Phân công v2 · VU-02	Cao	Chưa ...~~
+
+~~	S6-WBS41	Kiểm thử nhánh Vector của Router	Kiểm thử chức năng và tích hợp	Test VECTOR độc lập, phạm vi công ty/kỳ/nguồn/corpus, bằng chứng và citation. Kiểm tra rỗng, timeout, lỗi adapter và fallback giữ đúng câu hỏi. Đầu ra: Kết quả test adapter và lỗi tích hợp.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Giữ đúng phạm vi và nguồn. Không gọi graph ngoài nhu cầu. Rỗng, lỗi và timeout được phân biệt.	Phân công v2 · VU-03	Cao	Chưa bắt đầu	S6-G11	FinMind	6	0.75	6	Đinh Huỳnh Vũ	...~~
+
+~~								5	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	120	133.5	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~	Sprint 5	S5-WBS05.2	S5-G03	1	Nối nhánh GRAPH với Neo4j qua adapter hiện có	Đinh Huỳnh Vũ	Đang test	3	3	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng graph adapter để lấy quan hệ đã duyệt, chức vụ và nguồn tương ứng.	Câu hỏi chức vụ trả đúng người, chức vụ và bằng chứng.	S5-WBS05.1, graph có dữ liệu đã duyệt					3										~~
+
+~~	Sprint 5	S5-WBS02.3	S5-G01	1	Kiểm thử truy xuất BCTN bằng dữ liệu thật	Đinh Huỳnh Vũ	Đang test	2	9	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Thử BCTN có nguồn, sai kỳ, thiếu tài liệu và không có quyền.	Ca có quyền lấy đúng đoạn. Các ca còn lại phản hồi đúng tình trạng.	S5-WBS02.2						3			3	3					~~
+
+~~	Sprint 5	S5-WBS14	S5-G09	2	Hoàn thiện trang Admin quản lý quyền truy cập	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Bổ sung màn hình danh sách người dùng và vai trò. Nối chức năng cập nhật quyền bằng API hiện có, hiển thị lỗi và yêu cầu xác nhận trước khi đổi quyền.	Admin xem và cập nhật được vai trò hợp lệ. Tài khoản thường bị chặn cả ở UI lẫn API. Có ca kiểm thử quyền và lỗi cập nhật.	Luồng đăng nhập và p...~~
+
+~~	Sprint 5	S5-WBS15	S5-G09	2	Hoàn thiện danh sách theo dõi doanh nghiệp (Watchlist)	Đinh Huỳnh Vũ	Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Cho người dùng thêm hoặc bỏ doanh nghiệp theo mã, xem giá và biến động gần nhất, kỳ BCTC mới nhất và nhận định xu hướng khi có dữ liệu. Gắn liên kết mở chi tiết doanh nghiệp.	Thêm và bỏ mã được, danh sách giữ đúng theo tài khoản sau khi tải lại. Giá, kỳ BCTC và xu hướng khớp mã. Có tr...~~
+
+~~Hiện tại: 36/40 task Done · còn 4 task · 36 Done thiếu ngày												~~
+
+~~Đường theo ngày gồm 36 task ước tính (31 theo nhật ký giờ, 5 theo deadline).												~~
+
+~~Phạm vi (task)	40	Done hiện tại	36	Giờ dự kiến	120	Done thiếu ngày	36					~~
+
+~~										S5-WBS02.3		~~
+
+~~										S5-WBS14		~~
+
+~~										S5-WBS15		~~
+
+~~Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	16	24	28.57	15	65	11.43		S5-WBS13.2	Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	19	21	25.71	11	76	14.29		S5-WBS05.1	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	19	21	22.86		76	17.14		S5-WBS07.2	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	5	24	16	20		76	20		S5-WBS08.1	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	25	15	17.14	9	85	22.86		S5-WBS08.3	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	27	13	14.29	9	94	25.71		S5-WBS05.2		~~
+
+~~Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	30	10	11.43	12	106	28.57		S5-WBS10.1	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40	4	34	6	8.57	12	118	31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	36	4	5.71	6	124	34.29		S5-WBS11.2	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sat Nov 21 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	36	4	2.86		124	37.14		S5-WBS12.1	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	36	4	0		124	40		S5-WBS10.2	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Hiện tại	40		36	4						S5-WBS10.3	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~	Sprint 6	S6-WBS37	S6-G10	1	Chốt môi trường kiểm thử	Đinh Huỳnh Vũ	Chưa bắt đầu	2.5	3	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Cả 5 người Ghi nhánh/commit, corpus/index/graph version, cấu hình model/budget và các dịch vụ cần chạy. Chốt một bản để cả nhóm kiểm tra. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Đầu ra: Biên bản môi trường và danh sách người xác nhận.	Cùng phiên code và dữ liệu; thay đổi giữa đợt phải...~~
+
+~~	Sprint 6	S6-WBS38	S6-G10	1	Thống nhất đề và cách chấm	Đinh Huỳnh Vũ	Chưa bắt đầu	2.5	3	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Cả 5 người Cùng chấm thử 10 ca đại diện. Mỗi người phụ trách chuẩn bị ít nhất 10 câu mới trong phạm vi mình, ghi đáp án và bằng chứng trước khi hỏi Chat; ưu tiên chạy lại lỗi còn mở. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Huyền xác nhận bộ 80 ca final, danh sách ca cũ/mới, người ch...~~
+
+~~	Sprint 6	S6-WBS39	S6-G11	1	Kiểm thử quan hệ chức vụ và quyền Admin	Đinh Huỳnh Vũ	Chưa bắt đầu	1	5	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu người, công ty, chức danh và nguồn. Phân biệt bổ nhiệm/xin từ nhiệm/miễn nhiệm, năm báo cáo/ngày hiệu lực. Bổ sung kiểm Admin đúng và sai quyền. Đầu ra: Excel ca chức vụ kèm đoạn trích và locator.	Tên, quan hệ và thời điểm đúng nguồn. Không suy chức vụ hiện tại từ tài liệu lịch sử. Ca ADM...~~
+
+~~	Sprint 6	S6-WBS40	S6-G11	1	Kiểm thử metadata và quyền database	Đinh Huỳnh Vũ	Chưa bắt đầu	1	9	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra extraction, document, chunk/locator, graph version, review và quarantine. Dùng tài khoản runtime kiểm tra quyền đọc/ghi; kiểm tra nạp lại không tạo trùng. Đầu ra: Biên bản truy vấn, kiểm tra quyền và chống trùng.	Truy ngược đủ nguồn; PENDING/REJECTED không thành quan hệ chính thức; quyền đúng ...~~
+
+~~	Sprint 6	S6-WBS41	S6-G11	1	Kiểm thử nhánh Vector của Router	Đinh Huỳnh Vũ	Chưa bắt đầu	0.75	6	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Test VECTOR độc lập, phạm vi công ty/kỳ/nguồn/corpus, bằng chứng và citation. Kiểm tra rỗng, timeout, lỗi adapter và fallback giữ đúng câu hỏi. Đầu ra: Kết quả test adapter và lỗi tích hợp.	Giữ đúng phạm vi và nguồn. Không gọi graph ngoài nhu cầu. Rỗng, lỗi và timeout được phân biệt.	S6-WBS37 (CH-01), ...~~
+
+~~Hiện tại: 31/51 task Done · còn 20 task · 31 Done thiếu ngày												~~
+
+~~Đường theo ngày gồm 31 task ước tính (31 theo nhật ký giờ, 0 theo deadline).												~~
+
+~~Phạm vi (task)	51	Done hiện tại	31	Giờ dự kiến	62	Done thiếu ngày	31					~~
+
+~~										S6-WBS37		~~
+
+~~										S6-WBS38		~~
+
+~~										S6-WBS39		~~
+
+~~										S6-WBS40		~~
+
+~~										S6-WBS41		~~
+
+~~Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	0	51	51	3	3	0		S6-WBS56	Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	0	51	51	7	10	0		S6-WBS57	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	51	4	4	47	46.89	35	45	4.11		S6-WBS58	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	51	2	6	45	44.01	12	57	6.99		S6-WBS59	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Hiện tại	51		31	20						S6-WBS70	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~										S6-WBS73		~~
+
+~~										S6-WBS74		~~
+
+~~										S6-WBS75		~~
+
+~~										S6-WBS76		~~
+
+~~										S6-WBS77		~~
+
+~~										S6-WBS78		~~
+
+~~										S6-WBS79		~~
+
+~~										S6-WBS80		~~
+
+~~										S6-WBS81		~~
+
+~~										S6-WBS82		~~
+
+~~										S6-WBS83		~~
+
+~~										S6-WBS84		~~
+
+~~										S6-WBS85		~~
+
+~~										S6-WBS86		~~
+
+~~										S6-WBS87		~~
+
 ## 2026-11-26 10:22 - SUA NOI DUNG
 
 - **Người đăng:** dunhvu47@gmail.com
