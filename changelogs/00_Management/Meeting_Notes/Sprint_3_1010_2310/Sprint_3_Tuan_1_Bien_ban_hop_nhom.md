@@ -1,5 +1,17 @@
 # Lịch sử thay đổi: [Sprint 3  Tuần 1] Biên bản họp nhóm.txt
 
+## 2026-11-26 14:22 - TAO MOI
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/Meeting_Notes/Sprint_3_1010_2310/[Sprint 3  Tuần 1] Biên bản họp nhóm.txt`
+- **Ngày và giờ:** 2026-11-26 14:22
+
+## 2026-11-26 14:13 - TAO MOI
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `00_Management/Meeting_Notes/Sprint_3_1010_2310/[Sprint 3  Tuần 1] Biên bản họp nhóm.txt`
+- **Ngày và giờ:** 2026-11-26 14:13
+
 ## 2026-10-28 09:17 - DOI TEN / DI CHUYEN
 
 - **Người đăng:** yu382005@gmail.com
