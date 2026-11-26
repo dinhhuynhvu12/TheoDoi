@@ -1,5 +1,77 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-26 07:17 - SUA NOI DUNG
+
+- **Người đăng:** minhquan9125@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-26 07:17
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS06.1	Dùng cơ chế refresh token chung cho request Chat	Làm mới phiên Chat	Nối request Chat vào luồng auth chung và thử lại có kiểm soát khi nhận 401.	Chat dùng cơ chế refresh token chung và xử lý hết phiên hoặc thất bại mà không gửi trùng.	Phiên hợp lệ tiếp tục dùng được sau refresh.	Có thể làm độc lập	Vừa	Đã hoàn thành	S5-G04	FinMind	5	3		Nguyễn Minh Quân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	Sprint 5	S5-WBS06.1	S5-G04	1	Dùng cơ chế refresh token chung cho request Chat	Nguyễn Minh Quân	Đã hoàn thành	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Nối request Chat vào luồng auth chung và thử lại có kiểm soát khi nhận 401.	Phiên hợp lệ tiếp tục dùng được sau refresh.	Có thể làm độc lập															**
+
+🟢 **Hiện tại: 22/40 task Done · còn 18 task · 22 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 22 task ước tính (15 theo nhật ký giờ, 7 theo deadline).												**
+
+🟢 **Phạm vi (task)	40	Done hiện tại	22	Giờ dự kiến	120	Done thiếu ngày	22					**
+
+🟢 **										S5-WBS06.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	7	18	22	20		48	20		S5-WBS08.1	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	18	22	17.14	6	54	22.86		S5-WBS08.3	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	19	21	14.29	6	60	25.71		S5-WBS05.2		**
+
+🟢 **Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	19	21	11.43	3	63	28.57		S5-WBS10.1	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	21	19	8.57	3	66	31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	22	18	5.71	3	69	34.29		S5-WBS11.2	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Nov 21 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	22	18	2.86		69	37.14		S5-WBS12.1	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	22	18	0		69	40		S5-WBS10.2		**
+
+🟢 **Hiện tại	40		22	18						S5-WBS10.3		**
+
+🟢 **Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	0	51	44.01			6.99		S6-WBS59		**
+
+~~	S5-WBS06.1	Dùng cơ chế refresh token chung cho request Chat	Làm mới phiên Chat	Nối request Chat vào luồng auth chung và thử lại có kiểm soát khi nhận 401.	Chat dùng cơ chế refresh token chung và xử lý hết phiên hoặc thất bại mà không gửi trùng.	Phiên hợp lệ tiếp tục dùng được sau refresh.	Có thể làm độc lập	Vừa	Cần xác nhận	S5-G04	FinMind	5	3		Nguyễn Minh Quân	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	Sprint 5	S5-WBS06.1	S5-G04	1	Dùng cơ chế refresh token chung cho request Chat	Nguyễn Minh Quân	Cần xác nhận	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Nối request Chat vào luồng auth chung và thử lại có kiểm soát khi nhận 401.	Phiên hợp lệ tiếp tục dùng được sau refresh.	Có thể làm độc lập															~~
+
+~~Hiện tại: 21/40 task Done · còn 19 task · 21 Done thiếu ngày												~~
+
+~~Đường theo ngày gồm 21 task ước tính (15 theo nhật ký giờ, 6 theo deadline).												~~
+
+~~Phạm vi (task)	40	Done hiện tại	21	Giờ dự kiến	120	Done thiếu ngày	21					~~
+
+~~										S5-WBS06.1		~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	6	17	23	20		48	20		S5-WBS08.1	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	17	23	17.14	6	54	22.86		S5-WBS08.3	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	18	22	14.29	6	60	25.71		S5-WBS05.2		~~
+
+~~Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	18	22	11.43	3	63	28.57		S5-WBS10.1	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	20	20	8.57	3	66	31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	21	19	5.71	3	69	34.29		S5-WBS11.2	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sat Nov 21 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	21	19	2.86		69	37.14		S5-WBS12.1	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	21	19	0		69	40		S5-WBS10.2		~~
+
+~~Hiện tại	40		21	19						S5-WBS10.3		~~
+
+~~Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	51				44.01			6.99		S6-WBS59		~~
+
 ## 2026-11-25 15:47 - SUA NOI DUNG
 
 - **Người đăng:** yu382005@gmail.com
