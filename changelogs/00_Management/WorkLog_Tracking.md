@@ -1,5 +1,55 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-26 10:52 - SUA NOI DUNG
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-26 10:52
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	51	2	6	45	25.91	31	120	25.09		S6-WBS60	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	6	45	2.06		120	48.94		S6-WBS61	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Nov 29 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	6	45	0	2	122	51		S6-WBS62	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	51	4	10	41	0	43	165	51		S6-WBS63	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	51	7	17	34	0	29	194	51		S6-WBS64	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	51	8	25	26	0	37	231	51		S6-WBS65	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	51	2	27	24	0	12	243	51		S6-WBS66	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	51	9	36	15	0	21	264	51		S6-WBS67	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Dec 05 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	36	15	0		264	51		S6-WBS68	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	36	15	0		264	51		S6-WBS69	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+~~Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 175h.												~~
+
+~~Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	51				25.91			25.09		S6-WBS60	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	51				2.06			48.94		S6-WBS61	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sun Nov 29 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS62	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS63	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS64	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS65	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS66	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS67	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sat Dec 05 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS68	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS69	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
 ## 2026-11-26 10:42 - SUA NOI DUNG
 
 - **Người đăng:** dunhvu47@gmail.com
