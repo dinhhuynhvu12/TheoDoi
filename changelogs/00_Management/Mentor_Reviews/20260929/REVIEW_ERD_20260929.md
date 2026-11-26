@@ -1,5 +1,11 @@
 # Lịch sử thay đổi: REVIEW_ERD_20260929.md
 
+## 2026-11-26 13:38 - TAO MOI
+
+- **Người đăng:** khong ro
+- **Tên / vị trí:** `00_Management/Mentor_Reviews/20260929/REVIEW_ERD_20260929.md`
+- **Ngày và giờ:** 2026-11-26 13:38
+
 ## 2026-10-21 21:24 - TAO MOI
 
 - **Người đăng:** khong ro
