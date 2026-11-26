@@ -1,5 +1,679 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-26 10:22 - SUA NOI DUNG
+
+- **Người đăng:** dunhvu47@gmail.com
+- **Tên / vị trí:** `00_Management/WorkLog_Tracking`
+- **Ngày và giờ:** 2026-11-26 10:22
+
+**Nội dung (phần thay đổi được đánh dấu: ~~xóa~~ · cũ → mới · thêm được in đậm):**
+
+🟢 **	S5-WBS05.1	Nối router vào luồng xử lý tin nhắn Web Chat	Tích hợp Web Chat, Hybrid Router và Neo4j	Gọi router trong backend khi Web Chat gửi tin và ghi trace. Có thể chuẩn bị tích hợp bằng mẫu.	Chat gọi đúng tuyến, kiểm chứng được graph có dữ liệu, graph rỗng và lỗi kết nối.	Trace xác nhận Web Chat gọi router và chọn nhánh.	S5-WBS04.2	Cao	Đã hoàn thành	S5-G03	FinMind	5	3	6	Thái Quốc Hưng	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1**
+
+🟢 **	S5-WBS09.1	Kế thừa công ty, kỳ và chủ đề giữa các lượt	Ngữ cảnh nhiều lượt Chat	Dùng phạm vi hội thoại hiện tại, ưu tiên công ty hoặc kỳ mới nếu người dùng thay đổi.	Giữ hoặc đổi đúng doanh nghiệp, kỳ và chủ đề; xử lý yêu cầu tiếp nối, liệt kê và tổng hợp.	Câu nối tiếp giữ đúng phạm vi và chuyển phạm vi khi được yêu cầu.	S5-WBS05.1	Vừa	Đã hoàn thành	S5-G07	FinMind	5	3	5	Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS09.2	Xử lý liệt kê và giới thiệu tổng quan	Ngữ cảnh nhiều lượt Chat	Liệt kê nội dung đang nói. Tổng quan đúng doanh nghiệp và truy xuất thêm khi cần.	Giữ hoặc đổi đúng doanh nghiệp, kỳ và chủ đề; xử lý yêu cầu tiếp nối, liệt kê và tổng hợp.	Hai câu mẫu chạy đúng trong phiên nhiều lượt.	S5-WBS09.1	Vừa	Đã hoàn thành	S5-G07	FinMind	5	3	3	Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS09.3	Xử lý tổng hợp nãy giờ	Ngữ cảnh nhiều lượt Chat	Tóm tắt nội dung phiên hiện tại và giữ các nguồn đã dẫn.	Giữ hoặc đổi đúng doanh nghiệp, kỳ và chủ đề; xử lý yêu cầu tiếp nối, liệt kê và tổng hợp.	Không lẫn nội dung giữa các phiên, nguồn còn đối chiếu được.	S5-WBS09.1	Vừa	Đã hoàn thành	S5-G07	FinMind	5	3	3	Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS10.2	Tính nhóm tín hiệu tài chính	Nhận định xu hướng doanh nghiệp	Tính thay đổi doanh thu, lợi nhuận và dòng tiền khi có kỳ tương đương.	Kết hợp tín hiệu giá và BCTC; nêu dữ liệu và lý do, xử lý thiếu và trái chiều.	Có tín hiệu từng chỉ tiêu và nguồn tương ứng.	S5-WBS08.2, S5-WBS08.3	Cao	Đã hoàn thành	S5-G06	FinMind	5	4	3	Đinh Huỳnh Vũ	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS10.3	Gộp tín hiệu và trả nhãn xu hướng	Nhận định xu hướng doanh nghiệp	Dùng quy tắc chấm điểm giải thích được để gộp tín hiệu giá và tài chính.	Kết hợp tín hiệu giá và BCTC; nêu dữ liệu và lý do, xử lý thiếu và trái chiều.	Trả đi lên, đi xuống, trái chiều hoặc chưa đủ dữ liệu. Ca trái chiều thể hiện hai tín hiệu riêng.	S5-WBS10.1, S5-WBS10.2	Cao	Đã hoàn thành	S5-G06	FinMind	5	3	3	Thái Quốc Hưng	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina...**
+
+🟢 **	S5-WBS10.4	Kiểm thử quy tắc chấm điểm	Nhận định xu hướng doanh nghiệp	Thử cùng tăng, cùng giảm, trái chiều và thiếu kỳ.	Kết hợp tín hiệu giá và BCTC; nêu dữ liệu và lý do, xử lý thiếu và trái chiều.	Mỗi nhãn giải thích được bằng số liệu đầu vào.	S5-WBS10.3	Cao	Đã hoàn thành	S5-G06	FinMind	5	2	3	Đinh Huỳnh Vũ	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS12.2	Ghép bằng chứng graph và tài liệu cho BOTH	Tối ưu câu trả lời và bằng chứng	Ghép kết quả theo đúng mã công ty và kỳ, gắn citation sát nhận định.	Trình bày theo yêu cầu, giữ nguồn khi ghép hai nhánh và báo rõ phần còn thiếu.	Cả hai loại bằng chứng được dùng đúng phạm vi và nguồn.	S5-WBS05.2, nhánh Vector hiện có	Cao	Đã hoàn thành	S5-G08	FinMind	5	4	3	Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS12.3	Xử lý kết quả rỗng, thiếu nguồn và lỗi một nhánh	Tối ưu câu trả lời và bằng chứng	Chỉ trình bày phần có căn cứ, ghi rõ phần còn thiếu và thử ca fallback thất bại.	Trình bày theo yêu cầu, giữ nguồn khi ghép hai nhánh và báo rõ phần còn thiếu.	Câu trả lời phân biệt rỗng, thiếu bằng chứng và lỗi nhánh.	S5-WBS07.3, S5-WBS12.1, S5-WBS12.2	Cao	Đã hoàn thành	S5-G08	FinMind	5	3	3	Huyền 	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS13.1	Chạy hồi quy bốn lỗi Sprint 4 trên Web Chat	Hồi quy, demo và tính năng hỗ trợ	Chạy lại ca chức vụ, BCTN, ngữ cảnh và token hết hạn.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Có kết quả pass/fail và trace cho đủ bốn lỗi.	S5-WBS02.3, S5-WBS05.3, S5-WBS06.2, S5-WBS09.2, S5-WBS09.3	Cao	Đã hoàn thành	S5-G09	FinMind	5	4	3	Huyền 	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS13.2	Đánh giá router và fallback trên bộ câu riêng	Hồi quy, demo và tính năng hỗ trợ	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3	Cao	Đã hoàn thành	S5-G09	FinMind	5	3	3	Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS13.3	Đối chiếu nhận định xu hướng và citation	Hồi quy, demo và tính năng hỗ trợ	Đối chiếu giá và BCTC gốc cho ca đủ dữ liệu, trái chiều và thiếu dữ liệu.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Số liệu, kỳ, nhãn và citation khớp nguồn ở các ca thử.	S5-WBS10.4, S5-WBS11.2, S5-WBS12.2	Cao	Đã hoàn thành	S5-G09	FinMind	5	3	3	Nguyễn Minh Quân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S5-WBS13.4	Chuẩn bị kịch bản demo và tổng hợp lỗi còn lại	Hồi quy, demo và tính năng hỗ trợ	Tập hợp câu hỏi demo, kỳ vọng, kết quả thực tế, trace và lỗi còn mở.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Có kịch bản demo toàn luồng và danh sách lỗi còn mở.	S5-WBS13.1, S5-WBS13.2, S5-WBS13.3	Cao	Đã hoàn thành	S5-G09	FinMind	5	2	6	Nguyễn Minh Quân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2**
+
+🟢 **	S6-WBS37	Chốt môi trường kiểm thử	Chuẩn bị kiểm thử	Cả 5 người Ghi nhánh/commit, corpus/index/graph version, cấu hình model/budget và các dịch vụ cần chạy. Chốt một bản để cả nhóm kiểm tra. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Đầu ra: Biên bản môi trường và danh sách người xác nhận.	Chốt phiên code/dữ liệu, cách chấm và danh sách ca trước khi chạy.	Cùng phiên code và dữ liệu; thay đổi giữa đợt phải ghi lại và tách kết quả.	Phân công v2 · CH-01	Cao	Chưa bắt đầu	S6-G...**
+
+🟢 **	S6-WBS38	Thống nhất đề và cách chấm	Chuẩn bị kiểm thử	Cả 5 người Cùng chấm thử 10 ca đại diện. Mỗi người phụ trách chuẩn bị ít nhất 10 câu mới trong phạm vi mình, ghi đáp án và bằng chứng trước khi hỏi Chat; ưu tiên chạy lại lỗi còn mở. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Huyền xác nhận bộ 80 ca final, danh sách ca cũ/mới, người chạy/chấm và tập giữ riêng. Ca gợi ý chưa chạy. Khi benchmark B0–B3 vẫn là đầu ra bắt buộc, xác nhận manifest, người chạy và quỹ giờ trướ...**
+
+🟢 **	S6-WBS39	Kiểm thử quan hệ chức vụ và quyền Admin	Kiểm thử chức năng và tích hợp	Đối chiếu người, công ty, chức danh và nguồn. Phân biệt bổ nhiệm/xin từ nhiệm/miễn nhiệm, năm báo cáo/ngày hiệu lực. Bổ sung kiểm Admin đúng và sai quyền. Đầu ra: Excel ca chức vụ kèm đoạn trích và locator.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Tên, quan hệ và thời điểm đúng nguồn. Không suy chức vụ hiện tại từ tài liệu lịch sử. Ca ADM có ảnh/log với vai trò được cấp quyền và tài khoản bị ...**
+
+🟢 **	S6-WBS40	Kiểm thử metadata và quyền database	Kiểm thử chức năng và tích hợp	Kiểm tra extraction, document, chunk/locator, graph version, review và quarantine. Dùng tài khoản runtime kiểm tra quyền đọc/ghi; kiểm tra nạp lại không tạo trùng. Đầu ra: Biên bản truy vấn, kiểm tra quyền và chống trùng.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Truy ngược đủ nguồn; PENDING/REJECTED không thành quan hệ chính thức; quyền đúng phạm vi được thống nhất.	Phân công v2 · VU-02	Cao	Chưa ...**
+
+🟢 **	S6-WBS41	Kiểm thử nhánh Vector của Router	Kiểm thử chức năng và tích hợp	Test VECTOR độc lập, phạm vi công ty/kỳ/nguồn/corpus, bằng chứng và citation. Kiểm tra rỗng, timeout, lỗi adapter và fallback giữ đúng câu hỏi. Đầu ra: Kết quả test adapter và lỗi tích hợp.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Giữ đúng phạm vi và nguồn. Không gọi graph ngoài nhu cầu. Rỗng, lỗi và timeout được phân biệt.	Phân công v2 · VU-03	Cao	Chưa bắt đầu	S6-G11	FinMind	6	0.75	6	Đinh Huỳnh Vũ	...**
+
+🟢 **	S6-WBS42	Hoàn thiện tài liệu 3 task	Hoàn thiện hồ sơ	Cập nhật ERD/schema mapping, trạng thái duyệt, quyền truy cập, graph/corpus version và adapter Vector. Đối chiếu tài liệu với code và database thực tế. Đầu ra: Thiết kế database, ảnh ERD và hướng dẫn bàn giao.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Có bảng/field, khóa và liên kết nguồn đúng hiện trạng; có lệnh chạy, minh chứng test và giới hạn còn mở.	Phân công v2 · VU-04	Cao	Đã hoàn thành	S6-G12	FinMind	6	0.5	6	Đinh ...**
+
+🟢 **	S6-WBS43	Kiểm thử chọn tuyến truy xuất	Kiểm thử chức năng và tích hợp	Test câu đầy đủ thuộc NEWS, BCTN, BCTC và graph; tên viết tắt, cách nói tự nhiên và câu chưa nhận ra chỉ tiêu. Đầu ra: Excel kết quả chọn tuyến và trace.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Không mặc định mọi câu chưa hiểu sang bốn chỉ tiêu BCTC; chọn tuyến có lý do và giữ đúng công ty/nguồn.	Phân công v2 · HY-01	Cao	Đã hoàn thành	S6-G11	FinMind	6	1	6	Trần Diệu Huyền	Wed Nov 25 2026 07:00:00 GMT+0...**
+
+🟢 **	S6-WBS44	Kiểm thử ngữ cảnh hội thoại	Kiểm thử chức năng và tích hợp	Test hỏi tiếp cùng chủ đề, đổi mã, đổi nguồn, đổi kỳ và câu đầy đủ không liên quan. Kiểm tra “công ty đó”, “còn VCB”, “chi tiết hơn” và “tổng hợp lại”. Đầu ra: Chuỗi hội thoại có đầu vào và kết quả từng lượt.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Chỉ kế thừa thông tin phù hợp; câu đổi chủ đề không bị giữ công ty, chỉ tiêu hoặc nguồn sai.	Phân công v2 · HY-02	Cao	Đã hoàn thành	S6-G11	FinMind	6	1.25	5	T...**
+
+🟢 **	S6-WBS45	Kiểm thử fallback và đầu vào mơ hồ	Kiểm thử chức năng và tích hợp	Test AI trả sai nhãn/intent, không đủ bằng chứng và timeout. Fallback đổi nơi tìm, giữ nguyên ý hỏi; không lấy câu vô nghĩa để trả lời từ ngữ cảnh cũ. Đầu ra: Danh sách lỗi theo nguyên nhân và ca hồi quy.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Fallback không tự đổi công ty/chỉ tiêu. Câu không đủ nghĩa hỏi rõ, không sinh câu trả lời từ ngữ cảnh cũ.	Phân công v2 · HY-03	Cao	Đã hoàn thành	S6-G11	Fi...**
+
+🟢 **	S6-WBS46	Tài liệu Router và ngữ cảnh	Hoàn thiện hồ sơ	Vẽ luồng phân tích câu hỏi, giữ/xóa ngữ cảnh, chọn tuyến, fallback, ngân sách và xử lý lỗi. Gắn ví dụ từ các ca đã đối chiếu. Đầu ra: Sơ đồ luồng và bảng quy tắc/mã lỗi.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Mỗi nhánh có điều kiện, đầu vào/đầu ra và ví dụ; mô tả khớp code tại commit nghiệm thu.	Phân công v2 · HY-04	Cao	Đã hoàn thành	S6-G12	FinMind	6	0.5	2	Trần Diệu Huyền	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina ...**
+
+🟢 **	S6-WBS47	Kiểm thử tên và mã doanh nghiệp	Kiểm thử chức năng và tích hợp	Đối chiếu 10 mã VCB, BID, CTG, MBB, TCB, FPT, CMG, ELC, ITD, ICT; test tên đầy đủ, tên phổ biến, viết tắt và alias. Đầu ra: Bộ ca tên/alias và kết quả ánh xạ ID.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Tên hợp lệ ánh xạ đúng mã. Tên không rõ không tự chuyển sang công ty trong lượt trước.	Phân công v2 · HG-01	Cao	Đã hoàn thành	S6-G11	FinMind	6	0.75	9	Thái Quốc Hưng	Wed Nov 25 2026 07:00:00 GMT+0700 (...**
+
+🟢 **	S6-WBS48	Kiểm thử định danh người	Kiểm thử chức năng và tích hợp	Test người trùng tên, thiếu công ty, khác nguồn/năm và người giữ nhiều chức vụ. Kiểm tra canonical ID và định danh theo lần xuất hiện. Đầu ra: Ca trùng tên và quyết định ánh xạ có nguồn.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Không gộp người chỉ vì giống tên; trường hợp chưa xác định được ghi rõ, không tự điền dữ kiện.	Phân công v2 · HG-02	Cao	Đã hoàn thành	S6-G11	FinMind	6	0.75	12	Thái Quốc Hưng	Wed Nov ...**
+
+🟢 **	S6-WBS49	Đối chiếu contract và fixture	Kiểm thử chức năng và tích hợp	Kiểm tra ID, kiểu dữ liệu, trường bắt buộc, tên gốc, span, locator và phiên nguồn. Chuẩn bị mẫu hợp lệ, thiếu trường và mâu thuẫn. Đầu ra: Fixture và bảng mapping contract.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Cùng đầu vào cho cùng ID theo contract; fixture tái lập được và không làm mất tên/đoạn gốc.	Phân công v2 · HG-03	Cao	Đã hoàn thành	S6-G11	FinMind	6	0.5	6	Thái Quốc Hưng	Thu Nov 26 2026 07:00:...**
+
+🟢 **	S6-WBS50	Tài liệu registry thực thể	Hoàn thiện hồ sơ	Cập nhật contract, quy tắc alias/canonical ID, phạm vi gộp và cách xử lý trường hợp mơ hồ. Ghi phiên bản và ví dụ thật đã kiểm tra. Đầu ra: Tài liệu registry và hướng dẫn tích hợp.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Người tích hợp biết trường nào dùng để nối, khi nào được gộp và khi nào cần hỏi/duyệt lại.	Phân công v2 · HG-04	Cao	Đã hoàn thành	S6-G12	FinMind	6	0.5	11	Thái Quốc Hưng	Fri Nov 27 2026 07:00:00 GMT+070...**
+
+🟢 **	S6-WBS51	Kiểm thử thu thập, PDF/OCR và duyệt	Kiểm thử chức năng và tích hợp	Kiểm tra bài web, PDF có chữ, ảnh cần OCR, nội dung thiếu và đọc lỗi. Kiểm tra quyết định duyệt được giữ đúng khi đọc lại nguồn. Đầu ra: Biên bản đầu vào, nội dung trích và trạng thái duyệt.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Bài đủ chữ được xử lý đúng; nội dung đọc lỗi không giả là thành công; quyết định duyệt có thể truy vết.	Phân công v2 · NH-01	Cao	Đã hoàn thành	S6-G11	FinMind	6	0.75	5	...**
+
+🟢 **	S6-WBS52	Kiểm thử nạp dữ liệu và corpus	Kiểm thử chức năng và tích hợp	Theo dõi bài đã duyệt qua chunk, embedding, database và corpus mới. Test chạy lại cùng bài, lỗi giữa chừng, retry và chuyển corpus phục vụ Chat. Đầu ra: Receipt nạp, số tài liệu/chunk và ID corpus.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Bài nạp thành công có trong đúng corpus; retry không nhân đôi; không công bố phiên nạp dở.	Phân công v2 · NH-02	Cao	Đã hoàn thành	S6-G11	FinMind	6	1.25	3	Hồ Phạm Đăn...**
+
+🟢 **	S6-WBS53	Kiểm thử lịch chạy và phục hồi	Kiểm thử chức năng và tích hợp	Kiểm tra lịch Việt Nam, tiến trình trên VPS, giới hạn số bài mỗi lượt, lỗi mạng/database và retry. Ghi cấu hình, thời điểm và trạng thái lần chạy. Đầu ra: Log chạy thực tế và checklist phục hồi.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Xác định được lần chạy đã/không hoàn tất; có cách retry an toàn và không báo thành công khi chưa nạp xong.	Phân công v2 · NH-03	Cao	Đã hoàn thành	S6-G11	FinMind	6	0.75	...**
+
+🟢 **	S6-WBS54	Tài liệu vận hành dữ liệu	Hoàn thiện hồ sơ	Ghi nơi lưu bài/OCR, dữ liệu nào giữ lâu dài, dữ liệu tạm, cách cập nhật corpus, xem log, chạy lại job và khôi phục sau lỗi. Đầu ra: Hướng dẫn pipeline và scheduler.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Lệnh được kiểm chứng; nêu quyền cần có và cách đối chiếu kết quả trên database/corpus; không đưa bí mật vào tài liệu.	Phân công v2 · NH-04	Cao	Đã hoàn thành	S6-G12	FinMind	6	0.5	3	Hồ Phạm Đăng Nhân	Fri Nov 27 2026 07:...**
+
+🟢 **	S6-WBS55	Kiểm thử Chat và hiển thị nguồn	Kiểm thử chức năng và tích hợp	Kiểm tra câu trả lời NEWS/BCTN/BCTC, số citation, link PDF đúng trang và link NEWS. Test nguồn thiếu URL, nguồn ứng viên và bằng chứng đã dùng. Đầu ra: Excel lỗi giao diện/nguồn có ảnh và mã phiên.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Nội dung nguồn gắn đúng câu trả lời; phân biệt nguồn ứng viên với nguồn đã trích dẫn; không dựng URL hoặc trang PDF.	Phân công v2 · QU-01	Cao	Đã hoàn thành	S6-G11	F...**
+
+🟢 **	S6-WBS56	Kiểm thử thao tác Chat, phiên và Watchlist	Kiểm thử chức năng và tích hợp	Test gửi/dừng, gửi câu mới sau dừng, mở lại phiên và lỗi đăng nhập. Test Watchlist thêm/bỏ mã, không trùng và tài khoản A không thấy dữ liệu tài khoản B. Thử khi access token hết hạn giữa phiên và kiểm gửi lại sau refresh. Đầu ra: Ca thao tác và lỗi phiên có bước tái hiện.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Dừng không tự hỏi lại; không để phản hồi cũ ghi vào lượt mới; lỗi phiên có hư...**
+
+🟢 **	S6-WBS57	Đối chiếu UI và ca nhận định xu hướng	Kiểm thử chức năng và tích hợp	Chỉ kiểm khác biệt UI làm mất/sai chức năng cần nộp. Không thiết kế lại toàn bộ UI trong sprint cuối. Chạy TR-01 và TR-02 trong quỹ test UI của Quân; kiểm tín hiệu trái chiều và thiếu dữ liệu. Đầu ra: Danh sách khác biệt quan trọng kèm ảnh và commit.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Có quyết định giữ/đổi/thiếu. Chuyển cải tiến thẩm mỹ không chặn nộp sang backlog. Có minh chứng hai ca xu...**
+
+🟢 **	S6-WBS58	Hướng dẫn sử dụng và kịch bản demo	Hoàn thiện hồ sơ	Viết thao tác người dùng/Admin; chuẩn bị câu hỏi demo có nguồn, trường hợp thiếu dữ liệu và cách đọc citation. Bổ sung ảnh đúng bản nghiệm thu. Đầu ra: Hướng dẫn sử dụng và kịch bản demo.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Mỗi bước chạy được trên bản chốt; giới hạn thật được ghi rõ; không dùng ca đã thất bại làm ví dụ thành công.	Phân công v2 · QU-04	Cao	Đã hoàn thành	S6-G12	FinMind	6	0.5	3	Nguyễn Minh Quâ...**
+
+🟢 **	S6-WBS59	Chốt #1 Final Report Submission (Full)	Hoàn thiện hồ sơ	Ghép gói nộp đầy đủ và kiểm mục lục, tên/phiên bản, danh mục 15 mục và link. Đầu ra: Hồ sơ #1, bản nháp 27/11, bản cuối review 28/11. Người rà: Nguyễn Minh Quân. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Đủ thành phần theo checklist chính thức. Tách gói nộp tổng thể với báo cáo khoa học #13.	Phân công v2 · HS-01	Cao	Đã hoàn thành	S6-G12	FinMind	6	3	3	Thái Quốc Hưng	Wed Nov 25 202...**
+
+🟢 **	S6-WBS60	Chốt #2 Proposal	Hoàn thiện hồ sơ	Đối chiếu mục tiêu, phạm vi và thay đổi so với đề xuất đã có. Đầu ra: Hồ sơ #2, bản nháp 27/11, bản cuối review 28/11. Người rà: Nguyễn Minh Quân. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Bản cuối nhất quán với sản phẩm và các giới hạn đã nghiệm thu.	Phân công v2 · HS-02	Cao	Đã hoàn thành	S6-G12	FinMind	6	0.75	3	Thái Quốc Hưng	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:0...**
+
+🟢 **	S6-WBS61	Chốt #3 Project Plan và sprint plan	Hoàn thiện hồ sơ	Cập nhật phân công, giờ, phụ thuộc, lịch sửa/retest và mốc nộp. Thu giờ đã làm 23–24/11 và xác nhận thành viên thứ năm; cân lại nếu vượt 15h/tuần. Đầu ra: Hồ sơ #3, bản nháp 27/11, bản cuối review 28/11. Người rà: Trần Diệu Huyền. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Có người chốt, tải giờ và minh chứng tiến độ; ghi giờ 23–24/11 trước khi xác nhận trần tuần.	Phân công v2 · HS-0...**
+
+🟢 **	S6-WBS62	Chốt #4 SRS, User Stories và yêu cầu	Hoàn thiện hồ sơ	Đối chiếu yêu cầu với chức năng đã có và tiêu chí nghiệm thu. Đầu ra: Hồ sơ #4, bản nháp 27/11, bản cuối review 28/11. Người rà: Thái Quốc Hưng. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Có truy vết yêu cầu–ca test; phần thiếu hoặc thay đổi được ghi rõ.	Phân công v2 · HS-04	Cao	Đã hoàn thành	S6-G12	FinMind	6	1.5	4	Trần Diệu Huyền	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	S...**
+
+🟢 **	S6-WBS63	Chốt #5 Thiết kế kiến trúc, database và thuật toán	Hoàn thiện hồ sơ	Ghép kiến trúc, ERD/schema, pipeline, registry và Router từ chủ module. Đầu ra: Hồ sơ #5, bản nháp 27/11, bản cuối review 28/11. Người rà: Đinh Huỳnh Vũ. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Sơ đồ/field/thuật toán khớp code và dữ liệu thực tế; phân biệt PostgreSQL, Neo4j và corpus.	Phân công v2 · HS-05	Cao	Đã hoàn thành	S6-G12	FinMind	6	1.5	4	Hồ Phạm Đăng Nhân	We...**
+
+🟢 **	S6-WBS64	Chốt #6 UI Design	Hoàn thiện hồ sơ	Chốt màn hình của bản nộp và kiểm kê khác biệt UI ảnh hưởng chức năng. Đầu ra: Hồ sơ #6, bản nháp 27/11, bản cuối review 28/11. Người rà: Thái Quốc Hưng. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Ảnh đúng commit nộp. Không lấy nhánh rollback frontend cũ làm bản đủ chức năng.	Phân công v2 · HS-06	Cao	Đã hoàn thành	S6-G12	FinMind	6	0.75	2	Trần Diệu Huyền	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Tim...**
+
+🟢 **	S6-WBS65	Chốt #7 Test Plan	Hoàn thiện hồ sơ	Chốt môi trường, phạm vi, cách chấm, ca giữ riêng, điều kiện vào/ra và lịch test. Chốt bản làm việc trong ngày 25/11 cùng CH-02 trước khi chạy; cập nhật theo kết quả để review ngày 28/11. Đầu ra: Hồ sơ #7, bản nháp 27/11, bản cuối review 28/11. Người rà: Trần Diệu Huyền. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Có kế hoạch Admin, Watchlist, xu hướng, AI fallback, tích hợp PDF/NEWS và hồi quy.	Phân c...**
+
+🟢 **	S6-WBS66	Chốt #8 Test Cases và Test Data	Hoàn thiện hồ sơ	Chốt mẫu chung và dữ liệu test. Xác nhận mốc 80 ca final Sprint 6, nếu còn áp dụng thì giữ nguyên bộ đánh giá. Chốt bản làm việc trong ngày 25/11 cùng CH-02 trước khi chạy; cập nhật theo kết quả để review ngày 28/11. Đầu ra: Hồ sơ #8, bản nháp 27/11, bản cuối review 28/11. Người rà: Thái Quốc Hưng. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Có ID ca, kỳ vọng, nguồn, commit, kết quả từng ...**
+
+🟢 **	S6-WBS67	Chốt #9 Test Report và Bug Report	Hoàn thiện hồ sơ	Tổng hợp theo nội dung/nguồn và mức lỗi. Ghi chủ lỗi, hạn bản sửa và người retest. Lập khung báo cáo trước khi chạy; cập nhật từ kết quả test, bug và retest. Đầu ra: Hồ sơ #9, bản nháp 27/11, bản cuối review 28/11. Người rà: Trần Diệu Huyền. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Phân biệt đạt/chưa đạt/bị chặn/chưa chạy; có kết quả trên commit chốt và lỗi còn mở.	Phân công v2 · HS-...**
+
+🟢 **	S6-WBS68	Chốt #10 Biên bản họp và minh chứng teamwork	Hoàn thiện hồ sơ	Tập hợp quyết định, người tham gia, phân công và minh chứng phối hợp. Đầu ra: Hồ sơ #10, bản nháp 27/11, bản cuối review 28/11. Người rà: Hồ Phạm Đăng Nhân. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Dùng minh chứng thật và đúng thời điểm, không tạo lại sự kiện chưa xảy ra.	Phân công v2 · HS-10	Cao	Đã hoàn thành	S6-G12	FinMind	6	0.5	2	Nguyễn Minh Quân	Wed Nov 25 2026 07:00:0...**
+
+🟢 **	S6-WBS69	Chốt #11 Code Standards và chuẩn đã áp dụng	Hoàn thiện hồ sơ	Mô tả chuẩn thực tế về code, test, API/contract, dữ liệu, bí mật và Git. Đầu ra: Hồ sơ #11, bản nháp 27/11, bản cuối review 28/11. Người rà: Đinh Huỳnh Vũ. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Có dẫn chứng trong repository; không liệt kê chuẩn chưa áp dụng như đã đạt.	Phân công v2 · HS-11	Cao	Đã hoàn thành	S6-G12	FinMind	6	0.75	2	Hồ Phạm Đăng Nhân	Wed Nov 25 2026 07:00:...**
+
+🟢 **	S6-WBS70	Chốt #12 Reflection và 360 Peer Evaluation	Hoàn thiện hồ sơ	Thu phần đánh giá do từng thành viên tự viết; kiểm đủ mẫu và người nộp. Đầu ra: Hồ sơ #12, bản nháp 27/11, bản cuối review 28/11. Người rà: Hồ Phạm Đăng Nhân. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Đủ phần cá nhân theo mẫu. Mỗi người tự xác nhận nội dung; không viết hộ đánh giá để giả hoàn tất.	Phân công v2 · HS-12	Cao	Đã hoàn thành	S6-G12	FinMind	6	0.5	2	Nguyễn Minh Quân	...**
+
+🟢 **	S6-WBS71	Chốt #13 Technical Report dạng báo cáo khoa học	Hoàn thiện hồ sơ	Ghép bài báo kỹ thuật từ phần của từng chủ module: vấn đề, phương pháp, đánh giá, giới hạn và nguồn tham khảo. Đầu ra: Hồ sơ #13, bản nháp 27/11, bản cuối review 28/11. Người rà: Nguyễn Minh Quân. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Kết quả/số liệu có minh chứng. Định dạng theo yêu cầu giảng viên; không gộp nhầm với gói #1.	Phân công v2 · HS-13	Cao	Đã hoàn thành	S6...**
+
+🟢 **	S6-WBS72	Chốt #14 Source Code	Hoàn thiện hồ sơ	Chốt branch/commit/tag, hướng dẫn chạy, phụ thuộc và cấu hình mẫu. Đầu ra: Hồ sơ #14, bản nháp 27/11, bản cuối review 28/11. Người rà: Đinh Huỳnh Vũ. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Clone/cài/build được trong điều kiện đã ghi; không kèm mật khẩu/key hoặc dữ liệu riêng.	Phân công v2 · HS-14	Cao	Đã hoàn thành	S6-G12	FinMind	6	0.5	3	Hồ Phạm Đăng Nhân	Wed Nov 25 2026 07:00:00 GMT+0700 (Indoc...**
+
+🟢 **								5	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	120	133.5	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **								6	Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	62	157	36 task chi tiết; lịch và phân công đề xuất.**
+
+🟢 **	Số task	40	Giờ dự kiến	120	Tổng giờ thực tế đã ghi	133.5																							**
+
+🟢 **	Sprint 5	S5-WBS09.1	S5-G07	2	Kế thừa công ty, kỳ và chủ đề giữa các lượt	Nhân	Đã hoàn thành	3	5	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng phạm vi hội thoại hiện tại, ưu tiên công ty hoặc kỳ mới nếu người dùng thay đổi.	Câu nối tiếp giữ đúng phạm vi và chuyển phạm vi khi được yêu cầu.	S5-WBS05.1		3	2												**
+
+🟢 **	Sprint 5	S5-WBS09.2	S5-G07	2	Xử lý liệt kê và giới thiệu tổng quan	Nhân	Đã hoàn thành	3	3	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Liệt kê nội dung đang nói. Tổng quan đúng doanh nghiệp và truy xuất thêm khi cần.	Hai câu mẫu chạy đúng trong phiên nhiều lượt.	S5-WBS09.1			3												**
+
+🟢 **	Sprint 5	S5-WBS09.3	S5-G07	2	Xử lý tổng hợp nãy giờ	Nhân	Đã hoàn thành	3	3	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tóm tắt nội dung phiên hiện tại và giữ các nguồn đã dẫn.	Không lẫn nội dung giữa các phiên, nguồn còn đối chiếu được.	S5-WBS09.1				3											**
+
+🟢 **	Sprint 5	S5-WBS13.2	S5-G09	2	Đánh giá router và fallback trên bộ câu riêng	Nhân	Đã hoàn thành	3	3	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3				3											**
+
+🟢 **	Sprint 5	S5-WBS05.1	S5-G03	1	Nối router vào luồng xử lý tin nhắn Web Chat	Thái Quốc Hưng	Đã hoàn thành	3	6	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Gọi router trong backend khi Web Chat gửi tin và ghi trace. Có thể chuẩn bị tích hợp bằng mẫu.	Trace xác nhận Web Chat gọi router và chọn nhánh.	S5-WBS04.2					3	3									**
+
+🟢 **	Sprint 5	S5-WBS10.2	S5-G06	2	Tính nhóm tín hiệu tài chính	Đinh Huỳnh Vũ	Đã hoàn thành	4	3	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tính thay đổi doanh thu, lợi nhuận và dòng tiền khi có kỳ tương đương.	Có tín hiệu từng chỉ tiêu và nguồn tương ứng.	S5-WBS08.2, S5-WBS08.3									3						**
+
+🟢 **	Sprint 5	S5-WBS10.3	S5-G06	2	Gộp tín hiệu và trả nhãn xu hướng	Thái Quốc Hưng	Đã hoàn thành	3	3	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng quy tắc chấm điểm giải thích được để gộp tín hiệu giá và tài chính.	Trả đi lên, đi xuống, trái chiều hoặc chưa đủ dữ liệu. Ca trái chiều thể hiện hai tín hiệu riêng.	S5-WBS10.1, S5-WBS10.2										3					**
+
+🟢 **	Sprint 5	S5-WBS10.4	S5-G06	2	Kiểm thử quy tắc chấm điểm	Đinh Huỳnh Vũ	Đã hoàn thành	2	3	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thử cùng tăng, cùng giảm, trái chiều và thiếu kỳ.	Mỗi nhãn giải thích được bằng số liệu đầu vào.	S5-WBS10.3											3				**
+
+🟢 **	Sprint 5	S5-WBS12.2	S5-G08	2	Ghép bằng chứng graph và tài liệu cho BOTH	Nhân	Đã hoàn thành	4	3	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ghép kết quả theo đúng mã công ty và kỳ, gắn citation sát nhận định.	Cả hai loại bằng chứng được dùng đúng phạm vi và nguồn.	S5-WBS05.2, nhánh Vector hiện có												3			**
+
+🟢 **	Sprint 5	S5-WBS12.3	S5-G08	2	Xử lý kết quả rỗng, thiếu nguồn và lỗi một nhánh	Huyền 	Đã hoàn thành	3	3	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ trình bày phần có căn cứ, ghi rõ phần còn thiếu và thử ca fallback thất bại.	Câu trả lời phân biệt rỗng, thiếu bằng chứng và lỗi nhánh.	S5-WBS07.3, S5-WBS12.1, S5-WBS12.2												3			**
+
+🟢 **	Sprint 5	S5-WBS13.1	S5-G09	2	Chạy hồi quy bốn lỗi Sprint 4 trên Web Chat	Huyền 	Đã hoàn thành	4	3	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy lại ca chức vụ, BCTN, ngữ cảnh và token hết hạn.	Có kết quả pass/fail và trace cho đủ bốn lỗi.	S5-WBS02.3, S5-WBS05.3, S5-WBS06.2, S5-WBS09.2, S5-WBS09.3											3				**
+
+🟢 **	Sprint 5	S5-WBS13.3	S5-G09	2	Đối chiếu nhận định xu hướng và citation	Nguyễn Minh Quân	Đã hoàn thành	3	3	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu giá và BCTC gốc cho ca đủ dữ liệu, trái chiều và thiếu dữ liệu.	Số liệu, kỳ, nhãn và citation khớp nguồn ở các ca thử.	S5-WBS10.4, S5-WBS11.2, S5-WBS12.2											3				**
+
+🟢 **	Sprint 5	S5-WBS13.4	S5-G09	2	Chuẩn bị kịch bản demo và tổng hợp lỗi còn lại	Nguyễn Minh Quân	Đã hoàn thành	2	6	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tập hợp câu hỏi demo, kỳ vọng, kết quả thực tế, trace và lỗi còn mở.	Có kịch bản demo toàn luồng và danh sách lỗi còn mở.	S5-WBS13.1, S5-WBS13.2, S5-WBS13.3												3	3		**
+
+🟢 **					Tổng giờ theo task			120	133.5																				**
+
+🟢 **					Giờ đã ghi theo ngày				124							16	17	17	15	11	0	0	9	9	12	12	6	0	0**
+
+🟢 **Hiện tại: 36/40 task Done · còn 4 task · 36 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 36 task ước tính (31 theo nhật ký giờ, 5 theo deadline).												**
+
+🟢 **Phạm vi (task)	40	Done hiện tại	36	Giờ dự kiến	120	Done thiếu ngày	36					**
+
+🟢 **Giờ thực tế	133.5	Bắt đầu	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	3	37	37.14	16	16	2.86		S5-WBS09.1	Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	40	5	8	32	34.29	17	33	5.71		S5-WBS09.2	Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	40	5	13	27	31.43	17	50	8.57		S5-WBS09.3	Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	16	24	28.57	15	65	11.43		S5-WBS13.2	Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	19	21	25.71	11	76	14.29		S5-WBS05.1	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	19	21	22.86		76	17.14		S5-WBS07.2	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	5	24	16	20		76	20		S5-WBS08.1	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	25	15	17.14	9	85	22.86		S5-WBS08.3	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	27	13	14.29	9	94	25.71		S5-WBS05.2		**
+
+🟢 **Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	30	10	11.43	12	106	28.57		S5-WBS10.1	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40	4	34	6	8.57	12	118	31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	36	4	5.71	6	124	34.29		S5-WBS11.2	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Nov 21 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	36	4	2.86		124	37.14		S5-WBS12.1	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	36	4	0		124	40		S5-WBS10.2	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Hiện tại	40		36	4						S5-WBS10.3	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S5-WBS10.4	Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S5-WBS12.2	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S5-WBS12.3	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S5-WBS13.1	Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S5-WBS13.3	Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S5-WBS13.4	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **	Số task	51	Giờ dự kiến	62	Tổng giờ thực tế đã ghi	157																							**
+
+🟢 **	Sprint 6	S6-WBS37	S6-G10	1	Chốt môi trường kiểm thử	Đinh Huỳnh Vũ	Chưa bắt đầu	2.5	3	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Cả 5 người Ghi nhánh/commit, corpus/index/graph version, cấu hình model/budget và các dịch vụ cần chạy. Chốt một bản để cả nhóm kiểm tra. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Đầu ra: Biên bản môi trường và danh sách người xác nhận.	Cùng phiên code và dữ liệu; thay đổi giữa đợt phải...**
+
+🟢 **	Sprint 6	S6-WBS38	S6-G10	1	Thống nhất đề và cách chấm	Đinh Huỳnh Vũ	Chưa bắt đầu	2.5	3	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Cả 5 người Cùng chấm thử 10 ca đại diện. Mỗi người phụ trách chuẩn bị ít nhất 10 câu mới trong phạm vi mình, ghi đáp án và bằng chứng trước khi hỏi Chat; ưu tiên chạy lại lỗi còn mở. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Huyền xác nhận bộ 80 ca final, danh sách ca cũ/mới, người ch...**
+
+🟢 **	Sprint 6	S6-WBS39	S6-G11	1	Kiểm thử quan hệ chức vụ và quyền Admin	Đinh Huỳnh Vũ	Chưa bắt đầu	1	5	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu người, công ty, chức danh và nguồn. Phân biệt bổ nhiệm/xin từ nhiệm/miễn nhiệm, năm báo cáo/ngày hiệu lực. Bổ sung kiểm Admin đúng và sai quyền. Đầu ra: Excel ca chức vụ kèm đoạn trích và locator.	Tên, quan hệ và thời điểm đúng nguồn. Không suy chức vụ hiện tại từ tài liệu lịch sử. Ca ADM...**
+
+🟢 **	Sprint 6	S6-WBS40	S6-G11	1	Kiểm thử metadata và quyền database	Đinh Huỳnh Vũ	Chưa bắt đầu	1	9	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra extraction, document, chunk/locator, graph version, review và quarantine. Dùng tài khoản runtime kiểm tra quyền đọc/ghi; kiểm tra nạp lại không tạo trùng. Đầu ra: Biên bản truy vấn, kiểm tra quyền và chống trùng.	Truy ngược đủ nguồn; PENDING/REJECTED không thành quan hệ chính thức; quyền đúng ...**
+
+🟢 **	Sprint 6	S6-WBS41	S6-G11	1	Kiểm thử nhánh Vector của Router	Đinh Huỳnh Vũ	Chưa bắt đầu	0.75	6	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Test VECTOR độc lập, phạm vi công ty/kỳ/nguồn/corpus, bằng chứng và citation. Kiểm tra rỗng, timeout, lỗi adapter và fallback giữ đúng câu hỏi. Đầu ra: Kết quả test adapter và lỗi tích hợp.	Giữ đúng phạm vi và nguồn. Không gọi graph ngoài nhu cầu. Rỗng, lỗi và timeout được phân biệt.	S6-WBS37 (CH-01), ...**
+
+🟢 **	Sprint 6	S6-WBS42	S6-G12	1	Hoàn thiện tài liệu 3 task	Đinh Huỳnh Vũ	Đã hoàn thành	0.5	6	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Cập nhật ERD/schema mapping, trạng thái duyệt, quyền truy cập, graph/corpus version và adapter Vector. Đối chiếu tài liệu với code và database thực tế. Đầu ra: Thiết kế database, ảnh ERD và hướng dẫn bàn giao.	Có bảng/field, khóa và liên kết nguồn đúng hiện trạng; có lệnh chạy, minh chứng test và giới hạn cò...**
+
+🟢 **	Sprint 6	S6-WBS43	S6-G11	1	Kiểm thử chọn tuyến truy xuất	Trần Diệu Huyền	Đã hoàn thành	1	6	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Test câu đầy đủ thuộc NEWS, BCTN, BCTC và graph; tên viết tắt, cách nói tự nhiên và câu chưa nhận ra chỉ tiêu. Đầu ra: Excel kết quả chọn tuyến và trace.	Không mặc định mọi câu chưa hiểu sang bốn chỉ tiêu BCTC; chọn tuyến có lý do và giữ đúng công ty/nguồn.	S6-WBS37 (CH-01), S6-WBS38 (CH-02)				6									...**
+
+🟢 **	Sprint 6	S6-WBS44	S6-G11	1	Kiểm thử ngữ cảnh hội thoại	Trần Diệu Huyền	Đã hoàn thành	1.25	5	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Test hỏi tiếp cùng chủ đề, đổi mã, đổi nguồn, đổi kỳ và câu đầy đủ không liên quan. Kiểm tra “công ty đó”, “còn VCB”, “chi tiết hơn” và “tổng hợp lại”. Đầu ra: Chuỗi hội thoại có đầu vào và kết quả từng lượt.	Chỉ kế thừa thông tin phù hợp; câu đổi chủ đề không bị giữ công ty, chỉ tiêu hoặc nguồn sai.	S6-...**
+
+🟢 **	Sprint 6	S6-WBS45	S6-G11	1	Kiểm thử fallback và đầu vào mơ hồ	Trần Diệu Huyền	Đã hoàn thành	0.75	8	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Test AI trả sai nhãn/intent, không đủ bằng chứng và timeout. Fallback đổi nơi tìm, giữ nguyên ý hỏi; không lấy câu vô nghĩa để trả lời từ ngữ cảnh cũ. Đầu ra: Danh sách lỗi theo nguyên nhân và ca hồi quy.	Fallback không tự đổi công ty/chỉ tiêu. Câu không đủ nghĩa hỏi rõ, không sinh câu trả lời từ ...**
+
+🟢 **	Sprint 6	S6-WBS46	S6-G12	1	Tài liệu Router và ngữ cảnh	Trần Diệu Huyền	Đã hoàn thành	0.5	2	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Vẽ luồng phân tích câu hỏi, giữ/xóa ngữ cảnh, chọn tuyến, fallback, ngân sách và xử lý lỗi. Gắn ví dụ từ các ca đã đối chiếu. Đầu ra: Sơ đồ luồng và bảng quy tắc/mã lỗi.	Mỗi nhánh có điều kiện, đầu vào/đầu ra và ví dụ; mô tả khớp code tại commit nghiệm thu.	S6-WBS43 (HY-01) đến S6-WBS45 (HY-03)									2	...**
+
+🟢 **	Sprint 6	S6-WBS47	S6-G11	1	Kiểm thử tên và mã doanh nghiệp	Thái Quốc Hưng	Đã hoàn thành	0.75	9	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu 10 mã VCB, BID, CTG, MBB, TCB, FPT, CMG, ELC, ITD, ICT; test tên đầy đủ, tên phổ biến, viết tắt và alias. Đầu ra: Bộ ca tên/alias và kết quả ánh xạ ID.	Tên hợp lệ ánh xạ đúng mã. Tên không rõ không tự chuyển sang công ty trong lượt trước.	S6-WBS37 (CH-01), S6-WBS38 (CH-02)									3	6					**
+
+🟢 **	Sprint 6	S6-WBS48	S6-G11	1	Kiểm thử định danh người	Thái Quốc Hưng	Đã hoàn thành	0.75	12	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Test người trùng tên, thiếu công ty, khác nguồn/năm và người giữ nhiều chức vụ. Kiểm tra canonical ID và định danh theo lần xuất hiện. Đầu ra: Ca trùng tên và quyết định ánh xạ có nguồn.	Không gộp người chỉ vì giống tên; trường hợp chưa xác định được ghi rõ, không tự điền dữ kiện.	S6-WBS37 (CH-01)				6					...**
+
+🟢 **	Sprint 6	S6-WBS49	S6-G11	1	Đối chiếu contract và fixture	Thái Quốc Hưng	Đã hoàn thành	0.5	6	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra ID, kiểu dữ liệu, trường bắt buộc, tên gốc, span, locator và phiên nguồn. Chuẩn bị mẫu hợp lệ, thiếu trường và mâu thuẫn. Đầu ra: Fixture và bảng mapping contract.	Cùng đầu vào cho cùng ID theo contract; fixture tái lập được và không làm mất tên/đoạn gốc.	S6-WBS47 (HG-01), S6-WBS48 (HG-02)						...**
+
+🟢 **	Sprint 6	S6-WBS50	S6-G12	1	Tài liệu registry thực thể	Thái Quốc Hưng	Đã hoàn thành	0.5	11	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Cập nhật contract, quy tắc alias/canonical ID, phạm vi gộp và cách xử lý trường hợp mơ hồ. Ghi phiên bản và ví dụ thật đã kiểm tra. Đầu ra: Tài liệu registry và hướng dẫn tích hợp.	Người tích hợp biết trường nào dùng để nối, khi nào được gộp và khi nào cần hỏi/duyệt lại.	S6-WBS47 (HG-01) đến S6-WBS49 (HG-0...**
+
+🟢 **	Sprint 6	S6-WBS51	S6-G11	1	Kiểm thử thu thập, PDF/OCR và duyệt	Hồ Phạm Đăng Nhân	Đã hoàn thành	0.75	5	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra bài web, PDF có chữ, ảnh cần OCR, nội dung thiếu và đọc lỗi. Kiểm tra quyết định duyệt được giữ đúng khi đọc lại nguồn. Đầu ra: Biên bản đầu vào, nội dung trích và trạng thái duyệt.	Bài đủ chữ được xử lý đúng; nội dung đọc lỗi không giả là thành công; quyết định duyệt có thể truy vết.	...**
+
+🟢 **	Sprint 6	S6-WBS52	S6-G11	1	Kiểm thử nạp dữ liệu và corpus	Hồ Phạm Đăng Nhân	Đã hoàn thành	1.25	3	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Theo dõi bài đã duyệt qua chunk, embedding, database và corpus mới. Test chạy lại cùng bài, lỗi giữa chừng, retry và chuyển corpus phục vụ Chat. Đầu ra: Receipt nạp, số tài liệu/chunk và ID corpus.	Bài nạp thành công có trong đúng corpus; retry không nhân đôi; không công bố phiên nạp dở.	S6-WBS51 (N...**
+
+🟢 **	Sprint 6	S6-WBS53	S6-G11	1	Kiểm thử lịch chạy và phục hồi	Hồ Phạm Đăng Nhân	Đã hoàn thành	0.75	3	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra lịch Việt Nam, tiến trình trên VPS, giới hạn số bài mỗi lượt, lỗi mạng/database và retry. Ghi cấu hình, thời điểm và trạng thái lần chạy. Đầu ra: Log chạy thực tế và checklist phục hồi.	Xác định được lần chạy đã/không hoàn tất; có cách retry an toàn và không báo thành công khi chưa nạp xong...**
+
+🟢 **	Sprint 6	S6-WBS54	S6-G12	1	Tài liệu vận hành dữ liệu	Hồ Phạm Đăng Nhân	Đã hoàn thành	0.5	3	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ghi nơi lưu bài/OCR, dữ liệu nào giữ lâu dài, dữ liệu tạm, cách cập nhật corpus, xem log, chạy lại job và khôi phục sau lỗi. Đầu ra: Hướng dẫn pipeline và scheduler.	Lệnh được kiểm chứng; nêu quyền cần có và cách đối chiếu kết quả trên database/corpus; không đưa bí mật vào tài liệu.	S6-WBS51 (NH-01) đến S...**
+
+🟢 **	Sprint 6	S6-WBS55	S6-G11	1	Kiểm thử Chat và hiển thị nguồn	Nguyễn Minh Quân	Đã hoàn thành	1	3	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra câu trả lời NEWS/BCTN/BCTC, số citation, link PDF đúng trang và link NEWS. Test nguồn thiếu URL, nguồn ứng viên và bằng chứng đã dùng. Đầu ra: Excel lỗi giao diện/nguồn có ảnh và mã phiên.	Nội dung nguồn gắn đúng câu trả lời; phân biệt nguồn ứng viên với nguồn đã trích dẫn; không dựng URL hoặc...**
+
+🟢 **	Sprint 6	S6-WBS56	S6-G11	1	Kiểm thử thao tác Chat, phiên và Watchlist	Nguyễn Minh Quân	Đã hoàn thành	1	3	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Test gửi/dừng, gửi câu mới sau dừng, mở lại phiên và lỗi đăng nhập. Test Watchlist thêm/bỏ mã, không trùng và tài khoản A không thấy dữ liệu tài khoản B. Thử khi access token hết hạn giữa phiên và kiểm gửi lại sau refresh. Đầu ra: Ca thao tác và lỗi phiên có bước tái hiện.	Dừng không tự hỏi ...**
+
+🟢 **	Sprint 6	S6-WBS57	S6-G11	1	Đối chiếu UI và ca nhận định xu hướng	Nguyễn Minh Quân	Đã hoàn thành	0.5	3	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ kiểm khác biệt UI làm mất/sai chức năng cần nộp. Không thiết kế lại toàn bộ UI trong sprint cuối. Chạy TR-01 và TR-02 trong quỹ test UI của Quân; kiểm tín hiệu trái chiều và thiếu dữ liệu. Đầu ra: Danh sách khác biệt quan trọng kèm ảnh và commit.	Có quyết định giữ/đổi/thiếu. Chuyển cải tiến...**
+
+🟢 **	Sprint 6	S6-WBS58	S6-G12	1	Hướng dẫn sử dụng và kịch bản demo	Nguyễn Minh Quân	Đã hoàn thành	0.5	3	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Viết thao tác người dùng/Admin; chuẩn bị câu hỏi demo có nguồn, trường hợp thiếu dữ liệu và cách đọc citation. Bổ sung ảnh đúng bản nghiệm thu. Đầu ra: Hướng dẫn sử dụng và kịch bản demo.	Mỗi bước chạy được trên bản chốt; giới hạn thật được ghi rõ; không dùng ca đã thất bại làm ví dụ thành công.	S...**
+
+🟢 **	Sprint 6	S6-WBS59	S6-G12	1	Chốt #1 Final Report Submission (Full)	Thái Quốc Hưng	Đã hoàn thành	3	3	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ghép gói nộp đầy đủ và kiểm mục lục, tên/phiên bản, danh mục 15 mục và link. Đầu ra: Hồ sơ #1, bản nháp 27/11, bản cuối review 28/11. Người rà: Nguyễn Minh Quân. Mốc rà 28/11, kiểm nộp 29/11.	Đủ thành phần theo checklist chính thức. Tách gói nộp tổng thể với báo cáo khoa học #13.	Hồ sơ #2–#15 đã r...**
+
+🟢 **	Sprint 6	S6-WBS60	S6-G12	1	Chốt #2 Proposal	Thái Quốc Hưng	Đã hoàn thành	0.75	3	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu mục tiêu, phạm vi và thay đổi so với đề xuất đã có. Đầu ra: Hồ sơ #2, bản nháp 27/11, bản cuối review 28/11. Người rà: Nguyễn Minh Quân. Mốc rà 28/11, kiểm nộp 29/11.	Bản cuối nhất quán với sản phẩm và các giới hạn đã nghiệm thu.	Chủ module bàn giao nội dung										3					**
+
+🟢 **	Sprint 6	S6-WBS61	S6-G12	1	Chốt #3 Project Plan và sprint plan	Đinh Huỳnh Vũ	Đã hoàn thành	1	6	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Cập nhật phân công, giờ, phụ thuộc, lịch sửa/retest và mốc nộp. Thu giờ đã làm 23–24/11 và xác nhận thành viên thứ năm; cân lại nếu vượt 15h/tuần. Đầu ra: Hồ sơ #3, bản nháp 27/11, bản cuối review 28/11. Người rà: Trần Diệu Huyền. Mốc rà 28/11, kiểm nộp 29/11.	Có người chốt, tải giờ và minh chứng tiến...**
+
+🟢 **	Sprint 6	S6-WBS62	S6-G12	1	Chốt #4 SRS, User Stories và yêu cầu	Trần Diệu Huyền	Đã hoàn thành	1.5	4	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu yêu cầu với chức năng đã có và tiêu chí nghiệm thu. Đầu ra: Hồ sơ #4, bản nháp 27/11, bản cuối review 28/11. Người rà: Thái Quốc Hưng. Mốc rà 28/11, kiểm nộp 29/11.	Có truy vết yêu cầu–ca test; phần thiếu hoặc thay đổi được ghi rõ.	Chủ module bàn giao nội dung										2	2				**
+
+🟢 **	Sprint 6	S6-WBS63	S6-G12	1	Chốt #5 Thiết kế kiến trúc, database và thuật toán	Hồ Phạm Đăng Nhân	Đã hoàn thành	1.5	4	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ghép kiến trúc, ERD/schema, pipeline, registry và Router từ chủ module. Đầu ra: Hồ sơ #5, bản nháp 27/11, bản cuối review 28/11. Người rà: Đinh Huỳnh Vũ. Mốc rà 28/11, kiểm nộp 29/11.	Sơ đồ/field/thuật toán khớp code và dữ liệu thực tế; phân biệt PostgreSQL, Neo4j và corpus.	Chủ m...**
+
+🟢 **	Sprint 6	S6-WBS64	S6-G12	1	Chốt #6 UI Design	Trần Diệu Huyền	Đã hoàn thành	0.75	2	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chốt màn hình của bản nộp và kiểm kê khác biệt UI ảnh hưởng chức năng. Đầu ra: Hồ sơ #6, bản nháp 27/11, bản cuối review 28/11. Người rà: Thái Quốc Hưng. Mốc rà 28/11, kiểm nộp 29/11.	Ảnh đúng commit nộp. Không lấy nhánh rollback frontend cũ làm bản đủ chức năng.	Chủ module bàn giao nội dung													2		**
+
+🟢 **	Sprint 6	S6-WBS65	S6-G12	1	Chốt #7 Test Plan	Đinh Huỳnh Vũ	Đã hoàn thành	1.25	2	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chốt môi trường, phạm vi, cách chấm, ca giữ riêng, điều kiện vào/ra và lịch test. Chốt bản làm việc trong ngày 25/11 cùng CH-02 trước khi chạy; cập nhật theo kết quả để review ngày 28/11. Đầu ra: Hồ sơ #7, bản nháp 27/11, bản cuối review 28/11. Người rà: Trần Diệu Huyền. Mốc rà 28/11, kiểm nộp 29/11.	Có kế hoạch Adm...**
+
+🟢 **	Sprint 6	S6-WBS66	S6-G12	1	Chốt #8 Test Cases và Test Data	Trần Diệu Huyền	Đã hoàn thành	1.25	2	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chốt mẫu chung và dữ liệu test. Xác nhận mốc 80 ca final Sprint 6, nếu còn áp dụng thì giữ nguyên bộ đánh giá. Chốt bản làm việc trong ngày 25/11 cùng CH-02 trước khi chạy; cập nhật theo kết quả để review ngày 28/11. Đầu ra: Hồ sơ #8, bản nháp 27/11, bản cuối review 28/11. Người rà: Thái Quốc Hưng. M...**
+
+🟢 **	Sprint 6	S6-WBS67	S6-G12	1	Chốt #9 Test Report và Bug Report	Đinh Huỳnh Vũ	Đã hoàn thành	1.5	2	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tổng hợp theo nội dung/nguồn và mức lỗi. Ghi chủ lỗi, hạn bản sửa và người retest. Lập khung báo cáo trước khi chạy; cập nhật từ kết quả test, bug và retest. Đầu ra: Hồ sơ #9, bản nháp 27/11, bản cuối review 28/11. Người rà: Trần Diệu Huyền. Mốc rà 28/11, kiểm nộp 29/11.	Phân biệt đạt/chưa đạt/bị chặn...**
+
+🟢 **	Sprint 6	S6-WBS68	S6-G12	1	Chốt #10 Biên bản họp và minh chứng teamwork	Nguyễn Minh Quân	Đã hoàn thành	0.5	2	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tập hợp quyết định, người tham gia, phân công và minh chứng phối hợp. Đầu ra: Hồ sơ #10, bản nháp 27/11, bản cuối review 28/11. Người rà: Hồ Phạm Đăng Nhân. Mốc rà 28/11, kiểm nộp 29/11.	Dùng minh chứng thật và đúng thời điểm, không tạo lại sự kiện chưa xảy ra.	Chủ module bàn giao nội du...**
+
+🟢 **	Sprint 6	S6-WBS69	S6-G12	1	Chốt #11 Code Standards và chuẩn đã áp dụng	Hồ Phạm Đăng Nhân	Đã hoàn thành	0.75	2	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Mô tả chuẩn thực tế về code, test, API/contract, dữ liệu, bí mật và Git. Đầu ra: Hồ sơ #11, bản nháp 27/11, bản cuối review 28/11. Người rà: Đinh Huỳnh Vũ. Mốc rà 28/11, kiểm nộp 29/11.	Có dẫn chứng trong repository; không liệt kê chuẩn chưa áp dụng như đã đạt.	Chủ module bàn giao nội d...**
+
+🟢 **	Sprint 6	S6-WBS70	S6-G12	1	Chốt #12 Reflection và 360 Peer Evaluation	Nguyễn Minh Quân	Đã hoàn thành	0.5	2	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Thu phần đánh giá do từng thành viên tự viết; kiểm đủ mẫu và người nộp. Đầu ra: Hồ sơ #12, bản nháp 27/11, bản cuối review 28/11. Người rà: Hồ Phạm Đăng Nhân. Mốc rà 28/11, kiểm nộp 29/11.	Đủ phần cá nhân theo mẫu. Mỗi người tự xác nhận nội dung; không viết hộ đánh giá để giả hoàn tất.	Chủ...**
+
+🟢 **	Sprint 6	S6-WBS71	S6-G12	1	Chốt #13 Technical Report dạng báo cáo khoa học	Thái Quốc Hưng	Đã hoàn thành	2.25	3	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ghép bài báo kỹ thuật từ phần của từng chủ module: vấn đề, phương pháp, đánh giá, giới hạn và nguồn tham khảo. Đầu ra: Hồ sơ #13, bản nháp 27/11, bản cuối review 28/11. Người rà: Nguyễn Minh Quân. Mốc rà 28/11, kiểm nộp 29/11.	Kết quả/số liệu có minh chứng. Định dạng theo yêu cầu giảng...**
+
+🟢 **	Sprint 6	S6-WBS72	S6-G12	1	Chốt #14 Source Code	Hồ Phạm Đăng Nhân	Đã hoàn thành	0.5	3	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chốt branch/commit/tag, hướng dẫn chạy, phụ thuộc và cấu hình mẫu. Đầu ra: Hồ sơ #14, bản nháp 27/11, bản cuối review 28/11. Người rà: Đinh Huỳnh Vũ. Mốc rà 28/11, kiểm nộp 29/11.	Clone/cài/build được trong điều kiện đã ghi; không kèm mật khẩu/key hoặc dữ liệu riêng.	Chủ module bàn giao nội dung											3			...**
+
+🟢 **					Tổng giờ theo task			62	157																				**
+
+🟢 **					Giờ đã ghi theo ngày				157							3	7	35	12	21	0	0	12	26	25	4	12	0	0**
+
+🟢 **Hiện tại: 31/51 task Done · còn 20 task · 31 Done thiếu ngày												**
+
+🟢 **Đường theo ngày gồm 31 task ước tính (31 theo nhật ký giờ, 0 theo deadline).												**
+
+🟢 **Phạm vi (task)	51	Done hiện tại	31	Giờ dự kiến	62	Done thiếu ngày	31					**
+
+🟢 **Giờ thực tế	157	Bắt đầu	Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					**
+
+🟢 **Chênh lệch giữa giờ thực tế trên backlog và giờ đã phân theo ngày đến hôm nay: 100h.												**
+
+🟢 **										S6-WBS42	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S6-WBS43	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S6-WBS44	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S6-WBS45	Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S6-WBS46	Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S6-WBS47	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S6-WBS48	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S6-WBS49	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S6-WBS50	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S6-WBS51	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S6-WBS52	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Ưu tiên ngày thực tế ở cột P, rồi ngày cuối có ghi giờ, rồi deadline. Xem nguồn từng task ở cột K–M. Hàng Hiện tại lấy trạng thái từ backlog.										S6-WBS53	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Ngày	Phạm vi (task)	Done theo ngày\*	Done lũy kế\*	Task còn lại\*	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch		S6-WBS54	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	51		0	51	51			0		S6-WBS55	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	0	51	51	3	3	0		S6-WBS56	Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	0	51	51	7	10	0		S6-WBS57	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	51	4	4	47	46.89	35	45	4.11		S6-WBS58	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	51	2	6	45	44.01	12	57	6.99		S6-WBS59	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	51				25.91			25.09		S6-WBS60	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	51				2.06			48.94		S6-WBS61	Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Nov 29 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS62	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS63	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS64	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS65	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS66	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS67	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sat Dec 05 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS68	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS69	Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **Hiện tại	51		31	20						S6-WBS70	Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S6-WBS71	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+🟢 **										S6-WBS72	Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ**
+
+~~	S5-WBS05.1	Nối router vào luồng xử lý tin nhắn Web Chat	Tích hợp Web Chat, Hybrid Router và Neo4j	Gọi router trong backend khi Web Chat gửi tin và ghi trace. Có thể chuẩn bị tích hợp bằng mẫu.	Chat gọi đúng tuyến, kiểm chứng được graph có dữ liệu, graph rỗng và lỗi kết nối.	Trace xác nhận Web Chat gọi router và chọn nhánh.	S5-WBS04.2	Cao	Đã hoàn thành	S5-G03	FinMind	5	3		Thái Quốc Hưng	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	1~~
+
+~~	S5-WBS09.1	Kế thừa công ty, kỳ và chủ đề giữa các lượt	Ngữ cảnh nhiều lượt Chat	Dùng phạm vi hội thoại hiện tại, ưu tiên công ty hoặc kỳ mới nếu người dùng thay đổi.	Giữ hoặc đổi đúng doanh nghiệp, kỳ và chủ đề; xử lý yêu cầu tiếp nối, liệt kê và tổng hợp.	Câu nối tiếp giữ đúng phạm vi và chuyển phạm vi khi được yêu cầu.	S5-WBS05.1	Vừa	Đã hoàn thành	S5-G07	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS09.2	Xử lý liệt kê và giới thiệu tổng quan	Ngữ cảnh nhiều lượt Chat	Liệt kê nội dung đang nói. Tổng quan đúng doanh nghiệp và truy xuất thêm khi cần.	Giữ hoặc đổi đúng doanh nghiệp, kỳ và chủ đề; xử lý yêu cầu tiếp nối, liệt kê và tổng hợp.	Hai câu mẫu chạy đúng trong phiên nhiều lượt.	S5-WBS09.1	Vừa	Đã hoàn thành	S5-G07	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS09.3	Xử lý tổng hợp nãy giờ	Ngữ cảnh nhiều lượt Chat	Tóm tắt nội dung phiên hiện tại và giữ các nguồn đã dẫn.	Giữ hoặc đổi đúng doanh nghiệp, kỳ và chủ đề; xử lý yêu cầu tiếp nối, liệt kê và tổng hợp.	Không lẫn nội dung giữa các phiên, nguồn còn đối chiếu được.	S5-WBS09.1	Vừa	Đã hoàn thành	S5-G07	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS10.2	Tính nhóm tín hiệu tài chính	Nhận định xu hướng doanh nghiệp	Tính thay đổi doanh thu, lợi nhuận và dòng tiền khi có kỳ tương đương.	Kết hợp tín hiệu giá và BCTC; nêu dữ liệu và lý do, xử lý thiếu và trái chiều.	Có tín hiệu từng chỉ tiêu và nguồn tương ứng.	S5-WBS08.2, S5-WBS08.3	Cao	Đã hoàn thành	S5-G06	FinMind	5	4		Đinh Huỳnh Vũ	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS10.3	Gộp tín hiệu và trả nhãn xu hướng	Nhận định xu hướng doanh nghiệp	Dùng quy tắc chấm điểm giải thích được để gộp tín hiệu giá và tài chính.	Kết hợp tín hiệu giá và BCTC; nêu dữ liệu và lý do, xử lý thiếu và trái chiều.	Trả đi lên, đi xuống, trái chiều hoặc chưa đủ dữ liệu. Ca trái chiều thể hiện hai tín hiệu riêng.	S5-WBS10.1, S5-WBS10.2	Cao	Đã hoàn thành	S5-G06	FinMind	5	3		Thái Quốc Hưng	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina ...~~
+
+~~	S5-WBS10.4	Kiểm thử quy tắc chấm điểm	Nhận định xu hướng doanh nghiệp	Thử cùng tăng, cùng giảm, trái chiều và thiếu kỳ.	Kết hợp tín hiệu giá và BCTC; nêu dữ liệu và lý do, xử lý thiếu và trái chiều.	Mỗi nhãn giải thích được bằng số liệu đầu vào.	S5-WBS10.3	Cao	Chưa bắt đầu	S5-G06	FinMind	5	2		Đinh Huỳnh Vũ	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS12.2	Ghép bằng chứng graph và tài liệu cho BOTH	Tối ưu câu trả lời và bằng chứng	Ghép kết quả theo đúng mã công ty và kỳ, gắn citation sát nhận định.	Trình bày theo yêu cầu, giữ nguồn khi ghép hai nhánh và báo rõ phần còn thiếu.	Cả hai loại bằng chứng được dùng đúng phạm vi và nguồn.	S5-WBS05.2, nhánh Vector hiện có	Cao	Chưa bắt đầu	S5-G08	FinMind	5	4		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS12.3	Xử lý kết quả rỗng, thiếu nguồn và lỗi một nhánh	Tối ưu câu trả lời và bằng chứng	Chỉ trình bày phần có căn cứ, ghi rõ phần còn thiếu và thử ca fallback thất bại.	Trình bày theo yêu cầu, giữ nguồn khi ghép hai nhánh và báo rõ phần còn thiếu.	Câu trả lời phân biệt rỗng, thiếu bằng chứng và lỗi nhánh.	S5-WBS07.3, S5-WBS12.1, S5-WBS12.2	Cao	Chưa bắt đầu	S5-G08	FinMind	5	3		Huyền 	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS13.1	Chạy hồi quy bốn lỗi Sprint 4 trên Web Chat	Hồi quy, demo và tính năng hỗ trợ	Chạy lại ca chức vụ, BCTN, ngữ cảnh và token hết hạn.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Có kết quả pass/fail và trace cho đủ bốn lỗi.	S5-WBS02.3, S5-WBS05.3, S5-WBS06.2, S5-WBS09.2, S5-WBS09.3	Cao	Chưa bắt đầu	S5-G09	FinMind	5	4		Huyền 	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS13.2	Đánh giá router và fallback trên bộ câu riêng	Hồi quy, demo và tính năng hỗ trợ	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3	Cao	Đã hoàn thành	S5-G09	FinMind	5	3		Nhân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS13.3	Đối chiếu nhận định xu hướng và citation	Hồi quy, demo và tính năng hỗ trợ	Đối chiếu giá và BCTC gốc cho ca đủ dữ liệu, trái chiều và thiếu dữ liệu.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Số liệu, kỳ, nhãn và citation khớp nguồn ở các ca thử.	S5-WBS10.4, S5-WBS11.2, S5-WBS12.2	Cao	Chưa bắt đầu	S5-G09	FinMind	5	3		Nguyễn Minh Quân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S5-WBS13.4	Chuẩn bị kịch bản demo và tổng hợp lỗi còn lại	Hồi quy, demo và tính năng hỗ trợ	Tập hợp câu hỏi demo, kỳ vọng, kết quả thực tế, trace và lỗi còn mở.	Có kết quả hồi quy, kịch bản demo và minh chứng cho Admin và Watchlist.	Có kịch bản demo toàn luồng và danh sách lỗi còn mở.	S5-WBS13.1, S5-WBS13.2, S5-WBS13.3	Cao	Chưa bắt đầu	S5-G09	FinMind	5	2		Nguyễn Minh Quân	Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	2~~
+
+~~	S6-WBS37	Chốt môi trường kiểm thử	Chuẩn bị kiểm thử	Cả 5 người Ghi nhánh/commit, corpus/index/graph version, cấu hình model/budget và các dịch vụ cần chạy. Chốt một bản để cả nhóm kiểm tra. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Đầu ra: Biên bản môi trường và danh sách người xác nhận.	Chốt phiên code/dữ liệu, cách chấm và danh sách ca trước khi chạy.	Cùng phiên code và dữ liệu; thay đổi giữa đợt phải ghi lại và tách kết quả.	Phân công v2 · CH-01	Cao	Chưa bắt đầu	S6-G...~~
+
+~~	S6-WBS38	Thống nhất đề và cách chấm	Chuẩn bị kiểm thử	Cả 5 người Cùng chấm thử 10 ca đại diện. Mỗi người phụ trách chuẩn bị ít nhất 10 câu mới trong phạm vi mình, ghi đáp án và bằng chứng trước khi hỏi Chat; ưu tiên chạy lại lỗi còn mở. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Huyền xác nhận bộ 80 ca final, danh sách ca cũ/mới, người chạy/chấm và tập giữ riêng. Ca gợi ý chưa chạy. Khi benchmark B0–B3 vẫn là đầu ra bắt buộc, xác nhận manifest, người chạy và quỹ giờ trướ...~~
+
+~~	S6-WBS39	Kiểm thử quan hệ chức vụ và quyền Admin	Kiểm thử chức năng và tích hợp	Đối chiếu người, công ty, chức danh và nguồn. Phân biệt bổ nhiệm/xin từ nhiệm/miễn nhiệm, năm báo cáo/ngày hiệu lực. Bổ sung kiểm Admin đúng và sai quyền. Đầu ra: Excel ca chức vụ kèm đoạn trích và locator.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Tên, quan hệ và thời điểm đúng nguồn. Không suy chức vụ hiện tại từ tài liệu lịch sử. Ca ADM có ảnh/log với vai trò được cấp quyền và tài khoản bị ...~~
+
+~~	S6-WBS40	Kiểm thử metadata và quyền database	Kiểm thử chức năng và tích hợp	Kiểm tra extraction, document, chunk/locator, graph version, review và quarantine. Dùng tài khoản runtime kiểm tra quyền đọc/ghi; kiểm tra nạp lại không tạo trùng. Đầu ra: Biên bản truy vấn, kiểm tra quyền và chống trùng.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Truy ngược đủ nguồn; PENDING/REJECTED không thành quan hệ chính thức; quyền đúng phạm vi được thống nhất.	Phân công v2 · VU-02	Cao	Chưa ...~~
+
+~~	S6-WBS41	Kiểm thử nhánh Vector của Router	Kiểm thử chức năng và tích hợp	Test VECTOR độc lập, phạm vi công ty/kỳ/nguồn/corpus, bằng chứng và citation. Kiểm tra rỗng, timeout, lỗi adapter và fallback giữ đúng câu hỏi. Đầu ra: Kết quả test adapter và lỗi tích hợp.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Giữ đúng phạm vi và nguồn. Không gọi graph ngoài nhu cầu. Rỗng, lỗi và timeout được phân biệt.	Phân công v2 · VU-03	Cao	Chưa bắt đầu	S6-G11	FinMind	6	0.75		Đinh Huỳnh Vũ	T...~~
+
+~~	S6-WBS42	Hoàn thiện tài liệu 3 task	Hoàn thiện hồ sơ	Cập nhật ERD/schema mapping, trạng thái duyệt, quyền truy cập, graph/corpus version và adapter Vector. Đối chiếu tài liệu với code và database thực tế. Đầu ra: Thiết kế database, ảnh ERD và hướng dẫn bàn giao.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Có bảng/field, khóa và liên kết nguồn đúng hiện trạng; có lệnh chạy, minh chứng test và giới hạn còn mở.	Phân công v2 · VU-04	Cao	Chưa bắt đầu	S6-G12	FinMind	6	0.5		Đinh Hu...~~
+
+~~	S6-WBS43	Kiểm thử chọn tuyến truy xuất	Kiểm thử chức năng và tích hợp	Test câu đầy đủ thuộc NEWS, BCTN, BCTC và graph; tên viết tắt, cách nói tự nhiên và câu chưa nhận ra chỉ tiêu. Đầu ra: Excel kết quả chọn tuyến và trace.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Không mặc định mọi câu chưa hiểu sang bốn chỉ tiêu BCTC; chọn tuyến có lý do và giữ đúng công ty/nguồn.	Phân công v2 · HY-01	Cao	Chưa bắt đầu	S6-G11	FinMind	6	1		Trần Diệu Huyền	Wed Nov 25 2026 07:00:00 GMT+070...~~
+
+~~	S6-WBS44	Kiểm thử ngữ cảnh hội thoại	Kiểm thử chức năng và tích hợp	Test hỏi tiếp cùng chủ đề, đổi mã, đổi nguồn, đổi kỳ và câu đầy đủ không liên quan. Kiểm tra “công ty đó”, “còn VCB”, “chi tiết hơn” và “tổng hợp lại”. Đầu ra: Chuỗi hội thoại có đầu vào và kết quả từng lượt.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Chỉ kế thừa thông tin phù hợp; câu đổi chủ đề không bị giữ công ty, chỉ tiêu hoặc nguồn sai.	Phân công v2 · HY-02	Cao	Chưa bắt đầu	S6-G11	FinMind	6	1.25		Trầ...~~
+
+~~	S6-WBS45	Kiểm thử fallback và đầu vào mơ hồ	Kiểm thử chức năng và tích hợp	Test AI trả sai nhãn/intent, không đủ bằng chứng và timeout. Fallback đổi nơi tìm, giữ nguyên ý hỏi; không lấy câu vô nghĩa để trả lời từ ngữ cảnh cũ. Đầu ra: Danh sách lỗi theo nguyên nhân và ca hồi quy.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Fallback không tự đổi công ty/chỉ tiêu. Câu không đủ nghĩa hỏi rõ, không sinh câu trả lời từ ngữ cảnh cũ.	Phân công v2 · HY-03	Cao	Chưa bắt đầu	S6-G11	Fin...~~
+
+~~	S6-WBS46	Tài liệu Router và ngữ cảnh	Hoàn thiện hồ sơ	Vẽ luồng phân tích câu hỏi, giữ/xóa ngữ cảnh, chọn tuyến, fallback, ngân sách và xử lý lỗi. Gắn ví dụ từ các ca đã đối chiếu. Đầu ra: Sơ đồ luồng và bảng quy tắc/mã lỗi.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Mỗi nhánh có điều kiện, đầu vào/đầu ra và ví dụ; mô tả khớp code tại commit nghiệm thu.	Phân công v2 · HY-04	Cao	Chưa bắt đầu	S6-G12	FinMind	6	0.5		Trần Diệu Huyền	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Ti...~~
+
+~~	S6-WBS47	Kiểm thử tên và mã doanh nghiệp	Kiểm thử chức năng và tích hợp	Đối chiếu 10 mã VCB, BID, CTG, MBB, TCB, FPT, CMG, ELC, ITD, ICT; test tên đầy đủ, tên phổ biến, viết tắt và alias. Đầu ra: Bộ ca tên/alias và kết quả ánh xạ ID.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Tên hợp lệ ánh xạ đúng mã. Tên không rõ không tự chuyển sang công ty trong lượt trước.	Phân công v2 · HG-01	Cao	Chưa bắt đầu	S6-G11	FinMind	6	0.75		Thái Quốc Hưng	Wed Nov 25 2026 07:00:00 GMT+0700 (In...~~
+
+~~	S6-WBS48	Kiểm thử định danh người	Kiểm thử chức năng và tích hợp	Test người trùng tên, thiếu công ty, khác nguồn/năm và người giữ nhiều chức vụ. Kiểm tra canonical ID và định danh theo lần xuất hiện. Đầu ra: Ca trùng tên và quyết định ánh xạ có nguồn.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Không gộp người chỉ vì giống tên; trường hợp chưa xác định được ghi rõ, không tự điền dữ kiện.	Phân công v2 · HG-02	Cao	Chưa bắt đầu	S6-G11	FinMind	6	0.75		Thái Quốc Hưng	Wed Nov 25 ...~~
+
+~~	S6-WBS49	Đối chiếu contract và fixture	Kiểm thử chức năng và tích hợp	Kiểm tra ID, kiểu dữ liệu, trường bắt buộc, tên gốc, span, locator và phiên nguồn. Chuẩn bị mẫu hợp lệ, thiếu trường và mâu thuẫn. Đầu ra: Fixture và bảng mapping contract.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Cùng đầu vào cho cùng ID theo contract; fixture tái lập được và không làm mất tên/đoạn gốc.	Phân công v2 · HG-03	Cao	Chưa bắt đầu	S6-G11	FinMind	6	0.5		Thái Quốc Hưng	Thu Nov 26 2026 07:00:00...~~
+
+~~	S6-WBS50	Tài liệu registry thực thể	Hoàn thiện hồ sơ	Cập nhật contract, quy tắc alias/canonical ID, phạm vi gộp và cách xử lý trường hợp mơ hồ. Ghi phiên bản và ví dụ thật đã kiểm tra. Đầu ra: Tài liệu registry và hướng dẫn tích hợp.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Người tích hợp biết trường nào dùng để nối, khi nào được gộp và khi nào cần hỏi/duyệt lại.	Phân công v2 · HG-04	Cao	Chưa bắt đầu	S6-G12	FinMind	6	0.5		Thái Quốc Hưng	Fri Nov 27 2026 07:00:00 GMT+0700 (...~~
+
+~~	S6-WBS51	Kiểm thử thu thập, PDF/OCR và duyệt	Kiểm thử chức năng và tích hợp	Kiểm tra bài web, PDF có chữ, ảnh cần OCR, nội dung thiếu và đọc lỗi. Kiểm tra quyết định duyệt được giữ đúng khi đọc lại nguồn. Đầu ra: Biên bản đầu vào, nội dung trích và trạng thái duyệt.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Bài đủ chữ được xử lý đúng; nội dung đọc lỗi không giả là thành công; quyết định duyệt có thể truy vết.	Phân công v2 · NH-01	Cao	Chưa bắt đầu	S6-G11	FinMind	6	0.75		Hồ...~~
+
+~~	S6-WBS52	Kiểm thử nạp dữ liệu và corpus	Kiểm thử chức năng và tích hợp	Theo dõi bài đã duyệt qua chunk, embedding, database và corpus mới. Test chạy lại cùng bài, lỗi giữa chừng, retry và chuyển corpus phục vụ Chat. Đầu ra: Receipt nạp, số tài liệu/chunk và ID corpus.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Bài nạp thành công có trong đúng corpus; retry không nhân đôi; không công bố phiên nạp dở.	Phân công v2 · NH-02	Cao	Chưa bắt đầu	S6-G11	FinMind	6	1.25		Hồ Phạm Đăng ...~~
+
+~~	S6-WBS53	Kiểm thử lịch chạy và phục hồi	Kiểm thử chức năng và tích hợp	Kiểm tra lịch Việt Nam, tiến trình trên VPS, giới hạn số bài mỗi lượt, lỗi mạng/database và retry. Ghi cấu hình, thời điểm và trạng thái lần chạy. Đầu ra: Log chạy thực tế và checklist phục hồi.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Xác định được lần chạy đã/không hoàn tất; có cách retry an toàn và không báo thành công khi chưa nạp xong.	Phân công v2 · NH-03	Cao	Chưa bắt đầu	S6-G11	FinMind	6	0.75		...~~
+
+~~	S6-WBS54	Tài liệu vận hành dữ liệu	Hoàn thiện hồ sơ	Ghi nơi lưu bài/OCR, dữ liệu nào giữ lâu dài, dữ liệu tạm, cách cập nhật corpus, xem log, chạy lại job và khôi phục sau lỗi. Đầu ra: Hướng dẫn pipeline và scheduler.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Lệnh được kiểm chứng; nêu quyền cần có và cách đối chiếu kết quả trên database/corpus; không đưa bí mật vào tài liệu.	Phân công v2 · NH-04	Cao	Chưa bắt đầu	S6-G12	FinMind	6	0.5		Hồ Phạm Đăng Nhân	Fri Nov 27 2026 07:00...~~
+
+~~	S6-WBS55	Kiểm thử Chat và hiển thị nguồn	Kiểm thử chức năng và tích hợp	Kiểm tra câu trả lời NEWS/BCTN/BCTC, số citation, link PDF đúng trang và link NEWS. Test nguồn thiếu URL, nguồn ứng viên và bằng chứng đã dùng. Đầu ra: Excel lỗi giao diện/nguồn có ảnh và mã phiên.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Nội dung nguồn gắn đúng câu trả lời; phân biệt nguồn ứng viên với nguồn đã trích dẫn; không dựng URL hoặc trang PDF.	Phân công v2 · QU-01	Cao	Chưa bắt đầu	S6-G11	Fi...~~
+
+~~	S6-WBS56	Kiểm thử thao tác Chat, phiên và Watchlist	Kiểm thử chức năng và tích hợp	Test gửi/dừng, gửi câu mới sau dừng, mở lại phiên và lỗi đăng nhập. Test Watchlist thêm/bỏ mã, không trùng và tài khoản A không thấy dữ liệu tài khoản B. Thử khi access token hết hạn giữa phiên và kiểm gửi lại sau refresh. Đầu ra: Ca thao tác và lỗi phiên có bước tái hiện.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Dừng không tự hỏi lại; không để phản hồi cũ ghi vào lượt mới; lỗi phiên có hư...~~
+
+~~	S6-WBS57	Đối chiếu UI và ca nhận định xu hướng	Kiểm thử chức năng và tích hợp	Chỉ kiểm khác biệt UI làm mất/sai chức năng cần nộp. Không thiết kế lại toàn bộ UI trong sprint cuối. Chạy TR-01 và TR-02 trong quỹ test UI của Quân; kiểm tín hiệu trái chiều và thiếu dữ liệu. Đầu ra: Danh sách khác biệt quan trọng kèm ảnh và commit.	Có kết quả theo từng ca, commit, nguồn và minh chứng luồng thực.	Có quyết định giữ/đổi/thiếu. Chuyển cải tiến thẩm mỹ không chặn nộp sang backlog. Có minh chứng hai ca xu...~~
+
+~~	S6-WBS58	Hướng dẫn sử dụng và kịch bản demo	Hoàn thiện hồ sơ	Viết thao tác người dùng/Admin; chuẩn bị câu hỏi demo có nguồn, trường hợp thiếu dữ liệu và cách đọc citation. Bổ sung ảnh đúng bản nghiệm thu. Đầu ra: Hướng dẫn sử dụng và kịch bản demo.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Mỗi bước chạy được trên bản chốt; giới hạn thật được ghi rõ; không dùng ca đã thất bại làm ví dụ thành công.	Phân công v2 · QU-04	Cao	Chưa bắt đầu	S6-G12	FinMind	6	0.5		Nguyễn Minh Quân	...~~
+
+~~	S6-WBS59	Chốt #1 Final Report Submission (Full)	Hoàn thiện hồ sơ	Ghép gói nộp đầy đủ và kiểm mục lục, tên/phiên bản, danh mục 15 mục và link. Đầu ra: Hồ sơ #1, bản nháp 27/11, bản cuối review 28/11. Người rà: Nguyễn Minh Quân. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Đủ thành phần theo checklist chính thức. Tách gói nộp tổng thể với báo cáo khoa học #13.	Phân công v2 · HS-01	Cao	Chưa bắt đầu	S6-G12	FinMind	6	3		Thái Quốc Hưng	Wed Nov 25 2026 ...~~
+
+~~	S6-WBS60	Chốt #2 Proposal	Hoàn thiện hồ sơ	Đối chiếu mục tiêu, phạm vi và thay đổi so với đề xuất đã có. Đầu ra: Hồ sơ #2, bản nháp 27/11, bản cuối review 28/11. Người rà: Nguyễn Minh Quân. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Bản cuối nhất quán với sản phẩm và các giới hạn đã nghiệm thu.	Phân công v2 · HS-02	Cao	Chưa bắt đầu	S6-G12	FinMind	6	0.75		Thái Quốc Hưng	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 ...~~
+
+~~	S6-WBS61	Chốt #3 Project Plan và sprint plan	Hoàn thiện hồ sơ	Cập nhật phân công, giờ, phụ thuộc, lịch sửa/retest và mốc nộp. Thu giờ đã làm 23–24/11 và xác nhận thành viên thứ năm; cân lại nếu vượt 15h/tuần. Đầu ra: Hồ sơ #3, bản nháp 27/11, bản cuối review 28/11. Người rà: Trần Diệu Huyền. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Có người chốt, tải giờ và minh chứng tiến độ; ghi giờ 23–24/11 trước khi xác nhận trần tuần.	Phân công v2 · HS-0...~~
+
+~~	S6-WBS62	Chốt #4 SRS, User Stories và yêu cầu	Hoàn thiện hồ sơ	Đối chiếu yêu cầu với chức năng đã có và tiêu chí nghiệm thu. Đầu ra: Hồ sơ #4, bản nháp 27/11, bản cuối review 28/11. Người rà: Thái Quốc Hưng. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Có truy vết yêu cầu–ca test; phần thiếu hoặc thay đổi được ghi rõ.	Phân công v2 · HS-04	Cao	Chưa bắt đầu	S6-G12	FinMind	6	1.5		Trần Diệu Huyền	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat...~~
+
+~~	S6-WBS63	Chốt #5 Thiết kế kiến trúc, database và thuật toán	Hoàn thiện hồ sơ	Ghép kiến trúc, ERD/schema, pipeline, registry và Router từ chủ module. Đầu ra: Hồ sơ #5, bản nháp 27/11, bản cuối review 28/11. Người rà: Đinh Huỳnh Vũ. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Sơ đồ/field/thuật toán khớp code và dữ liệu thực tế; phân biệt PostgreSQL, Neo4j và corpus.	Phân công v2 · HS-05	Cao	Chưa bắt đầu	S6-G12	FinMind	6	1.5		Hồ Phạm Đăng Nhân	Wed ...~~
+
+~~	S6-WBS64	Chốt #6 UI Design	Hoàn thiện hồ sơ	Chốt màn hình của bản nộp và kiểm kê khác biệt UI ảnh hưởng chức năng. Đầu ra: Hồ sơ #6, bản nháp 27/11, bản cuối review 28/11. Người rà: Thái Quốc Hưng. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Ảnh đúng commit nộp. Không lấy nhánh rollback frontend cũ làm bản đủ chức năng.	Phân công v2 · HS-06	Cao	Chưa bắt đầu	S6-G12	FinMind	6	0.75		Trần Diệu Huyền	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)...~~
+
+~~	S6-WBS65	Chốt #7 Test Plan	Hoàn thiện hồ sơ	Chốt môi trường, phạm vi, cách chấm, ca giữ riêng, điều kiện vào/ra và lịch test. Chốt bản làm việc trong ngày 25/11 cùng CH-02 trước khi chạy; cập nhật theo kết quả để review ngày 28/11. Đầu ra: Hồ sơ #7, bản nháp 27/11, bản cuối review 28/11. Người rà: Trần Diệu Huyền. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Có kế hoạch Admin, Watchlist, xu hướng, AI fallback, tích hợp PDF/NEWS và hồi quy.	Phân c...~~
+
+~~	S6-WBS66	Chốt #8 Test Cases và Test Data	Hoàn thiện hồ sơ	Chốt mẫu chung và dữ liệu test. Xác nhận mốc 80 ca final Sprint 6, nếu còn áp dụng thì giữ nguyên bộ đánh giá. Chốt bản làm việc trong ngày 25/11 cùng CH-02 trước khi chạy; cập nhật theo kết quả để review ngày 28/11. Đầu ra: Hồ sơ #8, bản nháp 27/11, bản cuối review 28/11. Người rà: Thái Quốc Hưng. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Có ID ca, kỳ vọng, nguồn, commit, kết quả từng ...~~
+
+~~	S6-WBS67	Chốt #9 Test Report và Bug Report	Hoàn thiện hồ sơ	Tổng hợp theo nội dung/nguồn và mức lỗi. Ghi chủ lỗi, hạn bản sửa và người retest. Lập khung báo cáo trước khi chạy; cập nhật từ kết quả test, bug và retest. Đầu ra: Hồ sơ #9, bản nháp 27/11, bản cuối review 28/11. Người rà: Trần Diệu Huyền. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Phân biệt đạt/chưa đạt/bị chặn/chưa chạy; có kết quả trên commit chốt và lỗi còn mở.	Phân công v2 · HS-...~~
+
+~~	S6-WBS68	Chốt #10 Biên bản họp và minh chứng teamwork	Hoàn thiện hồ sơ	Tập hợp quyết định, người tham gia, phân công và minh chứng phối hợp. Đầu ra: Hồ sơ #10, bản nháp 27/11, bản cuối review 28/11. Người rà: Hồ Phạm Đăng Nhân. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Dùng minh chứng thật và đúng thời điểm, không tạo lại sự kiện chưa xảy ra.	Phân công v2 · HS-10	Cao	Chưa bắt đầu	S6-G12	FinMind	6	0.5		Nguyễn Minh Quân	Wed Nov 25 2026 07:00:00 ...~~
+
+~~	S6-WBS69	Chốt #11 Code Standards và chuẩn đã áp dụng	Hoàn thiện hồ sơ	Mô tả chuẩn thực tế về code, test, API/contract, dữ liệu, bí mật và Git. Đầu ra: Hồ sơ #11, bản nháp 27/11, bản cuối review 28/11. Người rà: Đinh Huỳnh Vũ. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Có dẫn chứng trong repository; không liệt kê chuẩn chưa áp dụng như đã đạt.	Phân công v2 · HS-11	Cao	Chưa bắt đầu	S6-G12	FinMind	6	0.75		Hồ Phạm Đăng Nhân	Wed Nov 25 2026 07:00:00...~~
+
+~~	S6-WBS70	Chốt #12 Reflection và 360 Peer Evaluation	Hoàn thiện hồ sơ	Thu phần đánh giá do từng thành viên tự viết; kiểm đủ mẫu và người nộp. Đầu ra: Hồ sơ #12, bản nháp 27/11, bản cuối review 28/11. Người rà: Hồ Phạm Đăng Nhân. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Đủ phần cá nhân theo mẫu. Mỗi người tự xác nhận nội dung; không viết hộ đánh giá để giả hoàn tất.	Phân công v2 · HS-12	Cao	Chưa bắt đầu	S6-G12	FinMind	6	0.5		Nguyễn Minh Quân	We...~~
+
+~~	S6-WBS71	Chốt #13 Technical Report dạng báo cáo khoa học	Hoàn thiện hồ sơ	Ghép bài báo kỹ thuật từ phần của từng chủ module: vấn đề, phương pháp, đánh giá, giới hạn và nguồn tham khảo. Đầu ra: Hồ sơ #13, bản nháp 27/11, bản cuối review 28/11. Người rà: Nguyễn Minh Quân. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Kết quả/số liệu có minh chứng. Định dạng theo yêu cầu giảng viên; không gộp nhầm với gói #1.	Phân công v2 · HS-13	Cao	Chưa bắt đầu	S6-...~~
+
+~~	S6-WBS72	Chốt #14 Source Code	Hoàn thiện hồ sơ	Chốt branch/commit/tag, hướng dẫn chạy, phụ thuộc và cấu hình mẫu. Đầu ra: Hồ sơ #14, bản nháp 27/11, bản cuối review 28/11. Người rà: Đinh Huỳnh Vũ. Mốc rà 28/11, kiểm nộp 29/11.	Có đủ hồ sơ, đúng bản nộp, có người rà và truy được minh chứng.	Clone/cài/build được trong điều kiện đã ghi; không kèm mật khẩu/key hoặc dữ liệu riêng.	Phân công v2 · HS-14	Cao	Chưa bắt đầu	S6-G12	FinMind	6	0.5		Hồ Phạm Đăng Nhân	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochi...~~
+
+~~								5	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đang thực hiện	120	86.5	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~								6	Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Chưa bắt đầu	62	0	36 task chi tiết; lịch và phân công đề xuất.~~
+
+~~	Số task	40	Giờ dự kiến	120	Tổng giờ thực tế đã ghi	86.5																							~~
+
+~~	Sprint 5	S5-WBS09.1	S5-G07	2	Kế thừa công ty, kỳ và chủ đề giữa các lượt	Nhân	Đã hoàn thành	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng phạm vi hội thoại hiện tại, ưu tiên công ty hoặc kỳ mới nếu người dùng thay đổi.	Câu nối tiếp giữ đúng phạm vi và chuyển phạm vi khi được yêu cầu.	S5-WBS05.1															~~
+
+~~	Sprint 5	S5-WBS09.2	S5-G07	2	Xử lý liệt kê và giới thiệu tổng quan	Nhân	Đã hoàn thành	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Liệt kê nội dung đang nói. Tổng quan đúng doanh nghiệp và truy xuất thêm khi cần.	Hai câu mẫu chạy đúng trong phiên nhiều lượt.	S5-WBS09.1															~~
+
+~~	Sprint 5	S5-WBS09.3	S5-G07	2	Xử lý tổng hợp nãy giờ	Nhân	Đã hoàn thành	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tóm tắt nội dung phiên hiện tại và giữ các nguồn đã dẫn.	Không lẫn nội dung giữa các phiên, nguồn còn đối chiếu được.	S5-WBS09.1															~~
+
+~~	Sprint 5	S5-WBS13.2	S5-G09	2	Đánh giá router và fallback trên bộ câu riêng	Nhân	Đã hoàn thành	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đo tỷ lệ chọn đúng nhánh, câu hay nhầm, số lần fallback và thời gian phản hồi.	Có kết quả trên cùng bộ câu để đối chiếu.	S5-WBS04.3, S5-WBS07.3															~~
+
+~~	Sprint 5	S5-WBS05.1	S5-G03	1	Nối router vào luồng xử lý tin nhắn Web Chat	Thái Quốc Hưng	Đã hoàn thành	3		Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Gọi router trong backend khi Web Chat gửi tin và ghi trace. Có thể chuẩn bị tích hợp bằng mẫu.	Trace xác nhận Web Chat gọi router và chọn nhánh.	S5-WBS04.2															~~
+
+~~	Sprint 5	S5-WBS10.2	S5-G06	2	Tính nhóm tín hiệu tài chính	Đinh Huỳnh Vũ	Đã hoàn thành	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tính thay đổi doanh thu, lợi nhuận và dòng tiền khi có kỳ tương đương.	Có tín hiệu từng chỉ tiêu và nguồn tương ứng.	S5-WBS08.2, S5-WBS08.3															~~
+
+~~	Sprint 5	S5-WBS10.3	S5-G06	2	Gộp tín hiệu và trả nhãn xu hướng	Thái Quốc Hưng	Đã hoàn thành	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Dùng quy tắc chấm điểm giải thích được để gộp tín hiệu giá và tài chính.	Trả đi lên, đi xuống, trái chiều hoặc chưa đủ dữ liệu. Ca trái chiều thể hiện hai tín hiệu riêng.	S5-WBS10.1, S5-WBS10.2															~~
+
+~~	Sprint 5	S5-WBS10.4	S5-G06	2	Kiểm thử quy tắc chấm điểm	Đinh Huỳnh Vũ	Đã hoàn thành	2		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Thử cùng tăng, cùng giảm, trái chiều và thiếu kỳ.	Mỗi nhãn giải thích được bằng số liệu đầu vào.	S5-WBS10.3															~~
+
+~~	Sprint 5	S5-WBS12.2	S5-G08	2	Ghép bằng chứng graph và tài liệu cho BOTH	Nhân	Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ghép kết quả theo đúng mã công ty và kỳ, gắn citation sát nhận định.	Cả hai loại bằng chứng được dùng đúng phạm vi và nguồn.	S5-WBS05.2, nhánh Vector hiện có															~~
+
+~~	Sprint 5	S5-WBS12.3	S5-G08	2	Xử lý kết quả rỗng, thiếu nguồn và lỗi một nhánh	Huyền 	Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ trình bày phần có căn cứ, ghi rõ phần còn thiếu và thử ca fallback thất bại.	Câu trả lời phân biệt rỗng, thiếu bằng chứng và lỗi nhánh.	S5-WBS07.3, S5-WBS12.1, S5-WBS12.2															~~
+
+~~	Sprint 5	S5-WBS13.1	S5-G09	2	Chạy hồi quy bốn lỗi Sprint 4 trên Web Chat	Huyền 	Chưa bắt đầu	4		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Chạy lại ca chức vụ, BCTN, ngữ cảnh và token hết hạn.	Có kết quả pass/fail và trace cho đủ bốn lỗi.	S5-WBS02.3, S5-WBS05.3, S5-WBS06.2, S5-WBS09.2, S5-WBS09.3															~~
+
+~~	Sprint 5	S5-WBS13.3	S5-G09	2	Đối chiếu nhận định xu hướng và citation	Nguyễn Minh Quân	Chưa bắt đầu	3		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu giá và BCTC gốc cho ca đủ dữ liệu, trái chiều và thiếu dữ liệu.	Số liệu, kỳ, nhãn và citation khớp nguồn ở các ca thử.	S5-WBS10.4, S5-WBS11.2, S5-WBS12.2															~~
+
+~~	Sprint 5	S5-WBS13.4	S5-G09	2	Chuẩn bị kịch bản demo và tổng hợp lỗi còn lại	Nguyễn Minh Quân	Chưa bắt đầu	2		Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Tập hợp câu hỏi demo, kỳ vọng, kết quả thực tế, trace và lỗi còn mở.	Có kịch bản demo toàn luồng và danh sách lỗi còn mở.	S5-WBS13.1, S5-WBS13.2, S5-WBS13.3															~~
+
+~~					Tổng giờ theo task			120	86.5																				~~
+
+~~					Giờ đã ghi theo ngày				77							13	12	11	12	8	0	0	6	6	3	3	3	0	0~~
+
+~~Hiện tại: 31/40 task Done · còn 9 task · 31 Done thiếu ngày												~~
+
+~~Đường theo ngày gồm 31 task ước tính (18 theo nhật ký giờ, 13 theo deadline).												~~
+
+~~Phạm vi (task)	40	Done hiện tại	31	Giờ dự kiến	120	Done thiếu ngày	31					~~
+
+~~Giờ thực tế	86.5	Bắt đầu	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					~~
+
+~~Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	3	37	37.14	13	13	2.86		S5-WBS09.1	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Tue Nov 10 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	6	34	34.29	12	25	5.71		S5-WBS09.2	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Wed Nov 11 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	9	31	31.43	11	36	8.57		S5-WBS09.3	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	40	3	12	28	28.57	12	48	11.43		S5-WBS13.2	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	14	26	25.71	8	56	14.29		S5-WBS05.1	Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Sat Nov 14 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	14	26	22.86		56	17.14		S5-WBS07.2	Mon Nov 09 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sun Nov 15 2026 07:00:00 GMT+0700 (Indochina Time)	40	6	20	20	20		56	20		S5-WBS08.1	Thu Nov 12 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Mon Nov 16 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	20	20	17.14	6	62	22.86		S5-WBS08.3	Fri Nov 13 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	21	19	14.29	6	68	25.71		S5-WBS05.2		~~
+
+~~Wed Nov 18 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	21	19	11.43	3	71	28.57		S5-WBS10.1	Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	40	2	23	17	8.57	3	74	31.43		S5-WBS11.1	Tue Nov 17 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Fri Nov 20 2026 07:00:00 GMT+0700 (Indochina Time)	40	1	24	16	5.71	3	77	34.29		S5-WBS11.2	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sat Nov 21 2026 07:00:00 GMT+0700 (Indochina Time)	40	0	24	16	2.86		77	37.14		S5-WBS12.1	Thu Nov 19 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: nhật ký giờ~~
+
+~~Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	40	7	31	9	0		77	40		S5-WBS10.2	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~Hiện tại	40		31	9						S5-WBS10.3	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~										S5-WBS10.4	Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	Ước tính: deadline~~
+
+~~										S5-WBS12.2		~~
+
+~~										S5-WBS12.3		~~
+
+~~										S5-WBS13.1		~~
+
+~~										S5-WBS13.3		~~
+
+~~										S5-WBS13.4		~~
+
+~~	Số task	51	Giờ dự kiến	62	Tổng giờ thực tế đã ghi																								~~
+
+~~	Sprint 6	S6-WBS37	S6-G10	1	Chốt môi trường kiểm thử	Đinh Huỳnh Vũ	Chưa bắt đầu	2.5		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Cả 5 người Ghi nhánh/commit, corpus/index/graph version, cấu hình model/budget và các dịch vụ cần chạy. Chốt một bản để cả nhóm kiểm tra. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Đầu ra: Biên bản môi trường và danh sách người xác nhận.	Cùng phiên code và dữ liệu; thay đổi giữa đợt phải ...~~
+
+~~	Sprint 6	S6-WBS38	S6-G10	1	Thống nhất đề và cách chấm	Đinh Huỳnh Vũ	Chưa bắt đầu	2.5		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Cả 5 người Cùng chấm thử 10 ca đại diện. Mỗi người phụ trách chuẩn bị ít nhất 10 câu mới trong phạm vi mình, ghi đáp án và bằng chứng trước khi hỏi Chat; ưu tiên chạy lại lỗi còn mở. Phân bổ giờ: Vũ 0,5h, Huyền 0,5h, Hưng 0,5h, Nhân 0,5h, Quân 0,5h. Huyền xác nhận bộ 80 ca final, danh sách ca cũ/mới, người chạ...~~
+
+~~	Sprint 6	S6-WBS39	S6-G11	1	Kiểm thử quan hệ chức vụ và quyền Admin	Đinh Huỳnh Vũ	Chưa bắt đầu	1		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu người, công ty, chức danh và nguồn. Phân biệt bổ nhiệm/xin từ nhiệm/miễn nhiệm, năm báo cáo/ngày hiệu lực. Bổ sung kiểm Admin đúng và sai quyền. Đầu ra: Excel ca chức vụ kèm đoạn trích và locator.	Tên, quan hệ và thời điểm đúng nguồn. Không suy chức vụ hiện tại từ tài liệu lịch sử. Ca ADM ...~~
+
+~~	Sprint 6	S6-WBS40	S6-G11	1	Kiểm thử metadata và quyền database	Đinh Huỳnh Vũ	Chưa bắt đầu	1		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra extraction, document, chunk/locator, graph version, review và quarantine. Dùng tài khoản runtime kiểm tra quyền đọc/ghi; kiểm tra nạp lại không tạo trùng. Đầu ra: Biên bản truy vấn, kiểm tra quyền và chống trùng.	Truy ngược đủ nguồn; PENDING/REJECTED không thành quan hệ chính thức; quyền đúng p...~~
+
+~~	Sprint 6	S6-WBS41	S6-G11	1	Kiểm thử nhánh Vector của Router	Đinh Huỳnh Vũ	Chưa bắt đầu	0.75		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Test VECTOR độc lập, phạm vi công ty/kỳ/nguồn/corpus, bằng chứng và citation. Kiểm tra rỗng, timeout, lỗi adapter và fallback giữ đúng câu hỏi. Đầu ra: Kết quả test adapter và lỗi tích hợp.	Giữ đúng phạm vi và nguồn. Không gọi graph ngoài nhu cầu. Rỗng, lỗi và timeout được phân biệt.	S6-WBS37 (CH-01), S...~~
+
+~~	Sprint 6	S6-WBS42	S6-G12	1	Hoàn thiện tài liệu 3 task	Đinh Huỳnh Vũ	Chưa bắt đầu	0.5		Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Cập nhật ERD/schema mapping, trạng thái duyệt, quyền truy cập, graph/corpus version và adapter Vector. Đối chiếu tài liệu với code và database thực tế. Đầu ra: Thiết kế database, ảnh ERD và hướng dẫn bàn giao.	Có bảng/field, khóa và liên kết nguồn đúng hiện trạng; có lệnh chạy, minh chứng test và giới hạn còn ...~~
+
+~~	Sprint 6	S6-WBS43	S6-G11	1	Kiểm thử chọn tuyến truy xuất	Trần Diệu Huyền	Chưa bắt đầu	1		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Test câu đầy đủ thuộc NEWS, BCTN, BCTC và graph; tên viết tắt, cách nói tự nhiên và câu chưa nhận ra chỉ tiêu. Đầu ra: Excel kết quả chọn tuyến và trace.	Không mặc định mọi câu chưa hiểu sang bốn chỉ tiêu BCTC; chọn tuyến có lý do và giữ đúng công ty/nguồn.	S6-WBS37 (CH-01), S6-WBS38 (CH-02)															~~
+
+~~	Sprint 6	S6-WBS44	S6-G11	1	Kiểm thử ngữ cảnh hội thoại	Trần Diệu Huyền	Chưa bắt đầu	1.25		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Test hỏi tiếp cùng chủ đề, đổi mã, đổi nguồn, đổi kỳ và câu đầy đủ không liên quan. Kiểm tra “công ty đó”, “còn VCB”, “chi tiết hơn” và “tổng hợp lại”. Đầu ra: Chuỗi hội thoại có đầu vào và kết quả từng lượt.	Chỉ kế thừa thông tin phù hợp; câu đổi chủ đề không bị giữ công ty, chỉ tiêu hoặc nguồn sai.	S6-WB...~~
+
+~~	Sprint 6	S6-WBS45	S6-G11	1	Kiểm thử fallback và đầu vào mơ hồ	Trần Diệu Huyền	Chưa bắt đầu	0.75		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Test AI trả sai nhãn/intent, không đủ bằng chứng và timeout. Fallback đổi nơi tìm, giữ nguyên ý hỏi; không lấy câu vô nghĩa để trả lời từ ngữ cảnh cũ. Đầu ra: Danh sách lỗi theo nguyên nhân và ca hồi quy.	Fallback không tự đổi công ty/chỉ tiêu. Câu không đủ nghĩa hỏi rõ, không sinh câu trả lời từ ng...~~
+
+~~	Sprint 6	S6-WBS46	S6-G12	1	Tài liệu Router và ngữ cảnh	Trần Diệu Huyền	Chưa bắt đầu	0.5		Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Vẽ luồng phân tích câu hỏi, giữ/xóa ngữ cảnh, chọn tuyến, fallback, ngân sách và xử lý lỗi. Gắn ví dụ từ các ca đã đối chiếu. Đầu ra: Sơ đồ luồng và bảng quy tắc/mã lỗi.	Mỗi nhánh có điều kiện, đầu vào/đầu ra và ví dụ; mô tả khớp code tại commit nghiệm thu.	S6-WBS43 (HY-01) đến S6-WBS45 (HY-03)													...~~
+
+~~	Sprint 6	S6-WBS47	S6-G11	1	Kiểm thử tên và mã doanh nghiệp	Thái Quốc Hưng	Chưa bắt đầu	0.75		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu 10 mã VCB, BID, CTG, MBB, TCB, FPT, CMG, ELC, ITD, ICT; test tên đầy đủ, tên phổ biến, viết tắt và alias. Đầu ra: Bộ ca tên/alias và kết quả ánh xạ ID.	Tên hợp lệ ánh xạ đúng mã. Tên không rõ không tự chuyển sang công ty trong lượt trước.	S6-WBS37 (CH-01), S6-WBS38 (CH-02)															~~
+
+~~	Sprint 6	S6-WBS48	S6-G11	1	Kiểm thử định danh người	Thái Quốc Hưng	Chưa bắt đầu	0.75		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Test người trùng tên, thiếu công ty, khác nguồn/năm và người giữ nhiều chức vụ. Kiểm tra canonical ID và định danh theo lần xuất hiện. Đầu ra: Ca trùng tên và quyết định ánh xạ có nguồn.	Không gộp người chỉ vì giống tên; trường hợp chưa xác định được ghi rõ, không tự điền dữ kiện.	S6-WBS37 (CH-01)													...~~
+
+~~	Sprint 6	S6-WBS49	S6-G11	1	Đối chiếu contract và fixture	Thái Quốc Hưng	Chưa bắt đầu	0.5		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra ID, kiểu dữ liệu, trường bắt buộc, tên gốc, span, locator và phiên nguồn. Chuẩn bị mẫu hợp lệ, thiếu trường và mâu thuẫn. Đầu ra: Fixture và bảng mapping contract.	Cùng đầu vào cho cùng ID theo contract; fixture tái lập được và không làm mất tên/đoạn gốc.	S6-WBS47 (HG-01), S6-WBS48 (HG-02)								...~~
+
+~~	Sprint 6	S6-WBS50	S6-G12	1	Tài liệu registry thực thể	Thái Quốc Hưng	Chưa bắt đầu	0.5		Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Cập nhật contract, quy tắc alias/canonical ID, phạm vi gộp và cách xử lý trường hợp mơ hồ. Ghi phiên bản và ví dụ thật đã kiểm tra. Đầu ra: Tài liệu registry và hướng dẫn tích hợp.	Người tích hợp biết trường nào dùng để nối, khi nào được gộp và khi nào cần hỏi/duyệt lại.	S6-WBS47 (HG-01) đến S6-WBS49 (HG-03)	...~~
+
+~~	Sprint 6	S6-WBS51	S6-G11	1	Kiểm thử thu thập, PDF/OCR và duyệt	Hồ Phạm Đăng Nhân	Chưa bắt đầu	0.75		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra bài web, PDF có chữ, ảnh cần OCR, nội dung thiếu và đọc lỗi. Kiểm tra quyết định duyệt được giữ đúng khi đọc lại nguồn. Đầu ra: Biên bản đầu vào, nội dung trích và trạng thái duyệt.	Bài đủ chữ được xử lý đúng; nội dung đọc lỗi không giả là thành công; quyết định duyệt có thể truy vết.	S6...~~
+
+~~	Sprint 6	S6-WBS52	S6-G11	1	Kiểm thử nạp dữ liệu và corpus	Hồ Phạm Đăng Nhân	Chưa bắt đầu	1.25		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Theo dõi bài đã duyệt qua chunk, embedding, database và corpus mới. Test chạy lại cùng bài, lỗi giữa chừng, retry và chuyển corpus phục vụ Chat. Đầu ra: Receipt nạp, số tài liệu/chunk và ID corpus.	Bài nạp thành công có trong đúng corpus; retry không nhân đôi; không công bố phiên nạp dở.	S6-WBS51 (NH-...~~
+
+~~	Sprint 6	S6-WBS53	S6-G11	1	Kiểm thử lịch chạy và phục hồi	Hồ Phạm Đăng Nhân	Chưa bắt đầu	0.75		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra lịch Việt Nam, tiến trình trên VPS, giới hạn số bài mỗi lượt, lỗi mạng/database và retry. Ghi cấu hình, thời điểm và trạng thái lần chạy. Đầu ra: Log chạy thực tế và checklist phục hồi.	Xác định được lần chạy đã/không hoàn tất; có cách retry an toàn và không báo thành công khi chưa nạp xong.	...~~
+
+~~	Sprint 6	S6-WBS54	S6-G12	1	Tài liệu vận hành dữ liệu	Hồ Phạm Đăng Nhân	Chưa bắt đầu	0.5		Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ghi nơi lưu bài/OCR, dữ liệu nào giữ lâu dài, dữ liệu tạm, cách cập nhật corpus, xem log, chạy lại job và khôi phục sau lỗi. Đầu ra: Hướng dẫn pipeline và scheduler.	Lệnh được kiểm chứng; nêu quyền cần có và cách đối chiếu kết quả trên database/corpus; không đưa bí mật vào tài liệu.	S6-WBS51 (NH-01) đến S6-...~~
+
+~~	Sprint 6	S6-WBS55	S6-G11	1	Kiểm thử Chat và hiển thị nguồn	Nguyễn Minh Quân	Chưa bắt đầu	1		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Kiểm tra câu trả lời NEWS/BCTN/BCTC, số citation, link PDF đúng trang và link NEWS. Test nguồn thiếu URL, nguồn ứng viên và bằng chứng đã dùng. Đầu ra: Excel lỗi giao diện/nguồn có ảnh và mã phiên.	Nội dung nguồn gắn đúng câu trả lời; phân biệt nguồn ứng viên với nguồn đã trích dẫn; không dựng URL hoặc t...~~
+
+~~	Sprint 6	S6-WBS56	S6-G11	1	Kiểm thử thao tác Chat, phiên và Watchlist	Nguyễn Minh Quân	Chưa bắt đầu	1		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Test gửi/dừng, gửi câu mới sau dừng, mở lại phiên và lỗi đăng nhập. Test Watchlist thêm/bỏ mã, không trùng và tài khoản A không thấy dữ liệu tài khoản B. Thử khi access token hết hạn giữa phiên và kiểm gửi lại sau refresh. Đầu ra: Ca thao tác và lỗi phiên có bước tái hiện.	Dừng không tự hỏi lạ...~~
+
+~~	Sprint 6	S6-WBS57	S6-G11	1	Đối chiếu UI và ca nhận định xu hướng	Nguyễn Minh Quân	Chưa bắt đầu	0.5		Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chỉ kiểm khác biệt UI làm mất/sai chức năng cần nộp. Không thiết kế lại toàn bộ UI trong sprint cuối. Chạy TR-01 và TR-02 trong quỹ test UI của Quân; kiểm tín hiệu trái chiều và thiếu dữ liệu. Đầu ra: Danh sách khác biệt quan trọng kèm ảnh và commit.	Có quyết định giữ/đổi/thiếu. Chuyển cải tiến t...~~
+
+~~	Sprint 6	S6-WBS58	S6-G12	1	Hướng dẫn sử dụng và kịch bản demo	Nguyễn Minh Quân	Chưa bắt đầu	0.5		Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Viết thao tác người dùng/Admin; chuẩn bị câu hỏi demo có nguồn, trường hợp thiếu dữ liệu và cách đọc citation. Bổ sung ảnh đúng bản nghiệm thu. Đầu ra: Hướng dẫn sử dụng và kịch bản demo.	Mỗi bước chạy được trên bản chốt; giới hạn thật được ghi rõ; không dùng ca đã thất bại làm ví dụ thành công.	S6-...~~
+
+~~	Sprint 6	S6-WBS59	S6-G12	1	Chốt #1 Final Report Submission (Full)	Thái Quốc Hưng	Chưa bắt đầu	3		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ghép gói nộp đầy đủ và kiểm mục lục, tên/phiên bản, danh mục 15 mục và link. Đầu ra: Hồ sơ #1, bản nháp 27/11, bản cuối review 28/11. Người rà: Nguyễn Minh Quân. Mốc rà 28/11, kiểm nộp 29/11.	Đủ thành phần theo checklist chính thức. Tách gói nộp tổng thể với báo cáo khoa học #13.	Hồ sơ #2–#15 đã rà;...~~
+
+~~	Sprint 6	S6-WBS60	S6-G12	1	Chốt #2 Proposal	Thái Quốc Hưng	Chưa bắt đầu	0.75		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu mục tiêu, phạm vi và thay đổi so với đề xuất đã có. Đầu ra: Hồ sơ #2, bản nháp 27/11, bản cuối review 28/11. Người rà: Nguyễn Minh Quân. Mốc rà 28/11, kiểm nộp 29/11.	Bản cuối nhất quán với sản phẩm và các giới hạn đã nghiệm thu.	Chủ module bàn giao nội dung															~~
+
+~~	Sprint 6	S6-WBS61	S6-G12	1	Chốt #3 Project Plan và sprint plan	Đinh Huỳnh Vũ	Chưa bắt đầu	1		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Cập nhật phân công, giờ, phụ thuộc, lịch sửa/retest và mốc nộp. Thu giờ đã làm 23–24/11 và xác nhận thành viên thứ năm; cân lại nếu vượt 15h/tuần. Đầu ra: Hồ sơ #3, bản nháp 27/11, bản cuối review 28/11. Người rà: Trần Diệu Huyền. Mốc rà 28/11, kiểm nộp 29/11.	Có người chốt, tải giờ và minh chứng tiến đ...~~
+
+~~	Sprint 6	S6-WBS62	S6-G12	1	Chốt #4 SRS, User Stories và yêu cầu	Trần Diệu Huyền	Chưa bắt đầu	1.5		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Đối chiếu yêu cầu với chức năng đã có và tiêu chí nghiệm thu. Đầu ra: Hồ sơ #4, bản nháp 27/11, bản cuối review 28/11. Người rà: Thái Quốc Hưng. Mốc rà 28/11, kiểm nộp 29/11.	Có truy vết yêu cầu–ca test; phần thiếu hoặc thay đổi được ghi rõ.	Chủ module bàn giao nội dung															~~
+
+~~	Sprint 6	S6-WBS63	S6-G12	1	Chốt #5 Thiết kế kiến trúc, database và thuật toán	Hồ Phạm Đăng Nhân	Chưa bắt đầu	1.5		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ghép kiến trúc, ERD/schema, pipeline, registry và Router từ chủ module. Đầu ra: Hồ sơ #5, bản nháp 27/11, bản cuối review 28/11. Người rà: Đinh Huỳnh Vũ. Mốc rà 28/11, kiểm nộp 29/11.	Sơ đồ/field/thuật toán khớp code và dữ liệu thực tế; phân biệt PostgreSQL, Neo4j và corpus.	Chủ mod...~~
+
+~~	Sprint 6	S6-WBS64	S6-G12	1	Chốt #6 UI Design	Trần Diệu Huyền	Chưa bắt đầu	0.75		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chốt màn hình của bản nộp và kiểm kê khác biệt UI ảnh hưởng chức năng. Đầu ra: Hồ sơ #6, bản nháp 27/11, bản cuối review 28/11. Người rà: Thái Quốc Hưng. Mốc rà 28/11, kiểm nộp 29/11.	Ảnh đúng commit nộp. Không lấy nhánh rollback frontend cũ làm bản đủ chức năng.	Chủ module bàn giao nội dung															~~
+
+~~	Sprint 6	S6-WBS65	S6-G12	1	Chốt #7 Test Plan	Đinh Huỳnh Vũ	Chưa bắt đầu	1.25		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chốt môi trường, phạm vi, cách chấm, ca giữ riêng, điều kiện vào/ra và lịch test. Chốt bản làm việc trong ngày 25/11 cùng CH-02 trước khi chạy; cập nhật theo kết quả để review ngày 28/11. Đầu ra: Hồ sơ #7, bản nháp 27/11, bản cuối review 28/11. Người rà: Trần Diệu Huyền. Mốc rà 28/11, kiểm nộp 29/11.	Có kế hoạch Admin...~~
+
+~~	Sprint 6	S6-WBS66	S6-G12	1	Chốt #8 Test Cases và Test Data	Trần Diệu Huyền	Chưa bắt đầu	1.25		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chốt mẫu chung và dữ liệu test. Xác nhận mốc 80 ca final Sprint 6, nếu còn áp dụng thì giữ nguyên bộ đánh giá. Chốt bản làm việc trong ngày 25/11 cùng CH-02 trước khi chạy; cập nhật theo kết quả để review ngày 28/11. Đầu ra: Hồ sơ #8, bản nháp 27/11, bản cuối review 28/11. Người rà: Thái Quốc Hưng. Mốc...~~
+
+~~	Sprint 6	S6-WBS67	S6-G12	1	Chốt #9 Test Report và Bug Report	Đinh Huỳnh Vũ	Chưa bắt đầu	1.5		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tổng hợp theo nội dung/nguồn và mức lỗi. Ghi chủ lỗi, hạn bản sửa và người retest. Lập khung báo cáo trước khi chạy; cập nhật từ kết quả test, bug và retest. Đầu ra: Hồ sơ #9, bản nháp 27/11, bản cuối review 28/11. Người rà: Trần Diệu Huyền. Mốc rà 28/11, kiểm nộp 29/11.	Phân biệt đạt/chưa đạt/bị chặn/c...~~
+
+~~	Sprint 6	S6-WBS68	S6-G12	1	Chốt #10 Biên bản họp và minh chứng teamwork	Nguyễn Minh Quân	Chưa bắt đầu	0.5		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Tập hợp quyết định, người tham gia, phân công và minh chứng phối hợp. Đầu ra: Hồ sơ #10, bản nháp 27/11, bản cuối review 28/11. Người rà: Hồ Phạm Đăng Nhân. Mốc rà 28/11, kiểm nộp 29/11.	Dùng minh chứng thật và đúng thời điểm, không tạo lại sự kiện chưa xảy ra.	Chủ module bàn giao nội dung...~~
+
+~~	Sprint 6	S6-WBS69	S6-G12	1	Chốt #11 Code Standards và chuẩn đã áp dụng	Hồ Phạm Đăng Nhân	Chưa bắt đầu	0.75		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Mô tả chuẩn thực tế về code, test, API/contract, dữ liệu, bí mật và Git. Đầu ra: Hồ sơ #11, bản nháp 27/11, bản cuối review 28/11. Người rà: Đinh Huỳnh Vũ. Mốc rà 28/11, kiểm nộp 29/11.	Có dẫn chứng trong repository; không liệt kê chuẩn chưa áp dụng như đã đạt.	Chủ module bàn giao nội dun...~~
+
+~~	Sprint 6	S6-WBS70	S6-G12	1	Chốt #12 Reflection và 360 Peer Evaluation	Nguyễn Minh Quân	Chưa bắt đầu	0.5		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Thu phần đánh giá do từng thành viên tự viết; kiểm đủ mẫu và người nộp. Đầu ra: Hồ sơ #12, bản nháp 27/11, bản cuối review 28/11. Người rà: Hồ Phạm Đăng Nhân. Mốc rà 28/11, kiểm nộp 29/11.	Đủ phần cá nhân theo mẫu. Mỗi người tự xác nhận nội dung; không viết hộ đánh giá để giả hoàn tất.	Chủ m...~~
+
+~~	Sprint 6	S6-WBS71	S6-G12	1	Chốt #13 Technical Report dạng báo cáo khoa học	Thái Quốc Hưng	Chưa bắt đầu	2.25		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Ghép bài báo kỹ thuật từ phần của từng chủ module: vấn đề, phương pháp, đánh giá, giới hạn và nguồn tham khảo. Đầu ra: Hồ sơ #13, bản nháp 27/11, bản cuối review 28/11. Người rà: Nguyễn Minh Quân. Mốc rà 28/11, kiểm nộp 29/11.	Kết quả/số liệu có minh chứng. Định dạng theo yêu cầu giảng v...~~
+
+~~	Sprint 6	S6-WBS72	S6-G12	1	Chốt #14 Source Code	Hồ Phạm Đăng Nhân	Chưa bắt đầu	0.5		Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	Chốt branch/commit/tag, hướng dẫn chạy, phụ thuộc và cấu hình mẫu. Đầu ra: Hồ sơ #14, bản nháp 27/11, bản cuối review 28/11. Người rà: Đinh Huỳnh Vũ. Mốc rà 28/11, kiểm nộp 29/11.	Clone/cài/build được trong điều kiện đã ghi; không kèm mật khẩu/key hoặc dữ liệu riêng.	Chủ module bàn giao nội dung															~~
+
+~~					Tổng giờ theo task			62	0																				~~
+
+~~					Giờ đã ghi theo ngày				0							0	0	0	0	0	0	0	0	0	0	0	0	0	0~~
+
+~~Hiện tại: 0/51 task Done · còn 51 task · 0 Done thiếu ngày												~~
+
+~~Đường theo ngày gồm 0 task ước tính (0 theo nhật ký giờ, 0 theo deadline).												~~
+
+~~Phạm vi (task)	51	Done hiện tại	0	Giờ dự kiến	62	Done thiếu ngày	0					~~
+
+~~Giờ thực tế		Bắt đầu	Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	Kết thúc	Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	Done sau sprint	0					~~
+
+~~										S6-WBS42		~~
+
+~~										S6-WBS43		~~
+
+~~										S6-WBS44		~~
+
+~~										S6-WBS45		~~
+
+~~										S6-WBS46		~~
+
+~~										S6-WBS47		~~
+
+~~										S6-WBS48		~~
+
+~~										S6-WBS49		~~
+
+~~										S6-WBS50		~~
+
+~~										S6-WBS51		~~
+
+~~										S6-WBS52		~~
+
+~~Ưu tiên ngày thực tế ở cột P, rồi ngày cuối có ghi giờ, rồi deadline. Xem nguồn từng task ở cột K–M. Hàng Hiện tại lấy trạng thái từ backlog.										S6-WBS53		~~
+
+~~Ngày	Phạm vi (task)	Done theo ngày\*	Done lũy kế\*	Task còn lại\*	Còn lại theo kế hoạch	Giờ thực tế/ngày	Giờ thực tế lũy kế	Done theo kế hoạch		S6-WBS54		~~
+
+~~Sun Nov 22 2026 07:00:00 GMT+0700 (Indochina Time)	51		0	51	51			0		S6-WBS55		~~
+
+~~Mon Nov 23 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	0	51	51			0		S6-WBS56		~~
+
+~~Tue Nov 24 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	0	51	51			0		S6-WBS57		~~
+
+~~Wed Nov 25 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	0	51	46.89			4.11		S6-WBS58		~~
+
+~~Thu Nov 26 2026 07:00:00 GMT+0700 (Indochina Time)	51	0	0	51	44.01			6.99		S6-WBS59		~~
+
+~~Fri Nov 27 2026 07:00:00 GMT+0700 (Indochina Time)	51				25.91			25.09		S6-WBS60		~~
+
+~~Sat Nov 28 2026 07:00:00 GMT+0700 (Indochina Time)	51				2.06			48.94		S6-WBS61		~~
+
+~~Sun Nov 29 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS62		~~
+
+~~Mon Nov 30 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS63		~~
+
+~~Tue Dec 01 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS64		~~
+
+~~Wed Dec 02 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS65		~~
+
+~~Thu Dec 03 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS66		~~
+
+~~Fri Dec 04 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS67		~~
+
+~~Sat Dec 05 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS68		~~
+
+~~Sun Dec 06 2026 07:00:00 GMT+0700 (Indochina Time)	51				0			51		S6-WBS69		~~
+
+~~Hiện tại	51		0	51						S6-WBS70		~~
+
+~~										S6-WBS71		~~
+
+~~										S6-WBS72		~~
+
 ## 2026-11-26 10:17 - SUA NOI DUNG
 
 - **Người đăng:** minhquan9125@gmail.com
