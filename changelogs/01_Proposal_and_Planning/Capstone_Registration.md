@@ -1,5 +1,11 @@
 # Lịch sử thay đổi: Capstone_Registration
 
+## 2026-11-26 14:26 - TAO MOI
+
+- **Người đăng:** yu382005@gmail.com
+- **Tên / vị trí:** `01_Proposal_and_Planning/Capstone_Registration.docx`
+- **Ngày và giờ:** 2026-11-26 14:26
+
 ## 2026-11-26 14:20 - TAO MOI
 
 - **Người đăng:** yu382005@gmail.com
