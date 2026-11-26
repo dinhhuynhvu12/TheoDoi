@@ -1,5 +1,11 @@
 ## 2026-10-21 21:24 - TAO MOI
 
+## 2026-11-26 14:21 - TAO MOI
+
+- **Người đăng:** anhnq5@kaopiz.com
+- **Tên / vị trí:** `00_Management/Mentor_Reviews/20261006/REVIEW_Template_JSON_v2.3.0_20261006.md`
+- **Ngày và giờ:** 2026-11-26 14:21
+
 ## 2026-11-26 14:12 - TAO MOI
 
 - **Người đăng:** anhnq5@kaopiz.com
