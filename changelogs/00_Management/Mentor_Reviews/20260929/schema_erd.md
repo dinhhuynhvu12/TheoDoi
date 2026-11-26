@@ -1,5 +1,11 @@
 # Lịch sử thay đổi: schema-erd.svg
 
+## 2026-11-26 14:13 - TAO MOI
+
+- **Người đăng:** nguyenquocanh41@gmail.com
+- **Tên / vị trí:** `00_Management/Mentor_Reviews/20260929/schema-erd.mmd`
+- **Ngày và giờ:** 2026-11-26 14:13
+
 ## 2026-11-26 14:12 - TAO MOI
 
 - **Người đăng:** nguyenquocanh41@gmail.com
